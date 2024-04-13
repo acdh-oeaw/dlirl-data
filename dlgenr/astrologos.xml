@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אסטרולוגוס</title>
+            <title type="alternative">ʾsṭrwlwgws</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="astrologos-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#antropiyah-dlgenr"
+                next="#astrologia-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אסטרולוגוס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾsṭrwlwgws</orth>
+               <pron notation="rabbinic" opt="false">asṭrologos</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">איסטרולוגוס</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾysṭrwlwgws</orth>
+                  <pron notation="rabbinic" opt="false">isṭrologos</pron>
+               </form>
+               <form type="variant" source="44,12 - Vat1 Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">איסטרולוגוס</orth>
+               </form>
+               <form type="variant" source="44,12 - K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אסטרוגולוס</orth>
+               </form>
+               <form type="variant" source="44,12 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אסטרוגלוס</orth>
+               </form>
+               <form type="variant" source="87,3 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אסטרוגיליס</orth>
+               </form>
+               <form type="variant" source="87,3 - Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">איסטרוגילוס</orth>
+               </form>
+               <form type="variant" source="87,3 - K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אסטרוגולוס</orth>
+               </form>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">אסטרולוגין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾsṭrwlwgyn</orth>
+               <pron notation="rabbinic" opt="false">isṭrologin</pron>
+               <gramGrp opt="false">
+                  <gram type="num" opt="false">pl</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="astrologos-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">occupations</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="geographic" opt="false">Syriac Aramaic</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>astrologer</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek</lang>
+                  </usg>
+                  <quote>ἀστρολόγος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     ר' הונא ר' ירמיה בשם ר' שמואל בר' יצחק מחשבתן שלישראל קדמה לכל, למלך שהיה נשוי למטרונה ולא היה לו ממנה בן, פעם אחת נמצא המלך עובר בשוק, אמר טלו מילנין וקלמין וקונדלין אילו [Vat 2 V K זו] לבני, והיו אומרים בן אין לו למה מבקש [למה מבקש. V Vat 2 K Ox 1 והוא או' טלו] מילנין וקונדילין [Ox 1 וקלמין וקונדולין אלו לבני | K Vat 2 וקלמין זו לבני] אתמהא, חזרו ואמרו המלך אסטרולוגוס [אסטרולוגוס גדול] הוא וצפה שעתיד להעמיד בן אתמהא, כך אילולי צפה הקדוש ברוך הוא שאחר כ"ו דור עתידין ישראל לקבל התורה לא היה כותב בה צו את בני ישראל אתמהא.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">1,4</ref>
+                     <ref type="witness">I 7: 1</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">מילנין</ref>
+                  <ref type="entry" xml:lang="jpa">קלמין</ref>
+                  <ref type="entry" xml:lang="jpa">קונדלין</ref>
+                  <ref type="entry" xml:lang="jpa">קונדילין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Huna, reporting R. Yermeya in the name of R. Shemuʾel b. R. Yiṣḥaq, said: The intention to create Israel preceded everything else. This may be illustrated thus:  A king was married to a certain lady, and had no sons by her. On one occasion the king was found going through the marketplace and giving orders: ‘Take this ink, inkwell and pen for my son,’ at which people remarked: ‘He has no son: what does he want with ink and pen? Strange indeed!’ Subsequently they concluded: ‘The king is an astrologer, and he has actually foreseen that he is destined to beget a son!’ Thus, had not the Holy One, blessed be He, foreseen that after twenty-six generations Israel would receive the Torah, he would not have written therein, Command the children of Israel! (Freedman / Simon I 7)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 2 [2a: 33-36]</bibl>;
+            <bibl type="ancient" default="false" status="draft">Yalq 766 [265d: 60-62]</bibl> (<term xml:lang="jpa">אסטרולוגין</term>)
+         </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     רבנין אמ' נביא אתה ואין את אסטרולוגוס שנ' ועתה השב אשת האיש כי נביא הוא.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">44,12</ref>
+                     <ref type="witness">I 433: 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        The Rabbis said: [God said to him (Abraham)] ‘Thou art a prophet, not an astrologer,’ as it says, Now therefore restore the man’s wife, for he is a prophet. (Gen 20,7) (Freedman / Simon I 368)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 76 [21a: 38-39]</bibl>
+                  </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     ר' מנחמה בש' ר' ביבי כך ווסתן של אומות העולם, כיון שהיה אחד מהן לוקח לו עבד, היה הולך אצל אסטרולוגוס ואמ' ליה חנא טבא נחשא טבא, אין לשון הזה ותשא אלא לשון אסטרולוגיאה, כמה דאת אמ' ופן תשא עיניך השמימה וגו' 
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">87,3</ref>
+                     <ref type="witness">III 1064: 4</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אסטרולוגיאה</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Menaḥema said in R. Bibi’s name: This was the practice of the heathens. When one bought a man slave, he would go to an astrologer, who would tell him, ‘If you acquire a good bondmaid. it is an auspicious augury.’ Thus wa-tiśśaʾ (cast her eyes) is a term used of astrology, as in the verse, And lest thou lift up (tiśśaʾ) thine eyes unto heaven etc. (Dtn 4,19) (Freedman / Simon II 808)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 145 [46b: 58]</bibl>
+                  </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aalphabetic+letter%3D*a%3Aentry+group%3D334%3Aentry%3Da%29strolo%2Fgos"
+                          type="entry">ἀστρολόγος, 2.</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               Cf. 
+      <bibl type="modern" default="false" status="draft">Krauss, 121b-122a</bibl> (<term xml:lang="jpa">אצטרולוג</term>). Pl. attested e.g. in
+      <bibl type="ancient" default="false" status="draft">ExR 1,18</bibl> and other. Cf.
+      <bibl type="modern" default="false" status="draft">AC I 176ab</bibl>,
+      <bibl type="modern" default="false" status="draft">Levy I 123a</bibl>;
+      <bibl type="modern" default="false" status="draft">Jastrow 91ab</bibl>. Cf. Syr. <term xml:lang="syc">ܐܣܛܪܘܠܘܓܘܣ</term> (
+      <bibl type="modern" default="false" status="draft">Sokoloff, SL 70b</bibl>).
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>25ab</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">ארפכס</title>
+            <title type="alternative">ʾrpks</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="arpakas-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#arkistrategos-dlgenr"
+                next="#atlites-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">ארפכס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾrpks</orth>
+               <pron notation="rabbinic" opt="false">arpakas</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" source="Vat1 K V Ox1 - twice" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אפרכס</orth>
+               </form>
+            </form>
+            <sense xml:id="arpakas-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">artefacts</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false"/>
+               <usg type="geographic" opt="false"/>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>clepsydra</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Post-Classical Greek</lang>
+                  </usg>
+                  <quote/>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     כותי אחד שאל את ר' מאיר אמר לו אפשר המים העליונים תלוים במאמר, אמר לו הן, אמר לו הבא לי ארפכס, הביא לו ארפכס, נתן עליה טס שלזהב ולא עמדו המים, טס שלכסף ולא עמדו, כיון שנתן אצבעו עמדו מים, אמר לו אצבעך אתה נותן, אמר לו מה שאני בשר ודם אצבעי מעמדת המים, אצבעו שלהקב"ה על אחת כמה וכמה
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">4,4</ref>
+                     <ref type="witness">I 27: 5</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אפרכס</ref>
+                  <cit type="translation">
+                     <quote>
+                        A Samaritan asked R. Meir: “Is it possible that the upper water is suspended by [God's] word?” “Yes,” he answered. “Bring me a water-clock,” he added. When he brought the water-clock, he placed a gold plate upon it, but the water did not stand still; then a silver plate, but the water did not stand still. But as soon as he placed his finger [upon the aperture], the water stood still. “But you have put your finger there,” he objected. “If my finger stays the water, though I am but flesh and blood, how much more so the finger of the Holy One, blessed be He! Hence the upper waters are suspended by [God's] word.” (cf. Freedman / Simon I 28-29).
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 5 [3b: 48]</bibl> (<term xml:lang="jpa">אפרכס</term>);
+            <bibl type="ancient" default="false" status="draft">Yalq Ps 789 [463b: 23]</bibl> (<term xml:lang="jpa">אפרכס</term>)
+         </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Post-Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aalphabetic+letter%3D*a%3Aentry+group%3D320%3Aentry%3Da%29rxilh%7Csth%2Fs"
+                          type="entry">ἁρπάγιον</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               The etymology <term xml:lang="grc">ἅρπαξ</term> (<term xml:lang="grc">ἁρπάγιον</term>, <term xml:lang="grc">ὑδράρπαξ</term>) was suggested by MY ad loc., 
+      <bibl type="modern" default="false" status="draft">AC I 301ab</bibl>,
+      <bibl type="modern" default="false" status="draft">Jastrow I 125a</bibl>,
+      <bibl type="modern" default="false" status="draft">Levy I 173b</bibl> and other (cf. Hejmanns ibid.). As “clepsydra” explained by Freedman / Simon ad loc.
+      <bibl type="modern" default="false" status="draft">Ar (26a)</bibl> refers to <term xml:lang="jpa">דיופי</term>
+               <term xml:lang="fjb">dywpy</term>
+               <term xml:lang="rabbinic">diopi</term> (“double-mouth”, pop. etymology for <term xml:lang="jpa">דיוביט</term>
+               <term xml:lang="fjb">dywbyṭ</term>
+               <term xml:lang="rabbinic">diobiṭ</term> Gr. <term xml:lang="grc">διαβήτης</term>, „siphon [for wine]“, cf.
+      <bibl type="modern" default="false" status="draft">Ar 62b</bibl>,
+      <bibl type="modern" default="false" status="draft">Krauss, LW II 198b</bibl>, not in GenR). The version <term xml:lang="jpa">אפרכס</term>
+               <term xml:lang="fjb">ʾprks</term>
+               <term xml:lang="rabbinic">aparkas</term> (Vat1, K, V, Ox1 and Yalq) is found in
+      <bibl type="ancient" default="false" status="draft">mKel 14,8</bibl>,
+      <bibl type="ancient" default="false" status="draft">mKel 30,4</bibl> [some versions] and several other talmudic sources. This word shall be traced back, however, to Gr. <term xml:lang="grc">πρόχοος</term> “funnel” (according to
+      <bibl type="modern" default="false" status="draft">Krauss [LW II 116b]</bibl> the correct reading in GenR), which is a different loanword (contra Heijmanns).
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Heijmanns (2013)</title>
+                  <citedRange>61-62</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

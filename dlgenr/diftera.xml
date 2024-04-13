@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">דיפתרא</title>
+            <title type="alternative">dyptrʾ</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="diftera-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#diprosofon-dlgenr"
+                next="#diqe-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">דיפתרא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dyptrʾ</orth>
+               <pron notation="rabbinic" opt="false">difteraʾ</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m./f.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דיפטרא</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">dypṭrʾ</orth>
+                  <pron notation="rabbinic" opt="false">difṭeraʾ</pron>
+               </form>
+               <form type="variant" source="Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דפטריות</orth>
+               </form>
+               <form type="variant" source="V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דיפתראות</orth>
+               </form>
+               <form type="variant" source="K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דפתריות</orth>
+               </form>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">דיפתראות</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dyptrʾwt</orth>
+               <pron notation="rabbinic" opt="false">difteraʾot</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">דיפטראות</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dypṭrʾwt</orth>
+               <pron notation="rabbinic" opt="false">difṭeraʾot</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="diftera-dlgenr-1" opt="false">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>record book</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek</lang>
+                  </usg>
+                  <quote>διφθέρα</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>בנוהג שבעולם מלך בשר ודם בונה פלטין ואינו בונה אותה מדעת עצמו אלא מדעת אומן, והאומן אינו בונה אותה מדעתו אלא דיפטראות ופינקסות יש לו לדעת היאך הוא עושה חדרים ופשפשים</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">1,1</ref>
+                     <ref type="witness">1 2:2</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פלטין</ref>
+                  <ref type="entry" xml:lang="jpa">פינקסות</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>In human practice, when a mortal king builds a palace, he builds it not with his own skill but with the skill of an architect. The architect moreover does not build it out of his head, but he has record books and tablets in order to know how to arrange the chambers and the wicket doors. (cf. Freedman / Simon I 1)</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq 2 [2a: 54]</bibl> (<term xml:lang="jpa">דפטראות</term>); <bibl type="ancient" default="false" status="draft">Yalq Prov 942 [490b: 41]</bibl> (<term xml:lang="jpa">דיפתראות</term>)</note>
+               </cit>
+            </sense>
+            <note anchored="true">
+         Widespread in the rabb. lit. The primary meaning is “hide (for writing)” (cf. e.g. <bibl type="ancient" default="false" status="draft">mMeg 2,2</bibl>). Cf. <bibl type="modern" default="false" status="draft">AC III 114b-115a</bibl>; <bibl type="modern" default="false" status="draft">Krauss, LW II 211a</bibl>; <bibl type="modern" default="false" status="draft">Jastrow I 304a</bibl>; <bibl type="modern" default="false" status="draft">Levy I 401a</bibl>. Cf. Syr. <term xml:lang="syc">ܕܦܬܪܐ</term>
+               <term xml:lang="fjb">dptrʾ</term> (<bibl type="modern" default="false" status="draft">Sokoloff, SL 316a</bibl>).
+      </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>150a</citedRange>
+               </bibl>
+               <bibl default="false" status="draft">
+                  <title>Heijmanns (2013)</title>
+                  <citedRange>90-91</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

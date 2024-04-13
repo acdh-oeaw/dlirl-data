@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אריסטון</title>
+            <title type="alternative">ʾrysṭwn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="ariston-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#argentin-dlgenr"
+                next="#arkhilistes-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אריסטון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾrysṭwn</orth>
+               <pron notation="rabbinic" opt="false">arisṭon</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" source="K V Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אפרכוס</orth>
+               </form>
+            </form>
+            <sense xml:id="ariston-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">food</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="geographic" opt="false">Coptic; Syriac Aramaic</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>meal</quote>
+               </cit>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>dinner</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Ancient Greek+</lang>
+                  </usg>
+                  <quote>ἄριστον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     אמר ר' תנחומ' עובדא הוה ברומי בערובת צומא רבה והוה תמן חד חייט ואזל דיזבון ליה חד נון, ואשתכח הוא וטליא  דאיפרכוס קיימין עלוי, הוה הדין מסיק ליה ב{טימי} והדין מסיק ליה ב{טימי} עד דמטא בי"ב דינרין ונסתיה ההוא חייטא, בענתה דאריסטון אמר {אפרכוס}לטליא למה לא אייטיתה נון, אמר ליה מרי מה נכפור מינך, כך וכך עבד לי חד יהודי, מה הוית בעי דניטי לך חד נון בי"ב {דינרין} אתמהא, אמר ליה מן הוא, אמר ליה פלן יהודי, שלח ליה ואתייה, אמר יהודי חייט יאכול נון בי"ב {דינרין}, אמר ליה מרי אית לן חד יום דמכפר לן כל חובי שתא ואנן מוקרין ליה אתמהא, הביא ראייה לדבריו שבקיה.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">11,4</ref>
+                     <ref type="witness">I 92: 1</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">טימי</ref>
+                  <ref type="entry" xml:lang="jpa">אפרכוס</ref>
+                  <ref type="entry" xml:lang="jpa">דינרין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Tanḥuma said: It once happened in Rome on the eve of the great fast (sc. the Day of Atonement) that a certain tailor went to buy a fish, and it ended up that he and the prefect’s servant began bargaining for it. One raised the price and then the other raised the price until it reached twelve dinars, at which price the tailor bought it. At dinner the prefect demanded of the servant, ‘Why have you not served fish?’ ‘I will tell you the truth, sir,’ he replied. ‘A certain Jew did thus to me: did you really want me to bring you a single fish for twelve dinars!’ ‘Who was it?’ inquired he. ‘So-and-so, the Jew,’ he answered. he ha him summoned and said to him, ‘A Jewish tailor can eat a fish at twelve dinars!’ ‘Sir,’ replied he, ‘we have one day when all our sins of the year are forgiven, and we honour it greatly.’ When he produced proof of his words, he dismissed him. (cf. Freedman / Simon I 83)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 16 [5d: 22]</bibl> (<term xml:lang="jpa">איפרכא</term>)
+         </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Ancient Greek+ (with meaning shifts)</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aalphabetic+letter%3D*a%3Aentry+group%3D303%3Aentry%3Da%29%2Friston"
+                          type="entry">ἄριστον</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               Well confirmed in the rabbinic literature both in Aramaic and Hebrew context. Cf. 
+      <bibl type="modern" default="false" status="draft">AC I 98b</bibl>;
+      <bibl type="modern" default="false" status="draft">Krauss, LW II 129ab</bibl>;
+      <bibl type="modern" default="false" status="draft">Levy I 165b</bibl>;
+      <bibl type="modern" default="false" status="draft">Jastrow I 120b</bibl>. The original meaning “morning meal” was early generalized to “meal”. Cf. Syr. <term xml:lang="syc">ܐܪܣܛܘܢ</term>
+               <term xml:lang="fjb">ʾrsṭwn</term> (
+      <bibl type="modern" default="false" status="draft">Sokoloff, SL 103b</bibl>).
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>52b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

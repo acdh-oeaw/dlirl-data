@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אטליס</title>
+            <title type="alternative">ʾṭlys</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="atlis-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#etimos-dlgenr"
+                next="#igia-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אטליס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾṭlys</orth>
+               <pron notation="rabbinic" opt="false">aṭlis</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אטליז</orth>
+                  <orth type="transliteration" opt="false">ʾṭlyz</orth>
+                  <pron notation="rabbinic" opt="false">aṭliz</pron>
+               </form>
+               <form type="variant" source="37,5 - Ox1 V Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">הוטליסין</orth>
+               </form>
+               <form type="variant" source="37,5 - Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">היטליסין</orth>
+               </form>
+               <form type="variant" source="37,5 - Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פוסליסין</orth>
+               </form>
+               <form type="variant" source="79,6 - Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אטליסין</orth>
+               </form>
+               <form type="variant" source="79,6 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">איטליסי</orth>
+               </form>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">אטליסין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾṭlysyn</orth>
+               <pron notation="rabbinic" opt="false">aṭlisin</pron>
+               <gramGrp opt="false">
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="atlis-dlgenr-1" opt="false">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>fair</quote>
+               </cit>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>market</quote>
+               </cit>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>bazaar</quote>
+               </cit>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>store</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Greek</lang>
+                  </usg>
+                  <quote>κατάλυσις (?)</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     פתרוסים וכסלוחים היו מעמידין אוטליסין
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">37,5</ref>
+                     <ref type="witness">I 348: 2</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>The Pathruthim and Casluhim set up bazaars. (Freedman / Simon I 298)</quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 62 [17b: 5]</bibl> (<term xml:lang="jpa">הטליסין</term>);
+            <bibl type="ancient" default="false" status="draft">Yalq 1Chr 1073 [516c: 9]</bibl> (<term xml:lang="jpa">היטלוסין</term>)
+         </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     התחיל מעמיד (את) הטליסין ומוכר בזול
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">79,6</ref>
+                     <ref type="witness">II 940: 7</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>He began to set up bazaars and sell cheaply.</quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 133 [42b: 10]</bibl> (<term xml:lang="jpa">אטליסין</term>)
+         </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">If a borrowing then the source language could be</lbl>
+               <lang opt="false">Ancient Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aalphabetic+letter%3D*k%3Aentry+group%3D58%3Aentry%3Dkata%2Flusis"
+                          type="entry">κατάλυσις, II., 2</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               <bibl type="modern" default="false" status="draft">AC I 61ab</bibl>: “Herberge, Wirtshaus, wo die Tiere gespannt werden, Markt”. Sg. <term xml:lang="jpa">אטליס</term> (cf.
+      <bibl type="ancient" default="false" status="draft">mTem 3,6</bibl>) is not attested in GenR.
+      <bibl type="modern" default="false" status="draft">Levy I 59b-60a</bibl>: <term xml:lang="grc">κ</term> – <term xml:lang="jpa">ע – א</term>; cf. also
+      <bibl type="modern" default="false" status="draft">Krauss, LW I 124</bibl>.
+      <bibl type="modern" default="false" status="draft">Jastrow I 43a</bibl> leads back to <term xml:lang="jpa">טלל</term>
+               <term xml:lang="fjb">ṭll</term> (
+      <bibl type="modern" default="false" status="draft">Jastrow I 537</bibl>): I. 'to cover screen', II. 'to play, sport', hence 'a number of booths put up for a mercantile fair, or for popular entertainments', 'shops, bazaar'.
+      <bibl type="modern" default="false" status="draft">Jastrow I 342ab</bibl>: <term xml:lang="jpa">הטליס</term>
+               <term xml:lang="jpa">hṭlys</term>
+               <term xml:lang="rabbinic">heṭles</term>, <term xml:lang="jpa">הוטליס</term>
+               <term xml:lang="fjb">hwṭlys</term>
+               <term xml:lang="rabbinic">huṭles</term>
+               <term xml:lang="jpa">טלל</term>
+               <term xml:lang="fjb">ṭll</term>, 'bazaar, shop, public place'.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss, LW II</title>
+                  <citedRange>30a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">מילנין</title>
+            <title type="alternative">mylnyn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="milnin-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#monita-dlgenr"
+                next="#sisirnon-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">מילנין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">mylnyn</orth>
+               <pron notation="rabbinic" opt="false">melnin</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m</gram>
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="milnin-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">tools/utensils</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false">hapax legomenon</usg>
+               <usg type="geographic" opt="false"/>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>ink</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Post-Classical Greek+</lang>
+                  </usg>
+                  <quote>μελάνι(ο)ν</quote>
+               </cit>
+               <cit type="example">
+                  <quote xml:lang="jpa">
+ר' הונא ר' ירמיה בשם ר' שמואל בר' יצחק מחשבתן שלישראל קדמה לכל, למלך שהיה נשוי ל
+            <ref type="entry">מטרונה</ref>
+ולא היה לו ממנה בן, פעם אחת נמצא המלך עובר בשוק, אמר טלו
+            <app>
+                        <lem>מילנין</lem>
+                        <rdg wit="#Vat2">מלינין</rdg>
+                        <rdg wit="#K">מילאנין</rdg>
+                     </app>
+ו
+            <ref type="entry">קלמין</ref>
+ו
+            <ref type="entry">קונדלין</ref>
+אילו לבני, והיו אומרים בן אין לו למה מבקש
+            <app>
+                        <lem>מילנין</lem>
+                        <rdg wit="#Vat2">מלינין</rdg>
+                        <rdg wit="#K">מילאנין</rdg>
+                     </app>
+ו
+            <ref type="entry">קונדילין</ref>
+אתמהא, חזרו ואמרו המלך 
+            <ref type="entry">אסטרולוגוס</ref>
+הוא וצפה שעתיד להעמיד בן אתמהא, כך אילולי צפה הקדוש ברוך הוא שאחר כ"ו דור עתידין ישראל לקבל התורה לא היה כותב בה צו את בני ישראל אתמהא.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">1,4</ref>
+                     <ref type="witness">I 6:15</ref>
+                  </bibl>
+                  <cit type="translation">
+                     <quote xml:lang="en">R. Huna, reporting R. Yermeya in the name of R. Shemuʾel b. R. Yiṣḥaq,
+said: The intention to create Israel preceded everything else. 
+This may be illustrated thus: A king was married to a certain lady, 
+and had no son by her. On one occasion the king was found going through 
+the marketplace and giving orders: ‘Take this ink, inkwell and pen for my son,’ at which people remarked: 
+‘He has no son: what does he want with ink and pen? Strange indeed!’ 
+Subsequently they concluded: ‘The king is an astrologer, 
+and he has actually foreseen that he is destined to beget a son!’ 
+Thus, had not the Holy One, blessed be He, foreseen that after 
+twenty-six generations Israel would receive the Torah, 
+he would not have written therein, “Command the children of Israel!”
+= Yalq 2 (2a: 33-36): <term xml:lang="jpa">מלנין</term>; Yalq 766 (265d: 60-62): <term xml:lang="jpa">מלמרין</term>.
+            </quote>
+                     <bibl default="false" status="draft">Friedman/Simon I 7</bibl>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Post-Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LBG</lbl>
+                     <ref target="http://stephanus.tlg.uci.edu/Iris/indiv/lexica.jsp#qid=182085&amp;ql=MELA%2FNION%2C%20-OU%2C%20TO%2F&amp;q=%CE%BC%CE%B5%CE%BB%CE%AC%CE%BD%CE%B9%CE%BF%CE%BD%2C%20%E2%80%91%CE%BF%CF%85%2C%20%CF%84%CF%8C&amp;usr_input=greek&amp;searchescs=N"
+                          type="entry">μελάνιν</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+Attested only here. Cf. AC IV 145 <term xml:lang="jpa">מל</term>
+               <term xml:lang="fjb">ml</term>. 
+Sg form <term xml:lang="jpa">מילן</term>
+               <term xml:lang="fjb">myln</term> 
+or <term xml:lang="jpa">מלן</term>
+               <term xml:lang="hbo-SHM">mln</term> is attested in Midrash Yelamdenu acc. to AC IV 145 
+(not found), cf. Levy III 102. Cf. also AC IV 153 and Jastrow II 774. <term xml:lang="jpa">מלמרין</term>
+               <term xml:lang="fjb">mlmryn</term> in 
+Yalq 766 is a corruption. Cf. Syr. <term xml:lang="syrc">ܡܠܢܝܢ</term>
+               <term xml:lang="fjb">mlnyn</term> (Sokoloff, SL 774).
+ Cf.
+      <ref type="entry" xml:lang="jpa">מלניה</ref>
+               <term xml:lang="fjb">mlnyh</term>
+            </note>
+         </entry>
+      </body>
+   </text>
+</TEI>

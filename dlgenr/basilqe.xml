@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">בסילקי</title>
+            <title type="alternative">bsylqy</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="basilqe-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#banariyot-dlgenr"
+                next="#basas-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">בסילקי</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">bsylqy</orth>
+               <pron notation="rabbinic" opt="false">basilqe</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f.</gram>
+               </gramGrp>
+               <form type="variant" source="Ox1 Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">לבסלקי</orth>
+               </form>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">בסילקאות</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">bsylqʾwt</orth>
+               <pron notation="rabbinic" opt="false">basilqaʾot</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="basilqe-dlgenr-1" opt="false">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>basilica</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek</lang>
+                  </usg>
+                  <quote>βασιλική</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' חייא רבא ור' יניי חד אמר עולים ויורדים בסולם וחרנה אמר עולים ויורדים ביעקב, מאן דאמר עולים ויורדים בסולם ניחה, מן דאמר עולים ויורדים ביעקב מעלים בו מורידים בו אופזים בו קופזים בו סונטים בו שנ' ישראל אשר בך אתפאר, את הוא שאיקונין שלך חקוקה למעלן עולים ורואין איקונין שלו יורדין ורואים אתו ישן, למלך שהיה יושב ודן בפרור עולים לבסילקי ומוצאין אותו ישן יורדים בפרור ומוצאים אותו יושב ודן</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">68,12</ref>
+                     <ref type="witness">[II 788: 3]</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Hiyya the Elder and R. Jannai disagreed. One maintained: They were Ascending and Descending the ladder; while the other said: they were Ascending and Descending on Jacob. The statement that they were ascending and descending the ladder presents no difficulty. The statement that they were ascending and descending on Jacob we must take to mean that some were exalting him and others degrading him, dancing, leaping, and maligning him. Thus it says, Israel in whom I will be glorified (Isa. 49:3); it is thou, [said the angels,] whose features are engraved on high; they ascended on high and saw his features and they descended below and found him sleeping. It may be compared to a king who sat and judged in a judgment chamber; people ascend the basilica and find him sleeping, they go out to the judgment chamber, and find him judging (Freedman / Simon II 626).</quote>
+                  </cit>
+               </cit>
+            </sense>
+            <note anchored="true">
+         Pl. not in GenR. For Syr. <term xml:lang="syc">ܒܣܠܝܩܐ</term>
+               <term xml:lang="fjb">bslyqʾ</term>, cf. <bibl type="modern" default="false" status="draft">Sokoloff, SL 164b-165a</bibl>.
+      </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss, LW I</title>
+                  <citedRange>161b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

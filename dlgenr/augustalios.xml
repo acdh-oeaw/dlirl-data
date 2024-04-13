@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אגוסטולא</title>
+            <title type="alternative">ʾgwsṭwlʾ</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="augustalios-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#egdiqos-dlgenr"
+                next="#agustula-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אגוסטולא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾgwsṭwlʾ</orth>
+               <pron notation="rabbinic" opt="false">agusṭula</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="augustalios-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">administration</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false"/>
+               <usg type="geographic" opt="false"/>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>prefectus Augustalis, a prefect of the Diocese of Egypt</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <usg opt="false">
+                     <lang opt="false">Latin</lang>
+                  </usg>
+                  <quote>Augustalis</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Post Classical Greek</lang>
+                  </usg>
+                  <quote>Αὐγουστάλιος</quote>
+               </cit>
+               <cit type="example">
+<!-- here we have a passage with various readings. Manuscript sigla are provided in the @wit attribute. We have to look how well mixed content works with RTL scripts. -->
+                  <quote xml:lang="jpa">
+שמעון בן עזיי אומר וענותך תרבני בשר ודם מזכיר שמו ואחר כך שבחו פלן
+            <app>
+                        <lem>אגוסטלא</lem>
+                        <rdg wit="#K">אגוסטלי</rdg>
+                        <rdg wit="#V">אגוסטלי</rdg>
+                     </app>
+ פלן אנא
+            <ref type="entry">פרוטאטא</ref>
+, אבל הקדוש ברוך הוא אינו כן, אלא משברא צרכי עולמו הזכיר שמו בראשית ברא ואחר כך אלהים.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">1,12</ref>
+                     <ref type="witness">I 11:1</ref>
+                  </bibl>
+                  <cit type="translation">
+<!-- The english translation of the passage is encoded in a nested cit element -->
+                     <quote xml:lang="en">
+Shimʿon ben Azzai sais: 
+And Thy condescension hath made me great (II Sam 22,36): A  human 
+being mentions his name [first] and then his praise: So-and-so Augustalis, 
+so-and-so, (I am) the noble. But the Holy One, blessed be He, is not so, 
+but he mentioned His name only after he had created all necessities of 
+the world - At the beginning created and then: God.
+<!-- The english translation of the passage-->
+            </quote>
+                  </cit>
+                  <note anchored="true">= Yalq Bereshit 2 (2b: 13) (<term xml:lang="jpa">אגוסטא</term>)</note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Latin</lang>
+               <cit type="etymon" xml:lang="la">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. Lewis / Short</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=August%C4%81lis&amp;la=la&amp;can=august%C4%81lis0"
+                          type="entry">Augustālis</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">AC I 25: <term xml:lang="jpa">אגוסטלא</term>
+               <term xml:lang="fjb">ʾgwsṭlʾ</term>.
+The parallel in Yalq reads <term xml:lang="jpa">אגוסטא</term>
+               <term xml:lang="fjb">ʾgwsṭʾ</term>, 
+which is an alignment with <term xml:lang="jpa">אגוסטוס</term>
+               <term xml:lang="fjb">ʾgwsṭws</term> 
+(not attested in GenR).
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss II</title>
+                  <citedRange>9</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

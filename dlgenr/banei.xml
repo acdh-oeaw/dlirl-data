@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">בני</title>
+            <title type="alternative">bny</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="banei-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#baldar-dlgenr"
+                next="#banariyot-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">בני</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">bny</orth>
+               <pron notation="rabbinic" opt="false">banei</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">בנוואן</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">bnwwʾn</orth>
+               <pron notation="rabbinic" opt="false">banavaʾn</pron>
+               <gramGrp opt="false">
+                  <gram type="num" opt="false">pl.</gram>"
+      </gramGrp>
+            </form>
+            <sense xml:id="banei-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">artefacts</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false"/>
+               <usg type="geographic" opt="false"/>
+               <cit type="translation" subtype="sense" xml:lang="en">
+                  <quote>bath</quote>
+               </cit>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>bathhouse</quote>
+               </cit>
+               <cit type="translation" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Post-Classical Greek</lang>
+                  </usg>
+                  <quote>βα(λα)νεῖον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     רבנו הוה מתני שבחיה דר' חייה רובה קומי ר' ישמעאל בר' יוסי, אמר ליה יומא חד חמיתיה ביבני [ Ox 1 ביבני | Ox 2 K V בי בני] ולא איתכנע מיקמיי, אמר ליה ולמה לא איתכנעת מקומיה, אמר ליה מיסתכל הייתי באגדה דתילים, כיון דשמע כן מסר ליה תרי תלמידין והוו עלין עימיה לאשונה דלא ישהי ותזער נפשיה.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">33,3</ref>
+                     <ref type="witness">I 307: 4</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        Our Teacher was singing the praises of R. Ḥiyyah the Elder to R. Yishmaʿel b. R. Yose. Said he [R. Yishmaʿel b. Yose] to him: ‘One day I saw him [R. Ḥiyyah the Elder] at the baths but he did not make an obeisance before me.’ ‘Why did you not bow before him?’ inquired he [or Teacher]. ‘I was meditating on an Aggadah of the Psalms,’ he answered. On hearing this he gave him two disciples who used to go with him to the vapour room, lest he should stay too long and become enfeebled. (Freedman / Simon I 262)
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     …דיתאזון [K דיתזון | Vat 1  תיזון] בני [K V בי בני] תלתה יומין
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">63,8</ref>
+                     <ref type="witness">II 690: 2</ref>
+                  </bibl>
+                  <cit type="translation">
+                     <quote>… you should heat the bath three days</quote>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Post-Classical Greek</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=ba%5Ela%5En-ei%3Don&amp;la=greek&amp;can=ba%5Ela%5En-ei%3Don0"
+                          type="entry">βαλανεῖον</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               Pl. (not in GenR) acc. to 
+      <bibl type="modern" default="false" status="draft">Krauss, LW II 159b-160a</bibl>. For Syr. <term xml:lang="syc">ܒܢܐ</term>
+               <term xml:lang="fjb">bnʾ</term> see
+      <bibl type="modern" default="false" status="draft">Sokoloff, SL 161a</bibl>.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>91a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

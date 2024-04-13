@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main"/>
+            <title type="alternative">ʾlyw</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="alio-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#alteksiyya-dlgenr"
+                next="#aliotripolis-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth xml:lang="jpa" opt="false" select="true">אליו</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾlyw</orth>
+               <pron notation="rabbinic" opt="false">ʾalio</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" source="K" opt="false">
+                  <orth xml:lang="jpa" opt="false">אילון</orth>
+               </form>
+               <form type="variant" source="Ox1 Ox2 V Vat2" opt="false">
+                  <orth xml:lang="jpa" opt="false">אלון</orth>
+               </form>
+            </form>
+            <sense xml:id="alio-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">properties/features</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">code-switching</usg>
+               <usg type="normativity" opt="false">ad-hoc usage</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false">hapax legomenon</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>another</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <usg opt="false">
+                     <lang opt="false">Latin</lang>
+                  </usg>
+                  <quote>alius (?)</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Ancient Greek+</lang>
+                  </usg>
+                  <quote>ἄλλος (?)</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>הנה בעל החלומות הלזה בא, רבנין אמ' הוא
+            <ref type="entry">פילסונו</ref>, הלזה אליו זה.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">60,15</ref>
+                     <ref type="witness">II 656 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>“Behold, this [ha-la-zeh] dreamer cometh” (
+               <bibl type="ancient" default="false" status="draft">Gen 37,19</bibl>). The Rabbis said: This is his guardian [angel]; ha-la-zeh - this is another one.
+            </quote>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Latin</lang>
+               <cit type="etymon" xml:lang="la">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Lewis / Short</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0059%3Aalphabetic+letter%3DA%3Aentry+group%3D38%3Aentry%3Dalius2"
+                          type="entry">alius</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               = 
+      <bibl type="ancient" default="false" status="draft">Yalq 109 (32b: 40-41)</bibl> (<term xml:lang="jpa">אלון</term>)
+   </note>
+            <note anchored="true">
+               Presumably a corruption of <term xml:lang="jpa">אלון</term>.
+   </note>
+         </entry>
+      </body>
+   </text>
+</TEI>

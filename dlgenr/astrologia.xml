@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אסטרולוגיא</title>
+            <title type="alternative">ʾsṭrwlwgyʾ</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="astrologia-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#astrologos-dlgenr"
+                next="#askolastiqa-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אסטרולוגיא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾsṭrwlwgyʾ</orth>
+               <pron notation="rabbinic" opt="false">asṭrologiaʾ</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">איסטרולוגיא</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾsṭrwlwgyʾ</orth>
+                  <pron notation="rabbinic" opt="false">isṭrologiaʾ</pron>
+               </form>
+               <form type="variant" source="63,2 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אצטרוגלייא</orth>
+               </form>
+               <form type="variant" source="63,2 - Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אסטרוגיליא</orth>
+               </form>
+               <form type="variant" source="63,2 - V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אסטרולוגיאה</orth>
+               </form>
+               <form type="variant" source="63,2 - K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אסטרוגוליא</orth>
+               </form>
+               <form type="variant" source="85,2 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אסתרגלין</orth>
+               </form>
+               <form type="variant" source="85,2 - K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אסטרוגילין</orth>
+               </form>
+               <form type="variant" source="85,2 - Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">איצטרוגילין</orth>
+               </form>
+               <form type="variant" source="85,2 - Vat1 V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אסטרולוגין</orth>
+               </form>
+               <form type="variant" source="85,2 - Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">איסטרולוגין</orth>
+               </form>
+               <form type="variant" source="87,4 - Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אסטרולגייה</orth>
+               </form>
+               <form type="variant" source="87,4 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">איסטרגליא</orth>
+               </form>
+               <form type="variant" source="87,4 - Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אסטרוגליא</orth>
+               </form>
+               <form type="variant" source="87,4 - K V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">איסטרוגילין</orth>
+               </form>
+               <form type="variant" source="87,4 - Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">איסטרולוגיה</orth>
+               </form>
+            </form>
+            <sense xml:id="astrologia-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">sciences</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="geographic" opt="false">Syriac Aramaic</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>astrology</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek</lang>
+                  </usg>
+                  <quote>ἀστρολογία</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     משל לאחד שהיה לו דין לפני שלטון ויצא דינו מלפני השלטון לישרף וצפה אותו השילטון באיסטרולוגיאה שלו שהוא עתיד להוליד בת והיא נישאת למלך
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">63,2</ref>
+                     <ref type="witness">II 679: 3</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        This may be compared to a man who was on trial before the governor, and was sentenced by him to be burnt. But the governor foresaw by means of astrology that he was destined to beget a daughter who would  marry the king… (Cf. Freedman / Simon II 557)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">LevR 36,4</bibl> (<term xml:lang="jpa">אצטרוגליס</term>);
+            <bibl type="ancient" default="false" status="draft">YalqJes 436 [394c: 8]</bibl>
+                  </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     דאמר ר' יהושע בן לוי רואה היית באיסטרולוגיאה שלה שעתידה להעמיד ממנו בן
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">85,2</ref>
+                     <ref type="witness">II 1031: 4</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        For R. Yehoshuaʿ b. Lewi said: She [Potiphar’s wife] saw by her astrological arts that she was to produce a child by him  [Joseph]... (Freedman / Simon II 788)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 144 [45b: 47]</bibl> (<term xml:lang="jpa">איסטרולוגין</term>);
+            <bibl type="ancient" default="false" status="draft">YalqM Jes 47,13 [165: 29]</bibl> (<term xml:lang="jpa">איצטרוגלין</term>)
+         </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     ר' מנחמה בש' ר' ביבי כך ווסתן של אומות העולם, כיון שהיה אחד מהן לוקח לו עבד, היה הולך אצל אסטרולוגוס ואמ' ליה חנא טבא נחשא טבא, אין לשון הזה ותשא אלא לשון אסטרולוגיאה , כמה דאת אמ' ופן תשא עיניך השמימה וגו'
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">87,4</ref>
+                     <ref type="witness">III 1065: 1</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אסטרולוגוס</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Menaḥema said in R. Bibi’s name: This was the practice of the heathens. When one bought a man slave, he would go to an astrologer, who would tell him, ‘If you acquire a good bondmaid, it is an auspicious augury.’ Thus wa-tiśśaʾ (cast her eyes) [Gen 39,7] is a term used of astrology, as in the verse, And lest thou lift up (tiśśaʾ) thine eyes unto heaven etc. (Dtn 4,19) (Freedman / Simon II 808)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 145 [46b: 59]</bibl> (<term xml:lang="jpa">אסטרולוגיא</term>)
+         </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="https://www.perseus.tufts.edu/hopper/morph?l=a)stro-logi/a"
+                          type="entry">ἀστρολογία</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">Cf.
+      <bibl type="modern" default="false" status="draft">AC I 176ab</bibl>;
+      <bibl type="modern" default="false" status="draft">Levy I 123ab</bibl>;
+      <bibl type="modern" default="false" status="draft">Krauss, LW II 122ab</bibl>;
+      <bibl type="modern" default="false" status="draft">astrow I 91b</bibl>. Frequently corr. <term xml:lang="jpa">אסטרוגוליא</term>
+               <term xml:lang="fjb">ʾsṭrwgwlyʾ</term>
+               <term xml:lang="rabbinic">a(i)sṭrogoliaʾ</term>. Levy and Jastrow consider the reading <term xml:lang="jpa">אסטרולוגין</term>
+               <term xml:lang="fjb">ʾsṭrwlwgyn</term>
+               <term xml:lang="rabbinic">a(i)sṭrologin</term> in Vat 1 (and other) for GenR 85,2 as pl., but cf. Krauss. For Syr. <term xml:lang="syc">ܐܣܛܪܘܠܘܓܝܐ</term>
+               <term xml:lang="fjb">ʾsṭrwlogyʾ</term> cf.
+      <bibl type="modern" default="false" status="draft">Sokoloff, SL 70b</bibl>. Cf.
+      <ref type="entry" xml:lang="jpa">אסטרולוג</ref>
+            </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>25b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

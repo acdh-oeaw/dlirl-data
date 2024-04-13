@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אנטיקיסר</title>
+            <title type="alternative">ʾnṭyqysr</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="antiqesar-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#antidiqos-dlgenr"
+                next="#ananqe-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אנטיקיסר</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾnṭyqysr</orth>
+               <pron notation="rabbinic" opt="false">anṭiqesar</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" source="53,10 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אנתיקיסר</orth>
+               </form>
+               <form type="variant" source="53,10 - Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אנטיקסר</orth>
+               </form>
+               <form type="variant" source="85,14 - Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אנטיקרס </orth>
+               </form>
+               <form type="variant" source="85,14 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אנטיקסר</orth>
+               </form>
+               <form type="variant" source="85,14 - Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אנטיסקר</orth>
+               </form>
+            </form>
+            <sense xml:id="antiqesar-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">administration</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">not attested in the Greek corpora, prob. a "neologism"</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false"/>
+               <usg type="geographic" opt="false"/>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>the viceroy</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Greek</lang>
+                  </usg>
+                  <quote>*ἀντίκαισαρ</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     דאמר ר' ברכיה ור' חלבו ר' פרנך מש' ר' יוחנן מלך יריחו אחד אין תלמוד לומר אחד אלא הוא ואנטיקיסר שלו שלו
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">53,10</ref>
+                     <ref type="witness">II 567: 2</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        … as R. Berekhyah and R. Ḥelbo and R. Parnakh in R. Yoḥanans name said: The king of Jericho, one (Jos 12,9): why state ‘one’? Because it means, he and his viceroy. (cf. Freedman / Simon I 469)
+            </quote>
+                  </cit>
+                  <note anchored="true">
+                     = 
+            <bibl type="ancient" default="false" status="draft">Yalq 94 [28b: 17]</bibl> (<term xml:lang="jpa">אנטיקסר</term>)
+         </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     ר' חננא בר יצחק אמר פורפירה בבליא, ומה בבל עבדה הכא, אלא כל מלך שלא היה לו שלטון בארץ ישראל הוא אומר אין מלכותו שוה כלום ומלך בבל אנטיקיסר אנטיסקר שלו היה יושב ביריחו והיה זה משלח לזה כותבות וזה לזה דוריות.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">85,14</ref>
+                     <ref type="witness">II 1050: 4</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פורפירה</ref>
+                  <ref type="entry" xml:lang="jpa">דוריות</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Ḥaninaʾ bar Yiṣhaq said: [By ‘a goodly Shinar mantle’ (Jos 7,21) a purple Babylonian purple robe is meant. How comes Babylon to be mentioned here? – Any king who had nor regent in Ereṣ Israel would regard his sovereignty with no value. The viceroy of the king of Babylon had his seat in Jericho, and the former would send dates to the latter, while the latter would reciprocate with gifts. (Freedman Simon II 799)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq Jos 18 [349b: 45]</bibl> (<term xml:lang="jpa">אנטיקסר</term>)
+         </note>
+               </cit>
+            </sense>
+            <etym type="compounding" subtype="endocentric" opt="false">
+               <cit type="etymon" xml:lang="grc">
+                  <form opt="false">
+                     <orth opt="false">ἀντι-</orth>
+                     <gloss>"Vice-"</gloss>
+                  </form>
+               </cit>
+               <cit type="etymon" xml:lang="grc">
+                  <form opt="false">
+                     <orth opt="false">καῖσαρ</orth>
+                     <gloss>"Caesar"</gloss>
+                  </form>
+               </cit>
+            </etym>
+            <note anchored="true">
+               Cf. 
+      <bibl type="modern" default="false" status="draft">Krauss (1893) 528</bibl> (to correct the meaning of Soph. ἀντιβασελεύς!);
+      <bibl type="modern" default="false" status="draft">Levy I 109b</bibl>;
+      <bibl type="modern" default="false" status="draft">Jastrow I 84a</bibl>. Only in rabb. Lit.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss, LW II</title>
+                  <citedRange>71a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

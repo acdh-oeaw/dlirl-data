@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main"/>
+            <title type="alternative">ʾlṭyksyyh</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="alteksiyya-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#alon-dlgenr"
+                next="#alio-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth xml:lang="jpa" opt="false" select="true">אלטיכסייה</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾlṭyksyyh</orth>
+               <pron notation="rabbinic" opt="false">alṭeksiyyah</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f</gram>
+               </gramGrp>
+               <form type="variant" source="Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">תכסיס אלטומסין</orth>
+               </form>
+               <form type="variant" source="K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">תכסיס אלטימסיון</orth>
+               </form>
+            </form>
+            <form type="equivalent" opt="false">
+               <quote xml:lang="grc">ἀλήθεια + ἀξία (Levy I: 83) (?) *αὐλιταξία</quote>
+            </form>
+            <sense xml:id="alteksiyya-dlgenr-1" opt="false">
+<!-- working hypothesis: every attestation / example pertains to one sense; so it is nested into it. If there is only one sense, there won't be a number displayed. -->
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>"dignified truth“ (?) or "corps of court guards“ (?)
+         </quote>
+               </cit>
+               <cit type="example">
+<!-- here we have a passage with various readings. Manuscript sigla are provided in the @wit attribute. We have to look how well mixed content works with RTL scripts. -->
+                  <quote xml:lang="jpa">
+            מה עשה הקב"ה נטל אמת והשליכה לארץ, אמרו מלאכי השרת לפני הקב"ה רבון העולמים מה את מבזה אלטיכסייה שלך, תעלה אמת מן הארץ ה"ה אמת מארץ תצמח.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">8,5</ref>
+                     <ref type="witness">I 60:9</ref>
+                  </bibl>
+                  <cit type="translation">
+                     <quote xml:lang="en">
+What did the Holy One, blessed be He? He took the truth and threw it 
+on the ground. Said the ministering angels before the Holy One, blessed be He: 
+“Sovereign of the universe! Why do you despise your dignified truth / corps of the court guards? Shall the truth arise from the earth! This is what is written: Let truth spring up from the earth (Ps 85,12).
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq. Ps. 834 [470b: 17]</bibl> (<term xml:lang="jpa">תכסיס אלתמסו[י]ן</term>)
+         </note>
+               </cit>
+            </sense>
+            <etym type="compounding" subtype="endocentric" opt="false">
+               <cit type="etymon" xml:lang="grc">
+                  <form opt="false">
+                     <orth opt="false">αὐλή</orth>
+                  </form>
+               </cit>
+               <cit type="etymon" xml:lang="grc">
+                  <form opt="false">
+                     <orth opt="false">τάξις</orth>
+                  </form>
+               </cit>
+            </etym>
+            <note anchored="true">
+      Gloss in <bibl type="ancient" default="false" status="draft">BM</bibl>: <term xml:lang="jpa">חותם אמת</term> („seal of truth“). <bibl type="ancient" default="false" status="draft">Yalq Ps 834 (939: 17)</bibl>: <term xml:lang="jpa">תכסיס אלתמסון</term> emended to <term xml:lang="jpa">אלטיכסייא תכסיס</term> (cf. AC). It is not clear whether the form <term xml:lang="jpa">אלטומסיון</term>
+               <term xml:lang="fjb">ʾlṭwmsywn</term> or <term xml:lang="jpa">אלתמסון</term> (<term xml:lang="jpa">אלטומסין</term>) <term xml:lang="fjb">ʾltmswn</term> (<term xml:lang="fjb">ʾlṭwmsyn</term>) is a corruption of <term xml:lang="jpa">אלטיכסייה</term> or an alternative reading (cf. MY ad loc.). <bibl type="modern" default="false" status="draft">AC I 90b</bibl>: <term xml:lang="jpa">אלטיכסייא</term>
+               <term xml:lang="fjb">ʾlṭyksyyʾ</term>
+               <term xml:lang="rabbinic">aleṭeyakhsiyya</term> Gr. <term xml:lang="grc">ἀλήθεια τάξις</term>. <bibl type="modern" default="false" status="draft">Jastrow I 68ab</bibl> reads <term xml:lang="jpa">אלטכסיסין</term>
+               <term xml:lang="fjb">ʾlṭksysyn</term>, “chief of the court ceremonies”. <bibl type="modern" default="false" status="draft">Bacher (1896) 441 (note 3)</bibl> suggests simply Gr. <term xml:lang="grc">ἀλήθεια</term>. For the reading of <bibl type="ancient" default="false" status="draft">Yalq.</bibl> see <bibl type="modern" default="false" status="draft">Krauss (1937) 25a</bibl>: Gr. <term xml:lang="grc">τάξις ἀλλαξίμον</term>. Ibid. 425a emends to <term xml:lang="jpa">אלטובסיא</term>
+               <term xml:lang="fjb">ʾlṭwbsyʾ</term> Gr. <term xml:lang="grc">ἀλήθευσις</term> (this is also the suggestion of <bibl type="modern" default="false" status="draft">Schlatter [1900] 50-51</bibl>, cf. <bibl type="modern" default="false" status="draft">Sperber, Cards</bibl>).
+      <ref type="entry">תכסיס</ref>.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss II</title>
+                  <citedRange>53</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אימרון</title>
+            <title type="alternative">ʾymrwn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="imeron-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#igia-dlgenr"
+                next="#epta-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אימרון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾymrwn</orth>
+               <pron notation="rabbinic" opt="false">imeron</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">adj.</gram>
+               </gramGrp>
+               <form type="variant" source="Vat2 Vat1 Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">נומירון</orth>
+               </form>
+               <form type="variant" source="K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אימרון</orth>
+               </form>
+               <form type="variant" source="V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">נמירון</orth>
+               </form>
+               <form type="variant" source="Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">גומירון</orth>
+               </form>
+            </form>
+            <sense xml:id="imeron-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">properties/features</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false"/>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>tame, gentle</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek+</lang>
+                  </usg>
+                  <quote>ἥμερον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     למלך שהיה לו כלב אגריון ואריה אימירון והיה המלך נוטל בנו ומלבבו בארי שאם יבא הכלב להזדווג לו יאמר לו המלך ארי לא יכול להזדווג לו ואת יכול לבני כך אם יבואו האומות להזדווג לישראל יאמר להם הקדוש ברוך הוא שרכם לא היה יכול לישראל ואתם כל שכן.
+         </quote>
+                  <ref type="entry" xml:lang="jpa">אגריון</ref>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">77,3</ref>
+                     <ref type="witness">II 913: 5</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        [This may be compared] to a king who had a wild dog and a tame lion. The king would take his son and make him courageous [by making him struggle] with the lion, so that if the dog should come to attack him, the king could say to him: “The lion was not able to withstand him, yet you want to struggle with my son?!” So, if the nations of the world will come to struggle with Israel, the Holy One blessed be he, will say to them: “Your guardian angel could not withstand him [Jacob] and you want to struggle with his children!”
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">ShirR 3,3</bibl>;
+            <bibl type="ancient" default="false" status="draft">Yalq 132 [41a: 7]</bibl> (<term xml:lang="jpa">נמירון</term>)
+         </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Ancient Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=h%28%2Fmeros&amp;la=greek&amp;can=h%28%2Fmeros0"
+                          type="entry">ἥμερος, 1.</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               Cf. 
+      <bibl type="modern" default="false" status="draft">AC I 127b</bibl>;
+      <bibl type="modern" default="false" status="draft">Levy I 66b</bibl>;
+      <bibl type="modern" default="false" status="draft">Jastrow I 51a</bibl>. Opp.:
+      <ref type="entry" xml:lang="jpa">אגריון</ref>
+               <term xml:lang="fjb">ʾgrywn</term>
+               <term xml:lang="rabbinic">agriyon</term> (used together in:
+      <bibl type="ancient" default="false" status="draft">NumR 11,3</bibl> [=
+      <bibl type="ancient" default="false" status="draft">ShiR 3,5</bibl>;
+      <bibl type="ancient" default="false" status="draft">PesK 1</bibl>,
+      <bibl type="ancient" default="false" status="draft">MShem 17,4</bibl>]). The reading <term xml:lang="jpa">מרום</term> in
+      <bibl type="ancient" default="false" status="draft">tBQ 1,3 [346: 18]</bibl> (cf. apparatus for <term xml:lang="jpa">תרבות</term>) shall be read as <term xml:lang="jpa">מרים</term> for <term xml:lang="jpa">הימרים</term> from Gr. pl. <term xml:lang="grc">ἥμεροι</term> (Sperber, Cards).
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss, LW II</title>
+                  <citedRange>35a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

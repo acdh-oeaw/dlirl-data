@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">איפטה</title>
+            <title type="alternative">ʾypṭh</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="epta-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#imeron-dlgenr"
+                next="#eparkhos-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">איפטה</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾypṭh</orth>
+               <pron notation="rabbinic" opt="false">epṭah</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">numeral</gram>
+               </gramGrp>
+            </form>
+            <form type="variant" opt="false">
+               <orth xml:lang="jpa" opt="false">איפטא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾypṭʾ</orth>
+               <pron notation="rabbinic" opt="false">epṭaʾ</pron>
+            </form>
+            <form type="variant" opt="false">
+               <orth xml:lang="jpa" opt="false">אפטא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾpṭʾ</orth>
+               <pron notation="rabbinic" opt="false">epṭaʾ</pron>
+            </form>
+            <sense xml:id="epta-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">numerals</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">code-switching/core borrowing</usg>
+               <usg type="normativity" opt="false">ad-hoc usage</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>seven</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Ancient Greek+</lang>
+                  </usg>
+                  <quote>ἑπτά</quote>
+               </cit>
+               <cit type="example">
+                  <quote xml:lang="jpa">
+                אמר להון מדידכון אנא ממטי לכון
+            <ref type="entry">זיטא</ref>
+                     <app>
+                        <lem>איפטה</lem>
+                        <rdg wit="#Vat2">איפטא</rdg>
+                        <rdg wit="#Ox1">איפטא</rdg>
+                        <rdg wit="#V">אפטא</rdg>
+                     </app>
+                     <ref type="entry">איטה</ref>
+                     <ref type="entry">אכטו</ref>
+                  </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">14,2</ref>
+                     <ref type="witness">I 127: 3</ref>
+                  </bibl>
+                  <cit type="translation">
+                     <quote xml:lang="en">He replied to them: From your own [language] I will prove it to you:
+                    “Zeṭaʾ (live) epṭah (seven), eṭah (go) akṭo (eight)”
+            </quote>
+                     <bibl default="false" status="draft">cf. Freedman / Simon I: 112</bibl>
+                  </cit>
+               </cit>
+               <cit type="example">
+                  <quote xml:lang="jpa">
+                אמר להון מדידכון אנה ממטי לכון
+            <ref type="entry">זיטא</ref>
+                     <app>
+                        <lem>איפטה</lem>
+                        <rdg wit="#Vat1">אפטא</rdg>
+                        <rdg wit="#K">אפטא</rdg>
+                     </app>
+                ....
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">20,6</ref>
+                     <ref type="witness">I 189:3</ref>
+                  </bibl>
+                  <cit type="translation">
+                     <quote xml:lang="en">He replied to them: From your own [language] I will prove it to you:
+                    “Zetaʾ (live) epṭah (seven), eṭah (go) akṭo (eight)”
+            </quote>
+                     <bibl default="false" status="draft">cf. Freedman / Simon I: 164
+            </bibl>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Ancient Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=e%28pta%2F&amp;la=greek&amp;can=e%28pta%2F0"
+                          type="entry">ἑπτά, A.</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+        = NumR 4,3: <term xml:lang="jpa">איפטא</term>
+               <term xml:lang="jpa">ʾypṭʾ</term> |epṭaʾ|, Tanh  Bemidbar 18; 
+        TanhB Bemidbar 21; Yalq. Bereshit 20 (6c: 54), Yalq. Bemidbar 692 (220d: 13): <term xml:lang="jpa">אפטא</term>
+               <term xml:lang="fjb">ʾpṭʾ</term> |apta| yYev 5d: 7 (corr.): <term xml:lang="en">אבטא</term>
+               <term xml:lang="fjb">ʾbṭʾ</term>
+            </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sperber</title>
+                  <citedRange>96</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

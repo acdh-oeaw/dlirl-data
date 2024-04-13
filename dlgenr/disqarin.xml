@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">דיסקרין</title>
+            <title type="alternative">dysqryn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="disqarin-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#disqos-dlgenr"
+                next="#diplon-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">דיסקרין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dysqryn</orth>
+               <pron notation="rabbinic" opt="false">disqarin</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" source="Aram." opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דיסקרא</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">dysqrʾ</orth>
+                  <pron notation="rabbinic" opt="false">disqaraʾ</pron>
+               </form>
+               <form type="variant" source="78,12 - Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דיסקירין</orth>
+               </form>
+               <form type="variant" source="78,12 - K V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">חדא דיסקרין</orth>
+               </form>
+               <form type="variant"
+                     source="78,12 - second occurrence - Vat1"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דייסקרה</orth>
+               </form>
+               <form type="variant"
+                     source="78,12 - second occurrence - K V Ox2"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דיסקרא</orth>
+               </form>
+               <form type="variant" source="78,12 - second occurrence - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דיסקרי</orth>
+               </form>
+               <form type="variant" source="93,3 - Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דייסקיירין</orth>
+               </form>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">דיסקרי</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dysqry</orth>
+               <pron notation="rabbinic" opt="false">disqari</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="disqarin-dlgenr-1" opt="false">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>saucer, salver</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek</lang>
+                  </usg>
+                  <quote>δισκάριον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ויפצר בו ויקח מיתחמי חזר וידיה פשיטה. ר' יהודה בר' אמר מתרפס ברצי כסף מתיר את הפס מתרצה בכסף. ר' שמעון בן לקיש סליק למשאל בשלמיה דרבנו, אמר ליה צלי עלי דהדא מלכותא בישה סגין, אמר ליה לא תיסב מן בר נש [כלום] ולית את יהיב כלום, מן יתיב גביה אתת חדא איתתא טעינא ליה חד דיסקרין וחדא סכין בגוה קם נסב סכינא והחזיר לה הדיסקרין אתה חד בלדר מן דמלכותה וחמתה וחמדה ונסבה, בפתי רמשה סלק ר' שמעון בן לקיש למשאל בשלמיה וחמתיה יתיב שחיק, אמר ליה למה את שחיק, אמר ליה ההיא סכינה דחמית אתא חד בלדר ממלכותא ונסבה, אמר ליה ולאו כן אמרית לך לא תיסב מן בר נש [כלום] ולית את יהיב כלום. חד עם דארע אמר ליה לר' הושעיא אין אמרית לך חדא מילה טבא את אמ' לה משמי בציבורא, אמר ליה מה היא אמר ליה כל הדוריות שנתן אבינו יעקב לעשו עתידין אומות העולם להחזירן למלך המשיח לעתיד לבוא, מה טעם מלכי תרשיש ואיים מנחה יביאו אין כת' אלא ישיבו אמר ליה חייך מילה טבא אמרת, משמך אנא אמ' לה.</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">78,12</ref>
+                     <ref type="witness">II 932: 2,4</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">בלדר</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And he urged him and he took it: he pretended to draw back, but his hands were stretched out. R. Judah ben Rabbi said: Every one submitting himself with pieces of silver; that means, he opens his hand and would be appeased with silver. Resh Lakish went to pay his respects to our Teacher. ‘Pray for me,’ he [R. Judah] begged him, ‘for this Government [Rome] is very evil.’ ‘Take nothing from anyone,’ he [Resh Lakish] told him, ‘and then you will not have to give anything.’ While he was sitting there, there came a woman and brought him a salver with a knife on it, whereupon he took the knife and returned the salver. Subsequently a royal courier came and saw it, took a fancy to it, and carried it off. Toward evening Resh Lakish again went to pay his respects to our Teacher and he saw him sitting and laughing. ‘Why are you laughing?’ he asked him. ‘That knife which you saw,’ replied he, ‘there came a royal courier and took it away.’ ‘Did I not tell you,’ he retorted, ‘that if you take nothing from anyone you will not have to give to anyone?’ (Freedman / Simon II 724)</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq 133 [41d: 25, 26]</bibl> (<term xml:lang="jpa">דיסקרא</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>תפוחי זהב במשכיות כסף דבר דבור על אופניו תירגם עקילס חזורין דדהב בגו דייסקרין דכסף</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">93,3</ref>
+                     <ref type="witness">III 1152: 9</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Like apples of gold in settings of silver is a word fitly spoken. Akilas rendered the verse: like apples of gold on a silver plate. (Freedman / Simon II 858)</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq 150 [49c: 15]</bibl> (<term xml:lang="jpa">דיסקרין</term>); <bibl type="ancient" default="false" status="draft">Yalq Prov 961 [499a: 34]</bibl> (<term xml:lang="jpa">דיסקוס</term>)</note>
+               </cit>
+            </sense>
+            <note anchored="true">
+         Cf. <bibl type="modern" default="false" status="draft">Krauss, LW 219a</bibl>; <bibl type="modern" default="false" status="draft">Jastrow I 303a</bibl>; <bibl type="modern" default="false" status="draft">Levy I 400b</bibl>. Dimin. of <term xml:lang="jpa">דיסקוס</term>
+            </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>142b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

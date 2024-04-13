@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">דורון</title>
+            <title type="alternative">dwrwn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="doron-dlgenr"
+                type="mainEntry"
+                xml:lang="en"
+                prev="#doqran-dlgenr"
+                next="#doriyyah-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">דורון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dwrwn</orth>
+               <pron notation="rabbinic" opt="false">doron</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דוריות</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">dwrywt</orth>
+                  <pron notation="rabbinic" opt="false">doriyyot</pron>
+                  <gramGrp opt="false">
+                     <gram type="num" opt="false">pl.</gram>
+                  </gramGrp>
+               </form>
+               <form type="variant" source="79,6 - V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דורונות</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">dwrwnwt</orth>
+                  <pron notation="rabbinic" opt="false">doronot</pron>
+                  <gramGrp opt="false">
+                     <gram type="num" opt="false">pl.</gram>
+                  </gramGrp>
+               </form>
+               <form type="variant" source="79,6 - Ox1 Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דורון</orth>
+               </form>
+            </form>
+            <sense xml:id="doron-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">law/activities</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">core borrowing/cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="geographic" opt="false">Coptic</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>gift</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Ancient Greek+</lang>
+                  </usg>
+                  <quote>δῶρον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>דורון נאה</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">34,8</ref>
+                     <ref type="witness">I 319: 4</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>a beautiful gift</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>דמי דורון דידך לדורון דסבך</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">34,8</ref>
+                     <ref type="witness">I 319: 5</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>your gift is similar to your grandfather’s gift</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>שילח לו דורון לסמותו</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">75,13</ref>
+                     <ref type="witness">II 895: 5</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>he sent him a gift in order to blind him</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>כדי לתמוהו על דורון שלו</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">76,8</ref>
+                     <ref type="witness">II 907: 3</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>in order to dazzle him by his gift (Freedman / Simon II 708)</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>היה מכבד את עשו באותו הדורון</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">78,16</ref>
+                     <ref type="witness">II 936: 5</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>he (Jacob) kept on honoring Esau by the same gift</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>היה מכבד את עשו באותו הדורון</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">79,5</ref>
+                     <ref type="witness">II 940: 4</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>he (Jacob) kept on honoring Esau by the same gift</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמ[ר] להם הרי הכסף והרי הדורון והרי אחיכם</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">91,11</ref>
+                     <ref type="witness">III 1136: 3</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Said he (Joseph) to them: ‘Lo, the money, a gift, and your brother!” (Freedman / Simon I 847)</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אני והבל הביאו דורון לפניך</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">97</ref>
+                     <ref type="witness">III 1215: 2</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>me (Kain) and Abel brought Thee a gift</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>שעתידין כל אומות העולם להביא דורון למשיח בן דוד</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">97</ref>
+                     <ref type="witness">III 1219: 7</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>all the nations of the world will bring a gift to Messiah the son of David</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>התחיל משלח להם דוריות</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">79,6</ref>
+                     <ref type="witness">II 940: 6</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>he (Jacob) started sending them gifts</quote>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Ancient Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=dw%3Dron&amp;la=greek&amp;can=dw%3Dron0"
+                          type="entry">δῶρον</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               <term xml:lang="jpa">דוריות</term> in
+      <bibl type="ancient" default="false" status="draft">79,6 (II 940: 6)</bibl> can also be pl. of
+      <ref type="entry" xml:lang="jpa">דורייה</ref>. Aram. pl. (as in
+      <bibl type="ancient" default="false" status="draft">TargJ Ex 12,46</bibl>): <term xml:lang="jpa">דורונין</term>
+               <term xml:lang="fjb">dwrwnyn</term>
+               <term xml:lang="rabbinic">doronin</term>.
+      <bibl type="modern" default="false" status="draft">Krauss II 194</bibl> suggests add. meaning “sacrifice”.
+      <bibl type="modern" default="false" status="draft">AC II 156</bibl> reads <term xml:lang="rabbinic">durun</term>.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>142</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

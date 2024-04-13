@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">דונאטיבה</title>
+            <title type="alternative">dwnʾṭybh</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="donativa-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#grdwmi-dlgenr"
+                next="#doqran-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">דונאטיבה</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dwnʾṭybh</orth>
+               <pron notation="rabbinic" opt="false">donaʾṭivah</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m/f</gram>
+                  <gram type="num" opt="false">sg/pl</gram>
+               </gramGrp>
+            </form>
+            <form type="variant" opt="false">
+               <orth xml:lang="jpa" opt="false">דונטיבה</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dwntybh</orth>
+               <pron notation="rabbinic" opt="false">donativah</pron>
+            </form>
+            <form type="equivalent" xml:lang="la" opt="false">
+               <quote xml:lang="la">donativa</quote>
+            </form>
+            <sense xml:id="donativa-dlgenr-1" opt="false">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>imperial donations (to the soldiers)</quote>
+               </cit>
+               <cit type="example">
+                  <quote xml:lang="jpa">
+א"ר אבא בשר ודם בשעה שהוא עושה
+            <ref type="entry">אסטאטיבה</ref>
+ אינו נותן
+            <app>
+                        <lem>דונאטיבה</lem>
+                        <rdg wit="#Vat2">דינאטיבה</rdg>
+                        <rdg wit="#Ox1">דונא טובה</rdg>
+                        <rdg wit="#V">דונטיבא</rdg>
+                        <rdg wit="#K">דונא טבא</rdg>
+                     </app>
+, ובשעה שהוא נותן
+            <app>
+                        <lem>דונאטיבה</lem>
+                        <rdg wit="#Vat2">דינאטיבה</rdg>
+                        <rdg wit="#Ox1">דונא טובה</rdg>
+                        <rdg wit="#V">דונטיבא</rdg>
+                        <rdg wit="#K">דונא טבא</rdg>
+                     </app>
+ אינו עושה 
+            <ref type="entry">אסטאטיבה</ref>
+, אבל הקדוש ברוך הוא עשה
+            <ref type="entry">אסטאטיבה</ref>
+ ונתן
+            <app>
+                        <lem>דונאטיבה</lem>
+                        <rdg wit="#Vat2">דינאטיבה</rdg>
+                        <rdg wit="#Ox1">דונא טובה</rdg>
+                        <rdg wit="#V">דונטיבא</rdg>
+                        <rdg wit="#K">דונא טבא</rdg>
+                     </app>
+ וישבות ויברך
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">10,9</ref>
+                     <ref type="witness">Ι 86: 5, 6</ref>
+                  </bibl>
+                  <cit type="translation">
+                     <quote xml:lang="en">
+R. Abba said: When a mortal king puts [his army] into a permanent camp he doesn’t give donations, and when he gives donations he doesn’t put [his army] into a permanent camp. But the Holy one, blessed be He, made a stop and gave donations [as it is written]: and he rested, and he blessed.
+= TanhB Wa-yeṣeʾ 22 (<term xml:lang="jpa">דונאטיבא</term>); Yalq 16 (5c: 37-39) (<term xml:lang="jpa">דונטיבא</term>)
+            </quote>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Latin</lang>
+               <cit type="etymon" xml:lang="la">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. Lewis / Short</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=d%C5%8Dn%C4%81t%C4%ABvum&amp;la=la&amp;can=d%C5%8Dn%C4%81t%C4%ABvum0"
+                          type="entry">dōnātīvum</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+The reading of AC III 96-97 is <term xml:lang="jpa">דונטיבא ללגיונות</term>
+               <term xml:lang="fjb">dwnṭybʾ llgywnwt</term> „donations for the legions“ 
+(as in NumR Nasoʾ 7,3: <term xml:lang="jpa">דונטיבא ללגיונותיו</term>
+               <term xml:lang="fjb">dwntybʾ llgywnwtyw</term> „donations for his (i.e. the king’s) legions“). Cg. Levy I 384; Jastrow I 286. The reading of Vat 2 is a corruption; the readings in Ox 1 and K are an “emendation” owing to non-understanding of the word. Cf. Syr. <term xml:lang="syrc">ܕܘܢܐܛܝܒܐ</term>
+               <term xml:lang="fjb">dwnʾṭybʾ</term> (Sokoloff, SL 284).
+Other spellings: <term xml:lang="jpa">דונטיבא</term>
+               <term xml:lang="fjb">dwnṭybʾ</term>.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss II</title>
+                  <citedRange>191</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אנקוס</title>
+            <title type="alternative">ʾnqws</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="onqos-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#anperin-dlgenr"
+                next="#anqliton-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אנקוס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾnqws</orth>
+               <pron notation="rabbinic" opt="false">ʾanqos</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אונקוס</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾnqws</orth>
+                  <pron notation="rabbinic" opt="false">ʾonqos</pron>
+               </form>
+               <form type="variant" source="V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אונקוס</orth>
+               </form>
+               <form type="variant" source="Ox1 Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אנקום</orth>
+               </form>
+               <form type="variant" source="Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אנקים</orth>
+               </form>
+            </form>
+            <sense xml:id="onqos-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">activities/properties/measurements</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">core borrowing/cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false"/>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>toil, trouble</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek+</lang>
+                  </usg>
+                  <quote>ὄγκος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     ר' עזריה על הדה דר' יהושע בן קרחה הה"ד אתה הוא י"י לבדך וכול' פרש' כל האנקוס הזה בשביל מה, בשביל אתה הוא ה' האלהים אשר בחרת באברם וגו'
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">12,9</ref>
+                     <ref type="witness">I 107: 3</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. ʿAzariah quoted on this statement of R. Yehoshuaʿ b. Qarḥah the verse: “Thou art the Lord, even Thou alone; Thou hast made  heaven” (Neh 9,6) (continuing the whole passage); and what was all this toil for? For “Thou art the Lord God, who didst choose Abram” (Neh 937) etc. (Freedman / Simon I 95)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 18 (6b: 7-8)</bibl> (<term xml:lang="jpa">אונקוס</term>);
+            <bibl type="ancient" default="false" status="draft">Yalq Ps 862 (476c: 7-9)</bibl> (<term xml:lang="jpa">אונקס</term>)
+         </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=o%29%2Fgkos&amp;la=greek&amp;can=o%29%2Fgkos0"
+                          type="entry">ὄγκος (B), II.</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">Cf.
+      <bibl type="modern" default="false" status="draft">AC I 159</bibl>;
+      <bibl type="modern" default="false" status="draft">Levy I 42</bibl>;
+      <bibl type="modern" default="false" status="draft">Jastrow I 29</bibl>.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss, LW II</title>
+                  <citedRange>22</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">דורייה</title>
+            <title type="alternative">dwryyh</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="doriyyah-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#doron-dlgenr"
+                next="#diutrita-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">דורייה</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dwryyh</orth>
+               <pron notation="rabbinic" opt="false">doriyyah</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f.</gram>
+               </gramGrp>
+               <form type="variant"
+                     source="53,7 - Vat1 Vat2 Ox1 Ox2; 53,8 - Vat2 Ox2"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דוריה</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">dwryh</orth>
+               </form>
+               <form type="variant" source="53,8 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דוריא</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">dwryʾ</orth>
+               </form>
+               <form type="variant" source="53,8 - Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דרוריה</orth>
+               </form>
+               <form type="variant" source="43,8 - Vat1 V K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דורונות</orth>
+               </form>
+               <form type="variant" source="43,8 - Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דוריות</orth>
+               </form>
+               <form type="variant" source="43,8 - Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דרות</orth>
+               </form>
+               <form type="variant" source="78,12 - Vat2 Ox1 V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דורונות</orth>
+               </form>
+               <form type="variant" source="78,12 - Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">הדרוניות</orth>
+               </form>
+               <form type="variant" source="79,6 - V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דורונות</orth>
+               </form>
+               <form type="variant" source="79,6 - Ox1 Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דורון</orth>
+               </form>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">דוריות</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dwrywt</orth>
+               <pron notation="rabbinic" opt="false">doriyyot</pron>
+               <gramGrp opt="false">
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="doriyyah-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">law</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">core borrowing/cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="geographic" opt="false">Coptic</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>donation, gift</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek</lang>
+                  </usg>
+                  <quote>δωρεά</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     ניתן דורייה לעולם
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">53,7</ref>
+                     <ref type="witness">ΙΙ 562: 2</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>a donation was made to the world</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     'והנחה למדינות עשה' מה עשייה האמ[ורה] להלן ניתן דורייה לעולם אף עשייה האמ[ורה] כאן ניתן דורייה לעולם
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">53,8</ref>
+                     <ref type="witness">II 563: 4</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And he made a release to the provinces (Est 2,18). As the ‘making’ [mentioned] there (Gen 21,6) [means that] a gift was given to the world, so the ‘making’ [mentioned] here [means that] a gift was given to the world.</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     משלח זה לזה כותבות ודוריות
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">43,8</ref>
+                     <ref type="witness">I 422: 3</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>they would send dates and gifts one to another</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     אמר ליה כל הדוריות שנתן אבינו יעקב לעשו עתידין אומות העולם להחזירן למלך המשיח לעתיד לבוא
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">78,12</ref>
+                     <ref type="witness">II 932: 6</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        He said to him: All the donations which our father Jacob gave to Esau the nations of the world will return them in the future to the King Messiah.
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     התחיל משלח להם דוריות
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">79,6</ref>
+                     <ref type="witness">II 940: 6</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>he (Jacob) started sending them gifts</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+ר' חננא בר יצחק אמר פורפירה בבליא, ומה בבל עבדה הכא, אלא כל מלך שלא היה לו שלטון בארץ ישראל הוא אומר אין מלכותו שוה כלום ומלך בבל אנטיקיסר שלו היה יושב ביריחו והיה זה משלח לזה כותבות
+<app>
+                        <lem>וזה לזה</lem>
+                        <rdg wit="#Vat1">וזה לזה</rdg>
+                        <rdg wit="#Vat2">וזה משלח לזה</rdg>
+                        <rdg wit="#V">וזה משלח לזה</rdg>
+                        <rdg wit="#Ox1">וזה משלח לזה</rdg>
+                        <rdg wit="#Ox2">וזה משלח לזה</rdg>
+                     </app>
+דוריות.
+</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">85,14</ref>
+                     <ref type="witness">II 1050: 5</ref>
+                  </bibl>
+                  <ref type="entry">אנטיקיסר</ref>
+                  <ref type="entry">פורפירה</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Ḥaninaʾ bar Yiṣhaq said: [By ‘a goodly Shinar mantle’ (Jos 7,21)] a purple Babylonian purple robe is meant. How comes Babylon to be mentioned here? – Any king who had nor regent in Ereṣ Israel would regard his sovereignty with no value. The viceroy of the king of Babylon had his seat in Jericho, and the former would send dates wo the latter, while the latter would reciprocate with gifts. (Freedman Simon II 799)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq Jos 18 [349b: 46]</bibl> (<term xml:lang="jpa">דורונות</term>)
+         </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="https://www.perseus.tufts.edu/hopper/morph?l=dwr-ea%2F&amp;la=greek&amp;can=dwr-ea%2F0"
+                          type="entry">δωρεά</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               <bibl type="modern" default="false" status="draft">AC II 145</bibl>
+               <term xml:lang="jpa">דריה</term>
+               <term xml:lang="fjb">dryh</term>
+               <term xml:lang="rabbinic">dareyah</term> “Geschenk, Ehrengabe”;
+      <bibl type="modern" default="false" status="draft">Levy I 387</bibl>: <term xml:lang="jpa">דוריה</term>
+               <term xml:lang="fjb">dwryh</term>
+               <term xml:lang="rabbinic">doryah</term> “Ehrengeschenk, Geschenk”;
+      <bibl type="modern" default="false" status="draft">Jastrow I 290</bibl>: <term xml:lang="jpa">דוריא</term>
+               <term xml:lang="fjb">dwryʾ</term>
+               <term xml:lang="rabbinic">doryaʾ</term> same as <term xml:lang="jpa">דורון</term>
+               <term xml:lang="fjb">dwrwn</term>
+               <term xml:lang="rabbinic">doron</term>.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss, LW II</title>
+                  <citedRange>195</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

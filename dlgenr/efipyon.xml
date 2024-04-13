@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">*אפיפיון</title>
+            <title type="alternative">ʾpypywn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="efipyon-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#apisteqiteh-dlgenr"
+                next="#afes-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">*אפיפיון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾpypywn</orth>
+               <pron notation="rabbinic" opt="false">efipyon</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" source="Ox 1 K V" opt="false">
+                  <orth xml:lang="jpa" opt="false">ואפיפורין</orth>
+               </form>
+               <form type="variant" source="Vat 2" opt="false">
+                  <orth xml:lang="jpa" opt="false">ואפופורין</orth>
+               </form>
+            </form>
+            <sense xml:id="efipyon-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">artefacts</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">fig.</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>saddle cloth</quote>
+               </cit>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <lbl opt="false">fig. for</lbl>
+                  <quote>buttocks</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek</lang>
+                  </usg>
+                  <quote>ἐφίππιον</quote>
+               </cit>
+               <cit type="example">
+                  <quote xml:lang="jpa">
+               ויסגר בשר תחתנה אמר ר' חננא בר יצחק עשה לו נוה לתחתיתו כדי שלא יהא מתבזה כבהמה, רבין יניי ור' יני חד אמר עשה לו מנעול 
+               ואפיפודין כבוש עליו כדי שלא יהא מצטער בשעה שיושב, וחרנה אמר עשה לו כסתות.
+            </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">17,6</ref>
+                     <ref type="witness">I 157: 8</ref>
+                  </bibl>
+                  <cit type="translation">
+                     <quote xml:lang="en">
+                  And he closed up the place with flesh instead thereof (taḥtennah) (Gen 2,21). R. Ḥanina b. Yiṣḥaq said: He provided him with a fitting outlet (“naweh”) for his nether functions, that his modesty might not be outraged, like an animal. Rabin said: Yannai and R. Yannai differed thereon. One says: He provided him with a lock and a saddle cloth pressed over it, so that he should not suffer pain when he sits. The other said: He provided him with cushions. (Freedman / Simon I 137)
+               </quote>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=e%29fi%2Fpp-ios&amp;la=greek&amp;can=e%29fi%2Fpp-ios0"
+                          type="entry">ἐφίππιος, I.</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+         = 
+         <bibl type="ancient" default="false" status="draft">QohR 3,19</bibl>
+               <term xml:lang="jpa">אפופרין</term>;
+         <bibl type="ancient" default="false" status="draft">QohZ 3,19</bibl>
+               <term xml:lang="jpa">אפיפורין</term>;
+         <bibl type="ancient" default="false" status="draft">Yalq 23 [8a:37]</bibl>
+               <term xml:lang="jpa">אפיפורן</term>;
+         <bibl type="ancient" default="false" status="draft">Yalq Koh 969</bibl>
+               <term xml:lang="jpa">אפיפורין</term>
+            </note>
+            <note anchored="true">
+         The reading <term xml:lang="jpa">אפיפודין</term> is a corruption. The reading <term xml:lang="jpa">אפיפיון</term> was suggested by Krauss and Jastrow (I 103b) as an emendation of <term xml:lang="jpa">אפיפודין</term> in GenR 17,6 and parallels for contextual reasons.
+      </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss, LW II</title>
+                  <citedRange>106b.</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

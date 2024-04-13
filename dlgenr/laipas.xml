@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">ליפס</title>
+            <title type="alternative">lyps</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="laipas-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#luparin-dlgenr"
+                next="#monita-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">ליפס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">lyps</orth>
+               <pron notation="rabbinic" opt="false">laipas</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" source="Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ליפת</orth>
+               </form>
+               <form type="variant" source="Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פס</orth>
+               </form>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">ליפסין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">lypsyn</orth>
+               <pron notation="rabbinic" opt="false">laipesin</pron>
+               <gramGrp opt="false">
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="laipas-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">economy</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>arrears, delinquent taxes, remainder</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Post-Classical Greek</lang>
+                  </usg>
+                  <quote>λοιπάς</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     למדינה שחייבת ליפס למלך שלח המלך גביי טימיון לגבותה
+         </quote>
+                  <ref type="entry" xml:lang="jpa">טימיון</ref>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">14,3</ref>
+                     <ref type="witness">I 403: 2</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        [This may be compared] to a province that owed arrears to the king, and the king sent a treasury officer to collect them. (cf. Freedman / Simon I 343)
+            </quote>
+                  </cit>
+                  <note anchored="true">
+                     = 
+            <bibl type="ancient" default="false" status="draft">LevR Shemini 11,7</bibl>;
+            <bibl type="ancient" default="false" status="draft">LevR Emor 30,7</bibl>;
+            <bibl type="ancient" default="false" status="draft">PesK 27</bibl>;
+            <bibl type="ancient" default="false" status="draft">TanhB Emor 30</bibl>;
+            <bibl type="ancient" default="false" status="draft">Tan Emor 22</bibl>;
+            <bibl type="ancient" default="false" status="draft">Yalq 651 (203d: 12-13)</bibl>;
+            <bibl type="ancient" default="false" status="draft">Yalq Rut 597 (520a: 36-38)</bibl>;
+            <bibl type="ancient" default="false" status="draft">Yalq Est 1044 (526c: 27-28)</bibl>;
+            <bibl type="ancient" default="false" status="draft">KohR 9,7</bibl> (<term xml:lang="jpa">ליפסין</term>)
+         </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Post-Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=loip-a%2Fs&amp;la=greek&amp;can=loip-a%2Fs0"
+                          type="entry">λοιπάς</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               Pronunciation acc. to 
+      <bibl type="modern" default="false" status="draft">AC IV 53</bibl>. Cf.
+      <bibl type="modern" default="false" status="draft">Levy II 504</bibl>;
+      <bibl type="modern" default="false" status="draft">Jastrow II 709</bibl>;
+      <bibl type="modern" default="false" status="draft">Sperber (1984) 23</bibl>. For further literature cf. Krauss. The version of Vat 1 is a product of partition of <term xml:lang="jpa">ליפס</term> into <term xml:lang="jpa">פס</term>
+               <term xml:lang="jpa">לי</term> after omission of <term xml:lang="jpa">לי</term>. Pl. attested in the KohR parallel.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss, LW II</title>
+                  <citedRange>316</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

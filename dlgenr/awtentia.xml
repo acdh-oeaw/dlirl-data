@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אוותנטיא</title>
+            <title type="alternative">ʾwwtnṭyʾ</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="awtentia-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#awtentin-dlgenr"
+                next="#awir-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אוותנטיא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾwwtnṭyʾ</orth>
+               <pron notation="rabbinic" opt="false">awtentiaʾ</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אותנטייה</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾwtnṭyyh</orth>
+                  <pron notation="rabbinic" opt="false">awtentiyah</pron>
+               </form>
+            </form>
+            <sense xml:id="awtentia-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">properties/features</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false"/>
+               <usg type="geographic" opt="false"/>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>power, origin</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Post-Classical Greek+</lang>
+                  </usg>
+                  <quote>αὐθεντία</quote>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Post-Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=au%29qent-i%2Fa&amp;la=greek&amp;can=au%29qent-i%2Fa0"
+                          type="entry">αὐθεντία</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               <bibl type="modern" default="false" status="draft">AC I: 48-49</bibl>; <bibl type="modern" default="false" status="draft">Levy I: 49</bibl>. <bibl type="modern" default="false" status="draft">Jastrow: 23</bibl> “origin, reality”. 
+         The expression <term xml:lang="jpa">עיקר אוותנטיא</term> is also used in <bibl type="ancient" default="false" status="draft">ShirR 1,10</bibl>.
+      </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss II</title>
+                  <citedRange>16</citedRange>
+               </bibl>
+               <bibl default="false" status="draft">
+                  <title>Krauss II</title>
+                  <citedRange>117</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

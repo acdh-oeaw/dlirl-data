@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">ביטי</title>
+            <title type="alternative">byṭy</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="bite-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#biz-dlgenr"
+                next="#biyyah-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">ביטי</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">byṭy</orth>
+               <pron notation="rabbinic" opt="false">biṭe</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="bite-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">landscape</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false"/>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>cave</quote>
+               </cit>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>depth</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Ancient Greek+</lang>
+                  </usg>
+                  <quote>βυθός</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     והא כת' ישובו רשעים לשאולה, ר' אבא בר זבדה אמר לביטי [Vat 1 Ox 1  ל{דייטי} | Ox2 ל{דיטיה}] התחתונה שבשאול.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">50,3</ref>
+                     <ref type="witness">II 518: 5</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        The wicked shall return ‘li-sheʾolah’ – to the netherworld (Ps 9,18). Said R. Abbaʾ b. Zavdah: That means to the nethermost depth of hell. [cf. Freedman / Simon I 435)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 84 [26a: 42]</bibl>;
+            <bibl type="ancient" default="false" status="draft">Yalq 117 [36c: 11]</bibl> (
+            <ref type="entry" xml:lang="jpa">דיוטי</ref>);
+            <bibl type="ancient" default="false" status="draft">Yalq 145 [46a: 55]</bibl> (
+            <ref type="entry" xml:lang="jpa">אמבטי</ref>);
+            <bibl type="ancient" default="false" status="draft">YalqPs 643 [444c: 8]</bibl> (
+            <ref type="entry" xml:lang="jpa">דיוטא</ref>)
+         </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     והא כת' ישובו רשעים לשאולה, ר' אבא בר זבדה אמר לבוטי [Ox 1  לדיוטא} | Ox2 לדיוטי} | K V לאמבטי] התחתונה שבשאול.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">68,8</ref>
+                     <ref type="witness">II 777: 2</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">דיוטא</ref>
+                  <ref type="entry" xml:lang="jpa">דיוטי</ref>
+                  <ref type="entry" xml:lang="jpa">אמבטי</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        The wicked shall return ‘li-sheʾolah’ – to the netherworld (Ps 9,18). Said R. Abbaʾ b. Zavdah: That means to the nethermost depth of hell. [cf. Freedman / Simon I 435)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 84 [26a: 42]</bibl>;
+            <bibl type="ancient" default="false" status="draft">Yalq 117 [36c: 11]</bibl> (
+            <ref type="entry" xml:lang="jpa">דיוטי</ref>);
+            <bibl type="ancient" default="false" status="draft">Yalq 145 [46a: 55]</bibl> (
+            <ref type="entry" xml:lang="jpa">אמבטי</ref>);
+            <bibl type="ancient" default="false" status="draft">YalqPs 643 [444c: 8]</bibl> (
+            <ref type="entry" xml:lang="jpa">דיוטא</ref>)
+         </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Ancient Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0057:entry=buqo/s"
+                          type="entry">βυθός</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               <bibl type="modern" default="false" status="draft">Krauss, LW II 148a</bibl> rejects this reading, correcting to
+      <ref type="entry" xml:lang="jpa">אמבטי</ref> or
+      <ref type="entry" xml:lang="jpa">דייטי</ref>, but cf.
+      <bibl type="modern" default="false" status="draft">Sperber, Cards</bibl>.
+       Following <bibl type="modern" default="false" status="draft">Schlatter's (1900)</bibl> suggestion for an interpretation as Gr. <term xml:lang="grc">βυθός</term>, which would represent a regular adaptation of a Greek masc. form ending in -o
+in Aramaic (instead of a reconstructed (?) Greek *βέτη as suggested in the past)</note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>MY II</title>
+                  <citedRange>518:5</citedRange>
+               </bibl>
+               <bibl default="false" status="draft">
+                  <title>Schlatter (1900)</title>
+                  <citedRange>58</citedRange>
+               </bibl>
+               <bibl default="false" status="draft">
+                  <title>Sperber, Cards</title>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

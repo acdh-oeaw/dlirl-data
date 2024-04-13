@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">ביז</title>
+            <title type="alternative">byz</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="biz-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#batisa-dlgenr"
+                next="#bite-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">ביז</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">byz</orth>
+               <pron notation="rabbinic" opt="false">biz</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" source="K V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ביזיא</orth>
+               </form>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">ביזיא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">byzyʾ</orth>
+               <pron notation="rabbinic" opt="false">biziaʾ</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="num" opt="false">pl.</gram>
+                  <gram type="mood" opt="false">det.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="biz-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">human life/biology</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false">hapax legomenon</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>teat</quote>
+               </cit>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>breast</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Post-Classical Greek</lang>
+                  </usg>
+                  <quote>βυζίον (?)</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>כאינש דאמר לייט ביזה דהכדן איינק</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">5,9</ref>
+                     <ref type="witness">I 39: 2</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>It is in fact as one might say: ‘Cursed be the breast that suckled such a one as this’. (Freedman / Simon I 40)</quote>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Post-Classical Greek</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LBG</lbl>
+                     <ref target="http://stephanus.tlg.uci.edu/Iris/indiv/lexica.jsp#qid=106852&amp;ql=BUZI%2FON%2C%20-OU%2C%20TO%2F&amp;q=%CE%B2%CF%85%CE%B6%CE%AF%CE%BF%CE%BD%2C%20%E2%80%91%CE%BF%CF%85%2C%20%CF%84%CF%8C&amp;usr_input=greek&amp;searchescs=N"
+                          type="entry">βυζίον</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               <term xml:lang="jpa">ביזה</term> is sg. det. But cf. Löw ad loc. who rejects the Greek etymology. See also
+      <bibl type="modern" default="false" status="draft">Sokoloff, DJPA 74a</bibl>.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss, LW II</title>
+                  <citedRange>149ab</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

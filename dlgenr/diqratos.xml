@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">דיקרטוס</title>
+            <title type="alternative">dyqrṭws</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="diqratos-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#diqinton-dlgenr"
+                next="#decumani-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">דיקרטוס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dyqrṭws</orth>
+               <pron notation="rabbinic" opt="false">diqraṭos</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">adjective</gram>
+               </gramGrp>
+               <form type="variant" source="Vat1 Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דיקרטוס</orth>
+               </form>
+               <form type="variant" source="K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דיקרטום</orth>
+               </form>
+               <form type="variant" source="V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דקרטיס</orth>
+               </form>
+            </form>
+            <sense xml:id="diqratos-dlgenr-1" opt="false">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>tied (at the feet)</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek</lang>
+                  </usg>
+                  <quote>δίκροτος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>[והנחש היה ערום מכל חית וגו'] ר' הושעיא רבה אמר דיקריטיס היה עומד כקנה ורגלים יש לו</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">19,1</ref>
+                     <ref type="witness">I 171: 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Now the serpent was more subtle than any beast of the field (Gen 3,1). R.Hoshaʿyaʾ the Elder said: He stood tied like a reed at his feet.</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">GenRbti 41</bibl>
+                  </note>
+               </cit>
+            </sense>
+            <note anchored="true">
+         MY renders Gr. <term xml:lang="grc">διάκριτος</term>. See <bibl type="modern" default="false" status="draft">Levy I 402b</bibl>, but Fleischer in <bibl type="modern" default="false" status="draft">Levy I 442b</bibl> renders Gr. <term xml:lang="grc">δικεράστος</term>. Löw in Krauss ad loc. interprets as Gr. <term xml:lang="grc">διρέκτος</term> (rejected in MY).
+      </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss, LW II</title>
+                  <citedRange>212a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

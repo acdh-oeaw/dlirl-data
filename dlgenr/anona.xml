@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אנונא</title>
+            <title type="alternative">ʾnwnʾ</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="anona-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#androlomosiya-dlgenr"
+                next="#antigrafa-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אנונא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾnwnʾ</orth>
+               <pron notation="rabbinic" opt="false">anonaʾ</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אנונה</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾnwnh</orth>
+                  <pron notation="rabbinic" opt="false">anonah</pron>
+               </form>
+               <form type="variant" source="47,4 first occurrence - Ox1 Ox2" opt="false">
+                  <orth xml:lang="jpa" opt="false">אנינא</orth>
+               </form>
+               <form type="variant"
+                     source="47,4 first occurrence - Vat1 Vat2"
+                     opt="false">
+                  <orth xml:lang="jpa" opt="false">אנינה</orth>
+               </form>
+               <form type="variant"
+                     source="47,4 second occurrence - Ox1 Ox2"
+                     opt="false">
+                  <orth xml:lang="jpa" opt="false">אנינה</orth>
+               </form>
+               <form type="variant"
+                     source="47,4 second occurrence - Vat1 Vat2"
+                     opt="false">
+                  <orth xml:lang="jpa" opt="false">אנינה</orth>
+               </form>
+               <form type="variant" source="87,10 - K V" opt="false">
+                  <orth xml:lang="jpa" opt="false">פרנסה</orth>
+               </form>
+            </form>
+            <sense xml:id="anona-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">economy</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false"/>
+               <usg type="geographic" opt="false">Syriac Aramaic</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>yield</quote>
+               </cit>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>tax paid in kind</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Greek</lang>
+                  </usg>
+                  <quote>ἀννώνη</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <usg opt="false">
+                     <lang opt="false">Latin</lang>
+                  </usg>
+                  <quote>annona</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     ויאמר אברהם אל האלהים לו ישמאל וגו' ר' יהודה בשם ר' יודן לאוהבו שלמלך שהיה המלך מעלה בו אנונה, אמר לו המלך אני מבקש ליכפול אנונה שלך, אמר ליה לא תמלי רוחי קדור, הלוויי קדמייתא לא תמנע, כך לו ישמעאל יחיה וגו'
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">47,4</ref>
+                     <ref type="witness">I 473: 5</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        And Abraham said unto God: Oh that Ishmael might live before thee! (Gen 17,18). R. Yehudah said in R.Yudan’s name: This is similar to a king’s friend to whom the king wished to increase the tax. Said the king to him: I wish to double your tax. He answered: Do not give me a false hope! My only wish is that you will not withdraw the present [tax]! (Cf. Freedman / Simon I 401)
+            </quote>
+                  </cit>
+                  <note anchored="true">
+                     = 
+            <bibl type="ancient" default="false" status="draft">Yalq 82 [23d: 5,6]</bibl>
+                  </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>חותכת אני אנונה שלך</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">87,10</ref>
+                     <ref type="witness">III 1075: 5</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>I will shorten your tax.</quote>
+                  </cit>
+                  <note anchored="true">
+                     = 
+            <bibl type="ancient" default="false" status="draft">Yalq 146 [46d: 63]</bibl> (<term xml:lang="jpa">אנונא</term>);
+            <bibl type="ancient" default="false" status="draft">SekhT 39,21 [241]</bibl>
+                  </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>Latin (probably via Greek)<lang opt="false"/>
+               <cit type="etymon" xml:lang="la">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. Lewis /Short</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0059%3Aalphabetic+letter%3DA%3Aentry+group%3D54%3Aentry%3Dannona"
+                          type="entry">annōna</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               Cf. 
+      <bibl type="modern" default="false" status="draft">Sachs (1852) 15-16</bibl>;
+      <bibl type="modern" default="false" status="draft">AC I 150 ab</bibl>;
+      <bibl type="modern" default="false" status="draft">Levy I 111b-112a</bibl>;
+      <bibl type="modern" default="false" status="draft">Jastrow I 82ab</bibl>;
+      <bibl type="modern" default="false" status="draft">Krauss, LW II 66a</bibl>. Cf. also
+      <bibl type="modern" default="false" status="draft">Ziegler (1903) 168-169</bibl>;
+      <bibl type="modern" default="false" status="draft">Sperber (1984) 51</bibl>;
+      <bibl type="modern" default="false" status="draft">Lieberman TkF II 794</bibl> (on tḤal 1,4 [<term xml:lang="jpa">ארנונא</term>]). Same as <term xml:lang="jpa">ארנונא</term>
+               <term xml:lang="fjb">ʾrnwnʾ</term>
+               <term xml:lang="rabbinic">arnonaʾ</term>, cf.
+      <bibl type="modern" default="false" status="draft">Sokoloff, DJPA 54ab</bibl>;
+      <bibl type="modern" default="false" status="draft">Krauss, LW II 133a</bibl> (not in GenR). Cf. Syr. <term xml:lang="syc">ܐܢܘܢܐܣ</term>
+               <term xml:lang="fjb">ʾnwnʾs</term> (
+      <bibl type="modern" default="false" status="draft">Sokoloff, SL 60a</bibl>).
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>41a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

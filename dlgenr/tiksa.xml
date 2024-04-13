@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">טכסא</title>
+            <title type="alternative">ṭksʾ</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="tiksa-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#time-dlgenr"
+                next="#temyon-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">טכסא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ṭksʾ</orth>
+               <pron notation="rabbinic" opt="false">ṭikhsa</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f.</gram>
+               </gramGrp>
+               <form type="variant" source="Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">טיכסה</orth>
+               </form>
+               <form type="variant" source="Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">מיכסא</orth>
+               </form>
+               <form type="variant" source="K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">מטכסא</orth>
+               </form>
+               <form type="variant" source="V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">מטכסא</orth>
+               </form>
+            </form>
+            <sense xml:id="tiksa-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">architecture</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false"/>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>rampart</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Ancient Greek+</lang>
+                  </usg>
+                  <quote>τεῖχος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>נסאתון ואקימון על טכסא דמדינתא</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">63,8</ref>
+                     <ref type="witness">II 690: 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                  he [the demon] took them and set them on the rampart of the town 
+               </quote>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Ancient Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=tei%3Dxos&amp;la=greek&amp;can=tei%3Dxos0"
+                          type="entry">τεῖχος</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sperber</title>
+                  <citedRange>96</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

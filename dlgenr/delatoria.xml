@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">דילטוריא</title>
+            <title type="alternative">dylṭwryʾ</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="delatoria-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#daiteqe-dlgenr"
+                next="#dimosia-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">דילטוריא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dylṭwryʾ</orth>
+               <pron notation="rabbinic" opt="false">delaṭoriaʾ</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דילטוריה</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">dylṭwryh</orth>
+                  <pron notation="rabbinic" opt="false">delaṭoriah</pron>
+               </form>
+               <form type="variant" source="Vat1" opt="false">
+                  <orth type="variant" opt="false">דילטוריא</orth>
+               </form>
+               <form type="variant" source="Ox2 V" opt="false">
+                  <orth type="variant" opt="false">דלטוריא</orth>
+               </form>
+               <form type="variant" source="Ox1" opt="false">
+                  <orth type="variant" opt="false">דילטורא</orth>
+               </form>
+               <form type="variant" source="K" opt="false">
+                  <orth type="variant" opt="false">דילוטריה</orth>
+               </form>
+               <form type="variant" source="Vat2" opt="false">
+                  <orth type="variant" opt="false">דילאטרייא</orth>
+               </form>
+            </form>
+            <sense xml:id="delatoria-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">law</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>accusation</quote>
+               </cit>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>slander</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Medieval Greek</lang>
+                  </usg>
+                  <quote>δηλατορία</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <usg opt="false">
+                     <lang opt="false">Latin</lang>
+                  </usg>
+                  <quote>dēlātūra</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     ר' יהושע דסכנין בשם ר' לוי התחיל אומר דילטוריה לבוראו [Ox 1 Ox 2 Vat 1 V על בוראו]
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">19,4</ref>
+                     <ref type="witness">I 172: 10</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <bibl default="false" status="draft">
+                        R. Yehoshuaʿ of Sikhnin said in R. Lewi’s name: He [the serpent] began speaking slander of his Creator… (Freedman / Simon I 150)
+            </bibl>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 27 [8d: 36]</bibl> (<term xml:lang="jpa">דלטוריא</term>);
+            <bibl type="ancient" default="false" status="draft">MTeh 1,9 [10]</bibl> (<term xml:lang="jpa">לשון הרע</term>);
+            <bibl type="ancient" default="false" status="draft">Tan Meṣoraʿ 2 [23]</bibl> (<term xml:lang="jpa">לה"ר</term>);
+            <bibl type="ancient" default="false" status="draft">TanB Meṣoraʿ 7</bibl> (<term xml:lang="jpa">לשון הרע</term>);
+            <bibl type="ancient" default="false" status="draft">ExR 3,12</bibl> (<term xml:lang="jpa">לשון הרע</term>);
+            <bibl type="ancient" default="false" status="draft">DtnR Shofeṭim 5,10</bibl> (<term xml:lang="jpa">לשון הרע</term>) [several similar passages, all with <term xml:lang="jpa">לשון הרע</term>]
+         </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Latin (via Greek)</lang>
+               <cit type="etymon" xml:lang="la">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. Lewis / Scott</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=d%C4%93l%C4%81t%C5%ABra&amp;la=la&amp;can=d%C4%93l%C4%81t%C5%ABra0"
+                          type="entry">dēlātūra</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               For Gr. <term xml:lang="grc">δηλατορία</term> cf. 
+      <bibl type="ancient" default="false" status="draft">Soph. 354b</bibl>,
+      <bibl type="modern" default="false" status="draft">LBG I 351b</bibl>. This form, used only in Aramaic, is attested also by
+      <bibl type="ancient" default="false" status="draft">yBer 1,2 [7: 31]</bibl>;
+      <bibl type="ancient" default="false" status="draft">yShab 1,2 [368: 47]</bibl>;
+      <bibl type="ancient" default="false" status="draft">CantR 1,6</bibl> (
+      <bibl type="ancient" default="false" status="draft">yPea 1,1 [83: 37]</bibl> is corr. <term xml:lang="jpa">דילטורין</term>
+               <term xml:lang="fjb">dylṭwryn</term>, cf. ibid. 83:27). According to
+      <bibl type="modern" default="false" status="draft">Krauss, LW II 204a</bibl>: Lat. delatura (cf. the reading of Ox 1 and
+      <bibl type="ancient" default="false" status="draft">PesR 33 [150b: 28]</bibl>) with parasitic vowel (cf.
+      <bibl type="modern" default="false" status="draft">Krauss, LW I 132</bibl>); this form is attested already by Targum Yonatan for Gen 3,4.
+      <bibl type="modern" default="false" status="draft">Levy I 408a</bibl>: Lat. delatoria. Cf. also
+      <bibl type="modern" default="false" status="draft">Jastrow I 299a</bibl>. For <term xml:lang="jpa">דילטור</term>
+               <term xml:lang="fjb">dylṭwr</term>
+               <term xml:lang="rabbinic">delaṭor</term>, pl. <term xml:lang="jpa">דלטורין</term>
+               <term xml:lang="fjb">dlṭwryn</term>
+               <term xml:lang="rabbinic">delaṭorin</term>, “informer, sycophant”, not attested in GenR, cf.
+      <bibl type="modern" default="false" status="draft">AC III 68b-69a</bibl>;
+      <bibl type="modern" default="false" status="draft">Levy I 407b</bibl>;
+      <bibl type="modern" default="false" status="draft">Krauss, LW II 203b-204a</bibl>;
+      <bibl type="modern" default="false" status="draft">Jastrow I 299b</bibl>.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>140b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

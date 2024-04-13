@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">בקלסה</title>
+            <title type="alternative">bqlsh</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="baqalsah-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#basas-dlgenr"
+                next="#galaqsinon-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">בקלסה</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">bqlsh</orth>
+               <pron notation="rabbinic" opt="false">baqalsah</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בוקלסה</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">bwqlsh</orth>
+                  <pron notation="rabbinic" opt="false">boqalsah</pron>
+               </form>
+            </form>
+            <sense xml:id="baqalsah-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">artefacts</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false"/>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false"/>
+               <usg type="geographic" opt="false">Syriac Aramaic</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>club</quote>
+               </cit>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>staff</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <usg opt="false">
+                     <lang opt="false">Latin</lang>
+                  </usg>
+                  <quote>baculus</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     וימת הרן על פני תרח אביו אמר ר' חייא תרח עובד צלמים הוה, חד זמן נפק לאתר הושיב אברהם מוכר תחתיו, הוה אתי בר נש בעי דיזבון, אמר ליה בר כמה שנין את, אמר ליה בר חמשין, אמר ליה ווי לההוא גברא דאת בר חמשין ותסגוד לבר יומא, והוה מתבייש והולך לו, חד זמן אתת איתתא טעינא חד פינך דסלת אמ' ליה הא לך קרב קדמיהון, קם נסיב בוקלסה [Vat 1 מקלתא | Ox 1 בקולסא | Ox 2  בקולסא בידיה | K V בוקלסא בידיה] ותברהון ויהב ההוא בוקלסה [Vat 1  מקלתה | K V בוקלסא | Ox 2  בקולסא] בידוי דרבה דבהון, כיון דאתא אבוה אמר ליה מה עבד להון כדין, אמר ליה מה נכפור לך אתת חדא איתתא טעינא חד {פינך} דסלת ואמרת לי קרב קומיהון, דין אמר אנא אכיל קדמאי ודין אמר אנא אכיל קדמאי, קם הדין רבה נסיב בוקלסה [Vat 1 מקלתה | Ox 1 Ox 2 בקולסא]  ותברהון, [אמר ליה] מה את מפלה בי, ידעין אינון, אמר ליה ולא ישמעו אזניך מפיך
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">38,13</ref>
+                     <ref type="witness">I 362: 3; 363: 1,3</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פינך</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        And Haran died in the presence of his father Tereah (Gen 11,28). R. Ḥiyya said: Terah was a manufacturer of idols. He once went away somewhere and left Abraham to sell them in his place. A man came and wished to buy one. “How old are you?” Abraham asked him. “Fifty years,” was the reply. “Woe to such a man!” he exclaimed, “you are fifty years old and would worship a day-old object!” At this he became ashamed and departed. On another occasion a woman came with a plateful of flour and requested him, “Take this and offer it to them.” So he took a stick, broke them and put the stick in the hand of the largest. When his father returned he demanded, “What have you done to them?” “I cannot conceal it from you,” he rejoined. “A woman came with a plateful of fine meal and requested me to offer it to them. One clamed, ‘I must eat first,” while another claimed, ‘I must eat first.’ Thereupon the largest arose, took the stick, and broke them.” “Why do you make spot of me,” he cried out; “have they then any knowledge!” “Should not your ears listen to what your mouth is saying,” he retorted. (Freedman / Simon I 309-310)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 62 [17c: 61; 17d: 3]</bibl> (<term xml:lang="jpa">בוקלסא</term>)
+         </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false"/>
+               <cit type="etymon" xml:lang="la">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. Lewis / Scott</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0059%3Aalphabetic+letter%3DB%3Aentry+group%3D2%3Aentry%3Dbaculum"
+                          type="entry">baculum/us</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               Cf. 
+      <bibl type="modern" default="false" status="draft">AC II 159b-160a</bibl>;
+      <bibl type="modern" default="false" status="draft">Krauss, LW II 162b-163a</bibl>;
+      <bibl type="modern" default="false" status="draft">Levy I 254a</bibl>;
+      <bibl type="modern" default="false" status="draft">Jastrow I 156ab</bibl>. Pl. <term xml:lang="jpa">בקלוסי</term>
+               <term xml:lang="fjb">bqlwsy</term>
+               <term xml:lang="rabbinic">baqluse</term> appears in
+      <bibl type="ancient" default="false" status="draft">bZev 105a</bibl>. For Syr. <term xml:lang="syc">ܒܘܩܠܣܐ</term>
+               <term xml:lang="fjb">bwqlsʾ</term> cf.
+      <bibl type="modern" default="false" status="draft">Sokoloff, SL 130a</bibl>.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>69b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

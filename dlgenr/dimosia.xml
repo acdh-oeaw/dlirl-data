@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">דימוסייה</title>
+            <title type="alternative">dymwsyyh</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="dimosia-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#delatoria-dlgenr"
+                next="#dimos-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">דימוסייה</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dymwsyyh</orth>
+               <pron notation="rabbinic" opt="false">demosiyyah</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דימוסיה</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">dymwsyh</orth>
+                  <pron notation="rabbinic" opt="false">demosiyyah</pron>
+               </form>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דימוסיא</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">dymwsyʾ</orth>
+                  <pron notation="rabbinic" opt="false">demosiyyah</pron>
+               </form>
+               <form type="variant" source="Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דימוסיה</orth>
+               </form>
+               <form type="variant" source="Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דימוסיא</orth>
+               </form>
+               <form type="variant" source="V K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דימוסה</orth>
+               </form>
+               <form type="variant" source="1,12 - Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דימוסיות</orth>
+               </form>
+               <form type="variant" source="1,12 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דימוסיאות</orth>
+               </form>
+               <form type="variant" source="1,12 - V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דמוסיות</orth>
+               </form>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">דימוסיאות</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dymwsyʾt</orth>
+               <pron notation="ipa" opt="false">demosiyyot</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">דמוסיות</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dmwsywt</orth>
+               <pron notation="rabbinic" opt="false">demosiyyot</pron>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">דימוסיות</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dymwswt</orth>
+               <pron notation="rabbinic" opt="false">demosiyyot</pron>
+            </form>
+            <sense n="1" xml:id="dimosia-dlgenr-1" opt="false">
+               <cit type="translation" xml:lang="en">
+                  <quote>public affairs, market</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek</lang>
+                  </usg>
+                  <quote>δημόσια</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     <app>
+                        <lem>ושלא'</lem>
+                        <rdg wit="#V">ראשון</rdg>
+                     </app>למי היה להם לשאול, לא לבני המדינה אתמהא שהן עסוקין בדימוסייה                       
+            </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">8,2</ref>
+                     <ref type="witness">I 57: 4</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>But whom shall [the supplier of] the first day ask? Not
+                  the citizens of the state who were engaged in the public affairs / market of
+                  the country?</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote/>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">8,22</ref>
+                     <ref type="witness">II 1028: [notes]</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And the Midianites [sold Joseph] to Egypt to the state
+                  market. Came Potiphar and bought him from the state market.</quote>
+                  </cit>
+               </cit>
+            </sense>
+            <sense n="2" xml:id="dimosia-dlgenr-2" opt="false">
+               <cit type="translation" xml:lang="en">
+                  <quote>public bath</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>בנוהג שבעולם מלך בשר ודם מתקלס במדינה ועדיין לא בנה להם דימוסאות ועדיין לא נתן להם פרקטיאה</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">1,12</ref>
+                     <ref type="witness">I 10: 9</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פרקטיאה</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>In human practice an earthly king is honoured in his
+                  realm even before he has built them public baths or provided them private
+                  baths. (Freedman / Simon 11)</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ליה לית הכא מלכו, אלא למלך שהיה מטייל פתח פלטין וראה בולרין אחת מושלכת, אמר
+               מה נעשה בה, מהן אומרים דימוסיות ומהן אומרים פרבטיות, אמר המלך אדריינטיס אני עושה אותה מי מעכב.</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">8,8</ref>
+                     <ref type="witness">I 62:3</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פלטין</ref>
+                  <ref type="entry" xml:lang="jpa">בולרין</ref>
+                  <ref type="entry" xml:lang="jpa">פרבטיות</ref>
+                  <ref type="entry" xml:lang="jpa">אדריינטיס</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Levi said: There is no taking councel here, but it may
+                  be compared to a king who was walking at the door of his palace when he saw
+                  a clod lying about. Said he: “What shall we do with it?” Some answered:
+                  “[Use it in building] public baths”; others answered: “private baths”. “I
+                  will make a statue of it”, declared the king. Who then can hinder him? (Freedman / Simon 60)</quote>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Ancient Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=dhmo%2Fsios&amp;la=greek&amp;can=dhmo%2Fsios0"
+                          type="entry">δημόσιος, 1., 2.</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sperber</title>
+                  <citedRange>96</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

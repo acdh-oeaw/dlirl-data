@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">דייתיקי</title>
+            <title type="alternative">dyytyqy</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="daiteqe-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="daite-dlgenr"
+                next="#delatoria-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">דייתיקי</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dyytyqy</orth>
+               <pron notation="rabbinic" opt="false">daiteqe</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f.</gram>
+               </gramGrp>
+               <form type="variant" source="59,10 - K V Ox1 Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דיאתיקי</orth>
+               </form>
+               <form type="variant" source="61,6 - K V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ודאתיקי</orth>
+               </form>
+               <form type="variant" source="96 - K V Ox1 Ox2 - three times" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דיאתיקי</orth>
+               </form>
+            </form>
+            <sense xml:id="daiteqe-dlgenr-1" opt="false">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>will, testament, document, deed</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek</lang>
+                  </usg>
+                  <quote>διαθήκη</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>וכל טוב אדוניו בידו ר' חלבו אמר זו דייתיקי</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">59,10</ref>
+                     <ref type="witness">[II 637: 13]</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Having all the good of his master’s in his hand - R. Helbo explained that this was a deed of gift. (Freedman / Simon II 522)</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">TanhB Wa-yeṣeʾ 3,3</bibl> (<term xml:lang="jpa">דיתיקי</term>); <bibl type="ancient" default="false" status="draft">SekhT Ḥayye Śarah 24,10</bibl>
+                  </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ורבנין אמ' קבורה ודיאתיקי</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">61,6</ref>
+                     <ref type="witness">[II 664: 2]</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>The Rabbis said: the family vault and a deed of gift. (Freedman / Simon II 545)</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמ' ר' חנינא בנוהג שבעולם אין לודר עושה דייתיקי ומי עושה דייתיקי בני חורין</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">96</ref>
+                     <ref type="witness">[III 1200: 2]</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">לודר</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Rabbi Ḥaninaʾ said: in human practice, a gladiator does not write a will. Who writes a will? Free men.</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>היכן הוא דייתיקי שלהם והאוני שלהם</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">96</ref>
+                     <ref type="witness">III 1201: 2</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אוני</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Where is their testament and their bill of sale?</quote>
+                  </cit>
+               </cit>
+            </sense>
+            <note anchored="true">
+         Cf. <bibl type="modern" default="false" status="draft">Krauss, LW II 197ab</bibl>.
+      </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>140b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

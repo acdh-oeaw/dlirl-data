@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אפורייא</title>
+            <title type="alternative">ʾpwryyʾ</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="aporiyya-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#apopalsamon-dlgenr"
+                next="#apisteqiteh-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אפורייא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾpwryyʾ</orth>
+               <pron notation="rabbinic" opt="false">aporiyyaʾ</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>"
+         <gram type="gen" opt="false">m.</gram>
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">איפורייאה</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾypwryh</orth>
+                  <pron notation="rabbinic" opt="false">iporiyyah</pron>
+               </form>
+               <form type="variant" source="Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אמפורייה</orth>
+               </form>
+               <form type="variant" source="Ox1 Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">איפוריא הטריח</orth>
+               </form>
+               <form type="variant" source="K V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">איפוריא</orth>
+               </form>
+               <form type="variant" source="Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">איפורייה</orth>
+               </form>
+            </form>
+            <sense xml:id="aporiya-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">plants</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false"/>
+               <usg type="geographic" opt="false"/>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>summer-fruits</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Ancient Greek+</lang>
+                  </usg>
+                  <quote>ὀπώρα</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     תדע לך שכן שהלך בשעת הקציר כשעת ביכור כל מיני איפורייאה ולא הביא דבר אלא שהוא מן המובקר
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">72,2</ref>
+                     <ref type="witness">II 837: 3</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        The proof is that he went at harvest time, when all kinds of summer-fruits ripen, yet he took only what was ownerless. (Cf. Freedman / Simon II 662)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 129 [38d: 38]</bibl> (<term xml:lang="jpa">איפוריא</term>);
+            <bibl type="ancient" default="false" status="draft">LeqT Gen 30,14 [76b]</bibl> (<term xml:lang="jpa">איפורה</term>)
+         </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Ancient Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=o%29pw%2Fr-a&amp;la=greek&amp;can=o%29pw%2Fr-a0"
+                          type="entry">ὀπώρα, II.</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               Parallels in Yalq und LeqT are taken from GenR. This form only in GenR (Vat 1 corr.). Cf. 
+      <bibl type="modern" default="false" status="draft">AC I 239a</bibl>;
+      <bibl type="modern" default="false" status="draft">Levy I 138b</bibl>;
+      <bibl type="modern" default="false" status="draft">Jastrow 101a</bibl> (Gr. <term xml:lang="grc">ὀπωριαῖα</term>) “fruit”. Other spellings: <term xml:lang="jpa">איפורה</term>, <term xml:lang="jpa">איפוריא</term>. Cf.
+      <ref type="entry" xml:lang="jpa">פוריא</ref>
+            </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss, LW II</title>
+                  <citedRange>102b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

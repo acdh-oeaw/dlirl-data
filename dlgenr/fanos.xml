@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">פנס</title>
+            <title type="alternative">pns</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="fanos-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#paltin-dlgenr"
+                next="#protata-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">פנס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">pns</orth>
+               <pron notation="rabbinic" opt="false">panas</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פניס</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">pnys</orth>
+                  <pron notation="rabbinic" opt="false">panis</pron>
+               </form>
+               <form type="variant" source="3,1 - K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פניסין</orth>
+               </form>
+               <form type="variant" source="3,1 - V Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פנסין</orth>
+               </form>
+               <form type="variant" source="3,1 - Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פנסים</orth>
+               </form>
+               <form type="variant" source="20,12 - Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פונס</orth>
+               </form>
+               <form type="variant" source="20,12 - V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פיגם</orth>
+               </form>
+               <form type="variant" source="68,10 - Vat1 Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פנסים</orth>
+               </form>
+               <form type="variant" source="68,10 - K V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">את נרות כבו הפנסין</orth>
+               </form>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">פנסים</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">pnsym</orth>
+               <pron notation="rabbinic" opt="false">panasim</pron>
+               <gramGrp opt="false">
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">פניסים</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">pnysym</orth>
+               <pron notation="rabbinic" opt="false">panisim</pron>
+            </form>
+            <sense xml:id="fanos-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">artefacts</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="geographic" opt="false">Coptic; Syriac Aramaic</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>lantern</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek+</lang>
+                  </usg>
+                  <quote>φανός</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>הדליק נרות ופניס</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">3,1</ref>
+                     <ref type="witness">I 19: 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>he lit lights and lanterns</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     בתורתו של ר' מאיר מצאו כתוב כותנות אור אילו בגדי אדם הראשון שדומין לפנס רחבים מלמטן וצרים מלמעלן
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">20,12</ref>
+                     <ref type="witness">I 196: 5</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        In R. Meʾir’s Tora-scroll it was found written: ‘Garments of light’: these are the garments of the first man which were similar to a torch - wide at the bottom and narrow at the top.
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     אמר המלך כבו הפניסים שאני מבקש לדבר עם אוהבי בצינעה
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">68,10</ref>
+                     <ref type="witness">II 781: 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>The king said: ‘Extinguish the lanterns for I desire to talk to my friend in privacy.</quote>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=fa_no%2Fs&amp;la=greek&amp;can=fa_no%2Fs0"
+                          type="entry">φανός, A.</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">Cf. also
+      <bibl type="modern" default="false" status="draft">Sokoloff, SL 1207</bibl>: <term xml:lang="syc">ܦܥܤܐ</term>
+               <term xml:lang="fjb">pnsʾ</term>.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss, LW II</title>
+                  <citedRange>465-466</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

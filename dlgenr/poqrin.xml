@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">פוקרין</title>
+            <title type="alternative">pwqryn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="poqrin-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#folar-dlgenr"
+                next="#pilon-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">פוקרין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">pwqryn</orth>
+               <pron notation="rabbinic" opt="false">poqrin</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m</gram>
+               </gramGrp>
+            </form>
+            <form type="variant" opt="false">
+               <orth xml:lang="jpa" opt="false">פיקרין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">pyqryn</orth>
+               <pron notation="rabbinic" opt="false">piqrin</pron>
+            </form>
+            <sense xml:id="poqrin-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">garments/textiles</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false"/>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>tuft of wool</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Post-Classical Greek+</lang>
+                  </usg>
+                  <quote>ποκάριον</quote>
+               </cit>
+               <cit type="example">
+                  <quote xml:lang="jpa">
+אמר ר' פינחס נטל
+            <app>
+                        <lem>פיקרין</lem>
+                        <rdg wit="#Vat1">פוקדין</rdg>
+                        <rdg wit="#Vat2">פוקרין</rdg>
+                        <rdg wit="#Ox2">פרקין</rdg>
+                     </app>
+ונתן בצוארו אמר ליה
+            <ref type="entry">פרמקוס</ref>
+                     <ref type="entry">פרמקוס</ref>
+לא חרשין מצלחין בליליא
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">77,2</ref>
+                     <ref type="witness">II 911: 5</ref>
+                  </bibl>
+                  <cit type="translation">
+<!-- The english translation of the passage is encoded in a nested cit element -->
+                     <quote xml:lang="en">R. Pineḥas said: [Jacob] took a tuft of wool and stuffed it in his [the angel’s] throat, exclaiming: “You sorcerer, you sorcerer!
+Magicians do not succeed at night!” 
+            </quote>
+                     <bibl default="false" status="draft">Freedman/Simon II 711</bibl>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Post-Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=pok-a%2Frion&amp;la=greek&amp;can=pok-a%2Frion0"
+                          type="entry">ποκάριον</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+Cf. AC VII 404; Levy IV 17; Jastrow II 1146.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss, LW</title>
+                  <citedRange>II 433</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

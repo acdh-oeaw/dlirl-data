@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">דרומליס</title>
+            <title type="alternative">drwmlys</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="dromolis-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#diqayon-dlgenr"
+                next="#draqon-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">דרומליס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">drwmlys</orth>
+               <pron notation="rabbinic" opt="false">dromlis</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דרומוליס</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">drwmwlys</orth>
+                  <pron notation="rabbinic" opt="false">dromolis</pron>
+               </form>
+               <form type="variant" source="Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דרומוליס</orth>
+               </form>
+               <form type="variant" source="Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דורמולוס</orth>
+               </form>
+               <form type="variant" source="V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דרורמילוס</orth>
+               </form>
+               <form type="variant" source="K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דרוסמילוס</orth>
+               </form>
+               <form type="variant" source="Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דרולומיס</orth>
+               </form>
+            </form>
+            <sense xml:id="dromolis-dlgenr-1" opt="false">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>tent/court on the road (side) / fast runner</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>*δρομαυλις</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' אבהו פלונו שלאבינו אברהם מפולש היה, ר' יודן אמר כהדין דרומליס אמר אם אראם שהפליגו אני יודע שבאין אצלי, כיון שראם שהפליגו מיד וירץ לקראתם.</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">48,9</ref>
+                     <ref type="witness">II 486: 3</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פלונו</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Abbahu said: The tent of our father Abraham was open to both sides. R. Yudan said: He was like that (a) court or tent on a road / (b) fast runner; he said: If I see them turn aside, I will know that they are coming to me. When he saw them turn aside, immediately he ran to meet them.</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq 82 [24a: 46]</bibl>
+                  </note>
+               </cit>
+            </sense>
+            <note anchored="true">
+         (a) <bibl type="modern" default="false" status="draft">Levy I 425-426</bibl>: ~ Gr. <term xml:lang="grc">δρόμος</term> „course”; <bibl type="modern" default="false" status="draft">Krauss, LW II 217a</bibl>: ~ Gr. <term xml:lang="grc">*δρόμαυλος</term> from Gr. <term xml:lang="grc">δρόμος</term> „course“ (for further explanation cf. <bibl type="modern" default="false" status="draft">Krauss (1893) 529</bibl>). However, Löw (ad loc.) suggests Gr. <term xml:lang="grc">δρομείς</term>, which fits to <bibl type="modern" default="false" status="draft">Sperber 1978</bibl>. Similarly, we explain as a compound (supported by the orthography in Ox 1 and Vat 1) <term xml:lang="grc">δρομ</term>-<term xml:lang="grc">αυλις</term> from <term xml:lang="grc">δρόμος</term> “course, road” + <term xml:lang="grc">αὐλή</term> “(open) court(yard)” (cf. also <term xml:lang="jpa">אבלי</term>) or <term xml:lang="grc">αὖλις</term> f. “tent or place for passing the night” (Hom+). <bibl type="modern" default="false" status="draft">Jastrow I 322</bibl> interprets the lemma as corr. Gr. <term xml:lang="grc">δίπυλος</term>, i.e. he has a different explanation, but understands the lemma as referring to the tent. (b) Here, the interpretation and translation follows <bibl type="modern" default="false" status="draft">AC II 154-155</bibl>, where the lemma refers to Abraham and the following context “he ran to meet them” The suggested underlying Greek lexeme would be a compound <term xml:lang="grc">*δρομώλης</term> “runner” consisting of <term xml:lang="grc">δρόμος</term> + <term xml:lang="grc">-μωλης</term> from <term xml:lang="grc">μολ-</term> (?) or suffix (?). Hapax. AC and MY mention also Lat. dormitio as possible source.
+      </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>AC III</title>
+                  <citedRange>154-155</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

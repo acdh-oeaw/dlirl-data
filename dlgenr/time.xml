@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">טימי</title>
+            <title type="alternative">ṭymy</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="time-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#zeta-dlgenr"
+                next="#tiksa-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">טימי</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ṭymy</orth>
+               <pron notation="rabbinic" opt="false">ṭime</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f.</gram>
+               </gramGrp>
+               <form type="variant" source="2,2 - K V Ox1 Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">באוני אחת ובטימי אחת</orth>
+               </form>
+            </form>
+            <sense xml:id="time-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">economy</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="geographic" opt="false">Coptic; Syriac Aramaic</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>worth, value, price</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Ancient Greek+</lang>
+                  </usg>
+                  <quote>τιμή</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     ר' אבהו אמר למלך [V Ox 1 K משל למלך] שקנה לו ב' עבדים שניהם באוני אחת ובטימי אחת, על אחד גזר שיהיה ניזון מטימיון ועל אחד גזר שיהיה יגע ישב לו תוהא ובוהא, אמר שנינו בטימי אחת זה ניזון מטימיון ואני ביגיעתי אתמהא [ואני ביגיעתו אתמהא. Vat 2 Ox 1 K V ואני אם איני יגע איני אוכל]
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">2,2</ref>
+                     <ref type="witness">I 15: 4</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">טימיון</ref>
+                  <ref type="entry" xml:lang="jpa">אוני</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Abbahu said: This may be compared to the case of a king who bought two slaves on the same bill of sale and at the same price. One he ordered to be supported at the public expense, while the other he ordered to toil for his bread. The latter sat bewildered and astonished: ‘Both of us were bought at the same price,’ exclaimed he, ‘yet he is supported from the treasury whilst I have to gain my bread by my toil!  [How amazing!]’ (Freedman / Simon I 15)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 4 (2d: 43-48)</bibl>
+                  </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     הוה הדין מסיק ליה בטימי והדין מסיק ליה בטימי עד דמטא בי"ב דינרין
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">11,4</ref>
+                     <ref type="witness">I 91: 8</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">דינרין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        … the one raised the price, and the other raised the price until it reached twelve dinars
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 16 (5d: 22-23)</bibl>
+                  </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     אנא שלחית לך מילא דלית לה טימי ואת שלחת לי צילא דטבא חד פולר
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">35,3</ref>
+                     <ref type="witness">I 333: [Notes]</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">טימי</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        I gave you a priceless object, whereas you returned me something worth but a “follar“. (Freedman / Simon I 286 n. 3)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">yPea 1,1 [82: 19]</bibl>;
+            <bibl type="ancient" default="false" status="draft">Yalq 844 [293a: 49]</bibl>;
+            <bibl type="ancient" default="false" status="draft">Yalq Jos 31 [352a: 22]</bibl>;
+            <bibl type="ancient" default="false" status="draft">Yalq Prov 934 [487b: 11]</bibl>
+                  </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Ancient Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="https://www.perseus.tufts.edu/hopper/morph?l=ti_m-h%2F&amp;la=greek&amp;can=ti_m-h%2F0"
+                          type="entry">τιμή, ΙΙ.</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">Cf.
+      <bibl type="modern" default="false" status="draft">Levy II 154b</bibl>,
+      <bibl type="modern" default="false" status="draft">Krauss, LW II 264a</bibl>,
+      <bibl type="modern" default="false" status="draft">Jastrow I 532ab</bibl> and (in great detail)
+      <bibl type="modern" default="false" status="draft">Sperber (1984) 99-101</bibl>. Sperber distinguishes between 1. 'worth, value, price' and 2. 'reward, satisfaction'; however, in the Rabbinic literature only 1. is attested. Cf. Syr. <term xml:lang="syc">ܛܝܡܐ</term>
+               <term xml:lang="fjb">ṭymʾ</term> (
+      <bibl type="modern" default="false" status="draft">Sokoloff, SL 527a</bibl>).
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>234a</citedRange>
+               </bibl>
+               <bibl default="false" status="draft">
+                  <title>Sperber (1984)</title>
+                  <citedRange>99-101</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

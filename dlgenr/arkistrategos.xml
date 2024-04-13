@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">ארכי סטרטיגוס</title>
+            <title type="alternative">ʾrky sṭrṭygws</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="arkistrategos-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#arkhilistes-dlgenr"
+                next="#arpakas-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">ארכי סטרטיגוס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾrky sṭrṭygws</orth>
+               <pron notation="rabbinic" opt="false">arkhi sṭraṭegos</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ארכיסטרטגוס</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾrkysṭrtyhws</orth>
+                  <pron notation="rabbinic" opt="false">arkhisṭraṭegos</pron>
+               </form>
+               <form type="variant" source="V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ארכו סטרטיגוס</orth>
+               </form>
+               <form type="variant" source="K Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">איכטרטיגוס</orth>
+               </form>
+               <form type="variant" source="Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ארכי איסטריגוס</orth>
+               </form>
+               <form type="variant" source="Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ארכונטוס שלהם</orth>
+               </form>
+               <form type="variant" source="Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ארכיאיסטריטיגוס</orth>
+               </form>
+            </form>
+            <sense xml:id="arkistrategos-dlgenr-1" opt="false">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>commander in chief</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek</lang>
+                  </usg>
+                  <quote>ἀρχιστρατηγός</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ועפרון ישב בתוך בני חת וגו' ר' יצחק אמר ישב כת' אותו היום מינוהו ארכי סטרטיגוס</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">58,7</ref>
+                     <ref type="witness">[II 625: 4-5]</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Now Ephron was sitting in the midst of the children of Heth (Gen 23,10). R. Isaac said: ‘Was sitting’ is written defectively, intimating that it was on that very day that they had apppointed him chief commander … (Freedman / Simon II 512-513)</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">SekhṬ 23,10 [72]</bibl> (<term xml:lang="jpa">שוטר</term>); <bibl type="ancient" default="false" status="draft">LeqṬ 23,10 [52b]</bibl> (<term xml:lang="jpa">ארכי איסטרטיגוס</term>)</note>
+               </cit>
+            </sense>
+            <note anchored="true">
+         See <bibl type="modern" default="false" status="draft">Jastrow I 122a</bibl>; <bibl type="modern" default="false" status="draft">Levy I 168a</bibl>.
+      </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss, LW II</title>
+                  <citedRange>131b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

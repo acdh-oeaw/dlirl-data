@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אפוטרופוס</title>
+            <title type="alternative">ʾpwṭrwpws</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="epotropos-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#asperon-dlgenr"
+                next="#apotarkha-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אפוטרופוס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾpwṭrwpws</orth>
+               <pron notation="rabbinic" opt="false">epoṭropos</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אפיטרופוס</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾpyṭrwpws</orth>
+                  <pron notation="rabbinic" opt="false">epiṭropos</pron>
+               </form>
+               <form type="variant" source="6,4 - Vat1 Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אפטרופים</orth>
+               </form>
+               <form type="variant" source="6,4 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אפטרופוסי'</orth>
+               </form>
+               <form type="variant" source="6,4 - Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אפוטרפסי'</orth>
+               </form>
+               <form type="variant" source="6,4 - V K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אפוטרופים</orth>
+               </form>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">אפוטרופוסין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾpwṭrwpwsyn</orth>
+               <pron notation="rabbinic" opt="false">epoṭroposin</pron>
+               <gramGrp opt="false">
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">אפיטרופוסין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾpyṭrwpwsyn</orth>
+               <pron notation="rabbinic" opt="false">epiṭroposin</pron>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">אפוטרופין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾpwṭrwpyn</orth>
+               <pron notation="rabbinic" opt="false">epoṭropin</pron>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">אפיטרופין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾpyṭrwpyn</orth>
+               <pron notation="rabbinic" opt="false">epiṭropin</pron>
+            </form>
+            <sense xml:id="epotropos-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">law/adminstration</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>guardian, trustee (of minors / orphans)</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     ויקרא יעקב אל בניו רבי יודן ורבי פנחס, רבי יודן אמר ויקרא יעקב לאל להיות עם בניו, רבי פנחס אמר זימנו לבניו, אמר רבי אבון עשאו אפוטרופוס על בניו
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">98 (99),2</ref>
+                     <ref type="witness">III 1250: 7</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        And Jacob called unto (el) his sons (Gen 49,1). R. Yudan and R. Pinḥas interpreted it differently. R. Yudan interpreted it: And Jacob called to God (El) to be with his sons. R. Pinḥas said: He invited Him on behalf of his sons. R. Avun said: He appointed Him a guardian for his sons. (Freedman / Simon II 945)
+            </quote>
+                  </cit>
+               </cit>
+            </sense>
+            <sense xml:id="epotropos-dlgenr-2" opt="false">
+               <cit type="translation" xml:lang="en">
+                  <quote>governor</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek+</lang>
+                  </usg>
+                  <quote>ἐπίτροπος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     ואת הכוכבים אמר ר' אחא למלך [Ox 1 Ox 2 V K משל למלך] שהיה לו ב' אפיטרופים אחד שלט בעיר ואחד במדינה, אמר המלך הואיל ומיעט עצמו זה להיות שולט בעיר גוזר אני עליו בשעה שיוצא תהא בולי ודימוס יוצאין [בולי ודימוס יוצאין. V K כל אוכלוסא יוצאה] עמו ובשעה שנכנס תהא בולי ודימוס נכנסין עמו
+         </quote>
+                  <ref type="entry" xml:lang="jpa">בולי</ref>
+                  <ref type="entry" xml:lang="jpa">דימוס</ref>
+                  <ref type="entry" xml:lang="jpa">אוכלוסא</ref>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">6,4</ref>
+                     <ref type="witness">I 43: 4</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        And the stars (Gen 1,16). R. Aḥa said: This is similar to a king who had two governors, one ruling in the city and the other in the province. Said the king: “Since the former has humbled himself to rule in the city only, I decree that wherever he goes out, the city council and the people shall go out with him, and whenever he enters, the city council and the people shall enter with him. (Cf. Freedman / Simon I 43-44)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 9 [4a: 41]</bibl> (<term xml:lang="jpa">אפוטרופסין</term>)
+         </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=e%29pi%2Ftrop-os&amp;la=greek&amp;can=e%29pi%2Ftrop-os0"
+                          type="entry">ἐπίτροπος</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               Cf. 
+      <bibl type="modern" default="false" status="draft">Heijmanns (2013) 52-53</bibl>. One of the most common legal terms in Rabb. literature, attested in various spellings and forms. Cf. at length:
+      <bibl type="modern" default="false" status="draft">Sperber (1984) 56-59</bibl>. Semantic difference between “administrator (of estate etc)” (e.g. in
+      <bibl type="ancient" default="false" status="draft">yBM 5,6 [1229: 17,18]</bibl>) and “governor, procurator” (as in
+      <bibl type="ancient" default="false" status="draft">GenR 6,4</bibl>), as distinguished by Sperber, is not always obvious. Krauss (LW II 103b-104b) distinguishes only 1. and 2. Cf. Syr. <term xml:lang="syc">ܐܦܝܛܪܘܦܐ</term>
+               <term xml:lang="fjb">ʾpyṭrwpʾ</term> (
+      <bibl type="modern" default="false" status="draft">Sokoloff, SL 83ab</bibl>). For derivatives cf. Sperber ibid.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>46ab</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

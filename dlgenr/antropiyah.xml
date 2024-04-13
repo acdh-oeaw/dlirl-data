@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אנתרופיה</title>
+            <title type="alternative">ʾntrwpyh</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="antropiyah-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#antrope-dlgenr"
+                next="#astrologos-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אנתרופיה</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾntrwpyh</orth>
+               <pron notation="rabbinic" opt="false">antropiyah</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אנתרופיא</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾntrwphʾ</orth>
+                  <pron notation="rabinic" opt="false">antropiyaʾ</pron>
+               </form>
+               <form type="variant" source="18,4 - V K" opt="false">
+                  <orth type="variant" xml:lang="fjb" opt="false">אנתרופיא</orth>
+               </form>
+               <form type="variant" source="18,4 - Vat1" opt="false">
+                  <orth type="variant" xml:lang="fjb" opt="false">אנתרופיאה</orth>
+               </form>
+               <form type="variant" source="18,4 - Ox1 Ox2" opt="false">
+                  <orth type="variant" xml:lang="fjb" opt="false">אנתרופא</orth>
+               </form>
+               <form type="variant" source="18,4 - Vat2" opt="false">
+                  <orth type="variant" xml:lang="fjb" opt="false">אנתרופיה</orth>
+               </form>
+               <form type="variant" source="31,8 - K V" opt="false">
+                  <orth type="variant" xml:lang="fjb" opt="false">אנתרופיה</orth>
+               </form>
+               <form type="variant" source="31,8 - Ox2" opt="false">
+                  <orth type="variant" xml:lang="fjb" opt="false">אנתרופיא</orth>
+               </form>
+               <form type="variant" source="31,8 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="fjb" opt="false">אנטרופיתא</orth>
+               </form>
+               <form type="variant" source="31,8 - Vat1" opt="false">
+                  <orth type="variant" xml:lang="fjb" opt="false">אנתרופייא</orth>
+               </form>
+            </form>
+            <sense xml:id="antropiyah-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">human life/biology</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">code-switching</usg>
+               <usg type="normativity" opt="false">ad-hoc formation</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false">hapax legomenon</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <lbl opt="false">artificial for</lbl>
+                  <quote>woman</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Ancient Greek+</lang>
+                  </usg>
+                  <quote>ἂνθρωπος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     לזאת יקרא אשה כי מאיש לקחה וגו' מיכן אתה למד שניתנה התורה בלשון הקודש, ר' פינחס ור' חלקיה בשם ר' סימון כשם שניתה בלשון הקודש כך נברא העולם בלשון הקודש, שמעת מימיך אומר גיני גיניה איתא איתתא אנתרופי אנתרופייא, גברא גברתא, אלא איש ואשה למה שהלשון הזה נופל על הלשון הזה.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">18,4</ref>
+                     <ref type="witness">I 165: 1</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">גיני</ref>
+                  <ref type="entry" xml:lang="jpa">גיניה</ref>
+                  <ref type="entry" xml:lang="jpa">אנתרופי</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        She shall be called woman (“ishah”), because she was taken out of man (“ish”) (Gen 2,23). From this you learn that the Torah was given in the Holy Tongue.  R. Pinḥas and R. Ḥilqiyyh in R. Simon’s name said: Just as it was given in the Holy Tongue, so was the world created with the Holy Tongue. Have you ever heard on say “gini” “ginia”, “itaʾ”, “itetaʾ”, “anṭropi”, “anṭropia”, “gavraʾ”, “gavretaʾ”? But “ish” and “ishah” [are used]: why? Because one form corresponds to the other. (Freedman / Simon I 143)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 24 [8b: 60-61]</bibl> (<term xml:lang="jpa">אנתרופיא</term>)
+         </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     עשה לך שרף לא נתפרש, ר' יודן בשם ר' אסי ישמע חכם ויוסיף לקח זה משה, אמר אם אעשה אותו שלזהב או שלכסף אין הלשון הזה נופל [על הלשון הזה] אלא הריני עושהו שלנחשת שהלשון הזה נופל [על הלשון הזה] נחש הנחשת, מיכן שניתנה תורה בלשון הקודש, ר' פינחס ורבי חזקיה מש' ר' סימון כשם שניתנה תורה בלשון קודש כך נברא העולם בלשון קודש, שמעת מימיך אומר גיני גינייה אנתרופי אנתרופייה, [נברא גברתא], אלא איש ואשה, למה שהלשון הזה נופל על הלשון הזה.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">31,8</ref>
+                     <ref type="witness">I 281: 7</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">גיני</ref>
+                  <ref type="entry" xml:lang="jpa">גינייה</ref>
+                  <ref type="entry" xml:lang="jpa">אנתרופי</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        The meaning of Make thee a fiery serpent (Num 21,8) is not clear. R. Yudan said in R. Assis name: The wise man may hear, and increase in learning (Prov 1,6) applies to Moses, who reasoned thus: If I make it of gold (“zahav”) or of silver (“kesef”), these words do not correspond to the other. Hence I will make it of neḥoshet (brass), since this word corresponds to the other, viz. neḥash neḥoshet – a serpent of brass (ib. 9): this proves that the Torah was given in Hebrew. R. Pinḥas and R. Ḥizqiyyah in R. Simon’s name said: Just as it was given in the Holy Tongue, so was the world created with the Holy Tongue. Have you ever heard on say “gini” “ginia”, “itaʾ”, “itetaʾ”, “anṭropi”, “anṭropia”, “gavraʾ”, “gavretaʾ”? But “ish” and “ishah” [are used]: why? Because one form corresponds to the other. (Freedman / Simon I 242; 143)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 52 [14a: 56]</bibl> (<term xml:lang="jpa">אנתרופתא</term>)
+         </note>
+               </cit>
+            </sense>
+            <note anchored="true">Cf.
+      <bibl type="modern" default="false" status="draft">AC 163ab</bibl>;
+      <bibl type="modern" default="false" status="draft">Levy 116a</bibl>,
+      <bibl type="modern" default="false" status="draft">Krauss, LW II 76b</bibl>;
+      <bibl type="modern" default="false" status="draft">Jastrow 88b</bibl>. Cf.
+      <ref type="entry" xml:lang="jpa">גוניה</ref>,
+      <ref type="entry" xml:lang="jpa">אנתרופי</ref>
+            </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>43a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

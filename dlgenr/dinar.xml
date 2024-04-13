@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">דינר</title>
+            <title type="alternative">dynr</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="dinar-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#dimos-dlgenr"
+                next="#disqos-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">דינר</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dynr</orth>
+               <pron notation="rabbinic" opt="false">dinar</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">דינרין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dynryn</orth>
+               <pron notation="rabbinic" opt="false">dinarin</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="dinar-dlgenr-1" opt="false">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>gold dinar (currency)</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek</lang>
+                  </usg>
+                  <quote>δηνάριον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר לו גביעה בן קוסם אדני המלך ששים ריבוא בני אדם עבדום ר"י שנה, מהם כספים ומהם זהבים, יתנו לנו מדינר דינר בכל יום, ישבו פילוסופין וחשבו ולא הגיעו לק' שנה עד שנמצאת ארץ מצרים לטימיון ונסתלקו בבושת פנים.</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">61,6</ref>
+                     <ref type="witness">II 668: 2</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">טימיון</ref>
+                  <ref type="entry" xml:lang="jpa">פילוסופין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Said Gebiah, the son of Kosem: ‘Your Majesty! Six hundred thousand men served them two hundred and ten years, of whom some were silversmiths and some goldsmiths. Let them pay us [for their labour] at the rate of a dinar per day.’ Thereupon mathematicians sat and calculated [what was owing for their labour], and they had not reached a hundred years before Egypt was found to be forfeit [for the sum due], and so they departed in shame. (Freedman / Simon II 547)</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>הוה הדין מסיק ליה בטימי והדין מסיק ליה בטימי עד דמטא בי"ב דינרין</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">11,4</ref>
+                     <ref type="witness">I 91: 8</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">טימי</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Each overbid the other until it reached twelve dinars. (Freedman / Simon I 83)</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq 16 (5d: 23)</bibl>
+                  </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ואת כל ונכחת אמר ליה כבר תוכחתה דאיהוא גברא גביה דתנן המורדת על בעלה פוחתין לה מכתובתה שבעה דינרין בשבת, למה שבעה דינרין מפני שהיא מתחייבת לו שבע מלאכות טוחנת ואופה ומכבסת ומבשלת ומיניקה את בנה ומצעת את המיטה ועושה בצמר לפיכך שבעה וכן המורד על אשתו מוסיפין לה על כתובתה ג' דינרין בשבת, למה ג' דינרין מפני שהוא חייב לה שארה כסותה ועונתה לפיכך שלשה</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">52,12</ref>
+                     <ref type="witness">II 552: 2.4.5</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And before all men thou art reproved. He said to her: ‘This man’s [Abraham’s] reproof is already with him. For we learned: If a woman revolts against her husband, seven denarii are deducted from her settlement weekly. And why seven Denarii? Because of the seven labors which a woman owes to her husband: grinding corn, baking, laundering, cooking, suckling her child, preparing his bed, and working in wool: hence seven. Conversely, if a man revolts against his wife, her settlement is increased by three denarii per week. (Freedman / Simon I 459)</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>[ויהי כשמע לבן] וגו' אמר אליעזר פסול הבית היה וכת' ביה ויקח העבד עשרה גמלים, זה שהוא אהובו שלבית על אחת כמה וכמה, וכיון דלא חמא אפיסטקיתיה ויחבק לו אמר דילמא דינרין אינון ויהיבין בחרציה</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">70,13</ref>
+                     <ref type="witness">II 812: 10</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אפיסטקיתיה</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And it came to pass when Laban heard etc. (Gen 29,13). He reasoned: Eliʿezer was an unimportant member of the household, yet it is written of him, And the servant took ten camels (Gen 24,10); how much more so than this man who is beloved of his home! But when he had not even seen his sack of food he embraced him, thinking, perhaps he has money in his girdle. (cf. Freedman / Simon II 646)</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq 124 [38a: 8]</bibl>
+                  </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>והא יהיבין גביה ק' דינרין</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">84,3</ref>
+                     <ref type="witness">II 1002: 8</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>[but order that] a hundred Dinarii be given to him … (Freedman / Simon II 770)</quote>
+                  </cit>
+               </cit>
+            </sense>
+            <note anchored="true">
+         Cf. <bibl type="modern" default="false" status="draft">Krauss, LW II 207b-208b</bibl>. For Syr. <term xml:lang="syc">ܕܝܢܪܐ</term>
+               <term xml:lang="fjb">dynrʾ</term>, <bibl type="modern" default="false" status="draft">Sokoloff SL 297b</bibl>.
+      </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>142ab</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

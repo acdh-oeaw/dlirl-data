@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אנפרין</title>
+            <title type="alternative">ʾnpryn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="anperin-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#anfaqinon-dlgenr"
+                next="#onqos-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אנפרין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾnpryn</orth>
+               <pron notation="rabbinic" opt="false">ʾanperin</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אמפרין</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾmpryn</orth>
+                  <pron notation="rabbinic" opt="false">ʾamperin</pron>
+               </form>
+               <form type="variant" source="61,5 - Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">לומפרין</orth>
+               </form>
+               <form type="variant" source="61,5 - K V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">לופרין</orth>
+               </form>
+               <form type="variant" source="61,5 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">לפרין</orth>
+               </form>
+               <form type="variant" source="61,5 - Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">לפדין</orth>
+               </form>
+            </form>
+            <sense xml:id="anperin-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">occupations</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false"/>
+               <usg type="geographic" opt="false"/>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>traders</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Ancient Greek+</lang>
+                  </usg>
+                  <quote>ἔμποροι</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     ויוקשן ילד את שבא ואת דדן ובני דדן היו אשורים ולטושים ולאומים. ר' שמואל בר נחמן אמר אפעלגב דאינון מתרגמין ואמרין תגרין ואנפרין וראשי אומין כולהם ראשי אומות הם.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">61,5</ref>
+                     <ref type="witness">II 663: 6</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">לומפרין</ref>
+                  <ref type="entry" xml:lang="jpa">לופרין</ref>
+                  <ref type="entry" xml:lang="jpa">לפרין</ref>
+                  <ref type="entry" xml:lang="jpa">לפדין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>“And Jokshan begot Sheba, and Dedan. And the sons of Dedan were Asshurim, and Letushim and Leumim” (Gen 25,3). R. Shemuʾel bar Naḥman said: Although they [the meturgamanin in the Synagogues] translate and say: “merchants” [for Asshurim], “traders” [for Letushim] and “heads of peoples” [for Leumim], yet they were all heads of peoples. (cf. Freedman / Simon II 565)</quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 109 (32c: 551)</bibl> (<term xml:lang="jpa">ולופרין</term>);
+            <bibl type="ancient" default="false" status="draft">Yalq Chr. 1 1073 (516c: 52-53)</bibl> (in the name of R. Shimʿon b. Gamliʾel) (<term xml:lang="jpa">ולופרין</term>);
+            <bibl type="ancient" default="false" status="draft">SekhT (Buber) Ḥayye Sarah 25,3</bibl>
+                  </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Ancient Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aalphabetic+letter%3D*e%3Aentry+group%3D93%3Aentry%3De%29%2Fmporos"
+                          type="entry">ἔμπορος, ΙΙΙ.</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">Reading of <bibl type="ancient" default="false" status="draft">Targ. Jonathan on Gen 25,3</bibl>. Cf. MY ad loc.;
+      <bibl type="modern" default="false" status="draft">Levy I 99</bibl>;
+      <bibl type="modern" default="false" status="draft">Jastrow I 78</bibl>.
+      <bibl type="modern" default="false" status="draft">AC I 124</bibl> suggests also „Verständiger, Scharfsinniger“ (“intelligent, ingenious”) for Gr. <term xml:lang="grc">ἔμφρων</term>. However, this is the reading of BM and Vat 2 only, while all other mss and parallels read
+      <ref type="entry" xml:lang="jpa">לופרין</ref>.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss, LW II</title>
+                  <citedRange>61</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

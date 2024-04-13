@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">טמיון</title>
+            <title type="alternative">ṭmywn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="temyon-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#tiksa-dlgenr"
+                next="#koravlin-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">טמיון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ṭmywn</orth>
+               <pron notation="rabbinic" opt="false">ṭemyon</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">טימיון</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ṭymywn</orth>
+                  <pron notation="rabbinic" opt="false">ṭemyon</pron>
+               </form>
+               <form type="variant" source="2,2 - first occurrence - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">מטמיון של מלך</orth>
+               </form>
+               <form type="variant" source="2,2 - first occurrence - V K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">מטמיון</orth>
+               </form>
+               <form type="variant"
+                     source="2,2 - second occurrence - Ox1 V K"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">מטמיון</orth>
+               </form>
+               <form type="variant" source="41 (42),3 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">טמיון</orth>
+               </form>
+               <form type="variant" source="41 (42),3 - K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">טימון</orth>
+               </form>
+               <form type="variant" source="41 (42),3 - V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">טמון</orth>
+               </form>
+               <form type="variant" source="41 (42),3 - Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">טמנון</orth>
+               </form>
+               <form type="variant" source="51,2 - Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">מיטימין</orth>
+               </form>
+               <form type="variant" source="61,7 - Ox1 Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">טמיון</orth>
+               </form>
+               <form type="variant" source="61,7 - Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">-</orth>
+               </form>
+            </form>
+            <sense xml:id="temyon-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">economy</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="geographic" opt="false">Coptic; Syriac Aramaic</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>treasury, tax, fiscus</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Ancient Greek+</lang>
+                  </usg>
+                  <quote>ταμ(ι)εῖον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     ר' אבהו אמר למלך [V Ox 1 K משל למלך] שקנה לו ב' עבדים שניהם באוני אחת ובטימי אחת, על אחד גזר שיהיה ניזון מטימיון ועל אחד גזר שיהיה יגע ישב לו תוהא ובוהא, אמר שנינו אחת זה ניזון מטימיון ואני ביגיעתי אתמהא [ואני ביגיעתו אתמהא. Vat 2 Ox 1 K V ואני אם איני יגע איני אוכל]
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">2,2</ref>
+                     <ref type="witness">I 15: 4</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">טימי</ref>
+                  <ref type="entry" xml:lang="jpa" target="oni">אוני</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Abbahu said: This may be compared to the case of a king who bought two slaves on the same bill of sale and at the same price. One he ordered to be supported at the public expense, while the other he ordered to toil for his bread. The latter sat bewildered and astonished: ‘Both of us were bought at the same price,’ exclaimed he, ‘yet he is supported from the treasury whilst I have to gain my bread by my toil!  [How amazing!]’ (Freedman / Simon I 15)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 4 (2d: 43-48)</bibl>
+                  </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     למדינה שחייבת ליפס [Vat 2 ליפת | Vat 1  פס] למלך שלח המלך גביי טימיון לגבותה
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">41 (42),3</ref>
+                     <ref type="witness">I 403: 3</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">ליפס</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        [This may be compared] to a province that owed areas to the king, and the king sent a treasury officer to collect them. (Freedman / Simon I 343)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">LevR Shemini 11,7</bibl> (<term xml:lang="jpa">טמיון</term>) [Marg.: <term xml:lang="jpa">טימון</term>];
+            <bibl type="ancient" default="false" status="draft">LevR Emor 30,7</bibl> (-);
+            <bibl type="ancient" default="false" status="draft">PesK 27</bibl> (-);
+            <bibl type="ancient" default="false" status="draft">TanhB Emor 30</bibl> (-);
+            <bibl type="ancient" default="false" status="draft">Tan Emor 22</bibl> (-);
+            <bibl type="ancient" default="false" status="draft">Yalq 651 (203d 12-13)</bibl>;
+            <bibl type="ancient" default="false" status="draft">Yalq Rut 597 (520a: 36-38)</bibl> (<term xml:lang="jpa">טמיון</term>);
+            <bibl type="ancient" default="false" status="draft">Yalq Est 1044 (526c: 27-28)</bibl> (<term xml:lang="jpa">טמיון</term>);
+            <bibl type="ancient" default="false" status="draft">KohR 9,7</bibl> (<term xml:lang="jpa">טימיון</term>)
+         </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     לשתי מדינות שמרדו במלך, אמר המלך אחת תשרף [אחת תשרף. V Ox 2 K תשרף אחת באש] משלה ואחת תשרף [Ox 2 תשרף באש] מטמיון
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">51,2</ref>
+                     <ref type="witness">II 532: 5</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        [This may be compared] to two countries that revolted against the king. The king said: One shall be burnt down at its own cost and the other shall be burnt down [at the cost] of [the king’s] treasury.
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 84 (26c: 42-44)</bibl> (<term xml:lang="jpa">טמיון</term>)
+         </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     ולא הגיעו לק' שנה עד שנמצאת ארץ מצרים לטימיון
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">61,7</ref>
+                     <ref type="witness">II 668: 2</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>… and they had not reached a hundred years before Egypt was found [to be forfeit] for the treasury.</quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 110 (32d: 22)</bibl> (<term xml:lang="jpa">טמיון</term>)
+         </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Ancient Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="https://www.perseus.tufts.edu/hopper/morph?l=ta%5Emi%5E-ei%3Don&amp;la=greek&amp;can=ta%5Emi%5E-ei%3Don0"
+                          type="entry">ταμιεῖον</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">Cf.
+      <bibl type="modern" default="false" status="draft">Krauss, LW II 268b</bibl>. The translations of 51,2 and 61,7 follow
+      <bibl type="modern" default="false" status="draft">Levy II 166ab</bibl>; cf. also
+      <bibl type="modern" default="false" status="draft">AC II 42b-43a</bibl> and
+      <bibl type="modern" default="false" status="draft">Jastrow I 539b</bibl>. In some cases may be confused with <term xml:lang="jpa">טמיקון</term>
+               <term xml:lang="fjb">ṭmyqwn</term>
+               <term xml:lang="rabbinic">ṭemiqon</term> Gr. <term xml:lang="grc">τεμειακόν</term> or <term xml:lang="jpa">טמיקא</term>
+               <term xml:lang="fjb">ṭmyqʾ</term>
+               <term xml:lang="rabbinic">ṭemiqaʾ</term> Gr. <term xml:lang="grc">ταμειακά</term> 'imperial treasury' (
+      <bibl type="modern" default="false" status="draft">Krauss, LW II 268b</bibl>, not in GenR). Cf. Syr. <term xml:lang="syc">ܛܡܝܘܢ</term>
+               <term xml:lang="jpa">ṭmywn</term> (
+      <bibl type="modern" default="false" status="draft">Sokoloff, SL 536-537</bibl>).
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>234a</citedRange>
+               </bibl>
+               <bibl default="false" status="draft">
+                  <title>Krauss, LW II</title>
+                  <citedRange>268</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

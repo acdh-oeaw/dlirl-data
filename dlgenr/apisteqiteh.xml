@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אפיסתקיתיה</title>
+            <title type="alternative">ʾpystqytyh</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="apisteqiteh-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#aporiyya-dlgenr"
+                next="#efipyon-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אפיסתקיתיה</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾpystqytyh</orth>
+               <pron notation="rabbinic" opt="false">apisteqiteh</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f.</gram>
+                  <note anchored="true">+ suff. 3 pers. m. of <term xml:lang="jpa">*אפיסתיקי</term>
+                  </note>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אפיסטקיתיה</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾpysṭqytyh</orth>
+                  <pron notation="rabbinic" opt="false">apisṭeqiteh</pron>
+               </form>
+               <form type="variant" source="Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אפוסטקיתיה</orth>
+               </form>
+               <form type="variant" source="Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אפסתיקי</orth>
+               </form>
+               <form type="variant" source="Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אפסיתיקניה</orth>
+               </form>
+               <form type="variant" source="K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אפילו אפיסתקיתיה</orth>
+               </form>
+               <form type="variant" source="V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אפיסטקיתיה</orth>
+               </form>
+            </form>
+            <sense xml:id="apistegiteh-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">artefacts</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false">hapax legomenon</usg>
+               <usg type="geographic" opt="false"/>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>sack for food</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Medieval Greek+</lang>
+                  </usg>
+                  <quote>ὀψοθήκη (?)</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     ויהי כשמע לבן וגו' אמר אליעזר פסול הבית היה וכת' ביה ויקח העבד עשרה גמלים, זה שהוא אהובו שלבית על אחת כמה וכמה, וכיון דלא חמא אפיסטקיתיה ויחבק לו אמר דילמא דינרין אינון ויהיבין בחרציה
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">70,13</ref>
+                     <ref type="witness">II 812: 10</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">דינרין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        And it came to pass when Laban heard etc. (Gen 29,13). He reasoned: Eliʿezer was an unimportant member of the household, yet it is written of him, And the servant took ten camels (Gen 24,10); how much more so than this man who is beloved of his home! But when he had not even seen his sack of food he embraced him, thinking, perhaps he has money in his girdle. (cf. Freedman / Simon II 646)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 124 [38a: 7]</bibl> (<term xml:lang="jpa">אפסתיקא</term>)
+         </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Medieval Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=o%29yo-qh%2Fkh&amp;la=greek&amp;can=o%29yo-qh%2Fkh0"
+                          type="entry">ὀψοθήκη</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               Here only. Cf. 
+      <bibl type="modern" default="false" status="draft">Fürst 71b</bibl>;
+      <bibl type="modern" default="false" status="draft">Levy I 146b</bibl>; Löw in
+      <bibl type="modern" default="false" status="draft">Krauss, LW II 112ab</bibl>. Cf. also
+      <bibl type="modern" default="false" status="draft">Krauss ibid.</bibl> and
+      <bibl type="modern" default="false" status="draft">AC I 225a</bibl> for alternative (incorrect) explanations.
+      <bibl type="modern" default="false" status="draft">Jastrow I 106b</bibl> suggests correction to <term xml:lang="jpa">אפותיקי</term> (+ suff.) <term xml:lang="grc">ἀποθήκη</term> (not in GenR).
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA 47b</title>
+                  <citedRange>47b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

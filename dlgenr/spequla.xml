@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">ספיקולא</title>
+            <title type="alternative">spyqwlʾ</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="spequla-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#sisirnon-dlgenr"
+                next="#folar-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">ספיקולא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">spyqwlʾ</orth>
+               <pron notation="rabbinic" opt="false">spequlaʾ</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f</gram>
+               </gramGrp>
+            </form>
+            <form type="variant" opt="false">
+               <orth xml:lang="jpa" opt="false">ספיקולא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">spyqwlh</orth>
+               <pron notation="rabbinic" opt="false">spequlah</pron>
+            </form>
+            <sense xml:id="spequla-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">law</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false"/>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>death sentence</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <usg opt="false">
+                     <lang opt="false">Latin</lang>
+                  </usg>
+                  <quote>specula</quote>
+               </cit>
+               <cit type="example">
+                  <quote xml:lang="jpa">
+חמה חד צייד קאי צייד ציפרין וכד הוה שמע ברת קלא אמרה מן שמיא
+            <ref type="entry">דימיס</ref>
+ הוות פשגה
+            <app>
+                        <lem>ספיקולה</lem>
+                        <rdg wit="#Ox1">ספיקולא</rdg>
+                        <rdg wit="#Ox2">ספיקולא</rdg>
+                     </app>
+הוות מיתצדה
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">79,6</ref>
+                     <ref type="witness">II 942: 1</ref>
+                  </bibl>
+                  <cit type="translation">
+                     <quote xml:lang="en">
+At the end of this period he [R. Shimʿon] saw a hunter engaged in catching birds. Now whenever he [R. Shimʿon] heard a heavenly voice exclaim from heaven “released!” it escaped; if it exclaimed “death sentence!” it was caught.
+= yShev 9 (38d [209]) (-); bShab 33b (-); PesK be-Shalaḥ 11,16 (-); MKoh 10,8 (<term xml:lang="jpa">ספיקלא</term>); MTeh 17,13 (<term xml:lang="jpa">ספיקלא</term>); MachTeh 17,25 (<term xml:lang="jpa">ספיקלא</term>); EstR 3,7 (<term xml:lang="jpa">ספיקלא</term>); Yalq 133 (42b: 15) (<term xml:lang="jpa">ספקולא</term>)
+            </quote>
+                     <bibl default="false" status="draft">cf. Freedman / Simon II: 730</bibl>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Latin (via Post-Classical Greek)</lang>
+               <etym type="derivation" opt="false">
+                  <cit type="etymon" xml:lang="la">
+                     <form opt="false">
+                        <orth opt="false">*specula</orth>
+                     </form>
+                     <gramGrp opt="false">
+                        <gram type="pos" opt="false">nominal derivation</gram>
+                        <gram type="gen" opt="false">f</gram>
+                     </gramGrp>
+                     <cit type="translation" xml:lang="en">
+                        <quote xml:lang="en">death sentence</quote>
+                     </cit>
+                  </cit>
+               </etym>
+               <lbl opt="false">from</lbl>
+               <cit type="etymon" xml:lang="la">
+                  <form opt="false">
+                     <orth opt="false">speculator</orth>
+                  </form>
+                  <gramGrp opt="false">
+                     <gram type="pos" opt="false">noun</gram>
+                     <gram type="gender" opt="false">m.</gram>
+                  </gramGrp>
+                  <cit type="translation" xml:lang="en">
+                     <quote xml:lang="en">executioner</quote>
+                  </cit>
+               </cit>
+               <xr type="related" opt="false">
+                  <lbl opt="false">Cf. LSJ</lbl>
+                  <ref target="http://www.perseus.tufts.edu/hopper/morph?l=spekoula%2Ftwr&amp;la=greek&amp;can=spekoula%2Ftwr0"
+                       type="entry">σπεκουλάτωρ,1.</ref>
+               </xr>
+            </etym>
+            <note anchored="true">
+Acc. to Sperber the lemma is derived from Lat. speculator “executioner” (not in GenR).
+ Cf. Krauss, LW II 407. Levy III 572: - Gr. <term xml:lang="grc">σφάκελος</term> = <term xml:lang="grc">φάκελος</term> “bunch”, fig. “(scourging) rod, order to scourge”, but cf. Fleischer I 442; Jastrow II 1014: - Lat. speculum “dart, javelin”, fig. “to call for judgment, to sentence”.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sperber 1984</title>
+                  <citedRange>131-132</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

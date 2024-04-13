@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אויר</title>
+            <title type="alternative">ʾwyr</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="awir-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#awtentia-dlgenr"
+                next="#oni-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אויר</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾwyr</orth>
+               <pron notation="rabbinic" opt="false">awir</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m./f.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אוירה</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾwyrh</orth>
+                  <pron notation="rabbinic" opt="false">awirah</pron>
+               </form>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אוירא</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾwyrʾ</orth>
+                  <pron notation="rabbinic" opt="false">awiraʾ</pron>
+               </form>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אויריה</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾwyryh</orth>
+                  <pron notation="rabbinic" opt="false">awiryah</pron>
+               </form>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אווירייה</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾwwyryyh</orth>
+                  <pron notation="rabbinic" opt="false">awiryyah</pron>
+               </form>
+               <form type="variant" source="53,15 - Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">לאווירה</orth>
+               </form>
+               <form type="variant" source="53,15 - K Ox1 Ox2 V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">לאוירא</orth>
+               </form>
+               <form type="variant" source="86,6 - Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">לאווירה</orth>
+               </form>
+               <form type="variant" source="86,6 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אאוירא</orth>
+               </form>
+               <form type="variant" source="86,6 - Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">לאוירא</orth>
+               </form>
+               <form type="variant" source="86,6 - K V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">לארעא</orth>
+               </form>
+               <form type="variant" source="34,15 - first quotation - Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אוירה</orth>
+               </form>
+               <form type="variant" source="34,15 - first quotation - Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אווירה</orth>
+               </form>
+               <form type="variant"
+                     source="34,15 - first quotation - Ox1 Ox2"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">מאוירא</orth>
+               </form>
+               <form type="variant" source="34,15 - second quotation - Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אוירייה דהתם</orth>
+               </form>
+               <form type="variant" source="34,15 - second quotation - Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אווירייה דתמן</orth>
+               </form>
+               <form type="variant" source="34,15 - second quotation - K V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אוירא דתמן</orth>
+               </form>
+               <form type="variant" source="34,15 - third quotation - Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">לאווירות</orth>
+               </form>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">אוירות</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾwyrwt</orth>
+               <pron notation="rabbinic" opt="false">awirot</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">אווירות</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾwwyrwt</orth>
+               <pron notation="rabbinic" opt="false">awirot</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="awir-dlgenr-1" opt="false">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>air</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek</lang>
+                  </usg>
+                  <quote>ἄηρ</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' יצחק זרוק <app>
+                        <lem>חוטרה</lem>
+                        <rdg wit="#Vat1 K V">חוטרא</rdg>
+                     </app> לאוירה <app>
+                        <lem>ועל</lem>
+                        <rdg wit="#Ox2">על</rdg>
+                     </app>
+                     <app>
+                        <lem>עיקריה</lem>
+                        <rdg wit="#Vat2">עוסריה</rdg>
+                        <rdg wit="#Vat2">עוקרא</rdg>
+                        <rdg wit="#Ox2">עיקרית</rdg>
+                     </app> הוא קאים</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">53,15</ref>
+                     <ref type="witness">ΙΙ 574: 7</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Yiṣḥaq said: Throw a rod into the air, and it will fall on its top.</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq Wa-yeraʾ 95 [28c: 39]</bibl>; <bibl type="ancient" default="false" status="draft">Yalq Wa-yeshev 145 [46b: 38]</bibl>; <bibl type="ancient" default="false" status="draft">LeqT Wa-yeraʾ 21,21</bibl>; <bibl type="ancient" default="false" status="draft">LeqT Wa-yeshev 39,6</bibl>; <bibl type="ancient" default="false" status="draft">SekhT Wa-yeraʾ 21,21</bibl>; <bibl type="ancient" default="false" status="draft">SekhT Wa-yeshev 39,6</bibl>; <bibl type="ancient" default="false" status="draft">TanhB Balaq 26</bibl>; <bibl type="ancient" default="false" status="draft">Tanh Balaq 17</bibl>; <bibl type="ancient" default="false" status="draft">NumR Balaq 20,23</bibl> (<bibl type="ancient" default="false" status="draft">Tanh</bibl> and <bibl type="ancient" default="false" status="draft">NumR</bibl> provide a Hebrew version of this proverb [not in the name of R. Yiṣḥaq]: <term xml:lang="jpa">זרוק מטה לאויר לעיקרו נופל</term> [<bibl type="ancient" default="false" status="draft">NumR</bibl>]); <bibl type="ancient" default="false" status="draft">Pitron Torah Aḥare</bibl> (Urbach 69) reads (in the Name of R. Yiṣḥaq): <term xml:lang="jpa">זרוק חוטרה לאוירה ועל עיקציה הוא נחית</term>. A popular proverb used in various contexts. Transl. unsure. Cf. MY ad loc. <bibl type="modern" default="false" status="draft">Freedman / Simon I 474</bibl>: "Throw a stick into the air, and it will fall back to its place of origin [the ground]". <bibl type="modern" default="false" status="draft">Neusner II 258</bibl>: "Throw a stick into the air, and it will fall back on its own spot."</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' יצחק זרוק <app>
+                        <lem>חוטרה</lem>
+                        <rdg wit="#Vat1 V K">חוטרא</rdg>
+                        <rdg wit="#Vat2">חוטרה חוטרה</rdg>
+                     </app> לאוירה ועל <app>
+                        <lem>עיקרא</lem>
+                        <rdg wit="#Vat2">עיקריה</rdg>
+                        <rdg wit="#Ox2">עיקרה</rdg>
+                        <rdg wit="#V">עיקרא</rdg>
+                        <rdg wit="#Vat1">עקריה</rdg>
+                        <rdg wit="#Ox1">אעיקרא</rdg>
+                     </app> הוא <app>
+                        <lem>קאים</lem>
+                        <rdg wit="#Ox1">קאי</rdg>
+                        <rdg wit="#V">נפיק</rdg>
+                     </app>
+                  </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">86,6</ref>
+                     <ref type="witness">II 1059: 3</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Yiṣḥaq said: Throw a rod into the air, and it will fall on its top.</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq Wa-yeraʾ 95 [28c: 39]</bibl>; <bibl type="ancient" default="false" status="draft">Yalq Wa-yeshev 145 [46b: 38]</bibl>; <bibl type="ancient" default="false" status="draft">LeqT Wa-yeraʾ 21,21</bibl>; <bibl type="ancient" default="false" status="draft">LeqT Wa-yeshev 39,6</bibl>; <bibl type="ancient" default="false" status="draft">SekhT Wa-yeraʾ 21,21</bibl>; <bibl type="ancient" default="false" status="draft">SekhT Wa-yeshev 39,6</bibl>; <bibl type="ancient" default="false" status="draft">TanhB Balaq 26</bibl>; <bibl type="ancient" default="false" status="draft">Tanh Balaq 17</bibl>; <bibl type="ancient" default="false" status="draft">NumR Balaq 20,23</bibl>. In Vat 2 the first <term xml:lang="jpa">חוטרה</term> is marked as superfluous. Reading <term xml:lang="jpa">ארעא</term> in K and V is an error. Freedman / Simon (II 805): “Throw a stick into the air and it falls back to its source.”</note>
+               </cit>
+            </sense>
+            <sense xml:id="awir-dlgenr-2" opt="false">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>сlimate</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek</lang>
+                  </usg>
+                  <quote>ἄηρ</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>היה אויר להן כמן הפסח ועד העצרת</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">34,11</ref>
+                     <ref type="witness">I 322: 13</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>They enjoyed the climate [not usual] between Passover and Pentecost [right through the year]. (Freedman / Simon I: 277)</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq Noaḥ 61 (16a: 55-56)</bibl>
+                  </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ריש <app>
+                        <lem>לקיש</lem>
+                        <rdg wit="#Vat1 Vat2 K V">ר' שמע' בן לקיש</rdg>
+                     </app> הוה יתיב לעי <app>
+                        <lem>באוריתא</lem>
+                        <rdg wit="#Vat1 Vat2">באורייתא</rdg>
+                     </app>
+                     <app>
+                        <lem>בהדה</lem>
+                        <rdg wit="#K V Ox2">בחדא</rdg>
+                     </app>
+                     <app>
+                        <lem>אלסיס</lem>
+                        <rdg wit="#Vat1">אוליסיס</rdg>
+                        <rdg wit="#Vat2">אלפום</rdg>
+                        <rdg wit="#Ox1">אילפס</rdg>
+                        <rdg wit="#Ox2">אלטים</rdg>
+                        <rdg wit="#V K">אילטיס</rdg>
+                     </app> דטבריה, נפקין תרתין נשין מתמן אמרה חדא לחברתה בריך דאפקן מן הדין אוירא בישא, צווח להון מן הן אתון, אמ' ליה מן <app>
+                        <lem>מזגה</lem>
+                        <rdg wit="#Vat1">מן הן אתון, אמ' ליה מן מזגה.</rdg>
+                        <rdg wit="#Ox1 Ox2">ואמ' להון מן אתון אמרין מי מזגה</rdg>
+                        <rdg wit="#Vat2">וא' להון מאן האן אתון מן מזגה</rdg>
+                        <rdg wit="#K V">ואמ' להון מן הן אתון אמרין ליה מן מזגה</rdg>
+                     </app>
+                     <app>
+                        <lem>אמר</lem>
+                        <rdg wit="#K">אמ' ליה</rdg>
+                     </app>  אנא חכם מן מזגה ולית בה אלא תרתין <app>
+                        <lem>עומרן</lem>
+                        <rdg wit="#K V">עמודין</rdg>
+                        <rdg wit="#Ox1 Ox2">עומדן</rdg>
+                     </app>
+                     <app>
+                        <lem>אמר</lem>
+                        <rdg wit="#Vat1">פתח ואמ'</rdg>
+                     </app> ברוך שנתן חן <app>
+                        <lem>מקום</lem>
+                        <rdg wit="#Ox1 Ox2 Vat1 V K">למקום</rdg>
+                     </app>
+                     <app>
+                        <lem>בעיני</lem>
+                        <rdg wit="#Ox2 K V">על</rdg>
+                     </app> יושביו.</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">34,15</ref>
+                     <ref type="witness">I 327: 5</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אלסיס</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Resh Laqish was sitting and studying Torah in the grove of Tiberias. Two women came out from there. One said to the other: Praised be He who led us out from that bad climate. He called to them: Where are you from? They answered: From Mazga. He said: I know Mazga, and there are only two dwellings. [Then] he said: Praised be he who made the inhabitants love the place they live in.</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ליה ומה הינון אויריה</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">34,15</ref>
+                     <ref type="witness">I 327: 8</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>‘What is its climate?’, he asked. (Freedman / Simon I: 281)</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq Noaḥ 61 [16b: 46]</bibl>; <bibl type="ancient" default="false" status="draft">Yalq Ez 351 [419b: 34-35]</bibl>
+                  </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ריש לקיש ברית <app>
+                        <lem>נחלק</lem>
+                        <rdg wit="#V K">נחלקו</rdg>
+                        <rdg wit="#Ox2">נחלקו</rdg>
+                     </app> לאוירות</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">34,15</ref>
+                     <ref type="witness">I 327: 3</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Resh Laqish said: The covenant has been divided among [different] climates.</quote>
+                  </cit>
+                  <note anchored="true">Freedman / Simon I 281: “Resh Laqish said: A covenant has been made in favour of climates. (Note: God has implanted in man a love of his native soil even in bad climates).” - Neusner II 17: “Said R. Shimʿon ben Laqish, 'A covenant has been worked out even among diverse climates' [to permit humanity to produce crops everywhere].” - Winter / Wuensche I 155: “Nach R. Levi (sic!) wurde auch ein Bund mit den Luftregionen geschlossen. (Anm.: Selbst solche Gegenden, welche ein schädliches Klima haben, gefallen dennoch den Bewohnern, so dass sie ihre Wohnsitze nicht verlassen wollen.)” - = <bibl type="ancient" default="false" status="draft">Yalq Noaḥ 61 [16b: 39-40]</bibl>; <bibl type="ancient" default="false" status="draft">Yalq Ez 351 [419b: 27]</bibl>
+                  </note>
+               </cit>
+            </sense>
+            <note anchored="true">
+         Sokoloff distinguishes between 1. „air“ and 2. „space“ (cf. also <bibl type="modern" default="false" status="draft">AC I 46</bibl>; <bibl type="modern" default="false" status="draft">Levy I 39</bibl>). <bibl type="modern" default="false" status="draft">Krauss, LW II 17-18</bibl> features add. meaning “surface”. <bibl type="modern" default="false" status="draft">Jastrow I 24</bibl>: 1. “open, empty space, blank”; 2. “hollow, cavity of a vessel”, 3. “air, atmosphere, climate, weather”; pl. “blank spaces in writings”.
+      </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>39</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

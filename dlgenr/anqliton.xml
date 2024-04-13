@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אנקליטון</title>
+            <title type="alternative"/>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="anqliton-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#onqos-dlgenr"
+                next="#anqlimon-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אנקליטון</orth>
+               <orth type="transcription" xml:lang="fjb" opt="false">ʾnqlyṭwn</orth>
+               <pron notation="rabbinic" opt="false">anqliṭon</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" source="Ox1 V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אנקלימון</orth>
+               </form>
+               <form type="variant" source="Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אנקליטין</orth>
+               </form>
+               <form type="variant" source="K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">סנקליטון</orth>
+               </form>
+               <form type="variant" source="Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אנקריטיריון</orth>
+               </form>
+               <form type="variant" source="49,9 second occurrence - K V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אנקליטין</orth>
+               </form>
+            </form>
+            <sense xml:id="anqliton-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">law</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false"/>
+               <usg type="geographic" opt="false"/>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>appeal [to higher authority]</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <quote>libelli apellatori</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Medieval Greek+</lang>
+                  </usg>
+                  <quote>ἔκκλητον / ἔγκλητον</quote>
+               </cit>
+               <lbl opt="false">For spelling cf. Sperber</lbl>
+               <cit type="example">
+                  <quote>
+                     אמר ר' יהודה בר' סימון בשר ודם תולין לו אנקליטון מדוכס לאיפרכוס מאיפרכוס לאיסטרטלטיס ואת בשביל שאין לך מי יתלה לך אנקליטון אנקליטין לא תעשה משפט
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">49,9</ref>
+                     <ref type="witness">II 510: 4; 511: 1</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">איסטרטלטיס</ref>
+                  <ref type="entry" xml:lang="jpa">איפרכוס</ref>
+                  <ref type="entry" xml:lang="jpa">איפרכוס</ref>
+                  <ref type="entry" xml:lang="jpa">דוכס</ref>
+                  <ref type="entry" xml:lang="jpa">אנקלימון</ref>
+                  <ref type="entry" xml:lang="jpa">אנקריטיריון</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Yehuda be-R. Simon said: (Abraham pleaded thus:) ‘Even in the case of a human judge, an appeal can be made from the commander to the prefect and from the prefect to the governor; but you, because no appeal can be made from your judgment, will you not do justly? (cf. Freedman / Simon I 429)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 83 [25d: 35,36]</bibl>
+                  </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language (in this particular sense)</lbl>
+               <lang opt="false">Medieval Greek</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LBG</lbl>
+                     <ref target="http://stephanus.tlg.uci.edu/Iris/indiv/lexica.jsp#qid=120645&amp;ql=E)%2FGKLHTOS%2C%20-ON&amp;q=%E1%BC%94%CE%B3%CE%BA%CE%BB%CE%B7%CF%84%CE%BF%CF%82%2C%20%E2%80%91%CE%BF%CE%BD&amp;usr_input=greek&amp;searchescs=N"
+                          type="entry">ἔγκλητος (δίκη)</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               Cf. Sperber for other sources. The meaning “liability to charge, chargeable situation” (as in 
+      <bibl type="ancient" default="false" status="draft">DtnR 2,29</bibl>) is not attested in GenR (cf. Sperber). The reading <term xml:lang="jpa">סנקליטון</term> (in K) “seems to be a case of prosthetic sigma” (Sperber). Vat 1 represents an independent version of this passage (cf.
+      <ref type="entry" xml:lang="jpa">אנקריטיריון</ref>). Cf.
+      <bibl type="modern" default="false" status="draft">Krauss, LW II 76a</bibl>.
+      <bibl type="modern" default="false" status="draft">AC I 159a</bibl>: Gr. <term xml:lang="grc">ἀνακλήσις</term>;
+      <bibl type="modern" default="false" status="draft">Levy I 114b</bibl>
+               <term xml:lang="grc">ἀνακλετόν</term>. Cf.
+      <ref type="entry" xml:lang="jpa">אנקלימון</ref>
+            </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sperber (1984)</title>
+                  <citedRange>48-49 and 234</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אכסנאי</title>
+            <title type="alternative">ʾksnʾy</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="akhsenai-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#aksioma-dlgenr"
+                next="#akhsanya-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אכסנאי</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾksnʾy</orth>
+               <pron notation="rabbinic" opt="false">akhsenai</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אכסניי</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾksnyy</orth>
+                  <pron notation="rabbinic" opt="false">akhsenai</pron>
+               </form>
+               <form type="variant"
+                     source="22,6 - Ox1 Ox2 / 50,7 - K V Ox1 Ox2 / 50,4 - K V Vat1"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אכסנאי</orth>
+               </form>
+               <form type="variant" source="50,4 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אכסניא</orth>
+               </form>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">אכסניי</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾksnyy</orth>
+               <pron notation="rabbinic" opt="false">akhsenayye</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">אכסנין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾksnyn</orth>
+               <pron notation="rabbinic" opt="false">akhsenin</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="akhsenai-dlgenr-1" opt="false">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>foreigner, stranger, guest</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek</lang>
+                  </usg>
+                  <quote>ξένος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' יצחק בתחילה הוא נעשה אכסניי ואחרכך אורח ואחרכך בעל הבית</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">22,6</ref>
+                     <ref type="witness">I 210: 7</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Yiṣḥaq said: At first it is like a foreigner, then like a guest [who stays longer], and finally like the lord of the house.</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ויבא הלך לאיש העשיר הרי אכסנאי</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">22,6</ref>
+                     <ref type="witness">I 210: notes (Ox 1 Ox 2)</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And there came a traveler unto the rich man (2 Sam 12,4): this is a stranger.</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' מנחמא בשם ר' ביבי כך היתנו אנשי סדם ביניהם אמרו כל אכסניי שבא לכאן נהוא בועלים אותו ונוטלים ממונו</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">50,7</ref>
+                     <ref type="witness">II 523: 2</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Menaḥemaʾ said in R. Bibi’s name: The Sodomites made an agreement among themselves that whenever a stranger visited them they should force him to sodomy and rob him of his money (Freedman / Simon I 438)</quote>
+                  </cit>
+                  <note anchored="true">
+                     <bibl type="ancient" default="false" status="draft">= Yalq 84 [26b: 26]</bibl>
+                     <term xml:lang="jpa">אכסנאי</term>
+                  </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>והוא אכסנאי ומנו שבע בן בכרי</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">94,9</ref>
+                     <ref type="witness">III 1185: 5</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>... who was a lodger [stranger] there, and who was he? Sheba the son of Bichri (Freedman / Simon II 878)</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ומצות אפה ויאכלו [אמר ר' יצחק] מצות גדולה עמדה על המלח דהוה אמר לה הב לאליך אכסניי קלי מלח והוות אמרה ליה אוף הדה סוניתה בישתא את בעי מלפה הכא</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">50,4</ref>
+                     <ref type="witness">II 521: 6</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And did bake unleavened bread (Gen 19,3). R. Yiṣḥaq said: a fierce quarrel broke out over the salt, for he [Lot] said to her [his wife], ‘Give these guests a little salt,’ to which she replied, ‘Do you want to introduce  that evil practice there too?’ (Cf. Freedman / Simon I 437)</quote>
+                  </cit>
+                  <note anchored="true">
+                     <bibl type="ancient" default="false" status="draft">= Yalq 84 [26b: 12]</bibl>
+                     <term xml:lang="jpa">אכסנאי</term>
+                  </note>
+               </cit>
+            </sense>
+            <note anchored="true">
+         See also <bibl type="modern" default="false" status="draft">Kraus, LW II, 48b</bibl>.
+      </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>32b-33a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

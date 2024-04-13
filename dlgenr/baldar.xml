@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">בלדר</title>
+            <title type="alternative">bldr</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="baldar-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#bimos-dlgenr"
+                next="#banei-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">בלדר</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">bldr</orth>
+               <pron notation="rabbinic" opt="false">baldar</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" source="10,7 - V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בלדר</orth>
+               </form>
+               <form type="variant" source="78,12 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בלבר</orth>
+               </form>
+               <form type="variant" source="78,12 - Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">לבלר</orth>
+               </form>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">בלדרין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">bldryn</orth>
+               <pron notation="rabbinic" opt="false">baldarin</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="baldar-dlgenr-1" opt="false">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>messenger</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek</lang>
+                  </usg>
+                  <quote>βερηδάριος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' יצחק בר' אלעזר הוה מטייל על שוניתיה דימא דקיסרי, ראה שם קולית אחת והוה מצנע לה והיא מתגלגלה, מצנע לה ומתגלגלה, אמר מוכנת זו לעשות שליחותיה, עבר חד בילדר ונשכל בה ונפל ומת, אזלון פשפשוניה ואשכחוניה טעין כתבין בישין על יהודאי דקיסרי.</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">10,7</ref>
+                     <ref type="witness">[I 82: 2]</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Yiṣḥaq b. R. Elʿazar was strolling on the cliffs of the sea of Caesarea, when he saw a thigh-bone; he hid it but it rolled out; he hid it again, and again it rolled out. ‘This is intended to perform His [God's] commission, he remarked. Then a messenger passed by, stumbled over it, fell and died. Then they went and searched him and found that he was bearing evil decrees against the Jews of Caesarea. (Freedman / Simon I 76)</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq Hi 901 [504b: 23]</bibl> (<term xml:lang="jpa">בלדר</term>); <bibl type="ancient" default="false" status="draft">Yalq Prov 972 [543: 16]</bibl> (<term xml:lang="jpa">בלדר</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ויפצר בו ויקח מיתחמי חזר וידיה פשיטה. ר' יהודה בר' אמר מתרפס ברצי כסף מתיר את הפס מתרצה בכסף. ר' שמעון בן לקיש סליק למשאל בשלמיה דרבנו, אמר ליה צלי עלי דהדא מלכותא בישה סגין, אמר ליה לא תיסב מן בר נש [כלום] ולית את יהיב כלום, מן יתיב גביה אתת חדא איתתא טעינא ליה חד דיסקרין וחדא סכין בגוה קם נסב סכינא והחזיר לה הדיסקרין, אתא חד בלדר מן דמלכותה וחמתה וחמדה ונסבה, בפתי רמשה סלק ר' שמעון בן לקיש למשאל בשלמיה וחמתיה יתיב שחיק, אמר ליה למה את שחיק, אמר ליה ההיא סכינה דחמית אתא חד בלדר ממלכותא ונסבה, אמר ליה ולאו כן אמרית לך לא תיסב מן בר נש [כלום] ולית את יהיב כלום. חד עם דארע אמר ליה לר' הושעיא אין אמרית לך חדא מילה טבא את אמ' לה משמי בציבורא, אמר ליה מה היא אמר ליה כל הדוריות שנתן אבינו יעקב לעשו עתידין אומות העולם להחזירן למלך המשיח לעתיד לבוא, מה טעם מלכי תרשיש ואיים מנחה יביאו אין כת' אלא ישיבו אמר ליה חייך מילה טבא אמרת, משמך אנא אמ' לה.</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">78,12</ref>
+                     <ref type="witness">[II 932: 2,4]</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">דיסקרין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And he urged him, and he took it (Gen 33,11). he pretended to draw back, but his hands were stretched out. R. Judah b. Rabbi said: Every one submitting himself with pieces of silver: that means, he opens his hand and would be appeased with silver. Resh Lakosh went to pay his respects to our Teacher. ‘Pray for me,’ he [R. Judah] begged him, ‘for this Government [Rome] is very evil.’ ‘Take nothing from anyone,’ he [Resh Lakish] told him, ‘and then you will not have to give anything.’ While he was sitting there, there came a woman and brought him a salver with a knife on it, whereupon he took the knife and returned the salver. Subsequently a royal courier came and saw it, took a fancy to it, and carried it off. Toward evening Resh Lakish again went to pay his respects to our Teacher and he was sitting and laughing. ‘Why are you laughing?’ he asked him. ‘That knife which you saw,’ replied he, ‘there came a royal courier and took it away.’ ‘Did I not tell you,’ he retorted, ‘that if you take nothing from anyone you will not have to give to anyone?’ One of the common people said to R. Hoshaya: ‘If I tell you a good thing, will you repeat it in public in my name?’ ‘What is it?’ asked he. ‘All the gifts which the Patriarch Jacob made to Esau,’ replied he, ‘the heathens will return them to the Messiah in the Messianic era.’ ‘ What is the proof?’ ‘The kings of Tarshish and of the isles shall return tribute: it does not say, “shall bring,” but “shall return”.’ ‘By your life!’ he exclaimed, ‘you have said a good thing, and I will teach it in your name’ (Freedman / Simon II 723-724).</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq 133 [41d: 26, 28]</bibl>
+                  </note>
+               </cit>
+            </sense>
+            <note anchored="true">
+         Cf. Both in Hebr. and Aram. See <bibl type="modern" default="false" status="draft">Krauss, LW II 155b-156a</bibl>. For Syr. <term xml:lang="syc">ܒܝܠܕܪܐ</term>
+               <term xml:lang="fjb">byldrʾ</term> cf. <bibl type="modern" default="false" status="draft">Sokoloff, SL 141a</bibl>.
+      </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>88ab</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

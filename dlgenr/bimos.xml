@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">בימוס</title>
+            <title type="alternative">bymws</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="bimos-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#bimah-dlgenr"
+                next="#baldar-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">בימוס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">bymws</orth>
+               <pron notation="rabbinic" opt="false">bimos</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בימס</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">byms</orth>
+                  <pron notation="rabbinic" opt="false">bimas</pron>
+               </form>
+               <form type="variant" source="Vat1 - pl." opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">במוסיות</orth>
+               </form>
+               <form type="variant" source="Ox1 - pl." opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בימיסיאות</orth>
+               </form>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">בימוסאות</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">bymwsʾwt</orth>
+               <pron notation="rabbinic" opt="false">bimosaʾot</pron>
+               <gramGrp opt="false">
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">בימסיות</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">bymsywt</orth>
+               <pron notation="rabbinic" opt="false">bimasiyot</pron>
+               <gramGrp opt="false">
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="bimos-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">architecture</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="geographic" opt="false">Coptic; Syriac Aramaic</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>altar</quote>
+               </cit>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <lbl opt="false">esp.</lbl>
+                  <quote>pagan altar</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Ancient Greek+</lang>
+                  </usg>
+                  <quote>βωμός</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     תני ר' ישמעאל אין צחק אלא עבודה זרה שנ' ויקומו לצחק מלמד שהיתה שרה רואה את ישמעאל בונה בימסיות [Ox2 דימוסיות] וצד חגבים ומקריב עליהם
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">53,11</ref>
+                     <ref type="witness">II 568: 2</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">דימוסיות</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Yishmaʿel taught: This term sport (Gen 21,9) refers to idolatry, as in the verse And rose up to make sport (Ex 32,6). This teaches that Sarah saw Ishmael build altars, catch locusts, and sacrifice them. (Freedman / Simon I 470)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 94 [28b: 24]</bibl> (<term xml:lang="jpa">בימוסיאות</term>)
+         </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Ancient Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0057:entry=bwmo/s"
+                          type="entry">βωμός, A., 2</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               Sg. not in GenR (cf. e. g. 
+      <bibl type="ancient" default="false" status="draft">mAZ III,7</bibl>). Cf.
+      <bibl type="modern" default="false" status="draft">Heijmans (2013) 68</bibl>;
+      <bibl type="modern" default="false" status="draft">Krauss, LW II 150b-151a</bibl>.
+      <bibl type="modern" default="false" status="draft">Jastrow II 162a</bibl>: “treated in inflection as a cacophemism = <term xml:lang="jpa">בי מיאוס</term>“ (see
+      <bibl type="ancient" default="false" status="draft">tAZ 5,6</bibl>). Pl. not in GenR. Aram.: <term xml:lang="jpa">בימסא</term>
+               <term xml:lang="fjb">bymsʾ</term>
+               <term xml:lang="rabbinic">bimsaʾ</term> (see
+      <bibl type="modern" default="false" status="draft">Levy I 219a</bibl>,
+      <bibl type="modern" default="false" status="draft">Krauss, LW II 150ab</bibl>).  Cf. Syr. <term xml:lang="syc">ܒܘܡܣܐ</term>
+               <term xml:lang="fjb">bwmsʾ</term> (Cf.
+      <bibl type="modern" default="false" status="draft">Sokoloff, SL 127b</bibl>).
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>79a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

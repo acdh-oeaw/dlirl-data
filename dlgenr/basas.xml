@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">בסס</title>
+            <title type="alternative">bss</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="basas-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#basilqe-dlgenr"
+                next="#baqalsah-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">בסס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">bss</orth>
+               <pron notation="rabbinic" opt="false">basas</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">verb</gram>
+               </gramGrp>
+               <form type="variant" source="Ox1 Ox2 K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ונתבסם</orth>
+               </form>
+               <form type="variant" source="V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ונתבשס</orth>
+               </form>
+            </form>
+            <sense xml:id="basas-dlgenr-1" opt="false">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>to base, to establish, to fasten</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek</lang>
+                  </usg>
+                  <quote>βάσις</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>תכנתי עמודיה ונתבסס העולם</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">66,2</ref>
+                     <ref type="witness">[746: 2]</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>I established the pillars of it (Ps 75,4), and the world was put on a firm basis (Freedman / Simon II 602).</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq 811 [466: 60]</bibl> (<term xml:lang="jpa">נתבסם</term>)</note>
+               </cit>
+            </sense>
+            <note anchored="true">
+         Derived  from <term xml:lang="jpa">בסיס</term>
+               <term xml:lang="fjb">bsys</term>
+               <term xml:lang="rabbinic">basis</term>. Used only in piʾel and nitpaʾel. <term xml:lang="jpa">בסיס</term>
+               <term xml:lang="fjb">bsys</term>
+               <term xml:lang="rabbinic">basis</term> is not attested in GenR.
+      </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss, LW II</title>
+                  <citedRange>162,ab</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

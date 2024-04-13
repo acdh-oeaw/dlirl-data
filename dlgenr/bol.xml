@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">בול</title>
+            <title type="alternative">bwl</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="bol-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#atlites-dlgenr"
+                next="#bolos-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">בול</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">bwl</orth>
+               <pron notation="rabbinic" opt="false">bol</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בולין</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">bwlyn</orth>
+                  <pron notation="rabbinic" opt="false">bolin</pron>
+                  <gramGrp opt="false">
+                     <gram type="num" opt="false">pl.</gram>
+                  </gramGrp>
+               </form>
+            </form>
+            <sense xml:id="bol-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">landscape/artefacts</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false"/>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>lump</quote>
+               </cit>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>clod</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Ancient Greek+</lang>
+                  </usg>
+                  <quote>βῶλος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ולוט מסטיכי עבידה בול</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">91,11</ref>
+                     <ref type="witness">1136: 1</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="">מסטיכי</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And loṭ (Gen 43,11): gum mastic formed into a clod.</quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">SekhT 37,25 (220)</bibl>
+                  </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <lbl opt="false">Pl.</lbl>
+                  <quote>אדמה תקופת תשרי שהארץ עשויה בולין בולין שלאדמה</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">13,12</ref>
+                     <ref type="witness">I 121: 7</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Adamah (earth) [corresponds to] the autumn season, when the ground consists of clods of earth. (Cf. Freedman / Simon I 107)</quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 20 [6c: 21]</bibl>;
+            <bibl type="ancient" default="false" status="draft">LeqT Gen 2,6 [10b]</bibl>
+                  </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Ancient Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ, A.</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=bw%3Dlos&amp;la=greek&amp;can=bw%3Dlos0"
+                          type="entry">βῶλος</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               Cf. 
+      <bibl type="modern" default="false" status="draft">AC II 27b-28a</bibl>;
+      <bibl type="modern" default="false" status="draft">Levy I 199a</bibl>;
+      <bibl type="modern" default="false" status="draft">Krauss, LW II 139ab</bibl>.
+      <bibl type="modern" default="false" status="draft">Jastrow I 145b</bibl> traces back to Hebr. <term xml:lang="jpa">בלל</term>. Cf.
+      <ref type="entry" xml:lang="jpa">בולרין</ref>
+            </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>68b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

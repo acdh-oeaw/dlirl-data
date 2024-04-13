@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אפוכי</title>
+            <title type="alternative">ʾpwkhy</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="apokhe-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#apotarkha-dlgenr"
+                next="#apopalsamon-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אפוכי</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾpwkhy</orth>
+               <pron notation="rabbinic" opt="false">apokhe</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אפכי</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾpkhy</orth>
+                  <pron notation="rabbinic" opt="false">apokhe</pron>
+               </form>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אופכי</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾwpkhy</orth>
+                  <pron notation="rabbinic" opt="false">opakhe</pron>
+               </form>
+               <form type="variant"
+                     source="41(42),3 first occurrence - K Vat2 V"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אופכי</orth>
+               </form>
+               <form type="variant" source="41(42),3 first occurrence - Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אפופסין</orth>
+               </form>
+               <form type="variant"
+                     source="41(42),3 second occurrence - K Vat2 V"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אופכי</orth>
+               </form>
+               <form type="variant"
+                     source="41(42),3 second occurrence - Ox2"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אפופסין</orth>
+               </form>
+            </form>
+            <sense xml:id="apokhe-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">administration</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="geographic" opt="false">Coptic</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>pardon</quote>
+               </cit>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>quittance</quote>
+               </cit>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>discharge</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Greek</lang>
+                  </usg>
+                  <quote>ἀποχή</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <usg opt="false">
+                     <lang opt="false">Latin</lang>
+                  </usg>
+                  <quote>apocha</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     אמר להן עוד היא שמחה שבו ביום נטלו ישראל איפכי על עוונותיהם דאמר ר' שמואל בר נחמן איפכי גדולה יטלו ישראל על עוונותיהם ביום שחרב בית המקדש תם עונך בת ציון וגו'.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">41(42),3</ref>
+                     <ref type="witness">I 407: 6,7</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אפופסין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        Even that connotes joy, was his reply, for on that very day Israel received full quittance for their sins, as R. Shemuʾel b. Naḥman said: Israel received quittance in full measure for their sins on the day that the Temple was destroyed, as it is written: The punishment of thine iniquity is complete, O daughter of Zion etc. (Lam 4,22) (Freedman / Simon I 345-346)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">LevR (Wilna) Shemini 11,7</bibl> (
+            <ref type="entry" xml:lang="jpa">איפופסין</ref>);
+            <bibl type="ancient" default="false" status="draft">LevR (Margaliot) Shemini 11,7</bibl> (<term xml:lang="jpa">איפכי, אפכה</term>);
+            <bibl type="ancient" default="false" status="draft">NumR Nassoʾ 13,5</bibl> (<term xml:lang="jpa">אפוכי</term>);
+            <bibl type="ancient" default="false" status="draft">RutR (Petiḥtot) 7</bibl> (<term xml:lang="jpa">אופכין</term>);
+            <bibl type="ancient" default="false" status="draft">EstR (Petiḥtot) 11</bibl> (<term xml:lang="jpa">אפוכי</term>);
+            <bibl type="ancient" default="false" status="draft">EkhR (Wilna) 4,25</bibl> (<term xml:lang="jpa">איפכו</term>);
+            <bibl type="ancient" default="false" status="draft">EkhR (Buber) 4,22</bibl> (<term xml:lang="jpa">אפוכי</term>);
+            <bibl type="ancient" default="false" status="draft">Tan Shemini 9,9</bibl> (
+            <ref type="entry" xml:lang="jpa">אפופסין</ref>);
+            <bibl type="ancient" default="false" status="draft">LeqT Lev Shemini 26b: 19</bibl> (
+            <ref type="entry" xml:lang="jpa">אפופסין</ref>);
+            <bibl type="ancient" default="false" status="draft">GenRbti Wa-yeṣeʾ 131</bibl> (<term xml:lang="jpa">אפורי</term> emd. <term xml:lang="jpa">אפוכי</term>);
+            <bibl type="ancient" default="false" status="draft">GenRbti Mi-qeṣ 193</bibl> (<term xml:lang="jpa">אפוכין</term>);
+            <bibl type="ancient" default="false" status="draft">Yalq 2Reg 252 [386b: 43]</bibl> (
+            <ref type="entry" xml:lang="jpa">איפופסין</ref>);
+            <bibl type="ancient" default="false" status="draft">Yalq Jer 327 [416b: 53]</bibl> (
+            <ref type="entry" xml:lang="jpa">אפפוסין</ref>)
+         </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aalphabetic+letter%3D*a%3Aentry+group%3D286%3Aentry%3Da%29poxh%2F"
+                          type="entry">ἀποχή, III.</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               The reading 
+      <ref type="entry" xml:lang="jpa">אפופסין</ref> represents an alternative (secondary) textual tradition. Sperber distinguishes 1. “pardon, quittance” (for GenR); 2. “reward”, 3. “receipt” (however, the semantic difference is not always clear).
+      <bibl type="modern" default="false" status="draft">Sokoloff, DJPA 45</bibl>: “reward” (not matching well in our context).
+      <bibl type="modern" default="false" status="draft">AC I 215b-216a</bibl> („Quittung, Urkunde der bezahlten Forderung“);
+      <bibl type="modern" default="false" status="draft">Krauss, LW 100ab</bibl> (1. “Erlassungsurkunde” (for GenR); 2. “Belohnung”; 3. “das Zurückhalten [der Geisel]” [cf. for the later meaning
+      <bibl type="modern" default="false" status="draft">Levy I 137b</bibl>: Gr. <term xml:lang="grc">ἐποχή</term>]);
+      <bibl type="modern" default="false" status="draft">Levy I 137ab</bibl> (“Urkunde des Abstands [von einer Forderung]”).
+      <bibl type="modern" default="false" status="draft">Jastrow 100b</bibl> traces back (speculatively) to the Hebr. root <term xml:lang="jpa">הפך</term> / <term xml:lang="jpa">אפך</term>.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sperber (1984)</title>
+                  <citedRange>51-52</citedRange>
+               </bibl>
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>45b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

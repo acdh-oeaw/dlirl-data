@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">דייטי</title>
+            <title type="alternative">dyyṭy</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="daite-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#diutrin-dlgenr"
+                next="#daiteqe-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">דייטי</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dyyṭy</orth>
+               <pron notation="rabbinic" opt="false">daiṭe</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דיוטי</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">dywṭy</orth>
+                  <pron notation="rabbinic" opt="false">dyoṭe</pron>
+               </form>
+               <form type="variant" source="50,3 - Vat1 Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">לדייטי</orth>
+               </form>
+               <form type="variant" source="50,3 - Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">לדיטיה</orth>
+               </form>
+               <form type="variant" source="68,8 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">לדיוטא</orth>
+               </form>
+               <form type="variant" source="68,8 - Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">לדיוטי</orth>
+               </form>
+               <form type="variant" source="68,8 - K V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">לאמבטי</orth>
+               </form>
+               <form type="variant" source="68,8 - Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">לביטי</orth>
+               </form>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">דיוטאות</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dywṭʾwt</orth>
+               <pron notation="rabbinic" opt="false">dyoṭaʾot</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="daite-dlgenr-1" opt="false">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>room, compartment</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek</lang>
+                  </usg>
+                  <quote>διάιτα, διαίτη</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>.והא כת' ישובו רשעים לשאולה, ר' אבא בר זבדה אמר לביטי התחתונה שבשאול</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">50,3</ref>
+                     <ref type="witness">[II 518: 5]</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">ביטי</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>The wicked shall return ‘li-sheʾolah’ – to the netherworld (Ps 9,18). Said R. Abbaʾ b. Zavdah: That means to the nethermost compartment of hell. (Freedman / Simon I 435; II 620)</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq 84 [26a: 42]</bibl>; <bibl type="ancient" default="false" status="draft">Yalq 117 [36c: 11]</bibl> (<term xml:lang="jpa">לדיוטי</term>); <bibl type="ancient" default="false" status="draft">Yalq 145 [46a: 55]</bibl> (<term xml:lang="jpa">לאמבטי</term>); <bibl type="ancient" default="false" status="draft">YalqPs 643 [444c: 8]</bibl> (<term xml:lang="jpa">לדיוטא</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>והא כת' ישובו רשעים לשאולה, ר' אבא בר זבדה אמר לבוטי התחתונה שבשאול.</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">68,8</ref>
+                     <ref type="witness">[II 777: 2]</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">בוטי</ref>
+                  <ref type="entry" xml:lang="jpa">אמבטי</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>The wicked shall return ‘li-sheʾolah’ – to the netherworld (Ps 9,18). Said R. Abbaʾ b. Zavdah: That means to the nethermost depth of hell. (cf. Freedman / Simon I 435)</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq 84 [26a: 42]</bibl>; <bibl type="ancient" default="false" status="draft">Yalq 117 [36c: 11]</bibl> (<term xml:lang="jpa">לדיוטי</term>); <bibl type="ancient" default="false" status="draft">Yalq 145 [46a: 55]</bibl> (<term xml:lang="jpa">לאמבטי</term>); <bibl type="ancient" default="false" status="draft">YalqPs 643 [444c: 8]</bibl> (<term xml:lang="jpa">לדיוטא</term>)</note>
+               </cit>
+            </sense>
+            <note anchored="true">
+         Already in LXX for <bibl type="ancient" default="false" status="draft">Hi 8,22</bibl> etc. Cf. <bibl type="modern" default="false" status="draft">Levy I 395b</bibl>; <bibl type="modern" default="false" status="draft">Jastrow I 298a</bibl>. Acc. to <bibl type="modern" default="false" status="draft">Krauss, LW II 1148a</bibl> a possible correct reading for <term xml:lang="jpa">ביטי</term>.
+      </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss, LW II</title>
+                  <citedRange>199a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

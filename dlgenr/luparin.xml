@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">לופרין</title>
+            <title type="alternative">lwpryn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="luparin-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#legae-dlgenr"
+                next="#laipas-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">לופרין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">lwpryn</orth>
+               <pron notation="rabbinic" opt="false">luparin</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m</gram>
+               </gramGrp>
+            </form>
+            <form type="equivalent" opt="false">
+               <quote xml:lang="grc"/>
+            </form>
+            <sense xml:id="luparin-dlgenr-1" opt="false">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>meaning uncertain</quote>
+               </cit>
+               <cit type="example">
+                  <quote xml:lang="jpa">
+            ....
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">61,5</ref>
+                     <ref type="witness">II 663: 6</ref>
+                  </bibl>
+                  <cit type="translation">
+                     <quote xml:lang="en">
+            </quote>
+                  </cit>
+               </cit>
+            </sense>
+            <note anchored="true">
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sperber</title>
+                  <citedRange>96</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

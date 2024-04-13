@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">בימה</title>
+            <title type="alternative">bymh</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="bimah-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#biyyah-dlgenr"
+                next="#bimos-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">בימה</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">bymh</orth>
+               <pron notation="rabbinic" opt="false">bimah</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f.</gram>
+               </gramGrp>
+               <form type="variant" source="65,1 - K V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">את הבימה</orth>
+               </form>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">בימאות</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">bymʾwt</orth>
+               <pron notation="rabbinic" opt="false">bimaʾot</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="bimah-dlgenr-1" opt="false">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>elevated platform, dais, seat of judgment</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek</lang>
+                  </usg>
+                  <quote>βῆμα</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>וכוש ילד את נמרד הה"ד שיגיון לדוד אשר שר לי"י על דברי כוש בן ימיני ר' יהושע בר' נחמיה בשם ר' חננא בר יצחק כנגד בימה שלרשע אמרו.</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">37,2</ref>
+                     <ref type="witness">[I 345: 2]</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And Cush begot Nimrod (Gen 10,8). This explains the text, Shiggaion of David, which he sang unto the Lord, concerning Cush, a Benjamite – ‘ish yemini’ (Ps 7,1). R. Yehoshuaʿ b. R. Neḥemyah said in the name of R. Ḥanina b. Yiṣḥaq: He [David] composed this with reference to the seat of judgment of wicked man. (Freedman / Simon 296)</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>...כך מלכות הרשעה הזו גוזלת וחומסת נראת כאילו מצעת בימה</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">65,1</ref>
+                     <ref type="witness">[II 713: 6]</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>… so does this wicked State rob and oppress, yet pretend to be setting up a dais [of judgement] (Freedman / Simon II 581, see note 4)</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq Ps 830 [469a: 22]</bibl>
+                  </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ולמה נתן הגמלים באמצע, אלא אמר לו הוי רואה עצמך כאילו את יושב על בימה ודן ואני נידון לפניך ואת מתמלא עלי רחמים</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">76,7</ref>
+                     <ref type="witness">[II 905: 4]</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And why did he place the camels in the middle? It was to intimate to him: ‘Regard thyself as though sitting on a dais and judging, while I am being judged before thee, and so be thou filled with compassion for me’. (Freedman / Simon II 707)</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>רבנו הוה עבר על סימוניה, יצאו אנשי סימוניה לקראתו אמרו לו ר' תן לנו אדם שיהא מקרא ומשנה אותנו ודן דינינו, נתן להם לוי בן סיסי, עשו לו בימה גדולה והישיבוהו בה ונתעלמו ממנו דברי תורה</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">81,2</ref>
+                     <ref type="witness">[II 969: 5]</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Our Teacher was passing Simonia, when its inhabitants came out to meet him and requested him, saying: ‘Rabbi, give us a man to teach us Scripture and Mishnah and be our judge.’ He gave them Levi the son of Sisi. They erected a great platform and set him upon it, but he forgot some of his learning. (Freedman / Simon II 746)</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר לו עשו לי בימה גדולה [והשיבוני עליה]</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">81,2</ref>
+                     <ref type="witness">[II 971: 5]</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>They erected a great platform and set me upon it.</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq Prov 964 [501a: 18]</bibl>
+                  </note>
+               </cit>
+            </sense>
+            <note anchored="true">
+               <bibl type="modern" default="false" status="draft">Jastrow I 162a</bibl> explains as Hebr. <term xml:lang="jpa">במה</term>
+               <term xml:lang="fjb">bmh</term>
+               <term xml:lang="rabbinic">bamah</term> arguing that in case of Gr. origin the orthography would be <term xml:lang="jpa">בימא</term>
+               <term xml:lang="fjb">bymʾ</term> or <term xml:lang="jpa">בימטא</term>
+               <term xml:lang="fjb">bymṭʾ</term>. But cf. <bibl type="modern" default="false" status="draft">Grünbaum (1888) 254</bibl> and <bibl type="modern" default="false" status="draft">Sperber, Cards</bibl>. Sokoloff does not mention this word. <bibl type="modern" default="false" status="draft">AC II 107b-108a</bibl>, <bibl type="modern" default="false" status="draft">Levy I 218b-219a</bibl> suggest the Gr. etymology.
+      </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Heijmans (2013)</title>
+                  <citedRange>67-68</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

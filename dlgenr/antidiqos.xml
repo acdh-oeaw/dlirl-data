@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אנטידיקוס</title>
+            <title type="alternative">ʾnṭydyqws</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="antidiqos-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#antigrafa-dlgenr"
+                next="#antiqesar-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אנטידיקוס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾnṭydyqws</orth>
+               <pron notation="rabbinic" opt="false">anṭidiqos</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" source="82,8 - K V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אנטדיקוס</orth>
+               </form>
+               <form type="variant" source="82,8 - Vat1 Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אנטיריקוס</orth>
+               </form>
+               <form type="variant" source="100,9 - K V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אנטירוקוס</orth>
+               </form>
+               <form type="variant" source="100,9 second occurrence - K V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">קנטירוקוס</orth>
+               </form>
+            </form>
+            <sense xml:id="antidiqos-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">law</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false"/>
+               <usg type="geographic" opt="false"/>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>adversary (in a suit)</quote>
+               </cit>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>opponent</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek+</lang>
+                  </usg>
+                  <quote>ἀντίδικος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     שהקב"ה דן את האומות מיושב מדקדק בדין ומאריך ואחרכך הוא עומד ונעשה אנטידיקוס כנגדן
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">82,8</ref>
+                     <ref type="witness">II 985: 7</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        … the Holy One, blessed He, judges sitting, prolonging the hearing and being very rigorous in judgment, and after that He rises and becomes an adversary against them. (Freedman / Simon II 758)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 136 [43d: 15]</bibl> (<term xml:lang="jpa">אנטדיקדוס</term>);
+            <bibl type="ancient" default="false" status="draft">Yalq Jes 696 [388b: 20]</bibl>
+                  </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     אמ' ר' שמלאי אתם הגוף ואני הראש תבואתה לראש יוסף (דברים לג טז), אין נסיב גופא מה רישא טב, ולא עוד אלא עד שלא ירדתם לכאן היו קוראים אותי עבד, ומאחר שירדתם לכאן הודעתי הוגניסים שלי, אם כן אני הורג אתכם אתמהא, אם הורג אני אתכם, הם אומרים אין לשמור אמנה עם זה, עם אחיו לא שמר אמנה, עם מי הוא משמר אמנה, הן אומרין לא היו אחיו, אלא כת של בחורים ראה אותן וקראן אחיו, תדע לך שהרי הוא בסוף הביא עליהן עילה והרגן, אמר מה אני נעשה אנטידיקוס לאבא, אבא מוליד ואנא קובר, מה אני נעשה   להקב"ה, הקדוש ברוך הוא מברך ואני ממעט הה"ד וינחם אותם, והרי דברים קל וחומר, ומה יוסף שדיבר דברים רכים על לבן של שבטים, כך ניחמן, לכשיבוא הקדוש ברוך הוא לנחם את ירושלם על אחת כמה וכמה הה"ד נחמו נחמי עמי וגומ'
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">100,9</ref>
+                     <ref type="witness">III 1294: 8,9</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">הוגניסים</ref>
+                  <ref type="entry" xml:lang="jpa">קנטירוקוס</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Simlai said: [He assured them]: You are the body and I am the head, as it says, Let the blessing come upon the head, [viz.] Joseph (Dtn 33,16): if the body is removed, of what use is the head? Moreover, before you came down hither I was called a slave, but after you came down hither I was able to prove my [free] birth; this being so, would I actually slay you! Further, if I slew you people would say, ‘This man cannot be trusted, for if he did not keep faith with his brethren, with whom will he keep faith?’ [Further] they would say, ‘There were not his brethren but a band of young men whom he saw and called his brethren,’ the proof being that eventually he brought a false accusation against them and slew them. Again, shall I become my father’s opponent, my father begetting and I burying; or shall I become an opponent of God, God blessing while I diminish! Hence is says And he comforted them (Gen 50,21). Now does this not furnish an argument: If Joseph could thus comfort the tribal ancestors by speaking soothing words to them, how much the more when the Holy One, blessed be He, comes to comfort Jerusalem! Thus it says, Comfort ye, comfort ye My people, saith your God (Jes 40,1). (Freedman / Simon II 1000)
+            </quote>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aalphabetic+letter%3D*a%3Aentry+group%3D199%3Aentry%3Da%29nti%2Fdikos"
+                          type="entry">ἀντίδικος</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               Cf. 
+      <bibl type="modern" default="false" status="draft">Krauss, LW II 69a</bibl>;
+      <bibl type="modern" default="false" status="draft">Jastrow I 83ab</bibl>;
+      <bibl type="modern" default="false" status="draft">Levy I 108ab</bibl>;
+      <bibl type="modern" default="false" status="draft">Sokoloff, DJPA 51ab</bibl>. Widespread in rabb. Lit. For the reading of K / V in
+      <bibl type="ancient" default="false" status="draft">GenR 100,9</bibl> cf.
+      <ref type="entry" xml:lang="jpa">קנטירוקוס</ref>
+            </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sperber (1984)</title>
+                  <citedRange>45</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

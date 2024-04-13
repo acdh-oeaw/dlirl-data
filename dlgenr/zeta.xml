@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">זיטא</title>
+            <title type="alternative">zyṭʾ</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="zeta-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#draqon-dlgenr"
+                next="#time-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">זיטא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">zyṭʾ</orth>
+               <pron notation="rabbinic" opt="false">zeṭaʾ</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="zeta-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">numerals/letters</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">code-switching/core borrowing</usg>
+               <usg type="normativity" opt="false">ad-hoc usage</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false">hapax legomenon</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>letter ‘zeta’ (numerical value 7)</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Ancient Greek+</lang>
+                  </usg>
+                  <quote>ζῆτα</quote>
+               </cit>
+               <cit type="example">
+                  <quote xml:lang="jpa">
+אמר להון מדידכון אנא ממטי לכון 
+            <app>
+                        <lem>זיטא</lem>
+                     </app>
+                     <ref type="entry">איפטה</ref>
+                     <ref type="entry">איטה</ref>
+                     <ref type="entry">אכטו</ref>
+                  </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">14,2</ref>
+                     <ref type="witness">I 127: 3</ref>
+                  </bibl>
+                  <cit type="translation">
+                     <quote xml:lang="en">
+He replied to them: From your own [language] I will prove it to you: “Zeṭaʾ (live) epṭah (seven), eṭah (go) akṭo (eight)”
+            </quote>
+                     <bibl default="false" status="draft">Freedman / Simon I: 112</bibl>
+                  </cit>
+               </cit>
+               <cit type="example">
+                  <quote xml:lang="jpa">
+אמר להון מדידכון אנה ממטי לכון
+            <app>
+                        <lem>זיטא</lem>
+                     </app>
+                     <ref type="entry">איפטה</ref>
+                     <ref type="entry">היטה</ref>
+                     <ref type="entry">אוקטון</ref>
+                  </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">20,6</ref>
+                     <ref type="witness">I 189: 3</ref>
+                  </bibl>
+                  <cit type="translation">
+                     <quote xml:lang="en">He replied to them: From your own [language] I will prove
+it to you: “Zeṭaʾ (live) epṭah (seven), eṭah (go) akṭo (eight)”
+= Yalq. Bereshit 20 (6c: 53); NumR 4,3; Yalq. Bemidbar 692 (220d: 13), Tanh Bemidbar 18, TanhB Bemidbar 21; yYev 5d: 7 (corr.): <term xml:lang="jpa">זוטא</term>
+                        <term xml:lang="fjb">zwṭʾ</term>
+                     </quote>
+                     <bibl default="false" status="draft">Freedman / Simon I: 164</bibl>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Ancient Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=zh%3Dta&amp;la=greek&amp;can=zh%3Dta0"
+                          type="entry">ζῆτα</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+According to R. Huna a foetus which was born at 7th month is viable, 
+but a foetus which was born at 8th month is not viable. R. Abbahu gives a 
+mnemonic based on a Greek pun:  The name of the Greek letter ‘zeta’ 
+(numerical value 7) sounds like the Greek imp. <term xml:lang="grc">ζῆτω</term> (‘let it live!’), while the name of the letter ‘eta’ (numerical value 8) sounds like the Greek <term xml:lang="grc">ἲτω</term> (‘let it go!’, i.e. ‘die!’).
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss II</title>
+                  <citedRange>246</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

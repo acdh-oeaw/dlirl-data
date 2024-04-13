@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">דיוטריטא</title>
+            <title type="alternative">dywṭryṭʾ</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="diutrita-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#doriyyah-dlgenr"
+                next="#diutrin-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">דיוטריטא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dywṭryṭʾ</orth>
+               <pron notation="rabbinic" opt="false">diuṭriṭaʾ</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דיאטריטא</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">dyʾṭryṭʾ</orth>
+                  <pron notation="rabbinic" opt="false">diaṭritaʾ</pron>
+               </form>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דייטרוטין</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">dyyṭrwṭyn</orth>
+                  <pron notation="rabbinic" opt="false">daiṭeroṭin</pron>
+               </form>
+               <form type="variant" source="19,6 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ודיוטרוטין</orth>
+               </form>
+               <form type="variant" source="19,6 - Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ודרוטרוטין</orth>
+               </form>
+               <form type="variant" source="25,3 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ודיוטרוטין</orth>
+               </form>
+               <form type="variant" source="25,3 - Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ודיטרוטין</orth>
+               </form>
+               <form type="variant" source="25,3 - K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ודייאטריטון</orth>
+               </form>
+               <form type="variant" source="25,3 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ודיוטרוטין</orth>
+               </form>
+               <form type="variant" source="25,3 - Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ודיוטריוטין</orth>
+               </form>
+            </form>
+            <sense xml:id="diutrita-dlgenr-1" opt="false">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>glass vessels (cut or engraved)</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek</lang>
+                  </usg>
+                  <quote>διάτρητα</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>קופה מליאה כוסות ודייטרוטין</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">19,6</ref>
+                     <ref type="witness">I 175: 4</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>A basket full of goblets and glass vessels.</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">GenR 25,3 [I 242: 3]</bibl>; <bibl type="ancient" default="false" status="draft">GenR 40,3 [I 383: 4]</bibl>; <bibl type="ancient" default="false" status="draft">GenR 64,2 [II 701: 14]</bibl>; <bibl type="ancient" default="false" status="draft">RutR 1,9</bibl> (<term xml:lang="jpa">דיוטריטון</term>); <bibl type="ancient" default="false" status="draft">MShem 28,4 [66b]</bibl> (<term xml:lang="jpa">דיטריטון</term>); <bibl type="ancient" default="false" status="draft">Yalq 27 (8d: 55)</bibl>; <bibl type="ancient" default="false" status="draft">Yalq 43 [12c: 33]</bibl> (<term xml:lang="jpa">דייטריטון</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>קופה מליאה כוסות ודייטרוטין</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">25,3</ref>
+                     <ref type="witness">I 242: 3</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>A basket full of goblets and glass vessels.</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">GenR 19,5 [I 175: 4]</bibl>; <bibl type="ancient" default="false" status="draft">GenR 40,3 [I 383: 4]</bibl>; <bibl type="ancient" default="false" status="draft">GenR 64,2 [II 701: 14]</bibl>; <bibl type="ancient" default="false" status="draft">RutR 1,9</bibl> (<term xml:lang="jpa">דיוטריטון</term>); <bibl type="ancient" default="false" status="draft">MShem 28,4 [66b]</bibl> (<term xml:lang="jpa">דיטריטון</term>); <bibl type="ancient" default="false" status="draft">Yalq 27 (8d: 55)</bibl>; <bibl type="ancient" default="false" status="draft">Yalq 43 [12c: 33]</bibl> (<term xml:lang="jpa">דייטריטון</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>קופה מליאה כוסות ודייטרוטין</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">40,3</ref>
+                     <ref type="witness">I 383: 4</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>A basket full of goblets and glass vessels.</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">RutR 1,9</bibl> (<term xml:lang="jpa">דיוטריטון</term>); <bibl type="ancient" default="false" status="draft">MShem 28,4 [66b]</bibl> (<term xml:lang="jpa">דיטריטון</term>); <bibl type="ancient" default="false" status="draft">Yalq 27 [8d: 55]</bibl>; <bibl type="ancient" default="false" status="draft">Yalq 43 [12c: 33]</bibl> (<term xml:lang="jpa">דייטריטון</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>קופה מליאה כוסות ודייטרוטין</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">64,2</ref>
+                     <ref type="witness">II 701: 14</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>A basket full of goblets and glass vessels.</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">GenR 19,5 [I 175: 4]</bibl>; <bibl type="ancient" default="false" status="draft">GenR 25,3 [I 242: 3]</bibl>; <bibl type="ancient" default="false" status="draft">GenR 40,3 [I 383: 4]</bibl>; <bibl type="ancient" default="false" status="draft">RutR 1,9</bibl> (<term xml:lang="jpa">דיוטריטון</term>); <bibl type="ancient" default="false" status="draft">MShem 28,4 [66b]</bibl> (<term xml:lang="jpa">דיטריטון</term>); <bibl type="ancient" default="false" status="draft">Yalq 27 [8d: 55]</bibl>; <bibl type="ancient" default="false" status="draft">Yalq 43 [12c: 33]</bibl> (<term xml:lang="jpa">דייטריטון</term>)</note>
+               </cit>
+            </sense>
+            <note anchored="true">
+         Sg. not in GenR. See Löw in Krauss ad loc. Cf. <bibl type="modern" default="false" status="draft">Jastrow I 294a</bibl>; <bibl type="modern" default="false" status="draft">Levy I 393b</bibl>. For further information cf. <bibl type="modern" default="false" status="draft">Brand (1951) 213-214</bibl>; <bibl type="modern" default="false" status="draft">Sperber, Cards</bibl>.
+      </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss, LW II</title>
+                  <citedRange>199a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

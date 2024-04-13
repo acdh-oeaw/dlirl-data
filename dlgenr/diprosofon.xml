@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">דיפרוסופון</title>
+            <title type="alternative">dyprwswpwn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="diprosofon-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#diplon-dlgenr"
+                next="#diftera-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">דיפרוסופון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dyprwswpwn</orth>
+               <pron notation="rabbinic" opt="false">diprosofon</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דופרצופין</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">dwprṣwpyn</orth>
+                  <pron notation="rabbinic" opt="false">duparṣufin</pron>
+               </form>
+               <form type="variant" source="V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דיו פרצופין</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">dyw prṣwpyn</orth>
+                  <pron notation="rabbinic" opt="false">dyo parṣufin</pron>
+               </form>
+               <form type="variant" source="Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דיאופרצופה</orth>
+                  <orth type="transliteration" opt="false">dyʾwprṣwph</orth>
+                  <pron notation="rabbinic" opt="false">dyoparṣufah</pron>
+               </form>
+               <form type="variant" source="Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דופרצופין</orth>
+               </form>
+            </form>
+            <sense xml:id="diprosofon-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">properties/features</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>double-faced</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek+</lang>
+                  </usg>
+                  <quote>διπρόσωπον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+               אמר ר' שמואל בר נחמן בשעה שברא הקדוש ברוך הוא אדם הראשון דיפרוסופון בראו
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">8,1</ref>
+                     <ref type="witness">I 55:4</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Shemuʾel bar Naḥman said: When the Holy One, blessed be he, created the first man, He created him double-faced.
+            </quote>
+                  </cit>
+               </cit>
+               <note anchored="true">
+                  <bibl type="modern" default="false" status="draft">AC I 46</bibl> and
+         <bibl type="modern" default="false" status="draft">Levy I 394</bibl>: <term xml:lang="jpa">דיופרוסופין</term>.
+         <bibl type="modern" default="false" status="draft">Krauss, LW II 202</bibl> renders here adj. pl. <term xml:lang="jpa">דיופרצופין</term> from <term xml:lang="jpa">דיופרצוף</term> tracing it back to Gr. <term xml:lang="grc">διπρόσωπος</term> (Sophocles 386: “bifrons, with two faces, double-faced”). For <term xml:lang="jpa">דיפראסופא</term> in 56,17 (II 729:5) cf.
+         <ref type="entry">פרצוף</ref>.
+      </note>
+               <etym type="borrowing" opt="false">
+                  <lbl opt="false">source language</lbl>
+                  <lang opt="false">Classical Greek+</lang>
+                  <cit type="etymon" xml:lang="grc">
+                     <xr type="related" opt="false">
+                        <lbl opt="false">Cf. LSJ</lbl>
+                        <ref target="http://www.perseus.tufts.edu/hopper/morph?l=di-pro%2Fswpos&amp;la=greek&amp;can=di-pro%2Fswpos0"
+                             type="entry">διπρόσωπος</ref>
+                     </xr>
+                  </cit>
+               </etym>
+            </sense>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss, LW II</title>
+                  <citedRange>202</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">בולרין</title>
+            <title type="alternative">bwlryn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="bolrin-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#bulyotes-dlgenr"
+                next="#batisa-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">בולרין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">bwlryn</orth>
+               <pron notation="rabbinic" opt="false">bolrin</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f.</gram>
+               </gramGrp>
+               <form type="variant" source="8,8 - K V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בלורין</orth>
+               </form>
+               <form type="variant" source="28,7 - V Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בלריות</orth>
+               </form>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">בולריות</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">bwlrywt</orth>
+               <pron notation="rabbinic" opt="false">bolariyyot</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="bolrin-dlgenr-1" opt="false">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>clod; (gold) ingot</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Post Classical Greek+</lang>
+                  </usg>
+                  <quote>βωλάριον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמרליה לית הכא מלכו, אלא למלך שהיה מטייל פתח פלטין וראה בולרין אחת מושלכת, אמר מה נעשה בה, מהן אומרים דימוסיות ומהן אומרים פרבטיות אמר המלך אדריינטיס אני עושה אותה מי מעכב.</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">8,8</ref>
+                     <ref type="witness">I 62: 2</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פלטין</ref>
+                  <ref type="entry" xml:lang="jpa">דימוסיות</ref>
+                  <ref type="entry" xml:lang="jpa">פרבטיות</ref>
+                  <ref type="entry" xml:lang="jpa">אדריינטיס</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Levi said: There is no taking counsel here,
+                  but it may be compared to a king who was walking at the door of his palace 
+                  when he saw a clod lying about. Said he: “What shall we do with it?” Some answered: [Use it in building] public baths”; others answered: “private baths”. “I will make a statue of it”, 
+                  declared the king. Who then can hinder him?
+               </quote>
+                     <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq 13 (4c: 51)</bibl> (<term xml:lang="jpa">בלורין</term>)</note>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ויתרם אכלה אש שהיו רואים בולריות שלזהב ניתכות באש</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">28,7</ref>
+                     <ref type="witness">I 266: 2</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And their abundance the fire hath consumed (Job 22,20): they saw their gold ingots melted in the fire.</quote>
+                     <note anchored="true">= Yalq Zeph. 566 (433d: 34): <term xml:lang="jpa">בלורית</term>
+                        <term xml:lang="fjb">blwryt</term>.</note>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Post Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=bwl-a%2Frion&amp;la=greek&amp;can=bwl-a%2Frion0"
+                          type="entry">βωλάριον</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">Cf. also <bibl type="modern" default="false" status="draft">Krauss, LW II 141b-142a</bibl>. <bibl type="modern" default="false" status="draft">Levy I 200b</bibl> and <bibl type="modern" default="false" status="draft">MY. AC II 105b</bibl>: <term xml:lang="jpa">בלר</term>
+               <term xml:lang="fjb">blr</term>
+               <term xml:lang="rabbinic">belur</term> „beryl, pearl, gemstone“ (cf. <term xml:lang="jpa">בורלא</term>
+               <term xml:lang="fjb">bwrlʾ</term>
+               <term xml:lang="rabbinic">burlaʾ</term>) [<bibl type="modern" default="false" status="draft">Krauss (1937) 93b</bibl>: skrt. vaiḍŭrya; <bibl type="modern" default="false" status="draft">Sperber (1982) 97 n. 16</bibl> (for Gen 8,8) Gr. <term xml:lang="grc">βηρύλλιον</term>]. <bibl type="modern" default="false" status="draft">Jastrow I 171</bibl> renders for GenR 8,8 <term xml:lang="jpa">בלנרין</term>
+               <term xml:lang="fjb">blnryn</term>
+               <term xml:lang="rabbinic">balnerin</term> Lat. balnearia „bathhouse“. <bibl type="modern" default="false" status="draft">Jastrow I 171b-172a</bibl> explains the lexem in 28,7 as a derivation from <term xml:lang="jpa">בלל</term>
+               <term xml:lang="fjb">bll</term> „something chained“ as „thick gold chains“. Cf. the parallel in <bibl type="ancient" default="false" status="draft">Midrash Hallel</bibl> (<bibl type="modern" default="false" status="draft">Jellinek, Beth ha-Midrasch V, Wien 1873: 1:11</bibl>) <term xml:lang="jpa">משל לאבן אחת שהיתה מושלכת בפלטון של מלך</term> „This may be compared to a stone lying in the king’s palace…” The reading <term xml:lang="jpa">כילרין</term>
+               <term xml:lang="fjb">kylryn</term> corr. for <term xml:lang="jpa">בולרין</term>  in <bibl type="ancient" default="false" status="draft">CantR 1,9</bibl> shall be explained as Gr. <term xml:lang="grc">φολλερόν</term> (<bibl type="modern" default="false" status="draft">Sperber ibid. 98</bibl>), cf. <ref type="entry" xml:lang="jpa">פולר</ref>, cf. <ref type="entry" xml:lang="jpa">בול</ref>. <bibl type="modern" default="false" status="draft">Sperber ibid.</bibl> explains it as Gr. <term xml:lang="grc">φολλερόν</term> (<term xml:lang="grc">φολλάριον</term>) Lat. follis, a small Roman coin (cf. <bibl type="modern" default="false" status="draft">Krauss, LW II 141b-142a</bibl> and <ref type="entry" xml:lang="jpa">פולר</ref>), but for <bibl type="ancient" default="false" status="draft">GenR 28,7</bibl> he suggests Gr. <term xml:lang="grc">βωλάριον</term> (since this Roman coin was never made of gold).</note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sperber (1982)</title>
+                  <citedRange>95-99</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

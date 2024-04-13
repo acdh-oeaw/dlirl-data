@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אנקלימון</title>
+            <title type="alternative"/>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="anqlimon-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#anqliton-dlgenr"
+                next="#antrope-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אנקלימון</orth>
+               <orth type="transcription" xml:lang="fjb" opt="false">ʾnwlymwn</orth>
+               <pron notation="rabbinic" opt="false">anqlimon</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" source="49,9 first occurrence - Ox1 V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אנקלימון</orth>
+               </form>
+               <form type="variant" source="49,9 first occurrence - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אנקליטין</orth>
+               </form>
+               <form type="variant" source="49,9 first occurrence - K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">סנקליטון</orth>
+               </form>
+               <form type="variant" source="49,9 first occurrence - Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אנקריטיריון</orth>
+               </form>
+               <form type="variant" source="49,9 second occurrence - K V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אנקליטין</orth>
+               </form>
+            </form>
+            <sense xml:id="anqlimon-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">law</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false"/>
+               <usg type="geographic" opt="false"/>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>liable to charge</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Medieval Greek</lang>
+                  </usg>
+                  <quote>ἐγκλήμων (?)</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     אמר ר' יהודה בר' סימון בשר ודם תולין לו אנקריטיריון מדוכס לאיפרכוס מאיפרכוס לאיסטרטלטיס ואת בשביל שאין לך מי יתלה לך אנקליטון אנקליטין לא תעשה משפט
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">49,9</ref>
+                     <ref type="witness">II 510: 4</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אנקליטון</ref>
+                  <ref type="entry" xml:lang="jpa">אנקריטיריון</ref>
+                  <ref type="entry" xml:lang="jpa">דוכס</ref>
+                  <ref type="entry" xml:lang="jpa">איפרכוס</ref>
+                  <ref type="entry" xml:lang="jpa">איפרכוס</ref>
+                  <ref type="entry" xml:lang="jpa">איסטרטלטיס</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Yehuda be-R. Simon said: (Abraham pleaded thus:) ‘Even in the case of a human judge, an anqlimon can be made from the commander to the prefect and from the prefect to the governor; but you, because no appeal can be made from your judgment, will you not do justly? (cf. Freedman / Simon I 429)
+            </quote>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Medieval Greek</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aalphabetic+letter%3D*e%3Aentry+group%3D10%3Aentry%3De%29gklh%2Fmwn"
+                          type="entry">ἐγκλήμων</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               May be an independent reading of V and Ox 1 for GenR. Attested also in 
+      <bibl type="ancient" default="false" status="draft">DtnR 2,29</bibl> (acc. to Mus. and
+      <bibl type="ancient" default="false" status="draft">Yalq 167 [55a: 12]</bibl>).
+      <bibl type="modern" default="false" status="draft">AC I 159ab</bibl> and
+      <bibl type="modern" default="false" status="draft">Krauss, LW II 76a</bibl>, suggest Gr. <term xml:lang="grc">ἐγκλήμα</term> / <term xml:lang="grc">ἐγκλήματα</term>. For further literature see Sperber. Cf.
+      <ref type="entry" xml:lang="jpa">אנקליטון</ref>,
+      <ref type="entry" xml:lang="jpa">אנקריטיריון</ref>
+            </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sperber (1984)</title>
+                  <citedRange>49</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

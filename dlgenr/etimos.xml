@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אטימוס</title>
+            <title type="alternative">ʾṭymws</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="etimos-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#orio-dlgenr"
+                next="#atlis-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אטימוס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾṭymws</orth>
+               <pron notation="rabbinic" opt="false">eṭimos</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">adverb</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">איטימוס</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾyṭymws</orth>
+                  <pron notation="rabbinic" opt="false">eṭimos</pron>
+               </form>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אוטמוס</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾwṭmws</orth>
+                  <pron notation="rabbinic" opt="false">oṭmos</pron>
+               </form>
+               <form type="variant" source="48,7 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">איטמוס</orth>
+               </form>
+               <form type="variant" source="48,7 - Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אטימוס</orth>
+               </form>
+            </form>
+            <sense xml:id="etimos-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">properties/features</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>ready, prepared</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Ancient Greek+</lang>
+                  </usg>
+                  <quote>ἕτοιμος, adv. ἑτοίμως</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     ר' חגי בשם ר' יצחק עומד אין כת' אלא ניצב איטימוס היך דאת אמר ונצבת על הצור
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">48,7</ref>
+                     <ref type="witness">II 482: 3</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Ḥaggay said in the name of R. Yiṣḥaq: not ʿomed  [standing] is written here but niṣṣav (stationed at his post), [which means] ‘ready’ as you read (Ex 33,21): As you shall be stationed  [niṣṣavta] upon the rock. (Freedman / Simon I 409)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">ShirR 2,2</bibl>;
+            <bibl type="ancient" default="false" status="draft">PesR 15</bibl>;
+            <bibl type="ancient" default="false" status="draft">MTeh (Buber) 22,19</bibl>;
+            <bibl type="ancient" default="false" status="draft">Yalq 82 (24a: 19)</bibl>
+                  </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אנא קאים אוטמוס</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">100 (101),2</ref>
+                     <ref type="witness">III 1286: 2</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>I stand ready.</quote>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=e%28toi%3Dmos&amp;la=greek&amp;can=e%28toi%3Dmos0"
+                          type="entry">ἕτοιμος</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">Also used in connections with preposition <term xml:lang="jpa">ל</term> and infinitive. Cf.
+      <bibl type="modern" default="false" status="draft">Krauss, LW II 29</bibl> in detail.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>48</citedRange>
+                  <note anchored="true">(<term xml:lang="jpa">איטמוס</term>)</note>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

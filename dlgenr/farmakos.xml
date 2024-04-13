@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">פרמקוס</title>
+            <title type="alternative">prmqws</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="farmakos-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#protata-dlgenr"
+                next="#qondilin-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">פרמקוס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">prmqws</orth>
+               <pron notation="rabbinic" opt="false">farmaqos</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant"
+                     source="77,2 - first occurrence - Vat2 Ox1"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פרקמוס</orth>
+               </form>
+               <form type="variant" source="77,2 - first occurrence - V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פרקמוס נ"א פרמקוס</orth>
+               </form>
+               <form type="variant"
+                     source="77,2 - second occurrence - Vat2 Ox1 V"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פרקמוס פרקמוס</orth>
+               </form>
+               <form type="variant" source="77,2 - second occurrence - K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פקרמוס פרקמוס פי' מכשף</orth>
+               </form>
+               <form type="variant" source="77,2 - second occurrence - Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פרמקוס</orth>
+               </form>
+            </form>
+            <sense xml:id="farmaqos-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">social groups/occupations</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false"/>
+               <usg type="geographic" opt="false">Coptic</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>sorcerer</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Post-Classical greek</lang>
+                  </usg>
+                  <quote>φάρμακος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     רבנין אמ' לארכיליסטיס [K לארכולסטיס | Vat 1 לארכי לסטס] נידמה לו [ Vat 1 Vat 2 Ox 1 Ox 2 V K לו לזה צאן ולזה צאן לזה גמלים ולזה גמלים] אמר לו העבר שלי ואני אעביר שלך, עיבר המלאך את שלאבינו כהרף עין והוה אבינו מעביר וחוזר ומשכח מעביר וחוזר ומשכח, אמר ליה פרמקוס אמר ר' פינחס נטל פיקרין ונתן בצוארו אמר ליה פרמקוס פרמקוס לא חרשין מצלחין בליליא
+         </quote>
+                  <ref type="entry" xml:lang="jpa">ארכיליסטיס</ref>
+                  <ref type="entry" xml:lang="jpa">פיקרין</ref>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">77,2</ref>
+                     <ref type="witness">II 911: 5</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        The rabbis said: He appeared to him in the guise of a brigand: each had flocks and each had camels, and he proposed to him: “Do you take mine across and I will take yours.” The angel then transported Jacob’s in the twinkling of an eye, whereas [Jacob] our father took some across, returned, and found more took those across, returned and found more [and so on]. “You are a sorcerer,” he exclaimed. R. Pineḥas said: [Jacob] took a tuft of wool and stuffed it in his [the angel’s] throat, exclaiming: “You sorcerer, you sorcerer! Magicians do not succeed at night!” (Freedman / Simon II 711)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 132 (40d: 20,21)</bibl> (<term xml:lang="jpa">פרקמוס</term>);
+            <bibl type="ancient" default="false" status="draft">ShirR 3,3</bibl> (<term xml:lang="jpa">פרמקוס</term>)
+         </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Post-Classical Greek</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=fa%2Frma%5Ekos&amp;la=greek&amp;can=fa%2Frma%5Ekos0"
+                          type="entry">φάρμακος</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">Cf.
+      <bibl type="modern" default="false" status="draft">AC VII 430</bibl>;
+      <bibl type="modern" default="false" status="draft">Levy IV 118</bibl>;
+      <bibl type="modern" default="false" status="draft">Jastrow II 1230</bibl>. Various readings of this sequence are presented in the mss.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss, LW II</title>
+                  <citedRange>490a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

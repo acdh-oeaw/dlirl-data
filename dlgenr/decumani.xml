@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">דקומנייא</title>
+            <title type="alternative">dqwmnyyʾ</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="decumani-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#diqratos-dlgenr"
+                next="#diqayon-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">דקומנייא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dqwmnyyʾ</orth>
+               <pron notation="rabbinic" opt="false">decumani</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m</gram>
+               </gramGrp>
+               <form type="variant" source="Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ריקוסינא</orth>
+               </form>
+            </form>
+            <sense xml:id="decumani-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">military</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>Decumani (a name of a Roman legion)</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <usg opt="false">
+                     <lang opt="false">Latin</lang>
+                  </usg>
+                  <quote xml:lang="la">Decumani</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     אמר ר' יצחק משל לשני לגיונות של מלך דיקומנייא ואגוסטיינא. בשעה שהמלך נמנה עם אילו נמצאי שלמים ובשעה שהמלך עוד נמנה עם אילו נמצאו שלמי'.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">94,9</ref>
+                     <ref type="witness">III 1181:5</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">לגיונות</ref>
+                  <ref type="entry" xml:lang="jpa">ואגוסטיינא</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Yiṣḥaq said: It may be compared to the two royal legions, 
+                        the Decumani and the Augustiani. When the emperor is counted with the former 
+                        they are complete, and when he is counted with the latter they are complete. (Freedman II: 876)
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמ' ר' יצחק שני לגיונות יש למלך ריקוסינא ואגוסטיינא. בשעה שהמלך נמנה עם אילו נמצאים הם שלמים. עם בניה שללאה הם נמצאים שלמים</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">94,9 Vat 1</ref>
+                     <ref type="witness">III 1181:5</ref>
+                  </bibl>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Latin</lang>
+               <cit type="etymon" xml:lang="la">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. Lewis / Short</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=d%C4%95c%C4%ADm%C4%81nus&amp;la=la&amp;can=d%C4%95c%C4%ADm%C4%81nus0"
+                          type="entry">decimani, II., B.</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               Other spellings: <term xml:lang="jpa">דיקומני</term>
+               <term xml:lang="fjb">dqwmny</term>; <term xml:lang="jpa">דיקומנא</term>
+               <term xml:lang="fjb">dyqwmnʾ</term>; 
+      <term xml:lang="jpa">דיקומניאות</term>
+               <term xml:lang="fjb">dyqwmnyʾwt</term>;
+      <term xml:lang="jpa">דיקומניית</term>
+               <term xml:lang="fjb">dyqwmnyyt</term>;
+      <term xml:lang="jpa">דקומייני</term>
+               <term xml:lang="fjb">dqwmyyny</term>
+            </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sperber</title>
+                  <citedRange>96</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

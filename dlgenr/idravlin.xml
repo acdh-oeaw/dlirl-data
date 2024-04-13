@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אדרבלין</title>
+            <title type="alternative">ʾdrblyn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="idravlin-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#agrion-dlgenr"
+                next="#andraintis-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אדרבלין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾdrblyn</orth>
+               <pron notation="rabbinic" opt="false">idravlin</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m</gram>
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <form type="variant" opt="false">
+               <orth xml:lang="jpa" opt="false">אידרבלון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾydrblwn</orth>
+               <pron notation="rabbinic" opt="false">idravlon</pron>
+            </form>
+            <form type="variant" opt="false">
+               <orth xml:lang="jpa" opt="false">עדרבלין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʿdrblyn</orth>
+               <pron notation="rabbinic" opt="false">ʿidravlin</pron>
+            </form>
+            <form type="variant" opt="false">
+               <orth xml:lang="jpa" opt="false">עדרבלון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʿdrblwn</orth>
+               <pron notation="rabbinic" opt="false">ʿidravlon</pron>
+            </form>
+            <sense xml:id="idravlin-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">arts</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="geographic" opt="false"/>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>water-organ or water-organ players</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Post-Classical Greek+</lang>
+                  </usg>
+                  <quote>ὑδραύλις</quote>
+               </cit>
+               <cit type="example">
+                  <quote xml:lang="jpa">
+והיה כמצחק בעיני חתניו אמרו
+            <app>
+                        <lem>אדרבלין</lem>
+                        <rdg wit="#Vat2">אידרבלון</rdg>
+                        <rdg wit="#V">אדרכולין</rdg>
+                        <rdg wit="#K">הדרבולין</rdg>
+                     </app>
+ ו
+            <ref type="entry">כרבלין</ref>
+במדינה ומדינה נהפכת
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">50,9</ref>
+                     <ref type="witness">II 525:5</ref>
+                  </bibl>
+                  <cit type="translation">
+                     <quote xml:lang="en">But he seemed unto his sons-in-law as one that jested. Said they to him: ‘Organ-players and flute-players are in
+               the land and the land is to be overthrown?!’ (Freedman / Simon I: 439-440)
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example">
+                  <quote xml:lang="jpa">
+ושם אחיו יובל הוא היה אבי כל תופש כינור ועוגב
+            <app>
+                        <lem> עדרבלין</lem>
+                        <rdg wit="#Vat2">עדרבלון</rdg>
+                        <rdg wit="#Ox2">עדרכלין</rdg>
+                        <rdg wit="#K">עדרכלין</rdg>
+                     </app>
+ ו
+            <ref type="entry">כרבלין</ref>
+                  </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">23,3</ref>
+                     <ref type="witness">I 223: 5</ref>
+                  </bibl>
+                  <cit type="translation">
+                     <quote xml:lang="en">And his brother’s name was Jubal; he was the father of all such as handle the harp and the pipe:
+i. e. organ players and flautists.
+            </quote>
+                     <bibl default="false" status="draft">Freedman / Simon I: 194</bibl>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Post-Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=u%28%2Fdr-aulis&amp;la=greek&amp;can=u%28%2Fdr-aulis0"
+                          type="entry">ὕδραυλις</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+Sg. (<term xml:lang="jpa">אדרבלא</term>* <term xml:lang="fjb">ʾrdblʾ</term> |idravlaʾ|) not attested. 
+Derived from <term xml:lang="jpa">אדרבליס</term>
+               <term xml:lang="fjb">ʾdrblys</term>
+ |idravlis|, <term xml:lang="jpa">ארדבליס</term>
+               <term xml:lang="fjb">ʾrdblys</term> |irdavlis| (ySuk 5,6 – 55c: 48), 
+cf. Krauss II: 13; Levy I: 32,160, Jastrow 18, AC  I: 39; AC VI: 265, or <term xml:lang="jpa">הדראוליס</term>
+               <term xml:lang="fjb">hdrʾwlys</term>
+ |hudraʾulis| (tAr 1,13), corr. <term xml:lang="jpa">הרדווליס</term>
+               <term xml:lang="fjb">hrdwwlys</term> (bAr 10b) - Gr. <term xml:lang="grc">ὕδραυλις</term>, cf. Krauss II: 221, Levi I: 491, Jastrow 365, AC III: 240-241.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss</title>
+                  <citedRange>II: 13</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

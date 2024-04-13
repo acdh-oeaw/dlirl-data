@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">ארכיליסטיס</title>
+            <title type="alternative">ʿrkhylysṭys</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="arkhilistes-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#ariston-dlgenr"
+                next="#arkistrategos-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">ארכיליסטיס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʿrkhylysṭys</orth>
+               <pron notation="rabbinic" opt="false">arkhilisṭes</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">ארכיליסטיסין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾrkhylysṭysyn</orth>
+               <pron notation="rabbinic" opt="false">arkhilisṭesin</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="arkhilistes-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">social groups</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">core borrowing/cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit./metaphor.</usg>
+               <usg type="geographic" opt="false">Coptic</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>chief-robber</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Post-Classical Greek</lang>
+                  </usg>
+                  <quote>ἀρχιλῃστής</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     וישבו שם, אמר ר' יצחק בכל מקום שאת מוצא ישיבה השטן קופץ, אמר ר' חלבו בכל מקום שאת מוצא נחת רוח הסטן מקטרג, אמר ר' לוי בכל מקום שאת מוצא אכילה ושתייה ארכיליסטיס [Ox 1 ארכי ליסטיס | Vat 1 ארכו ליסטיס] מקרטע [ארכיליסטיס מקרטע. K השטן מקטריג | V Ox 2 השטן מקטרג].
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">38,7</ref>
+                     <ref type="witness">I 356: 10</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        And they dwelt there (Gen 11,2). R. Yiṣḥaq said: wherever you find dwelling mentioned, Satan becomes active. R. Ḥelbo said: Wherever you find contentment, Satan brings accusations. R. Lewi said: Wherever you find eating and drinking, the arch-robber [Satan] cuts his capers [is up to mischief]. (Freedman / Simon I 306-307)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yelamdenu to Dtn. 2,9</bibl> (acc.
+            <bibl type="modern" default="false" status="draft">to AC I 285-286</bibl>)
+         </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     אמר ר' יודה בר' סימון לארכיליסטיס [Ox 1 משל לארכי לסטיס | Ox 2 לארכי ליסטס מקרטע]  שמרד במלך אמר המלך כל מי שתופשו אני נותן לו פרוקופי, עמד אחד ותפשו, אמר המלך ישמרו שניהם עד הבקר, זה היה מתפחד אי זו פרוקופי נותן לו המלך וזה היה מתפחד אי זה דין המלך דן אותו, כך לעתיד ישראל מתפחדים ופחדו אל י"י ואל טובו ואומות העולם מתפחדים פחדו בציון חטאים.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">48,6</ref>
+                     <ref type="witness">II 480: 12</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פרוקופי</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Yuda b. R. Simon said: [This may be illustrated] by a robber chief who revolted against the king and the king announced, ‘I will give preferment to any man who captures him.’ A man arose and caught him, and the king ordered both to be guarded until morning. One was filled with anxiety, thinking what preferment the king would give him. The other was filled with anxiety, thinking what punishment the king would pronounce upon him. Thus, in the Messianic future Israel shall fear, viz. And they shall come in fear unto the Lord and to His goodness (Hos 3,5); and the Gentiles will fear: The sinners in Zion are afraid (Jes  33,14). (Freedman / Simon I 407-408)
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     רב הונא פתח מחזיק באזני כלב עובר מתעבר על ריב לא לו, נחמן בר שמואל אמר לארכיליסטיס [Vat 1 לארכי ליסטיס |Vat 1 לארכילסטיס |Ox 1 משל לארכיליסטס | Ox 2 לארכי ליסתיס | V K משל לארכי ליסטוס] שישן בדרך, עבר אחד ושרי מעיריה, אמר ליה קום לך דבישה שכיח הכא, קם ושרי מקפח ביה, אמר ליה יגער בישה, אמ' ליה דמיך הוא ועירתניה, כך אמר לו הקדוש ברוך הוא לדרכו היה מהלך והייתה משלח אצלו ואומר לו כה אמר עבדך יעקב.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">75,3</ref>
+                     <ref type="witness">II 880: 2</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        Huna commenced thus: He that passeth by, and meddleth with strife not his own, is like one that taketh a dog by the ears (Prov 26,7). Naḥman b. Shemuʾel said: [This may be compared] to  the case of a robber chief who was sleeping on the path, when a man passed and woke him up, saying: ‘Get up, for there is danger here.’ At that he arose and began beating him, at which he [the victim] cried out: [God] rebuke this wicked man! ‘I was asleep,’ he retorted, ‘and you woke me up.’ Even so said the Holy One, blessed be He: ‘He [Esau] was going his own way, yet thou didst sand wo him, saying: Thus saith thy servant Jacob (Gen 32,5). (cf. Freedman / Simon I 690-691)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 130 (40a: 30)</bibl> (<term xml:lang="jpa">ארכיליסטים</term>)
+         </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     רבנין אמ' לארכיליסטיס [K לארכולסטיס | Vat 1 לארכי לסטס] נידמה לו [ Vat 1 Vat 2 Ox 1 Ox 2 V K לו לזה צאן ולזה צאן לזה גמלים ולזה גמלים] אמר לו העבר שלי ואני אעביר שלך, עיבר המלאך את שלאבינו כהרף עין והוה אבינו מעביר וחוזר ומשכח מעביר וחוזר ומשכח, אמר ליה פרמקוס אמר ר' פינחס נטל פיקרין ונתן בצוארו אמר ליה פרמקוס פרמקוס לא חרשין מצלחין בליליא
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">77,2</ref>
+                     <ref type="witness">II 911: 5</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פרמקוס</ref>
+                  <ref type="entry" xml:lang="jpa">פיקרין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        The rabbis said: He appeared to him in the guise of a brigand: each had flocks and each had camels, and he proposed to him: “Do you take mine across and I will take yours.” The angel then transported Jacob’s in the twinkling of an eye, whereas [Jacob] our father took some across, returned, and found more, took those across, returned and found more [and so on]. “You are a sorcerer,” he exclaimed. R. Pineḥas said: [Jacob] took a tuft of wool and stuffed it in his [the “ (Freedman / Simon II 711)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 132 (40d: 20,21)</bibl> (<term xml:lang="jpa">ארכיליסטים</term>);
+            <bibl type="ancient" default="false" status="draft">ShirR 3,3</bibl> (<term xml:lang="jpa">ארכיליסטים</term>)
+         </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Greek</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aalphabetic+letter%3D*a%3Aentry+group%3D320%3Aentry%3Da%29rxilh%7Csth%2Fs"
+                          type="entry">ἀρχιλῃστής</ref>&amp;gt;
+         </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               Pl. not attested in GenR. Cf. 
+      <bibl type="modern" default="false" status="draft">AC I 285b-286a</bibl>;
+      <bibl type="modern" default="false" status="draft">Levy I 167b-168a</bibl>;
+      <bibl type="modern" default="false" status="draft">Jastrow I 122a</bibl>,
+      <bibl type="modern" default="false" status="draft">Krauss, LW II 131a</bibl>.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sperber (1984)</title>
+                  <citedRange>66-67</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

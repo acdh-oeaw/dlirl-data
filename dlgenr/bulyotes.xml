@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">בוליוטיס</title>
+            <title type="alternative">bwlywṭys</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="bulyotes-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#bolos-dlgenr"
+                next="#bolrin-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">בוליוטיס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">bwlywṭys</orth>
+               <pron notation="rabbinic" opt="false">bulyoṭes</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" source="V K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בליוטוס</orth>
+               </form>
+               <form type="variant" source="Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בוליוטוס</orth>
+               </form>
+               <form type="variant" source="Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בולווטוס</orth>
+               </form>
+               <form type="variant" source="Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בולטוס</orth>
+               </form>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">בוליוטין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">bwlywṭyn</orth>
+               <pron notation="rabbinic" opt="false">bulyoṭin</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">בוליוטי</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">bwlywṭy</orth>
+               <pron notation="rabbinic" opt="false">bulyoṭe</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="bulyotes-dlgenr-1" opt="false">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>councilman</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek</lang>
+                  </usg>
+                  <quote>βουλευτής</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>וארו עיינין כעיני אנשא בקרנא דא זו מלכות הרשעה שמכנסת עין רעה בממונו שלאדם פלן עתיר נעבדיניה ארכונטס פלן עתיר נעבדיניה בוליוטיס</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">76,6</ref>
+                     <ref type="witness">[II 904: 2]</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">ארכונטס</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And, behold, in this horn were eyes like the eyes of a man (Dan 7,8) - this alludes to the wicked State [Rome], which casts an envious eye upon a man’s wealth, [saying]: So-and-so is wealthy: we will make him a city magistrate; so-and-so is wealthy: let us make him a councilman. [Freedman / Simon II 706]</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq Dan 1064 [513b: 12]</bibl> (<term xml:lang="jpa">בלוטוס</term>)</note>
+               </cit>
+            </sense>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>68b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

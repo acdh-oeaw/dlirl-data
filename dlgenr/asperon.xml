@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אספרון</title>
+            <title type="alternative">ʾsprwn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="asperon-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#askolastiqa-dlgenr"
+                next="#epotropos-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אספרון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾsprwn</orth>
+               <pron notation="rabbinic" opt="false">asperon</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">adj.</gram>
+               </gramGrp>
+               <form type="variant" source="Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false"/>
+               </form>
+               <form type="variant" source="V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false"/>
+               </form>
+               <form type="variant" source="Ox2 K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false"/>
+               </form>
+            </form>
+            <sense xml:id="asperon-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">properties/features</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false">hapax legomenon</usg>
+               <usg type="geographic" opt="false"/>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>white</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Post-Classical Greek, Medieval Greek, Modern Greek from Lat. asper</lang>
+                  </usg>
+                  <quote>ἄσπρον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     ר' ירמיה כהנא שאל לר' שמעון בן לקיש המרביע מחית הים מהו, אמר ליה אף הן כת' בהן למיניהם, בהדא פרס בן לקיש מצדתיה אדכהנא, אתיב כהנא והלא אף הדגים כת' בהם למיניהם, בהדא פרס כהנא מצדתיה על בן לקיש, והיך עבידא, אמר ר' יונה יכיל אנא מקיים לה משום מנהיג, מביא שני דגים אחד אספרון ואחד מוורון [אחד אספרון ואחד מוורון. V חד מיירן וחד אספרון |  Ox 2 K חד אוכם וחד חיור | Ox 1  חד חיור וחד אוכם] וקושרן בגמי וממשיכן, דתנינן אסורין לחרוש ולמשוך ולהנהיג.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">7,4</ref>
+                     <ref type="witness">I 53: 4</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">מוורון</ref>
+                  <ref type="entry" xml:lang="jpa">מיירן</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Yeremiyah said: [R.] Kahanaʾ asked R. Shimʿon b. Laqish: ‘What if one crosses different sea species?’ ‘In their case, too After their kind is written,’ he answered. With this the son of Laqish spread his net over [R.] Kahanaʾ. Kahanaʾ, however, refuted him: ‘Yet in the case of fish, too, After their kind is written.’ With this Kahanaʾ spread his net over the son of Laqish. Now how is it to be explained? Said R. [Yonah]: I can apply it [sc. ‘after their kind’] to the prohibition of driving: he brings two fish, one white and the other black, ties them with a reed rope and pulls them, for we learned: You may not plough with, pull, or drive them. (Freedman / Simon I 51-52)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 12 [4b: 47]</bibl> (<term xml:lang="jpa">חוור</term>)
+         </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Post-Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. Lampe s.v.</lbl>
+                     <ref type="entry">ἄσπρος</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+Cf. 
+      <bibl type="modern" default="false" status="draft">AC I 194b</bibl>;
+      <bibl type="modern" default="false" status="draft">Levy I 129b-130a</bibl>,
+      <bibl type="modern" default="false" status="draft">Jastrow I 96b</bibl>;
+      <bibl type="modern" default="false" status="draft">Löw (1969) 13</bibl>. “White“ is also the meaning of <term xml:lang="jpa">חיור</term> in the parallels (as opp. of {
+      <ref type="entry" xml:lang="jpa">מוורון</ref>} Gr. <term xml:lang="grc">μαυρον</term>).
+      <bibl type="modern" default="false" status="draft">Krauss, LW II 94a</bibl> and
+      <bibl type="modern" default="false" status="draft">Lewysohn (1858) 369</bibl> (after Mus.) suggest ~Gr. <term xml:lang="grc">σφύραινα</term>, which is, however, rejected by Löw (Krauss, LW ad loc.) and Levy.
+      <bibl type="ancient" default="false" status="draft">yKil 1,7 [147: 22-23]</bibl> reads: <term xml:lang="jpa">אמר רבי יונה יכול אנא פתר לה משום מנהיג מייתי חוט וקטר באודניה דלכיסא ובאודניה דיריקא</term>, where <term xml:lang="jpa">לכיס</term>
+               <term xml:lang="fjb">lkys</term>
+               <term xml:lang="rabbinic">lakis</term> can be explained as Gr. <term xml:lang="grc">λευκός</term> “white” (while <term xml:lang="jpa">ירוק</term> is Hebr./Aram. “green”, “yellow”). However, Löw (in
+      <bibl type="modern" default="false" status="draft">Krauss, LW II 317a</bibl>) suggests Gr. <term xml:lang="grc">λεῦκος</term> for <term xml:lang="jpa">לכיס</term> (sort of fish,
+      <bibl type="modern" default="false" status="draft">Liddell / Scott 1042</bibl>, but see
+      <bibl type="modern" default="false" status="draft">AC I 194b</bibl>: <term xml:lang="jpa">לכיס</term> Gr. <term xml:lang="grc">λαγαῖος</term>) and Gr. <term xml:lang="grc">ἱέραξ</term> for <term xml:lang="jpa">ירוק</term> (sort of Fish, Liddell / Scott). See also
+      <bibl type="modern" default="false" status="draft">Feliks (1967) 135</bibl>.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Levy I</title>
+                  <citedRange>129b-130a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

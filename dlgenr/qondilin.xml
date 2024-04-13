@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">קונדילין</title>
+            <title type="alternative">qwndylyn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="qondilin-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#farmakos-dlgenr"
+                next="#temelios-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">קונדילין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">qwndylyn</orth>
+               <pron notation="rabbinic" opt="false">qondilin</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">קונדלין</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">qwndlyn</orth>
+                  <pron notation="rabbinic" opt="false">qondlyn</pron>
+               </form>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">קונדולין</orth>
+                  <orth type="transliteration" opt="false">qwndwlyn</orth>
+                  <pron notation="rabbinic" opt="false">qondolin</pron>
+               </form>
+            </form>
+            <sense xml:id="qondilin-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">artefacts</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false">hapax legomenon</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>writing reeds</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Post-Classical Greek, Medieval Greek</lang>
+                  </usg>
+                  <quote>κονδύλιον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     ר' הונא ר' ירמיה בשם ר' שמואל בר' יצחק מחשבתן שלישראל קדמה לכל, למלך שהיה נשוי למטרונה ולא היה לו ממנה בן, פעם אחת נמצא המלך עובר בשוק, אמר טלו מילנין וקלמין וקונדלין [Vat 2 K -]  אילו [Vat 2 V K זו] לבני, והיו אומרים בן אין לו למה מבקש [למה מבקש. V Vat 2 K Ox 1 והוא או' טלו] מילנין וקונדילין אתמהא, חזרו ואמרו המלך אסטרולוגוס הוא וצפה שעתיד להעמיד בן אתמהא, כך אילולי צפה הקדוש ברוך הוא שאחר כ"ו דור עתידין ישראל לקבל התורה לא היה כותב בה צו את בני ישראל אתמהא.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">1,4</ref>
+                     <ref type="witness">I 6: 15</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">קלמין</ref>
+                  <ref type="entry" xml:lang="jpa">מילנין</ref>
+                  <ref type="entry" xml:lang="jpa">מטרונה</ref>
+                  <ref type="entry" xml:lang="jpa">אסטרולוגוס</ref>
+                  <ref type="entry" xml:lang="jpa">קונדילין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Huna, reporting R. Yirmeyah in the name of R. Shemuʾel b. R. Yiṣḥaq, said: The intention to create Israel preceded everything else. This may be illustrated thus:  A king was married to a certain lady, and had no son by her. On one occasion the king was found going through the marketplace and giving orders: ‘Take this ink, inkwell and pen for my son,’ at which people remarked: ‘He has no son: what does he want with ink and pen? Strange indeed!’ Subsequently they concluded: ‘The king is an astrologer, and he has actually foreseen that he is destined to beget a son!’ Thus, had not the Holy One, blessed be He, foreseen that after twenty-six generations Israel would receive the Torah, he would not have written therein, “Command the children of Israel!” (Freedman / Simon I 7)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 2 (2a: 33-36)</bibl> -;
+            <bibl type="ancient" default="false" status="draft">Yalq 766 (265d: 60-62)</bibl> -
+         </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Post-Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LBG</lbl>
+                     <ref target="http://stephanus.tlg.uci.edu/Iris/indiv/lexica.jsp#qid=170524&amp;ql=KONDU%2FLION%2C%20-OU%2C%20TO%2F&amp;q=%CE%BA%CE%BF%CE%BD%CE%B4%CF%8D%CE%BB%CE%B9%CE%BF%CE%BD%2C%20%E2%80%91%CE%BF%CF%85%2C%20%CF%84%CF%8C&amp;usr_input=greek&amp;searchescs=N"
+                          type="entry">κονδύλιον</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">Cf.
+      <bibl type="modern" default="false" status="draft">AC VII 132-133</bibl>;
+      <bibl type="modern" default="false" status="draft">Perles (1873) 39-40</bibl>; missing in other dictionaries. Acc. to AC and Perles the reading of BM is correct. Cf.
+      <ref type="entry" xml:lang="jpa">קלמרין</ref>
+            </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Jastrow II</title>
+                  <citedRange>1334</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">בייא</title>
+            <title type="alternative">byyʾ</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="biyyah-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#bite-dlgenr"
+                next="#bimah-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">בייא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">byyʾ</orth>
+               <pron notation="rabbinic" opt="false">biyyah</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ביה</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">byh</orth>
+                  <pron notation="rabbinic" opt="false">biyah</pron>
+               </form>
+               <form type="variant"
+                     source="93,6 - first occurrence - Vat1 Ox1"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ביה</orth>
+               </form>
+               <form type="variant"
+                     source="93,6 - first occurrence - Vat2 V"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בייה</orth>
+               </form>
+               <form type="variant" source="93,6 - first occurrence - Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ביא</orth>
+               </form>
+               <form type="variant" source="93,6 - second occurrence - Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ביה</orth>
+               </form>
+               <form type="variant"
+                     source="93,6 - second quotation - first occurrence - Vat1 Ox1"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ביה</orth>
+               </form>
+               <form type="variant"
+                     source="93,6 - second quotation - first occurrence - Vat2 V"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בייה</orth>
+               </form>
+               <form type="variant"
+                     source="93,6 - second quotation - first occurrence - Ox2"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ביא</orth>
+               </form>
+               <form type="variant"
+                     source="93,6 - second quotation - second occurrence - Vat2"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בייה</orth>
+               </form>
+               <form type="variant"
+                     source="93,6 - second quotation - second occurrence - Ox2"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ביא</orth>
+               </form>
+               <form type="variant"
+                     source="93,6 - second quotation - second occurrence - V"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בית</orth>
+               </form>
+               <form type="variant"
+                     source="93,6 - second quotation - third occurrence - Vat2"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בייה</orth>
+               </form>
+               <form type="variant"
+                     source="93,6 - second quotation - third occurrence - Ox1 V"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בית</orth>
+               </form>
+               <form type="variant"
+                     source="93,6 - second quotation - third occurrence - Ox2"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ביא</orth>
+               </form>
+               <form type="variant"
+                     source="93,6 - second quotation - fourth occurrence - Vat2"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בייה</orth>
+               </form>
+               <form type="variant"
+                     source="93,6 - second quotation - fourth occurrence - Ox2"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ביא</orth>
+               </form>
+               <form type="variant"
+                     source="93,6 - second quotation - fourth occurrence - V"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בית</orth>
+               </form>
+               <form type="variant"
+                     source="93,6 - second quotation - fifth occurrence - Ox2"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ביא</orth>
+               </form>
+               <form type="variant"
+                     source="93,6 - second quotation - fifth occurrence - V"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בית</orth>
+               </form>
+               <form type="variant"
+                     source="93,6 - second quotation - sixth occurrence - Vat2"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בייה</orth>
+               </form>
+               <form type="variant"
+                     source="93,6 - second quotation - sixth occurrence - Ox2"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ביא</orth>
+               </form>
+            </form>
+            <sense n="1" xml:id="biyyah-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">actions/law</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">code-switching</usg>
+               <usg type="normativity" opt="false">ad-hoc usage</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="geographic" opt="false">Coptic</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>injustice</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Ancient Greek+</lang>
+                  </usg>
+                  <quote>βία</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>בי אדני בייא את עביד בייא אדני</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">93,6</ref>
+                     <ref type="witness">III 1155:2</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Bi adoni – you do violence/injustice to us, my lord.</quote>
+                  </cit>
+               </cit>
+            </sense>
+            <sense n="2" xml:id="biyyah-dlgenr-2" opt="false">
+               <usg type="domain" opt="false">administration/law</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">code-switching</usg>
+               <usg type="normativity" opt="false">ad-hoc usage</usg>
+               <usg type="meaningType" opt="false">lit./metaphor.</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>dominion</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אין כל מקום ומקום שאין לו ממונה על ביה את עביד בייא
+            <app>
+                        <lem>שלו</lem>
+                        <rdg wit="#Vat2">שלה</rdg>
+                     </app>, אגדיקוס ביה
+            <app>
+                        <lem>שלה</lem>
+                        <rdg wit="#Ox1">שלו</rdg>
+                        <rdg wit="#Ox2">שלו</rdg>
+                        <rdg wit="#V">שלו</rdg>
+                     </app>, אגבה בסטס במדינה ממונה על ביה
+            <app>
+                        <lem>שלה</lem>
+                        <rdg wit="#Ox2">שלו</rdg>
+                        <rdg wit="#V">שלו</rdg>
+                     </app>, כך מי ממונה על ביה שלעולמו, הקב"ה ביה שמו ביה
+            <app>
+                        <lem>שמו</lem>
+                        <rdg wit="#K"/>
+                        <!-- Lesarten fehlen -->
+                        <rdg wit="#V"/>
+                     </app>
+                  </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">93,6</ref>
+                     <ref type="witness">III 1155:2</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אגדיקוס</ref>
+                  <ref type="entry" xml:lang="jpa">אגבה בסטס</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>There is not a single place which does not have an
+                        appointed [authority] over its dominion. The egdiqos in his province is appointed over its dominion; the agbah basṭes in his province is appointed over
+                        its dominion. Thus, who is appointed over the dominion of his world? The
+                        Holy One, blessed be He, be-yah is his name, biyyah is his name.
+            </quote>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Ancient Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=bi%2Fa&amp;la=greek&amp;can=bi%2Fa0"
+                          type="entry">βία, Α., ΙΙ.</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note xml:lang="en" anchored="true"> Since the lexeme allows several homographic and/or homophonic
+               possibilities in Greek (and Latin), its interpretation is difficult: Whereas the
+               meaning 1. is relatively clear, namely the well attested legal term Gr. <term xml:lang="grc">βία</term> ‘injustice’, the occurrence in 2. can be drawn only from
+               the context. In 12,10 we consider the usage of Gr. <term xml:lang="grc">βία</term> in
+               its neutral semantics ‘force; dominion’ as the most plausible interpretation
+               (following MY ad. loc.; 
+      <bibl type="modern" default="false" status="draft">Fishbane 2015, 86</bibl>). For further suggestions for 2. cf. <bibl type="modern" default="false" status="draft">AC I:45</bibl>;
+      <bibl type="modern" default="false" status="draft">Krauss, LW II:148</bibl> and
+      <bibl type="modern" default="false" status="draft">Levy I:216</bibl>, who render with Gr. <term xml:lang="grc">βίος</term> ‘life, vital force, livelihood’, MGr. <term xml:lang="grc">βιός</term> ‘livelihood’.
+      <bibl type="modern" default="false" status="draft">Jastrow, Dictionary: 158</bibl> interprets as Late Gr. <term xml:lang="grc">βία</term> ‘highway’ Lat. via. An additional possibility of the
+               attested exclamative particle <term xml:lang="jpa">בייא בייא</term>! ‘Woe!’ (
+      <bibl type="ancient" default="false" status="draft">bYom
+               69b
+      </bibl>,
+      <bibl type="ancient" default="false" status="draft">LevR 17,7</bibl> [=
+      <bibl type="ancient" default="false" status="draft">YalqEz 348</bibl>]), which goes back either to Gr. <term xml:lang="grc">βαβαί</term> or <term xml:lang="jpa">βοή</term>, cf. AC I s.v. <term xml:lang="jpa">ביאה</term>; Levy I s.v., does not apply to the GenR passages due
+               to semantic reasons.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sperber 1984</title>
+                  <citedRange>69</citedRange>
+               </bibl>
+               <bibl default="false" status="draft">
+                  <title>Sokoloff DJPA</title>
+                  <citedRange>95</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

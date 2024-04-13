@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">פלטין</title>
+            <title type="alternative">plṭyn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="paltin-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#pilon-dlgenr"
+                next="#fanos-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">פלטין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">plṭyn</orth>
+               <pron notation="rabbinic" opt="false">palṭin</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פלאטין</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">plʾṭyn</orth>
+               </form>
+               <form type="variant" source="1,1 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פלטרין</orth>
+               </form>
+               <form type="variant" source="1,5 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פלטרין</orth>
+               </form>
+               <form type="variant" source="8,3 - Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פלטרין</orth>
+               </form>
+               <form type="variant" source="8,8 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פלטרין</orth>
+               </form>
+               <form type="variant" source="8,8 - K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פלאטין</orth>
+               </form>
+               <form type="variant" source="8,8 - Ox2 V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פלטין שלו</orth>
+               </form>
+               <form type="variant" source="9,3 - Ox1 Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פלטרין</orth>
+               </form>
+               <form type="variant" source="9,4 - Ox1 3x" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פלטרין</orth>
+               </form>
+               <form type="variant" source="12,1 (I 98,3) - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פלטרין</orth>
+               </form>
+               <form type="variant" source="12,1 (I 98,3) - Ox2 V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">משל לפלטין</orth>
+               </form>
+               <form type="variant" source="12,1 (I 98,3) - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פלטרין</orth>
+               </form>
+               <form type="variant" source="27,4 - Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פלטרין</orth>
+               </form>
+               <form type="variant" source="27,4 - Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פלאטין</orth>
+               </form>
+               <form type="variant" source="34,9 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פלטרין</orth>
+               </form>
+               <form type="variant" source="49,2 - Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פלטרין</orth>
+               </form>
+               <form type="variant" source="65,10 - Ox1 Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פלטרין</orth>
+               </form>
+               <form type="variant" source="39,8 - V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פלטריות</orth>
+               </form>
+               <form type="variant" source="39,8 - Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פליטריות</orth>
+               </form>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">פלטרין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">plṭryn</orth>
+               <pron notation="rabbinic" opt="false">palṭerin</pron>
+               <gramGrp opt="false">
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">פלטיות</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">plṭywt</orth>
+               <pron notation="rabbinic" opt="false">palṭiyyot</pron>
+            </form>
+            <sense xml:id="palatin-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">architecture</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="geographic" opt="false">Coptic</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>palace</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <usg opt="false">
+                     <lang opt="false">Latin</lang>
+                  </usg>
+                  <quote>palatium</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Post-Classical Greek+</lang>
+                  </usg>
+                  <quote>παλάτι(ο)ν</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     בנוהג שבעולם מלך בשר ודם בונה פלטין ואינו בונה אותה מדעת עצמו אלא מדעת אומן.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">1,1</ref>
+                     <ref type="witness">I 2: 2</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        In human practice, when a mortal king builds a palace, he builds it not with his own skill but with the skill of an architect. (Freedman / Simon I 1)
+            </quote>
+                     <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 2 [2a: 53]</bibl> (<term xml:lang="jpa">פלטרין</term>);
+            <bibl type="ancient" default="false" status="draft">Yalq Prov 942 [490b: 40]</bibl>
+                     </note>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     בנוהג העולם מלך בשר ודם בונה פלטין במקום הביבין והאשפה והסיריות, כל מי שיבוא לומר פלטין זו בנויה במקום הביבין והאשפה והסיריות אינו פוגם אתמהא.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">1,5</ref>
+                     <ref type="witness">I 3: 5-6</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        In human practice, when a mortal king builds a palace on a site of sewers, dunghills, and garbage, if one says, ‘This palace is built on a site of sewers, dunghills, and garbage,’ does he not discredit it? (cf. Freedman / Simon I 2)
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     ר' יהודה בר' סימון אמר למלך שקנה לו ב' שפחות, שתיהן באוני ובטימי אחת, על אחת גזר שלא תזוז מפלטין ועל אחת גזר טרודין. ישבה לה אותה תוהא ובוהא, אמרה שנינו באוני ובטימי אחת, זו אינה זזה מפלטין ועלי גזר טרודין אתמהא.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">2,2</ref>
+                     <ref type="witness">I 15: 8,9</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">טימי</ref>
+                  <ref type="entry" xml:lang="jpa">אוני</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Yehuda b. R. Simon said: Compare this case to a king, who has bought two bondmaids, both on the same bill of sale and at the same price. One he commanded not to stir out from the palace, while for the other he decreed banishment. The latter sat bewildered and astonished. ‘Both of us were bought  on the same bill of sale and at the same price,’ she exclaimed, ‘yet she does not stir from the palace while against me he has decreed banishment. How amazing!’ (Freedman / Simon 15-16)
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>למלך שביקש לבנות פלאטין</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">3,1</ref>
+                     <ref type="witness">I 18: 12</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>... it is comparable to a king who wished to build a palace… (cf. Freedman / Simon I 20)</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>למלך שבנה פלטין ועיטרה בנרות</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">3,1</ref>
+                     <ref type="witness">I 19: 2</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>... it is comparable to a king who built a palace and then adorned it with lights … (cf. Freedman / Simon I 20)</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>בנוהג העולם מלך בשר ודם בונה פלאטין ומקרה באבנים ובעצים ובעפר</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">4,1</ref>
+                     <ref type="witness">Ι 25: 5</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>In human practice, when a mortal king builds a palace and roofs it over with stones, timber and earth… (cf. Freedman / Simon I 27)</quote>
+                     <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq Ps. 862 [476a: 45]</bibl>
+                     </note>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>למלך שבנה פלטין והושיב בתוכה דיורים אלמים והיו משכימים ושואלים בשלומו שלמלך ברמיזה ובאצבע ובמנולים אמר המלך מה הן שהן אלמים הרי הן משכימים ושואלים בשלומי ברמיזה ובאצבע ובמנוולים אילו היו פיקחין אתמהא על אחת כמה וכמה אתמהא, הושיב המלך דיורים פקחים עמדו והחזיקו בפלטין, אמרו אין זו פלטין שלמלך, שלנו הוא הפלטין, אמר המלך תחזור הפלטין לכמות שהיית.</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">5,1</ref>
+                     <ref type="witness">I 32: 3,6,7</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">ובמנוולים</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        This is comparable to a king who built a palace and tenanted it with dumb people who used to rise early and pay their respects with gestures, with their fingers and with their handkerchiefs (spears). Said the king, ‘If these, who are dumb, rise early and pay their respects with gestures, with their fingers and with their kerchiefs, how much more would they do so if they possessed all their faculties!’ Thereupon the king tenanted it with men gifted with speech, who arose and seized the palace, asserting, ‘This is not the king’s palace: it is our palace!’ Then let the palace return to its original state!”. (Freedman / Simon 34)
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     בנוהג העולם מלך בשר ודם בונה פלטין ומשרה דיורים בעליונים ובתחתונים.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">7,3</ref>
+                     <ref type="witness">I 52: 5</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        In human practice a mortal king builds a palace and tenants the upper and the lower stories… (cf. Freedman / Simon I 51)
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+ משל למלך שבנה פלטין על ידי 
+<app>
+                        <lem>אדרכל</lem>
+                        <rdg wit="#Vat2">הדירכל</rdg>
+                        <rdg wit="#K">הרדיכל</rdg>
+                        <rdg wit="#Ox2">האדריכל</rdg>
+                     </app>
+                  </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">8,3</ref>
+                     <ref type="witness">I 59: 3</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אדרכל</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        It may be compared to a king who had a palace built by an architect. (Freedman / Simon I 57)
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     למלך שהיה מטייל פתח פלטין
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">8,8</ref>
+                     <ref type="witness">I 62: 2</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        In may be compared to a king who was strolling at the door of his palace. (Freedman / Simon 60)
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     מלך בשר ודם בונה פלטין
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">9,3</ref>
+                     <ref type="witness">I 68: 8</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        When a mortal king builds a palace … (Freedman / Simon I 65)
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     ר' חמא בר' חנינא אמר למלך שבנה פלטין ראה אותה וערבה לו, אמר פלטין פלטין הלווי תהי מעלה חן לפני בכל עת כשם שהעלית חן לפני בשעה הזו.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">9,4</ref>
+                     <ref type="witness">I 69: 6,7</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Ḥama b. R. Haninaʾ said: Compare this to a king who built a palace. He saw it and it pleased him. ‘O palace, O palace,’ exclaimed he, ‘mayest thou find favour in my eyes at all times just as thou hast found favor in my eyes at this moment!’ (Freedman / Simon I 65-66)
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     ר' נחמן אמר חורי לפלטין גדולה שהיה בה פתחים הרבה
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">12,1</ref>
+                     <ref type="witness">I 98: 3</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Naḥman said: Imagine a large palace with many doors. (Freedman / Simon I 87)
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     אמר ר' שמעון בר יוחי משל למלך בשר ודם שבנה פלטין
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">12,1</ref>
+                     <ref type="witness">I 98: 6</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Shimʿon bar Yoḥai said: This may be compared to a mortal king who built a palace. (Freedman / Simon I 88)
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     אמר ר' לוי בר חייתה מלך בשר ודם בונה פלטין
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">12,1</ref>
+                     <ref type="witness">I 99: 3</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Lewi bar R. Ḥayta : It a mortal king builds a palace. (Freedman / Simon I 88)
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     ר' יוחנן אמר מלך בשר ודם בונה פלטין
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">12,12</ref>
+                     <ref type="witness">I 110: 9</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Yoḥanan said:  When a mortal king builds a palace … (Freedman / Simon 97)
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     והוציאו חוץ לפלטין
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">15,7</ref>
+                     <ref type="witness">I 140: 7</ref>
+                  </bibl>
+                  <cit type="translation">
+                     <quote>
+                        … and he expelled him from the palace. (Freedman / Simon I 123)
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+אמר ר' ברכיה למלך שבנה פלטין פלאטין על ידי 
+<app>
+                        <lem>אדריכל</lem>
+                        <rdg wit="#Vat2">הדירכל</rdg>
+                        <rdg wit="#Vat1">אדרכיל</rdg>
+                        <rdg wit="#K">הרדיכל</rdg>
+                        <rdg wit="#Ox1">אדריכל</rdg>
+                     </app>
+                  </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">27,4</ref>
+                     <ref type="witness">Ι 258: 6</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אדריכל</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Berekhya said: It may be compared to a king who had a palace built by an architect … (Freedman / Simon I 222)
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     למלך שבנה פלטין והושיב בה דיורים אלמים והיו משכימים ושואלים בשלום המלך ברמיזה ובאצבע ובמנוולים, אמר המלך ומה אילו שהן אילמים משכימים ושואלים בשלומי ברמיזה אילו היו פקחים על אחת כמה וכמה, הושיב בה פקחים עמדו והחזיקו בפלטין ומרדו ואמרו זו פלטין שלנו הוא, אמר המלך תחזור הפלטין כשהיית.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">28,2</ref>
+                     <ref type="witness">I 260: 5,8</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        This is comparable to a king who built a palace and tenanted it with dumb people who used to rise early and pay their respects with gestures, with their fingers and with their handkerchiefs (spears). Said the king, ‘If these, who are dumb, rise early and pay their respects with gestures, with their fingers and with their kerchiefs, how much more would they do so if they possessed all their faculties!’ Thereupon the king tenanted it with men gifted with speech, who arose and seized the palace, asserting, ‘This is not the king’s palace: it is our palace!’ ‘Then let the palace return to its original state,’ the king ordered. (Freedman / Simon I 34)
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     ר' שילום בשם ר' מנחמא בר רב זעירא למלך שהיה מבקש לבנות פלטין על הים ולא היה יודע איכן לבנותה.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">34,9</ref>
+                     <ref type="witness">I 319: 6</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Shilom said in the name of R. Menaḥama ben Zeʿera: This is comparable to a king who wished to build a palace by the sea, but did not know where to build it. (Freedman / Simon I274)
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     אמר ר' לעזר אי זו קשה זה שא' למלך או אני או את בפלטין, או זה שאמר לא אני ולא את בפלטין
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">38,6 </ref>
+                     <ref type="witness">I 355: 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Leʿazar said: Who is worse - the one who says to the king, ‘Either you or I will dwell in the palace,’ or the one who says, ‘Neither you nor I will dwell in the palace’? (Freedman / Simon I 305)
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     ר' נחמיה אמר בפלטין דממרא.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">41 (42),8</ref>
+                     <ref type="witness">I 414: 5</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Neḥemya said: In the palace of Mamre. (Freedman / Simon I 351)
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     איני נגלה עליו אלא בפלטין [אלא בפלטין. V  Vat 2 Vat 1 לא בפלטין של ענר ולא בפלטין של אשכל אלא בפלטין] שלך.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">41 (42),8</ref>
+                     <ref type="witness">I 415: 4</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        I will reveal Myself to him only in thy palace. (Freedman / Simon 351)
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     והוציאו מחוץ לפלטין.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">49,2</ref>
+                     <ref type="witness">II 500: 4</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        … and he expelled him from the palace. (Freedman / Simon I 123)
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     למלך שהיה מטייל בפתח פלטין שלו.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">65,10</ref>
+                     <ref type="witness">II 720: 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        It may be compared to a king who was strolling at the door of his palace. (Freedman / Simon I 60)
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     וזעת כל פלטין
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">93,8</ref>
+                     <ref type="witness">III 1158: 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        ... the whole palace trembled (Freedman / Simon II 861)
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     שאין אבל נכנס בפלטין של מלך
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">100 (101),4</ref>
+                     <ref type="witness">III 1286: 14</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        Because a mourner might not enter the king’s palace. (Freedman / Simon II 991)
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     משה עשה בפלטיו של מלך ארבעים שנה
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">100 (101),10</ref>
+                     <ref type="witness">III 1295: 2</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        Moses spent forty years in Pharaoh’s palace (Freedman / Simon II 1001)
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     מוטב ללון במדברות שלארץ ישראל ולא בפלאטיות שלחוצה לארץ
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">39,8</ref>
+                     <ref type="witness">I 371: 5</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        Better is it to lodge in the deserts of Eretz Israel then in palaces abroad.
+            </quote>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Latin</lang>
+               <cit type="etymon" xml:lang="la">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. Lewis / Short</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=P%C4%83l%C4%81t%C4%ADum&amp;la=la&amp;can=p%C4%83l%C4%81t%C4%ADum0"
+                          type="entry">palatium, B.</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true"/>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>435</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

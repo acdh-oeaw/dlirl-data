@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אכסניא</title>
+            <title type="alternative">ʾksnyʾ</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="akhsanya-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#akhsenai-dlgenr"
+                next="#alon-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אכסניא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾksnyʾ</orth>
+               <pron notation="rabbinic" opt="false">akhsanyaʾ</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f.</gram>
+               </gramGrp>
+               <form type="variant" source="71,10 - K Vat2 V Ox1 Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אכסניא</orth>
+               </form>
+               <form type="variant" source="71,10 - Vat1 / 93,6 - Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אכסנייה</orth>
+               </form>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">אכסניות</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾksnywt</orth>
+               <pron notation="rabbinic" opt="false">akhsaniyot</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="akhsanya-dlgenr-1" opt="false">
+               <usg type="domain" opt="false"/>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>lodging, inn</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">classical greek</lang>
+                  </usg>
+                  <quote>ξενία</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>[ותאמר לאה באשרי] וגו' אמר ר' לוי לא לן אשר באכסניה מימיו, ירש אשר גגי פלטריות מה שלא ירש יהודה ארצות</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">71,10</ref>
+                     <ref type="witness">II 835: 3</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פלטריות</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And Leah said: Happy am I … R. Levi said: Asher never spent a night in an inn in his whole life, for Asher inherited tall palaces better even than the lands which Judah inherited. (Freedman / Simon II 660)</quote>
+                  </cit>
+                  <note anchored="true">
+                     <bibl type="ancient" default="false" status="draft">= SekhṬ 30,13 [139] <term xml:lang="jpa">באכסנאי</term>; Yalq 128 [38d: 24]</bibl>
+                     <term xml:lang="jpa">באכסניא</term>
+                  </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>כאן בשביל זכר חיבת העין בעל אכסניא שלהקב"ה</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">93,6</ref>
+                     <ref type="witness">III 1156: 5</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Here it is on account of a man, the beloved of the eyes, the one who gives hospitality to the Holy One, blessed be He …. (Freedman / Simon II 860)</quote>
+                  </cit>
+                  <note anchored="true">
+                     <bibl type="ancient" default="false" status="draft">= Yalq 150 [49d: 3]</bibl>
+                  </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>גרא שגר באכסניות</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">93,7</ref>
+                     <ref type="witness">III 1165: 3</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>„Gera“, since he lives in lodgings.</quote>
+                  </cit>
+                  <note anchored="true">
+                     <bibl type="ancient" default="false" status="draft">= bSoṭ 36b; Yalq 146 [46d: 22]</bibl>
+                  </note>
+               </cit>
+            </sense>
+            <note anchored="true">
+         For manifold meanings cf. <bibl type="modern" default="false" status="draft">Krauss, LW II 48b-49a</bibl>. For Syr. <term xml:lang="syc">ܐܟܣܢܝܐ</term>
+               <term xml:lang="fjb">ʾksnyʾ</term> see <bibl type="modern" default="false" status="draft">Sokoloff, SL 44b</bibl>.
+      </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>33a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

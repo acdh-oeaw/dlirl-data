@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">ארגנטין</title>
+            <title type="alternative">ʾrgnṭyn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="argentin-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#aqsios-dlgenr"
+                next="#ariston-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">ארגנטין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾrgnṭyn</orth>
+               <pron notation="rabbinic" opt="false">argenṭin</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ארגינט</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾrgynṭ</orth>
+                  <pron notation="rabbinic" opt="false">arginaṭ</pron>
+               </form>
+               <form type="variant" source="63,8 - first occurence - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ארגנטי</orth>
+               </form>
+               <form type="variant" source="63,8 - first occurence - Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ארגינט</orth>
+               </form>
+               <form type="variant" source="63,8 - first occurence - K V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ארגינטין</orth>
+               </form>
+               <form type="variant" source="63,8 - first occurence - Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ארגינטי</orth>
+               </form>
+               <form type="variant" source="63,8 - second occurence - Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ארגנטין</orth>
+               </form>
+               <form type="variant" source="63,8 - second occurence - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ארגנטי</orth>
+               </form>
+               <form type="variant" source="63,8 - second occurence - Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ארגינטי</orth>
+               </form>
+               <form type="variant" source="63,8 - second occurence - K V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">חד ארגיניטין</orth>
+               </form>
+               <form type="variant" source="63,8 - second occurence - Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אגרינטי</orth>
+               </form>
+            </form>
+            <sense xml:id="argentin-dlgenr-1" opt="false">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>the fast</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek</lang>
+                  </usg>
+                  <quote>ἀγύρτες (?)</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אדמוני אמר ר' אבא בר כהנא כולו שופך דמים, וכיון שראה שמואל את דוד אדמוני דכת' וישלח ויביאהו והוא אדמוני נתירא, אמר אף זה שופך דמים, אמר לו הקדוש ברוך הוא עם יפה עינים עשו מדעתו הורג אבל זה מדעת סנהדרין הורג. דיקליטיאנוס מלכא הוה רעי חזירין בהדא טיבריא, כיון דהוה מטי סדרא דר' הוון מינוקיא נפקין ומחיין ליה, בתר יומין איתעביד מלך, נחת ויתיב ליה בהדא פנייס ושלח כתבין לטיבריא בפתי רמשא דערובתא, אמר אנא קליון דיהון רבני דיהודאי קיימין קדמי בצפרא דחד בשבתא, פקדיה לשליחא ואמר ליה לא תתן יתהון להון אלא עם מטמעי שמשא בערובת שבתא, נחת ר' שמואל בר נחמן למסחי, חמתיה לרבי קאים קמי סדרא ופניו חוליינות, אמר ליה למה פניך חוליינות, אמר ליה כן וכן אישתדר לי כתבין מן דוקליטיאנוס מלכא, אמר ליה איתא סחי דבריין עבד לך ניסין, על למיסחי ואתא הדין ארגנטין מגחיך ומרקיד קומוי, בעא ר' דינזוף ביה, אמר ליה ר' שמואל בר נחמן שבקיה דזימנין על נסין מתחמי, אמ' ליה מריך בעקא ואת גחיך, אמר לון זילו איכלו ועבדון שבא טבא דברייכון עביד נסין ואנא מקים יתכון בצפרא דחד בשבא באתרא דאתון רעיין, באפוקי שבתא בתר סדרא נסתון ואקימון קדם פילי דפניאס, עלון ואמ' ליה הא קיימין קדם פילי, אמר סגרון פילי, נסאתון ואקימון על טכסא דמדינתא, עלון ואמ' ליה, אמר אנא קיליון אנא דיתאזון בני תלתה יומין ויעלון ויסחון ויתון לגבאי, אזלון ואזון בני תלתה יומין ועל אגרנטין ומזגא קדמיהון ועלון וסחון ואתון לגביה, אמר להון בגין דאתון ידעין דאלהכון עבד לכון ניסין אתון מקילין למלכא, אמ' ליה לידיקליטינא דרעי חזירין אקלינן, ברם לדיקליטינוס מלכא אנן משעבדין, אמר לון אפילו כן לא תכסון ברומאי זעיר ולא בגלייר זעיר.</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">63,8</ref>
+                     <ref type="witness">II 689: 4; 690: 2</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">דיקליטיאנוס</ref>
+                  <ref type="entry" xml:lang="jpa">קליון</ref>
+                  <ref type="entry" xml:lang="jpa">דוקליטיאנוס</ref>
+                  <ref type="entry" xml:lang="jpa">פילי</ref>
+                  <ref type="entry" xml:lang="jpa">פניאס</ref>
+                  <ref type="entry" xml:lang="jpa">טכסא</ref>
+                  <ref type="entry" xml:lang="jpa">קיליון</ref>
+                  <ref type="entry" xml:lang="jpa">דיקליטינא</ref>
+                  <ref type="entry" xml:lang="jpa">דיקליטינוס</ref>
+                  <ref type="entry" xml:lang="jpa">גלייר</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote/>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq 110 [33d: 19,27]</bibl>
+                     <term xml:lang="jpa">ארגינטין</term>; <bibl type="ancient" default="false" status="draft">yTer 8,4 [46c]</bibl>
+                     <term xml:lang="jpa">ארגינטין</term>
+                  </note>
+               </cit>
+            </sense>
+            <note anchored="true">
+         The meaning and the etymology of the word are obscure (“unsolved riddle!”, cf. Löw in Krauss, LW ad loc.). <bibl type="modern" default="false" status="draft">Arukh 24b</bibl> interprets as “demon of bath” (<term xml:lang="jpa">שד של מרחץ</term>). <bibl type="modern" default="false" status="draft">AC I 272b</bibl>: compos. Gr. <term xml:lang="grc">ὰργός</term> + <term xml:lang="grc">ναύτης</term>, based on similarity to <term xml:lang="grc">Ἀργοναύτης</term> (Argonaut, according to <bibl type="modern" default="false" status="draft">Levy I 159b</bibl>). Gebhardt (Das jüdische Literaturblatt 10, 40/41 [1881] 161) suggests Gr. <term xml:lang="grc">ἀγριάνθριυπος</term> = <term xml:lang="grc">σάτυρος</term>. Fürst (1890) suggests (after Brüll [Jahrbücher für jüdische Geschichte und Litteratur 5 (1883) 121]) Gr. <term xml:lang="grc">ἀγύρτης</term> „juggler“, „sorcerer“ from corr. <term xml:lang="jpa">אגירטין</term>
+               <term xml:lang="fjb">ʾgyrṭyn</term>
+               <term xml:lang="rabbinic">agirṭin</term>. <bibl type="modern" default="false" status="draft">Jastrow I 116a</bibl> renders *<term xml:lang="jpa">ארוגנוטיס</term>
+               <term xml:lang="fjb">ʾrwgnwṭy</term> or *<term xml:lang="jpa">ארוגנוטין</term>
+               <term xml:lang="fjb">ʾrwgnwṭyn</term> for Gr. (<term xml:lang="grc">δαίμον</term>) <term xml:lang="grc">ἀργοναύτης</term>. <bibl type="modern" default="false" status="draft">Dalman 39a</bibl> suggests Gr. <term xml:lang="grc">γερόντιον</term> (“an old little man”).
+      </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss, LW II</title>
+                  <citedRange>126b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

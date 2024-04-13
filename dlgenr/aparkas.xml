@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אפרכס</title>
+            <title type="alternative">ʾprks</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="aparkas-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#afes-dlgenr"
+                next="#aparsemon-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אפרכס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾprks</orth>
+               <pron notation="rabbinic" opt="false">aparkas</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <lbl opt="false">neologism</lbl>
+                  <orth type="variant" xml:lang="jpa" opt="false">אפרכסת</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾprkst</orth>
+                  <pron notation="rabbinic" opt="false">aparkeset</pron>
+                  <gramGrp opt="false">
+                     <gram type="pos" opt="false">noun</gram>
+                     <gram type="gen" opt="false">f.</gram>
+                  </gramGrp>
+               </form>
+               <form type="variant" source="Vat1 K V Ox1 - twice" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אפרכס</orth>
+               </form>
+            </form>
+            <sense xml:id="aparkas-dlgenr-1" opt="false">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>funnel</quote>
+               </cit>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>hopper</quote>
+               </cit>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>grain receiver [of a millstone]</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Greek</lang>
+                  </usg>
+                  <quote>πρόχοος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     כותי אחד שאל את ר' מאיר אמר לו אפשר המים העליונים תלוים במאמר, אמר לו הן, אמר לו הבא לי ארפכס, הביא לו ארפכס, נתן עליה טס שלזהב ולא עמדו המים, טס שלכסף ולא עמדו, כיון שנתן אצבעו עמדו מים, אמר לו אצבעך אתה נותן, אמר לו מה שאני בשר ודם אצבעי מעמדת המים, אצבעו שלהקב"ה על אחת כמה וכמה
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">4,4</ref>
+                     <ref type="witness">I 27: 5</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">ארפכס</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        A Samaritan asked R. Meir: “Is it possible that the upper water is suspended by [God's] word?” “Yes,” he answered. “Bring me a funnel,” he added. When he brought the funnel, he placed a gold plate upon it, but the water did not stand still; then a silver plate, but the water did not stand still. But as soon as he placed his finger [upon the aperture], the water stood still. “But you have put your finger there,” he objected. “If my finger stays the water, though I am but flesh and blood, how much more so the finger of the Holy One, blessed be He! Hence the upper waters are suspended by [God's] word.” (Cf. Freedman / Simon I 28-29).
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 5 [3b: 48]</bibl> (<term xml:lang="jpa">אפרכס</term>);
+            <bibl type="ancient" default="false" status="draft">Yalq Ps 789 [463b: 23]</bibl> (<term xml:lang="jpa">אפרכס</term>)
+         </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref type="entry"/>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               According to 
+      <bibl type="modern" default="false" status="draft">Krauss, LW II 116b</bibl>, and
+      <bibl type="modern" default="false" status="draft">Levy I 153ab</bibl>, the correct reading in GenR. Cf., however,
+      <ref type="entry" xml:lang="jpa">ארפכס</ref>. The word <term xml:lang="jpa">אפרכס</term> is used in the talmudic idiom <term xml:lang="jpa">עשה אזנך כאפרכס</term> “make your ear like a hopper” (
+      <bibl type="ancient" default="false" status="draft">bḤag 3a</bibl>,
+      <bibl type="ancient" default="false" status="draft">bḤul 89a</bibl> and other), where it is certainly the correct reading. For hopper as part of a millstone cf.
+      <bibl type="modern" default="false" status="draft">Krauss, TA I 96-97</bibl> and
+      <bibl type="modern" default="false" status="draft">TA II 289</bibl>. Cf.
+      <ref type="entry" xml:lang="jpa">חלף סידרה</ref>
+            </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Heijmanns (2013)</title>
+                  <citedRange>61-62</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

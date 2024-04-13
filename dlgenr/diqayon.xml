@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">דקיון</title>
+            <title type="alternative">dqywn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="diqayon-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#decumani-dlgenr"
+                next="#dromolis-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">דקיון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dqywn</orth>
+               <pron notation="rabbinic" opt="false">diqayon</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דיקיון</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">dyqywn</orth>
+                  <pron notation="rabbinic" opt="false">diqiyon</pron>
+               </form>
+               <form type="variant" source="9,13 - K V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דקיון</orth>
+               </form>
+               <form type="variant" source="45,5 - K - twice" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דיקיון</orth>
+               </form>
+               <form type="variant" source="45,5 - V Ox2 - twice" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דקיון</orth>
+               </form>
+            </form>
+            <sense xml:id="diqayon-dlgenr-1" opt="false">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>right, justice</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek</lang>
+                  </usg>
+                  <quote>δίκαιον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' שמעון בן לקיש הנה טוב מאד זה מלכות שמים, והנה טוב מאד זה מלכות הארץ, וכי מלכות הארץ טובה מאד אתמהא, אלא שהיא תובעת דיקיות</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">9,13</ref>
+                     <ref type="witness">I 73: 12</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">דיקיות</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Shimʿon b. Laqish said: Behold, it was very good (Gen 1,31) alludes to the kingdom of heaven; And behold, it was very good, to the earthly kingdom. Is then the earthly kingdom very good? How strange! [It earns that title] because it exacts justice for men (Freedman / Simon I 70)</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq 16 [5b: 46]</bibl> (<term xml:lang="jpa">דקיון</term>); <bibl type="ancient" default="false" status="draft">Yalq Jes 462 [399a: 50]</bibl> (<term xml:lang="jpa">דקיון</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>רבה צבאין מינה הקדוש ברוך הוא לאדם הזה לתבוע דיקיון שלו</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">10,5</ref>
+                     <ref type="witness">I 78: 9</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Many hosts has the Holy One, blessed be He, appointed to demand his justice.</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq Hi 901 [504a: 59a]</bibl> (<term xml:lang="jpa">דקיון</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' יהודה א' נתכנסו [בהמה וחיה ועןף לתבוע] דיקיון שלהבל</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">22,12</ref>
+                     <ref type="witness">I 218: 5</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Yehuda said: The cattle, beasts, and birds assembled to demand justice for Abel. (Freedman / Simon I 191)</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq 38 [11c: 37]</bibl> (<term xml:lang="jpa">דמו</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ליה חד תבוע דיקי דידי, אמר אפיקותיה, אמר ליה חבריה יבעי דיני גבך, אילו אמרת תבוע דיקי דידן כמה דאפקך כן אפקי</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">45,5</ref>
+                     <ref type="witness">I 452: 1,2</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">דיקי</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>… one of them cries out, “Execute justice for me!” The king orders him to be released, whereupon his fellow-prisoner says to him, “I have a grievance against you, for had you said, ‘Execute justice for us,” he would have released me (Freedman / Simon I 383)</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq 79 [22c: 31,32]</bibl> (<term xml:lang="jpa">דקיון</term>); <bibl type="ancient" default="false" status="draft">LeqṬ 16,5 [37a]</bibl>
+                  </note>
+               </cit>
+            </sense>
+            <note anchored="true">
+         See <bibl type="modern" default="false" status="draft">Krauss, LW II 216a</bibl>. But cf. <bibl type="modern" default="false" status="draft">Jastrow I 318a</bibl>.
+      </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sperber (1984)</title>
+                  <citedRange>90-91</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

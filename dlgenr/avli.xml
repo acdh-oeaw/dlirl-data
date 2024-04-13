@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אבלי</title>
+            <title type="alternative">ʾbli</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="avli-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#taksis-dlgenr"
+                next="#agba-bastes-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אבלי</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾbli</orth>
+               <pron notation="rabbinic" opt="false">avli</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m</gram>
+               </gramGrp>
+            </form>
+            <form type="equivalent" opt="false">
+               <quote xml:lang="grc">αὐλή</quote>
+            </form>
+            <sense xml:id="avli-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">architecture/administration</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false">hapax legomenon</usg>
+               <usg type="geographic" opt="false">Coptic</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>court, palace</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Ancient Greek+</lang>
+                  </usg>
+                  <quote>αὐλή</quote>
+               </cit>
+               <cit type="example">
+<!-- here we have a passage with various readings. Manuscript sigla are provided in the @wit attribute. We have to look how well mixed content works with RTLost scripts. -->
+                  <quote xml:lang="jpa">
+א"ר לוי לא'[חד] שקבע
+            <ref type="entry">מוניטן</ref>
+שלו בתוך
+            <app>
+                        <lem>אבלו</lem>
+                        <rdg wit="#Vat2">אהלו</rdg>
+                        <rdg wit="#Ox2">אהלו</rdg>
+                        <rdg wit="#V">אהלו</rdg>
+                        <rdg wit="#K">אהלו</rdg>
+                     </app>
+של מלך
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">36,7</ref>
+                     <ref type="witness">I 341:7</ref>
+                  </bibl>
+                  <cit type="translation">
+<!-- The english translation of the passage is encoded in a nested cit element -->
+                     <quote xml:lang="en">
+“R. Lewi said: [This may be compared] to one who minted his 
+own coinage in the very palace of the king” 
+<!-- The english translation of the passage-->
+            </quote>
+                     <bibl default="false" status="draft">Freedman I: 293</bibl>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Ancient Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=au%29lh%2F&amp;la=greek&amp;can=au%29lh%2F0"
+                          type="entry">αὐλή</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               <term xml:lang="jpa">*אבלי</term>? Sophocles 276-277: “aula, the court, the royal or imperial residence or head-quarters”. Not listed in the dictionaries. The reading <term xml:lang="jpa">אהלו</term> is presumably a misreading or a later emendation.
+   </note>
+         </entry>
+      </body>
+   </text>
+</TEI>

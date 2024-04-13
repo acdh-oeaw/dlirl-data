@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">גרדומי</title>
+            <title type="alternative">grdwmi</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="grdwmi-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#galaqsinon-dlgenr"
+                next="#donativa-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">גרדומי</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">grdwmi</orth>
+               <pron notation="rabbinic" opt="false">gardumi</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m</gram>
+               </gramGrp>
+            </form>
+            <form type="equivalent" opt="false">
+               <quote xml:lang="grc">γαρδούμιον (?)</quote>
+            </form>
+            <sense xml:id="grdwmi-dlgenr-1" opt="false">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote> (a kind of) bread ~ Lat. panis subcinericus </quote>
+               </cit>
+               <cit type="example">
+<!-- here we have a passage with various readings. Manuscript sigla are provided in the @wit attribute. We have to look how well mixed content works with RTL scripts. -->
+                  <quote xml:lang="jpa">
+אלכסנדרוס מקדון אזל גבי מלכא קצייה לאחורי צלמי שלחשך
+נפק טעין ליה גרדומי דדהב בגו דיסקס דדהב 
+            <bibl default="false" status="draft">
+                        <ref type="witness">GenR 33,1 (Th-Al)</ref>
+                     </bibl>
+                  </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">8,1</ref>
+                     <ref type="witness">I 55:3</ref>
+                  </bibl>
+                  <cit type="translation">
+                     <quote xml:lang="en">
+“Alexander of Macedon visited King Kazia beyond the dark mountains. 
+He came forth, offering him golden bread [grdumi] on a golden tray.” (Freedman / Simon)
+            </quote>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Post-Classical Greek</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LBG</lbl>
+                     <ref target="http://stephanus.tlg.uci.edu/Iris/indiv/lexica.jsp#qid=149988&amp;ql=GARDOU%2FMION%2C%20-OU%2C%20TO%2F&amp;q=%CE%B3%CE%B1%CF%81%CE%B4%CE%BF%CF%8D%CE%BC%CE%B9%CE%BF%CE%BD%2C%20%E2%80%91%CE%BF%CF%85%2C%20%CF%84%CF%8C&amp;usr_input=greek&amp;searchescs=N"
+                          type="entry">γαρδούμιον</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+Parallel passages in bT Tamid 32ab, LevR 27,1; Pesikta de Rav Kahana 9 display 
+Aramaic lexemes denoting ʻbreadʼ (lẖmᴐ, nhmᴐ); cf. also Hesychius and Pseudo-Zonaras, 
+who use <term xml:lang="grc">γαρδούμιον</term> to explain <term xml:lang="grc">κόλ(λ)ιξ</term> 
+‘a kind of bread’ – 
+an explanation, which has been “unclear” or “puzzling” for lexicographers 
+in the past. The origin of Medieval Gr. γαρδούμιον is unclear: 
+the etymology from Middle Lat. caldumen ‘intestines, tripe’ is phonologically 
+and semantically not unproblematic, 
+while the suggestion of a Persian origin is plausible, cf. Perles 1917: 297-98. 
+The later Greek <term xml:lang="grc">γαρδούμπα</term> ‘(dish) made from goat’s or sheep’s intestines’, cf. also German Kaldaune ‘(dish) with tripe’, 
+might be a dial. Italian form, which entered Gr. via Albanian gardump, 
+cf. Babiniotis 2009: 289 and LKN s.v., and therefore not a direct development of
+ the form <term xml:lang="grc">γαρδούμιον</term>.
+   </note>
+         </entry>
+      </body>
+   </text>
+</TEI>

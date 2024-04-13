@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">פולר</title>
+            <title type="alternative">pwlr</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="folar-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#spequla-dlgenr"
+                next="#poqrin-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">פולר</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">pwlr</orth>
+               <pron notation="rabbinic" opt="false">folar</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" source="70,14 - first occurrence - K V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פלורין</orth>
+               </form>
+               <form type="variant" source="70,14 - first occurrence - Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פולדין</orth>
+               </form>
+               <form type="variant" source="70,14 - second occurrence - K V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פלורין</orth>
+               </form>
+               <form type="variant" source="70,14 - second occurrence - Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פולדין</orth>
+               </form>
+               <form type="variant" source="70,14 - third occurrence - K V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פלורין</orth>
+               </form>
+               <form type="variant" source="70,14 - third occurrence - Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פולדין</orth>
+               </form>
+               <form type="variant" source="49,4 - first occurrence - Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פולדין</orth>
+               </form>
+               <form type="variant"
+                     source="49,4 - first occurrence - Vat1 K V"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פולרין</orth>
+               </form>
+               <form type="variant"
+                     source="49,4 - first occurrence - Ox1 Ox2"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פלדין</orth>
+               </form>
+               <form type="variant" source="49,4 - second occurrence - Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פולדין</orth>
+               </form>
+               <form type="variant"
+                     source="49,4 - second occurrence - Vat1 K V"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פולרין</orth>
+               </form>
+               <form type="variant"
+                     source="49,4 - second occurrence - Ox1 Ox2"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פלדין</orth>
+               </form>
+               <form type="variant" source="49,4 - third occurrence - Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פולדין</orth>
+               </form>
+               <form type="variant"
+                     source="49,4 - third occurrence - Vat1 K V"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פולרין</orth>
+               </form>
+               <form type="variant"
+                     source="49,4 - third occurrence - Ox1 Ox2"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פלדין</orth>
+               </form>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">פולרין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">pwlryn</orth>
+               <pron notation="rabbinic" opt="false">folarin</pron>
+               <gramGrp opt="false">
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">פולרי</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">pwlry</orth>
+               <pron notation="rabbinic" opt="false">folari</pron>
+            </form>
+            <sense xml:id="folar-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">economy</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>folleron, a small coin</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Medieval Greek</lang>
+                  </usg>
+                  <quote>φολλερόν</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     אנא שלחית לך מילא דלית לה טימי ואת שלחת לי צילא דטבא חד פולר
+         </quote>
+                  <ref type="entry" xml:lang="jpa">טימי</ref>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">35,3</ref>
+                     <ref type="witness">I 333: Notes</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        I gave you a priceless object, whereas you returned me something worth but a “follar“. (Freedman / Simon I 286 n. 3)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">yPea 1,1 [82: 19]</bibl>;
+            <bibl type="ancient" default="false" status="draft">Yalq 844 [293a: 49]</bibl>;
+            <bibl type="ancient" default="false" status="draft">Yalq Jos 31 [352a: 22]</bibl>;
+            <bibl type="ancient" default="false" status="draft">Yalq Prov 934 [487b: 11]</bibl>
+                  </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     ויאמר לבן ליעקב הכי אחי אתה ועבדתני חינם איפשר כן, אלא אם הוה פעלה בעשרה פולרין הוה יהב ליה חמשה, ואי הות מובלתיה בשיתה פולרין הוה יהיב ליה בתלתא פולרין, אמר ליה מה את סבור ממון אתית בעי, לא אתית אלא מן בגין תרתין טלייתא
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">70,14</ref>
+                     <ref type="witness">II 814: 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        And Laban said unto Jacob: Because thou art my brother, shouldest thou therefore serve me for nought (Gen 29,15)? Was that indeed possible? But he meant that if his work was worth ten “follera”, he would pay him five; and when his load was worth six “follera”, he would pay him three “follera”. To this [Jacob] replied: ‘Do you think that I have come to demand money? I have come only for the sake of your two daughters.’ (cf. Freedman / Simon I 647)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 124 [38a: 16,17]</bibl>
+                  </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     כי ידעתיו למען אשר יצוה את בניו וג' [ושמרו דרך י"י לעשות צדקה ומשפט] ר' אחא בשם ר' אלכסנדרי זה האבריא, ורבנין אמ' זה ביקור חולים. ר' עזריה בשם ר' יהודה בתחילה צדקה ולבסוף משפט, הא כיצד, אברהם היה מקבל את העוברים ואת השבים, משהיו אוכלין ושותים אמר להון בריכו, אמ' ליה מה נאמ', אמר ברוך אל עולם שאכלנו משלו, אין מקבל עלוי לברך הוה אכיל ושתי ואזיל ליה, ואין לא יקביל הוה אמר ליה הב מה דעלך, והוה אמר ליה מה אית עליי, הוה אמר ליה חד קסיט דחמרא בעשרה פולרי  [וחד ליטר דקופד בעשרה פולרי וחד איגול דפיתא בעשרה פולרי, מן יהב לך חמר במדברא מן יהב לך קופד במדברא מן יהב לך פיתא במדברא], מן דהוה חמי עקתיה עקא הוה אמר ברוך אל עולם שאכלנו משלו הה"ד בתחילה צדקה ובסוף משפט.
+         </quote>
+                  <ref type="entry" xml:lang="jpa">קסיט</ref>
+                  <ref type="entry" xml:lang="jpa">ליטר</ref>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">49,4</ref>
+                     <ref type="witness">II 503: 1.2</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        For I have known him, to the end that he may command his children and his household after him that they may keep the way of the Lord, to do righteousness and justice – “ṣedaqah u-mishpaṭ” (Gen 18,19). R. Aḥa said in R. Alexandri’s name: This (“ṣedaqah”) refers to his hospitality [to wayfarers]. – The Rabbis said: It refers to visiting the sick. R. ʿAzariyah said in R. Yuda’s name: First “ṣedaqah” and then “mishpaṭ” (justice): how is this to be understood? Abraham used to receive wayfarers. After they had eaten and drunk he would say to them “Now recite Grace.” “What shall we say?” they asked. “Blessed be the God of the Universe of whose bounty we have eaten,” he replied. If one consented to recite grace, he would [be allowed to] eat, drink and depart. But if one refused, he would demand, “Pay me what you owe me.” “Why, what do I owe you?” he would reply. One “xestes” of wine costs ten “follera”, a pound of meat costs ten “follera”; a round loaf of bread costs ten “follera”. Who will give you wine in the wilderness; who will give you meat in the wilderness; who will give you bread in the wilderness? Seeing himself thus driven into a corner, he would say, “Blessed be the God of the Universe of whose bounty we have eaten.” Hence “ṣedaqah” is written first and then “mishpaṭ”. (Cf. Freedman / Simon I 423-424)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 82 [25b: 59,60]</bibl>
+                  </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Post-Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LBG</lbl>
+                     <ref target="http://stephanus.tlg.uci.edu/Iris/indiv/lexica.jsp#qid=147841&amp;ql=FOLLERO%2FN%2C%20-OU%3D%2C%20TO%2F&amp;q=%CF%86%CE%BF%CE%BB%CE%BB%CE%B5%CF%81%CF%8C%CE%BD%2C%20%E2%80%91%CE%BF%E1%BF%A6%2C%20%CF%84%CF%8C&amp;usr_input=greek&amp;searchescs=N"
+                          type="entry">φολλερόν</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               On “follarion” cf. 
+      <bibl type="modern" default="false" status="draft">Sperber (1991) 53-54</bibl>. “follarion”, which is not known from other sources, shall not be confused with “follis”, a well known Roman coin (on “folls” cf.
+      <bibl type="modern" default="false" status="draft">Sperber (1982) 109-114</bibl>;
+      <bibl type="modern" default="false" status="draft">Sperber (1991) 47-52 and 64-66</bibl>.
+      <bibl type="modern" default="false" status="draft">AC VI 358b</bibl> (Gr. <term xml:lang="grc">φόλλερα</term>); On “follis“ cf.
+      <bibl type="modern" default="false" status="draft">Sperber (1982) 109-114</bibl>. The reading <term xml:lang="jpa">כילרין</term>
+               <term xml:lang="fjb">kylryn</term> corr. for <term xml:lang="jpa">בולרין</term>
+               <term xml:lang="fjb">bwlryn</term>
+               <term xml:lang="grc">bulrin</term> in
+      <bibl type="ancient" default="false" status="draft">CantR 1,9</bibl> shall be (according to
+      <bibl type="modern" default="false" status="draft">Sperber (1982) 95-99</bibl>) explained as Gr. <term xml:lang="grc">φολλερόν</term> and not as
+      <ref type="lemma" xml:lang="jpa">בולרין</ref>.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>481a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

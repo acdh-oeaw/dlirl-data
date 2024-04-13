@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">תימיליאוס</title>
+            <title type="alternative">tymylyʾws</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="temelios-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#qondilin-dlgenr"
+                next="#taksis-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">תימיליאוס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">tymylyʾws</orth>
+               <pron notation="rabbinic" opt="false">temeliʾos</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" source="Vat2" opt="false">
+                  <orth xml:lang="jpa" opt="false">תמיליוסים</orth>
+               </form>
+               <form type="variant" source="Ox1" opt="false">
+                  <orth xml:lang="jpa" opt="false">תלמיוסין</orth>
+               </form>
+            </form>
+            <form type="inflected" opt="false">
+               <orth xml:lang="jpa" opt="false">תימליוסים</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">tymlywsym</orth>
+               <pron notation="rabbinic" opt="false">temeliosim</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="number" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected" opt="false">
+               <orth xml:lang="jpa" opt="false">תמיליוסים</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">tmylywsym</orth>
+               <pron notation="rabbinic" opt="false">temeliosim</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="number" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="temelios-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">architecture</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false">hapax legomenon</usg>
+               <usg type="geographic" opt="false"/>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>cornerstone, foundation</quote>
+               </cit>
+               <cit type="translationEquivalent">
+                  <quote xml:lang="grc">θεμέλιος (λίθος)</quote>
+               </cit>
+               <cit type="translationEquivalent">
+                  <quote xml:lang="grc">θεμελίωσις</quote>
+               </cit>
+               <cit type="example">
+                  <quote xml:lang="jpa"> הדליק נרות ו
+            <ref type="entry">פניס</ref> לידע היאך קובע
+                     תימיליאוס תימיליאוס
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">3,1</ref>
+                     <ref type="witness">I 19:1</ref>
+                  </bibl>
+                  <cit type="translation">
+                     <quote xml:lang="en">“he lit lights and lanterns, to know where to set the
+                        foundation”
+            </quote>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=qeme%2Fli%5E-os&amp;la=greek&amp;can=qeme%2Fli%5E-os0"
+                          type="entry">θεμέλιος</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               <bibl type="ancient" default="false" status="draft">Yalq Gen 247</bibl>: <term xml:lang="jpa">תמליוסין</term>.
+      <bibl type="modern" default="false" status="draft">AC VIII</bibl>: <term xml:lang="jpa">תמליוס</term>.
+      <bibl type="modern" default="false" status="draft">Levy IV: 651</bibl> and
+      <bibl type="modern" default="false" status="draft">Krauss LW I: 587</bibl> transliterate <term xml:lang="fjb">temalyos</term> ~ Gr.
+      <term xml:lang="grc">θεμέλιος</term>. The form <term xml:lang="jpa">תימליוסים</term>
+               <term xml:lang="fjb">tymlywsym</term> is also attested in
+      <bibl type="anicent" default="false" status="draft">ySan 10,2 (29a)</bibl>;
+      <bibl type="ancient" default="false" status="draft">yKet
+               5,1 (29c:53)
+      </bibl>;
+      <bibl type="ancient" default="false" status="draft">ySot 6,1 (20d: 62)</bibl>. AC (cf. also
+      <bibl type="modern" default="false" status="draft">Krauss II: 587</bibl> and
+      <bibl type="modern" default="false" status="draft">Sokoloff, DJPA 580</bibl>)
+               interprets <term xml:lang="jpa">תימליוסים</term>
+               <term xml:lang="fjb">tymlywsym</term> as corrupted <term xml:lang="jpa">תמליוסיס</term>
+               <term xml:lang="fjb">tmlywsys</term> for Gr. <term xml:lang="grc">θεμελίωσις</term> (
+      <bibl type="ancient" default="false" status="draft">Aquila Ps. 86,1</bibl>;
+      <bibl type="ancient" default="false" status="draft">LXX Esdr II 3,12</bibl>). Fig. “[something has] no
+               foundation” (<term xml:lang="jpa">לית לה</term> / <term xml:lang="jpa">בה
+                  תמליוסים</term>) is attested in <bibl type="ancient" default="false" status="draft">yKet</bibl> and <bibl type="ancient" default="false" status="draft">ySot</bibl>. 
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>580</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

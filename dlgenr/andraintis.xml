@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אדריינטיס</title>
+            <title type="alternative">ʾdryynṭys</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="andraintis-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#idravlin-dlgenr"
+                next="#awtentin-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אדריינטיס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾdryynṭys</orth>
+               <pron notation="rabbinic" opt="false">adrainṭis</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" source="Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אנדרטין</orth>
+               </form>
+               <form type="variant" source="K V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אינדרטין</orth>
+               </form>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">אנדרטין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾndrṭyn</orth>
+               <pron notation="rabbinic" opt="false">andarṭin</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">אינדרטין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾyndrṭyn</orth>
+               <pron notation="rabbinic" opt="false">indarṭin</pron>
+            </form>
+            <sense xml:id="adraintis-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">arts</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false"/>
+               <usg type="geographic" opt="false">Coptic; Syriac Aramaic</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>statue</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek+</lang>
+                  </usg>
+                  <quote>ἀνδριάς</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ליה לית הכא מלכו, אלא למלך שהיה מטייל פתח פלטין וראה בולרין אחת מושלכת, אמר מה נעשה בה, מהן אומרים דימוסיות ומהן אומרים פרבטיות, אמר המלך אדריינטיס אני עושה אותה מי מעכב.</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">8,8</ref>
+                     <ref type="witness">I 62:2</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פלטין</ref>
+                  <ref type="entry" xml:lang="jpa">בולרין</ref>
+                  <ref type="entry" xml:lang="jpa">דימוסיות</ref>
+                  <ref type="entry" xml:lang="jpa">פרבטיות</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>He [R. Hila] said: There is no taking counsel here, but it may be compared to a king who was walking at the door of his palace when he saw a chunk lying about. Said he: “What shall we do with it?” Some answered: “[Use it in building] public baths”; others answered: “private baths”. “I will make a statue of it”, declared the king. Who then can hinder him? (cf. Friedman / Simon I 60)</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq 13 (4c: 52)</bibl> (<term xml:lang="jpa">אנדרטין</term>)</note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=a%29ndria%2Fs&amp;la=greek&amp;can=a%29ndria%2Fs0"
+                          type="entry">ἀνδριάς</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+         The form <term xml:lang="jpa">אדריינטיס</term>
+               <term xml:lang="fjb">adryynṭys</term>
+               <term xml:lang="fjb">adraynṭis</term> 
+         is derived from gen. sg. (cf. <bibl type="modern" default="false" status="draft">Levy I: 32-33</bibl>; <bibl type="modern" default="false" status="draft">Krauss I: 70</bibl>). Pl. is attested in 
+         V and Ox 1. <bibl type="modern" default="false" status="draft">Krauss LW II: 65</bibl> assumes Gr. <term xml:lang="grc">*ἀνδριάντη</term> (sg. f.). The standard form shall be <term xml:lang="jpa">אנדרטוס</term>
+               <term xml:lang="fjb">ʾndrṭws</term>
+               <term xml:lang="rabbinic">andarṭos</term>, <term xml:lang="jpa">אנדרטה</term>
+               <term xml:lang="fjb">ʾndrṭh</term>
+               <term xml:lang="rabbinic">andarṭah</term>, <term xml:lang="jpa">אנדרטא</term>
+               <term xml:lang="fjb">ʾndrṭʾ</term>
+               <term xml:lang="rabbinic">andarṭaʾ</term> (cf. <bibl type="modern" default="false" status="draft">Krauss, LW II 65ab</bibl>). Krauss suggests Gr. <term xml:lang="grc">*ἀνδριάντη</term> (fem.) as possible source, but see <bibl type="modern" default="false" status="draft">Lieberman, Greek 9</bibl>, who assumes <term xml:lang="grc">ἀνδριάντιν</term> = <term xml:lang="grc">ἀνδριάντιον</term> (attested in Greek inscriptions).  <bibl type="ancient" default="false" status="draft">Arukh (6b)</bibl> (cf. <bibl type="modern" default="false" status="draft">AC I 40a</bibl>) and <bibl type="modern" default="false" status="draft">Jastrow I 81b</bibl> (<term xml:lang="jpa">אנדרוניטין</term>
+               <term xml:lang="fjb">ʾndrwnyṭyn</term>, <term xml:lang="jpa">אנדרוניטיס</term>
+               <term xml:lang="fjb">ʾndrwnytys</term>) suggest (for GenR) Gr. <term xml:lang="grc">ἀνδρωνῖτις</term> “banqueting hall, royal reception hall” as possible etymology. Cf. Syr. <term xml:lang="syc">ܐܢܕܪܝܢܛܐ</term>
+               <term xml:lang="fjb">ʾndrynṭʾ</term> (<bibl type="modern" default="false" status="draft">Sokoloff, SL 59b</bibl>), <term xml:lang="syc">ܐܕܪܝܢܛܐ</term>
+               <term xml:lang="fjb">ʾdrynṭʾ</term> (<bibl type="modern" default="false" status="draft">Sokoloff, SL 11b</bibl>).
+      </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>40a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

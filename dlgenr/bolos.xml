@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">בולוס</title>
+            <title type="alternative">bwlws</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="bolos-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#bol-dlgenr"
+                next="#bulyotes-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">בולוס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">bwlws</orth>
+               <pron notation="rabbinic" opt="false">bolos</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בולס</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">bwls</orth>
+                  <pron notation="rabbinic" opt="false">bolas</pron>
+               </form>
+               <form type="variant" source="Vat2 Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בולס</orth>
+               </form>
+               <form type="variant" source="Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בולסא</orth>
+               </form>
+            </form>
+            <sense xml:id="bolos-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">artefacts</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="geographic" opt="false">Syriac Aramaic</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>round object</quote>
+               </cit>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>ball</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Ancient Greek+</lang>
+                  </usg>
+                  <quote>βῶλος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     ר' יצחק ור' שמעון בן לקיש ר' יצחק אמר בשר ודם מותח אהל אננקי על ידי שהות הוא רפי קימאה, ברם הכא התרקיע עמו לשחקים, ואין תאמר שהן רפין תל' לו' חזקים, ריש לקיש אמר בשר ודם מוסך בולוס [K V  כלים] אננקי על ידי שהות הוא מעלה חלודה  ברם הכא חזקים כראי מוצק נראים כמין תרקיה
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">12,13</ref>
+                     <ref type="witness">I 111: 5</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אננקי</ref>
+                  <ref type="entry" xml:lang="jpa">תרקיה</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Yiṣḥaq and R. Shimʿon ben Laqish. R. Yiṣḥaq said: when a man sets up a tent in hurry, after a while it will get slightly slacken, but here: Canst thou with Him spread out the sky? (Hi 37,18) And if you say that they are slack, the Scripture says: strong [as a molten mirror] (ibid.). Resh Laqish said: When a man makes in hurry a casting in form of a round object, after a while it will get rusty, but here: strong as a molten mirror [ibid.] - they [the heavens] look like a vault.
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 19 [6b: 31]</bibl> (<term xml:lang="jpa">כלים</term>);
+            <bibl type="ancient" default="false" status="draft">Yalq Jes 450 [397c: 27]</bibl> (<term xml:lang="jpa">כלים</term>);
+            <bibl type="ancient" default="false" status="draft">yBer 1,1 [3: 49]</bibl> (<term xml:lang="jpa">כל(ו)[י?]ם</term>)
+         </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Ancient Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=bw%3Dlos&amp;la=greek&amp;can=bw%3Dlos0"
+                          type="entry">βῶλος</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               Cf. 
+      <bibl type="modern" default="false" status="draft">Krauss, LW II 141ab</bibl>. Cf.
+      <bibl type="modern" default="false" status="draft">Levy I 200a</bibl>, explaining as Gr. <term xml:lang="grc">βέλος</term>, which is a mistake (corr. by
+      <bibl type="modern" default="false" status="draft">Fleischer 284b</bibl>).
+      <bibl type="modern" default="false" status="draft">Jastrow 162b</bibl> traces back to Hebr. root <term xml:lang="jpa">בלל</term>
+               <term xml:lang="fjb">bll</term>, cf. ibid. 145b. From the context of GenR may be followed that the ball was made of iron (since it becomes rusty); Sokoloff therefore translates as “round object of iron” (cf.
+      <bibl type="modern" default="false" status="draft">Sokoloff 68b</bibl> for further sources). Ox 2 represents the same lemma with Aram. suff. used in Aramaic context (cf. Krauss ibid. II). The reading <term xml:lang="jpa">כלים</term>
+               <term xml:lang="fjb">klym</term>
+               <term xml:lang="rabbinic">kelim</term> “vessels”, preserved in K, V and various other parallels, is a later emendation. For Syr. <term xml:lang="syc">ܒܘܠܣܐ</term>
+               <term xml:lang="fjb">bwlsʾ</term> cf.
+      <bibl type="modern" default="false" status="draft">Sokoloff, SL 127a</bibl>. Cf.
+      <ref xml:lang="jpa" type="entry">בולרין</ref>,
+      <ref type="entry" xml:lang="jpa">בול</ref>
+            </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>68b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

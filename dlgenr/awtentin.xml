@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אוותינטין</title>
+            <title type="alternative">ʾwwtynṭyn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:lang="en"
+                type="mainEntry"
+                xml:id="awtentin-dlgenr"
+                prev="#andraintis-dlgenr"
+                next="#awtentia-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אוותינטין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾwwtynṭyn</orth>
+               <pron notation="rabbinic" opt="false">awtenṭin</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">adjective</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אוותנטין</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾwwtnṭyn</orth>
+                  <pron notation="rabbinic" opt="false">awtanṭin</pron>
+               </form>
+               <form type="variant" source="Ox1 - twice in 16,3" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אתוון</orth>
+               </form>
+               <form type="variant" source="Vat2 - twice in 16,3" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אותנטן</orth>
+               </form>
+            </form>
+            <sense xml:id="awtentin-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">properties/features</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false"/>
+               <usg type="geographic" opt="false">Coptic</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>original, mighty, ultimate</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Post-Classical Greek+</lang>
+                  </usg>
+                  <quote>αὐθέντης</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>והנהר הרביעי הוא פרת. רב אמר פרת אוותינטין שלנהרות, ר' חנינא בר איגוד ר' יהושע דסיכנין בשם ר' לוי אובל אוותינטין שלנהרות.</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">16,3</ref>
+                     <ref type="witness">I 144: 2</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Rav said: The Euphrates is the mightiest of all rivers. R. Ḥanina b. Igud and R. Yehoshuaʿ of Sikhnin in the name of R. Lewi said: The Ubal is the most mighty of all rivers. (Freedman / Simon I 126)</quote>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Post-Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=au%29qe%2Fnt-hs&amp;la=greek&amp;can=au%29qe%2Fnt-hs0"
+                          type="entry">αὐθέντης, 2.</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               <bibl type="modern" default="false" status="draft">AC I 48b</bibl>; <bibl type="modern" default="false" status="draft">Levy I 49b</bibl>; <bibl type="modern" default="false" status="draft">Jastrow I 23b</bibl>: <term xml:lang="jpa">אוותנטי</term>
+               <term xml:lang="fjb">ʾwwtnṭy</term>
+               <term xml:lang="rabbinic">awtenṭi</term> “originator, author” (“The Euphrates is the originator [ultimate source] of the rivers.”). Also as: <term xml:lang="jpa">אפתנטין</term>
+               <term xml:lang="fjb">ʾptnṭy</term>
+               <term xml:lang="rabbinic">aftenṭin</term> (<bibl type="modern" default="false" status="draft">Krauss, LW II 117ab</bibl>). Pl. f. <term xml:lang="jpa">אוותינטיאות</term>
+               <term xml:lang="fjb">ʾwwtnṭyʾwt</term>
+               <term xml:lang="rabbinic">awtenṭiʾot</term> is attested in <bibl type="ancient" default="false" status="draft">LevR 2,4</bibl>.
+      </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss II</title>
+                  <citedRange>16</citedRange>
+               </bibl>
+               <bibl default="false" status="draft">
+                  <title>Krauss II</title>
+                  <citedRange>117</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

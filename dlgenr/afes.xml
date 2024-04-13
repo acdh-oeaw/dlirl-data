@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אפס</title>
+            <title type="alternative">ʾfs</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="afes-dlgenr"
+                type="mainEntry"
+                xml:lang="en"
+                prev="#efipyon-dlgenr"
+                next="#aparkas-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אפס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾfs</orth>
+               <pron notation="rabbinic" opt="false">afes</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">verb/interjection</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth xml:lang="jpa" opt="false">הפס</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">hfs</orth>
+                  <pron notation="rabbinic" opt="false">hafes</pron>
+               </form>
+               <form type="variant" source="Vat1" opt="false">
+                  <orth xml:lang="jpa" opt="false">אפס הפס</orth>
+               </form>
+               <form type="variant" source="V Ox2" opt="false">
+                  <orth xml:lang="jpa" opt="false">אפס</orth>
+               </form>
+            </form>
+            <sense xml:id="afes-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">activities</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">code-switching</usg>
+               <usg type="normativity" opt="false">ad-hoc usage</usg>
+               <usg type="meaningType" opt="false">metaph.</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>let go, leave, let alone</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Ancient Greek+</lang>
+                  </usg>
+                  <quote>ἄφες</quote>
+               </cit>
+               <cit type="example">
+                  <quote xml:lang="jpa">
+            ותאמר הלך אלך עימך אפס כי לא תהיה תפארתך, אמר ר' ראובן לשון יווני הוא הפס אמרה לו מה את סבור שתפארתה של שירה נמסרת לך לבדך, אתמהא, ונעשה טפילה ותשר דבורה וברק בן אבינועם וגו'.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">40,4</ref>
+                     <ref type="witness">I 384: 7</ref>
+                  </bibl>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Ancient Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aalphabetic+letter%3D*a%3Aentry+group%3D367%3Aentry%3Da%29fi%2Fhmi"
+                          type="entry">ἀφίημι, ΙΙ, 1 </ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               = 
+      <bibl default="false" status="draft">Yalq 67 [18c: 60-18d: 2]</bibl> [-];
+      <bibl default="false" status="draft">Yalq Jdc 43 [353d: 18-21]</bibl> [-]
+   </note>
+            <note anchored="true">
+               And she said: I will surely go with thee, notwithstanding (efes) the journey that thou takest shall not be for thy honour (
+      <bibl type="ancient" default="false" status="draft">Jdc 4,9)</bibl>. R. Reʾuven said: “Efes” is a Greek word “hafes” (let alone). Said she to him: ‘What do you think? that the glory of the singing shall be given to you only?!’ He retired into the second place, as it is written, Then sang Deborah and Barak the son of Abinoam, etc. (
+      <bibl type="ancient" default="false" status="draft">Jdc 5,1</bibl>) (Cf.
+      <bibl type="modern" default="false" status="draft">Freedman / Simon I 328-329</bibl>)
+               Cf. 
+      <bibl type="modern" default="false" status="draft">AC I 222a</bibl>;
+      <bibl type="modern" default="false" status="draft">Levy I 145b-146a</bibl>;
+      <bibl type="modern" default="false" status="draft">Jastrow I 106</bibl>. A similar explanation is also presented in
+      <bibl type="ancient" default="false" status="draft">ExR Ki Tissa 45,2</bibl>;
+      <bibl type="ancient" default="false" status="draft">EkhR 1,1</bibl> (in the name of R. Reʾuven);
+      <bibl type="ancient" default="false" status="draft">PesK 17</bibl> (in the name of R. Reʾuven);
+      <bibl type="ancient" default="false" status="draft">Yalq Ps 816 [467a: 34-35]</bibl>. Apparently same meaning in
+      <bibl type="ancient" default="false" status="draft">bBB 111a</bibl>: <term xml:lang="jpa">אפס זכריה</term> “leave Zekharia!”. For spiritus asper instead of spiritus lenis cf.
+      <bibl type="modern" default="false" status="draft">Krauss, LW I 59</bibl>.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss, LW II</title>
+                  <citedRange>110a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

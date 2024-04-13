@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">פרוטאטא</title>
+            <title type="alternative">prwṭʾṭʾ</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="protata-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#fanos-dlgenr"
+                next="#farmakos-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">פרוטאטא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">prwṭʾṭʾ</orth>
+               <pron notation="rabbinic" opt="false">proṭaṭa</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פראטאטא</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">prwṭʾṭʾ</orth>
+                  <pron notation="rabbinic" opt="false">praṭaṭa</pron>
+               </form>
+               <form type="variant" source="Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פראטאטא</orth>
+               </form>
+            </form>
+            <sense xml:id="protata-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">properties/features</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>first, noble</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Post Classical Greek</lang>
+                  </usg>
+                  <quote>πρώτατος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     שמעון בן עזיי אומר וענותך תרבני בשר ודם מזכיר שמו ואחר כך שבחו פלן אגוסטלא פלן אנא פרוטאטא ,אבל הקדוש ברוך הוא אינו כן, אלא משברא צרכי עולמו הזכיר שמו בראשית ברא ואחר כך אלהים.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">1,12</ref>
+                     <ref type="witness">I 11: 1</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אגוסטלא</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        Shimʿob ben Azzai sais: And Thy condescension hath made me great (II Sam 22,36): 
+                        A  human being mentions his name [first] and then his praise: So-and-so Augustalis, 
+                        so-and-so, (I am) the nobel. But the Holy One, blessed be He, is not so, but he mentioned 
+                        His name only after he had created all necessities of the world - 
+                        At the beginning created and then: God.
+            </quote>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Post-Classical Greek, Medieval Greek</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LBG</lbl>
+                     <ref target="http://stephanus.tlg.uci.edu/Iris/indiv/lexica.jsp#qid=227308&amp;ql=PRWTA%3DTON%2C%20-OU%2C%20TO%2F&amp;q=%CF%80%CF%81%CF%89%CF%84%E1%BE%B6%CF%84%CE%BF%CE%BD%2C%20%E2%80%91%CE%BF%CF%85%2C%20%CF%84%CF%8C&amp;usr_input=greek&amp;searchescs=N"
+                          type="entry">πρώτατος</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               Pl. <term xml:lang="jpa">פרטוטי</term>
+               <term xml:lang="fjb">prṭ’wṭy</term>
+               <term xml:lang="jpa">פרוטוטי</term>
+               <term xml:lang="fjb">prwṭwṭy</term> is preserved in
+      <bibl type="ancient" default="false" status="draft">LevR 30,7</bibl>. Adj. <term xml:lang="jpa">פרוטי</term>
+               <term xml:lang="fjb">prwṭy</term> ~ Gr. <term xml:lang="grc">πρώτατος</term> 'noble'. The adverbial use is not attested in the Greek corpus, probably reflecting a regionalism or a an innovation in Aramaic. (
+      <bibl type="ancient" default="false" status="draft">yYom 40d</bibl>,
+      <bibl type="ancient" default="false" status="draft">LevR 28,6</bibl>).
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sperber</title>
+                  <citedRange>96</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

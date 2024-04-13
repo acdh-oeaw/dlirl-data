@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">דימיס</title>
+            <title type="alternative">dymys</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="dimos-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#dimosia-dlgenr"
+                next="#dinar-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">דימיס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dymys</orth>
+               <pron notation="rabbinic" opt="false">dimis</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">adj.</gram>
+               </gramGrp>
+               <form type="variant" xml:lang="jpa" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דימוס</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">dymws</orth>
+                  <pron notation="rabbinic" opt="false">dimos</pron>
+               </form>
+               <form type="variant" source="Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דימוס</orth>
+               </form>
+               <form type="variant" source="Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דימוס דימוס</orth>
+               </form>
+            </form>
+            <sense xml:id="dimos-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">law</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">metaphor.</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>released</quote>
+               </cit>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>pardoned</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Medieval Greek</lang>
+                  </usg>
+                  <quote>δημοσόος (?)</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     בסופה נפק ויתיב ליה על פומה דמערתה, חמה חד צייד קאי צייד ציפרין וכד הוה שמע ברת קלא אמרה מן שמיא דימיס הוות פשגה ספיקולה הוות מיתצד
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">79,6</ref>
+                     <ref type="witness">II 942: 1</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">ספיקולה</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        At the end of this period he [R. Shimʿon] saw a hunter engaged in catching birds. Now whenever he [R. Shimʿon] heard a heavenly voice exclaim from heaven “released!” it escaped; if it exclaimed “death sentence!” it was caught. (cf. Freedman / Simon II 730)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">yShev 9,1 (38d [209: 40])</bibl>;
+            <bibl type="ancient" default="false" status="draft">bShab 33b</bibl> (-);
+            <bibl type="ancient" default="false" status="draft">PesK be-Shalaḥ 11,16</bibl> (<term xml:lang="jpa">דימיס</term>);
+            <bibl type="ancient" default="false" status="draft">MKoh 10,8</bibl> (<term xml:lang="jpa">דימיס</term>);
+            <bibl type="ancient" default="false" status="draft">MTeh 17,13</bibl> (<term xml:lang="jpa">דימיס</term>);
+            <bibl type="ancient" default="false" status="draft">MachTeh 17,25</bibl> (<term xml:lang="jpa">דימיס</term>);
+            <bibl type="ancient" default="false" status="draft">EstR 3,7</bibl> (<term xml:lang="jpa">דימיס</term>);
+            <bibl type="ancient" default="false" status="draft">Yalq 133 (42b: 14)</bibl> (<term xml:lang="jpa">דמוס דמוס</term>)
+         </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Medieval Greek (Hesychius)</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=dhmosso%2Fos&amp;la=greek&amp;can=dhmosso%2Fos0"
+                          type="entry">δημοσόος, A.</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               <bibl type="modern" default="false" status="draft">Levy I 396</bibl>: Gr. <term xml:lang="grc">δημοσσόος</term> 'people’s well', therefore 'positive verdict, release', but cf.
+      <bibl type="modern" default="false" status="draft">Fleischer I 442</bibl>;
+      <bibl type="modern" default="false" status="draft">Jastrow I 300</bibl>: Gr. <term xml:lang="grc">δῆμος</term> 'people', 'popular gathering, public festival with games (<term xml:lang="grc">δημοτικός ἀγών</term>) given by Emperors or high officials connected with amnesty; in gen. amnesty, pardon'.
+      <bibl type="modern" default="false" status="draft">AC III 84</bibl>: θέμις (?). For further etymological suggestions cf. Sperber. Acc. to
+      <bibl type="modern" default="false" status="draft">Sperber (1983: 87-88)</bibl> our lemma shall be distinguished from the homonym noun going back Lat. dimis[sio] “release, pardon”.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sperber (1984)</title>
+                  <citedRange>87-88</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

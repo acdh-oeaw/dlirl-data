@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אסכולסטיקה</title>
+            <title type="alternative">ʾskwlsṭykh</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="askolastiqa-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#astrologia-dlgenr"
+                next="#asperon-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אסכולסטיקה</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾskwlsṭykh</orth>
+               <pron notation="rabbinic" opt="false">askolasṭiqah</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>"
+         <gram type="gen" opt="false">m.</gram>"
+      </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אסכולסטיקא</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾskwlsṭykʾ</orth>
+                  <pron notation="rabbinic" opt="false">askolasṭiqaʾ</pron>
+               </form>
+               <form type="variant" source="Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">איסכוליסטיקה</orth>
+               </form>
+               <form type="variant" source="Vat2 Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">איסכוליסטיקא</orth>
+               </form>
+               <form type="variant" source="Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אכוליסטיקא</orth>
+               </form>
+               <form type="variant" source="V K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אסכולוסטקיא</orth>
+               </form>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">אסכולסטיקין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾskwlsṭyqyn</orth>
+               <pron notation="rabbinic" opt="false">askolasṭiqin</pron>
+               <gramGrp opt="false">
+                  <gram type="num" opt="false">pl.</gram>"
+      </gramGrp>
+            </form>
+            <sense xml:id="askolastiqa-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">social groups/law</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="geographic" opt="false">Syriac Aramaic</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>scholar</quote>
+               </cit>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>advocate</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek+; meaning 'advocate' since Post-Classical Greek</lang>
+                  </usg>
+                  <quote>σχολαστικός</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     יעול ר' יהושע בן חנניה דהוא אסכולוסטיקה דאוריתא
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">64,7</ref>
+                     <ref type="witness">II 712: 2</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Shall come R. Yehoshuaʿ ben Ḥananiyyaʾ, who is a scholar of the Law…</quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 111 [34c: 15]</bibl> (<term xml:lang="jpa">אסקלוסתיקא</term>)
+         </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aalphabetic+letter%3D*s111%3Aentry+group%3D180%3Aentry%3Dsxolastiko%2Fs"
+                          type="entry">σχολαστικός, II., III.</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               Cf. 
+      <bibl type="modern" default="false" status="draft">Krauss, II 87ab</bibl> („Gesetzkundiger, Advokat“);
+      <bibl type="modern" default="false" status="draft">AC I 196b-197a</bibl> (<term xml:lang="jpa">אסקולסטיקא</term>);
+      <bibl type="modern" default="false" status="draft">Levy I 125ab</bibl> („Schullehrer, bes. Lehrer der Beredsamkeit“, „Advokat“);
+      <bibl type="modern" default="false" status="draft">Jastrow I 56a</bibl> “advocate, pleader”. Sokoloff interprets the rabb. form as det. οf <term xml:lang="jpa">*איסכולסטיקוס</term>
+               <term xml:lang="fjb">ʾskwlsṭykws</term>
+               <term xml:lang="rabbinic">iskolasṭiqos</term> Gr. <term xml:lang="grc">σχολαστικός</term> “scholar, advocate, pleader”. <term xml:lang="jpa">אסכולסטיקה</term>  in the sense of “advocate” is found in later sources (
+      <bibl type="ancient" default="false" status="draft">CantR 7,9</bibl>). For Pl. cf.
+      <bibl type="ancient" default="false" status="draft">CantR 7,9</bibl>,
+      <bibl type="ancient" default="false" status="draft">ExR 43,4</bibl> (emend.). In
+      <bibl type="ancient" default="false" status="draft">yBer 4,2 [37: 2]</bibl> used as pers. name: <term xml:lang="jpa">תנחום בר איסכולסטיקא</term>. For Syr. <term xml:lang="syc">ܐܣܟܘܠܣܛܝܩܐ</term>
+               <term xml:lang="fjb">ʾskwlwsṭyqʾ</term> cf.
+      <bibl type="modern" default="false" status="draft">Sokoloff, SL 73b</bibl>.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>26a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

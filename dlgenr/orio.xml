@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אוריאו</title>
+            <title type="alternative">ʾwryʾw</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="orio-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#oqton-dlgenr"
+                next="#etimos-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אוריאו</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾwryʾw</orth>
+               <pron notation="rabbinic" opt="false">oriʾo</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אוריין</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾwryyn</orth>
+                  <pron notation="rabbinic" opt="false">oreyan</pron>
+               </form>
+            </form>
+            <sense xml:id="orio-dlgenr-1" opt="false">
+               <usg type="domain" opt="false"/>
+               <usg type="socioCultural" norm="borrowing" opt="false"/>
+               <usg type="normativity" opt="false"/>
+               <usg type="meaningType" opt="false"/>
+               <usg type="frequency" opt="false"/>
+               <usg type="geographic" opt="false"/>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>border</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek+</lang>
+                  </usg>
+                  <quote>ὃριον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote/>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=o%28%2Frion&amp;la=greek&amp;can=o%28%2Frion0"
+                          type="entry">ὅριον</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+         For <term xml:lang="grc">ὃριον</term> cf. <bibl type="modern" default="false" status="draft">Sophocles 217</bibl>: ‘limit, boundary’; 
+         for <term xml:lang="grc">μεθόριος, -ν</term>
+               <bibl type="modern" default="false" status="draft">Liddell / Scott: 1091</bibl> „lying 
+         between as a boundary“. <bibl type="ancient" default="false" status="draft">AC I: 283</bibl>; <bibl type="modern" default="false" status="draft">Levy I: 47</bibl>, <bibl type="modern" default="false" status="draft">Levy III: 110</bibl>. The reading 
+         of Vat 2 is attested in <bibl type="ancient" default="false" status="draft">LevR 28,4</bibl>. <bibl type="modern" default="false" status="draft">Jastrow II: 780</bibl>: <term xml:id="grc">μεσθόρια</term> [?!] „borders, frontline“. 
+         In GenR only in combination with <term xml:lang="jpa">בית</term>
+               <term xml:lang="fjb">byt</term> „house“, probably with the same meaning.  
+      </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sperber</title>
+                  <citedRange>96</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

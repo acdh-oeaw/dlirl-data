@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">איפרכוס</title>
+            <title type="alternative">ʾyprkhws</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="eparkhos-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#epta-dlgenr"
+                next="#aksioma-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">איפרכוס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾyprkhws</orth>
+               <pron notation="rabbinic" opt="false"/>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אפרכוס</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾprkhws</orth>
+                  <pron notation="rabbinic" opt="false">eparkhos</pron>
+               </form>
+               <form type="variant" source="8,10 - V K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">איפרכוס</orth>
+               </form>
+               <form type="variant"
+                     source="11,4 - first occurrence - K V Ox2"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">איפרכוס</orth>
+               </form>
+               <form type="variant" source="11,4 - second occurrence - Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אפרכא</orth>
+               </form>
+               <form type="variant"
+                     source="11,4 - second occurrence - K V Ox1"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">איפרכא</orth>
+               </form>
+               <form type="variant" source="22,9 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">לנקרא בטרם</orth>
+               </form>
+               <form type="variant" source="22,9 - Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">למקרא אפרכוס</orth>
+               </form>
+               <form type="variant" source="22,9 - K V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">משל לאיפרכוס</orth>
+               </form>
+               <form type="variant"
+                     source="49,9 - first occurrence - Ox1 Ox2 K V"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אפרכוס</orth>
+               </form>
+               <form type="variant" source="49,9 - second occurrence - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">מאפרכוס</orth>
+               </form>
+               <form type="variant"
+                     source="49,9 - second occurrence - Ox2 K V"
+                     opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ומאפרכוס</orth>
+               </form>
+               <form type="variant" source="44,17 - K V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אפרכון</orth>
+               </form>
+               <form type="variant" source="44,17 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אפרכסין</orth>
+               </form>
+               <form type="variant" source="44,17 - Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ארפסכין</orth>
+               </form>
+               <form type="variant" source="75,12 - K V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">מיני אפרכין</orth>
+               </form>
+               <form type="variant" source="78,13 - V K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ומן אפרכוי</orth>
+               </form>
+               <form type="variant" source="78,13 - Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ומאיפרכיי</orth>
+               </form>
+               <form type="variant" source="78,13 - Ox1 Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ומאפרכאי</orth>
+               </form>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">אפרכין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾprkhyn</orth>
+               <pron notation="rabbinic" opt="false">eparkhin</pron>
+               <gramGrp opt="false">
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="eparkhos-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">adminstration</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="geographic" opt="false">Coptic</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>prefect</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Post-Classical greek</lang>
+                  </usg>
+                  <quote>ἔπαρχος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     למה הדבר דומה למלך ואפרכוס שהיו נתונין בקרוכין והיו בני המדינה מבקשים לומר למלך דומיני ולא היו יודעין אי זהו, מה עשה המלך דחפו והשליכו מן [K Οx 1 Ox 2 V חוץ] הקרוכין וידעו את המלך [וידעו את המלך. K V וידעו הכל שהוא איפרכוס | Vat 2 Ox 1 Ox 2 וידעו הכל שהוא אפרכוס]
+         </quote>
+                  <ref type="entry" xml:lang="jpa">דומיני</ref>
+                  <ref type="entry" xml:lang="jpa">קרוכין</ref>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">8,10</ref>
+                     <ref type="witness">I 64: 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        To what may this be compared? To a king and a prefect who sat in a chariot, and the residents of the province wished to say “Domini!” to the king, but they didn’t know which one [was the king]. What did the king do? He pushed the prefect and thrust him out of the chariot, so that they knew who was the king.
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">KohR 6,1</bibl>;
+            <bibl type="ancient" default="false" status="draft">MidrZ Koh 6,10</bibl> (<term xml:lang="jpa">איפרכוס</term>);
+            <bibl type="ancient" default="false" status="draft">Yalq 147 [8a: 22]</bibl> (<term xml:lang="jpa">איפרכוס</term>);
+            <bibl type="ancient" default="false" status="draft">Yalq Jes 394 [387d: 58]</bibl> (<term xml:lang="jpa">איפרכוס</term>);
+            <bibl type="ancient" default="false" status="draft">YalqM Jes 2,22 [25: 22,24]</bibl>
+                  </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     אמר ר' תנחומ' עובדא הוה ברומי בערובת צומא רבה והוה תמן חד חייט ואזל דיזבון ליה חד נון, ואשתכח הוא וטליא דאפרכוס קיימין עלוי, הוה הדין מסיק ליה בטימי והדין מסיק ליה בטימי עד דמטא בי"ב דינרין ונסתיה ההוא חייטא, בענתה דאריסטון אמר אפרכוס לטליא למה לא אייטיתה נון, אמר ליה מרי מה נכפור מינך, כך וכך עבד לי חד יהודי, מה הוית בעי דניטי לך חד נון בי"ב דינרין אתמהא, אמר ליה מן הוא, אמר ליה פלן יהודי, שלח ליה ואתייה, אמר יהודי חייט יאכול נון בי"ב דינרין, אמר ליה מרי אית לן חד יום דמכפר לן כל חובי שתא ואנן מוקרין ליה אתמהא, הביא ראייה לדבריו שבקיה.
+         </quote>
+                  <ref type="entry" xml:lang="jpa">אריסטון</ref>
+                  <ref type="entry" xml:lang="jpa">טימי</ref>
+                  <ref type="entry" xml:lang="jpa">דינרין</ref>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">11,4</ref>
+                     <ref type="witness">I 91: 8; I 92: 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Tanḥuma said: It once happened in Rome on the eve of the great fast (sc. the Day of Atonement) that a certain tailor went to buy a fish, and it fell out that he and the prefect’s servant began bargaining for it. Τhe one raised the price, and the other raised the price until it reached twelve dinars, at which price the tailor bought it. At dinner the prefect demanded of the servant, ‘Why have you not served fish?’ ‘I will tell you the truth, sir,’ he replied. ‘A certain Jew did thus to me: did you really want me to bring you a single fish for twelve dinars?!’ ‘Who was it?’ inquired he. ‘So-and-so, the Jew,’ he answered. He had him summoned and said to him, ‘A Jewish tailor can eat a fish at twelve dinars!’ ‘Sir,’ replied he, ‘we have one day when all our sins of the year are forgiven, and we honour it greatly.’ When he produced proof of his words, he dismissed him. (cf. Freedman / Simon I 83)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 16 [5d: 22]</bibl> (<term xml:lang="jpa">איפרכא</term>)
+         </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     לאיפרכוס שהיה מהלך באמצע פלטיה
+         </quote>
+                  <ref type="entry" xml:lang="jpa">פלטיה</ref>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">22,9</ref>
+                     <ref type="witness">I 215: 4</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>It may be compared to a prefect who was walking through his palace.</quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 38 [11b: 33]</bibl> (<term xml:lang="jpa">אפרכוס</term>)
+         </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     אמר ר' יהודה בר' סימון בשר ודם תולין לו אנקליטון מדוכס לאיפרכוס מאיפרכוס לאיסטרטלטיס ואת בשביל שאין לך מי יתלה לך אנקליטון לא תעשה משפט
+         </quote>
+                  <ref type="entry" xml:lang="jpa">דוכס</ref>
+                  <ref type="entry" xml:lang="jpa">אנקליטון</ref>
+                  <ref type="entry" xml:lang="jpa">איסטרטלטיס</ref>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">49,9</ref>
+                     <ref type="witness">II 511: 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Yehuda be-R. Simon said: (Abraham pleaded thus:) ‘Even in the case of a human judge, an appeal can be made from the commander to the prefect and from the prefect to the governor; but you, because no appeal can be made from your judgment, will you not do justly? (cf. Freedman / Simon I 429)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 83 [25d: 35]</bibl>
+                  </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     גדולה זו יוון, ר' סימון אמר מלכות יוון הייתה מעמדת ק"כ דוכסים וק"כ איפרכין וק"כ איסטרטלין
+         </quote>
+                  <ref type="entry" xml:lang="jpa">דוכסים</ref>
+                  <ref type="entry" xml:lang="jpa">איסטרטלין</ref>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">44,17</ref>
+                     <ref type="witness">I 440: 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        Great (Gen 15,12) refers to Greece. R. Simon said: The Kingdom of Greece set up one hundred and twenty commanders, one hundred and twenty prefects, one hundred and twenty governors. (cf. Freedman / Simon I 373)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 77 [21d: 41]</bibl>;
+            <bibl type="ancient" default="false" status="draft">LevR Shemini 13,5</bibl>;
+            <bibl type="ancient" default="false" status="draft">LeqT Gen 15,12 [35b]</bibl>
+                  </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     אמר ר' שמואל בר נחמני ת' מלכים קשורי [ Ox 2 K V  קושרי] כתרים היו עמו ויש א' ת' אפרכין היו עמו
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">75,12</ref>
+                     <ref type="witness">895: 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Shemuʾel bar Naḥmani said: Four hundred kings wearing crowns were with him; others say: Four hundred prefects were with him. (Freedman / Simon II 699)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 130 [40b: 33]</bibl> (<term xml:lang="jpa">איפרכין</term>);
+            <bibl type="ancient" default="false" status="draft">Yelamdenu (Mann) 145 [322]</bibl>
+                  </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     אמר לו ואינך מתיירא מדוכסיי ומאפרכיי ומאיסטרטילטיי
+         </quote>
+                  <ref type="entry" xml:lang="jpa">דוכסיי</ref>
+                  <ref type="entry" xml:lang="jpa">איסטרטילטיי</ref>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">78,13</ref>
+                     <ref type="witness">II 934: 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>He said to him: Do you not fear my commanders, prefects, and governors?</quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 123 [41d: 54]</bibl> (<term xml:lang="jpa">אפרכי</term>);
+            <bibl type="ancient" default="false" status="draft">SekhT Wa-yishlaḥ 33,17 [186]</bibl> (<term xml:lang="jpa">איפרכסי</term>)
+         </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     למה הדבר דומה למלך בשר ודם שנכנס למדינה ונכנסו עמו דוכסים ואיפרכים ואסרטילטין אף על פי שכולם נכנסים בפילי אחת אלא כל אחד ואחד שורה לפי כבודו
+         </quote>
+                  <ref type="entry" xml:lang="jpa">פילי</ref>
+                  <ref type="entry" xml:lang="jpa">אסרטילטין</ref>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">96 (Vat1)</ref>
+                     <ref type="witness">III 1237: 8</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        What does it resemble? A human king who entered the province together with commanders, prefects and governors. Although they all entered through the same gate, but every one lined up according to his honour.
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">LevR Meṣoraʿ 18,1</bibl> (<term xml:lang="jpa">ואיפרכין</term>);
+            <bibl type="ancient" default="false" status="draft">LevR (Margulies) Meṣoraʿ 18,1 [I 396: 5]</bibl> (<term xml:lang="jpa">ואיפרכין</term>);
+            <bibl type="ancient" default="false" status="draft">KohR 12,1</bibl>;
+            <bibl type="ancient" default="false" status="draft">MHG Gen Wa-yeḥi 47,29 [II 802]</bibl> (<term xml:lang="jpa">ואפרוכין</term>)
+         </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Post-Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=e%29%2Fparx-os&amp;la=greek&amp;can=e%29%2Fparx-os0"
+                          type="entry">ἔπαρχος, A.</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               Cf. 
+      <bibl type="modern" default="false" status="draft">AC I 239b-240b</bibl>;
+      <bibl type="modern" default="false" status="draft">Krauss, LW II 115b-116a</bibl>;
+      <bibl type="modern" default="false" status="draft">Levy I 150b-151a</bibl>;
+      <bibl type="modern" default="false" status="draft">Jastrow I 59a</bibl>. In 78,13 used with suff. poss. 1st p. sg. Cf. Syr. <term xml:lang="syc">ܐܦܪܟܐ</term>
+               <term xml:lang="fjb">ʾprkhʾ</term> (
+      <bibl type="modern" default="false" status="draft">Sokoloff, SL 89b</bibl>). <term xml:lang="jpa">אסרטילטין</term> is corr.
+      <ref type="entry">איסטרטלטיס</ref>.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>27a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

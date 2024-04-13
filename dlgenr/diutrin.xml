@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">דיוטרין</title>
+            <title type="alternative">dywṭryn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="diutrin-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#diutrita-dlgenr"
+                next="#daite-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">דיוטרין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dywṭryn</orth>
+               <pron notation="rabbinic" opt="false">diuṭrin</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" source="K V Vat1 Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בדיוטרין</orth>
+               </form>
+               <form type="variant" source="Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בדיטורין</orth>
+               </form>
+               <form type="variant" source="Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בדיוטורין</orth>
+               </form>
+            </form>
+            <sense xml:id="diutrin-dlgenr-1" opt="false">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>chamber, compartment</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek</lang>
+                  </usg>
+                  <quote>διατητήριον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' שמואל בר נחמן שם ועבד היו מהלכין לפני מיטתה וראו אי זה שיית מופנה לאבינו אברהם וקברו אותה בדיוטירין שלו</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">62,3</ref>
+                     <ref type="witness">III 675: 4</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Samuel b. Nahman said: Shem and Eber walked before her bier and saw which cave was vacant for the Patriarch Abraham, and they thereupon buried her in his compartment. (Freedman / Simon II 553)</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq 110 [33a: 34]</bibl> (<term xml:lang="jpa">בדיוטרין</term>)</note>
+               </cit>
+            </sense>
+            <note anchored="true">
+               <bibl type="modern" default="false" status="draft">AC III 47a</bibl> explains as a Gr. <term xml:lang="grc">δύο</term> + <term xml:lang="grc">ἄντρον</term> („double-cave”); <bibl type="modern" default="false" status="draft">Levy II 393b</bibl>: Gr. <term xml:lang="grc">διάτορον</term>; <bibl type="modern" default="false" status="draft">Fürst 99b</bibl>: Gr. <term xml:lang="grc">διαιτητήριον</term>. See also Löw in Krauss.
+      </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss, LW II</title>
+                  <citedRange>199b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

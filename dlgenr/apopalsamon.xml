@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אפופלסמון</title>
+            <title type="alternative">ʾpwplsmwn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="apopalsamon-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#apokhe-dlgenr"
+                next="#aporiyya-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אפופלסמון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾpwplsmwn</orth>
+               <pron notation="rabbinic" opt="false">apopalsamon</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פפולסמון</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ppwlsnwn</orth>
+                  <pron notation="rabbinic" opt="false">papolsamon</pron>
+               </form>
+               <form type="variant" source="27,3 - V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אפיליסימון</orth>
+               </form>
+               <form type="variant" source="27,3 - Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אפוליסימון</orth>
+               </form>
+               <form type="variant" source="27,3 - Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אבלוסמון</orth>
+               </form>
+               <form type="variant" source="27,3 - Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אפופילסמון</orth>
+               </form>
+               <form type="variant" source="27,3 - K Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אפרסמון</orth>
+               </form>
+               <form type="variant" source="33,6 - Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אופופלסמון</orth>
+               </form>
+               <form type="variant" source="33,6 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אפרסמון</orth>
+               </form>
+               <form type="variant" source="33,6 - Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בלסמון</orth>
+               </form>
+               <form type="variant" source="39,2 - V Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אפופילסימון</orth>
+               </form>
+               <form type="variant" source="39,2 - K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אפרסמון</orth>
+               </form>
+               <form type="variant" source="39,2 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פליטון</orth>
+               </form>
+               <form type="variant" source="39,2 - Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">שלפופילס</orth>
+               </form>
+            </form>
+            <sense xml:id="apopalsamon-dlgenr-1" opt="false">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>juice of the balsam-tree, balsam</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek</lang>
+                  </usg>
+                  <quote>ὀποβάλσαμον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>רק רע כל היום משהיתה חמה זורחת עד שתשקע לא היה בהם תוחלת הה"ד לאור יקום רוצח וגו', והא כת' חתר בחשך בתים, למה שיומם חיתמו למו, מה היה עושה, היה מביא אפופוליסמון ושף באבן ובא בלילה וחותרה, כדדרש ר' חנינא בציפורי איתעבד בה תלת מאה חותרן, מה הוון ציפוראי עבדין בתוכה.</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">27,3</ref>
+                     <ref type="witness">I 257: 8</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אפרסמון</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Was only evil all day (Gen 6,5). From the rising until the setting of the sun there was no hope [of good] in them, as it is written, The murderer riseth with the light (Hi 24,14). But it is written, In the dark they dig through houses (ibid. 24,16)? – Why so? Because they make a sign for themselves in the daytime (ibid.). What did they do? They brought balsam, smeared it over a stone, and would come at night and dig through it. On the very night after R. Ḥaninaʾ taught this in Sepphoris, three hundred house-breakings took place. (Freedman / Simon 221)</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq Hi 909 [507a: 56]</bibl>
+                     <term xml:lang="jpa">אפופלסמון</term>
+                  </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' אבהו אילו מגן עדן הביאתו לא היה לה להביא דבר משובח או קנמון או פפולוסמון, אלא רמז רמזה לו, אמרה לו נח מוטב מר מזה ולא מתוק מתחת ידך.</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">33,6</ref>
+                     <ref type="witness">I 311: 6</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אפרסמון</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Said R. Abbahu: Had she [the dove] brought it from the Garden of Eden, should she have not brought something better, e.g. cinnamon or the balsam [leaf]? But in fact she gave him a hint, saying to him [in effect]: ‘Noah, better is bitterness from this source [God], that sweetness from your hand.’ (Freedman / Simon I 266)</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq 59 [15c: 56]</bibl>
+                     <term xml:lang="jpa">בלסמון</term>
+                  </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' ברכיה למה היה אברהם דומה לצלוחית שלפפלוסימון מוקפת צמיד פתיל ומונחת בזוית ולא היה ריחה נודף</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">39,2</ref>
+                     <ref type="witness">I 366: 2</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אפרסמון</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Berekhyah said: Thine ointments have a goodly fragrance (Cant 1,3). Said R. Berekhyah: What did Abraham resemble? A phial of balsam closed with a tight-fitting lid and lying in a corner, so that its fragrance was not disseminated; as soon as it was taken up, however, its fragrance was disseminated. (Freedman / Simon I 313)</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">ShirR 1,3</bibl>
+                     <term xml:lang="jpa">פוליטון</term>; <bibl type="ancient" default="false" status="draft">TanhB Lekh lekha 3,3</bibl>
+                     <term xml:lang="jpa">אפרסמון</term>; <bibl type="ancient" default="false" status="draft">LeqT 12,1 [25a]</bibl>
+                     <term xml:lang="jpa">פלייטין</term>; <bibl type="ancient" default="false" status="draft">Yalq 62 [17d: 57]</bibl>
+                     <term xml:lang="jpa">אפרסמון</term>; <bibl type="ancient" default="false" status="draft">Yalq Cant 981 [533a: 43]</bibl>
+                     <term xml:lang="jpa">פלסמון</term>
+                  </note>
+               </cit>
+            </sense>
+            <note anchored="true">
+               <bibl type="modern" default="false" status="draft">Krauss, LW 99b</bibl>; <bibl type="modern" default="false" status="draft">AC I 227b-228a</bibl>. See <bibl type="modern" default="false" status="draft">Löw, Flora I 302 ff</bibl>. Cf. <ref type="entry" xml:lang="jpa">אפרסמון</ref>.
+      </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokloff, DJPA</title>
+                  <citedRange>45b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

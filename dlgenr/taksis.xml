@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">תכסיס</title>
+            <title type="alternative">tksys</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="taksis-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#temelios-dlgenr"
+                next="#avli-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">תכסיס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">tksys</orth>
+               <pron notation="rabbinic" opt="false">taksis</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">טקסיס</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ṭqswys</orth>
+                  <pron notation="rabbinic" opt="false">ṭaqsis</pron>
+               </form>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">טכסיס</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ṭksys</orth>
+                  <pron notation="rabbinic" opt="false">ṭaksis</pron>
+               </form>
+            </form>
+            <sense xml:id="taksis-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">military</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="geographic" opt="false">Coptic</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>order, array; corps, regiment of troops</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Ancient Greek+</lang>
+                  </usg>
+                  <quote>τάξις</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     מה עשה הקב"ה נטל אמת והשליכה [V K והשליכו] לארץ [V K לארץ הה"ד ותשלח אמת ארצה], אמרו מלאכי השרת לפני הקב"ה רבון העולמים מה את מבזה אלטיכסייה [K  תכסיס אלטימסיון | V תכסיס אלטיכסייה | Ox 1  תכסיס אלטומסין] שלך, תעלה אמת מן הארץ ה"ה אמת מארץ תצמח.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">8,5</ref>
+                     <ref type="witness">I 60: 9</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אלטיכסייה</ref>
+                  <ref type="entry" xml:lang="jpa">אלטימסיון</ref>
+                  <ref type="entry" xml:lang="jpa">אלטומסין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        What did the Holy One, blessed be He? He took the truth and threw it on the ground. Said the ministering angels before the Holy One, blessed be He: “Sovereign of the universe! Why do you despise the order/troop of your dignified truth. Shall the truth arise from the earth! This is what is written: Let truth spring up from the earth (Ps 85,12).
+            </quote>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Ancient Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=ta%2Fcis&amp;la=greek&amp;can=ta%2Fcis0"
+                          type="entry">τάξις</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               <term xml:lang="jpa">תכסיס</term> is attested only in <bibl type="ancient" default="false" status="draft">Ox 1</bibl>, <bibl type="ancient" default="false" status="draft">K</bibl> and <bibl type="ancient" default="false" status="draft">V</bibl>. However, it is not clear whether this is the original reading or a later explanation of
+      <ref type="entry" xml:lang="jpa">אלטיכסייה</ref>. Pl. <term xml:lang="jpa">תכסיסין</term>
+               <term xml:lang="fjb">tksysyn</term>
+               <term xml:lang="rabbinic">takhsisin</term> is attested in
+      <bibl type="ancient" default="false" status="draft">bShab 31a</bibl>,
+      <bibl type="ancient" default="false" status="draft">PesR 17,7</bibl>,
+      <bibl type="ancient" default="false" status="draft">MidrTeh 3,3 (Buber 18a)</bibl>, cf.
+      <bibl type="modern" default="false" status="draft">Krauss, LW 267</bibl>;
+      <bibl type="modern" default="false" status="draft">AC III 30-31</bibl>;
+      <bibl type="modern" default="false" status="draft">Levy II 158</bibl>;
+      <bibl type="modern" default="false" status="draft">Jastrow I 535</bibl>. Syr. <term xml:lang="syc">ܛܒܣܝܣ</term>
+               <term xml:lang="fjb">ṭksys</term>
+               <term xml:lang="rabbinic">ṭakhsis</term>, cf.
+      <bibl type="modern" default="false" status="draft">Sokoloff, SL 529</bibl>.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>230</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

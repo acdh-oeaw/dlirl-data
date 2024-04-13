@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">בנריות</title>
+            <title type="alternative">bnrywt</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="banariyot-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#banei-dlgenr"
+                next="#basilqe-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">בנריות</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">bnrywt</orth>
+               <pron notation="rabbinic" opt="false">banariyot</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+               <form type="variant" source="Vat1 K V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בנריות</orth>
+               </form>
+               <form type="variant" source="Ox1 Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בגריות</orth>
+               </form>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">*בנרי</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">bnry</orth>
+               <pron notation="rabbinic" opt="false">banari</pron>
+               <gramGrp opt="false">
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="banariyot-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">artefacts</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false"/>
+               <usg type="geographic" opt="false"/>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>bathing clothes</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <lbl opt="false">cf.</lbl>
+                  <usg opt="false">
+                     <lang opt="false">Post-Classical Greek</lang>
+                  </usg>
+                  <quote>βανιάρι(ο)ν</quote>
+                  <cit type="translation" xml:lang="en">
+                     <quote>bath</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' ברכיה בשם ר' אבא דליים וכנריות נתנה למרחץ</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">45,6</ref>
+                     <ref type="witness">I 454: 6</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Berakhyah said in the name of R. Abbaʾ: She [Sarah] bade her [Hagar] carry her water buckets and bathing clothes to the baths. (cf. Freedman / Simon 384)
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 79</bibl> (<term xml:lang="jpa">סנדלריות</term>)
+         </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Post-Classical Greek</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. Lampe s.v.<gloss> 'public baths'</gloss> and LBG</lbl>
+                     <ref target="http://stephanus.tlg.uci.edu/Iris/indiv/lexica.jsp#qid=102804&amp;ql=BANIA%2FRION%2C%20-OU%2C%20TO%2F&amp;q=%CE%B2%CE%B1%CE%BD%CE%B9%CE%AC%CF%81%CE%B9%CE%BF%CE%BD%2C%20%E2%80%91%CE%BF%CF%85%2C%20%CF%84%CF%8C&amp;usr_input=greek&amp;searchescs=N"
+                          type="entry">βανιάρι(ο)ν</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">Sg. not attested; in
+      <bibl type="modern" default="false" status="draft">Krauss, LW II 160b</bibl>,
+      <bibl type="modern" default="false" status="draft">AC II 127b</bibl>,
+      <bibl type="modern" default="false" status="draft">Jastrow II 177b</bibl>.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>91a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

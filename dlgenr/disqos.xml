@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">דיסקוס</title>
+            <title type="alternative">dysqws</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="disqos-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#dinar-dlgenr"
+                next="#disqarin-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">דיסקוס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dysqws</orth>
+               <pron notation="rabbinic" opt="false">disqos</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" source="Vat2" opt="false">דיסקיס</orth>
+               </form>
+               <form type="variant" opt="false">
+                  <orth type="variant" source="Ox2" opt="false">דסקוס</orth>
+               </form>
+            </form>
+            <sense n="1" xml:id="disqos-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">artefacts</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="geographic" opt="false">Coptic</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote xml:lang="en">plate, dish</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Ancient Greek+</lang>
+                  </usg>
+                  <quote>δίσκος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     נפק טעין לי גרדומי דדהב בגו דיסקס דדהב
+         </quote>
+                  <ref type="entry" xml:lang="jpa">גרדומי</ref>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">8,1</ref>
+                     <ref type="witness">I 55:3</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        He came out [and] offered him golden bread on a golden plate.
+            </quote>
+                  </cit>
+               </cit>
+            </sense>
+            <sense n="2" xml:id="disqos-dlgenr-2" opt="false">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>bas-reliefs</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote/>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">93,6</ref>
+                     <ref type="witness">III 1155:2</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        Rabbi Eliʿezer said: [This may be compared] with a bath full of water, in which were beautiful bas-reliefs; as long as it was full of water the work of the bas-reliefs could not be seen; but when the plug was removed and the water emptied, the work of the bas-reliefs could be seen. (Freedman I:71)
+            </quote>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Ancient Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=di%2Fskos&amp;la=greek&amp;can=di%2Fskos0"
+                          type="entry">δίσκος</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sperber</title>
+                  <citedRange>96</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

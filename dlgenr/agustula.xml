@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אגוסטולא</title>
+            <title type="alternative">ʾgwsṭwlʾ</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="agustula-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#augustalios-dlgenr"
+                next="#agustiani-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אגוסטולא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾgwsṭwlʾ</orth>
+               <pron notation="rabbinic" opt="false">agusṭula</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" source="V K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אגוסטלי</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾgwsṭly</orth>
+                  <pron notation="rabbinic" opt="false">agusṭeli</pron>
+               </form>
+            </form>
+            <sense xml:id="agustula-dlgenr-1" opt="false">
+               <usg type="domain" opt="false"/>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>“prefectus Augustalis”, a prefect of the Diocese of Egypt</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek</lang>
+                  </usg>
+                  <quote>Αὐγουστάλιος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>שמעון בן עזיי אומר וענותך תרבני בשר ודם מזכיר שמו ואחר כך שבחו פלן אגוסטלא פלן אנא פרוטאטא, אבל הקדוש ברוך הוא אינו כן, אלא משברא צרכי 
+                     <app>
+                        <lem>עולמו</lem>
+                        <rdg wit="#Vat2">עולמו ואחרכך</rdg>
+                        <rdg wit="#K">עולמו אחר כך</rdg>
+                     </app>
+                        הזכיר שמו בראשית ברא ואחר כך אלהים.
+                  </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">1,12</ref>
+                     <ref type="witness">I 11:1</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פרוטאטא</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Shimʿon ben Azzai sais: And Thy condescension hath made me great (II Sam 22,36): A  human being mentions his name [first] and then his praise: So-and-so Augustalis, so-and-so, (I am) the noble. But the Holy One, blessed be He, is not so, for he mentioned His name only after he had created all necessities of the world - At the beginning created and then: God.</quote>
+                  </cit>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq 2 [2b: 13]</bibl>
+                     <term xml:lang="jpa">אגוסטא</term>
+                  </note>
+               </cit>
+            </sense>
+            <note anchored="true">Cf. <bibl type="modern" default="false" status="draft">AC I 25ab</bibl>: <term xml:lang="jpa">אגוסטלא</term>
+               <term xml:lang="fjb">ʾgwsṭlʾ</term>, <bibl type="modern" default="false" status="draft">Jastrow I 12a</bibl>; <bibl type="modern" default="false" status="draft">Levy I 22b-23a</bibl>. The parallel in <bibl type="ancient" default="false" status="draft">Yalq</bibl> reads <term xml:lang="jpa">אגוסטא</term>
+               <term xml:lang="fjb">ʾgwsṭʾ</term>, which is an alignment with <term xml:lang="jpa">אגוסטוס</term>
+               <term xml:lang="fjb">ʾgwsṭws</term> (not attested in <bibl type="ancient" default="false" status="draft">GenR</bibl>). <bibl type="modern" default="false" status="draft">Guggenheimer (1973) 24</bibl> suggest “Sodales or Seviri Augustalis” in the meaning of “local rich and outstanding man”.</note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss, LW</title>
+                  <citedRange>II 9a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

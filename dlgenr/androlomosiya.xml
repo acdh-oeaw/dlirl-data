@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אנדרולומוסיא</title>
+            <title type="alternative">ʾndrwlwmwsyʾ</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="androlomosiya-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#androgynos-dlgenr"
+                next="#anona-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אנדרולומוסיא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾndrwlwmwsyʾ</orth>
+               <pron notation="rabbinic" opt="false">androlomosiyaʾ</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f.</gram>"
+      </gramGrp>
+               <form type="variant" opt="false">
+                  <orth xml:lang="jpa" opt="false">אנדרומוסייה</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾndrwmwsyyh</orth>
+                  <pron notation="rabbinic" opt="false">andromosiyah</pron>
+               </form>
+               <form type="variant" opt="false">
+                  <orth xml:lang="jpa" opt="false">דרולומוסייה</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">drwlwmwsyyh</orth>
+                  <pron notation="rabbinic" opt="false">drolomosiyah</pron>
+               </form>
+               <form type="variant" source="26,5 - Vat1" opt="false">
+                  <orth xml:lang="jpa" opt="false">אדרומיסיא</orth>
+               </form>
+               <form type="variant" source="26,5 - Vat2" opt="false">
+                  <orth xml:lang="jpa" opt="false">אנדרומוסיה</orth>
+               </form>
+               <form type="variant" source="26,5 - Ox1" opt="false">
+                  <orth xml:lang="jpa" opt="false">אנדרומוסיון</orth>
+               </form>
+               <form type="variant" source="26,5 - Ox2" opt="false">
+                  <orth xml:lang="jpa" opt="false">אנדלומוסייאה</orth>
+               </form>
+               <form type="variant" source="26,5 - K V" opt="false">
+                  <orth xml:lang="jpa" opt="false">אנדרולומוסייאה</orth>
+               </form>
+               <form type="variant" source="32,8 - Ox1" opt="false">
+                  <orth xml:lang="jpa" opt="false">דרולומוסיא</orth>
+               </form>
+               <form type="variant" source="32,8 - Vat2" opt="false">
+                  <orth xml:lang="jpa" opt="false">דרולומוסיה</orth>
+               </form>
+            </form>
+            <sense xml:id="androlomosiya-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">military</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false">hapax legomenon</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>seizure of men</quote>
+               </cit>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>plague</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Post-Classical Greek</lang>
+                  </usg>
+                  <quote>ἀνδρολη(μ)ψία</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     אמר ר' שמלאי בכל מקום שאתה מוצא זנות אנדרומוסייה באה לעולם והורגת את היפים ואת הרעים
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">26,5</ref>
+                     <ref type="witness">[I 248: 7]</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Śimlai said: Wherever you find harlotry, a plague of humans comes into the world and kills both good and bad.
+            </quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     ויסגר י"י בעדו אמר ר' לוי למלך שקבע דרולומוסייה שלו במדינה, נטל אוהבו וחבשו בבית הסהר ונתן 
+            <ref type="entry" xml:lang="jpa">סיפרגוס</ref> שלו עליו כך ויסגר י"י בעדו
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">32,8</ref>
+                     <ref type="witness">I 295: 10</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        And the Lord shut him in (Gen 7,14). R. Lewi said: This may be compared to a king who decreed a general execution in a country, but took his friend, immured him in prison, and set his seal upon him. Even so, And the Lord shut him in. (Freedman / Simon I 254)
+            </quote>
+                  </cit>
+                  <note anchored="true">
+                     = 
+            <bibl type="ancient" default="false" status="draft">ySoṭ 1,5 [909: 31]</bibl> (<term xml:lang="jpa">אנדרולמוסיה</term>);
+            <bibl type="ancient" default="false" status="draft">LevR (Margaliot) Aḥare 23,9 [539: 4]</bibl> (<term xml:lang="jpa">אנדרולומוסיא</term>);
+            <bibl type="ancient" default="false" status="draft">NumR Nassoʾ 9,33</bibl> (<term xml:lang="jpa">אנדרולומוסיא</term>);
+            <bibl type="ancient" default="false" status="draft">Yalq 43 [12d: 17]</bibl> (<term xml:lang="jpa">אנדרלמוסיא</term>)
+         </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Post-Classical Greek</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <form opt="false">
+                     <orth opt="false">ἀνδρολημψία</orth>
+                  </form>
+                  <gramGrp opt="false">
+                     <gram type="pos" opt="false">common noun</gram>
+                     <gram type="gender" opt="false">feminine</gram>
+                  </gramGrp>
+                  <cit type="translation" xml:lang="en">
+                     <quote xml:lang="en">seizure of men</quote>
+                  </cit>
+               </cit>
+               <etym type="compounding" opt="false">
+                  <cit type="etymon" xml:lang="grc">
+                     <form opt="false">
+                        <orth opt="false">ἀνδρο-</orth>
+                     </form>
+                     <gramGrp opt="false">
+                        <gram type="pos" opt="false">common noun</gram>
+                     </gramGrp>
+                     <cit type="translation" xml:lang="en">
+                        <quote>man</quote>
+                     </cit>
+                  </cit>
+                  <cit type="etymon" xml:lang="grc">
+                     <form opt="false">
+                        <orth opt="false">-λημψια</orth>
+                     </form>
+                     <gramGrp opt="false">
+                        <gram type="pos" opt="false">common noun</gram>
+                     </gramGrp>
+                     <cit type="translation" xml:lang="en">
+                        <quote xml:lang="en">seizure</quote>
+                     </cit>
+                  </cit>
+               </etym>
+               <xr type="related" opt="false">
+                  <lbl opt="false">Cf. LSJ</lbl>
+                  <ref target="http://www.perseus.tufts.edu/hopper/morph?l=a)ndrolhyi/a"
+                       type="entry">ἀνδροληψία</ref>
+               </xr>
+            </etym>
+            <note anchored="true">
+               In 
+      <bibl type="modern" default="false" status="draft">Krauss, LW I 124</bibl> explained as Gr. <term xml:lang="grc">ἀνδρολυμασία</term>.
+      <bibl type="modern" default="false" status="draft">AC I 143a</bibl>,
+      <bibl type="modern" default="false" status="draft">Levy I 106b</bibl> (<term xml:lang="grc">ἀνδρολοιμός</term>);
+      <bibl type="modern" default="false" status="draft">Jastrow I 81b</bibl> (<term xml:lang="grc">ἀνδρολημψία</term>). Löw (in LW II 598b) doubts Krauss’ explanation.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss, LW II</title>
+                  <citedRange>65ab</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אמבטי</title>
+            <title type="alternative">ʾmbṭy</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="ambate-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#alsis-dlgenr"
+                next="#androgynos-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אמבטי</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾmbṭy</orth>
+               <pron notation="rabbinic" opt="false">ambaṭe</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f.</gram>
+               </gramGrp>
+               <form type="variant" source="K V" opt="false">
+                  <orth xml:lang="jpa" opt="false">משל לאמטי</orth>
+               </form>
+               <form type="variant" source="Ox1" opt="false">
+                  <orth xml:lang="jpa" opt="false">לאנבטי</orth>
+               </form>
+               <form type="variant" source="Vat1" opt="false">
+                  <orth xml:lang="jpa" opt="false">לאומבטי</orth>
+               </form>
+            </form>
+            <form type="inflected" opt="false">
+               <orth xml:lang="jpa" opt="false">אמבטיות</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾmbṭywt</orth>
+               <pron notation="rabbinic" opt="false">ambaṭyot</pron>
+               <gramGrp opt="false">
+                  <gram type="gen" opt="false">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="ambate-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">architecture</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>bath</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Post-Classical Greek</lang>
+                  </usg>
+                  <quote>ἐμβατή</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+            אמר ר' אליעזר לאמבטי שהיתה מלאה מים והיה בה ב' 
+            <ref type="entry" xml:lang="jpa">דיוסקוסים</ref> נאים, כל זמן שהיא מלאה מים לא היתה מלאכת דיוסקוסים} נראת, כיון שפתקה וניער המים מתוכה נראת מלאכת
+            <ref type="entry" xml:lang="jpa">דיוסקוסים</ref>
+                  </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">10,2</ref>
+                     <ref type="witness">I 75: 2-3</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Eliʿezer said: [This may be compared] to a bath full of water, in which were two beautiful bas-reliefs; as long as it was full of water, the work of the bas-reliefs could not be seen; but when the plug was removed and the water emptied, the work of the bas-reliefs could be seen. (Freedman / Simon I 71)</quote>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Post-Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aalphabetic+letter%3D*e%3Aentry+group%3D83%3Aentry%3De%29mbato%2Fs"
+                          type="entry">ἐμβατή, II.</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+            = 
+      <bibl type="ancient" default="false" status="draft">Yalq 16 [5b: 55]</bibl>;
+      <bibl type="ancient" default="false" status="draft">YalqProv 961 [498d: 59]</bibl>;
+      <bibl type="ancient" default="false" status="draft">YalqM Prov 25,4 [55a]</bibl>
+            </note>
+            <note xml:lang="jpa" anchored="true">ישובו רשעים לשאולה, ר' אבא בר זבדא אמר לאמבטי התחתונה שבגיהנם.
+      <bibl default="false" status="draft">
+                  <ref type="witness">86,2</ref>
+                  <ref type="witness">II 1053: 5</ref>
+               </bibl>
+            </note>
+            <note xml:lang="en" anchored="true">
+               = 
+      <bibl type="ancient" default="false" status="draft">GenR 50,3 [II 518: 5]</bibl> (
+      <ref type="entry" xml:lang="jpa">ביטי</ref>);
+      <bibl type="ancient" default="false" status="draft">GenR 68,8 [II 777: 2]</bibl> (
+      <ref type="entry" xml:lang="jpa">בוטי</ref>)
+   </note>
+            <note xml:lang="en" anchored="true">
+               The wicked shall return ‘li-sheʾolah’ – to the netherworld (Ps 9,18). Said R. Abbaʾ b. Zavdah: That means to the nethermost [bath] of hell. (cf. Freedman / Simon I 435)
+   </note>
+            <note xml:lang="en" anchored="true">
+               Pl. not in GenR. Common in Rabbinic literature. The reading of GenR 86,2 is certainly corrupted. Cf. 
+      <bibl type="modern" default="false" status="draft">Heijmanns (2013) 36</bibl>.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>37a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אנדרוגינוס</title>
+            <title type="alternative">ʾndrwgynws</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="androgynos-dlgenr"
+                type="mainEntry"
+                xml:lang="en"
+                prev="#ambate-dlgenr"
+                next="#androlomosiya-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אנדרוגינוס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾndrwgynws</orth>
+               <pron notation="rabbinic" opt="false">androginos</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+            </form>
+            <form type="variant" opt="false">
+               <orth xml:lang="jpa" opt="false">אנדרוגינס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾndrwgyns</orth>
+               <pron notation="rabbinic" opt="false">androginas</pron>
+            </form>
+            <sense xml:id="androgynos-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">human life/biology</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">code-switching/core borrowing</usg>
+               <usg type="normativity" opt="false">ad-hoc usage</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false">hapax legomenon (with this particular meaning)</usg>
+               <usg type="geographic" opt="false">Coptic; Syriac Aramaic</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>man (and) woman</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Post-Classical Greek+</lang>
+                  </usg>
+                  <quote>ἀνδρόγυνος</quote>
+               </cit>
+               <cit type="example">
+                  <quote xml:lang="jpa">
+אמר ר' ירמיה בן לעזר בשעה שברא הקדוש ברוך הוא את אדם הראשון
+            <app>
+                        <lem>אנדרוגינס</lem>
+                        <rdg wit="#Vat2">אנדרוגינוס</rdg>
+                        <rdg wit="#V">אנדרוגינוס</rdg>
+                     </app>
+בראו
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">8,1</ref>
+                     <ref type="witness">I 55:3</ref>
+                  </bibl>
+                  <cit type="translation">
+<!-- The english translation of the passage is encoded in a nested cit element -->
+                     <quote xml:lang="en">
+“R. Yirmeyah b. Leʿazar said: When the Holy One, blessed be he, created the first man, 
+He created him androgynous ("man-and-woman").”
+<!-- The english translation of the passage-->
+            </quote>
+                     <note anchored="true">= Yalq 2 (6d: 25); LevR 14,1</note>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Post Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. Lampe</lbl>
+                     <ref type="entry">ἀνδρόγυνος, -ον</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+In legal context (cf. <bibl type="ancient" default="false" status="draft">mBik 4,1</bibl>): a human bearing 
+both male and female sex characteristics. In <bibl type="ancient" default="false" status="draft">GenR</bibl>, however, the word is used in 
+original platonic sense. <bibl type="ancient" default="false" status="draft">bEr 18a</bibl> reads <term xml:lang="jpa">דיו פרצוף</term>
+               <term xml:lang="fjb">dyw prṣwp</term> (= <term xml:lang="jpa">דיופרצוף</term>
+               <term xml:lang="fjb">dywprṣwp</term>) instead of androginos.
+      <ref type="entry" xml:lang="jpa">דיופרצוף</ref>.
+   </note>
+         </entry>
+      </body>
+   </text>
+</TEI>

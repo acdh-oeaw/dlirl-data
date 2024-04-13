@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">כרבלין</title>
+            <title type="alternative">khrblyn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="koravlin-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#temyon-dlgenr"
+                next="#legae-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">כרבלין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">khrblyn</orth>
+               <pron notation="rabbinic" opt="false">koravlin</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m, plural</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="koravlin-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">arts</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="geographic" opt="false"/>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>dancers, flute-players</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Post-Classical Greek+</lang>
+                  </usg>
+                  <quote>χοραύλης</quote>
+               </cit>
+               <cit type="example">
+                  <quote xml:lang="jpa">
+והיה כמצחק בעיני חתניו אמרו
+            <ref type="entry">אדרבלין</ref>
+                     <app>
+                        <lem>וכרבלין</lem>
+                        <rdg wit="#Vat1">וברבלון</rdg>
+                        <rdg wit="#Vat2">וכידבלון</rdg>
+                     </app>
+במדינה ומדינה נהפכת
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">50,9</ref>
+                     <ref type="witness">II 525: 5</ref>
+                  </bibl>
+                  <cit type="translation">
+                     <quote xml:lang="en">But he seemed unto his sons-in-law as one
+that jested. Said they to him: ‘Organ-players and
+flute-players are in the land and the land is to be overthrown?!’
+            </quote>
+                     <bibl default="false" status="draft">Freedman / Simon I: 439-440
+            </bibl>
+                  </cit>
+               </cit>
+               <cit type="example">
+                  <quote xml:lang="jpa">
+ושם אחיו יובל הוא היה אבי כל תופש כינור ועוגב
+            <ref type="entry">עדרבלין</ref>
+                     <app>
+                        <lem>וכרבלין</lem>
+                        <rdg wit="#Vat2">ומרבלון</rdg>
+                        <rdg wit="#Ox2">וכרכרין</rdg>
+                        <rdg wit="#V">ובורבלין</rdg>
+                     </app>
+                  </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">23,3</ref>
+                     <ref type="witness">I 223: 5</ref>
+                  </bibl>
+                  <cit type="translation">
+                     <quote xml:lang="en">And his brother’s name was Jubal; he was the father of all such as handle the harp and the pipe:
+i. e. organ players and flautists 
+            </quote>
+                     <bibl default="false" status="draft">Freedman / Simon I: 194</bibl>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=xoraul-e%2Fw&amp;la=greek&amp;can=xoraul-e%2Fw0"
+                          type="entry">χοραυλέω</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+Sg. not attested. AC IV: 316, Levy II: 395 „dancers“, Krauss II: 295, 
+Jastrow 625: “flute-players” - Gr. <term xml:lang="grc">χοραῦλαι</term>.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sperber</title>
+                  <citedRange>96</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אגריון</title>
+            <title type="alternative">ʾgrywn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="agrion-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#agustiani-dlgenr"
+                next="#idravlin-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אגריון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾgrywn</orth>
+               <pron notation="rabbinic" opt="false">agriyon</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">adj</gram>
+                  <gram type="gen" opt="false">m</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="agrion-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">animals</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="geographic" opt="false">Coptic</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>wild, rough</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Ancient Greek+</lang>
+                  </usg>
+                  <quote>ἄγριον</quote>
+               </cit>
+               <cit type="example">
+                  <quote xml:lang="jpa">
+למלך שהיה לו כלב
+            <app>
+                        <lem>אגריון</lem>
+                        <rdg wit="#Vat2">אגריקון</rdg>
+                     </app>
+ ואריה
+            <ref type="entry">אימירון</ref>
+והיה המלך נוטל בנו ומלבבו בארי שאם יבא הכלב להזדווג לו יאמר לו המלך ארי לא יכול להזדוו
+ג לו ואת יכול לבני כך אם יבואו האומות להזדווג לישראל יאמר להם הקדוש ברוך הוא שרכם לא היה יכול 
+לישראל ואתם כל שכן.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">77,3</ref>
+                     <ref type="witness">II 913: 5</ref>
+                  </bibl>
+                  <cit type="translation">
+                     <quote xml:lang="en">
+[This may be compared] to a king who had a wild dog and a tame lion. 
+The king would take his son and make him courageous [by making him struggle] 
+with the lion, so that if the dog should come to attack him, the king could say to him: 
+“The lion was not able to withstand him, yet you want to struggle with my son?!” 
+So, if the nations of the world will come to struggle with Israel, the Holy One blessed be he, 
+will say to them: “Your prince could not withstand him [Jacob] and you want to struggle with his children!”
+            </quote>
+                  </cit>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Ancient Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="https://www.perseus.tufts.edu/hopper/morph?l=a%29%2Fgrios&amp;la=greek&amp;can=a%29%2Fgrios0"
+                          type="entry">ἄγριος, I.</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+Yalq. 132 (41a: 7): <term xml:lang="jpa">אגריאון</term>
+               <term xml:lang="fjb">ʾgryʾwn</term> |agriʾon|, 
+AC I: 28: |agriʾun|. 
+Opp.: <term xml:lang="jpa">אימירון</term>
+               <term xml:lang="fjb">ʾymyrwn</term> |emeron| 
+(used together in: NumR 11,3 [= ShirR 3,5; PesK 1, MShem 17,4]).
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss II</title>
+                  <citedRange>12</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

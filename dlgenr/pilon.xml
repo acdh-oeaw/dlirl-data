@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">פילון</title>
+            <title type="alternative">pylwn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="pilon-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#poqrin-dlgenr"
+                next="#paltin-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">פילון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">pylwn</orth>
+               <pron notation="rabbinic" opt="false">pilon</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" source="48,9 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פלון</orth>
+               </form>
+               <form type="variant" source="48,9 - Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פיליוני</orth>
+               </form>
+               <form type="variant" source="48,9 - V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אהל פלן</orth>
+               </form>
+               <form type="variant" source="59,6 - K Ox2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בא בפילון</orth>
+               </form>
+               <form type="variant" source="59,6 - Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בא בכפילון</orth>
+               </form>
+               <form type="variant" source="59,6 - V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בא בכפלון</orth>
+               </form>
+               <form type="variant" source="59,6 - Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בא בפיליון</orth>
+               </form>
+               <form type="variant" source="59,6 - Vat2" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בא בפפלון</orth>
+               </form>
+               <form type="variant" source="66,5 - V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פוליונו</orth>
+               </form>
+               <form type="variant" source="66,5 - K" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">פילייני</orth>
+               </form>
+            </form>
+            <sense xml:id="pilon-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">architecture</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="geographic" opt="false">Coptic</usg>
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>gateway</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Post-Classical Greek+</lang>
+                  </usg>
+                  <quote>πυλών</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     אמר ר' אבהו פלונו שלאבינו אברהם מפולש היה, ר' יודן אמר כהדין דרומליס, אמר אם אראם שהפליגו אני יודע שבאין אצלי, כיון שראם שהפליגו מיד וירץ לקראתם.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">48,9</ref>
+                     <ref type="witness">II 486: 3</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">דרומליס</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Abbahu said: The tent of our father Abraham was open to both sides. R. Yudan said: He was like that fast runner; he said: If I see them turn aside, I will know that they are coming to me. When he saw them turn aside, immediately he ran to meet them.
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 82 (24a: 45)</bibl> (<term xml:lang="jpa">פוולונו</term>);
+            <bibl type="ancient" default="false" status="draft">LeqT Wa-yeraʾ 18,2</bibl> (<term xml:lang="jpa">שער</term>)
+         </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     בא בימים, ר' יודן בשם ר' יהודה בר סימון בא בדיפלון, ר' ברכיה בשם ר' אבא [ר' ברכיה בשם ר' אבא. Ox 1 Ox 2 וחרינה אמר] בפילון מפולש לחיי העולם הבא, אמר ר' יצחק באותן הימים שכת' בהן עד אשר לא יבואו ימי הרעה
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">59,6</ref>
+                     <ref type="witness">II 635: 3</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">דיפלון</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        [And Abraham was old,] he entered the days. R. Yudan said in the name of R. Yahuda bar Simon: He entered a double age. R. Berakhyah in the name of R. Abbaʾ said: he entered the open gateway leading to the life of the world to come.
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 103 (31b: 6)</bibl> (<term xml:lang="jpa">פילון</term>)
+         </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     אמר ר' אייבו פלונו שלאבינו יצחק מפולש היה, רבנין אמ' כמין אסטרופומטה הדלתות היו נכפלות לאחוריהן, עמד לו יעקב אחרי הדלת עד שנכנס עשו ויצא לן
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">66,5</ref>
+                     <ref type="witness">II 750: 1</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אסטרופומטה</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Aibo said: The tent of our father Isaac was open to both sides. The Rabbis said: it was like an “isṭrofomṭaʾ” – the doors could be opened backwards. Jacob stood behind the door until Esau came in and then he departed.
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 115 (35c: 46)</bibl> (<term xml:lang="jpa">פילונו</term>)
+         </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Post-Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=pul-w%2Fn&amp;la=greek&amp;can=pul-w%2Fn0"
+                          type="entry">πυλών</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">Cf.
+      <bibl type="modern" default="false" status="draft">Levy IV 37</bibl>;
+      <bibl type="modern" default="false" status="draft">Jastrow II 1163</bibl>. Used only together with <term xml:lang="jpa">מפולש</term> “open“.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss, LW II</title>
+                  <citedRange>446</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

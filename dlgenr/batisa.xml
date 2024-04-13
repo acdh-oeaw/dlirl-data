@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng http://relaxng.org/ns/structure/1.0?>
+<?xml-model http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng application/xml http://purl.oclc.org/dsdl/schematron?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">בטיסא</title>
+            <title type="alternative">bṭysʾ</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="batisa-dlgenr"
+                xml:lang="en"
+                type="mainEntry"
+                prev="#bolrin-dlgenr"
+                next="#biz-dlgenr"
+                source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">בטיסא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">bṭysʾ</orth>
+               <pron notation="rabbinic" opt="false">baṭisaʾ</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בטיטא</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">bṭyṭʾ</orth>
+                  <pron notation="rabbinic" opt="false">baṭiṭaʾ</pron>
+               </form>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בטיתא</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">bṭytʾ</orth>
+                  <pron notation="rabbinic" opt="false">baṭitaʾ</pron>
+               </form>
+               <form type="variant" source="Vat1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">ביטיטא</orth>
+               </form>
+               <form type="variant" source="Ox1" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בטיתא</orth>
+               </form>
+               <form type="variant" source="Ox2 K V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">בוטיטה</orth>
+               </form>
+            </form>
+            <sense xml:id="batisa-dlgenr-1" opt="false">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>cave</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Greek (?)</lang>
+                  </usg>
+                  <quote>βοῦ(τ)τις (?) or βαθύς (?)</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     אמר ר' הונא עריקין הוינן מן קומיא גוניתיה בהדא בטיסא דטיבריא והיה בידינו נרות, בשעה שכהים היינו יודעים שהוא יום ובשעה שמבהקין היינו יודעין שהוא לילה.
+         </quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">31,11</ref>
+                     <ref type="witness">I 283: 5</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">גוניתיה</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Hunaʾ said: Once we were taking refuge from the Goths in the caves of Tiberias. We had lamps with us: when they were dim, we knew that it was day, and when they shone brightly, we knew that it was night. [cf. Freedman / Simon I 244]
+            </quote>
+                  </cit>
+                  <note anchored="true">=
+            <bibl type="ancient" default="false" status="draft">Yalq 53 [14b: 20]</bibl> (<term xml:lang="jpa">ביטסא</term>);
+            <bibl type="ancient" default="false" status="draft">yPes 27a</bibl> (<term xml:lang="jpa">בטיתא</term>)
+         </note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">unclear</lang>
+            </etym>
+            <note anchored="true">
+               Cf MY ad loc. 
+      <bibl type="modern" default="false" status="draft">Krauss, LW II 148a</bibl>: derived from Gr. <term xml:lang="grc">βοῦ(τ)τις</term>;
+      <bibl type="modern" default="false" status="draft">Jastrow 156b</bibl>;
+      <bibl type="modern" default="false" status="draft">ΑC Add. 40b-41a</bibl>;
+      <bibl type="modern" default="false" status="draft">Schlatter (1900) 58</bibl>.
+      <bibl type="modern" default="false" status="draft">Levy I 211a</bibl> suggests Arab. etymology.
+   </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>73a</citedRange>
+               </bibl>
+               <bibl default="false" status="draft">
+                  <title>AC II</title>
+                  <citedRange>40b-41a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>
