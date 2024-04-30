@@ -1,0 +1,604 @@
+<html xmlns:tei="http://www.tei-c.org/ns/1.0" lang="en-US">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-title" content="DLiRL - Search">
+      <link rel="profile" href="http://gmpg.org/xfn/11">
+      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+      <link rel="icon" type="image/png" href="favicon.png" sizes="96x96">
+      <title>DLiRL - Search</title>
+      <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Frank+Ruhl+Libre&amp;display=swap" rel="stylesheet">
+      <link rel="stylesheet" id="theme-asset-styles-css" href="./css/assets.min.css" type="text/css" media="">
+      <link rel="stylesheet" id="theme-styles-css" href="./css/style.css" type="text/css" media=""><script type="text/javascript" src="https://fundament.acdh.oeaw.ac.at/wp-includes/js/jquery/jquery.js?ver=1.12.4"></script><script type="text/javascript" src="https://fundament.acdh.oeaw.ac.at/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1"></script><link rel="canonical" href="https://fundament.acdh.oeaw.ac.at/documentation/"><style type="text/css">
+                    /**
+                    * GeSHi Dynamically Generated Stylesheet
+                    * --------------------------------------
+                    * Dynamically generated stylesheet for html5
+                    * CSS class: , CSS id: 
+                    * GeSHi (C) 2004 - 2007 Nigel McNie, 2007 - 2014 Benny Baumann
+                    * (http://qbnz.com/highlighter/ and http://geshi.org/)
+                    * --------------------------------------
+                    */
+                    .html5 .de1, .html5 .de2 {}
+                    .html5  {font-family:monospace;}
+                    .html5 .imp {font-weight: bold; color: red;}
+                    .html5 li, .html5 .li1 {font-weight: normal; vertical-align:top;}
+                    .html5 .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}
+                    .html5 .li2 {font-weight: bold; vertical-align:top;}
+                    .html5 .kw2 {color: #000000; font-weight: bold;}
+                    .html5 .kw3 {color: #000066;}
+                    .html5 .es0 {color: #000099; font-weight: bold;}
+                    .html5 .br0 {color: #66cc66;}
+                    .html5 .sy0 {color: #66cc66;}
+                    .html5 .st0 {color: #ff0000;}
+                    .html5 .nu0 {color: #cc66cc;}
+                    .html5 .sc-2 {color: #404040;}
+                    .html5 .sc-1 {color: #808080; font-style: italic;}
+                    .html5 .sc0 {color: #00bbdd;}
+                    .html5 .sc1 {color: #ddbb00;}
+                    .html5 .sc2 {color: #009900;}
+                    .html5 .ln-xtra, .html5 li.ln-xtra, .html5 div.ln-xtra {background-color: #ffc;}
+                    .html5 span.xtra { display:block; }
+                </style><style type="text/css">
+                    img.wp-smiley,
+                    img.emoji {
+                    display: inline !important;
+                    border: none !important;
+                    box-shadow: none !important;
+                    height: 1em !important;
+                    width: 1em !important;
+                    margin: 0 .07em !important;
+                    vertical-align: -0.1em !important;
+                    background: none !important;
+                    padding: 0 !important;
+                    }
+                </style><link rel="stylesheet" id="bodhi-svgs-attachment-css" href="https://fundament.acdh.oeaw.ac.at/wp-content/plugins/svg-support/css/svgs-attachment.css?ver=4.9.11" type="text/css" media="all">
+      <link rel="stylesheet" id="wpgeshi-wp-geshi-highlight-css" href="https://fundament.acdh.oeaw.ac.at/wp-content/plugins/wp-geshi-highlight/wp-geshi-highlight.css?ver=4.9.11" type="text/css" media="all">
+      <link rel="stylesheet" id="kirki-styles-fundament_wp_options-css" href="https://fundament.acdh.oeaw.ac.at/wp-content/themes/fundament_wp/inc/customizer-controls/assets/css/kirki-styles.css?ver=4.9.11" type="text/css" media="all"><style id="kirki-styles-fundament_wp_options-inline-css" type="text/css">
+                    body{font-family:inherit;font-weight:400;background-color:#F1F1F1;border-right-width:0rem;border-left-width:0rem;border-bottom-width:0rem;border-color:#6c757d;}.btn-round,.navbar-brand,h1,h2,h3,h4,h5,h6{font-family:inherit;font-weight:500;}.page main > article .entry-content,.post-teaser,.single main > article .entry-content{font-family:inherit;font-weight:400;}.navbar .navbar-brand{height:2.5rem;}.navbar{padding-top:1.25rem;padding-bottom:1.25rem;background-color:#fff;}.navbar .nav-link{font-size:1rem;}.navbar .nav-item a.nav-link{padding-right:0.75rem;padding-left:0.75rem;}.navbar .nav-item.active > a.nav-link::after{left:0.75rem;right:0.75rem;}#wrapper-hero-content .hero-dark .btn-round:hover,.btn-round,.page main > article .entry-content a,.separator-title,.single main > article .entry-content a{color:#212529;}.page main > article .entry-content a,.separator-title,.single main > article .entry-content a{border-color:#212529;}.card-wrapper .card .card-inner{border-top-color:#88dbdf !important;border-width:1px;border-color:rgba(0, 0, 0, 0.1);;border-top-width:5px !important;}.btn-round:hover{background-color:#212529;}html{background-color:#fff;}#wrapper-navbar{border-top-width:0rem;border-top-color:#6c757d;}#wrapper-hero-content > #wrapper-hero-inner > h1{font-size:2.5rem;}#wrapper-hero-content > #wrapper-hero-inner > p{font-size:1rem;}#wrapper-hero-content > #wrapper-hero-inner button{font-size:0.9rem;padding-top:0.6rem;padding-bottom:0.6rem;padding-right:1.2rem;padding-left:1.2rem;}#wrapper-hero-content::after{background-color:rgba(52,195,202,0.75);}#wrapper-hero-inner h1,#wrapper-hero-inner p{width:50%;}#wrapper-footer-full{background-color:#ffffff;}#wrapper-footer-full,#wrapper-footer-full a,#wrapper-footer-full h1,#wrapper-footer-full h2,#wrapper-footer-full h3,#wrapper-footer-full h4,#wrapper-footer-full h5,#wrapper-footer-full h6{color:#212529;}#wrapper-footer-full .widget-title,.footer-separator{border-bottom-color:rgba(0, 0, 0, 0.15);}#wrapper-footer-secondary{background-color:#f1f1f1;}#wrapper-footer-secondary .widget-title{border-bottom-color:rgba(255, 255, 255, 0.3);}#wrapper-footer-secondary,#wrapper-footer-secondary a,#wrapper-footer-secondary h1,#wrapper-footer-secondary h2,#wrapper-footer-secondary h3,#wrapper-footer-secondary h4,#wrapper-footer-secondary h5,#wrapper-footer-secondary h6{color:#222222;}
+                </style></head>
+   <body class="page-template page-template-page-templates page-template-empty-wrapped page-template-page-templatesempty-wrapped-php page page-id-8 wp-custom-logo">
+      <div class="hfeed site" id="page">
+         <div class="wrapper-fluid wrapper-navbar " id="wrapper-navbar" itemscope="itemscope" itemtype="http://schema.org/WebSite"><a class="skip-link screen-reader-text sr-only" href="#content">Skip to content</a><nav class="navbar navbar-expand-lg navbar-light">
+               <div class="container"><a href="./index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="./images/logo.png" class="img-fluid" alt="DLiRL Logo" itemprop="logo"></a><a class="navbar-brand site-title-with-logo" rel="home" href="./index.html" title="DLiRL" itemprop="url">DLiRL</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                     <ul id="main-menu" class="navbar-nav">
+                        <li id="menu-item-11" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home nav-item menu-item-11 active"><a title="Home" href="./index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item dropdown"><a title="Dropdown" href="." data-toggle="dropdown" class="nav-link dropdown-toggle">Projects <span class="caret"></span></a><ul class=" dropdown-menu" role="menu">
+                              <li class="nav-item dropdown-submenu"><a title="Dictionary of Loandwords in Midrash Genesis Rabbah" href="project-dlgenr.html" class="nav-link">DLGenR</a><a title="Dictionary of Loanwords in Midrash Yalkut Shimoni" href="project-dlys.html" class="nav-link">DLYS</a></li>
+                           </ul>
+                        </li>
+                        <li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-15"><a title="Dictionary &amp; Tools" href="./dictionaryandtools.html" class="nav-link">Dictionary &amp; Tools</a></li>
+                        <li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-15"><a title="Genesis Rabbah" href="./genesisrabbah.html" class="nav-link">Genesis Rabbah</a></li>
+                        <li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-15"><a title="Yalkut Shimoni" href="./yalkutshimoni.html" class="nav-link">Yalkut Shimoni</a></li>
+                        <li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page nav-item menu-item-15"><a title="Jewish-Greek Lexicography" href="./jewishgreeklexicography.html" class="nav-link">Hebrew / Aramaic-Greek Lexicography</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </nav>
+         </div>
+         <div class="wrapper" id="page-wrapper">
+            <div class="container" id="content" tabindex="-1">
+               <div class="row">
+                  <div class="d-none d-md-block col-md-3 col-lg-2">
+                     <nav class="docs-side-nav sticky-top">
+                        <h5 class="docs-side-nav-title seperation"><a href="./search.html">Search</a></h5>
+                        <h5 class="docs-side-nav-title seperation"><a href="./search.html#browseindices">Browse Indices</a></h5>
+                        <ul class="nav">
+                           <li class="docs-side-nav-link"><a href="./search.html#aramaicindex">Browse Aramaic Index</a></li>
+                           <li class="docs-side-nav-link"><a href="./search.html#greekindex">Browse Greek Index</a></li>
+                        </ul>
+                     </nav>
+                  </div>
+                  <div class="col-md-9 col-lg-10 content-area" id="primary">
+                     <main class="site-main" id="main" role="main">
+                        <article class="post-8 page type-page status-publish hentry" id="post-8">
+                           <div class="entry-content">
+                              <p class="dlgenr-entry-navigation-back-RL float-start btn btn-outline-dark"><a href="pilon.html" target="_self">PREV</a></p>
+                              <p class="dlgenr-entry-navigation-forward-RL float-right btn btn-outline-dark"><a href="fanos.html" target="_self">NEXT</a></p>
+                           </div>
+                           <header class="entry-header">
+                              <h1 class="entry-title set-hebrew-font">פלטין</h1>
+                           </header>
+                           <div class="entry-content">
+                              <div id="dlgenr-entry-in-box">
+                                 
+                                 <p class="dlgenr-entry-form-lemma">
+                                    <span class="dlgenr-entry-form-lemma-lemma-hebrew">פלטין</span>
+                                    <span class="dlgenr-entry-form-lemma-lemma-transliteration">〈plṭyn〉</span>
+                                    <span class="dlgenr-entry-form-lemma-lemma-rabbinic">|palṭin|</span>
+                                    
+                                    <p class="dlgenr-entry-grammatical-information">Grammatical information: noun f.</p>
+                                    
+                                    <p class="dlgenr-entry-form-variant">Variant: 
+                                       <span class="dlgenr-entry-form-variant-lemma">פלאטין</span>
+                                       <span class="dlgenr-entry-form-lemma-lemma-transliteration">〈plʾṭyn〉</span>
+                                       
+                                    </p>
+                                    
+                                    <p class="dlgenr-entry-form-variant">Variant: 
+                                       <span class="dlgenr-entry-form-variant-lemma">פלטרין</span>
+                                       <span class="dlgenr-entry-form-variant-source">- GenR 1,1 - Ox1</span></p>
+                                    
+                                    <p class="dlgenr-entry-form-variant">Variant: 
+                                       <span class="dlgenr-entry-form-variant-lemma">פלטרין</span>
+                                       <span class="dlgenr-entry-form-variant-source">- GenR 1,5 - Ox1</span></p>
+                                    
+                                    <p class="dlgenr-entry-form-variant">Variant: 
+                                       <span class="dlgenr-entry-form-variant-lemma">פלטרין</span>
+                                       <span class="dlgenr-entry-form-variant-source">- GenR 8,3 - Ox2</span></p>
+                                    
+                                    <p class="dlgenr-entry-form-variant">Variant: 
+                                       <span class="dlgenr-entry-form-variant-lemma">פלטרין</span>
+                                       <span class="dlgenr-entry-form-variant-source">- GenR 8,8 - Ox1</span></p>
+                                    
+                                    <p class="dlgenr-entry-form-variant">Variant: 
+                                       <span class="dlgenr-entry-form-variant-lemma">פלאטין</span>
+                                       <span class="dlgenr-entry-form-variant-source">- GenR 8,8 - K</span></p>
+                                    
+                                    <p class="dlgenr-entry-form-variant">Variant: 
+                                       <span class="dlgenr-entry-form-variant-lemma">פלטין שלו</span>
+                                       <span class="dlgenr-entry-form-variant-source">- GenR 8,8 - Ox2 V</span></p>
+                                    
+                                    <p class="dlgenr-entry-form-variant">Variant: 
+                                       <span class="dlgenr-entry-form-variant-lemma">פלטרין</span>
+                                       <span class="dlgenr-entry-form-variant-source">- GenR 9,3 - Ox1 Ox2</span></p>
+                                    
+                                    <p class="dlgenr-entry-form-variant">Variant: 
+                                       <span class="dlgenr-entry-form-variant-lemma">פלטרין</span>
+                                       <span class="dlgenr-entry-form-variant-source">- GenR 9,4 - Ox1 3x</span></p>
+                                    
+                                    <p class="dlgenr-entry-form-variant">Variant: 
+                                       <span class="dlgenr-entry-form-variant-lemma">פלטרין</span>
+                                       <span class="dlgenr-entry-form-variant-source">- GenR 12,1 (I 98,3) - Ox1</span></p>
+                                    
+                                    <p class="dlgenr-entry-form-variant">Variant: 
+                                       <span class="dlgenr-entry-form-variant-lemma">משל לפלטין</span>
+                                       <span class="dlgenr-entry-form-variant-source">- GenR 12,1 (I 98,3) - Ox2 V</span></p>
+                                    
+                                    <p class="dlgenr-entry-form-variant">Variant: 
+                                       <span class="dlgenr-entry-form-variant-lemma">פלטרין</span>
+                                       <span class="dlgenr-entry-form-variant-source">- GenR 12,1 (I 98,3) - Ox1</span></p>
+                                    
+                                    <p class="dlgenr-entry-form-variant">Variant: 
+                                       <span class="dlgenr-entry-form-variant-lemma">פלטרין</span>
+                                       <span class="dlgenr-entry-form-variant-source">- GenR 27,4 - Ox2</span></p>
+                                    
+                                    <p class="dlgenr-entry-form-variant">Variant: 
+                                       <span class="dlgenr-entry-form-variant-lemma">פלאטין</span>
+                                       <span class="dlgenr-entry-form-variant-source">- GenR 27,4 - Vat2</span></p>
+                                    
+                                    <p class="dlgenr-entry-form-variant">Variant: 
+                                       <span class="dlgenr-entry-form-variant-lemma">פלטרין</span>
+                                       <span class="dlgenr-entry-form-variant-source">- GenR 34,9 - Ox1</span></p>
+                                    
+                                    <p class="dlgenr-entry-form-variant">Variant: 
+                                       <span class="dlgenr-entry-form-variant-lemma">פלטרין</span>
+                                       <span class="dlgenr-entry-form-variant-source">- GenR 49,2 - Ox2</span></p>
+                                    
+                                    <p class="dlgenr-entry-form-variant">Variant: 
+                                       <span class="dlgenr-entry-form-variant-lemma">פלטרין</span>
+                                       <span class="dlgenr-entry-form-variant-source">- GenR 65,10 - Ox1 Ox2</span></p>
+                                    
+                                    <p class="dlgenr-entry-form-variant">Variant: 
+                                       <span class="dlgenr-entry-form-variant-lemma">פלטריות</span>
+                                       <span class="dlgenr-entry-form-variant-source">- GenR 39,8 - V</span></p>
+                                    
+                                    <p class="dlgenr-entry-form-variant">Variant: 
+                                       <span class="dlgenr-entry-form-variant-lemma">פליטריות</span>
+                                       <span class="dlgenr-entry-form-variant-source">- GenR 39,8 - Vat2</span></p>
+                                    
+                                 </p>
+                                 
+                                 פלטרין
+                                 <span class="dlgenr-entry-form-lemma-lemma-transliteration">〈plṭryn〉</span>
+                                 <span class="dlgenr-entry-form-lemma-lemma-rabbinic">|palṭerin|</span>
+                                 
+                                 <p class="dlgenr-entry-grammatical-information">Grammatical information: pl.</p>
+                                 
+                                 
+                                 פלטיות
+                                 <span class="dlgenr-entry-form-lemma-lemma-transliteration">〈plṭywt〉</span>
+                                 <span class="dlgenr-entry-form-lemma-lemma-rabbinic">|palṭiyyot|</span>
+                                 
+                                 
+                                 <div class="dlgenr-entry-sense">
+                                    <p class="dlgenr-entry-sense-headline">Translation: <span class="dlgenr-entry-sense-headline-translation">palace</span></p>
+                                    <p class="dlgenr-entry-sense-translation-equivalent">Translation equivalent: <span class="dlgenr-entry-sense-translation-equivalent-greek">palatiumπαλάτι(ο)ν</span><span class="dlgenr-entry-sense-translation-equivalent-latin">palatiumπαλάτι(ο)ν</span><span class="dlgenr-entry-sense-translation-equivalent-usage">(LatinPost-Classical Greek+)</span></p>
+                                    <p class="dlgenr-entry-sense-usage-heading">Usage: </p>
+                                    <p class="dlgenr-entry-sense-usage-body">Domain: <span class="dlgenr-entry-sense-usage-body-value">architecture</span></p>
+                                    <p class="dlgenr-entry-sense-usage-body">Socio-cultural norm: <span class="dlgenr-entry-sense-usage-body-value">cultural borrowing</span></p>
+                                    <p class="dlgenr-entry-sense-usage-body">Normativity: <span class="dlgenr-entry-sense-usage-body-value">standard</span></p>
+                                    <p class="dlgenr-entry-sense-usage-body">Meaning type: <span class="dlgenr-entry-sense-usage-body-value">lit.</span></p>
+                                    <p class="dlgenr-entry-sense-usage-body">Geographic distribution: <span class="dlgenr-entry-sense-usage-body-value">Coptic</span></p>
+                                    <p class="dlgenr-entry-sense-example-text">
+                                       בנוהג שבעולם מלך בשר ודם בונה פלטין ואינו בונה אותה מדעת עצמו אלא מדעת אומן.
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-quotation">(1,1 [I 2: 2])</p>
+                                    <p class="dlgenr-entry-sense-example-translation">
+                                       In human practice, when a mortal king builds a palace, he builds it not with his own
+                                       skill but with the skill of an architect. (Freedman / Simon I 1)
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-text">
+                                       בנוהג העולם מלך בשר ודם בונה פלטין במקום הביבין והאשפה והסיריות, כל מי שיבוא לומר
+                                       פלטין זו בנויה במקום הביבין והאשפה והסיריות אינו פוגם אתמהא.
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-quotation">(1,5 [I 3: 5-6])</p>
+                                    <p class="dlgenr-entry-sense-example-translation">
+                                       In human practice, when a mortal king builds a palace on a site of sewers, dunghills,
+                                       and garbage, if one says, ‘This palace is built on a site of sewers, dunghills, and
+                                       garbage,’ does he not discredit it? (cf. Freedman / Simon I 2)
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-text">
+                                       ר' יהודה בר' סימון אמר למלך שקנה לו ב' שפחות, שתיהן באוני ובטימי אחת, על אחת גזר שלא
+                                       תזוז מפלטין ועל אחת גזר טרודין. ישבה לה אותה תוהא ובוהא, אמרה שנינו באוני ובטימי אחת,
+                                       זו אינה זזה מפלטין ועלי גזר טרודין אתמהא.
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-quotation">(2,2 [I 15: 8,9])</p>
+                                    <p class="dlgenr-entry-sense-example-translation">
+                                       R. Yehuda b. R. Simon said: Compare this case to a king, who has bought two bondmaids,
+                                       both on the same bill of sale and at the same price. One he commanded not to stir
+                                       out from the palace, while for the other he decreed banishment. The latter sat bewildered
+                                       and astonished. ‘Both of us were bought  on the same bill of sale and at the same
+                                       price,’ she exclaimed, ‘yet she does not stir from the palace while against me he
+                                       has decreed banishment. How amazing!’ (Freedman / Simon 15-16)
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-reference-lemma">טימי</p>
+                                    <p class="dlgenr-entry-sense-example-reference-lemma">אוני</p>
+                                    <p class="dlgenr-entry-sense-example-text">למלך שביקש לבנות פלאטין</p>
+                                    <p class="dlgenr-entry-sense-example-quotation">(3,1 [I 18: 12])</p>
+                                    <p class="dlgenr-entry-sense-example-translation">... it is comparable to a king who wished to build a palace… (cf. Freedman / Simon
+                                       I 20)
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-text">למלך שבנה פלטין ועיטרה בנרות</p>
+                                    <p class="dlgenr-entry-sense-example-quotation">(3,1 [I 19: 2])</p>
+                                    <p class="dlgenr-entry-sense-example-translation">... it is comparable to a king who built a palace and then adorned it with lights
+                                       … (cf. Freedman / Simon I 20)
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-text">בנוהג העולם מלך בשר ודם בונה פלאטין ומקרה באבנים ובעצים ובעפר</p>
+                                    <p class="dlgenr-entry-sense-example-quotation">(4,1 [Ι 25: 5])</p>
+                                    <p class="dlgenr-entry-sense-example-translation">In human practice, when a mortal king builds a palace and roofs it over with stones,
+                                       timber and earth… (cf. Freedman / Simon I 27)
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-text">למלך שבנה פלטין והושיב בתוכה דיורים אלמים והיו משכימים ושואלים בשלומו שלמלך ברמיזה
+                                       ובאצבע ובמנולים אמר המלך מה הן שהן אלמים הרי הן משכימים ושואלים בשלומי ברמיזה ובאצבע
+                                       ובמנוולים אילו היו פיקחין אתמהא על אחת כמה וכמה אתמהא, הושיב המלך דיורים פקחים עמדו
+                                       והחזיקו בפלטין, אמרו אין זו פלטין שלמלך, שלנו הוא הפלטין, אמר המלך תחזור הפלטין לכמות
+                                       שהיית.
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-quotation">(5,1 [I 32: 3,6,7])</p>
+                                    <p class="dlgenr-entry-sense-example-translation">
+                                       This is comparable to a king who built a palace and tenanted it with dumb people who
+                                       used to rise early and pay their respects with gestures, with their fingers and with
+                                       their handkerchiefs (spears). Said the king, ‘If these, who are dumb, rise early and
+                                       pay their respects with gestures, with their fingers and with their kerchiefs, how
+                                       much more would they do so if they possessed all their faculties!’ Thereupon the king
+                                       tenanted it with men gifted with speech, who arose and seized the palace, asserting,
+                                       ‘This is not the king’s palace: it is our palace!’ Then let the palace return to its
+                                       original state!”. (Freedman / Simon 34)
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-reference-lemma">ובמנוולים</p>
+                                    <p class="dlgenr-entry-sense-example-text">
+                                       בנוהג העולם מלך בשר ודם בונה פלטין ומשרה דיורים בעליונים ובתחתונים.
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-quotation">(7,3 [I 52: 5])</p>
+                                    <p class="dlgenr-entry-sense-example-translation">
+                                       In human practice a mortal king builds a palace and tenants the upper and the lower
+                                       stories… (cf. Freedman / Simon I 51)
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-text">
+                                       משל למלך שבנה פלטין על ידי 
+                                       אדרכל<sup>1</sup>
+                                       
+                                       <p class="dlgenr-entry-sense-example-apparatus-line"><sup>1</sup><span class="dlgenr-entry-sense-example-apparatus-line-lemma">אדרכל</span> - Vat2: <span class="dlgenr-entry-sense-example-apparatus-line-reading">הדירכל</span> K: <span class="dlgenr-entry-sense-example-apparatus-line-reading">הרדיכל</span> Ox2: <span class="dlgenr-entry-sense-example-apparatus-line-reading">האדריכל</span></p>
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-quotation">(8,3 [I 59: 3])</p>
+                                    <p class="dlgenr-entry-sense-example-translation">
+                                       It may be compared to a king who had a palace built by an architect. (Freedman / Simon
+                                       I 57)
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-reference-lemma">אדרכל</p>
+                                    <p class="dlgenr-entry-sense-example-text">
+                                       למלך שהיה מטייל פתח פלטין
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-quotation">(8,8 [I 62: 2])</p>
+                                    <p class="dlgenr-entry-sense-example-translation">
+                                       In may be compared to a king who was strolling at the door of his palace. (Freedman
+                                       / Simon 60)
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-text">
+                                       מלך בשר ודם בונה פלטין
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-quotation">(9,3 [I 68: 8])</p>
+                                    <p class="dlgenr-entry-sense-example-translation">
+                                       When a mortal king builds a palace … (Freedman / Simon I 65)
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-text">
+                                       ר' חמא בר' חנינא אמר למלך שבנה פלטין ראה אותה וערבה לו, אמר פלטין פלטין הלווי תהי
+                                       מעלה חן לפני בכל עת כשם שהעלית חן לפני בשעה הזו.
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-quotation">(9,4 [I 69: 6,7])</p>
+                                    <p class="dlgenr-entry-sense-example-translation">
+                                       R. Ḥama b. R. Haninaʾ said: Compare this to a king who built a palace. He saw it and
+                                       it pleased him. ‘O palace, O palace,’ exclaimed he, ‘mayest thou find favour in my
+                                       eyes at all times just as thou hast found favor in my eyes at this moment!’ (Freedman
+                                       / Simon I 65-66)
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-text">
+                                       ר' נחמן אמר חורי לפלטין גדולה שהיה בה פתחים הרבה
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-quotation">(12,1 [I 98: 3])</p>
+                                    <p class="dlgenr-entry-sense-example-translation">
+                                       R. Naḥman said: Imagine a large palace with many doors. (Freedman / Simon I 87)
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-text">
+                                       אמר ר' שמעון בר יוחי משל למלך בשר ודם שבנה פלטין
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-quotation">(12,1 [I 98: 6])</p>
+                                    <p class="dlgenr-entry-sense-example-translation">
+                                       R. Shimʿon bar Yoḥai said: This may be compared to a mortal king who built a palace.
+                                       (Freedman / Simon I 88)
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-text">
+                                       אמר ר' לוי בר חייתה מלך בשר ודם בונה פלטין
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-quotation">(12,1 [I 99: 3])</p>
+                                    <p class="dlgenr-entry-sense-example-translation">
+                                       R. Lewi bar R. Ḥayta : It a mortal king builds a palace. (Freedman / Simon I 88)
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-text">
+                                       ר' יוחנן אמר מלך בשר ודם בונה פלטין
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-quotation">(12,12 [I 110: 9])</p>
+                                    <p class="dlgenr-entry-sense-example-translation">
+                                       R. Yoḥanan said:  When a mortal king builds a palace … (Freedman / Simon 97)
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-text">
+                                       והוציאו חוץ לפלטין
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-quotation">(15,7 [I 140: 7])</p>
+                                    <p class="dlgenr-entry-sense-example-translation">
+                                       … and he expelled him from the palace. (Freedman / Simon I 123)
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-text">
+                                       אמר ר' ברכיה למלך שבנה פלטין פלאטין על ידי 
+                                       אדריכל<sup>1</sup>
+                                       
+                                       <p class="dlgenr-entry-sense-example-apparatus-line"><sup>1</sup><span class="dlgenr-entry-sense-example-apparatus-line-lemma">אדריכל</span> - Vat2: <span class="dlgenr-entry-sense-example-apparatus-line-reading">הדירכל</span> Vat1: <span class="dlgenr-entry-sense-example-apparatus-line-reading">אדרכיל</span> K: <span class="dlgenr-entry-sense-example-apparatus-line-reading">הרדיכל</span> Ox1: <span class="dlgenr-entry-sense-example-apparatus-line-reading">אדריכל</span></p>
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-quotation">(27,4 [Ι 258: 6])</p>
+                                    <p class="dlgenr-entry-sense-example-translation">
+                                       R. Berekhya said: It may be compared to a king who had a palace built by an architect
+                                       … (Freedman / Simon I 222)
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-reference-lemma">אדריכל</p>
+                                    <p class="dlgenr-entry-sense-example-text">
+                                       למלך שבנה פלטין והושיב בה דיורים אלמים והיו משכימים ושואלים בשלום המלך ברמיזה ובאצבע
+                                       ובמנוולים, אמר המלך ומה אילו שהן אילמים משכימים ושואלים בשלומי ברמיזה אילו היו פקחים
+                                       על אחת כמה וכמה, הושיב בה פקחים עמדו והחזיקו בפלטין ומרדו ואמרו זו פלטין שלנו הוא,
+                                       אמר המלך תחזור הפלטין כשהיית.
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-quotation">(28,2 [I 260: 5,8])</p>
+                                    <p class="dlgenr-entry-sense-example-translation">
+                                       This is comparable to a king who built a palace and tenanted it with dumb people who
+                                       used to rise early and pay their respects with gestures, with their fingers and with
+                                       their handkerchiefs (spears). Said the king, ‘If these, who are dumb, rise early and
+                                       pay their respects with gestures, with their fingers and with their kerchiefs, how
+                                       much more would they do so if they possessed all their faculties!’ Thereupon the king
+                                       tenanted it with men gifted with speech, who arose and seized the palace, asserting,
+                                       ‘This is not the king’s palace: it is our palace!’ ‘Then let the palace return to
+                                       its original state,’ the king ordered. (Freedman / Simon I 34)
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-text">
+                                       ר' שילום בשם ר' מנחמא בר רב זעירא למלך שהיה מבקש לבנות פלטין על הים ולא היה יודע איכן
+                                       לבנותה.
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-quotation">(34,9 [I 319: 6])</p>
+                                    <p class="dlgenr-entry-sense-example-translation">
+                                       R. Shilom said in the name of R. Menaḥama ben Zeʿera: This is comparable to a king
+                                       who wished to build a palace by the sea, but did not know where to build it. (Freedman
+                                       / Simon I274)
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-text">
+                                       אמר ר' לעזר אי זו קשה זה שא' למלך או אני או את בפלטין, או זה שאמר לא אני ולא את בפלטין
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-quotation">(38,6  [I 355: 1])</p>
+                                    <p class="dlgenr-entry-sense-example-translation">
+                                       R. Leʿazar said: Who is worse - the one who says to the king, ‘Either you or I will
+                                       dwell in the palace,’ or the one who says, ‘Neither you nor I will dwell in the palace’?
+                                       (Freedman / Simon I 305)
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-text">
+                                       ר' נחמיה אמר בפלטין דממרא.
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-quotation">(41 (42),8 [I 414: 5])</p>
+                                    <p class="dlgenr-entry-sense-example-translation">
+                                       R. Neḥemya said: In the palace of Mamre. (Freedman / Simon I 351)
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-text">
+                                       איני נגלה עליו אלא בפלטין [אלא בפלטין. V  Vat 2 Vat 1 לא בפלטין של ענר ולא בפלטין
+                                       של אשכל אלא בפלטין] שלך.
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-quotation">(41 (42),8 [I 415: 4])</p>
+                                    <p class="dlgenr-entry-sense-example-translation">
+                                       I will reveal Myself to him only in thy palace. (Freedman / Simon 351)
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-text">
+                                       והוציאו מחוץ לפלטין.
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-quotation">(49,2 [II 500: 4])</p>
+                                    <p class="dlgenr-entry-sense-example-translation">
+                                       … and he expelled him from the palace. (Freedman / Simon I 123)
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-text">
+                                       למלך שהיה מטייל בפתח פלטין שלו.
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-quotation">(65,10 [II 720: 1])</p>
+                                    <p class="dlgenr-entry-sense-example-translation">
+                                       It may be compared to a king who was strolling at the door of his palace. (Freedman
+                                       / Simon I 60)
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-text">
+                                       וזעת כל פלטין
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-quotation">(93,8 [III 1158: 1])</p>
+                                    <p class="dlgenr-entry-sense-example-translation">
+                                       ... the whole palace trembled (Freedman / Simon II 861)
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-text">
+                                       שאין אבל נכנס בפלטין של מלך
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-quotation">(100 (101),4 [III 1286: 14])</p>
+                                    <p class="dlgenr-entry-sense-example-translation">
+                                       Because a mourner might not enter the king’s palace. (Freedman / Simon II 991)
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-text">
+                                       משה עשה בפלטיו של מלך ארבעים שנה
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-quotation">(100 (101),10 [III 1295: 2])</p>
+                                    <p class="dlgenr-entry-sense-example-translation">
+                                       Moses spent forty years in Pharaoh’s palace (Freedman / Simon II 1001)
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-text">
+                                       מוטב ללון במדברות שלארץ ישראל ולא בפלאטיות שלחוצה לארץ
+                                       
+                                    </p>
+                                    <p class="dlgenr-entry-sense-example-quotation">(39,8 [I 371: 5])</p>
+                                    <p class="dlgenr-entry-sense-example-translation">
+                                       Better is it to lodge in the deserts of Eretz Israel then in palaces abroad.
+                                       
+                                    </p>
+                                 </div>
+                                 
+                                 <p class="dlgenr-entry-etymology">Etymology (borrowing): 
+                                    source language
+                                    Latin
+                                    
+                                    
+                                    Cf. Lewis / Short
+                                    <a href="http://www.perseus.tufts.edu/hopper/morph?l=P%C4%83l%C4%81t%C4%ADum&amp;la=la&amp;can=p%C4%83l%C4%81t%C4%ADum0" target="_blank">palatium, B.</a>
+                                    
+                                    
+                                    
+                                 </p>
+                                 
+                                 <p class="dlgenr-entry-note"></p>
+                                 
+                                 <p class="dlgenr-entry-bibliography-heading">Bibliography: </p>
+                                 
+                                 <p class="dlgenr-entry-bibliography-line">Sokoloff, DJPA, 435.</p>
+                                 
+                                 
+                                 <p class="dlgenr-entry-citation">How to cite: Art. <span class="dlgenr-entry-citation-lemma">פלטין</span> in: <span class="dlgenr-entry-citation-title">Dictionary of Loanwords in Rabbinic Literature</span>. Eds. <span class="dlgenr-entry-citation-author">Susanne Plietzsch, Christina Katsikadeli, Vladislav Slepoy, Thomas Klampfl</span>. <span class="dlgenr-entry-citation-url">https://dlirl.acdh.oeaw.ac.at/paltin.html</span>. 2024.
+                                 </p>
+                              </div>
+                           </div>
+                        </article>
+                     </main>
+                  </div>
+                  <p></p>
+               </div>
+            </div>
+         </div>
+         <div class="wrapper fundament-default-footer" id="wrapper-footer-full">
+            <div class="container" id="footer-full-content" tabindex="-1">
+               <div class="footer-separator"><i data-feather="message-circle"></i> CONTACT
+                  
+               </div>
+               <div class="row">
+                  <div class="footer-widget col-lg-1 col-md-2 col-sm-2 col-xs-6 col-3">
+                     <div class="textwidget custom-html-widget"><a href="/"><img src="https://fundament.acdh.oeaw.ac.at/common-assets/images/acdh_logo.svg" class="image" alt="ACDH Logo" style="max-width: 100%; height: auto;" title="ACDH Logo"></a></div>
+                  </div>
+                  <div class="footer-widget col-lg-4 col-md-4 col-sm-6 col-9">
+                     <div class="textwidget custom-html-widget">
+                        <p>
+                           ACDH-ÖAW
+                           <br>
+                           Austrian Centre for Digital Humanities and Cultural Heritage
+                           <br>
+                           Austrian Academy of Sciences
+                           
+                        </p>
+                        <p>
+                           Sonnenfelsgasse 19,
+                           <br>
+                           1010 Vienna
+                           
+                        </p>
+                        <p>
+                           T: +43 1 51581-2200
+                           <br>
+                           E: <a href="mailto:acdh@oeaw.ac.at">acdh@oeaw.ac.at</a></p>
+                     </div>
+                  </div>
+                  <div class="footer-widget col-lg-1 col-md-2 col-sm-2 col-xs-6 col-3">
+                     <div class="textwidget custom-html-widget"><a href="https://www.fwf.ac.at/"><img src="./images/fwf-logo.png" class="image" alt="FWF Logo" style="max-width: 250%; height: auto;" title="FWF Logo"></a></div>
+                     <div class="textwidget custom-html-widget" style="margin-top:1em;"><a href="https://uni-salzburg.at"><img src="./images/uni-salzburg-logo.png" class="image" alt="Uni Salzburg Logo" style="max-width: 250%; height: auto;" title="Uni-Salzburg Logo"></a></div>
+                     <div class="textwidget custom-html-widget"><a href="https://www.uni-salzburg.at/index.php?id=142"><img src="./images/zentrum-juedische-kulturgeschichte-logo.jpg" class="image" alt="Zentrum für Jüdische Kulturgeschichte Logo" style="max-width: 250%; height: auto; margin-top: 1em;" title="Zentrum für Jüdische Kulturgeschichte Logo"></a></div>
+                  </div>
+                  <div class="footer-widget col-lg-3 col-md-4 col-sm-4 ml-auto">
+                     <div class="textwidget custom-html-widget">
+                        <h6>HELPDESK</h6>
+                        <p>ACDH runs a helpdesk offering advice for questions related to various digital humanities
+                           topics.
+                        </p>
+                        <p><a class="helpdesk-button" href="mailto:acdh-helpdesk@oeaw.ac.at">ASK US!</a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="footer-imprint-bar" id="wrapper-footer-secondary" style="text-align:center; padding:0.4rem 0; font-size: 0.9rem;">
+            © Copyright OEAW | <a href="./imprint.html">Impressum/Imprint</a></div>
+      </div><script type="text/javascript" src="https://fundament.acdh.oeaw.ac.at/wp-content/themes/fundament_wp/js/assets.min.js?ver=1.1.0"></script><script type="text/javascript" src="https://fundament.acdh.oeaw.ac.at/wp-content/themes/fundament_wp/js/theme.min.js?ver=1.1.0"></script><script type="text/javascript" src="https://fundament.acdh.oeaw.ac.at/wp-includes/js/wp-embed.min.js?ver=4.9.11"></script></body>
+</html>
