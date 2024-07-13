@@ -823,6 +823,11 @@ p.dlgenr-entry-navigation-forward-RL {
 	text-align: center;
 }
 
+.set-latin-font {
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+}
+
 #dlgenr-entry-in-box {
 	border: 1pt black solid;
 	border-radius: 5pt;
@@ -1067,4 +1072,12 @@ span.dlgenr-entry-citation-author {
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 12pt;
 	font-variant: small-caps;
+}
+
+div.list-of-lemmata-lemma {
+	font-family: 'Frank Ruhl Libre', serif;
+    font-weight: normal;
+    font-size: 24pt;
+    color: black;
+	margin-left: 60pt;
 }

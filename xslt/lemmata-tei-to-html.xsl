@@ -15,11 +15,14 @@
                 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
                 <meta name="mobile-web-app-capable" content="yes"></meta>
                 <meta name="apple-mobile-web-app-capable" content="yes"></meta>
-                <meta name="apple-mobile-web-app-title" content="DLiRL - Search"></meta>
+                <meta name="apple-mobile-web-app-title" content="LRL - Lemma"></meta>
                 <link rel="profile" href="http://gmpg.org/xfn/11"></link>
                 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico"></link>
                 <link rel="icon" type="image/png" href="favicon.png" sizes="96x96"></link>
-                <title>DLiRL - Search</title>
+                <title>
+                    <xsl:text>LRL: </xsl:text>
+                    <xsl:value-of select="tei:TEI/tei:text/tei:body/tei:entry/tei:form[@type = 'lemma']/tei:orth[@type = 'lemma']/text()"/>
+                </title>
                 <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Frank+Ruhl+Libre&amp;display=swap" rel="stylesheet"></link>
                 <link rel='stylesheet' id='theme-asset-styles-css'  href='./css/assets.min.css' type='text/css' media=''></link>
                 <link rel='stylesheet' id='theme-styles-css'  href='./css/style.css' type='text/css' media=''></link>
@@ -604,7 +607,7 @@
             <xsl:text>. </xsl:text>
             <xsl:element name="span">
                 <xsl:attribute name="class" select="'dlgenr-entry-citation-url'"/>
-                <xsl:text>https://dlirl.acdh.oeaw.ac.at/</xsl:text>
+                <xsl:text>https://lrl.acdh.oeaw.ac.at/</xsl:text>
                 <xsl:value-of select="concat(substring-before(root()/tei:TEI/tei:text/tei:body/tei:entry/@xml:id,'-dlgenr'),'.html')"/>
             </xsl:element>
             <xsl:text>. 2024.</xsl:text>
