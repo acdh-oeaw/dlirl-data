@@ -138,7 +138,7 @@
             </sense>
             <etym type="borrowing" opt="false">
                <lbl opt="false">source language</lbl>
-               <lang opt="false">Post-Classical Greek</lang>
+               <lang opt="false">Post-Classical Greek</lang><lbl>,</lbl>
                <cit type="etymon" xml:lang="grc">
                   <form opt="false">
                      <orth opt="false">ἀνδρολημψία</orth>
@@ -147,9 +147,7 @@
                      <gram type="pos" opt="false">common noun</gram>
                      <gram type="gender" opt="false">feminine</gram>
                   </gramGrp>
-                  <cit type="translation" xml:lang="en">
-                     <quote xml:lang="en">seizure of men</quote>
-                  </cit>
+                  <cit type="translation" xml:lang="en"><quote xml:lang="en">seizure of men</quote></cit><lbl>,</lbl>
                </cit>
                <etym type="compounding" opt="false">
                   <cit type="etymon" xml:lang="grc">
@@ -159,9 +157,7 @@
                      <gramGrp opt="false">
                         <gram type="pos" opt="false">common noun</gram>
                      </gramGrp>
-                     <cit type="translation" xml:lang="en">
-                        <quote>man</quote>
-                     </cit>
+                     <cit type="translation" xml:lang="en"><quote>man</quote></cit><lbl>,</lbl>
                   </cit>
                   <cit type="etymon" xml:lang="grc">
                      <form opt="false">
@@ -170,13 +166,11 @@
                      <gramGrp opt="false">
                         <gram type="pos" opt="false">common noun</gram>
                      </gramGrp>
-                     <cit type="translation" xml:lang="en">
-                        <quote xml:lang="en">seizure</quote>
-                     </cit>
+                     <cit type="translation" xml:lang="en"><quote xml:lang="en">seizure</quote></cit><lbl>,</lbl>
                   </cit>
                </etym>
                <xr type="related" opt="false">
-                  <lbl opt="false">Cf. LSJ</lbl>
+                  <lbl opt="false">cf. LSJ</lbl>
                   <ref target="http://www.perseus.tufts.edu/hopper/morph?l=a)ndrolhyi/a"
                        type="entry">ἀνδροληψία</ref>
                </xr>

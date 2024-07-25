@@ -88,16 +88,15 @@
                   </bibl>
                   <cit type="translation">
                      <quote xml:lang="en">
-At the end of this period he [R. Shimʿon] saw a hunter engaged in catching birds. Now whenever he [R. Shimʿon] heard a heavenly voice exclaim from heaven “released!” it escaped; if it exclaimed “death sentence!” it was caught.
-= yShev 9 (38d [209]) (-); bShab 33b (-); PesK be-Shalaḥ 11,16 (-); MKoh 10,8 (<term xml:lang="jpa">ספיקלא</term>); MTeh 17,13 (<term xml:lang="jpa">ספיקלא</term>); MachTeh 17,25 (<term xml:lang="jpa">ספיקלא</term>); EstR 3,7 (<term xml:lang="jpa">ספיקלא</term>); Yalq 133 (42b: 15) (<term xml:lang="jpa">ספקולא</term>)
-            </quote>
+At the end of this period he [R. Shimʿon] saw a hunter engaged in catching birds. Now whenever he [R. Shimʿon] heard a heavenly voice exclaim from heaven “released!” it escaped; if it exclaimed “death sentence!” it was caught.</quote>
                      <bibl default="false" status="draft">cf. Freedman / Simon II: 730</bibl>
                   </cit>
+                  <note>= yShev 9 (38d [209]) (-); bShab 33b (-); PesK be-Shalaḥ 11,16 (-); MKoh 10,8 (<term xml:lang="jpa">ספיקלא</term>); MTeh 17,13 (<term xml:lang="jpa">ספיקלא</term>); MachTeh 17,25 (<term xml:lang="jpa">ספיקלא</term>); EstR 3,7 (<term xml:lang="jpa">ספיקלא</term>); Yalq 133 (42b: 15) (<term xml:lang="jpa">ספקולא</term>)</note>
                </cit>
             </sense>
             <etym type="borrowing" opt="false">
                <lbl opt="false">source language</lbl>
-               <lang opt="false">Latin (via Post-Classical Greek)</lang>
+               <lang opt="false">Latin (via Post-Classical Greek)</lang><lbl>,</lbl>
                <etym type="derivation" opt="false">
                   <cit type="etymon" xml:lang="la">
                      <form opt="false">
@@ -107,9 +106,7 @@ At the end of this period he [R. Shimʿon] saw a hunter engaged in catching bird
                         <gram type="pos" opt="false">nominal derivation</gram>
                         <gram type="gen" opt="false">f</gram>
                      </gramGrp>
-                     <cit type="translation" xml:lang="en">
-                        <quote xml:lang="en">death sentence</quote>
-                     </cit>
+                     <cit type="translation" xml:lang="en"><quote xml:lang="en">death sentence</quote></cit><lbl>,</lbl>
                   </cit>
                </etym>
                <lbl opt="false">from</lbl>
@@ -121,14 +118,12 @@ At the end of this period he [R. Shimʿon] saw a hunter engaged in catching bird
                      <gram type="pos" opt="false">noun</gram>
                      <gram type="gender" opt="false">m.</gram>
                   </gramGrp>
-                  <cit type="translation" xml:lang="en">
-                     <quote xml:lang="en">executioner</quote>
-                  </cit>
+                  <cit type="translation" xml:lang="en"><quote xml:lang="en">executioner</quote></cit><lbl>,</lbl>
                </cit>
                <xr type="related" opt="false">
-                  <lbl opt="false">Cf. LSJ</lbl>
+                  <lbl opt="false">cf. LSJ</lbl>
                   <ref target="http://www.perseus.tufts.edu/hopper/morph?l=spekoula%2Ftwr&amp;la=greek&amp;can=spekoula%2Ftwr0"
-                       type="entry">σπεκουλάτωρ,1.</ref>
+                       type="entry">σπεκουλάτωρ, 1.</ref>
                </xr>
             </etym>
             <note anchored="true">

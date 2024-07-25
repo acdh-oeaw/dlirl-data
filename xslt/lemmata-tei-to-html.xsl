@@ -315,6 +315,48 @@
         </xsl:element>
     </xsl:template>
     
+    <xsl:template match="tei:form[@type = 'inflected']">
+        <xsl:element name="div">
+            <xsl:attribute name="class" select="'dlgenr-entry-form-form-inflected'"/>
+            <xsl:element name="p">
+                <xsl:attribute name="class" select="'dlgenr-entry-form-form-inflected-label'"/>
+                <xsl:text>Inflected: </xsl:text>
+            </xsl:element>
+            <xsl:element name="div">
+                <xsl:attribute name="class" select="'dlgenr-entry-form-form-inflected-elements'"/>
+                <xsl:apply-templates select="child::node()"/>
+            </xsl:element>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="tei:form[@type = 'equivalent']">
+        <xsl:element name="div">
+            <xsl:attribute name="class" select="'dlgenr-entry-form-form-equivalent'"/>
+            <xsl:element name="p">
+                <xsl:attribute name="class" select="'dlgenr-entry-form-form-equivalent-label'"/>
+                <xsl:text>Equivalent: </xsl:text>
+            </xsl:element>
+            <xsl:element name="div">
+                <xsl:attribute name="class" select="'dlgenr-entry-form-form-equivalent-elements'"/>
+                <xsl:apply-templates select="child::node()"/>
+            </xsl:element>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="tei:quote[@xml:lang = 'grc'][parent::tei:form[@type = 'equivalent']]">
+        <xsl:element name="p">
+            <xsl:attribute name="class" select="'dlgenr-entry-form-form-equivalent-quotation'"/>
+            <xsl:apply-templates select="child::node()"/>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="tei:orth[@type = 'inflected']">
+        <xsl:element name="span">
+            <xsl:attribute name="class" select="'dlgenr-entry-form-form-inflected-orth'"/>
+            <xsl:apply-templates select="child::node()"/>
+        </xsl:element>
+    </xsl:template>
+    
     <xsl:template match="tei:sense">
         <xsl:element name="div">
             <xsl:attribute name="class" select="'dlgenr-entry-sense'"/>
@@ -421,6 +463,7 @@
             <xsl:value-of select="child::tei:cit[@type = 'translation']/tei:quote/text()"/>
         </xsl:element>
         <xsl:apply-templates select="child::tei:ref"/>
+        <xsl:apply-templates select="child::tei:note"/>
     </xsl:template>
     
     <xsl:template match="tei:quote[parent::tei:cit[@type = 'example']]">
@@ -476,17 +519,33 @@
         </xsl:element>
     </xsl:template>
     
-    <xsl:template match="tei:etym">
-        <xsl:element name="p">
+    <xsl:template match="tei:etym[parent::tei:entry]">
+        <xsl:element name="div">
             <xsl:attribute name="class" select="'dlgenr-entry-etymology'"/>
-            <xsl:text>Etymology</xsl:text>
+            <xsl:element name="b">
+                <xsl:text>Etymology</xsl:text>
+            </xsl:element>
             <xsl:if test="exists(@type)">
                 <xsl:text> (</xsl:text>
                 <xsl:value-of select="@type"/>
+                <xsl:if test="exists(@subtype)">
+                    <xsl:text> - </xsl:text>
+                    <xsl:value-of select="@subtype"/>
+                </xsl:if>
                 <xsl:text>): </xsl:text>
             </xsl:if>
             <xsl:apply-templates select="child::node()"/>
         </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="tei:etym[parent::tei:etym][@type = 'derivation']">
+        <xsl:text>derivation: </xsl:text>
+        <xsl:apply-templates select="child::node()"/>
+    </xsl:template>
+    
+    <xsl:template match="tei:etym[parent::tei:etym][@type = 'compounding']">
+        <xsl:text>compounding: </xsl:text>
+        <xsl:apply-templates select="child::node()"/>
     </xsl:template>
     
     <xsl:template match="tei:lbl">
@@ -497,8 +556,45 @@
         <xsl:apply-templates select="child::node()"/>
     </xsl:template>
     
-    <xsl:template match="tei:cit[@type = 'etymon']">
+    <xsl:template match="tei:cit[@type = 'etymon'][@xml:lang = 'la']">
         <xsl:apply-templates select="child::node()"/>
+    </xsl:template>
+    
+    <xsl:template match="tei:cit[@type = 'etymon'][@xml:lang = 'grc']">
+        <xsl:element name="span">
+            <xsl:attribute name="class" select="'dlgenr-entry-etymology-greek'"/>
+            <xsl:apply-templates select="child::node()"/>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="tei:cit[@type = 'etymon'][@xml:lang = 'jpa']">
+        <xsl:element name="span">
+            <xsl:attribute name="class" select="'dlgenr-entry-etymology-hebrew'"/>
+            <xsl:apply-templates select="child::node()"/>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="tei:cit[@type = 'translation'][parent::tei:cit[@type = 'etymon']]">
+        <xsl:text>“</xsl:text>
+        <xsl:apply-templates select="child::node()"/>
+        <xsl:text>”</xsl:text>
+    </xsl:template>
+    
+    <xsl:template match="tei:orth[ancestor::tei:cit[@type = 'etymon']]">
+        <xsl:element name="i">
+            <xsl:apply-templates select="child::node()"/>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="tei:gramGrp[parent::tei:cit[@type = 'etymon']]">
+        <xsl:text>(</xsl:text>
+        <xsl:for-each select="tei:gram">
+            <xsl:value-of select="text()"/>
+            <xsl:if test="position() != last()">
+                <xsl:text> </xsl:text>
+            </xsl:if>
+        </xsl:for-each>
+        <xsl:text>)</xsl:text>
     </xsl:template>
     
     <xsl:template match="tei:xr">
@@ -532,7 +628,10 @@
     </xsl:template>
     
     <xsl:template match="tei:term[@xml:lang = 'grc']">
-        <xsl:apply-templates select="child::node()"/>
+        <xsl:element name="span">
+            <xsl:attribute name="class" select="'dlgenr-entry-note-term-greek'"/>
+            <xsl:apply-templates select="child::node()"/>
+        </xsl:element>
     </xsl:template>
     
     <xsl:template match="tei:term[@xml:lang = 'jpa']">

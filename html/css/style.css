@@ -891,6 +891,52 @@ span.dlgenr-entry-form-variant-source {
     color: black;
 }
 
+div.dlgenr-entry-form-form-inflected {
+	margin-left: 20pt;
+}
+
+span.dlgenr-entry-form-form-inflected-orth {
+	font-family: 'Frank Ruhl Libre', serif;
+    font-weight: normal;
+    font-size: 12pt;
+    color: black;
+}
+
+p.dlgenr-entry-form-form-inflected-label {
+	font-family: 'Cormorant Garamond', serif;
+    font-weight: normal;
+    font-size: 12pt;
+    color: black;
+	margin-bottom: 0pt;
+}
+
+div.dlgenr-entry-form-form-inflected-elements {
+	margin-left: 20pt;
+}
+
+div.dlgenr-entry-form-form-equivalent {
+	margin-left: 20pt;
+}
+
+p.dlgenr-entry-form-form-equivalent-label {
+	font-family: 'Cormorant Garamond', serif;
+    font-weight: normal;
+    font-size: 12pt;
+    color: black;
+	margin-bottom: 0pt;
+}
+
+div.dlgenr-entry-form-form-equivalent-elements {
+	margin-left: 20pt;
+}
+
+p.dlgenr-entry-form-form-equivalent-quotation {
+	font-family: 'Cormorant Garamond', serif;
+    font-weight: normal;
+    font-size: 12pt;
+    color: black;
+}
+
 div.dlgenr-entry-sense {
 	font-family: 'Cormorant Garamond', serif;
     font-weight: normal;
@@ -898,6 +944,7 @@ div.dlgenr-entry-sense {
     color: black;
 	margin-left: 20pt;
 	margin-bottom: 20pt;
+	margin-top: 20pt;
 }
 
 p.dlgenr-entry-sense-headline {
@@ -1004,16 +1051,31 @@ p.dlgenr-entry-sense-example-reference-lemma {
 	margin-bottom: 0pt;
 }
 
-p.dlgenr-entry-etymology {
+div.dlgenr-entry-etymology {
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 14pt;
     margin-left: 20pt;
+	margin-bottom: 20pt;
+	color: black;
+}
+
+div.dlgenr-entry-etymology-etymology {
+	margin-left: 20pt;
+}
+
+span.dlgenr-entry-etymology-greek {
+	font-family: 'Cormorant Garamond', serif;
+}
+
+span.dlgenr-entry-etymology-hebrew {
+	font-family: 'Frank Ruhl Libre', serif;
 }
 
 p.dlgenr-entry-note {
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 14pt;
     margin-left: 20pt;
+	color: black;
 }
 
 span.dlgenr-entry-note-bibl-ancient {
@@ -1022,6 +1084,10 @@ span.dlgenr-entry-note-bibl-ancient {
 
 span.dlgenr-entry-note-term-hebrew {
 	font-family: 'Frank Ruhl Libre', serif;
+}
+
+span.dlgenr-entry-note-term-greek {
+	font-family: 'Cormorant Garamond', serif;
 }
 
 span.dlgenr-entry-note-term-syriac {
@@ -1036,6 +1102,7 @@ p.dlgenr-entry-bibliography-heading {
 	font-size: 14pt;
     margin-left: 20pt;
 	font-weight: bold;
+	color: black;
 }
 
 p.dlgenr-entry-bibliography-line {
@@ -1044,6 +1111,7 @@ p.dlgenr-entry-bibliography-line {
     margin-left: 40pt;
 	margin-top: 0pt;
 	margin-bottom: 0pt;
+	color: black;
 }
 
 p.dlgenr-entry-citation {
@@ -1051,6 +1119,7 @@ p.dlgenr-entry-citation {
 	font-size: 12pt;
     margin-left: 20pt;
 	margin-top: 10pt;
+	color: black;
 }
 
 span.dlgenr-entry-citation-lemma {
