@@ -372,7 +372,12 @@
                 <xsl:text>Translation: </xsl:text>
                 <xsl:element name="span">
                     <xsl:attribute name="class" select="'dlgenr-entry-sense-headline-translation'"/>
-                    <xsl:value-of select="child::tei:cit[@type = 'translation'][@subtype = 'sense']/child::tei:quote/text()"/>
+                    <xsl:for-each select="tei:cit[@type = 'translation'][@subtype = 'sense']">
+                        <xsl:apply-templates select="./child::tei:quote | ./child::tei:lbl"/>
+                        <xsl:if test="position() != last()">
+                            <xsl:text>; </xsl:text>
+                        </xsl:if>
+                    </xsl:for-each>
                 </xsl:element>
             </xsl:element>
             <xsl:if test="exists(child::tei:cit[@type = 'translationEquivalent'])">
