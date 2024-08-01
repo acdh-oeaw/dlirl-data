@@ -38,7 +38,7 @@
          <entry xml:id="daiteqe-dlgenr"
                 xml:lang="en"
                 type="mainEntry"
-                prev="daite-dlgenr"
+                prev="#daite-dlgenr"
                 next="#delatoria-dlgenr"
                 source="Genesis Rabbah">
             <form type="lemma" opt="false">
@@ -73,7 +73,7 @@
                   <quote>וכל טוב אדוניו בידו ר' חלבו אמר זו דייתיקי</quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">59,10</ref>
-                     <ref type="witness">[II 637: 13]</ref>
+                     <ref type="witness">II 637: 13</ref>
                   </bibl>
                   <cit type="translation" xml:lang="en">
                      <quote>Having all the good of his master’s in his hand - R. Helbo explained that this was a deed of gift. (Freedman / Simon II 522)</quote>
@@ -85,7 +85,7 @@
                   <quote>ורבנין אמ' קבורה ודיאתיקי</quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">61,6</ref>
-                     <ref type="witness">[II 664: 2]</ref>
+                     <ref type="witness">II 664: 2</ref>
                   </bibl>
                   <cit type="translation" xml:lang="en">
                      <quote>The Rabbis said: the family vault and a deed of gift. (Freedman / Simon II 545)</quote>
@@ -95,7 +95,7 @@
                   <quote>אמ' ר' חנינא בנוהג שבעולם אין לודר עושה דייתיקי ומי עושה דייתיקי בני חורין</quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">96</ref>
-                     <ref type="witness">[III 1200: 2]</ref>
+                     <ref type="witness">III 1200: 2</ref>
                   </bibl>
                   <ref type="entry" xml:lang="jpa">לודר</ref>
                   <cit type="translation" xml:lang="en">

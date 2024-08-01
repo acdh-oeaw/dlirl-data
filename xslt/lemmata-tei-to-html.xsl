@@ -381,30 +381,32 @@
                 </xsl:element>
             </xsl:element>
             <xsl:if test="exists(child::tei:cit[@type = 'translationEquivalent'])">
-                <xsl:element name="p">
-                    <xsl:attribute name="class" select="'dlgenr-entry-sense-translation-equivalent'"/>
-                    <xsl:text>Translation equivalent: </xsl:text>
-                    <xsl:if test="child::tei:cit[@type = 'translationEquivalent']/@xml:lang = 'grc'">
-                        <xsl:element name="span">
-                            <xsl:attribute name="class" select="'dlgenr-entry-sense-translation-equivalent-greek'"/>
-                            <xsl:value-of select="child::tei:cit[@type = 'translationEquivalent']/child::tei:quote/text()"/>
-                        </xsl:element>
-                    </xsl:if>
-                    <xsl:if test="child::tei:cit[@type = 'translationEquivalent']/@xml:lang = ('la','lat')">
-                        <xsl:element name="span">
-                            <xsl:attribute name="class" select="'dlgenr-entry-sense-translation-equivalent-latin'"/>
-                            <xsl:value-of select="child::tei:cit[@type = 'translationEquivalent']/child::tei:quote/text()"/>
-                        </xsl:element>
-                    </xsl:if>
-                    <xsl:if test="exists(child::tei:cit[@type = 'translationEquivalent']/child::tei:usg)">
-                        <xsl:element name="span">
-                            <xsl:attribute name="class" select="'dlgenr-entry-sense-translation-equivalent-usage'"/>
-                            <xsl:text>(</xsl:text>
-                            <xsl:value-of select="child::tei:cit[@type = 'translationEquivalent']/child::tei:usg/child::tei:lang/text()"/>
-                            <xsl:text>)</xsl:text>
-                        </xsl:element>
-                    </xsl:if>
-                </xsl:element>
+                <xsl:for-each select="child::tei:cit[@type = 'translationEquivalent']">
+                    <xsl:element name="p">
+                        <xsl:attribute name="class" select="'dlgenr-entry-sense-translation-equivalent'"/>
+                        <xsl:text>Translation equivalent: </xsl:text>
+                        <xsl:if test="./@xml:lang = 'grc'">
+                            <xsl:element name="span">
+                                <xsl:attribute name="class" select="'dlgenr-entry-sense-translation-equivalent-greek'"/>
+                                <xsl:value-of select="./child::tei:quote/text()"/>
+                            </xsl:element>
+                        </xsl:if>
+                        <xsl:if test="./@xml:lang = ('la','lat')">
+                            <xsl:element name="span">
+                                <xsl:attribute name="class" select="'dlgenr-entry-sense-translation-equivalent-latin'"/>
+                                <xsl:value-of select="./child::tei:quote/text()"/>
+                            </xsl:element>
+                        </xsl:if>
+                        <xsl:if test="exists(./child::tei:usg)">
+                            <xsl:element name="span">
+                                <xsl:attribute name="class" select="'dlgenr-entry-sense-translation-equivalent-usage'"/>
+                                <xsl:text>(</xsl:text>
+                                <xsl:value-of select="./child::tei:usg/child::tei:lang/text()"/>
+                                <xsl:text>)</xsl:text>
+                            </xsl:element>
+                        </xsl:if>
+                    </xsl:element>
+                </xsl:for-each>
             </xsl:if>
             <xsl:if test="exists(child::tei:usg)">
                 <xsl:element name="p">

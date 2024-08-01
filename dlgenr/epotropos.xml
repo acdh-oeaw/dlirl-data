@@ -114,7 +114,7 @@
                </cit>
             </sense>
             <sense xml:id="epotropos-dlgenr-2" opt="false">
-               <cit type="translation" xml:lang="en">
+               <cit type="translation" xml:lang="en" subtype="sense">
                   <quote>governor</quote>
                </cit>
                <cit type="translationEquivalent" xml:lang="grc">

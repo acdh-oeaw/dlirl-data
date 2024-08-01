@@ -60,7 +60,7 @@
                </form>
             </form>
             <form type="inflected" opt="false">
-               <orth xml:lang="jpa" opt="false">אמבטיות</orth>
+               <orth xml:lang="jpa" opt="false" type="inflected">אמבטיות</orth>
                <orth type="transliteration" xml:lang="fjb" opt="false">ʾmbṭywt</orth>
                <pron notation="rabbinic" opt="false">ambaṭyot</pron>
                <gramGrp opt="false">
