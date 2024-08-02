@@ -98,7 +98,7 @@
                <pron notation="rabbinic" opt="false">demosiyyot</pron>
             </form>
             <sense n="1" xml:id="dimosia-dlgenr-1" opt="false">
-               <cit type="translation" xml:lang="en">
+               <cit type="translation" xml:lang="en" subtype="sense">
                   <quote>public affairs, market</quote>
                </cit>
                <cit type="translationEquivalent" xml:lang="grc">
@@ -137,7 +137,7 @@
                </cit>
             </sense>
             <sense n="2" xml:id="dimosia-dlgenr-2" opt="false">
-               <cit type="translation" xml:lang="en">
+               <cit type="translation" xml:lang="en" subtype="sense">
                   <quote>public bath</quote>
                </cit>
                <cit type="example" xml:lang="jpa">
