@@ -92,12 +92,29 @@
             <div class="container" id="content" tabindex="-1">
                <div class="row">
                   <div class="d-none d-md-block col-md-3 col-lg-2">
-                     <nav class="docs-side-nav sticky-top">
+                     <!-- <nav class="docs-side-nav sticky-top">
                         <h5 class="docs-side-nav-title seperation"><a href="./search.html">Search</a></h5>
                         <h5 class="docs-side-nav-title seperation"><a href="./search.html#browseindices">Browse Indices</a></h5>
                         <ul class="nav">
                            <li class="docs-side-nav-link"><a href="./search.html#aramaicindex">Browse Aramaic Index</a></li>
                            <li class="docs-side-nav-link"><a href="./search.html#greekindex">Browse Greek Index</a></li>
+                        </ul>
+                     </nav> -->
+                     <nav class="docs-side-nav sticky-top">
+                        <h5 class="docs-side-nav-title seperation">Technical Documentation</h5>
+                        <ul class="nav">
+                           <li class="docs-side-nav-link"><a href="#introduction">1. Introduction</a></li>
+                           <li class="docs-side-nav-link"><a href="#structure-of-an-entry">2. Structure of an entry</a></li>
+                           <li class="docs-side-nav-link"><a href="#basic-structure">2.1 Basis structure</a></li>
+                           <li class="docs-side-nav-link"><a href="#subsections-of-an-entry">2.2 Subsections of an entry</a></li>
+                           <li class="docs-side-nav-link"><a href="#the-lemma">3. The lemma</a></li>
+                           <li class="docs-side-nav-link"><a href="#encoding-of-the-lemma">3.1 Encoding of the lemma</a></li>
+                           <li class="docs-side-nav-link"><a href="#encoding-of-variants">3.2 Encoding of variants of the lemma</a></li>
+                           <li class="docs-side-nav-link"><a href="#derivates">4. Derivates</a></li>
+                           <li class="docs-side-nav-link"><a href="#senses">5. Senses of a lemma</a></li>
+                           <li class="docs-side-nav-link"><a href="#structure-of-sense">5.1 The structure of the sense element</a></li>
+                           <li class="docs-side-nav-link"><a href="#usage-element">5.2 The usage of a word</a></li>
+                           <li class="docs-side-nav-link"><a href="#translation">5.3 The translation of a word</a></li>
                         </ul>
                      </nav>
                   </div>
@@ -113,6 +130,11 @@
                               <p style="margin-left: 20pt;"><a href="#the-lemma">3. The lemma</a></p>
                               <p style="margin-left: 40pt;"><a href="#encoding-of-the-lemma">3.1. Encoding of the lemma</a></p>
                               <p style="margin-left: 40pt;"><a href="#encoding-of-variants">3.2. Encoding of variants of the lemma</a></p>
+                              <p style="margin-left: 20pt;"><a href="#derivates">4. Derivates</a></p>
+                              <p style="margin-left: 20pt;"><a href="#senses">5. Senses</a></p>
+                              <p style="margin-left: 40pt;"><a href="#structure-of-sense">5.1 The structure of the sense element</a></p>
+                              <p style="margin-left: 40pt;"><a href="#usage-element">5.2 The usage of a word</a></p>
+                              <p style="margin-left: 40pt;"><a href="#translation">5.3 The translation of a word</a></p>
                            </header>
                            <div class="entry-content">
                               <h2 id="introduction">1. Introduction</h2>
@@ -166,7 +188,7 @@
                               </code></pre>
                               <h3 id="encoding-of-variants">3.2 Encoding of variants of the lemma</h3>
                               <p>Sometimes the lemma is written in different forms in the manuscripts. This information is encoded in a <span style="font-family: monospace;">form</span> element with the attribute <span style="font-family: monospace;">type</span> set to <i>variant</i> nested into the <span style="font-family: monospace;">form</span> element for the lemma (<span style="font-family: monospace;">type = lemma</span>). When more than one variant appears each gets its own <span style="font-family: monospace;">form</span> element.</p>
-                              <pre><code>
+                              <pre><code class="language-xml">
 &lt;form type="lemma"&gt;
    ...
    &lt;form type="variant"&gt;
@@ -176,6 +198,71 @@
    &lt;/form&gt;
    ...
 &lt;/form&gt;
+                              </code></pre>
+                              <h2 id="derivates">4. Derivates</h2>
+                              <p>Derived forms of a lemma are encoded within <span style="font-family: monospace;">form</span> elements beneath the <span style="font-family: monospace;">entry</span> level and as siblings of the <span style="font-family: monospace;">form</span> element of the lemma.</p>
+                              <pre><code class="language-xml">
+&lt;entry&gt;
+    ...                    
+    &lt;form type="inflected"&gt;
+        &lt;orth xml:lang="jpa"&gt;ביזיא&lt;/orth&gt;
+        &lt;orth type="transliteration" xml:lang="jpa-x-frankfurt-fjb"&gt;byzyʾ&lt;/orth&gt;
+        &lt;pron notation="rabbinic"&gt;biziaʾ&lt;/pron&gt;
+        &lt;gramGrp&gt;
+            &lt;gram type="pos"&gt;noun&lt;/gram&gt;
+            &lt;gram type="num"&gt;pl.&lt;/gram&gt;
+            &lt;gram type="mood"&gt;det.&lt;/gram&gt;
+        &lt;/gramGrp&gt;
+    &lt;/form&gt;
+    ...
+&lt;/entry&gt;
+                              </code></pre>
+                              <h2 id="senses">5. Senses</h2>
+                              <p>The sense of a lemma gets the markup <span style="font-family: monospace;">sense</span> and is a subelement of the <span style="font-family: monospace">entry</span> element. When a lemma has more than one sense multiple <span style="font-family: monospace;">sense</span> elements are used. Every <span style="font-family: monospace">sense</span> element carries an id.</p>
+                              <pre><code class="language-xml">
+&lt;entry&gt;
+    ...
+    &lt;sense xml:id="biz-dlgenr-1"&gt;
+        ...
+    &lt;/sense&gt;
+    &lt;sense xml:id="biz-dlgenr-2"&gt;
+        ...
+    &lt;/sense&gt;
+    ...
+&lt;/entry&gt;
+                              </code></pre>
+                              <h3 id="structure-of-sense">5.1 The structure of the sense element</h3>
+                              <p>The <span style="font-family: monospace;">sense</span> element has subelements for <i>usage</i>, the <i>translation</i>, the <i>translation equivalent</i> and for <i>examples</i>:</p>
+                              <pre><code class="language-xml">
+&lt;sense xml:id="biz-dlgenr"&gt;
+    &lt;usg&gt;...&lt;/usg&gt;
+    &lt;cit type="translation"&gt;...&lt;/cit&gt;
+    &lt;cit type="translationEquivalent"&gt;...&lt;/cit&gt;
+    &lt;cit type="example"&gt;...&lt;/cit&gt;
+&lt;/sense&gt;
+                              </code></pre>
+                              <h3 id="usage-element">5.2 The usage of a word</h3>
+                              <p>The usage of a lemma is encoded with the <span style="font-family: monospace;">usg</span> element. The different forms of usage are noted with the <span style="font-family: monospace;">type</span> attribute.</p>
+                              <pre><code class="language-xml">
+&lt;sense&gt;
+    &lt;usg type="domain"&gt;human life/biology&lt;/usg&gt;
+    &lt;usg type="socioCultural" norm="borrowing"&gt;core borrowing&lt;/usg&gt;
+    &lt;usg type="normativity"&gt;standard&lt;/usg&gt;
+    &lt;usg type="meaningType"&gt;lit.&lt;/usg&gt;
+    &lt;usg type="frequency"&gt;hapax legomenon&lt;/usg&gt;
+    ...
+&lt;/sense&gt;
+                              </code></pre>
+                              <h3 id="translation">5.3 The translation of a word</h3>
+                              <p>The translation of a lemma is given in a <span style="font-family: monospace;">cit</span> element with the attribute <span style="font-family: monospace;">type</span> set to <i>translation</i>. Furthermore, the language of the translation has to be noted. The translation itself is encoded with a <span style="font-family: monospace;">quote</span> element.</p>
+                              <pre><code class="language-xml">
+&lt;entry&gt;
+    ...
+    &lt;cit type="translation" xml:lang="en"&gt;
+         &lt;quote&gt;injustice&lt;/quote&gt;
+    &lt;/cit&gt;
+    ...
+&lt;/entry&gt;
                               </code></pre>
                            </div>
                         </article>
