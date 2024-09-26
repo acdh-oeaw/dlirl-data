@@ -115,6 +115,11 @@
                            <li class="docs-side-nav-link"><a href="#structure-of-sense">5.1 The structure of the sense element</a></li>
                            <li class="docs-side-nav-link"><a href="#usage-element">5.2 The usage of a word</a></li>
                            <li class="docs-side-nav-link"><a href="#translation">5.3 The translation of a word</a></li>
+                           <li class="docs-side-nav-link"><a href="#translation-equivalent">5.4 The translation equivalent</a></li>
+                           <li class="docs-side-nav-link"><a href="#examples">5.5 Examples</a></li>
+                           <li class="docs-side-nav-link"><a href="#etymology">6. Etymology</a></li>
+                           <li class="docs-side-nav-link"><a href="#notes">7. Notes about the entry</a></li>
+                           <li class="docs-side-nav-link"><a href="#bibliography">8. Bibliography</a></li>
                         </ul>
                      </nav>
                   </div>
@@ -135,6 +140,11 @@
                               <p style="margin-left: 40pt;"><a href="#structure-of-sense">5.1 The structure of the sense element</a></p>
                               <p style="margin-left: 40pt;"><a href="#usage-element">5.2 The usage of a word</a></p>
                               <p style="margin-left: 40pt;"><a href="#translation">5.3 The translation of a word</a></p>
+                              <p style="margin-left: 40pt;"><a href="#translation-equivalent">5.4 The translation equivalent</a></p>
+                              <p style="margin-left: 40pt;"><a href="#examples">5.5 Examples</a></p>
+                              <p style="margin-left: 20pt;"><a href="#etymology">6. Etymology</a></p>
+                              <p style="margin-left: 20pt;"><a href="#notes">7. Notes</a></p>
+                              <p style="margin-left: 20pt;"><a href="#bibliography">8. Bibliography</a></p>
                            </header>
                            <div class="entry-content">
                               <h2 id="introduction">1. Introduction</h2>
@@ -256,12 +266,91 @@
                               <h3 id="translation">5.3 The translation of a word</h3>
                               <p>The translation of a lemma is given in a <span style="font-family: monospace;">cit</span> element with the attribute <span style="font-family: monospace;">type</span> set to <i>translation</i>. Furthermore, the language of the translation has to be noted. The translation itself is encoded with a <span style="font-family: monospace;">quote</span> element.</p>
                               <pre><code class="language-xml">
-&lt;entry&gt;
+&lt;sense&gt;
     ...
     &lt;cit type="translation" xml:lang="en"&gt;
          &lt;quote&gt;injustice&lt;/quote&gt;
     &lt;/cit&gt;
     ...
+&lt;/sense&gt;
+                              </code></pre>
+                              <h3 id="translation-equivalent">5.4 The translation equivalent</h3>
+                              <p>Because in the <i>Dictionary of Loandwords in Rabbinic Literature</i> - as the name says - the lemmata are loanwords a translation equivalent must be noted. This can be done with the <span style="font-family: monospace;">cit</span> element with the <span style="font-family: monospace;">type</span> attribute set to <i>translationEquivalent</i>. The language from which the word is taken is specified with the <span style="font-family: monospace;">lang</span> element embedded in an <span style="font-family: monospace;">usg</span> element. The translation equivalent itself is encoded with a <span style="font-family: monospace;">quote</span> element.</p>
+                              <pre><code class="language-xml">
+&lt;sense&gt;
+    ...
+    &lt;cit type="translationEquivalent" xml:lang="grc"&gt;
+        &lt;usg&gt;
+            &lt;lang&gt;Post-Classical Greek&lt;/lang&gt;
+        &lt;/usg&gt;
+        &lt;quote&gt;βυζίον&lt;/quote&gt;
+    &lt;/cit&gt;
+    ...
+&lt;/sense&gt;
+                              </code></pre>
+                              <h3 id="examples">5.5 Examples</h3>
+                              <p>Examples for the usage of a word are tagged as <span style="font-family: monospace;">cit</span> of the <span style="font-family: monospace;">type</span> <i>example</i>. The language of the example must be noted (<span style="font-family: monospace;">xml:lang</span>). The example itself is encoded via a <span style="font-family: monospace;">quote</span> element. The <span style="font-family: monospace;">bibl</span> element contains the source of the example within <span style="font-family: monospace;">ref</span> elements. The translation of the example follows in a <span style="font-family: monospace;">cit</span> element with <span style="font-family: monospace;">type</span> set to <i>translation</i> and with an embedded <span style="font-family: monospace;">quote</span>.</p>
+                              <pre><code class="language-xml">
+&lt;sense&gt;
+    ...
+    &lt;cit type="example" xml:lang="jpa"&gt;
+        &lt;quote&gt;כאינש דאמר לייט ביזה דהכדן איינק&lt;/quote&gt;
+        &lt;bibl&gt;
+            &lt;ref type="witness"&gt;GenR 5,9&lt;/ref&gt;
+            &lt;ref type="witness"&gt;GenR I 39: 2&lt;/ref&gt;
+        &lt;/bibl&gt;
+        &lt;cit type="translation" xml:lang="en"&gt;
+            &lt;quote&gt;It is in fact as one might say: ‘Cursed be the breast that suckled such a one as this’. (Freedman / Simon I 40)&lt;/quote&gt;
+        &lt;/cit&gt;
+    &lt;/cit&gt;
+    ...
+&lt;/sense&gt;
+                              </code></pre>
+                              <h2 id="etymology">6. Etymology</h2>
+                              <p>The etymology of a lemma is encoded in an <span style="font-family: monospace;">etym</span> element. The <span style="font-family: monospace;">type</span> attribute specifies the relation between the source and the target language. The <span style="font-family: monospace;">lbl</span> element contains information which should go into the presentation as it is. The <span style="font-family: monospace;">lang</span> element gives the name of the language the word or word part is taken from. The word or word part itself is tagged with a <span style="font-family: monospace;">cit</span> element. Instead of a quote for the etymon the <span style="font-family: monospace;">xr</span> element is used to encode a reference to another dictionary (<i>Liddell-Scott-Jones</i>).</p>
+                              <pre><code class="language-xml">
+&lt;entry&gt;
+    ...
+    &lt;etym type="borrowing"&gt;
+        &lt;lbl&gt;source language&lt;/lbl&gt;
+        &lt;lang&gt;Ancient Greek+&lt;/lang&gt;
+            &lt;cit type="etymon" xml:lang="grc"&gt;
+                &lt;xr type="related"&gt;
+                    &lt;lbl&gt;Cf. LSJ&lt;/lbl&gt;
+                    &lt;ref target="http://www.perseus.tufts.edu/hopper/morph?l=bi%2Fa&amp;la=greek&amp;can=bi%2Fa0" type="entry"&gt;βία&lt;/ref&gt;
+                &lt;/xr&gt;
+           &lt;/cit&gt;
+    &lt;/etym&gt;
+    ...
+&lt;/entry&gt;
+                              </code></pre>
+                              <h2 id="notes">7. Note</h2>
+                              <p>A free text with a discussion about the entry is given within a <span style="font-family: monospace;">note</span> element.</p>
+                              <pre><code class="language-xml">
+&lt;entry&gt;
+    ...
+    &lt;note&gt;
+        ...
+    &lt;/note&gt;
+    ...
+&lt;/entry&gt;
+                              </code></pre>
+                              <p>Within a note the element <span style="font-family: monospace;">term</span> is used to tag words of a different language then English and for bibliographical information the <span style="font-family: monospace;">bibl</span> element is used with an attribute <span style="font-family: monospace;">type</span> set to <i>ancient</i> or <i>modern</i>.</p>
+                              <h2 id="bibliography">8. Bibliography</h2>
+                              <p>Finally the bibliography is encoded with a <span style="font-family: monospace;">ref</span> element of <span style="font-family: monospace;">type</span> <i>bibliography</i>:</p>
+                              <pre><code>
+&lt;entry&gt;
+    ...
+    &lt;ref type="bibliography"&gt;
+        &lt;bibl&gt;
+            &lt;title&gt;Sperber 1984&lt;/title&gt;
+            &lt;citedRange&gt;69&lt;/citedRange&gt;
+        &lt;/bibl&gt;
+        &lt;bibl&gt;
+            &lt;title&gt;Sokoloff DJPA&lt;/title&gt;
+            &lt;citedRange&gt;95&lt;/citedRange&gt;
+        &lt;/bibl&gt;
+    &lt;/ref&gt;
 &lt;/entry&gt;
                               </code></pre>
                            </div>
