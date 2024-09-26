@@ -90,14 +90,14 @@
                         <rdg wit="#V">אדרכולין</rdg>
                         <rdg wit="#K">הדרבולין</rdg>
                      </app>
- ו
-            <ref type="entry">כרבלין</ref>
+ וכרבלין 
 במדינה ומדינה נהפכת
          </quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">50,9</ref>
                      <ref type="witness">II 525:5</ref>
                   </bibl>
+                  <ref type="entry" xml:lang="jpa" target="koravlin.html">כרבלין</ref>
                   <cit type="translation">
                      <quote xml:lang="en">But he seemed unto his sons-in-law as one that jested. Said they to him: ‘Organ-players and flute-players are in
                the land and the land is to be overthrown?!’ (Freedman / Simon I: 439-440)
@@ -113,13 +113,13 @@
                         <rdg wit="#Ox2">עדרכלין</rdg>
                         <rdg wit="#K">עדרכלין</rdg>
                      </app>
- ו
-            <ref type="entry">כרבלין</ref>
+ וכרבלין
                   </quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">23,3</ref>
                      <ref type="witness">I 223: 5</ref>
                   </bibl>
+                  <ref type="entry" xml:lang="jpa" target="koravlin.html">כרבלין</ref>
                   <cit type="translation">
                      <quote xml:lang="en">And his brother’s name was Jubal; he was the father of all such as handle the harp and the pipe:
 i. e. organ players and flautists.

@@ -70,9 +70,9 @@
 <!-- here we have a passage with various readings. Manuscript sigla are provided in the @wit attribute. We have to look how well mixed content works with RTL scripts. -->
                   <quote xml:lang="jpa">
 אמר ר' יצחק משל לשני
-            <ref type="entry">לגיונות</ref>
+ לגיונות 
  של מלך
-            <ref type="entry">דיקומנייא</ref>
+ דיקומנייא 
                      <app>
                         <lem>ואגוסטיינא</lem>
                         <rdg wit="#V">וגאוסטיינא</rdg>
@@ -84,6 +84,8 @@
                      <ref type="witness">94,9</ref>
                      <ref type="witness">III 1181:5</ref>
                   </bibl>
+                  <ref type="entry" xml:lang="jpa">לגיונות</ref>
+                  <ref type="entry" xml:lang="jpa" target="decumani.html">דיקומנייא</ref>
                   <cit type="translation">
 <!-- The english translation of the passage is encoded in a nested cit element -->
                      <quote xml:lang="en">“R. Yiṣḥaq said:

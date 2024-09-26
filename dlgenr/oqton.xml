@@ -76,9 +76,7 @@
                <cit type="example">
                   <quote xml:lang="jpa">
 אמר להון מדידכון אנא ממטי לכון
-            <ref type="entry">זיטא</ref>
-                     <ref type="entry">איפטה</ref>
-                     <ref type="entry">איטה</ref>
+ זיטא איפטה איטה 
                      <app>
                         <lem>אכטו</lem>
                         <rdg wit="#Vat2">אוקטו</rdg>
@@ -92,6 +90,9 @@
                      <ref type="witness">14,2</ref>
                      <ref type="witness">I 127: 3</ref>
                   </bibl>
+                  <ref type="entry" target="zeta.html">זיטא</ref>
+                  <ref type="entry" target="epta.html">איפטה</ref>
+                  <ref type="entry">איטה</ref>
                   <cit type="translation">
                      <quote xml:lang="en">He replied to them: From your own [language]
 I will prove it to you: “Zeṭaʾ (live) epṭah (seven), eṭah (go) akṭo (eight)”
@@ -101,9 +102,7 @@ I will prove it to you: “Zeṭaʾ (live) epṭah (seven), eṭah (go) akṭo (
                <cit type="example">
                   <quote xml:lang="jpa">
 אמר להון מדידכון אנה ממטי לכון
-            <ref type="entry">זיטא</ref>
-                     <ref type="entry">איפטה</ref>
-                     <ref type="entry">היטה</ref>
+ זיטא איפטה היטה 
                      <app>
                         <lem>אוקטון</lem>
                         <rdg wit="#Vat1">אוקטו</rdg>
@@ -117,6 +116,9 @@ I will prove it to you: “Zeṭaʾ (live) epṭah (seven), eṭah (go) akṭo (
                      <ref type="witness">20,6</ref>
                      <ref type="witness">I 189: 3</ref>
                   </bibl>
+                  <ref type="entry" target="zeta.html">זיטא</ref>
+                  <ref type="entry" target="epta.html">איפטה</ref>
+                  <ref type="entry">היטה</ref>
                   <cit type="translation">
                      <quote xml:lang="en">He replied to them: From your own [language] I will prove it to you: “Zetaʾ
                (live) epṭah (seven), eṭah (go) akṭo (eight)” (cf. Freedman / Simon I: 164) 
@@ -139,7 +141,7 @@ I will prove it to you: “Zeṭaʾ (live) epṭah (seven), eṭah (go) akṭo (
 = Yalq. Bereshit 20 (6c: 54): <term xml:lang="jpa">אוכטא</term>
                <term xml:lang="fjb">ʾwkṭʾ</term> |okṭaʾ|; 
 NumR 4,3: <term xml:lang="jpa">אוכטי</term>
-               <term xml:lang="fjb">ʾwkṭy</term>; Yalq. Bemidbar 692 (220d: 13), Tanh Bemidbar 18 (corr.): <term xml:id="hbo">ארנון</term>
+               <term xml:lang="fjb">ʾwkṭy</term>; Yalq. Bemidbar 692 (220d: 13), Tanh Bemidbar 18 (corr.): <term xml:lang="jpa">ארנון</term>
                <term xml:lang="fjb">ʾrnwn</term> (in Yalq emend.); TanhB Bemidbar 21: <term xml:lang="jpa">אקטו</term>
                <term xml:lang="fjb">ʾqṭw</term>
  |aqṭo|; yYev 5d: 7 - (corr.)

@@ -50,9 +50,10 @@
                   <gram type="gen" opt="false">m</gram>
                </gramGrp>
             </form>
-            <form type="equivalent" opt="false">
+            <!-- <form type="equivalent" opt="false">
                <quote xml:lang="grc">αὐλή</quote>
-            </form>
+            </form> -->
+            <!-- this seems to be superfluous because of the translation equivalent below -->
             <sense xml:id="avli-dlgenr-1" opt="false">
                <usg type="domain" opt="false">architecture/administration</usg>
                <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
@@ -73,7 +74,7 @@
 <!-- here we have a passage with various readings. Manuscript sigla are provided in the @wit attribute. We have to look how well mixed content works with RTLost scripts. -->
                   <quote xml:lang="jpa">
 א"ר לוי לא'[חד] שקבע
-            <ref type="entry">מוניטן</ref>
+ מוניטן 
 שלו בתוך
             <app>
                         <lem>אבלו</lem>
@@ -88,14 +89,14 @@
                      <ref type="witness">36,7</ref>
                      <ref type="witness">I 341:7</ref>
                   </bibl>
-                  <cit type="translation">
+                  <ref type="entry" xml:lang="jpa" target="monita.html">מוניטן</ref>
+                  <cit type="translation" xml:lang="en">
 <!-- The english translation of the passage is encoded in a nested cit element -->
-                     <quote xml:lang="en">
+                     <quote>
 “R. Lewi said: [This may be compared] to one who minted his 
-own coinage in the very palace of the king” 
+own coinage in the very palace of the king” (Freedman I: 293)
 <!-- The english translation of the passage-->
             </quote>
-                     <bibl default="false" status="draft">Freedman I: 293</bibl>
                   </cit>
                </cit>
             </sense>

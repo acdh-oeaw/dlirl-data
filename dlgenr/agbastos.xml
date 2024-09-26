@@ -79,8 +79,8 @@
                      <ref type="witness">12,10</ref>
                      <ref type="witness">I 108: [var.]</ref>
                   </bibl>
-                  <ref type="entry" xml:lang="jpa">אגבה בסטס</ref>
-                  <ref type="entry" xml:lang="jpa">ביה</ref>
+                  <ref type="entry" xml:lang="jpa" target="agba-bastes.html">אגבה בסטס</ref>
+                  <ref type="entry" xml:lang="jpa" target="biyyah.html">ביה</ref>
                   <ref type="entry" xml:lang="jpa">אגדיקוס</ref>
                   <ref type="entry" xml:lang="jpa">אגבבסטוס</ref>
                   <ref type="entry" xml:lang="jpa">אגטוסטוס</ref>

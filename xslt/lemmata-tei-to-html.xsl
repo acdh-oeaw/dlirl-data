@@ -522,7 +522,16 @@
     <xsl:template match="tei:ref[@type = 'entry'][parent::tei:cit[@type = 'example']]">
         <xsl:element name="p">
             <xsl:attribute name="class" select="'dlgenr-entry-sense-example-reference-lemma'"/>
-            <xsl:value-of select="text()"/>
+            <xsl:if test="exists(@target)">
+                <xsl:element name="a">
+                    <xsl:attribute name="href" select="@target"/>
+                    <xsl:attribute name="target" select="'_blank'"/>
+                    <xsl:apply-templates select="child::node()"/>
+                </xsl:element>
+            </xsl:if>
+            <xsl:if test="not(exists(@target))">
+                <xsl:apply-templates select="child::node()"/>
+            </xsl:if>
         </xsl:element>
     </xsl:template>
     
@@ -614,6 +623,19 @@
             <xsl:attribute name="target" select="'_blank'"/>
             <xsl:apply-templates select="child::node()"/>
         </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="tei:ref[@type = 'entry'][parent::tei:note]">
+        <xsl:if test="exists(@target)">
+            <xsl:element name="a">
+                <xsl:attribute name="href" select="@target"/>
+                <xsl:attribute name="target" select="'_blank'"/>
+                <xsl:apply-templates select="child::node()"/>
+            </xsl:element>
+        </xsl:if>
+        <xsl:if test="not(exists(@target))">
+            <xsl:apply-templates select="child::node()"/>
+        </xsl:if>
     </xsl:template>
     
     <xsl:template match="tei:note">

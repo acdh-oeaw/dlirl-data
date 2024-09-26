@@ -81,7 +81,7 @@
             <form type="inflected" opt="false">
                <orth type="inflected" xml:lang="jpa" opt="false">דימוסיאות</orth>
                <orth type="transliteration" xml:lang="fjb" opt="false">dymwsyʾt</orth>
-               <pron notation="ipa" opt="false">demosiyyot</pron>
+               <pron notation="rabbinic" opt="false">demosiyyot</pron>
                <gramGrp opt="false">
                   <gram type="pos" opt="false">noun</gram>
                   <gram type="num" opt="false">pl.</gram>
