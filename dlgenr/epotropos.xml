@@ -90,7 +90,7 @@
                <orth type="transliteration" xml:lang="fjb" opt="false">ʾpyṭrwpyn</orth>
                <pron notation="rabbinic" opt="false">epiṭropin</pron>
             </form>
-            <sense xml:id="epotropos-dlgenr-1" opt="false">
+            <sense xml:id="epotropos-dlgenr-1" opt="false" n="1">
                <usg type="domain" opt="false">law/adminstration</usg>
                <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
                <usg type="normativity" opt="false">standard</usg>
@@ -113,7 +113,7 @@
                   </cit>
                </cit>
             </sense>
-            <sense xml:id="epotropos-dlgenr-2" opt="false">
+            <sense xml:id="epotropos-dlgenr-2" opt="false" n="2">
                <cit type="translation" xml:lang="en" subtype="sense">
                   <quote>governor</quote>
                </cit>
@@ -128,7 +128,7 @@
                      ואת הכוכבים אמר ר' אחא למלך [Ox 1 Ox 2 V K משל למלך] שהיה לו ב' אפיטרופים אחד שלט בעיר ואחד במדינה, אמר המלך הואיל ומיעט עצמו זה להיות שולט בעיר גוזר אני עליו בשעה שיוצא תהא בולי ודימוס יוצאין [בולי ודימוס יוצאין. V K כל אוכלוסא יוצאה] עמו ובשעה שנכנס תהא בולי ודימוס נכנסין עמו
          </quote>
                   <ref type="entry" xml:lang="jpa">בולי</ref>
-                  <ref type="entry" xml:lang="jpa">דימוס</ref>
+                  <ref type="entry" xml:lang="jpa" target="dimos.html">דימוס</ref>
                   <ref type="entry" xml:lang="jpa">אוכלוסא</ref>
                   <bibl default="false" status="draft">
                      <ref type="witness">6,4</ref>
@@ -161,8 +161,7 @@
       <bibl type="modern" default="false" status="draft">Sperber (1984) 56-59</bibl>. Semantic difference between “administrator (of estate etc)” (e.g. in
       <bibl type="ancient" default="false" status="draft">yBM 5,6 [1229: 17,18]</bibl>) and “governor, procurator” (as in
       <bibl type="ancient" default="false" status="draft">GenR 6,4</bibl>), as distinguished by Sperber, is not always obvious. Krauss (LW II 103b-104b) distinguishes only 1. and 2. Cf. Syr. <term xml:lang="syc">ܐܦܝܛܪܘܦܐ</term>
-               <term xml:lang="fjb">ʾpyṭrwpʾ</term> (
-      <bibl type="modern" default="false" status="draft">Sokoloff, SL 83ab</bibl>). For derivatives cf. Sperber ibid.
+               <term xml:lang="fjb">ʾpyṭrwpʾ</term> (<bibl type="modern" default="false" status="draft">Sokoloff, SL 83ab</bibl>). For derivatives cf. Sperber ibid.
    </note>
             <ref type="bibliography">
                <bibl default="false" status="draft">

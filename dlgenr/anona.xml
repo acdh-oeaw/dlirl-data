@@ -136,7 +136,8 @@
                </cit>
             </sense>
             <etym type="borrowing" opt="false">
-               <lbl opt="false">source language</lbl>Latin (probably via Greek)<lang opt="false"/>
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Latin (probably via Greek)</lang>
                <cit type="etymon" xml:lang="la">
                   <xr type="related" opt="false">
                      <lbl opt="false">Cf. Lewis /Short</lbl>

@@ -86,7 +86,7 @@
                <usg type="meaningType" opt="false">lit.</usg>
                <usg type="frequency" opt="false">hapax legomenon</usg>
                <cit type="translation" xml:lang="en" subtype="sense">
-                  <lbl opt="false">artificial for</lbl>
+                  <lbl opt="false">artificial for </lbl>
                   <quote>woman</quote>
                </cit>
                <cit type="translationEquivalent" xml:lang="grc">
@@ -105,7 +105,7 @@
                   </bibl>
                   <ref type="entry" xml:lang="jpa">גיני</ref>
                   <ref type="entry" xml:lang="jpa">גיניה</ref>
-                  <ref type="entry" xml:lang="jpa">אנתרופי</ref>
+                  <ref type="entry" xml:lang="jpa" target="antrope.html">אנתרופי</ref>
                   <cit type="translation" xml:lang="en">
                      <quote>
                         She shall be called woman (“ishah”), because she was taken out of man (“ish”) (Gen 2,23). From this you learn that the Torah was given in the Holy Tongue.  R. Pinḥas and R. Ḥilqiyyh in R. Simon’s name said: Just as it was given in the Holy Tongue, so was the world created with the Holy Tongue. Have you ever heard on say “gini” “ginia”, “itaʾ”, “itetaʾ”, “anṭropi”, “anṭropia”, “gavraʾ”, “gavretaʾ”? But “ish” and “ishah” [are used]: why? Because one form corresponds to the other. (Freedman / Simon I 143)
@@ -125,7 +125,7 @@
                   </bibl>
                   <ref type="entry" xml:lang="jpa">גיני</ref>
                   <ref type="entry" xml:lang="jpa">גינייה</ref>
-                  <ref type="entry" xml:lang="jpa">אנתרופי</ref>
+                  <ref type="entry" xml:lang="jpa" target="antrope.html">אנתרופי</ref>
                   <cit type="translation" xml:lang="en">
                      <quote>
                         The meaning of Make thee a fiery serpent (Num 21,8) is not clear. R. Yudan said in R. Assis name: The wise man may hear, and increase in learning (Prov 1,6) applies to Moses, who reasoned thus: If I make it of gold (“zahav”) or of silver (“kesef”), these words do not correspond to the other. Hence I will make it of neḥoshet (brass), since this word corresponds to the other, viz. neḥash neḥoshet – a serpent of brass (ib. 9): this proves that the Torah was given in Hebrew. R. Pinḥas and R. Ḥizqiyyah in R. Simon’s name said: Just as it was given in the Holy Tongue, so was the world created with the Holy Tongue. Have you ever heard on say “gini” “ginia”, “itaʾ”, “itetaʾ”, “anṭropi”, “anṭropia”, “gavraʾ”, “gavretaʾ”? But “ish” and “ishah” [are used]: why? Because one form corresponds to the other. (Freedman / Simon I 242; 143)
@@ -142,7 +142,7 @@
       <bibl type="modern" default="false" status="draft">Krauss, LW II 76b</bibl>;
       <bibl type="modern" default="false" status="draft">Jastrow 88b</bibl>. Cf.
       <ref type="entry" xml:lang="jpa">גוניה</ref>,
-      <ref type="entry" xml:lang="jpa">אנתרופי</ref>
+      <ref type="entry" xml:lang="jpa" target="antrope.html">אנתרופי</ref>
             </note>
             <ref type="bibliography">
                <bibl default="false" status="draft">

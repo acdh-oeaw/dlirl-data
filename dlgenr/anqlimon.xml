@@ -43,7 +43,7 @@
                 source="Genesis Rabbah">
             <form type="lemma" opt="false">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אנקלימון</orth>
-               <orth type="transcription" xml:lang="fjb" opt="false">ʾnwlymwn</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾnqlymwn</orth>
                <pron notation="rabbinic" opt="false">anqlimon</pron>
                <gramGrp opt="false">
                   <gram type="pos" opt="false">noun</gram>
@@ -89,7 +89,7 @@
                      <ref type="witness">49,9</ref>
                      <ref type="witness">II 510: 4</ref>
                   </bibl>
-                  <ref type="entry" xml:lang="jpa">אנקליטון</ref>
+                  <ref type="entry" xml:lang="jpa" target="anqliton.html">אנקליטון</ref>
                   <ref type="entry" xml:lang="jpa">אנקריטיריון</ref>
                   <ref type="entry" xml:lang="jpa">דוכס</ref>
                   <ref type="entry" xml:lang="jpa">איפרכוס</ref>
@@ -119,7 +119,7 @@
       <bibl type="ancient" default="false" status="draft">Yalq 167 [55a: 12]</bibl>).
       <bibl type="modern" default="false" status="draft">AC I 159ab</bibl> and
       <bibl type="modern" default="false" status="draft">Krauss, LW II 76a</bibl>, suggest Gr. <term xml:lang="grc">ἐγκλήμα</term> / <term xml:lang="grc">ἐγκλήματα</term>. For further literature see Sperber. Cf.
-      <ref type="entry" xml:lang="jpa">אנקליטון</ref>,
+               <ref type="entry" xml:lang="jpa" target="anqliton.html">אנקליטון</ref>,
       <ref type="entry" xml:lang="jpa">אנקריטיריון</ref>
             </note>
             <ref type="bibliography">

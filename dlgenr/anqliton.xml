@@ -43,7 +43,7 @@
                 source="Genesis Rabbah">
             <form type="lemma" opt="false">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אנקליטון</orth>
-               <orth type="transcription" xml:lang="fjb" opt="false">ʾnqlyṭwn</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾnqlyṭwn</orth>
                <pron notation="rabbinic" opt="false">anqliṭon</pron>
                <gramGrp opt="false">
                   <gram type="pos" opt="false">noun</gram>
@@ -128,7 +128,7 @@
       <bibl type="modern" default="false" status="draft">AC I 159a</bibl>: Gr. <term xml:lang="grc">ἀνακλήσις</term>;
       <bibl type="modern" default="false" status="draft">Levy I 114b</bibl>
                <term xml:lang="grc">ἀνακλετόν</term>. Cf.
-      <ref type="entry" xml:lang="jpa">אנקלימון</ref>
+      <ref type="entry" xml:lang="jpa" target="anqlimon.html">אנקלימון</ref>
             </note>
             <ref type="bibliography">
                <bibl default="false" status="draft">

@@ -116,8 +116,9 @@
                <cit type="example" xml:lang="jpa">
                   <quote>
                      ויסגר י"י בעדו אמר ר' לוי למלך שקבע דרולומוסייה שלו במדינה, נטל אוהבו וחבשו בבית הסהר ונתן 
-            <ref type="entry" xml:lang="jpa">סיפרגוס</ref> שלו עליו כך ויסגר י"י בעדו
+            סיפרגוס שלו עליו כך ויסגר י"י בעדו
          </quote>
+                  <ref type="entry" xml:lang="jpa">סיפרגוס</ref>
                   <bibl default="false" status="draft">
                      <ref type="witness">32,8</ref>
                      <ref type="witness">I 295: 10</ref>

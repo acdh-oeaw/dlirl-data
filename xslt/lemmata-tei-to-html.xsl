@@ -467,7 +467,7 @@
         </xsl:element>
         <xsl:element name="p">
             <xsl:attribute name="class" select="'dlgenr-entry-sense-example-translation'"/>
-            <xsl:value-of select="child::tei:cit[@type = 'translation']/tei:quote/text()"/>
+            <xsl:value-of select="child::tei:cit[@type = 'translation']/tei:quote/child::node()"/>
         </xsl:element>
         <xsl:apply-templates select="child::tei:ref"/>
         <xsl:apply-templates select="child::tei:note"/>

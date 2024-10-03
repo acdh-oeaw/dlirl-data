@@ -85,8 +85,9 @@
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>והוא יתן מעדני המלך
-            <ref type="entry" xml:lang="jpa">כפליות</ref> ואנפקינון
+            כפליות ואנפקינון
          </quote>
+                  <ref type="entry" xml:lang="jpa">כפליות</ref>
                   <bibl default="false" status="draft">
                      <ref type="witness">98,16</ref>
                      <ref type="witness">III 1267: 2</ref>
@@ -94,7 +95,7 @@
                   <cit type="translation" xml:lang="en">
                      <quote>
                         And he shall yield royal dainties (Gen 49,20): [Mullet /meaning not clear, cf. 
-               <ref type="entry" xml:lang="jpa">כפליות</ref>/] and oil of unripe olives. (Freedman / Simon II 966)
+               <term xml:lang="jpa">כפליות</term>/] and oil of unripe olives. (Freedman / Simon II 966)
             </quote>
                   </cit>
                </cit>

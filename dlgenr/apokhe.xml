@@ -120,24 +120,19 @@
             </quote>
                   </cit>
                   <note anchored="true">=
-            <bibl type="ancient" default="false" status="draft">LevR (Wilna) Shemini 11,7</bibl> (
-            <ref type="entry" xml:lang="jpa">איפופסין</ref>);
+            <bibl type="ancient" default="false" status="draft">LevR (Wilna) Shemini 11,7</bibl> (<ref type="entry" xml:lang="jpa">איפופסין</ref>);
             <bibl type="ancient" default="false" status="draft">LevR (Margaliot) Shemini 11,7</bibl> (<term xml:lang="jpa">איפכי, אפכה</term>);
             <bibl type="ancient" default="false" status="draft">NumR Nassoʾ 13,5</bibl> (<term xml:lang="jpa">אפוכי</term>);
             <bibl type="ancient" default="false" status="draft">RutR (Petiḥtot) 7</bibl> (<term xml:lang="jpa">אופכין</term>);
             <bibl type="ancient" default="false" status="draft">EstR (Petiḥtot) 11</bibl> (<term xml:lang="jpa">אפוכי</term>);
             <bibl type="ancient" default="false" status="draft">EkhR (Wilna) 4,25</bibl> (<term xml:lang="jpa">איפכו</term>);
             <bibl type="ancient" default="false" status="draft">EkhR (Buber) 4,22</bibl> (<term xml:lang="jpa">אפוכי</term>);
-            <bibl type="ancient" default="false" status="draft">Tan Shemini 9,9</bibl> (
-            <ref type="entry" xml:lang="jpa">אפופסין</ref>);
-            <bibl type="ancient" default="false" status="draft">LeqT Lev Shemini 26b: 19</bibl> (
-            <ref type="entry" xml:lang="jpa">אפופסין</ref>);
+            <bibl type="ancient" default="false" status="draft">Tan Shemini 9,9</bibl> (<ref type="entry" xml:lang="jpa">אפופסין</ref>);
+            <bibl type="ancient" default="false" status="draft">LeqT Lev Shemini 26b: 19</bibl> (<ref type="entry" xml:lang="jpa">אפופסין</ref>);
             <bibl type="ancient" default="false" status="draft">GenRbti Wa-yeṣeʾ 131</bibl> (<term xml:lang="jpa">אפורי</term> emd. <term xml:lang="jpa">אפוכי</term>);
             <bibl type="ancient" default="false" status="draft">GenRbti Mi-qeṣ 193</bibl> (<term xml:lang="jpa">אפוכין</term>);
-            <bibl type="ancient" default="false" status="draft">Yalq 2Reg 252 [386b: 43]</bibl> (
-            <ref type="entry" xml:lang="jpa">איפופסין</ref>);
-            <bibl type="ancient" default="false" status="draft">Yalq Jer 327 [416b: 53]</bibl> (
-            <ref type="entry" xml:lang="jpa">אפפוסין</ref>)
+            <bibl type="ancient" default="false" status="draft">Yalq 2Reg 252 [386b: 43]</bibl> (<ref type="entry" xml:lang="jpa">איפופסין</ref>);
+            <bibl type="ancient" default="false" status="draft">Yalq Jer 327 [416b: 53]</bibl> (<ref type="entry" xml:lang="jpa">אפפוסין</ref>)
          </note>
                </cit>
             </sense>

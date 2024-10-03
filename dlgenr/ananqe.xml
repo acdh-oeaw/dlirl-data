@@ -70,17 +70,26 @@
                <cit type="example" xml:lang="jpa">
                   <quote>
                      ר' יצחק ור' שמעון בן לקיש ר' יצחק אמר בשר ודם מותח אהל אננקי על ידי שהות הוא רפי קימאה, ברם הכא התרקיע עמו לשחקים, ואין תאמר שהן רפין תל' לו' חזקים, ריש לקיש אמר בשר ודם מוסך 
-            <ref type="entry" xml:lang="jpa">בולוס</ref> אננקי על ידי שהות הוא מעלה חלודה, ברם הכא חזקים כראי מוצק נראים כמין
-            <ref type="entry" xml:lang="jpa">תרקיה</ref>
+            בולוס אננקי על ידי שהות הוא מעלה חלודה, ברם הכא חזקים כראי מוצק נראים כמין
+            תרקיה
                   </quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">12,13</ref>
                      <ref type="witness">I 111: 3,5</ref>
                   </bibl>
+                  <ref type="entry" xml:lang="jpa" target="bolos.html">בולוס</ref>
+                  <ref type="entry" xml:lang="jpa">תרקיה</ref>
                   <cit type="translation" xml:lang="en">
                      <quote>R. Yiṣḥaq and R. Shimʿon ben Laqish. R. Yiṣḥaq said: when a man sets up a tent in hurry, after a while it will get slightly slacken, but here: Canst thou with Him spread out the sky? (Hi 37,18) And if you say that they are slack, the Scripture says: strong [as a molten mirror] (ibid.). Resh Laqish said: When a man makes in hurry a casting in form of a round object, after a while it will get rusty, but here: strong as a molten mirror [ibid.] - they [the heavens] look like a vault.</quote>
                   </cit>
+                  <note anchored="true">
+                     = 
+                     <bibl type="ancient" default="false" status="draft">Yalq 19 [6b: 29,31]</bibl>;
+                     <bibl type="ancient" default="false" status="draft">Yalq Jes 450 [397c: 25,27]</bibl>;
+                     <bibl type="ancient" default="false" status="draft">Yalq Hi 922 [510a: 40]</bibl>
+                  </note>
                </cit>
+            </sense>
                <etym type="borrowing" opt="false">
                   <lbl opt="false">source language</lbl>
                   <lang opt="false">Ancient Greek+</lang>
@@ -93,27 +102,18 @@
                   </cit>
                </etym>
                <note anchored="true">
-                  = 
-         <bibl type="ancient" default="false" status="draft">Yalq 19 [6b: 29,31]</bibl>;
-         <bibl type="ancient" default="false" status="draft">Yalq Jes 450 [397c: 25,27]</bibl>;
-         <bibl type="ancient" default="false" status="draft">Yalq Hi 922 [510a: 40]</bibl>
-               </note>
-               <note anchored="true">
                   Usually used as noun f. (cf. 
          <bibl type="ancient" default="false" status="draft">Levy Targ1 41ab</bibl>). For the adverbial use (only in Hebr. context) cf.
          <bibl type="modern" default="false" status="draft">Krauss, LW II 73b-74a</bibl> (see also
-         <bibl type="ancient" default="false" status="draft">MekhY Yitro 1</bibl> [
-         <bibl type="modern" default="false" status="draft">Horowitz 205: 14</bibl>] <term xml:lang="jpa">ושב אננקי לתשובה</term> [not mentioned by Krauss]). Cf.
+         <bibl type="ancient" default="false" status="draft">MekhY Yitro 1</bibl> [<bibl type="modern" default="false" status="draft">Horowitz 205: 14</bibl>] <term xml:lang="jpa">ושב אננקי לתשובה</term> [not mentioned by Krauss]). Cf.
          <bibl type="modern" default="false" status="draft">AC I 150b-151a</bibl>. For the phrase <term xml:lang="jpa">בית אננקיה</term>
                   <term xml:lang="fjb">byt ʾnnqyh</term>
                   <term xml:lang="rabbinic">bet ananqeh</term> (“prison”), used in a probably Byzantine magical text “Ḥarbaʾ de-Mosheh”, cf.
          <bibl type="modern" default="false" status="draft">Sperber (2012) 177</bibl>.
          <bibl type="modern" default="false" status="draft">Levy I 112a</bibl> explains the GenR reading parallel to Gr. <term xml:lang="grc">πρός ἀνάγκη</term>.
          <bibl type="modern" default="false" status="draft">Jastrow I 86a</bibl> translates as “perforce, of necessity” (“if a human being spreads a tent, it must in course of time become loose”). Cf. Syr. <term xml:lang="syc">ܐܢܢܩܐ</term>
-                  <term xml:lang="fjb">ʾnnqʾ</term> (
-         <bibl type="modern" default="false" status="draft">Sokoloff, SL 63ab</bibl>).
+                  <term xml:lang="fjb">ʾnnqʾ</term> (<bibl type="modern" default="false" status="draft">Sokoloff, SL 63ab</bibl>).
       </note>
-            </sense>
             <ref type="bibliography">
                <bibl default="false" status="draft">
                   <title>Sokoloff, DJPA</title>

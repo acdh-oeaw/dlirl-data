@@ -156,7 +156,7 @@
                      <ref type="witness">87,4</ref>
                      <ref type="witness">III 1065: 1</ref>
                   </bibl>
-                  <ref type="entry" xml:lang="jpa">אסטרולוגוס</ref>
+                  <ref type="entry" xml:lang="jpa" target="astrologos.html">אסטרולוגוס</ref>
                   <cit type="translation" xml:lang="en">
                      <quote>
                         R. Menaḥema said in R. Bibi’s name: This was the practice of the heathens. When one bought a man slave, he would go to an astrologer, who would tell him, ‘If you acquire a good bondmaid, it is an auspicious augury.’ Thus wa-tiśśaʾ (cast her eyes) [Gen 39,7] is a term used of astrology, as in the verse, And lest thou lift up (tiśśaʾ) thine eyes unto heaven etc. (Dtn 4,19) (Freedman / Simon II 808)
@@ -182,7 +182,7 @@
       <bibl type="modern" default="false" status="draft">AC I 176ab</bibl>;
       <bibl type="modern" default="false" status="draft">Levy I 123ab</bibl>;
       <bibl type="modern" default="false" status="draft">Krauss, LW II 122ab</bibl>;
-      <bibl type="modern" default="false" status="draft">astrow I 91b</bibl>. Frequently corr. <term xml:lang="jpa">אסטרוגוליא</term>
+      <bibl type="modern" default="false" status="draft">Jastrow I 91b</bibl>. Frequently corr. <term xml:lang="jpa">אסטרוגוליא</term>
                <term xml:lang="fjb">ʾsṭrwgwlyʾ</term>
                <term xml:lang="rabbinic">a(i)sṭrogoliaʾ</term>. Levy and Jastrow consider the reading <term xml:lang="jpa">אסטרולוגין</term>
                <term xml:lang="fjb">ʾsṭrwlwgyn</term>
