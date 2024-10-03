@@ -76,16 +76,19 @@
                <cit type="example">
                   <quote xml:lang="jpa">
                 אמר להון מדידכון אנא ממטי לכון
-            <ref type="entry">זיטא</ref>
+            זיטא
                      <app>
                         <lem>איפטה</lem>
                         <rdg wit="#Vat2">איפטא</rdg>
                         <rdg wit="#Ox1">איפטא</rdg>
                         <rdg wit="#V">אפטא</rdg>
                      </app>
-                     <ref type="entry">איטה</ref>
-                     <ref type="entry">אכטו</ref>
+                     איטה
+                     אכטו
                   </quote>
+                  <ref type="entry" target="zeta.html">זיטא</ref>
+                  <ref type="entry">איטה</ref>
+                  <ref type="entry" target="oqton.html">אכטו</ref>
                   <bibl default="false" status="draft">
                      <ref type="witness">14,2</ref>
                      <ref type="witness">I 127: 3</ref>
@@ -134,7 +137,7 @@
             </etym>
             <note anchored="true">
         = NumR 4,3: <term xml:lang="jpa">איפטא</term>
-               <term xml:lang="jpa">ʾypṭʾ</term> |epṭaʾ|, Tanh  Bemidbar 18; 
+               <term xml:lang="fjb">ʾypṭʾ</term> |epṭaʾ|, Tanh  Bemidbar 18; 
         TanhB Bemidbar 21; Yalq. Bereshit 20 (6c: 54), Yalq. Bemidbar 692 (220d: 13): <term xml:lang="jpa">אפטא</term>
                <term xml:lang="fjb">ʾpṭʾ</term> |apta| yYev 5d: 7 (corr.): <term xml:lang="en">אבטא</term>
                <term xml:lang="fjb">ʾbṭʾ</term>

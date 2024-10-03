@@ -84,17 +84,36 @@
                <cit type="example" xml:lang="jpa">
                   <quote>
             אמר ר' אליעזר לאמבטי שהיתה מלאה מים והיה בה ב' 
-            <ref type="entry" xml:lang="jpa">דיוסקוסים</ref> נאים, כל זמן שהיא מלאה מים לא היתה מלאכת דיוסקוסים} נראת, כיון שפתקה וניער המים מתוכה נראת מלאכת
-            <ref type="entry" xml:lang="jpa">דיוסקוסים</ref>
+            דיוסקוסים נאים, כל זמן שהיא מלאה מים לא היתה מלאכת דיוסקוסים נראת, כיון שפתקה וניער המים מתוכה נראת מלאכת
+            דיוסקוסים
                   </quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">10,2</ref>
                      <ref type="witness">I 75: 2-3</ref>
                   </bibl>
+                  <ref type="entry" xml:lang="jpa">דיוסקוסים</ref>
                   <cit type="translation" xml:lang="en">
                      <quote>R. Eliʿezer said: [This may be compared] to a bath full of water, in which were two beautiful bas-reliefs; as long as it was full of water, the work of the bas-reliefs could not be seen; but when the plug was removed and the water emptied, the work of the bas-reliefs could be seen. (Freedman / Simon I 71)</quote>
                   </cit>
+                  <note anchored="true">
+                     = 
+                     <bibl type="ancient" default="false" status="draft">Yalq 16 [5b: 55]</bibl>;
+                     <bibl type="ancient" default="false" status="draft">YalqProv 961 [498d: 59]</bibl>;
+                     <bibl type="ancient" default="false" status="draft">YalqM Prov 25,4 [55a]</bibl>
+                  </note>
                </cit>
+            <cit type="example" xml:lang="jpa">           
+               <quote>ישובו רשעים לשאולה, ר' אבא בר זבדא אמר לאמבטי התחתונה שבגיהנם.</quote>
+               <bibl default="false" status="draft">
+                  <ref type="witness">86,2</ref>
+                  <ref type="witness">II 1053: 5</ref>
+               </bibl>
+               <cit type="translation" xml:lang="en">
+                  <quote>The wicked shall return ‘li-sheʾolah’ – to the netherworld (Ps 9,18). Said R. Abbaʾ b. Zavdah: That means to the nethermost [bath] of hell. (cf. Freedman / Simon I 435)</quote>
+               </cit>
+            <note xml:lang="en" anchored="true">= <bibl type="ancient" default="false" status="draft">GenR 50,3 [II 518: 5]</bibl> (<ref type="entry" xml:lang="jpa">ביטי</ref>);
+      <bibl type="ancient" default="false" status="draft">GenR 68,8 [II 777: 2]</bibl> (<ref type="entry" xml:lang="jpa">בוטי</ref>)</note>
+            </cit>
             </sense>
             <etym type="borrowing" opt="false">
                <lbl opt="false">source language</lbl>
@@ -103,32 +122,10 @@
                   <xr type="related" opt="false">
                      <lbl opt="false">Cf. LSJ</lbl>
                      <ref target="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aalphabetic+letter%3D*e%3Aentry+group%3D83%3Aentry%3De%29mbato%2Fs"
-                          type="entry">ἐμβατή, II.</ref>
+                        type="entry">ἐμβατή, II.</ref>
                   </xr>
                </cit>
             </etym>
-            <note anchored="true">
-            = 
-      <bibl type="ancient" default="false" status="draft">Yalq 16 [5b: 55]</bibl>;
-      <bibl type="ancient" default="false" status="draft">YalqProv 961 [498d: 59]</bibl>;
-      <bibl type="ancient" default="false" status="draft">YalqM Prov 25,4 [55a]</bibl>
-            </note>
-            <note xml:lang="jpa" anchored="true">ישובו רשעים לשאולה, ר' אבא בר זבדא אמר לאמבטי התחתונה שבגיהנם.
-      <bibl default="false" status="draft">
-                  <ref type="witness">86,2</ref>
-                  <ref type="witness">II 1053: 5</ref>
-               </bibl>
-            </note>
-            <note xml:lang="en" anchored="true">
-               = 
-      <bibl type="ancient" default="false" status="draft">GenR 50,3 [II 518: 5]</bibl> (
-      <ref type="entry" xml:lang="jpa">ביטי</ref>);
-      <bibl type="ancient" default="false" status="draft">GenR 68,8 [II 777: 2]</bibl> (
-      <ref type="entry" xml:lang="jpa">בוטי</ref>)
-   </note>
-            <note xml:lang="en" anchored="true">
-               The wicked shall return ‘li-sheʾolah’ – to the netherworld (Ps 9,18). Said R. Abbaʾ b. Zavdah: That means to the nethermost [bath] of hell. (cf. Freedman / Simon I 435)
-   </note>
             <note xml:lang="en" anchored="true">
                Pl. not in GenR. Common in Rabbinic literature. The reading of GenR 86,2 is certainly corrupted. Cf. 
       <bibl type="modern" default="false" status="draft">Heijmanns (2013) 36</bibl>.

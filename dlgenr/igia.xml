@@ -75,19 +75,22 @@
 כתנות עור שדבקים לעור, ר' אלעזר א' 
             <app>
                         <lem>איגיאה</lem>
-                        <rdg wit="#Vat1">ארגיה ר' אייבו אמ' {אגגיה}</rdg>
-                        <rdg wit="#Vat2">{ארגייה} ר' ר' אייבו א' איגייה</rdg>
-                        <rdg wit="#Ox2">אגיהו ר' איבו אמר {אגגייה}</rdg>
-                        <rdg wit="#V">איגייא ר' איבו אמר {אגגייה}</rdg>
-                        <rdg wit="#K">איגייה ר' איבו אמ' {אגנייה}</rdg>
+                        <rdg wit="#Vat1">ארגיה ר' אייבו אמ' אגגיה</rdg>
+                        <rdg wit="#Vat2">ארגייה ר' ר' אייבו א' איגייה</rdg>
+                        <rdg wit="#Ox2">אגיהו ר' איבו אמר אגגייה</rdg>
+                        <rdg wit="#V">איגייא ר' איבו אמר אגגייה</rdg>
+                        <rdg wit="#K">איגייה ר' איבו אמ' אגנייה</rdg>
                      </app>
 ר' יהושע א' 
-            <ref type="entry">לנא</ref>,
+            לנא,
  יוסי בר חני' אמר
-            <ref type="entry">סיסרגון</ref>,
+            סיסרגון,
  ריש לקיש
-            <ref type="entry">גלאקסטין</ref>
+            גלאקסטין
                   </quote>
+                  <ref type="entry">לנא</ref>
+                  <ref type="entry">סיסרגון</ref>
+                  <ref type="entry">גלאקסטין</ref>
                   <bibl default="false" status="draft">
                      <ref type="witness">20,12</ref>
                      <ref type="witness">197:1</ref>
