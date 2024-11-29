@@ -26,8 +26,8 @@
                 <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Frank+Ruhl+Libre&amp;display=swap" rel="stylesheet"></link>
                 <link rel='stylesheet' id='theme-asset-styles-css'  href='./css/assets.min.css' type='text/css' media=''></link>
                 <link rel='stylesheet' id='theme-styles-css'  href='./css/style.css' type='text/css' media=''></link>
-                <script type='text/javascript' src='https://fundament.acdh.oeaw.ac.at/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
-                <script type='text/javascript' src='https://fundament.acdh.oeaw.ac.at/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+                <script type='text/javascript' src='./javascript/jquery-3.4.1.min.js'></script>
+                <script type='text/javascript' src='./javascript/fundament.min.js'></script>
                 <link rel="canonical" href="https://fundament.acdh.oeaw.ac.at/documentation/"></link>
                 <style type="text/css">
                     /**
@@ -89,8 +89,8 @@
                         <nav class="navbar navbar-expand-lg navbar-light">
                             <div class="container" >
                                 <!-- Your site title as branding in the menu -->
-                                <a href="./index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="./images/logo.png" class="img-fluid" alt="DLiRL Logo" itemprop="logo" /></a><!-- end custom logo -->
-                                <a class="navbar-brand site-title-with-logo" rel="home" href="./index.html" title="DLiRL" itemprop="url">DLiRL</a>
+                                <a href="./index.html" class="navbar-brand custom-logo-link" rel="home" itemprop="url"><img src="./images/logo.png" class="img-fluid" alt="LRL Logo" itemprop="logo" /></a><!-- end custom logo -->
+                                <a class="navbar-brand site-title-with-logo" rel="home" href="./index.html" title="LRL" itemprop="url">LRL</a>
                                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                                     <span class="navbar-toggler-icon"></span>
                                 </button>
@@ -121,13 +121,13 @@
                                  <!-- Start shortcoder --><div class="d-none d-md-block col-md-3 col-lg-2">
                                     <nav class="docs-side-nav sticky-top">
                                         <h5 class="docs-side-nav-title seperation"><a href="./search.html">Search</a></h5>
-                                        <h5 class="docs-side-nav-title seperation"><a href="./search.html#browseindices">Browse Indices</a></h5>
+                                        <h5 class="docs-side-nav-title seperation"><a href="./lemmata.html#aramaicindex">Browse Indices</a></h5>
                                         <ul class="nav">
                                             <li class="docs-side-nav-link">
-                                                <a href="./search.html#aramaicindex">Browse Aramaic Index</a>
+                                                <a href="./lemmata.html#aramaicindex">Browse Aramaic Index</a>
                                             </li>
                                             <li class="docs-side-nav-link">
-                                                <a href="./search.html#greekindex">Browse Greek Index</a>
+                                                <a href="./lemmata.html#greekindex">Browse Greek Index</a>
                                             </li>
                                         </ul>
                                     </nav>
