@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">הוגנסין</title>
+            <title type="alternative">hwgnsyn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="hognesin-dlgenr"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#draqon-dlgenr"
+            next="#hognesin-ys"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">הוגנסין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">hwgnsyn</orth>
+               <pron notation="rabbinic" opt="false">hognesin</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen">m.</gram>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">אבגניסים</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾvgnysym</orth>
+                  <pron notation="rabbinic">avgenisin</pron>
+               </form>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">אווגניסים</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾwwgnysym</orth>
+                  <pron notation="rabbinic">awgenisim</pron>
+               </form>
+            </form>
+            <form type="inflected" opt="false">
+               <orth type="inflected" xml:lang="jpa" opt="false">הוגניס*</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">hwgnys</orth>
+               <pron notation="rabbinic" opt="false">hognis</pron>
+               <gramGrp opt="false">
+                  <gram type="num" opt="false">sg.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="hognesin-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>noble, distinguished</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>εὐγενής</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     אמר ר' חנינה שמות חדשים עלו בידן מבבל, ר' שמעון בן לקיש אמר אף שמות מלאכים מיכאל וגבריאל ורפאל. אמר ר' לוי אחד נדמה לו בדמות סרקי ואחר בדמות נווטי ואחד בדמות ערבי, אמר אם אראה שכינה ממתנת עליהם אני יודע שהם הגונים [Vat 1 בני אדם אבגניסים | Vat 2 בני אדם הוגניסין | K V בני אדם גדולים |  Ox 1 בני אדם גדולים ואם לאו אני יודע שהן בני אדם הדיוטין | Ox 2 בני אדם גדולים ואם לאו אני יודע שהם בני אדם הדיוטות] ואם אראם חולקין כבוד זה לזה אני יודע שהן הוגנוסין [Vat 1 בני אדם אווגניסים | Vat 2  בני אדם הוגניס' | Ox 1 בני אדם הגונין | Ox 2 בני אדם הגונים | K V בני אדם מהוגנין], כיון שראם שחולקין כבוד זה לזה ידע שהן הוגנוסין [Vat 1 בני אדם אווגניסים | Ox 1 בני אדם הגונין | Ox 2 בני אדם הגונים | K V בני אדם מהוגנים | Vat 2 בני אד' הוגניסין]
+                  </quote>
+                  <ref type="entry" xml:lang="jpa">הדיוטות</ref>
+                  <ref type="entry" xml:lang="jpa">הדיוטין</ref>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">48,9 </ref>
+                     <ref type="witness">II 486: 2,3</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>
+                        R. Ḥaninaʾ said: The names of the months came up with us from Babylon. R. Shimʿon ben Laqish said: Also the names of the angels, Michael, Rafael and Gabriel. R. Lewi said: One appeared to him in the guise of a Saracen, the second in the guise of a Nabatean, and the third in the guise of an Arab. Said he [Abraham]: ‘If I see that the Shechinah waits to them, I will know that they are worthy; and if I see that they pay respect to each other, I will know that they are distinguished.’ And when he did see them pay respect to each other, he knew that they are distinguished. (Freedman / Simon 411)
+                     </quote>
+                  </cit>
+                  <note anchored="true">=
+                     <bibl type="ancient" default="false" status="draft">Yalq 82 [I 352: 11;12]</bibl> (<term xml:lang="jpa">הוגנים</term>) ; LeqT 18,2 [41b] (<term xml:lang="jpa">הוגנוסים</term>)
+                  </note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ומאחר שירדתם לכאן הודעתי הוגניסים שלי</quote>
+                  <bibl>
+                     <ref type="witness">100 [101],9</ref>
+                     <ref type="witness">III 1294: 5</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And after you came down to here I was able to proof my noble origin.</quote>
+                  </cit>
+                  <note><bibl type="ancient">= Yalq 162 [52c: 7]</bibl> (<term xml:lang="jpa">גינוסיא</term>)</note>
+               </cit>
+            </sense>
+            <note>
+               See <bibl type="modern">Jastrow I 337a</bibl> (for 100,9 Jastrow renders <term xml:lang="jpa">גיניסיא</term>). <bibl type="modern">Levy I 452a</bibl> renders for 100,9: <term xml:lang="jpa">הוגניסיס</term> <term xml:lang="fjb">hwgnysys</term> <term xml:lang="rabbinic">hognisis</term> from Gr. <term xml:lang="grc">εὐγέναια</term>. Cf. <bibl type="modern">AC III 181a</bibl>.
+            </note>
+            <ref type="bibliography">
+               <bibl default="false" status="draft">
+                  <title>Krauss, LW I</title>
+                  <citedRange>223a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>
