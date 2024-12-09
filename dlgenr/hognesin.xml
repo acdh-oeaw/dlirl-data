@@ -71,6 +71,13 @@
                </gramGrp>
             </form>
             <sense xml:id="hognesin-dlgenr-1">
+               <usg type="domain" opt="false">properties</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false"/>
+               <usg type="geographic" opt="false">Coptic <ref target="https://coptic-dictionary.org/entry.py?tla=C9062"
+                  type="entry" targetLang="cop">ⲉⲩⲅⲉⲛⲏⲥ</ref></usg>
                <cit type="translation" xml:lang="en" subtype="sense">
                   <quote>noble, distinguished</quote>
                </cit>
