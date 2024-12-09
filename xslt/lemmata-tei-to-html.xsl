@@ -736,7 +736,14 @@
             <xsl:element name="span">
                 <xsl:attribute name="class" select="'dlgenr-entry-citation-url'"/>
                 <xsl:text>https://lrl.acdh.oeaw.ac.at/</xsl:text>
-                <xsl:value-of select="concat(substring-before(root()/tei:TEI/tei:text/tei:body/tei:entry/@xml:id,'-dlgenr'),'.html')"/>
+                <xsl:choose>
+                    <xsl:when test="ends-with(root()/tei:TEI/tei:text/tei:body/tei:entry/@xml:id,'-dlgenr')">
+                        <xsl:value-of select="concat(substring-before(root()/tei:TEI/tei:text/tei:body/tei:entry/@xml:id,'-dlgenr'),'.html')"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="concat(root()/tei:TEI/tei:text/tei:body/tei:entry/@xml:id,'.html')"/>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:element>
             <xsl:text>. 2024.</xsl:text>
         </xsl:element>
