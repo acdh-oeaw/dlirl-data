@@ -77,8 +77,19 @@
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>
-                     וישבו שם, אמר ר' יצחק בכל מקום שאת מוצא ישיבה השטן קופץ, אמר ר' חלבו בכל מקום שאת מוצא נחת רוח הסטן מקטרג, אמר ר' לוי בכל מקום שאת מוצא אכילה ושתייה ארכיליסטיס [Ox 1 ארכי ליסטיס | Vat 1 ארכו ליסטיס] מקרטע [ארכיליסטיס מקרטע. K השטן מקטריג | V Ox 2 השטן מקטרג].
-         </quote>
+                     וישבו שם, אמר ר' יצחק בכל מקום שאת מוצא ישיבה השטן קופץ, אמר ר' חלבו בכל מקום שאת מוצא נחת רוח הסטן מקטרג, אמר ר' לוי בכל מקום שאת מוצא אכילה ושתייה 
+                     <app>
+                        <lem>ארכיליסטיס</lem>
+                        <rdg wit="#Ox1">ארכי ליסטיס</rdg>
+                        <rdg wit="#Vat1">ארכו ליסטיס</rdg>
+                     </app>
+                     <app>
+                        <lem>מקרטע</lem>
+                        <rdg wit="#K">ארכיליסטיס מקרטע.</rdg>
+                        <rdg wit="#V">השטן מקטריג</rdg>
+                        <rdg wit="#Ox2">השטן מקטרג</rdg>
+                     </app>.
+                  </quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">38,7</ref>
                      <ref type="witness">I 356: 10</ref>
@@ -95,23 +106,36 @@
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>
-                     אמר ר' יודה בר' סימון לארכיליסטיס [Ox 1 משל לארכי לסטיס | Ox 2 לארכי ליסטס מקרטע]  שמרד במלך אמר המלך כל מי שתופשו אני נותן לו פרוקופי, עמד אחד ותפשו, אמר המלך ישמרו שניהם עד הבקר, זה היה מתפחד אי זו פרוקופי נותן לו המלך וזה היה מתפחד אי זה דין המלך דן אותו, כך לעתיד ישראל מתפחדים ופחדו אל י"י ואל טובו ואומות העולם מתפחדים פחדו בציון חטאים.
-         </quote>
+                     אמר ר' יודה בר' סימון 
+                     <app>
+                        <lem>לארכיליסטיס</lem>
+                        <rdg wit="#Ox1">משל לארכי לסטיס</rdg>
+                        <rdg wit="#Ox2">לארכי ליסטס מקרטע</rdg>
+                     </app>
+                     שמרד במלך אמר המלך כל מי שתופשו אני נותן לו פרוקופי, עמד אחד ותפשו, אמר המלך ישמרו שניהם עד הבקר, זה היה מתפחד אי זו פרוקופי נותן לו המלך וזה היה מתפחד אי זה דין המלך דן אותו, כך לעתיד ישראל מתפחדים ופחדו אל י"י ואל טובו ואומות העולם מתפחדים פחדו בציון חטאים.
+                  </quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">48,6</ref>
                      <ref type="witness">II 480: 12</ref>
                   </bibl>
                   <ref type="entry" xml:lang="jpa">פרוקופי</ref>
                   <cit type="translation" xml:lang="en">
-                     <quote>
-                        R. Yuda b. R. Simon said: [This may be illustrated] by a robber chief who revolted against the king and the king announced, ‘I will give preferment to any man who captures him.’ A man arose and caught him, and the king ordered both to be guarded until morning. One was filled with anxiety, thinking what preferment the king would give him. The other was filled with anxiety, thinking what punishment the king would pronounce upon him. Thus, in the Messianic future Israel shall fear, viz. And they shall come in fear unto the Lord and to His goodness (Hos 3,5); and the Gentiles will fear: The sinners in Zion are afraid (Jes  33,14). (Freedman / Simon I 407-408)
-            </quote>
+                     <quote>R. Yuda b. R. Simon said: [This may be illustrated] by a robber chief who revolted against the king and the king announced, ‘I will give preferment to any man who captures him.’ A man arose and caught him, and the king ordered both to be guarded until morning. One was filled with anxiety, thinking what preferment the king would give him. The other was filled with anxiety, thinking what punishment the king would pronounce upon him. Thus, in the Messianic future Israel shall fear, viz. And they shall come in fear unto the Lord and to His goodness (Hos 3,5); and the Gentiles will fear: The sinners in Zion are afraid (Jes  33,14). (Freedman / Simon I 407-408)</quote>
                   </cit>
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>
-                     רב הונא פתח מחזיק באזני כלב עובר מתעבר על ריב לא לו, נחמן בר שמואל אמר לארכיליסטיס [Vat 1 לארכי ליסטיס |Vat 1 לארכילסטיס |Ox 1 משל לארכיליסטס | Ox 2 לארכי ליסתיס | V K משל לארכי ליסטוס] שישן בדרך, עבר אחד ושרי מעיריה, אמר ליה קום לך דבישה שכיח הכא, קם ושרי מקפח ביה, אמר ליה יגער בישה, אמ' ליה דמיך הוא ועירתניה, כך אמר לו הקדוש ברוך הוא לדרכו היה מהלך והייתה משלח אצלו ואומר לו כה אמר עבדך יעקב.
-         </quote>
+                     רב הונא פתח מחזיק באזני כלב עובר מתעבר על ריב לא לו, נחמן בר שמואל אמר 
+                     <app>
+                        <lem>לארכיליסטיס</lem>
+                        <rdg wit="#Vat1">לארכי ליסטיס</rdg>
+                        <rdg wit="#Vat2">לארכילסטיס</rdg>
+                        <rdg wit="#Ox1">משל לארכיליסטס</rdg>
+                        <rdg wit="#Ox2">לארכי ליסתיס</rdg>
+                        <rdg wit="#V K">משל לארכי ליסטוס</rdg>
+                     </app>
+                     שישן בדרך, עבר אחד ושרי מעיריה, אמר ליה קום לך דבישה שכיח הכא, קם ושרי מקפח ביה, אמר ליה יגער בישה, אמ' ליה דמיך הוא ועירתניה, כך אמר לו הקדוש ברוך הוא לדרכו היה מהלך והייתה משלח אצלו ואומר לו כה אמר עבדך יעקב.
+                  </quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">75,3</ref>
                      <ref type="witness">II 880: 2</ref>
@@ -127,8 +151,19 @@
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>
-                     רבנין אמ' לארכיליסטיס [K לארכולסטיס | Vat 1 לארכי לסטס] נידמה לו [ Vat 1 Vat 2 Ox 1 Ox 2 V K לו לזה צאן ולזה צאן לזה גמלים ולזה גמלים] אמר לו העבר שלי ואני אעביר שלך, עיבר המלאך את שלאבינו כהרף עין והוה אבינו מעביר וחוזר ומשכח מעביר וחוזר ומשכח, אמר ליה פרמקוס אמר ר' פינחס נטל פיקרין ונתן בצוארו אמר ליה פרמקוס פרמקוס לא חרשין מצלחין בליליא
-         </quote>
+                     רבנין אמ' 
+                     <app>
+                        <lem>לארכיליסטיס</lem>
+                        <rdg wit="#K">לארכולסטיס</rdg>
+                        <rdg wit="#Vat1">לארכי לסטס</rdg>
+                     </app>
+                     נידמה 
+                     <app>
+                        <lem>לו</lem>
+                        <rdg wit="#Vat1 Vat2 Ox1 Ox2 V K">לו לזה צאן ולזה צאן לזה גמלים ולזה גמלים</rdg>
+                     </app>
+                     אמר לו העבר שלי ואני אעביר שלך, עיבר המלאך את שלאבינו כהרף עין והוה אבינו מעביר וחוזר ומשכח מעביר וחוזר ומשכח, אמר ליה פרמקוס אמר ר' פינחס נטל פיקרין ונתן בצוארו אמר ליה פרמקוס פרמקוס לא חרשין מצלחין בליליא 
+                  </quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">77,2</ref>
                      <ref type="witness">II 911: 5</ref>
