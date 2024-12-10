@@ -140,7 +140,14 @@
                                                     <xsl:element name="p">
                                                         <xsl:attribute name="class" select="'dlgenr-entry-navigation-back-RL float-start btn btn-outline-dark'"/>
                                                         <xsl:element name="a">
-                                                            <xsl:attribute name="href" select="concat(substring-after(substring-before(tei:TEI/tei:text/tei:body/tei:entry/@prev,'-dlgenr'),'#'),'.html')"/>
+                                                            <xsl:choose>
+                                                                <xsl:when test="ends-with(tei:TEI/tei:text/tei:body/tei:entry/@prev,'-dlgenr')">
+                                                                    <xsl:attribute name="href" select="concat(substring-after(substring-before(tei:TEI/tei:text/tei:body/tei:entry/@prev,'-dlgenr'),'#'),'.html')"/>
+                                                                </xsl:when>
+                                                                <xsl:otherwise>
+                                                                    <xsl:attribute name="href" select="concat(substring-after(tei:TEI/tei:text/tei:body/tei:entry/@prev,'#'),'.html')"/>
+                                                                </xsl:otherwise>
+                                                            </xsl:choose>
                                                             <xsl:attribute name="target" select="'_self'"/>
                                                             <xsl:text>PREV</xsl:text>
                                                         </xsl:element>
@@ -150,7 +157,14 @@
                                                     <xsl:element name="p">
                                                         <xsl:attribute name="class" select="'dlgenr-entry-navigation-forward-RL float-right btn btn-outline-dark'"/>
                                                         <xsl:element name="a">
-                                                            <xsl:attribute name="href" select="concat(substring-after(substring-before(tei:TEI/tei:text/tei:body/tei:entry/@next,'-dlgenr'),'#'),'.html')"/>
+                                                            <xsl:choose>
+                                                                <xsl:when test="ends-with(tei:TEI/tei:text/tei:body/tei:entry/@next,'-dlgenr')">
+                                                                    <xsl:attribute name="href" select="concat(substring-after(substring-before(tei:TEI/tei:text/tei:body/tei:entry/@next,'-dlgenr'),'#'),'.html')"/>
+                                                                </xsl:when>
+                                                                <xsl:otherwise>
+                                                                    <xsl:attribute name="href" select="concat(substring-after(tei:TEI/tei:text/tei:body/tei:entry/@next,'#'),'.html')"/>
+                                                                </xsl:otherwise>
+                                                            </xsl:choose>
                                                             <xsl:attribute name="target" select="'_self'"/>
                                                             <xsl:text>NEXT</xsl:text>
                                                         </xsl:element>
@@ -299,10 +313,16 @@
             <xsl:if test="exists(@source)">
                 <xsl:element name="span">
                     <xsl:attribute name="class" select="'dlgenr-entry-form-variant-source'"/>
-                    <xsl:if test="parent::tei:form/parent::tei:entry/@source = 'Genesis Rabbah'">
+                    <xsl:choose>
+                    <xsl:when test="parent::tei:form/parent::tei:entry/@source = 'Genesis Rabbah'">
                         <xsl:text>- GenR </xsl:text>
                         <xsl:value-of select="@source"/>
-                    </xsl:if>
+                    </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:text> - </xsl:text>
+                            <xsl:value-of select="@source"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </xsl:element>
             </xsl:if>
         </xsl:element>
@@ -423,27 +443,29 @@
     </xsl:template>
     
     <xsl:template match="tei:usg">
-        <xsl:element name="p">
-            <xsl:attribute name="class" select="'dlgenr-entry-sense-usage-body'"/>
-            <xsl:choose>
-                <xsl:when test="@type = 'attitude'"><xsl:value-of select="'Attitude'"/></xsl:when>
-                <xsl:when test="@type = 'domain'"><xsl:value-of select="'Domain'"/></xsl:when>
-                <xsl:when test="@type = 'frequency'"><xsl:value-of select="'Frequency'"/></xsl:when>
-                <xsl:when test="@type = 'geographic'"><xsl:value-of select="'Geographic distribution'"/></xsl:when>
-                <xsl:when test="@type = 'hint'"><xsl:value-of select="'Hint'"/></xsl:when>
-                <xsl:when test="@type = 'meaningType'"><xsl:value-of select="'Meaning type'"/></xsl:when>
-                <xsl:when test="@type = 'normativity'"><xsl:value-of select="'Normativity'"/></xsl:when>
-                <xsl:when test="@type = 'socioCultural'"><xsl:value-of select="'Socio-cultural norm'"/></xsl:when>
-                <xsl:when test="@type = 'textType'"><xsl:value-of select="'Text type'"/></xsl:when>
-                <xsl:when test="@type = 'time'"><xsl:value-of select="'Time'"/></xsl:when>
-                <xsl:otherwise><xsl:value-of select="@type"/></xsl:otherwise>
-            </xsl:choose>
-            <xsl:text>: </xsl:text>
-            <xsl:element name="span">
-                <xsl:attribute name="class" select="'dlgenr-entry-sense-usage-body-value'"/>
-                <xsl:value-of select="text()"/>
+        <xsl:if test="exists(child::text())">
+            <xsl:element name="p">
+                <xsl:attribute name="class" select="'dlgenr-entry-sense-usage-body'"/>
+                <xsl:choose>
+                    <xsl:when test="@type = 'attitude'"><xsl:value-of select="'Attitude'"/></xsl:when>
+                    <xsl:when test="@type = 'domain'"><xsl:value-of select="'Domain'"/></xsl:when>
+                    <xsl:when test="@type = 'frequency'"><xsl:value-of select="'Frequency'"/></xsl:when>
+                    <xsl:when test="@type = 'geographic'"><xsl:value-of select="'Geographic distribution'"/></xsl:when>
+                    <xsl:when test="@type = 'hint'"><xsl:value-of select="'Hint'"/></xsl:when>
+                    <xsl:when test="@type = 'meaningType'"><xsl:value-of select="'Meaning type'"/></xsl:when>
+                    <xsl:when test="@type = 'normativity'"><xsl:value-of select="'Normativity'"/></xsl:when>
+                    <xsl:when test="@type = 'socioCultural'"><xsl:value-of select="'Socio-cultural norm'"/></xsl:when>
+                    <xsl:when test="@type = 'textType'"><xsl:value-of select="'Text type'"/></xsl:when>
+                    <xsl:when test="@type = 'time'"><xsl:value-of select="'Time'"/></xsl:when>
+                    <xsl:otherwise><xsl:value-of select="@type"/></xsl:otherwise>
+                </xsl:choose>
+                <xsl:text>: </xsl:text>
+                <xsl:element name="span">
+                    <xsl:attribute name="class" select="'dlgenr-entry-sense-usage-body-value'"/>
+                    <xsl:apply-templates select="text() | tei:ref"/>
+                </xsl:element>
             </xsl:element>
-        </xsl:element>
+        </xsl:if>
     </xsl:template>
     
     <xsl:template match="tei:cit[@type = 'example']">
@@ -532,6 +554,19 @@
             <xsl:if test="not(exists(@target))">
                 <xsl:apply-templates select="child::node()"/>
             </xsl:if>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="tei:ref[(@type = 'entry') and parent::tei:usg and (@targetLang = 'cop')]">
+        <xsl:element name="span">
+            <xsl:attribute name="style" select="'font-style: normal;'"/>
+            <xsl:text>(</xsl:text>
+            <xsl:element name="a">
+                <xsl:attribute name="href" select="@target"/>
+                <xsl:attribute name="target" select="'_blank'"/>
+                <xsl:apply-templates select="child::node()"/>
+            </xsl:element>
+            <xsl:text>)</xsl:text>
         </xsl:element>
     </xsl:template>
     

@@ -51,12 +51,12 @@
                   <gram type="gen">m.</gram>
                   <gram type="num">pl.</gram>
                </gramGrp>
-               <form type="variant">
+               <form type="variant" source="GenR 48,9 Vat1">
                   <orth type="variant" xml:lang="jpa">אבגניסים</orth>
                   <orth type="transliteration" xml:lang="fjb">ʾvgnysym</orth>
                   <pron notation="rabbinic">avgenisin</pron>
                </form>
-               <form type="variant">
+               <form type="variant" source="GenR 48,9 Vat1">
                   <orth type="variant" xml:lang="jpa">אווגניסים</orth>
                   <orth type="transliteration" xml:lang="fjb">ʾwwgnysym</orth>
                   <pron notation="rabbinic">awgenisim</pron>
@@ -71,6 +71,13 @@
                </gramGrp>
             </form>
             <sense xml:id="hognesin-ys-1">
+               <usg type="domain" opt="false">properties</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="frequency" opt="false"/>
+               <usg type="geographic" opt="false">Coptic <ref target="https://coptic-dictionary.org/entry.py?tla=C9062"
+                  type="entry" targetLang="cop">ⲉⲩⲅⲉⲛⲏⲥ</ref></usg>
                <cit type="translation" xml:lang="en" subtype="sense">
                   <quote>noble, distinguished</quote>
                </cit>
@@ -79,7 +86,21 @@
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>
-            אמ' אם אני רואה שכינה ממתנת להם, אני יודע שהן בני אדם גדולים [S V הוגניסים] . ואם רואה אני אותם שהם חולקין כבוד זה לזה, אני יודע שהן בני אדם הוגנסים [S V -]. כיון שראה שחלקו כבוד זה לזה, ידע שהן הוגנסין [S V הוגניסים].
+                     אמ' אם אני רואה שכינה ממתנת להם, אני יודע שהן בני אדם 
+                     <app>
+                        <lem>גדולים</lem>
+                        <rdg wit="#S V">הוגניסים</rdg>
+                     </app>.
+                     ואם רואה אני אותם שהם חולקין כבוד זה לזה, אני יודע שהן בני אדם 
+                     <app>
+                        <lem>הוגנסים</lem>
+                        <rdg wit="#S V">-</rdg>
+                     </app>.
+                     כיון שראה שחלקו כבוד זה לזה, ידע שהן 
+                     <app>
+                        <lem>הוגנסין</lem>
+                        <rdg wit="#S V">הוגניסים</rdg>
+                     </app>.
                   </quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">Yalq 82</ref>

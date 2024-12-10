@@ -51,12 +51,12 @@
                   <gram type="gen">m.</gram>
                   <gram type="num">pl.</gram>
                </gramGrp>
-               <form type="variant">
+               <form type="variant" source="48,9 - first occurence - Vat1">
                   <orth type="variant" xml:lang="jpa">אבגניסים</orth>
                   <orth type="transliteration" xml:lang="fjb">ʾvgnysym</orth>
                   <pron notation="rabbinic">avgenisin</pron>
                </form>
-               <form type="variant">
+               <form type="variant" source="48,9 - second and third occurence - Vat1">
                   <orth type="variant" xml:lang="jpa">אווגניסים</orth>
                   <orth type="transliteration" xml:lang="fjb">ʾwwgnysym</orth>
                   <pron notation="rabbinic">awgenisim</pron>
@@ -86,8 +86,34 @@
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>
-                     אמר ר' חנינה שמות חדשים עלו בידן מבבל, ר' שמעון בן לקיש אמר אף שמות מלאכים מיכאל וגבריאל ורפאל. אמר ר' לוי אחד נדמה לו בדמות סרקי ואחר בדמות נווטי ואחד בדמות ערבי, אמר אם אראה שכינה ממתנת עליהם אני יודע שהם הגונים [Vat 1 בני אדם אבגניסים | Vat 2 בני אדם הוגניסין | K V בני אדם גדולים |  Ox 1 בני אדם גדולים ואם לאו אני יודע שהן בני אדם הדיוטין | Ox 2 בני אדם גדולים ואם לאו אני יודע שהם בני אדם הדיוטות] ואם אראם חולקין כבוד זה לזה אני יודע שהן הוגנוסין [Vat 1 בני אדם אווגניסים | Vat 2  בני אדם הוגניס' | Ox 1 בני אדם הגונין | Ox 2 בני אדם הגונים | K V בני אדם מהוגנין], כיון שראם שחולקין כבוד זה לזה ידע שהן הוגנוסין [Vat 1 בני אדם אווגניסים | Ox 1 בני אדם הגונין | Ox 2 בני אדם הגונים | K V בני אדם מהוגנים | Vat 2 בני אד' הוגניסין]
-                  </quote>
+                     אמר ר' חנינה שמות חדשים עלו בידן מבבל, ר' שמעון בן לקיש אמר אף שמות מלאכים מיכאל וגבריאל ורפאל. אמר ר' לוי אחד נדמה לו בדמות סרקי ואחר בדמות נווטי ואחד בדמות ערבי, אמר אם אראה שכינה ממתנת עליהם אני יודע שהם 
+                     <app>
+                        <lem>הגונים</lem>
+                        <rdg wit="#Vat1">בני אדם אבגניסים</rdg>
+                        <rdg wit="#Vat2">בני אדם הוגניסין</rdg>
+                        <rdg wit="#K V">בני אדם גדולים</rdg>
+                        <rdg wit="#Ox1">בני אדם גדולים ואם לאו אני יודע שהן בני אדם הדיוטין</rdg>
+                        <rdg wit="#Ox2">בני אדם גדולים ואם לאו אני יודע שהם בני אדם הדיוטות</rdg>
+                     </app>
+                     ואם אראם חולקין כבוד זה לזה אני יודע שהן 
+                     <app>
+                        <lem>הוגנוסין</lem>
+                        <rdg wit="#Vat1">בני אדם אווגניסים</rdg>
+                        <rdg wit="#Vat2">בני אדם הוגניס</rdg>
+                        <rdg wit="#Ox1">בני אדם הגונין</rdg>
+                        <rdg wit="#Ox2">בני אדם הגונים</rdg>
+                        <rdg wit="#K V">בני אדם מהוגנין</rdg>
+                     </app>
+                     , כיון שראם שחולקין כבוד זה לזה ידע שהן 
+                     <app>
+                        <lem>הוגנוסין</lem>
+                        <rdg wit="#Vat1">בני אדם אווגניסים</rdg>
+                        <rdg wit="#Ox1">בני אדם הגונין</rdg>
+                        <rdg wit="#Ox2">בני אדם הגונים</rdg>
+                        <rdg wit="#K V">בני אדם מהוגנים</rdg>
+                        <rdg wit="#Vat2">בני אד' הוגניסין</rdg>
+                     </app>.
+                     </quote>
                   <ref type="entry" xml:lang="jpa">הדיוטות</ref>
                   <ref type="entry" xml:lang="jpa">הדיוטין</ref>
                   <bibl default="false" status="draft">
