@@ -39,7 +39,7 @@
          <entry xml:id="hognesin-dlgenr"
             type="mainEntry"
             xml:lang="en"
-            prev="#draqon-dlgenr"
+            prev="#hagonim-dlgenr"
             next="#hognesin-ys"
             source="Genesis Rabbah">
             <form type="lemma" opt="false">
@@ -127,7 +127,7 @@
                      </quote>
                   </cit>
                   <note anchored="true">=
-                     <bibl type="ancient" default="false" status="draft">Yalq 82 [I 352: 11;12]</bibl> (<term xml:lang="jpa">הוגנים</term>) ; LeqT 18,2 [41b] (<term xml:lang="jpa">הוגנוסים</term>)
+                     <bibl type="ancient" default="false" status="draft">Yalq 82 [I 352: 11;12]</bibl> (<term xml:lang="jpa">הוגנים</term>); <bibl type="ancient">LeqT 18,2 [41b]</bibl> (<term xml:lang="jpa">הוגנוסים</term>)
                   </note>
                </cit>
                <cit type="example" xml:lang="jpa">

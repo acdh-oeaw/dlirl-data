@@ -1005,8 +1005,11 @@ p.dlgenr-entry-sense-example-text {
     font-size: 14pt;
     color: black;
 	margin-left: 20pt;
+	margin-right: 20pt;
 	margin-top: 20pt;
 	margin-bottom: 0pt;
+	direction: rtl;
+	text-align: right;
 }
 
 p.dlgenr-entry-sense-example-quotation {

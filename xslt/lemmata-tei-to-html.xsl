@@ -74,9 +74,6 @@
                     padding: 0 !important;
                     }
                 </style>
-                <link rel='stylesheet' id='bodhi-svgs-attachment-css'  href='https://fundament.acdh.oeaw.ac.at/wp-content/plugins/svg-support/css/svgs-attachment.css?ver=4.9.11' type='text/css' media='all'/>
-                <link rel='stylesheet' id='wpgeshi-wp-geshi-highlight-css'  href='https://fundament.acdh.oeaw.ac.at/wp-content/plugins/wp-geshi-highlight/wp-geshi-highlight.css?ver=4.9.11' type='text/css' media='all' />
-                <link rel='stylesheet' id='kirki-styles-fundament_wp_options-css'  href='https://fundament.acdh.oeaw.ac.at/wp-content/themes/fundament_wp/inc/customizer-controls/assets/css/kirki-styles.css?ver=4.9.11' type='text/css' media='all' />
                 <style id='kirki-styles-fundament_wp_options-inline-css' type='text/css'>
                     body{font-family:inherit;font-weight:400;background-color:#F1F1F1;border-right-width:0rem;border-left-width:0rem;border-bottom-width:0rem;border-color:#6c757d;}.btn-round,.navbar-brand,h1,h2,h3,h4,h5,h6{font-family:inherit;font-weight:500;}.page main > article .entry-content,.post-teaser,.single main > article .entry-content{font-family:inherit;font-weight:400;}.navbar .navbar-brand{height:2.5rem;}.navbar{padding-top:1.25rem;padding-bottom:1.25rem;background-color:#fff;}.navbar .nav-link{font-size:1rem;}.navbar .nav-item a.nav-link{padding-right:0.75rem;padding-left:0.75rem;}.navbar .nav-item.active > a.nav-link::after{left:0.75rem;right:0.75rem;}#wrapper-hero-content .hero-dark .btn-round:hover,.btn-round,.page main > article .entry-content a,.separator-title,.single main > article .entry-content a{color:#212529;}.page main > article .entry-content a,.separator-title,.single main > article .entry-content a{border-color:#212529;}.card-wrapper .card .card-inner{border-top-color:#88dbdf !important;border-width:1px;border-color:rgba(0, 0, 0, 0.1);;border-top-width:5px !important;}.btn-round:hover{background-color:#212529;}html{background-color:#fff;}#wrapper-navbar{border-top-width:0rem;border-top-color:#6c757d;}#wrapper-hero-content > #wrapper-hero-inner > h1{font-size:2.5rem;}#wrapper-hero-content > #wrapper-hero-inner > p{font-size:1rem;}#wrapper-hero-content > #wrapper-hero-inner button{font-size:0.9rem;padding-top:0.6rem;padding-bottom:0.6rem;padding-right:1.2rem;padding-left:1.2rem;}#wrapper-hero-content::after{background-color:rgba(52,195,202,0.75);}#wrapper-hero-inner h1,#wrapper-hero-inner p{width:50%;}#wrapper-footer-full{background-color:#ffffff;}#wrapper-footer-full,#wrapper-footer-full a,#wrapper-footer-full h1,#wrapper-footer-full h2,#wrapper-footer-full h3,#wrapper-footer-full h4,#wrapper-footer-full h5,#wrapper-footer-full h6{color:#212529;}#wrapper-footer-full .widget-title,.footer-separator{border-bottom-color:rgba(0, 0, 0, 0.15);}#wrapper-footer-secondary{background-color:#f1f1f1;}#wrapper-footer-secondary .widget-title{border-bottom-color:rgba(255, 255, 255, 0.3);}#wrapper-footer-secondary,#wrapper-footer-secondary a,#wrapper-footer-secondary h1,#wrapper-footer-secondary h2,#wrapper-footer-secondary h3,#wrapper-footer-secondary h4,#wrapper-footer-secondary h5,#wrapper-footer-secondary h6{color:#222222;}
                 </style>
@@ -129,6 +126,8 @@
                                             <li class="docs-side-nav-link">
                                                 <a href="./lemmata.html#greekindex">Browse Greek Index</a>
                                             </li>
+                                            <li class="docs-side-nav-link"><a href="./lemmata-genr.html">Index Genesis Rabbah</a></li>
+                                            <li class="docs-side-nav-link"><a href="./lemmata-ys.html">Index Yalkut Shimoni</a></li>
                                         </ul>
                                     </nav>
                                 </div><!-- End shortcoder v4.1.7-->
@@ -245,9 +244,6 @@
                         © Copyright OEAW | <a href="./imprint.html">Impressum/Imprint</a>
                     </div>
                 </div><!-- #page we need this extra closing tag here -->
-                <script type='text/javascript' src='https://fundament.acdh.oeaw.ac.at/wp-content/themes/fundament_wp/js/assets.min.js?ver=1.1.0'></script>
-                <script type='text/javascript' src='https://fundament.acdh.oeaw.ac.at/wp-content/themes/fundament_wp/js/theme.min.js?ver=1.1.0'></script>
-                <script type='text/javascript' src='https://fundament.acdh.oeaw.ac.at/wp-includes/js/wp-embed.min.js?ver=4.9.11'></script>										
             </body>
         </html>
     </xsl:template>
@@ -481,11 +477,10 @@
         </xsl:element>
         <xsl:element name="p">
             <xsl:attribute name="class" select="'dlgenr-entry-sense-example-quotation'"/>
-            <xsl:text>(</xsl:text>
             <xsl:value-of select="child::tei:bibl/child::tei:ref[@type = 'witness'][1]/text()"/>
             <xsl:text> [</xsl:text>
             <xsl:value-of select="child::tei:bibl/child::tei:ref[@type = 'witness'][2]/text()"/>
-            <xsl:text>])</xsl:text>
+            <xsl:text>]</xsl:text>
         </xsl:element>
         <xsl:element name="p">
             <xsl:attribute name="class" select="'dlgenr-entry-sense-example-translation'"/>

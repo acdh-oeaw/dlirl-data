@@ -55,15 +55,10 @@
                   <gram type="gen">m.</gram>
                   <gram type="num">pl.</gram>
                </gramGrp>
-               <form type="variant" source="GenR 48,9 Vat1">
-                  <orth type="variant" xml:lang="jpa">אבגניסים</orth>
-                  <orth type="transliteration" xml:lang="fjb">ʾvgnysym</orth>
-                  <pron notation="rabbinic">avgenisim</pron>
-               </form>
-               <form type="variant" source="GenR 48,9 Vat1">
-                  <orth type="variant" xml:lang="jpa">אווגניסים</orth>
-                  <orth type="transliteration" xml:lang="fjb">ʾwwgnysym</orth>
-                  <pron notation="rabbinic">awgenisim</pron>
+               <form type="variant" source="Yalq 82 S V">
+                  <orth type="variant" xml:lang="jpa">הוגניסים</orth>
+                  <orth type="transliteration" xml:lang="fjb">hwgnysym</orth>
+                  <pron notation="rabbinic">hognesim</pron>
                </form>
             </form>
             <form type="inflected" opt="false">
