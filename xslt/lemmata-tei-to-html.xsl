@@ -557,7 +557,7 @@
         </xsl:element>
     </xsl:template>
     
-    <xsl:template match="tei:ref[(@type = 'entry') and parent::tei:usg and (@targetLang = 'cop')]">
+    <xsl:template match="tei:ref[(@type = 'entry') and parent::tei:usg and ((@targetLang = 'cop') or (@targetLang = 'syc') or (@targetLang = 'arm'))]">
         <xsl:element name="span">
             <xsl:attribute name="style" select="'font-style: normal;'"/>
             <xsl:text>(</xsl:text>

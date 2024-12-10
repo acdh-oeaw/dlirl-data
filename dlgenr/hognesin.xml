@@ -54,7 +54,7 @@
                <form type="variant" source="48,9 - first occurence - Vat1">
                   <orth type="variant" xml:lang="jpa">אבגניסים</orth>
                   <orth type="transliteration" xml:lang="fjb">ʾvgnysym</orth>
-                  <pron notation="rabbinic">avgenisin</pron>
+                  <pron notation="rabbinic">avgenisim</pron>
                </form>
                <form type="variant" source="48,9 - second and third occurence - Vat1">
                   <orth type="variant" xml:lang="jpa">אווגניסים</orth>
@@ -77,7 +77,8 @@
                <usg type="meaningType" opt="false">lit.</usg>
                <usg type="frequency" opt="false"/>
                <usg type="geographic" opt="false">Coptic <ref target="https://coptic-dictionary.org/entry.py?tla=C9062"
-                  type="entry" targetLang="cop">ⲉⲩⲅⲉⲛⲏⲥ</ref></usg>
+                  type="entry" targetLang="cop">ⲉⲩⲅⲉⲛⲏⲥ</ref>, Syriac Aramaic <ref target="https://cal.huc.edu/oneentry.php?lemma=%29wgyn%20A&amp;cits=all"
+                     type="entry" targetLang="syc">ˀwgyn</ref></usg>
                <cit type="translation" xml:lang="en" subtype="sense">
                   <quote>noble, distinguished</quote>
                </cit>
