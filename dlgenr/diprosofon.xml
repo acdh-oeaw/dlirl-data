@@ -95,25 +95,25 @@
                         R. Shemuʾel bar Naḥman said: When the Holy One, blessed be he, created the first man, He created him double-faced.
             </quote>
                   </cit>
-               </cit>
-               <note anchored="true">
-                  <bibl type="modern" default="false" status="draft">AC I 46</bibl> and
-         <bibl type="modern" default="false" status="draft">Levy I 394</bibl>: <term xml:lang="jpa">דיופרוסופין</term>.
-         <bibl type="modern" default="false" status="draft">Krauss, LW II 202</bibl> renders here adj. pl. <term xml:lang="jpa">דיופרצופין</term> from <term xml:lang="jpa">דיופרצוף</term> tracing it back to Gr. <term xml:lang="grc">διπρόσωπος</term> (Sophocles 386: “bifrons, with two faces, double-faced”). For <term xml:lang="jpa">דיפראסופא</term> in 56,17 (II 729:5) cf.
-         <ref type="entry">פרצוף</ref>.
-      </note>
-               <etym type="borrowing" opt="false">
-                  <lbl opt="false">source language</lbl>
-                  <lang opt="false">Classical Greek+</lang>
-                  <cit type="etymon" xml:lang="grc">
-                     <xr type="related" opt="false">
-                        <lbl opt="false">Cf. LSJ</lbl>
-                        <ref target="http://www.perseus.tufts.edu/hopper/morph?l=di-pro%2Fswpos&amp;la=greek&amp;can=di-pro%2Fswpos0"
-                             type="entry">διπρόσωπος</ref>
-                     </xr>
-                  </cit>
-               </etym>
+               </cit>              
             </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Classical Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://www.perseus.tufts.edu/hopper/morph?l=di-pro%2Fswpos&amp;la=greek&amp;can=di-pro%2Fswpos0"
+                        type="entry">διπρόσωπος</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note anchored="true">
+               <bibl type="modern" default="false" status="draft">AC I 46</bibl> and
+               <bibl type="modern" default="false" status="draft">Levy I 394</bibl>: <term xml:lang="jpa">דיופרוסופין</term>.
+               <bibl type="modern" default="false" status="draft">Krauss, LW II 202</bibl> renders here adj. pl. <term xml:lang="jpa">דיופרצופין</term> from <term xml:lang="jpa">דיופרצוף</term> tracing it back to Gr. <term xml:lang="grc">διπρόσωπος</term> (Sophocles 386: “bifrons, with two faces, double-faced”). For <term xml:lang="jpa">דיפראסופא</term> in 56,17 (II 729:5) cf.
+               <ref type="entry">פרצוף</ref>.
+            </note>
             <ref type="bibliography">
                <bibl default="false" status="draft">
                   <title>Krauss, LW II</title>
