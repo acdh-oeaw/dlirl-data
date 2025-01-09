@@ -142,6 +142,15 @@
                   <note><bibl type="ancient">= Yalq 162 [52c: 7]</bibl> (<term xml:lang="jpa">גינוסיא</term>)</note>
                </cit>
             </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Ancient Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. Bauer s.v. εὐγενής 1., 2.</lbl>
+                     </xr>
+               </cit>
+            </etym>
             <note>
                See <bibl type="modern">Jastrow I 337a</bibl> (for 100,9 Jastrow renders <term xml:lang="jpa">גיניסיא</term>). <bibl type="modern">Levy I 452a</bibl> renders for 100,9: <term xml:lang="jpa">הוגניסיס</term> <term xml:lang="fjb">hwgnysys</term> <term xml:lang="rabbinic">hognisis</term> from Gr. <term xml:lang="grc">εὐγέναια</term>. Cf. <bibl type="modern">AC III 181a</bibl>.
             </note>
