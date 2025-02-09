@@ -69,12 +69,19 @@
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>
-                     והא כת' ישובו רשעים לשאולה, ר' אבא בר זבדה אמר לביטי [Vat 1 Ox 1  ל{דייטי} | Ox2 ל{דיטיה}] התחתונה שבשאול.
+                     והא כת' ישובו רשעים לשאולה, ר' אבא בר זבדה אמר 
+                     <app>
+                        <lem>לביטי</lem> 
+                        <rdg wit="#Vat1 Ox1">לדייטי</rdg>
+                        <rdg wit="#Ox2">לדיטיה</rdg>
+                     </app> התחתונה שבשאול.
          </quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">50,3</ref>
                      <ref type="witness">II 518: 5</ref>
                   </bibl>
+                  <ref type="entry" xml:lang="jpa">דיטיה</ref>
+                  <ref type="entry" xml:lang="jpa">דייטי</ref>
                   <cit type="translation" xml:lang="en">
                      <quote>
                         The wicked shall return ‘li-sheʾolah’ – to the netherworld (Ps 9,18). Said R. Abbaʾ b. Zavdah: That means to the nethermost depth of hell. [cf. Freedman / Simon I 435)
@@ -92,7 +99,13 @@
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>
-                     והא כת' ישובו רשעים לשאולה, ר' אבא בר זבדה אמר לבוטי [Ox 1  לדיוטא} | Ox2 לדיוטי} | K V לאמבטי] התחתונה שבשאול.
+                     והא כת' ישובו רשעים לשאולה, ר' אבא בר זבדה אמר 
+                     <app>
+                        <lem>לבוטי</lem>
+                        <rdg wit="#Ox1">לדיוטא</rdg>
+                        <rdg wit="#Ox2">לדיוטי</rdg>
+                        <rdg wit="#K V">לאמבטי</rdg>
+                     </app> התחתונה שבשאול.
          </quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">68,8</ref>

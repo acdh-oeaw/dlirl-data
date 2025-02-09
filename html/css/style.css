@@ -8,7 +8,6 @@ Version: 1.1.0
 License: GNU General Public License v2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: fundament_wp
-*/@charset "UTF-8";
 /* -----------------------------------------
 	Table of Contents
 --------------------------------------------
@@ -303,28 +302,28 @@ p.errormessage { font-size: 22pt; }
 p.browseindicescontent { text-align: center; font-size: 24pt; }
 p.browseindicescontententryaramaic { font-family: 'Frank Ruhl Libre', serif; text-align: right; font-size: 16pt; margin-right: 10pt; color: #fc9803; margin-bottom: 2pt; margin-top: 2pt; padding: 0pt; }
 p.browseindicescontententrygreek { font-family: 'Cormorant Garamond', serif; text-align: left; font-size: 16pt; margin-left: 10pt; color: #fc9803; margin-top: 2pt; margin-bottom: 2pt; padding: 0pt; }
-p.showgreekentrycontent { font-family: 'Cormorant Garamond', serif; font-weight: medium; font-size: 12pt; color: black; text-align: left; margin: 1em; }
+p.showgreekentrycontent { font-family: 'Cormorant Garamond', serif; font-weight: normal; font-size: 12pt; color: black; text-align: left; margin: 1em; }
 div.divaroundentry { border-style: solid; border-radius: 1em; border-color: black; border-width: 0.05em; margin-top: 0.5em; }
-span.transcriptionLemma { font-family: 'Cormorant Garamond', serif; font-weight: medium; font-size: 14pt; color: black; }
+span.transcriptionLemma { font-family: 'Cormorant Garamond', serif; font-weight: normal; font-size: 14pt; color: black; }
 span.aramaicLemma { font-family: 'Frank Ruhl Libre', serif; font-size: 16pt; color: black; }
-p.entrygraminfo { font-family: 'Cormorant Garamond', serif; font-weight: medium; margin-left: 25pt; text-align: left; margin-top: 0pt; margin-bottom: 0pt; padding: 0pt; }
-span.entrymaintext { font-family: 'Cormorant Garamond', serif; font-weight: medium; font-size: 12pt; color: black; }
+p.entrygraminfo { font-family: 'Cormorant Garamond', serif; font-weight: normal; margin-left: 25pt; text-align: left; margin-top: 0pt; margin-bottom: 0pt; padding: 0pt; }
+span.entrymaintext { font-family: 'Cormorant Garamond', serif; font-weight: normal; font-size: 12pt; color: black; }
 span.entrymaintexthebrew { font-family: 'Frank Ruhl Libre', serif; font-size: 12pt; color: black; }
-span.entrymaintextgreek { font-family: 'Cormorant Garamond', serif; font-weight: medium; font-size: 12pt; color: black; }
-p.entryvariant { font-family: 'Cormorant Garamond', serif; font-weight: medium; font-size: 12pt; color: black; text-align: left; margin-left: 25pt; margin-bottom: 0pt; margin-top: 0pt; padding: 0pt; }
+span.entrymaintextgreek { font-family: 'Cormorant Garamond', serif; font-weight: normal; font-size: 12pt; color: black; }
+p.entryvariant { font-family: 'Cormorant Garamond', serif; font-weight: normal; font-size: 12pt; color: black; text-align: left; margin-left: 25pt; margin-bottom: 0pt; margin-top: 0pt; padding: 0pt; }
 span.aramaicLemmaVariant { font-family: 'Frank Ruhl Libre', serif; font-size: 14pt; color: black; }
-p.entryequivalent { font-family: 'Cormorant Garamond', serif; font-weight: medium; font-size: 12pt; color: black; text-align: left; margin-left: 25pt; margin-bottom: 0pt; margin-top: 0pt; padding: 0pt; }
-span.greekequivalent { font-family: 'Cormorant Garamond', serif; font-weight: medium; font-size: 12pt; color: black; }
-p.entrysense { font-family: 'Cormorant Garamond', serif; font-weight: medium; font-size: 12pt; color: black; text-align: left; margin-left: 25pt; margin-bottom: 0pt; margin-top: 0pt; padding: 0pt; }
+p.entryequivalent { font-family: 'Cormorant Garamond', serif; font-weight: normal; font-size: 12pt; color: black; text-align: left; margin-left: 25pt; margin-bottom: 0pt; margin-top: 0pt; padding: 0pt; }
+span.greekequivalent { font-family: 'Cormorant Garamond', serif; font-weight: normal; font-size: 12pt; color: black; }
+p.entrysense { font-family: 'Cormorant Garamond', serif; font-weight: normal; font-size: 12pt; color: black; text-align: left; margin-left: 25pt; margin-bottom: 0pt; margin-top: 0pt; padding: 0pt; }
 p.examplehebrew { font-family: 'Frank Ruhl Libre', serif; font-size: 12pt; color: black; text-align: left; margin-left: 50pt; margin-right: 20pt; margin-bottom: 0pt; margin-top: 0pt; padding: 0pt; }
 p.criticalapparatus { font-family: 'Frank Ruhl Libre', serif; font-size: 12pt; color: black; text-align: left; margin-left: 70pt; margin-bottom: 0pt; margin-top: 0pt; padding: 0pt; }
 span.linkentry { font-family: 'Frank Ruhl Libre', serif; font-size: 12pt; color: #fc9803; }
-p.entryusage { font-family: 'Cormorant Garamond', serif; font-weight: medium; font-size: 12pt; color: black; text-align: left; margin-left: 25pt; margin-top: 0pt; margin-bottom: 0pt; padding: 0pt; }
-p.entryetymology { font-family: 'Cormorant Garamond', serif; font-weight: medium; font-size: 12pt; color: black; text-align: left; margin-left: 25pt; margin-top: 0pt; margin-bottom: 0pt; padding: 0pt; }
-p.entrylabel { font-family: 'Cormorant Garamond', serif; font-weight: medium; font-size: 12pt; color: black; text-align: left; margin-left: 25pt; margin-top: 0pt; margin-bottom: 0pt; padding: 0pt; }
-span.entrybibliography { font-family: 'Cormorant Garamond', serif; font-weight: medium; font-size: 12pt; color: black; margin-left: 25pt; margin-top: 0pt; margin-bottom: 0pt; padding: 0pt; }
-p.translationexample { text-align: left; font-size: 12pt; color: black; font-family: 'Cormorant Garamond', serif; font-weight: medium; margin-left: 50pt; margin-right: 20pt; margin-top: 0pt; margin-bottom: 0pt; padding: 0pt; }
-p.entrynote { text-align: left; font-size: 12pt; color: black; font-family: 'Cormorant Garamond', serif; font-weight: medium; margin-left: 25pt; margin-right: 20pt; margin-top: 5pt; margin-bottom: 10pt; padding: 0pt; }
+p.entryusage { font-family: 'Cormorant Garamond', serif; font-weight: normal; font-size: 12pt; color: black; text-align: left; margin-left: 25pt; margin-top: 0pt; margin-bottom: 0pt; padding: 0pt; }
+p.entryetymology { font-family: 'Cormorant Garamond', serif; font-weight: normal; font-size: 12pt; color: black; text-align: left; margin-left: 25pt; margin-top: 0pt; margin-bottom: 0pt; padding: 0pt; }
+p.entrylabel { font-family: 'Cormorant Garamond', serif; font-weight: normal; font-size: 12pt; color: black; text-align: left; margin-left: 25pt; margin-top: 0pt; margin-bottom: 0pt; padding: 0pt; }
+span.entrybibliography { font-family: 'Cormorant Garamond', serif; font-weight: normal; font-size: 12pt; color: black; margin-left: 25pt; margin-top: 0pt; margin-bottom: 0pt; padding: 0pt; }
+p.translationexample { text-align: left; font-size: 12pt; color: black; font-family: 'Cormorant Garamond', serif; font-weight: normal; margin-left: 50pt; margin-right: 20pt; margin-top: 0pt; margin-bottom: 0pt; padding: 0pt; }
+p.entrynote { text-align: left; font-size: 12pt; color: black; font-family: 'Cormorant Garamond', serif; font-weight: normal; margin-left: 25pt; margin-right: 20pt; margin-top: 5pt; margin-bottom: 10pt; padding: 0pt; }
 
 .content-block-title {
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
@@ -866,6 +865,32 @@ p.dlgenr-entry-grammatical-information {
 	margin-left: 20pt;
 }
 
+p.dlgenr-entry-variant-grammatical-information {
+	font-family: 'Cormorant Garamond', serif;
+    font-weight: normal;
+    font-size: 12pt;
+    color: black;
+	margin-left: 40pt;
+}
+
+p.dlgenr-entry-inflected-grammatical-information {
+	font-family: 'Cormorant Garamond', serif;
+    font-weight: normal;
+    font-size: 12pt;
+    color: black;
+	margin-left: 30pt;
+}
+
+div.dlgenr-entry-form-variant {
+	font-family: 'Cormorant Garamond', serif;
+    font-weight: normal;
+    font-size: 12pt;
+    color: black;
+	margin-left: 20pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+
 p.dlgenr-entry-form-variant {
 	font-family: 'Cormorant Garamond', serif;
     font-weight: normal;
@@ -971,7 +996,7 @@ span.dlgenr-entry-sense-translation-equivalent-greek {
     padding: 3pt;
     border-radius: 2.5pt;
     font-family: 'Cormorant Garamond', serif;
-    font-weight: medium;
+    font-weight: normal;
 }
 
 span.dlgenr-entry-sense-translation-equivalent-latin {
@@ -980,7 +1005,7 @@ span.dlgenr-entry-sense-translation-equivalent-latin {
     padding: 3pt;
     border-radius: 2.5pt;
     font-family: 'Cormorant Garamond', serif;
-    font-weight: medium;
+    font-weight: normal;
 }
 
 p.dlgenr-entry-sense-usage-heading {
@@ -1096,7 +1121,7 @@ span.dlgenr-entry-note-term-greek {
 span.dlgenr-entry-note-term-syriac {
 	font-family: 'Times New Roman', times, serif;
     font-size: 14pt;
-    font-weight: medium;
+    font-weight: normal;
     color: black;
 }
 

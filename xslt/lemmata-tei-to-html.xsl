@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:tei="http://www.tei-c.org/ns/1.0"
-    exclude-result-prefixes="xs"
+    exclude-result-prefixes="xs tei"
     version="2.0">
     
     <xsl:output media-type="text/html" method="html" encoding="UTF-8"/>
@@ -257,7 +257,7 @@
     </xsl:template>
     
     <xsl:template match="tei:form[@type = 'lemma']">
-        <xsl:element name="p">
+        <xsl:element name="div">
             <xsl:attribute name="class" select="'dlgenr-entry-form-lemma'"/>
             <xsl:apply-templates select="child::node()"/>
         </xsl:element>
@@ -288,7 +288,7 @@
         </xsl:element>
     </xsl:template>
     
-    <xsl:template match="tei:gramGrp">
+    <xsl:template match="tei:gramGrp[parent::tei:form[@type = 'lemma']]">
         <xsl:element name="p">
             <xsl:attribute name="class" select="'dlgenr-entry-grammatical-information'"/>
             <xsl:text>Grammatical information: </xsl:text>
@@ -301,8 +301,34 @@
         </xsl:element>
     </xsl:template>
     
-    <xsl:template match="tei:form[@type = 'variant']">
+    <xsl:template match="tei:gramGrp[parent::tei:form[@type = 'variant']]">
         <xsl:element name="p">
+            <xsl:attribute name="class" select="'dlgenr-entry-variant-grammatical-information'"/>
+            <xsl:text>Grammatical information: </xsl:text>
+            <xsl:for-each select="child::tei:gram">
+                <xsl:value-of select="text()"/>
+                <xsl:if test="position() != last()">
+                    <xsl:text> </xsl:text>
+                </xsl:if>
+            </xsl:for-each>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="tei:gramGrp[parent::tei:form[@type = 'inflected']]">
+        <xsl:element name="p">
+            <xsl:attribute name="class" select="'dlgenr-entry-inflected-grammatical-information'"/>
+            <xsl:text>Grammatical information: </xsl:text>
+            <xsl:for-each select="child::tei:gram">
+                <xsl:value-of select="text()"/>
+                <xsl:if test="position() != last()">
+                    <xsl:text> </xsl:text>
+                </xsl:if>
+            </xsl:for-each>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="tei:form[@type = 'variant']">
+        <xsl:element name="div">
             <xsl:attribute name="class" select="'dlgenr-entry-form-variant'"/>
             <xsl:text>Variant: </xsl:text>
             <xsl:apply-templates select="child::node()"/>
