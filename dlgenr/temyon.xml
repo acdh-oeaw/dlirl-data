@@ -104,14 +104,22 @@
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>
-                     ר' אבהו אמר למלך [V Ox 1 K משל למלך] שקנה לו ב' עבדים שניהם באוני אחת ובטימי אחת, על אחד גזר שיהיה ניזון מטימיון ועל אחד גזר שיהיה יגע ישב לו תוהא ובוהא, אמר שנינו אחת זה ניזון מטימיון ואני ביגיעתי אתמהא [ואני ביגיעתו אתמהא. Vat 2 Ox 1 K V ואני אם איני יגע איני אוכל]
+                     ר' אבהו אמר 
+                     <app>
+                        <lem>למלך</lem>
+                        <rdg wit="#V Ox1 K">משל למלך</rdg></app>
+                     שקנה לו ב' עבדים שניהם באוני אחת ובטימי אחת, על אחד גזר שיהיה ניזון מטימיון ועל אחד גזר שיהיה יגע ישב לו תוהא ובוהא, אמר שנינו אחת זה ניזון מטימיון ואני ביגיעתי אתמהא 
+                     <app>
+                        <lem>ואני ביגיעתו אתמהא</lem>
+                        <rdg wit="#Vat2 Ox1 K V">ואני אם איני יגע איני אוכל</rdg>
+                     </app>
          </quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">2,2</ref>
                      <ref type="witness">I 15: 4</ref>
                   </bibl>
                   <ref type="entry" xml:lang="jpa">טימי</ref>
-                  <ref type="entry" xml:lang="jpa" target="oni">אוני</ref>
+                  <ref type="entry" xml:lang="jpa" target="oni.html">אוני</ref>
                   <cit type="translation" xml:lang="en">
                      <quote>
                         R. Abbahu said: This may be compared to the case of a king who bought two slaves on the same bill of sale and at the same price. One he ordered to be supported at the public expense, while the other he ordered to toil for his bread. The latter sat bewildered and astonished: ‘Both of us were bought at the same price,’ exclaimed he, ‘yet he is supported from the treasury whilst I have to gain my bread by my toil!  [How amazing!]’ (Freedman / Simon I 15)
@@ -123,7 +131,12 @@
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>
-                     למדינה שחייבת ליפס [Vat 2 ליפת | Vat 1  פס] למלך שלח המלך גביי טימיון לגבותה
+                     למדינה שחייבת 
+                     <app>
+                        <lem>ליפס</lem>
+                        <rdg wit="#Vat2">ליפת</rdg>
+                        <rdg wit="#Vat1">פס</rdg>
+                     </app> למלך שלח המלך גביי טימיון לגבותה
          </quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">41 (42),3</ref>
@@ -149,7 +162,16 @@
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>
-                     לשתי מדינות שמרדו במלך, אמר המלך אחת תשרף [אחת תשרף. V Ox 2 K תשרף אחת באש] משלה ואחת תשרף [Ox 2 תשרף באש] מטמיון
+                     לשתי מדינות שמרדו במלך, אמר המלך 
+                     <app>
+                        <lem>אחת תשרף</lem>
+                        <rdg wit="#V Ox2 K">תשרף אחת באש</rdg>
+                     </app>
+                     משלה ואחת 
+                     <app>
+                        <lem>תשרף</lem>
+                        <rdg wit="#Ox2">תשרף באש</rdg>
+                     </app> מטמיון
          </quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">51,2</ref>
@@ -201,7 +223,7 @@
                <term xml:lang="fjb">ṭmyqʾ</term>
                <term xml:lang="rabbinic">ṭemiqaʾ</term> Gr. <term xml:lang="grc">ταμειακά</term> 'imperial treasury' (
       <bibl type="modern" default="false" status="draft">Krauss, LW II 268b</bibl>, not in GenR). Cf. Syr. <term xml:lang="syc">ܛܡܝܘܢ</term>
-               <term xml:lang="jpa">ṭmywn</term> (
+               <term xml:lang="fjb">ṭmywn</term> (
       <bibl type="modern" default="false" status="draft">Sokoloff, SL 536-537</bibl>).
    </note>
             <ref type="bibliography">

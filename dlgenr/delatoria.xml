@@ -95,7 +95,11 @@
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>
-                     ר' יהושע דסכנין בשם ר' לוי התחיל אומר דילטוריה לבוראו [Ox 1 Ox 2 Vat 1 V על בוראו]
+                     ר' יהושע דסכנין בשם ר' לוי התחיל אומר דילטוריה 
+                     <app>
+                        <lem>לבוראו</lem>
+                        <rdg wit="#Ox1 Ox2 Vat1 V">על בוראו</rdg>
+                     </app>
          </quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">19,4</ref>

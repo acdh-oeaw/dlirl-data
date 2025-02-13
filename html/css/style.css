@@ -962,6 +962,13 @@ p.dlgenr-entry-form-form-equivalent-quotation {
     color: black;
 }
 
+p.dlgenr-entry-form-form-equivalent-quotation-latin {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: normal;
+    font-size: 12pt;
+    color: black;
+}
+
 div.dlgenr-entry-sense {
 	font-family: 'Cormorant Garamond', serif;
     font-weight: normal;

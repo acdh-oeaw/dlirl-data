@@ -87,7 +87,7 @@
                   <quote>altar</quote>
                </cit>
                <cit type="translation" xml:lang="en" subtype="sense">
-                  <lbl opt="false">esp.</lbl>
+                  <lbl opt="false">esp. </lbl>
                   <quote>pagan altar</quote>
                </cit>
                <cit type="translationEquivalent" xml:lang="grc">
@@ -98,7 +98,11 @@
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>
-                     תני ר' ישמעאל אין צחק אלא עבודה זרה שנ' ויקומו לצחק מלמד שהיתה שרה רואה את ישמעאל בונה בימסיות [Ox2 דימוסיות] וצד חגבים ומקריב עליהם
+                     תני ר' ישמעאל אין צחק אלא עבודה זרה שנ' ויקומו לצחק מלמד שהיתה שרה רואה את ישמעאל בונה 
+                     <app>
+                        <lem>בימסיות</lem>
+                        <rdg wit="#Ox2">דימוסיות</rdg>
+                     </app> וצד חגבים ומקריב עליהם
          </quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">53,11</ref>

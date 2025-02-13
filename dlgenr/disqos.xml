@@ -49,11 +49,11 @@
                   <gram type="pos" opt="false">noun</gram>
                   <gram type="gen" opt="false">m</gram>
                </gramGrp>
-               <form type="variant" opt="false">
-                  <orth type="variant" source="Vat2" opt="false">דיסקיס</orth>
+               <form type="variant" source="Vat2" opt="false">
+                  <orth type="variant" opt="false">דיסקיס</orth>
                </form>
-               <form type="variant" opt="false">
-                  <orth type="variant" source="Ox2" opt="false">דסקוס</orth>
+               <form type="variant" source="Ox2" opt="false">
+                  <orth type="variant" opt="false">דסקוס</orth>
                </form>
             </form>
             <sense n="1" xml:id="disqos-dlgenr-1" opt="false">

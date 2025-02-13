@@ -392,6 +392,13 @@
         </xsl:element>
     </xsl:template>
     
+    <xsl:template match="tei:quote[@xml:lang = 'la'][parent::tei:form[@type = 'equivalent']]">
+        <xsl:element name="p">
+            <xsl:attribute name="class" select="'dlgenr-entry-form-form-equivalent-quotation-latin'"/>
+            <xsl:apply-templates select="child::node()"/>
+        </xsl:element>
+    </xsl:template>
+    
     <xsl:template match="tei:orth[@type = 'inflected']">
         <xsl:element name="span">
             <xsl:attribute name="class" select="'dlgenr-entry-form-form-inflected-orth'"/>
@@ -427,6 +434,10 @@
                     <xsl:element name="p">
                         <xsl:attribute name="class" select="'dlgenr-entry-sense-translation-equivalent'"/>
                         <xsl:text>Translation equivalent: </xsl:text>
+                        <xsl:if test="exists(./child::tei:lbl)">
+                            <xsl:value-of select="./child::tei:lbl[1]/text()"/>
+                            <xsl:text> </xsl:text>
+                        </xsl:if>
                         <xsl:if test="./@xml:lang = 'grc'">
                             <xsl:element name="span">
                                 <xsl:attribute name="class" select="'dlgenr-entry-sense-translation-equivalent-greek'"/>

@@ -62,9 +62,9 @@
                   <quote xml:lang="jpa">
 אלכסנדרוס מקדון אזל גבי מלכא קצייה לאחורי צלמי שלחשך
 נפק טעין ליה גרדומי דדהב בגו דיסקס דדהב 
-            <bibl default="false" status="draft">
+            <!-- <bibl default="false" status="draft">
                         <ref type="witness">GenR 33,1 (Th-Al)</ref>
-                     </bibl>
+                     </bibl> -->
                   </quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">8,1</ref>

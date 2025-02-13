@@ -57,13 +57,16 @@
                      <gram type="num" opt="false">pl.</gram>
                   </gramGrp>
                </form>
-               <form type="variant" source="79,6 - V" opt="false">
+               <form type="variant" opt="false">
                   <orth type="variant" xml:lang="jpa" opt="false">דורונות</orth>
                   <orth type="transliteration" xml:lang="fjb" opt="false">dwrwnwt</orth>
                   <pron notation="rabbinic" opt="false">doronot</pron>
                   <gramGrp opt="false">
                      <gram type="num" opt="false">pl.</gram>
                   </gramGrp>
+               </form>
+               <form type="variant" source="79,6 - V" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דורונות</orth>
                </form>
                <form type="variant" source="79,6 - Ox1 Ox2" opt="false">
                   <orth type="variant" xml:lang="jpa" opt="false">דורון</orth>

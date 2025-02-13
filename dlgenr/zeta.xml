@@ -67,47 +67,39 @@
                </cit>
                <cit type="example">
                   <quote xml:lang="jpa">
-אמר להון מדידכון אנא ממטי לכון 
-            <app>
-                        <lem>זיטא</lem>
-                     </app>
-                     <ref type="entry">איפטה</ref>
-                     <ref type="entry">איטה</ref>
-                     <ref type="entry">אכטו</ref>
+אמר להון מדידכון אנא ממטי לכון זיטא
                   </quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">14,2</ref>
                      <ref type="witness">I 127: 3</ref>
                   </bibl>
+                  <ref type="entry">איפטה</ref>
+                  <ref type="entry">איטה</ref>
+                  <ref type="entry">אכטו</ref>
                   <cit type="translation">
                      <quote xml:lang="en">
-He replied to them: From your own [language] I will prove it to you: “Zeṭaʾ (live) epṭah (seven), eṭah (go) akṭo (eight)”
+                        He replied to them: From your own [language] I will prove it to you: “Zeṭaʾ (live) epṭah (seven), eṭah (go) akṭo (eight)” (Freedman / Simon I: 112)
             </quote>
-                     <bibl default="false" status="draft">Freedman / Simon I: 112</bibl>
                   </cit>
                </cit>
                <cit type="example">
                   <quote xml:lang="jpa">
-אמר להון מדידכון אנה ממטי לכון
-            <app>
-                        <lem>זיטא</lem>
-                     </app>
-                     <ref type="entry">איפטה</ref>
-                     <ref type="entry">היטה</ref>
-                     <ref type="entry">אוקטון</ref>
+אמר להון מדידכון אנה ממטי לכון זיטא
                   </quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">20,6</ref>
                      <ref type="witness">I 189: 3</ref>
                   </bibl>
+                  <ref type="entry">איפטה</ref>
+                  <ref type="entry">היטה</ref>
+                  <ref type="entry">אוקטון</ref>
                   <cit type="translation">
                      <quote xml:lang="en">He replied to them: From your own [language] I will prove
-it to you: “Zeṭaʾ (live) epṭah (seven), eṭah (go) akṭo (eight)”
-= Yalq. Bereshit 20 (6c: 53); NumR 4,3; Yalq. Bemidbar 692 (220d: 13), Tanh Bemidbar 18, TanhB Bemidbar 21; yYev 5d: 7 (corr.): <term xml:lang="jpa">זוטא</term>
-                        <term xml:lang="fjb">zwṭʾ</term>
+                        it to you: “Zeṭaʾ (live) epṭah (seven), eṭah (go) akṭo (eight)” (Freedman / Simon I: 164)
                      </quote>
-                     <bibl default="false" status="draft">Freedman / Simon I: 164</bibl>
                   </cit>
+                  <note>= Yalq. Bereshit 20 (6c: 53); NumR 4,3; Yalq. Bemidbar 692 (220d: 13), Tanh Bemidbar 18, TanhB Bemidbar 21; yYev 5d: 7 (corr.): <term xml:lang="jpa">זוטא</term>
+                     <term xml:lang="fjb">zwṭʾ</term></note>
                </cit>
             </sense>
             <etym type="borrowing" opt="false">
