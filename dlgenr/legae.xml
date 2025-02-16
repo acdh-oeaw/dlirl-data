@@ -78,7 +78,56 @@
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>
-                     כתנות עור [K Vat 1 V Ox 1 עור שהן | Vat 2 עור כתנות שהן] שדבקים [ Vat 2 Vat 1 דבוקין |K V Ox 1 דבוקים] לעור, ר' אלעזר א' איגיאה [Vat 1 ארגיה ר' אייבו אמ' אגגיה | Vat 2 ארגייה ר' ר' אייבו א' איגייה | K איגייה ר' איבו אמ' אגנייה |V איגייא ר' איבו אמר אגגייה| Ox 2 אגיהו ר' איבו אמר אגגייה] , ר' יהושע [ V  Vat 1 Vat 2 K יהושע בן לוי] א' [K -] לנא , ר' יוסי בר חני' אמר [V K Vat 1  -] סיסרגון [Vat 1 סיסרטן | Vat 2 סיסרנון | K סיסטרא |V סירטון |Ox 1 סיסרטא], ריש לקיש [ריש לקיש. Vat 1 Vat 2  K V ר' שמעון בן לקיש א'] גלאקסטין [Vat 1 גלאקסינון | Vat 2 גלאססינון |V K גלא קסינון | Ox 1 גלקסינון]
+                     כתנות 
+                     <app>
+                        <lem>עור</lem>
+                        <rdg wit="#K Vat1 V Ox1">עור שהן</rdg>
+                        <rdg wit="#Vat2">עור כתנות שהן</rdg>
+                     </app>
+                     <app>
+                        <lem>שדבקים</lem>
+                        <rdg wit="#Vat1 Vat2">דבוקין</rdg>
+                        <rdg wit="#K V Ox1">דבוקים</rdg>
+                     </app> לעור, ר' אלעזר א' 
+                     <app>
+                        <lem>איגיאה</lem>
+                        <rdg wit="#Vat1">ארגיה ר' אייבו אמ' אגגיה</rdg>
+                        <rdg wit="#Vat2">ארגייה ר' ר' אייבו א' איגייה</rdg>
+                        <rdg wit="#K">איגייה ר' איבו אמ' אגנייה</rdg>
+                        <rdg wit="#V">איגייא ר' איבו אמר אגגייה</rdg>
+                        <rdg wit="#Ox2">אגיהו ר' איבו אמר אגגייה</rdg>
+                     </app> ר' 
+                     <app>
+                        <lem>יהושע</lem>
+                        <rdg wit="#V Vat1 Vat2 K">יהושע בן לוי</rdg>
+                     </app>
+                     <app>
+                        <lem>א'</lem>
+                        <rdg wit="#K">-</rdg>
+                     </app> לנא , ר' יוסי בר חני' 
+                     <app>
+                        <lem>אמר</lem>
+                        <rdg wit="#V K Vat1">-</rdg>
+                     </app>
+                     <app>
+                        <lem>סיסרגון</lem>
+                        <rdg wit="#Vat1">סיסרטן</rdg>
+                        <rdg wit="#Vat2">סיסרנון</rdg>
+                        <rdg wit="#K">סיסטרא</rdg>
+                        <rdg wit="#V">סירטון</rdg>
+                        <rdg wit="#Ox1">סיסרטא</rdg>
+                     </app> ריש לקיש 
+                     <app>
+                        <lem>ריש לקיש</lem>
+                        <rdg wit="#Vat1 Vat2 K V">ר' שמעון בן לקיש א'</rdg>
+                     </app>
+                     <app>
+                        <lem>גלאקסטין</lem>
+                        <rdg wit="#Vat1">גלאקסינון</rdg>
+                        <rdg wit="#Vat2">גלאססינון</rdg>
+                        <rdg wit="#V K">גלא קסינון</rdg>
+                        <rdg wit="#Ox1">גלקסינון</rdg>
+                     </app>
          </quote>
                   <ref type="entry" xml:lang="jpa">איגיאה</ref>
                   <ref type="entry" xml:lang="jpa">אגגיה</ref>
