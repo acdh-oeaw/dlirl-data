@@ -51,7 +51,7 @@
                </gramGrp>
             </form>
             <form type="variant" opt="false">
-               <orth xml:lang="jpa" opt="false">ספיקולא</orth>
+               <orth xml:lang="jpa" opt="false">ספיקולה</orth>
                <orth type="transliteration" xml:lang="fjb" opt="false">spyqwlh</orth>
                <pron notation="rabbinic" opt="false">spequlah</pron>
             </form>

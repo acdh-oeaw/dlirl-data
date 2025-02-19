@@ -463,7 +463,11 @@
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>
-                     איני נגלה עליו אלא בפלטין [אלא בפלטין. V  Vat 2 Vat 1 לא בפלטין של ענר ולא בפלטין של אשכל אלא בפלטין] שלך.
+                     איני נגלה עליו 
+                     <app>
+                        <lem>אלא בפלטין</lem>
+                        <rdg wit="#V Vat1 Vat2">לא בפלטין של ענר ולא בפלטין של אשכל אלא בפלטין</rdg>
+                     </app> שלך.
          </quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">41 (42),8</ref>

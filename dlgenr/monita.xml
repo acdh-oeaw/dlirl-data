@@ -200,7 +200,7 @@
                </cit>
             </sense>
             <sense n="2" xml:id="monita-dlgenr-2" opt="false">
-               <cit type="translation" xml:lang="en">
+               <cit type="translation" xml:lang="en" subtype="sense">
                   <quote>coinage (of names)</quote>
                </cit>
                <cit type="example" xml:lang="jpa">

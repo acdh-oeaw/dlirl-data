@@ -57,7 +57,7 @@
                </form>
             </form>
             <form type="inflected" opt="false">
-               <orth xml:lang="jpa" opt="false">תימליוסים</orth>
+               <orth type="inflected" xml:lang="jpa" opt="false">תימליוסים</orth>
                <orth type="transliteration" xml:lang="fjb" opt="false">tymlywsym</orth>
                <pron notation="rabbinic" opt="false">temeliosim</pron>
                <gramGrp opt="false">
@@ -66,7 +66,7 @@
                </gramGrp>
             </form>
             <form type="inflected" opt="false">
-               <orth xml:lang="jpa" opt="false">תמיליוסים</orth>
+               <orth type="inflected" xml:lang="jpa" opt="false">תמיליוסים</orth>
                <orth type="transliteration" xml:lang="fjb" opt="false">tmylywsym</orth>
                <pron notation="rabbinic" opt="false">temeliosim</pron>
                <gramGrp opt="false">
@@ -84,10 +84,10 @@
                <cit type="translation" xml:lang="en" subtype="sense">
                   <quote>cornerstone, foundation</quote>
                </cit>
-               <cit type="translationEquivalent">
+               <cit type="translationEquivalent" xml:lang="grc">
                   <quote xml:lang="grc">θεμέλιος (λίθος)</quote>
                </cit>
-               <cit type="translationEquivalent">
+               <cit type="translationEquivalent" xml:lang="grc">
                   <quote xml:lang="grc">θεμελίωσις</quote>
                </cit>
                <cit type="example">
