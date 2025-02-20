@@ -66,7 +66,6 @@
                   <quote>ἐκβιβαστής</quote>
                </cit>
                <cit type="example">
-<!-- here we have a passage with various readings. Manuscript sigla are provided in the @wit attribute. We have to look how well mixed content works with RTL scripts. -->
                   <quote xml:lang="jpa">
                      <app>
                         <lem>אגבה בסטס</lem>
@@ -80,10 +79,8 @@
                      <ref type="witness">I 55:3</ref>
                   </bibl>
                   <cit type="translation">
-<!-- The english translation of the passage is encoded in a nested cit element -->
                      <quote xml:lang="en">
 "the executor in his province”
-<!-- The english translation of the passage-->
             </quote>
                   </cit>
                </cit>

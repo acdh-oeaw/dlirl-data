@@ -1006,6 +1006,14 @@ span.dlgenr-entry-sense-translation-equivalent-greek {
     font-weight: normal;
 }
 
+div.list-of-lemmata-lemma-greek {
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24pt;
+    font-weight: normal;
+    margin-left: 60pt;
+}
+
 span.dlgenr-entry-sense-translation-equivalent-latin {
 	background-color: #f5e3c9;
     color: black;

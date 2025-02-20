@@ -82,6 +82,10 @@
                      <ref type="witness">40,4</ref>
                      <ref type="witness">I 384: 7</ref>
                   </bibl>
+                  <cit type="translation">
+                     <quote xml:lang="en">And she said: I will surely go with thee, notwithstanding (efes) the journey that thou takest shall not be for thy honour (Jdc 4,9). R. Reʾuven said: “Efes” is a Greek word “hafes” (let alone). Said she to him: ‘What do you think? that the glory of the singing shall be given to you only?!’ He retired into the second place, as it is written, Then sang Deborah and Barak the son of Abinoam, etc. 
+                        (Jdc 5,1) (Cf. Freedman / Simon I 328-329)</quote>
+                  </cit>
                </cit>
             </sense>
             <etym type="borrowing" opt="false">
@@ -101,10 +105,6 @@
       <bibl default="false" status="draft">Yalq Jdc 43 [353d: 18-21]</bibl> [-]
    </note>
             <note anchored="true">
-               And she said: I will surely go with thee, notwithstanding (efes) the journey that thou takest shall not be for thy honour (
-      <bibl type="ancient" default="false" status="draft">Jdc 4,9</bibl>). R. Reʾuven said: “Efes” is a Greek word “hafes” (let alone). Said she to him: ‘What do you think? that the glory of the singing shall be given to you only?!’ He retired into the second place, as it is written, Then sang Deborah and Barak the son of Abinoam, etc. (
-      <bibl type="ancient" default="false" status="draft">Jdc 5,1</bibl>) (Cf.
-      <bibl type="modern" default="false" status="draft">Freedman / Simon I 328-329</bibl>)
                Cf. 
       <bibl type="modern" default="false" status="draft">AC I 222a</bibl>;
       <bibl type="modern" default="false" status="draft">Levy I 145b-146a</bibl>;
@@ -117,7 +117,7 @@
       <bibl type="modern" default="false" status="draft">Krauss, LW I 59</bibl>.
    </note>
             <ref type="bibliography">
-               <bibl default="false" status="draft">
+               <bibl default="false" status="draft" facs="https://archive.org/details/GriechischeUndLateinischeLehnwrterInTalmudMidraschUndTargum/Griechische_und_lateinische_Lehnwrter2/page/n127/mode/2up">
                   <title>Krauss, LW II</title>
                   <citedRange>110a</citedRange>
                </bibl>

@@ -767,10 +767,22 @@
     <xsl:template match="tei:bibl[parent::tei:ref[@type = 'bibliography']]">
         <xsl:element name="p">
             <xsl:attribute name="class" select="'dlgenr-entry-bibliography-line'"/>
-            <xsl:value-of select="tei:title"/>
-            <xsl:text>, </xsl:text>
-            <xsl:value-of select="tei:citedRange"/>
-            <xsl:text>.</xsl:text>
+            <xsl:if test="exists(@facs)">
+                <xsl:element name="a">
+                    <xsl:attribute name="href" select="@facs"/>
+                    <xsl:attribute name="target" select="'_blank'"/>
+                    <xsl:value-of select="tei:title"/>
+                    <xsl:text>, </xsl:text>
+                    <xsl:value-of select="tei:citedRange"/>
+                </xsl:element>
+                <xsl:text>.</xsl:text>
+            </xsl:if>
+            <xsl:if test="not(exists(@facs))">
+                <xsl:value-of select="tei:title"/>
+                <xsl:text>, </xsl:text>
+                <xsl:value-of select="tei:citedRange"/>
+                <xsl:text>.</xsl:text>
+            </xsl:if>
         </xsl:element>
     </xsl:template>
     

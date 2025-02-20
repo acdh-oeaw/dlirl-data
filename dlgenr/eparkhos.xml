@@ -191,9 +191,9 @@
                      </app>
                      לטליא למה לא אייטיתה נון, אמר ליה מרי מה נכפור מינך, כך וכך עבד לי חד יהודי, מה הוית בעי דניטי לך חד נון בי"ב דינרין אתמהא, אמר ליה מן הוא, אמר ליה פלן יהודי, שלח ליה ואתייה, אמר יהודי חייט יאכול נון בי"ב דינרין, אמר ליה מרי אית לן חד יום דמכפר לן כל חובי שתא ואנן מוקרין ליה אתמהא, הביא ראייה לדבריו שבקיה.
                   </quote>
-                  <ref type="entry" xml:lang="jpa">אריסטון</ref>
-                  <ref type="entry" xml:lang="jpa">טימי</ref>
-                  <ref type="entry" xml:lang="jpa">דינרין</ref>
+                  <ref type="entry" xml:lang="jpa" target="ariston.html">אריסטון</ref>
+                  <ref type="entry" xml:lang="jpa" target="time.html">טימי</ref>
+                  <ref type="entry" xml:lang="jpa" target="dinar.html">דינרין</ref>
                   <bibl default="false" status="draft">
                      <ref type="witness">11,4</ref>
                      <ref type="witness">I 91: 8; I 92: 1</ref>
@@ -244,7 +244,7 @@
                      לאיסטרטלטיס ואת בשביל שאין לך מי יתלה לך אנקליטון לא תעשה משפט
                   </quote>
                   <ref type="entry" xml:lang="jpa">דוכס</ref>
-                  <ref type="entry" xml:lang="jpa">אנקליטון</ref>
+                  <ref type="entry" xml:lang="jpa" target="anqliton.html">אנקליטון</ref>
                   <ref type="entry" xml:lang="jpa">איסטרטלטיס</ref>
                   <bibl default="false" status="draft">
                      <ref type="witness">49,9</ref>

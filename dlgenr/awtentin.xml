@@ -109,11 +109,11 @@
                <term xml:lang="rabbinic">awtenṭiʾot</term> is attested in <bibl type="ancient" default="false" status="draft">LevR 2,4</bibl>.
       </note>
             <ref type="bibliography">
-               <bibl default="false" status="draft">
+               <bibl default="false" status="draft" facs="https://archive.org/details/GriechischeUndLateinischeLehnwrterInTalmudMidraschUndTargum/Griechische_und_lateinische_Lehnwrter2/page/n33/mode/2up">
                   <title>Krauss II</title>
                   <citedRange>16</citedRange>
                </bibl>
-               <bibl default="false" status="draft">
+               <bibl default="false" status="draft" facs="https://archive.org/details/GriechischeUndLateinischeLehnwrterInTalmudMidraschUndTargum/Griechische_und_lateinische_Lehnwrter2/page/n133/mode/2up">
                   <title>Krauss II</title>
                   <citedRange>117</citedRange>
                </bibl>

@@ -73,7 +73,6 @@
                   <quote>Αὐγουστάλιος</quote>
                </cit>
                <cit type="example">
-<!-- here we have a passage with various readings. Manuscript sigla are provided in the @wit attribute. We have to look how well mixed content works with RTL scripts. -->
                   <quote xml:lang="jpa">
 שמעון בן עזיי אומר וענותך תרבני בשר ודם מזכיר שמו ואחר כך שבחו פלן
             <app>
@@ -90,7 +89,6 @@
                      <ref type="witness">I 11:1</ref>
                   </bibl>
                   <cit type="translation">
-<!-- The english translation of the passage is encoded in a nested cit element -->
                      <quote xml:lang="en">
 Shimʿon ben Azzai sais: 
 And Thy condescension hath made me great (II Sam 22,36): A  human 
@@ -98,7 +96,6 @@ being mentions his name [first] and then his praise: So-and-so Augustalis,
 so-and-so, (I am) the noble. But the Holy One, blessed be He, is not so, 
 but he mentioned His name only after he had created all necessities of 
 the world - At the beginning created and then: God.
-<!-- The english translation of the passage-->
             </quote>
                   </cit>
                   <note anchored="true">= Yalq Bereshit 2 (2b: 13) (<term xml:lang="jpa">אגוסטא</term>)</note>
@@ -124,7 +121,7 @@ which is an alignment with <term xml:lang="jpa">אגוסטוס</term>
 (not attested in GenR).
    </note>
             <ref type="bibliography">
-               <bibl default="false" status="draft">
+               <bibl default="false" status="draft" facs="https://archive.org/details/GriechischeUndLateinischeLehnwrterInTalmudMidraschUndTargum/Griechische_und_lateinische_Lehnwrter2/page/n25/mode/2up">
                   <title>Krauss II</title>
                   <citedRange>9</citedRange>
                </bibl>
