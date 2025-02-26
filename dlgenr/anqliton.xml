@@ -94,10 +94,9 @@
                      <ref type="witness">II 510: 4; 511: 1</ref>
                   </bibl>
                   <ref type="entry" xml:lang="jpa">איסטרטלטיס</ref>
-                  <ref type="entry" xml:lang="jpa">איפרכוס</ref>
-                  <ref type="entry" xml:lang="jpa">איפרכוס</ref>
+                  <ref type="entry" xml:lang="jpa" target="eparkhos.html">איפרכוס</ref>
                   <ref type="entry" xml:lang="jpa">דוכס</ref>
-                  <ref type="entry" xml:lang="jpa">אנקלימון</ref>
+                  <ref type="entry" xml:lang="jpa" target="anqlimon.html">אנקלימון</ref>
                   <ref type="entry" xml:lang="jpa">אנקריטיריון</ref>
                   <cit type="translation" xml:lang="en">
                      <quote>

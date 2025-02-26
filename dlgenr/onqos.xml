@@ -89,7 +89,7 @@
                   </bibl>
                   <cit type="translation" xml:lang="en">
                      <quote>
-                        R. ʿAzariah quoted on this statement of R. Yehoshuaʿ b. Qarḥah the verse: “Thou art the Lord, even Thou alone; Thou hast made heaven” (Neh 9,6) (continuing the whole passage); and what was all this toil for? For “Thou art the Lord God, who didst choose Abram” (Neh 937) etc. (Freedman / Simon I 95)
+                        R. ʿAzariah quoted on this statement of R. Yehoshuaʿ b. Qarḥah the verse: “Thou art the Lord, even Thou alone; Thou hast made heaven” (Neh 9,6) (continuing the whole passage); and what was all this toil for? For “Thou art the Lord God, who didst choose Abram” (Neh 9,37) etc. (Freedman / Simon I 95)
             </quote>
                   </cit>
                   <note anchored="true">=
@@ -115,7 +115,7 @@
       <bibl type="modern" default="false" status="draft">Jastrow I 29</bibl>.
    </note>
             <ref type="bibliography">
-               <bibl default="false" status="draft">
+               <bibl default="false" status="draft" facs="https://archive.org/details/GriechischeUndLateinischeLehnwrterInTalmudMidraschUndTargum/Griechische_und_lateinische_Lehnwrter2/page/n39/mode/2up">
                   <title>Krauss, LW II</title>
                   <citedRange>22</citedRange>
                </bibl>

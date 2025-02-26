@@ -184,7 +184,7 @@
       <bibl type="modern" default="false" status="draft">Jastrow I 81b</bibl> (<term xml:lang="grc">ἀνδρολημψία</term>). Löw (in LW II 598b) doubts Krauss’ explanation.
    </note>
             <ref type="bibliography">
-               <bibl default="false" status="draft">
+               <bibl default="false" status="draft" facs="https://archive.org/details/GriechischeUndLateinischeLehnwrterInTalmudMidraschUndTargum/Griechische_und_lateinische_Lehnwrter2/page/n81/mode/2up">
                   <title>Krauss, LW II</title>
                   <citedRange>65ab</citedRange>
                </bibl>

@@ -108,7 +108,7 @@
                      <ref type="witness">II 1050: 4</ref>
                   </bibl>
                   <ref type="entry" xml:lang="jpa">פורפירה</ref>
-                  <ref type="entry" xml:lang="jpa">דוריות</ref>
+                  <ref type="entry" xml:lang="jpa" target="doriyyah.html">דוריות</ref>
                   <cit type="translation" xml:lang="en">
                      <quote>
                         R. Ḥaninaʾ bar Yiṣhaq said: By ‘a goodly Shinar mantle’ (Jos 7,21) a purple Babylonian purple robe is meant. How comes Babylon to be mentioned here? – Any king who had nor regent in Ereṣ Israel would regard his sovereignty with no value. The viceroy of the king of Babylon had his seat in Jericho, and the former would send dates to the latter, while the latter would reciprocate with gifts. (Freedman Simon II 799)
@@ -140,7 +140,7 @@
       <bibl type="modern" default="false" status="draft">Jastrow I 84a</bibl>. Only in rabb. Lit.
    </note>
             <ref type="bibliography">
-               <bibl default="false" status="draft">
+               <bibl default="false" status="draft" facs="https://archive.org/details/GriechischeUndLateinischeLehnwrterInTalmudMidraschUndTargum/Griechische_und_lateinische_Lehnwrter2/page/n87/mode/2up">
                   <title>Krauss, LW II</title>
                   <citedRange>71a</citedRange>
                </bibl>

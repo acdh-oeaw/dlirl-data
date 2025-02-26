@@ -66,14 +66,14 @@
                      <ref type="witness">81,5</ref>
                      <ref type="witness">II 977: 1</ref>
                   </bibl>
-                  <ref type="entry" xml:lang="jpa">אליו</ref>
+                  <ref type="entry" xml:lang="jpa" target="alio.html">אליו</ref>
                   <cit type="translation" xml:lang="en">
                      <quote>R. Shmuel bar Nahmani said: This is Greek, [in which allon means another, rendering] another weeping. (Freedman / Simon II 750)</quote>
                   </cit>
                </cit>
             </sense>
             <ref type="bibliography">
-               <bibl default="false" status="draft">
+               <bibl default="false" status="draft" facs="https://archive.org/details/GriechischeUndLateinischeLehnwrterInTalmudMidraschUndTargum/Griechische_und_lateinische_Lehnwrter2/page/n67/mode/2up">
                   <title>Krauss, LW II</title>
                   <citedRange>51b</citedRange>
                </bibl>

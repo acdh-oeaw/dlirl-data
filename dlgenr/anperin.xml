@@ -93,7 +93,7 @@
                      <ref type="witness">II 663: 6</ref>
                   </bibl>
                   <ref type="entry" xml:lang="jpa">לומפרין</ref>
-                  <ref type="entry" xml:lang="jpa">לופרין</ref>
+                  <ref type="entry" xml:lang="jpa" target="luparin.html">לופרין</ref>
                   <ref type="entry" xml:lang="jpa">לפרין</ref>
                   <ref type="entry" xml:lang="jpa">לפדין</ref>
                   <cit type="translation" xml:lang="en">
@@ -124,7 +124,7 @@
       <ref type="entry" xml:lang="jpa">לופרין</ref>.
    </note>
             <ref type="bibliography">
-               <bibl default="false" status="draft">
+               <bibl default="false" status="draft" facs="https://archive.org/details/GriechischeUndLateinischeLehnwrterInTalmudMidraschUndTargum/Griechische_und_lateinische_Lehnwrter2/page/n77/mode/2up">
                   <title>Krauss, LW II</title>
                   <citedRange>61</citedRange>
                </bibl>

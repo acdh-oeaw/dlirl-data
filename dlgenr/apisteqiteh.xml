@@ -96,7 +96,7 @@
                      <ref type="witness">70,13</ref>
                      <ref type="witness">II 812: 10</ref>
                   </bibl>
-                  <ref type="entry" xml:lang="jpa">דינרין</ref>
+                  <ref type="entry" xml:lang="jpa" target="dinar.html">דינרין</ref>
                   <cit type="translation" xml:lang="en">
                      <quote>
                         And it came to pass when Laban heard etc. (Gen 29,13). He reasoned: Eliʿezer was an unimportant member of the household, yet it is written of him, And the servant took ten camels (Gen 24,10); how much more so than this man who is beloved of his home! But when he had not even seen his sack of food he embraced him, thinking, perhaps he has money in his girdle. (cf. Freedman / Simon II 646)
@@ -129,7 +129,7 @@
    </note>
             <ref type="bibliography">
                <bibl default="false" status="draft">
-                  <title>Sokoloff, DJPA 47b</title>
+                  <title>Sokoloff, DJPA</title>
                   <citedRange>47b</citedRange>
                </bibl>
             </ref>

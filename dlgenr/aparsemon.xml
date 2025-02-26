@@ -70,7 +70,7 @@
                      <ref type="witness">II 671:5</ref>
                   </bibl>
                   <ref type="entry" xml:lang="jpa">בלסם</ref>
-                  <ref type="entry" xml:lang="jpa">אפופלסמון</ref>
+                  <ref type="entry" xml:lang="jpa" target="apopalsamon.html">אפופלסמון</ref>
                   <cit type="translation" xml:lang="en">
                      <quote>... thirteen streams of Balsam. (Freedman / Simon II 550)</quote>
                   </cit>
@@ -85,7 +85,7 @@
                <term xml:lang="fjb">ʾplsmwn</term>, <bibl type="ancient" default="false" status="draft">EkhaR 4,15</bibl>. The Greek etymology is uncertain, since the correct form is well preserved in <ref type="entry" xml:lang="jpa">בלסם</ref> and <ref type="entry" xml:lang="jpa">אפופלסמון</ref> (see <bibl type="modern" default="false" status="draft">Löw, Flora I 303f</bibl>, <bibl type="modern" default="false" status="draft">Löw (1881) 74</bibl>, and esp. <bibl type="modern" default="false" status="draft">Krauss (1937) 60ab</bibl>).
       </note>
             <ref type="bibliography">
-               <bibl default="false" status="draft">
+               <bibl default="false" status="draft" facs="https://archive.org/details/GriechischeUndLateinischeLehnwrterInTalmudMidraschUndTargum/Griechische_und_lateinische_Lehnwrter2/page/n133/mode/2up">
                   <title>Krauss, LW II</title>
                   <citedRange>117a</citedRange>
                </bibl>
