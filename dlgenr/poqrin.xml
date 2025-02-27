@@ -89,7 +89,6 @@
                      <ref type="witness">II 911: 5</ref>
                   </bibl>
                   <cit type="translation">
-<!-- The english translation of the passage is encoded in a nested cit element -->
                      <quote xml:lang="en">R. Pineḥas said: [Jacob] took a tuft of wool and stuffed it in his [the angel’s] throat, exclaiming: “You sorcerer, you sorcerer!
 Magicians do not succeed at night!” 
             </quote>
@@ -112,9 +111,9 @@ Magicians do not succeed at night!”
 Cf. AC VII 404; Levy IV 17; Jastrow II 1146.
    </note>
             <ref type="bibliography">
-               <bibl default="false" status="draft">
-                  <title>Krauss, LW</title>
-                  <citedRange>II 433</citedRange>
+               <bibl default="false" status="draft" facs="https://archive.org/details/GriechischeUndLateinischeLehnwrterInTalmudMidraschUndTargum/Griechische_und_lateinische_Lehnwrter2/page/n449/mode/2up">
+                  <title>Krauss, LW II</title>
+                  <citedRange>433</citedRange>
                </bibl>
             </ref>
          </entry>

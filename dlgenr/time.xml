@@ -84,8 +84,8 @@
                      <ref type="witness">2,2</ref>
                      <ref type="witness">I 15: 4</ref>
                   </bibl>
-                  <ref type="entry" xml:lang="jpa">טימיון</ref>
-                  <ref type="entry" xml:lang="jpa">אוני</ref>
+                  <ref type="entry" xml:lang="jpa" target="temyon.html">טימיון</ref>
+                  <ref type="entry" xml:lang="jpa" target="oni.html">אוני</ref>
                   <cit type="translation" xml:lang="en">
                      <quote>
                         R. Abbahu said: This may be compared to the case of a king who bought two slaves on the same bill of sale and at the same price. One he ordered to be supported at the public expense, while the other he ordered to toil for his bread. The latter sat bewildered and astonished: ‘Both of us were bought at the same price,’ exclaimed he, ‘yet he is supported from the treasury whilst I have to gain my bread by my toil!  [How amazing!]’ (Freedman / Simon I 15)
@@ -103,7 +103,7 @@
                      <ref type="witness">11,4</ref>
                      <ref type="witness">I 91: 8</ref>
                   </bibl>
-                  <ref type="entry" xml:lang="jpa">דינרין</ref>
+                  <ref type="entry" xml:lang="jpa" target="dinar.html">דינרין</ref>
                   <cit type="translation" xml:lang="en">
                      <quote>
                         … the one raised the price, and the other raised the price until it reached twelve dinars
@@ -121,7 +121,7 @@
                      <ref type="witness">35,3</ref>
                      <ref type="witness">I 333: [Notes]</ref>
                   </bibl>
-                  <ref type="entry" xml:lang="jpa">טימי</ref>
+                  <ref type="entry" xml:lang="jpa" target="time.html">טימי</ref>
                   <cit type="translation" xml:lang="en">
                      <quote>
                         I gave you a priceless object, whereas you returned me something worth but a “follar“. (Freedman / Simon I 286 n. 3)

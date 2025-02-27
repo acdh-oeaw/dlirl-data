@@ -103,7 +103,7 @@
                      <ref type="witness">48,9</ref>
                      <ref type="witness">II 486: 3</ref>
                   </bibl>
-                  <ref type="entry" xml:lang="jpa">דרומליס</ref>
+                  <ref type="entry" xml:lang="jpa" target="dromolis.html">דרומליס</ref>
                   <cit type="translation" xml:lang="en">
                      <quote>
                         R. Abbahu said: The tent of our father Abraham was open to both sides. R. Yudan said: He was like that fast runner; he said: If I see them turn aside, I will know that they are coming to me. When he saw them turn aside, immediately he ran to meet them.
@@ -127,7 +127,7 @@
                      <ref type="witness">59,6</ref>
                      <ref type="witness">II 635: 3</ref>
                   </bibl>
-                  <ref type="entry" xml:lang="jpa">דיפלון</ref>
+                  <ref type="entry" xml:lang="jpa" target="diplon.html">דיפלון</ref>
                   <cit type="translation" xml:lang="en">
                      <quote>
                         [And Abraham was old,] he entered the days. R. Yudan said in the name of R. Yahuda bar Simon: He entered a double age. R. Berakhyah in the name of R. Abbaʾ said: he entered the open gateway leading to the life of the world to come.
@@ -172,7 +172,7 @@
       <bibl type="modern" default="false" status="draft">Jastrow II 1163</bibl>. Used only together with <term xml:lang="jpa">מפולש</term> “open“.
    </note>
             <ref type="bibliography">
-               <bibl default="false" status="draft">
+               <bibl default="false" status="draft" facs="https://archive.org/details/GriechischeUndLateinischeLehnwrterInTalmudMidraschUndTargum/Griechische_und_lateinische_Lehnwrter2/page/n463/mode/2up">
                   <title>Krauss, LW II</title>
                   <citedRange>446</citedRange>
                </bibl>

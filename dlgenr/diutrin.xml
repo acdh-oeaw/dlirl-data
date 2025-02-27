@@ -85,7 +85,7 @@
                <bibl type="modern" default="false" status="draft">AC III 47a</bibl> explains as a Gr. <term xml:lang="grc">δύο</term> + <term xml:lang="grc">ἄντρον</term> („double-cave”); <bibl type="modern" default="false" status="draft">Levy II 393b</bibl>: Gr. <term xml:lang="grc">διάτορον</term>; <bibl type="modern" default="false" status="draft">Fürst 99b</bibl>: Gr. <term xml:lang="grc">διαιτητήριον</term>. See also Löw in Krauss.
       </note>
             <ref type="bibliography">
-               <bibl default="false" status="draft">
+               <bibl default="false" status="draft" facs="https://archive.org/details/GriechischeUndLateinischeLehnwrterInTalmudMidraschUndTargum/Griechische_und_lateinische_Lehnwrter2/page/n215/mode/2up">
                   <title>Krauss, LW II</title>
                   <citedRange>199b</citedRange>
                </bibl>

@@ -73,9 +73,9 @@
                      <ref type="witness">14,2</ref>
                      <ref type="witness">I 127: 3</ref>
                   </bibl>
-                  <ref type="entry">איפטה</ref>
+                  <ref type="entry" target="epta.html">איפטה</ref>
                   <ref type="entry">איטה</ref>
-                  <ref type="entry">אכטו</ref>
+                  <ref type="entry" target="oqton.html">אכטו</ref>
                   <cit type="translation">
                      <quote xml:lang="en">
                         He replied to them: From your own [language] I will prove it to you: “Zeṭaʾ (live) epṭah (seven), eṭah (go) akṭo (eight)” (Freedman / Simon I: 112)
@@ -90,9 +90,9 @@
                      <ref type="witness">20,6</ref>
                      <ref type="witness">I 189: 3</ref>
                   </bibl>
-                  <ref type="entry">איפטה</ref>
+                  <ref type="entry" target="epta.html">איפטה</ref>
                   <ref type="entry">היטה</ref>
-                  <ref type="entry">אוקטון</ref>
+                  <ref type="entry" target="oqton.html">אוקטון</ref>
                   <cit type="translation">
                      <quote xml:lang="en">He replied to them: From your own [language] I will prove
                         it to you: “Zeṭaʾ (live) epṭah (seven), eṭah (go) akṭo (eight)” (Freedman / Simon I: 164)
@@ -120,8 +120,8 @@ mnemonic based on a Greek pun:  The name of the Greek letter ‘zeta’
 (numerical value 7) sounds like the Greek imp. <term xml:lang="grc">ζῆτω</term> (‘let it live!’), while the name of the letter ‘eta’ (numerical value 8) sounds like the Greek <term xml:lang="grc">ἲτω</term> (‘let it go!’, i.e. ‘die!’).
    </note>
             <ref type="bibliography">
-               <bibl default="false" status="draft">
-                  <title>Krauss II</title>
+               <bibl default="false" status="draft" facs="https://archive.org/details/GriechischeUndLateinischeLehnwrterInTalmudMidraschUndTargum/Griechische_und_lateinische_Lehnwrter2/page/n263/mode/2up">
+                  <title>Krauss, LW II</title>
                   <citedRange>246</citedRange>
                </bibl>
             </ref>

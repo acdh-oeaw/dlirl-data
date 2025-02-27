@@ -129,13 +129,13 @@
                         <rdg wit="#Ox1">גלקסינון</rdg>
                      </app>
          </quote>
-                  <ref type="entry" xml:lang="jpa">איגיאה</ref>
+                  <ref type="entry" xml:lang="jpa" target="igia.html">איגיאה</ref>
                   <ref type="entry" xml:lang="jpa">אגגיה</ref>
                   <ref type="entry" xml:lang="jpa">ארגייה</ref>
                   <ref type="entry" xml:lang="jpa">אגנייה</ref>
                   <ref type="entry" xml:lang="jpa">אגגייה</ref>
                   <ref type="entry" xml:lang="jpa">סיסרגון</ref>
-                  <ref type="entry" xml:lang="jpa">גלאקסטין</ref>
+                  <ref type="entry" xml:lang="jpa" target="galaqsinon.html">גלאקסטין</ref>
                   <bibl default="false" status="draft">
                      <ref type="witness">20,12</ref>
                      <ref type="witness">I 197: 1</ref>
@@ -167,7 +167,7 @@
       <bibl type="modern" default="false" status="draft">Levy II: 473</bibl>. Krauss: derived from Gr. <term xml:lang="grc">λαγός</term> „hare“.
    </note>
             <ref type="bibliography">
-               <bibl default="false" status="draft">
+               <bibl default="false" status="draft" facs="https://archive.org/details/GriechischeUndLateinischeLehnwrterInTalmudMidraschUndTargum/Griechische_und_lateinische_Lehnwrter2/page/n321/mode/2up">
                   <title>Krauss, LW II</title>
                   <citedRange>304</citedRange>
                </bibl>

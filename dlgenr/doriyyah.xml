@@ -186,7 +186,7 @@
                      <ref type="witness">85,14</ref>
                      <ref type="witness">II 1050: 5</ref>
                   </bibl>
-                  <ref type="entry">אנטיקיסר</ref>
+                  <ref type="entry" target="antiqesar.html">אנטיקיסר</ref>
                   <ref type="entry">פורפירה</ref>
                   <cit type="translation" xml:lang="en">
                      <quote>
@@ -224,7 +224,7 @@
                <term xml:lang="rabbinic">doron</term>.
    </note>
             <ref type="bibliography">
-               <bibl default="false" status="draft">
+               <bibl default="false" status="draft" facs="https://archive.org/details/GriechischeUndLateinischeLehnwrterInTalmudMidraschUndTargum/Griechische_und_lateinische_Lehnwrter2/page/n211/mode/2up">
                   <title>Krauss, LW II</title>
                   <citedRange>195</citedRange>
                </bibl>

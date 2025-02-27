@@ -98,7 +98,7 @@
                      <ref type="witness">50,3</ref>
                      <ref type="witness">II 518: 5</ref>
                   </bibl>
-                  <ref type="entry" xml:lang="jpa">ביטי</ref>
+                  <ref type="entry" xml:lang="jpa" target="bite.html">ביטי</ref>
                   <cit type="translation" xml:lang="en">
                      <quote>The wicked shall return ‘li-sheʾolah’ – to the netherworld (Ps 9,18). Said R. Abbaʾ b. Zavdah: That means to the nethermost compartment of hell. (Freedman / Simon I 435; II 620)</quote>
                   </cit>
@@ -111,7 +111,7 @@
                      <ref type="witness">II 777: 2</ref>
                   </bibl>
                   <ref type="entry" xml:lang="jpa">בוטי</ref>
-                  <ref type="entry" xml:lang="jpa">אמבטי</ref>
+                  <ref type="entry" xml:lang="jpa" target="ambate.html">אמבטי</ref>
                   <cit type="translation" xml:lang="en">
                      <quote>The wicked shall return ‘li-sheʾolah’ – to the netherworld (Ps 9,18). Said R. Abbaʾ b. Zavdah: That means to the nethermost depth of hell. (cf. Freedman / Simon I 435)</quote>
                   </cit>
@@ -122,7 +122,7 @@
          Already in LXX for <bibl type="ancient" default="false" status="draft">Hi 8,22</bibl> etc. Cf. <bibl type="modern" default="false" status="draft">Levy I 395b</bibl>; <bibl type="modern" default="false" status="draft">Jastrow I 298a</bibl>. Acc. to <bibl type="modern" default="false" status="draft">Krauss, LW II 1148a</bibl> a possible correct reading for <term xml:lang="jpa">ביטי</term>.
       </note>
             <ref type="bibliography">
-               <bibl default="false" status="draft">
+               <bibl default="false" status="draft" facs="https://archive.org/details/GriechischeUndLateinischeLehnwrterInTalmudMidraschUndTargum/Griechische_und_lateinische_Lehnwrter2/page/n215/mode/2up">
                   <title>Krauss, LW II</title>
                   <citedRange>199a</citedRange>
                </bibl>

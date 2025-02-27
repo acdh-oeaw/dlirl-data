@@ -82,7 +82,7 @@
                   <quote>
                      למדינה שחייבת ליפס למלך שלח המלך גביי טימיון לגבותה
          </quote>
-                  <ref type="entry" xml:lang="jpa">טימיון</ref>
+                  <ref type="entry" xml:lang="jpa" target="temyon.html">טימיון</ref>
                   <bibl default="false" status="draft">
                      <ref type="witness">14,3</ref>
                      <ref type="witness">I 403: 2</ref>
@@ -126,7 +126,7 @@
                <term xml:lang="jpa">לי</term> after omission of <term xml:lang="jpa">לי</term>. Pl. attested in the KohR parallel.
    </note>
             <ref type="bibliography">
-               <bibl default="false" status="draft">
+               <bibl default="false" status="draft" facs="https://archive.org/details/GriechischeUndLateinischeLehnwrterInTalmudMidraschUndTargum/Griechische_und_lateinische_Lehnwrter2/page/n333/mode/2up">
                   <title>Krauss, LW II</title>
                   <citedRange>316</citedRange>
                </bibl>

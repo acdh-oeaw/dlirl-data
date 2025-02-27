@@ -168,8 +168,8 @@
                      <ref type="witness">77,2</ref>
                      <ref type="witness">II 911: 5</ref>
                   </bibl>
-                  <ref type="entry" xml:lang="jpa">פרמקוס</ref>
-                  <ref type="entry" xml:lang="jpa">פיקרין</ref>
+                  <ref type="entry" xml:lang="jpa" target="farmakos.html">פרמקוס</ref>
+                  <ref type="entry" xml:lang="jpa" target="poqrin.html">פיקרין</ref>
                   <cit type="translation" xml:lang="en">
                      <quote>
                         The rabbis said: He appeared to him in the guise of a brigand: each had flocks and each had camels, and he proposed to him: “Do you take mine across and I will take yours.” The angel then transported Jacob’s in the twinkling of an eye, whereas [Jacob] our father took some across, returned, and found more, took those across, returned and found more [and so on]. “You are a sorcerer,” he exclaimed. R. Pineḥas said: [Jacob] took a tuft of wool and stuffed it in his [the “ (Freedman / Simon II 711)

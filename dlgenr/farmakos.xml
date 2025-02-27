@@ -98,8 +98,8 @@
                         <rdg wit="#Vat1 Vat2 Ox1 Ox2 V K">לו לזה צאן ולזה צאן לזה גמלים ולזה גמלים</rdg>
                      </app> אמר לו העבר שלי ואני אעביר שלך, עיבר המלאך את שלאבינו כהרף עין והוה אבינו מעביר וחוזר ומשכח מעביר וחוזר ומשכח, אמר ליה פרמקוס אמר ר' פינחס נטל פיקרין ונתן בצוארו אמר ליה פרמקוס פרמקוס לא חרשין מצלחין בליליא
          </quote>
-                  <ref type="entry" xml:lang="jpa">ארכיליסטיס</ref>
-                  <ref type="entry" xml:lang="jpa">פיקרין</ref>
+                  <ref type="entry" xml:lang="jpa" target="arkhilistes.html">ארכיליסטיס</ref>
+                  <ref type="entry" xml:lang="jpa" target="poqrin.html">פיקרין</ref>
                   <bibl default="false" status="draft">
                      <ref type="witness">77,2</ref>
                      <ref type="witness">II 911: 5</ref>
@@ -132,7 +132,7 @@
       <bibl type="modern" default="false" status="draft">Jastrow II 1230</bibl>. Various readings of this sequence are presented in the mss.
    </note>
             <ref type="bibliography">
-               <bibl default="false" status="draft">
+               <bibl default="false" status="draft" facs="https://archive.org/details/GriechischeUndLateinischeLehnwrterInTalmudMidraschUndTargum/Griechische_und_lateinische_Lehnwrter2/page/n507/mode/2up">
                   <title>Krauss, LW II</title>
                   <citedRange>490a</citedRange>
                </bibl>

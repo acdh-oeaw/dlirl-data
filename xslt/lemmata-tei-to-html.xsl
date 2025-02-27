@@ -772,15 +772,19 @@
                     <xsl:attribute name="href" select="@facs"/>
                     <xsl:attribute name="target" select="'_blank'"/>
                     <xsl:value-of select="tei:title"/>
-                    <xsl:text>, </xsl:text>
-                    <xsl:value-of select="tei:citedRange"/>
+                    <xsl:if test="exists(tei:citedRange)">
+                        <xsl:text>, </xsl:text>
+                        <xsl:value-of select="tei:citedRange"/>
+                    </xsl:if>
                 </xsl:element>
                 <xsl:text>.</xsl:text>
             </xsl:if>
             <xsl:if test="not(exists(@facs))">
                 <xsl:value-of select="tei:title"/>
-                <xsl:text>, </xsl:text>
-                <xsl:value-of select="tei:citedRange"/>
+                <xsl:if test="exists(tei:citedRange)">
+                    <xsl:text>, </xsl:text>
+                    <xsl:value-of select="tei:citedRange"/>
+                </xsl:if>
                 <xsl:text>.</xsl:text>
             </xsl:if>
         </xsl:element>

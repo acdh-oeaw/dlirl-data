@@ -155,7 +155,7 @@
                See <bibl type="modern">Jastrow I 337a</bibl> (for 100,9 Jastrow renders <term xml:lang="jpa">גיניסיא</term>). <bibl type="modern">Levy I 452a</bibl> renders for 100,9: <term xml:lang="jpa">הוגניסיס</term> <term xml:lang="fjb">hwgnysys</term> <term xml:lang="rabbinic">hognisis</term> from Gr. <term xml:lang="grc">εὐγέναια</term>. Cf. <bibl type="modern">AC III 181a</bibl>.
             </note>
             <ref type="bibliography">
-               <bibl default="false" status="draft">
+               <bibl default="false" status="draft" facs="https://archive.org/details/GriechischeUndLateinischeLehnwrterInTalmudMidraschUndTargum/Griechische_und_lateinische_Lehnwrter2/page/n239/mode/2up">
                   <title>Krauss, LW I</title>
                   <citedRange>223a</citedRange>
                </bibl>
