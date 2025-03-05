@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אגוסטא</title>
+            <title type="alternative">ʾgwsṭʾ</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="agusta-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אגוסטא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾgwsṭʾ</orth>
+               <pron notation="rabbinic" opt="false">agusṭa</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">אגוסטו</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾgwstw</orth>
+                  <pron notation="rabbinic">agusṭo</pron>
+               </form>
+            </form>
+            <sense xml:id="agusta-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>Augustus (title of the Roman emperors)</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <quote>Augustus</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>שמעון בן עזאי אומ' וענותך תרבני בשר ודם מזכיר שמו ואחר כך שבחו פלן אגוסטא, פלן פרטטא. אבל הקב"ה אינו כן משבנה צרכי עולמו ואחר כך הזכיר שמו בראשית ברא (אלהים) אחר כך – אלהים.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 1</ref>
+                     <ref type="witness">I 4: 44</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פרטטא</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Shimʿon ben Azzai says: And Thy condescension hath made me great (II Sam 22,36): A  human being mentions his name [first] and then his praise: So-and-so Augustus, so-and-so, (I am) the noble. But the Holy One, blessed be He, is not so, for he mentioned His name only after he had created all necessities of the world - At the beginning created and then: God.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 1,12 (I 11:1)</bibl> (<term xml:lang="jpa">אגוסטלא</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>בשעה שאדם מבקש לקטרג חברו קורא לו אגוסטא פל' ואין לו חיים אבל ישר' נקראו על שמו של הק'</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 604</ref>
+                     <ref type="witness">VI 579: 7</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">TanhB Qedoshim 5</bibl>; <bibl type="ancient">Tanh Qedoshim 5 [19b]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' לוי משל למלך שבנה מדינה והדליק לתוכה שני פנסין, אמר המלך כל מי שהוא מדליק שני פנסין כאלו אני קורא אותו אגוסטא ואיני מקנא אותו</quote>
+                  <bibl>
+                     <ref type="witness">Ps 840</ref>
+                     <ref type="witness">471b: 24</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">TanhB 6</bibl>; <bibl type="ancient">Tanh Beḥuqqotai 4 [27b]</bibl> (<term xml:lang="jpa">אגוסטו</term>, <term xml:lang="jpa">אגוסט"א</term>)</note>
+               </cit>
+            </sense>
+         </entry>
+      </body>
+  </text>
+</TEI>
