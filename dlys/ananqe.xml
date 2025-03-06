@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אננקי</title>
+            <title type="alternative">ʾnnqy</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="ananqe-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אננקי</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾnnqy</orth>
+               <pron notation="rabbinic" opt="false">ananqe</pron>
+               <gramGrp>
+                  <gram type="pos">adv.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="ananqe-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>in distress, in hurry</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἀνάγκη</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' יצחק וריש לקי' ר' יצחק אמ' בשר ודם מותח אהל, אהל אננקי על ידי שהות הוא רפי קימעא. ברם הכא, התרקיע עמו לשחקים. וא"ר שהן רפים, ת"ל חזקים כראי מוצק. ריש לקי' אמ' בשר ודם מוסך בולס אננקי על ידי שהות הוא מעלה חלודה. ברם הכא, חזקים כראי מוצק נראים כבשעת יציקתן כמין תרקיה</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 19</ref>
+                     <ref type="witness">I 59:19; 60: 22</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">תרקיה</ref>
+                  <ref type="entry" xml:lang="jpa">בולס</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Yiṣḥaq and R. Shimʿon ben Laqish. R. Yiṣḥaq said: when a man sets up a tent in hurry, after a while it will get slightly slacken, but here: Canst thou with Him spread out the sky? (Hi 37,18) And if you say that they are slack, the Scripture says: strong as a molten mirror (ibid.). Resh Laqish said: When a man makes in hurry a casting in form of a round object, after a while it will get rusty, but here: strong as a molten mirror [ibid.] - they [the heavens] look when they are melted like a vault.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 12,13 [I 111: 3,5]</bibl>; <bibl type="ancient">yBer 1,1 [3:48]</bibl> (-)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' יצחק וריש לקיש [ר' יצחק אמר] מלך בשר ודם מותח אהל, אהל אננקי על ידי שהות הוא רפי קימעא. ברם הכא, (ה)תרקיע עמו לשחקים. אם תאמר שהן רפים, ת"ל חזקים כראי מוצק. ריש לקיש אמר מלך בשר ודם (מושך אהל) 
+                     <app>
+                        <lem>מוסך בולס</lem>
+                        <rdg wit="#S">–</rdg>
+                        <rdg wit="#K W">כלים</rdg>
+                     </app> אננקי על ידי שהות מעלה חלודה. אבל הכא, חזקים כראי מוצק, נראים כבשעת יציקתן כמין תרקי</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 550</ref>
+                     <ref type="witness">VII 197: 82;85</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">תרקיה</ref>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>תרקיע עמו לשחקים בשר ודם מותח אהל אננקי על ידי שהות רפה קימעא וכו'</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 922</ref>
+                     <ref type="witness">510: 39</ref>
+                  </bibl>
+               </cit>
+            </sense>
+            <note>Usually used as noun f. (cf. <bibl type="ancient">Levy Targ1 41ab</bibl>). For the adverbial use (only in Hebr. context) cf. <bibl type="modern">Krauss, LW II 73b-74a</bibl> (see also <bibl type="ancient">MekhY Yitro 1</bibl> [<bibl type="modern">Horowitz 205: 14</bibl>] <term xml:lang="jpa">ושב אננקי לתשובה</term> [not mentioned by Krauss]). Cf. <bibl type="modern">AC I 150b-151a</bibl>. For the phrase <term xml:lang="jpa">בית אננקיה</term> <term xml:lang="fjb">byt ʾnnqyh</term> <term xml:lang="rabbinic">bet ananqeh</term> (“prison”), used in a probably Byzantine magical text <bibl type="ancient">Ḥarbaʾ de-Mosheh</bibl>, cf. <bibl type="modern">Sperber (2012) 177</bibl>. <bibl type="modern">Levy I 112a</bibl> explains the GenR reading parallel to Gr. <term xml:lang="grc">πρός ἀνάγκη</term>. <bibl type="modern">Jastrow I 86a</bibl> translates as “perforce, of necessity” (“if a human being spreads a tent, it must in course of time become loose”). Cf. Syr. <term xml:lang="syc">ܐܢܢܩܐ</term> <term xml:lang="fjb">ʾnnqʾ</term> (<bibl type="modern">Sokoloff, SL 63ab</bibl>).</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>41b-42a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

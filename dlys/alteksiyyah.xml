@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אלטיכסייה</title>
+            <title type="alternative">ʾlṭyksyyh</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="alteksiyyah-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אלטיכסייה</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾlṭyksyyh</orth>
+               <pron notation="rabbinic" opt="false">alṭeksiyyah</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">f.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="alteksiyyah-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>„dignified truth“ (?) or “corps of court guards“</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἀλήθεια + ἀξία (Levy I 83a) or *αὐλοταξία</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>מה עשה הקב"ה נטל אמת והשליכו לארץ אמרו מלאכי השרת לפני הקב"ה רבש"ע מה את מבזה תכסיס אלתמסון [אלטיכסייא] שלך, תעלה אמת מן הארץ הדא הוא דכתיב אמת מארץ תצמח.</quote>
+                  <cit type="translation" xml:lang="en">
+                     <quote>What did the Holy One, blessed be He? He took the truth and threw it on the ground. Said the ministering angels before the Holy One, blessed be He: “Sovereign of the universe! Why do you despise your dignified truth / corps of the court guards? Shall the truth arise from the earth! This is what is written: Let truth spring up from the earth (Ps 85,12).</quote>
+                  </cit>
+                  <bibl>
+                     <ref type="witness">Yalq Ps 834</ref>
+                     <ref type="witness">470b: 17</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">תכסיס</ref>
+                  <ref type="entry" xml:lang="jpa">אלתמסון</ref>
+                  <note>= <bibl type="ancient">GenR 8,5 (I 60: 9)</bibl></note>
+               </cit>
+            </sense>
+            <note>Emendation in W acc. to <bibl type="ancient">GenR</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>53a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

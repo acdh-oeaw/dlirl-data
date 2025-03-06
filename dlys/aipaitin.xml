@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">איפייטין</title>
+            <title type="alternative">ʾypyyṭyn</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="aipaitin-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">איפייטין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾypyyṭyn</orth>
+               <pron notation="rabbinic" opt="false">aipayṭin</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">איפייטון</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾypyyṭwn</orth>
+                  <pron notation="rabbinic">aipayṭon</pron>
+               </form>
+            </form>
+            <sense xml:id="aipaitin-ys-1">
+               <cit type="translation" subtype="sense" xml:lang="en">
+                  <quote>(meaning unknown)</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמרה אסתר יודעת אני שהוא דוכס ובניו 
+                     <app>
+                        <lem>איפייטין</lem>
+                        <rdg wit="#W">איטרטיגין</rdg>
+                        <rdg wit="#L">איסייתין</rdg>
+                        <rdg wit="#V">איסייטין</rdg>
+                     </app> בכל העולם</quote>
+                  <ref type="entry" xml:lang="jpa">דוכס</ref>
+                  <ref type="entry" xml:lang="jpa">איטרטיגין</ref>
+                  <bibl>
+                     <ref type="witness">Yalq Es 1058</ref>
+                     <ref type="witness">531c: 13</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">SAME(B) 6 [36b]</bibl> (<term xml:lang="jpa">איפייטון</term>)</note>
+               </cit>
+            </sense>
+            <note>Unclear. Buber in <bibl type="ancient">SAME</bibl> suggests corrupted <term xml:lang="jpa">אסטרטליט</term></note>
+         </entry>
+      </body>
+  </text>
+</TEI>

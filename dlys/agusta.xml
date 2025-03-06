@@ -90,12 +90,18 @@
                <cit type="example" xml:lang="jpa">
                   <quote>אמר ר' לוי משל למלך שבנה מדינה והדליק לתוכה שני פנסין, אמר המלך כל מי שהוא מדליק שני פנסין כאלו אני קורא אותו אגוסטא ואיני מקנא אותו</quote>
                   <bibl>
-                     <ref type="witness">Ps 840</ref>
+                     <ref type="witness">Yalq Ps 840</ref>
                      <ref type="witness">471b: 24</ref>
                   </bibl>
                   <note>= <bibl type="ancient">TanhB 6</bibl>; <bibl type="ancient">Tanh Beḥuqqotai 4 [27b]</bibl> (<term xml:lang="jpa">אגוסטו</term>, <term xml:lang="jpa">אגוסט"א</term>)</note>
                </cit>
             </sense>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>9a</citedRange>
+               </bibl>
+            </ref>
          </entry>
       </body>
   </text>

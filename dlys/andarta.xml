@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אנדרטא</title>
+            <title type="alternative">ʾndrṭʾ</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="andarta-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אנדרטא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾndrṭʾ</orth>
+               <pron notation="rabbinic" opt="false">andarṭaʾ</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">אנדרטא</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾndrṭʾ</orth>
+               </form>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">אנדרטין</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾndrṭyn</orth>
+                  <pron notation="rabbinic">andarṭin</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+            </form>
+            <sense xml:id="andarta-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>statue</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἀνδριάς</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>בי כנישתא ויתיב בנהרדעה דהוה בה אנדרטא ...</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 286</ref>
+                     <ref type="witness">III 449: 95</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>There was a synagogue in Nehardea with a statue in it ...</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אלא למלך שהיה מטייל פתח פלטין וראה בולרין אחת [מושלכת], אמר מה נעשה לה, מהן אומ' דימוסיות, מהן או' פרדכסיות, אמר המלך אנדרטין אני עושה אותה מי מעכב.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 13</ref>
+                     <ref type="witness">I 37: 56</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פלטין</ref>
+                  <ref type="entry" xml:lang="jpa">בולרין</ref>
+                  <ref type="entry" xml:lang="jpa">דימוסיות</ref>
+                  <ref type="entry" xml:lang="jpa">פרדכסיות</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>... but it may be compared to a king who was walking at the door of his palace when he saw a chunk lying about. Said he: “What shall we do with it?” Some answered: “[Use it in building] public baths”; others answered: “private baths”. “I will make a statue of it”, declared the king. Who then can hinder him? (cf. Friedman / Simon I 60)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 8,8 [I 62: 2]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>דתני' טבעת שחותמה בולט אסור להניחה. ומי חיישי' לחשדה, והא בי כנישתא ויתיב בנהרדעא דהוה בה אנדרטא והוו עיילי שמוא' ולוי ומצלו, דרבים שאני. ור"ג נשיא הוה ורבים שכיחי בהדיה. ואי' תי' דפרקים הוה, ואי' תי' להתלמד עבד, דכת' לא תלמד לעשות אבל אתה למד להבין ולהורות.</quote>
+                  <bibl>
+                     <ref type="witness">286</ref>
+                     <ref type="witness">III 449: 95</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>As it is taught: A ring: if its seal protrudes it is prohibited to place it, but it is permitted to seal with it; if its seal is sunken, it is permitted to place it, but it is prohibited to seal with it. And are we concerned about suspicion? But [there was a] synagogue in Neharde’a, and there was a statue in it. But Shemuʾel and Levi would enter and pray there! – [If there are] many, it is different.</quote>                     
+                  </cit>
+                  <note>= <bibl type="ancient">bRH 24b</bibl></note>
+               </cit>
+            </sense>
+            <note>The form <term xml:lang="jpa">אדריינטיס</term> <term xml:lang="fjb">adryynṭys</term> <term xml:lang="rabbinic">adraynṭis</term> (attested in <bibl type="ancient">GenR</bibl>) is derived from gen sg. (cf. <bibl type="modern">Levy I 32-33</bibl>; <bibl type="modern">Krauss, LW I 70</bibl>). The standard form is <term xml:lang="jpa">אנדרטוס</term> <term xml:lang="fjb">ʾndrṭws</term> <term xml:lang="rabbinic">andarṭos</term>, <term xml:lang="jpa">אנדרטה</term> <term xml:lang="fjb">ʾndrṭh</term> <term xml:lang="rabbinic">andarṭah</term>, <term xml:lang="jpa">אנדרטא</term> <term xml:lang="fjb">ʾndrṭʾ</term> <term xml:lang="rabbinic">andarṭaʾ</term> (cf. <bibl type="modern">Krauss, LW II 65ab</bibl>). Krauss suggests also Gr. <term xml:lang="grc">*ἀνδριάντη</term> (fem.) as possible source. However, see Lieberman, Greek 9, who assumes <term xml:lang="grc">ἀνδριάντιν</term> = <term xml:lang="grc">ἀνδριάντιον</term> (attested in Greek inscriptions).  Cf. Syr. <term xml:lang="syc">ܐܢܕܪܝܢܛܐ</term> <term xml:lang="fjb">ʾndrynṭʾ</term> (<bibl type="modern">Sokoloff, SL 59b</bibl>), <term xml:lang="syc">ܐܕܪܝܢܛܐ</term> <term xml:lang="fjb">ʾdrynṭʾ</term> (<bibl type="modern">Sokoloff, SL 11b</bibl>).</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>65b</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Sokoloff</title>
+                  <citedRange>64a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>
