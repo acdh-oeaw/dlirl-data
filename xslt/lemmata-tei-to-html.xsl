@@ -251,6 +251,21 @@
     <xsl:template match="tei:entry">
         <xsl:element name="div">
             <xsl:attribute name="id" select="'dlgenr-entry-in-box'"/>
+            <xsl:element name="div">
+                <xsl:attribute name="class" select="'dlgenr-entry-source'"/>
+                <xsl:if test="@source = 'Genesis Rabbah'">
+                    <xsl:element name="span">
+                        <xsl:attribute name="class" select="'dlgenr-entry-source-genr'"/>
+                        <xsl:value-of select="'GenR'"/>
+                    </xsl:element>
+                </xsl:if>
+                <xsl:if test="@source = 'Yalkut Shimoni'">
+                    <xsl:element name="span">
+                        <xsl:attribute name="class" select="'dlgenr-entry-source-yalq'"/>
+                        <xsl:value-of select="'Yalq'"/>
+                    </xsl:element>
+                </xsl:if>
+            </xsl:element>
             <xsl:apply-templates select="child::node()"/>
             <xsl:call-template name="citation"/>
         </xsl:element>

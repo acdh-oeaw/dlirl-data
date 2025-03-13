@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אגוסטא</title>
+            <title type="alternative">ʾgwsṭʾ</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="augusta-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אגוסטא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾgwsṭʾ</orth>
+               <pron notation="rabbinic">agusṭa</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">f.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">אגוסטה</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾgwsṭh</orth>
+                  <pron notation="rabbinic">agusṭah</pron>
+               </form>
+            </form>
+            <sense xml:id="augusta-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>Augusta (title of the female members of the Roman imperial House)</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <quote>Augusta</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>יתומה אחת שנשתיירה לו, זו ושתי, עשית אותה אגוסטא במלכות שאינה שלה</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Ps 652</ref>
+                     <ref type="witness">445a: 15</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>An orphan who was left to him, that is Vashti; you made her empress (Augusta) in a kingdom that was not hers.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">EsR 3,5</bibl>; <bibl type="ancient">MTeh 10,12</bibl>; <bibl type="ancient">MTeh 17,14</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>יתומה אחת נשתיירה, זו ושתי, עשית אותה אגוסטא בעולמך במלכות שאינה שלה</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Ps 671</ref>
+                     <ref type="witness">447c: 33</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>An orphan who was left, that is Vashti; you made her empress (Augusta) in your world, in a kingdom that was not hers.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">EsR 3,5</bibl>; <bibl type="ancient">MTeh 10,12</bibl>; <bibl type="ancient">MTeh 17,14</bibl></note>
+               </cit>
+            </sense>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>8b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אסטטיונר</title>
+            <title type="alternative">ʾsṭṭywnr</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="astatyonar-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אסטטיונר</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾsṭṭywnr</orth>
+               <pron notation="rabbinic">asṭaṭyonar</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="astatyonar-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>officer, soldier in police duty</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <quote>stationarius</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>לפי שבעולם הזה פרעה בשעתו, סיסרא בשעתו, סנחריב בשעתו, אבל לעתיד לבוא הב"ה עושה מלאך המות 
+                  <app>
+                     <lem>אסטטיונר</lem>
+                     <rdg wit="#W">אסטרטינוס</rdg>
+                  </app> שלהם</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 428</ref>
+                     <ref type="witness">XI 120: 10</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Whereas in this world Pharao [was punished] in his time, Sisera in his time; in the Messianic era He will appoint the angel of death their officer. (Freedman / Simon I 211)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 26,2 [I 245: 8]</bibl> (<term xml:lang="jpa">סטטיונר</term>)</note>
+               </cit>
+            </sense>
+            <note>Cf. <ref type="entry" xml:lang="jpa">סטטיונר</ref></note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>379a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

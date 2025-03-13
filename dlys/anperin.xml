@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אנפרין</title>
+            <title type="alternative">ʾnpryn</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="anperin-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אנפרין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾnpryn</orth>
+               <pron notation="rabbinic" opt="false">ʾanperin</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">אמפרין</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾmpryn</orth>
+                  <pron notation="rabbinic">ʾamperin</pron>
+               </form>
+            </form>
+            <sense xml:id="anperin-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>blacksmiths</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἔμπυρος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ויקשן ילד את שבא ואת דדן. אע"ג דאנון מתרגמין תגרין 
+                     <app>
+                        <lem>ואפרין</lem>
+                        <rdg wit="#W S">ולופרין</rdg>
+                     </app>
+                         וראשי אומין, כולן ראשי אומות הם.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 109</ref>
+                     <ref type="witness">II 500: 16</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And Jokshan begot Sheba, and Dedan. And the sons of Dedan were Asshurim, and Letushim and Leumim” (Gen 25,3). Although we translate “merchants” [for Asshurim], “blacksmiths” [for Letushim] and “heads of peoples” [for Leʿumim], yet they were all heads of peoples. (cf. Freedman / Simon II 544)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 61,5 [II 663: 6]</bibl> (<term xml:lang="jpa">ואנפרין</term>); <bibl type="ancient">Yalq Chr. 1 1073 [516c: 52-53]</bibl> (in the name of R. Shimʿon b. Gamliʾel) (<term xml:lang="jpa">ולופרין</term>); <bibl type="ancient">SekhT (Buber) Ḥayye Sarah 25,3</bibl> (<term xml:lang="jpa">לופרין</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>[ובני יקשן] שבא (ואת) ודדן, רשב"ג אמר אע"ג דאינון מתרגמי תרגומין תגרין ולופרין וראשי אונין כלם ראשי אומות הם.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 1 Chr 1073</ref>
+                     <ref type="witness">516c: 53</ref>
+                  </bibl>
+                  <cit type="translation">
+                     <quote>And the sons of Jokshab Sheba, and Dedan”. R. Shimʿon ben Gamliʾel sais: Although we, the meturgemanin, translate “merchants” [for Asshurim], “blacksmiths” [for Letushim] and “heads of peoples” [for Leʾumim], yet they were all heady of peoples.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 61,5 [II 663: 6]</bibl>; <bibl type="ancient">Yalq 109 [II 500: 16]</bibl>; <bibl type="ancient">SekhT (Buber) Ḥayye Sarah 25,3</bibl> (<term xml:lang="jpa">לופרין</term>)</note>
+               </cit>
+            </sense>
+            <note>The readings <term xml:lang="jpa">אפרין</term> <term xml:lang="fjb">ʾpryn</term> and <term xml:lang="jpa">לופרין</term> <term xml:lang="fjb">lwpryn</term> are probably corruptions of the original <term xml:lang="jpa">אנפרין</term>. Cf. GenR <ref type="entry" xml:lang="jpa">אנפרין</ref> <ref type="entry" xml:lang="jpa">לופרין</ref>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Güdemann (1859)</title>
+                  <citedRange>66</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

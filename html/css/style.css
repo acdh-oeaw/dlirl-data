@@ -1193,3 +1193,27 @@ div.list-of-lemmata-lemma {
     color: black;
 	margin-left: 60pt;
 }
+
+div.dlgenr-entry-source {
+    text-align: right;
+}
+
+span.dlgenr-entry-source-genr {
+    background-color: #995d03;
+    padding: 5pt;
+    border-radius: 2.5pt;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+span.dlgenr-entry-source-yalq {
+    background-color: #5c574f;
+    padding: 5pt;
+    border-radius: 2.5pt;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    font-size: 16pt;
+}

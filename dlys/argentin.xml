@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">ארגנטין</title>
+            <title type="alternative">ʾrgnṭyn</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="argentin-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">ארגנטין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾrgnṭyn</orth>
+               <pron notation="rabbinic">argenṭin</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">ארגינט</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾrgynṭ</orth>
+                  <pron notation="rabbinic">arginaṭ</pron>
+               </form>
+            </form>
+            <sense xml:id="argentin-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>the fast</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἀγύρτες (?)</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>דיקלטינוס מלכא הוה רעי
+                     חזירי בהדא טבריא. וכיון דהוה מטי סדרא דר', הוו מינקיא נפקין ומחיין ליה. לבתר
+                     יומין אתעבד מלך, ויתיב ליה בהדא פנייס, ושלח כתבין לטבריא בפתי רמשא דערובתא דשבתא. אמ', אנא יהיב קלוון דיהוון
+                     רברבני דיהודאי קיימין קודמיי בצפרא דחד בשבא. פקדיה לשליחא ואמ' לא תתן יתהון
+                     להון אלא מטמעי יומא דערובתא. נחת ר' שמואל למיסחי, חמתיה לר' דהוה קאים קמיה
+                     סידרא רבה ופניו חולניות. א"ל למה פניך חולניות, א"ל כך וכך אשתדר לי מן מלכותא. א"ל איתא סחי דברייך עביד לך ניסין. כד עלון למסחי, אתא הדא 
+                     <app>
+                        <lem>ארגנטין</lem>
+                        <rdg wit="#S">ארגינטין</rdg>
+                     </app> מגחך ומרקד קדמיהון. בעי רבי דזעף ביה. א"ל ר' שמוא' בר נחמן שבקיה דזימנין על ניסין הוא מתחמי. א"ל מריך בעקא ואת קאים גחיך ומרקד. אמ' להון אכלון ושתון,
+                     דברייכון עביד לכון ניסין, ואנא מקים לכון קודמוי בצפרא דחד בשבא. באפוקי שבא, בתר סדרא, נסאתון ואוקימון קדם פיילי דפניאס. אמרין הא קיימין קדם פולי אמר סגרון פולי. נסאתון ואוקימון על טיכסא דמדינתא. עלין ואמרין ליה (אמ') אמר אנא קלוון דתאזון בני
+                     תלתא יומי ויעלון ויסחון וייתון לגבי. אזלון ואזון בני תלתא יומין, ועל 
+                     <app>
+                        <lem>ארגנטין</lem>
+                        <rdg wit="#S">ארגינטין</rdg>
+                     </app> ומזגא קדמיהון, ועלון ואסחון ואתון לגביה. אמ' להון בגין
+                     דאלהכון עביד לכון ניסין אתון מקילין למלכא, אמרין ליה, לדקלטינוס רעי חזירי אקילינן ברם לדקלטינוס מלכא אנן משתעבדין. א"ל אעפ"כ לא תבזון לא ברומי זעיר ולא בגולייר זעיר.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 110</ref>
+                     <ref type="witness">II 519: 11</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">דיקלטינוס</ref>
+                  <ref type="entry" xml:lang="jpa">פנייס</ref>
+                  <ref type="entry" xml:lang="jpa">פיילי</ref>
+                  <ref type="entry" xml:lang="jpa">פולי</ref>
+                  <ref type="entry" xml:lang="jpa">טיכסא</ref>
+                  <ref type="entry" xml:lang="jpa">דקלטינוס</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>The emperor Diocletian was [originally] a swineherd near Tiberias. Whenever he came near a school, children would come out and beat him. Later he became emperor, and went and stayed at Paneas, and sent letters to Tiberias just before the eve of the Sabbath, with the order: ‘I command the rabbis of the Jews to appear before me on Sunday morning.’ He further instructed the messenger not to give them the message until just before Friday evening. When R. Samuel b. Naḥman went down to bathe, he saw Rabbi standing before his academy with his face all pale. On inquiring why he was so pale he told him of the letters sent him by the emperor. ‘Go and bathe,’ he told him, ‘for God will perform a miracle for you.’ So he went in to bathe, and there a bath sprite came jesting and dancing toward him. Rabbi wished to scold him, but R. Samuel b. Naḥman said to him: ‘Leave him alone, for sometimes his coming heralds a miracle. Your master is in distress, yet you frolic,‘ he rebuked him. ‘Go home, eat and keep the Sabbath with good cheer, for your Creator will perform a miracle for you and I will set you Sunday morning where you desire.’ At the termination of the Sabbath, after the Service, he [the sprite] took them and set them before the gates of Paneas. He [the emperor] was informed: Lo, they are standing before the gates. Then let the gates be closed, he ordered. Thereupon he [the demon]
+                        took them and set them on the rampart of the town. On being apprised of this he [Diocletian] exclaimed: ‘I command that the baths be heated for three days, then let them go and bathe therein and then appear before me.’ The baths accordingly were heated for three days, but the sprite went and tempered the heat for them, after which they entered, bathed and appeared before him. ‘Because you know that your God performs miracles on your behalf you insult the emperor,’ he upbraided them. ‘Diocletian the swineherd we did indeed insult, but to Diocletian the emperor we are loyal subjects,’ they answered. ‘Even so,’ he replied, ‘you must not insult the humblest Roman or the meanest soldier.’ (Freedman / Simon II 563-564) 
+                     </quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 63,8 [II 689: 4; 690: 2]</bibl></note>
+               </cit>
+            </sense>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>126b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

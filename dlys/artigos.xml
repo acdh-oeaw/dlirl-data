@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">ארטיגוס</title>
+            <title type="alternative">ʾrṭygws</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="artigos-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">ארטיגוס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾrṭygws</orth>
+               <pron notation="rabbinic">arṭigos</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="artigos-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>prefect, magistrate</quote>
+               </cit>
+               <cit type="example" xml:lang="en">
+                  <quote>א"ר לוי למה הדבר דומה לגולייר שקלל בנו של מלך אמר המלך אם אהרוג אותו הכל יאמרו גולייר הרג, עשה אותו ארטיגנוס ואחר כך עשה אותו הגמון ואחר כך אמר טלו את ראשו</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Es 1053</ref>
+                     <ref type="witness">529a: 18</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">גולייר</ref>
+                  <ref type="entry" xml:lang="jpa">הגמון</ref>
+                  <note>= <bibl type="ancient">SAME 3</bibl></note>
+               </cit>
+            </sense>
+            <note>Probably corrupted <term xml:lang="jpa">אסטרטיג</term></note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>128b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>
