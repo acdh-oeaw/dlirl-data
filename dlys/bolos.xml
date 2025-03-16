@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">בולוס</title>
+            <title type="alternative">bwlws</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="bolos-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">בולוס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">bwlws</orth>
+               <pron notation="rabbinic">bolos</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">בולס</orth>
+                  <orth type="transliteration" xml:lang="fjb">bwls</orth>
+                  <pron notation="rabbinic">bolas</pron>
+               </form>
+            </form>
+            <sense xml:id="bolos-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>round object, ball</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>βῶλος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' יצחק וריש לקי' ר' יצחק אמ' בשר ודם מותח אהל, אהל אננקי על ידי שהות הוא רפי קימעא. ברם הכא, התרקיע עמו לשחקים. וא"ת שהן רפים, ת"ל חזקים כראי מוצק. ריש לקי' אמ' בשר ודם מוסך 
+                  <app>
+                     <lem>בולס</lem>
+                     <rdg wit="#S">כלם</rdg>
+                  </app> אננקי על ידי שהות הוא מעלה חלודה. ברם הכא, חזקים כראי מוצק נראים כבשעת יציקתן כמין תרקיה</quote>
+                  <ref type="entry" xml:lang="jpa">תרקיה</ref>
+                  <ref type="entry" xml:lang="jpa">אננקי</ref>
+                  <bibl>
+                     <ref type="witness">Yalq 19</ref>
+                     <ref type="witness">I 60: 22</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Yiṣḥaq and R. Shimʿon ben Laqish. R. Yiṣḥaq said: when a man sets up a tent in hurry, after a while it will get slightly slacken, but here: Canst thou with Him spread out the sky? (Hi 37,18) And if you say that they are slack, the Scripture says: strong as a molten mirror [ibid.]. Resh Laqish said: When a man makes in hurry a casting in form of a round object, after a while it will get rusty, but here: strong as a molten mirror [ibid.] - they [the heavens] look when they are melted like a vault.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 12,13 [I 111: 3,5]</bibl>; <bibl type="ancient">yBer 1,1 [3:48]</bibl> (<term xml:lang="jpa">כלים</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>קפא הים משני חלקים ונעשה כמין 
+                  <app>
+                     <lem>בולוס</lem>
+                     <rdg wit="#K">כולוס</rdg>
+                  </app> של זכוכית</quote>
+                  <ref type="entry" xml:lang="jpa">כולוס</ref>
+                  <bibl>
+                     <ref type="witness">Yalq 235</ref>
+                     <ref type="witness">II 287: 94</ref>
+                  </bibl>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' יצחק וריש לקיש [ר' יצחק אמר] מלך בשר ודם מותח אהל, אהל אננקי על ידי שהות הוא רפי קימעא. ברם הכא, (ה)תרקיע עמו לשחקים. אם תאמר שהן רפים, ת"ל חזקים כראי מוצק. ריש לקיש אמר מלך בשר ודם (מושך אהל) [מוסך בולס] אננקי על ידי שהות מעלה חלודה. אבל הכא, חזקים כראי מוצק, נראים כבשעת יציקתן כמין תרקיה</quote>
+                  <ref type="entry" xml:lang="jpa">תרקיה</ref>
+                  <bibl>
+                     <ref type="witness">Yalq 450</ref>
+                     <ref type="witness">VII 197: 82;85</ref>
+                  </bibl>
+               </cit>
+            </sense>
+            <note>Cf. <bibl type="modern">Krauss, LW II 141ab</bibl>. Cf. <bibl type="modern">Levy I 200a</bibl>, explaining as Gr. <term xml:lang="grc">βέλος</term>, which is a mistake (corr. by <bibl type="modern">Fleischer 284b</bibl>). <bibl type="modern">Jastrow 162b</bibl> traces back to Hebr. root <term xml:lang="jpa">בלל</term> <term xml:lang="fjb">bll</term>, cf. ibid. 145b. From the context of <bibl type="ancient">GenR</bibl> may be followed that the ball was made of iron (since it becomes rusty); Sokoloff therefore translates as “round object of iron” (cf. <bibl type="modern">Sokoloff 68b</bibl> for further sources). The reading <term xml:lang="jpa">כלים</term> <term xml:lang="fjb">klym</term> <term xml:lang="rabbinic">kelim</term> “vessels”, preserved in K, V and various other parallels, is a later emendation. For Syr. <term xml:lang="syc">ܒܘܠܣܐ</term> <term xml:lang="fjb">bwlsʾ</term> cf. <bibl type="modern">Sokoloff, SL 127a</bibl>. Cf. <ref type="entry" xml:lang="jpa">בול</ref> and <ref type="entry" xml:lang="jpa">בולרין</ref>. See <ref type="entry" xml:lang="jpa" target="bolos.html">בולוס</ref> in <bibl>GenR</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>68b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

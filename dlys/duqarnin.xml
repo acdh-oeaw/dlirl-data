@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">דוקרנין</title>
+            <title type="alternative">dwqrnyn</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="duqarnin-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">דוקרנין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dwqrnyn</orth>
+               <pron notation="rabbinic">duqarnin</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="duqarnin-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>rod, stick</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>δοκάριον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אם יאמר לך אדם הדא כוכבתא דצפרא איילתא דשחרא הוא, שקרנא הוא, פעמים פוחתת פעמים מוספת, אלא כמין שני 
+                     <app>
+                        <lem>דוקרנין</lem>
+                        <rdg wit="#S V W">תרתין קרנין</rdg>
+                     </app> סלקין מן מדינחא ומנהרין לעלמא</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 84</ref>
+                     <ref type="witness">I 389: 95</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Yose b. Avin said: If a man tells you that the morning star is the morning dawn he is speaking falsely, for sometimes it is earlier and sometimes later; but a rod of light, as it were, issues from the east and lights up the world. (Cf. Freedman / Simon I 440)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 50,10 [II 527: 3]</bibl> (<term xml:lang="jpa">דקרנין</term>); <bibl type="ancient">SekhṬ 19,15 [36]</bibl> (<term xml:lang="jpa">דוקרנא</term>)</note>
+               </cit>
+            </sense>
+            <note>Löw (Krauss ad loc.), <bibl type="modern">Levy I 385b</bibl>, <bibl type="modern">Sokoloff, DJPA 135b</bibl> render here Gr. <term xml:lang="grc">δίκρανον</term> „pitchfork“ (see <term xml:lang="jpa">דקרן</term> for <bibl type="ancient">GenR</bibl>). <bibl type="modern">AC III 134b</bibl> suggests also Gr. <term xml:lang="grc">δι</term> + Hebr. <term xml:lang="jpa">קרן</term> <term xml:lang="fjb">qrn</term> (corresponding to <bibl type="ancient">Yalq</bibl> S V W). The origin Gr. <term xml:lang="grc">δίκρανον</term> explains well the word in <bibl type="ancient">tMen 3 [529: 36]</bibl>, <bibl type="ancient">tKel (NM) 3 [583: 3]</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>193b-194a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

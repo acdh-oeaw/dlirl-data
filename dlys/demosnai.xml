@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">דימוסנאי</title>
+            <title type="alternative">dymwsnʾy</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="demosnai-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">דימוסנאי</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dymwsnʾy</orth>
+               <pron notation="rabbinic">demosnaʾi</pron>
+            </form>
+            <sense xml:id="demosnai-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>collectors of public revenues</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote> δεμοσιῶναι</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>תנו רבנן בכ"ה בניסן אתנטול דימוסנאי מיהודה ומירושלים</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 110</ref>
+                     <ref type="witness">II 503: 60</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>The rabbis have taught: On the 25th of Nissan, the collectors of public revenues were removed from Judah and Jerusalem.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">MegTaan 3</bibl>; <bibl type="ancient">bSan 91a</bibl></note>
+               </cit>
+            </sense>
+            <note>Cf. <bibl type="modern">Levy I 397a</bibl>; <bibl type="modern">Jastrow 300b</bibl>; <bibl type="modern">AC III 88a</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>206b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

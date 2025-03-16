@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">בייא</title>
+            <title type="alternative">byyʾ</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="biyyah-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">בייא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">byyʾ</orth>
+               <pron notation="rabbinic">biyyaʾ</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">f.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">ביא</orth>
+                  <orth type="transliteration" xml:lang="fjb">byʾ</orth>
+                  <pron notation="rabbinic">biyyaʾ</pron>
+               </form>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">ביה</orth>
+                  <orth type="transliteration" xml:lang="fjb">byh</orth>
+                  <pron notation="rabbinic">biyyah</pron>
+               </form>
+            </form>
+            <sense xml:id="biyyah-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>violence, injustice</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>βία</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ד"א בי אדני, בייא את מעביר עליינו</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 151</ref>
+                     <ref type="witness">II 807: 99</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">GenR 93,6 [III 1155: 2]</bibl>; <bibl type="ancient">TanB Wa-Yiggash 5</bibl> (<term xml:lang="jpa">בייה אתה מעביר עלינו</term>) (same Midrashim to <bibl type="ancient">Ex 4,10</bibl> in: <bibl type="ancient">TanhB Shemot 18</bibl> (<term xml:lang="jpa">בייה את מעביר עלי</term>); <bibl type="ancient">Midr. Aggadah (Buber) 4,10</bibl> (<term xml:lang="jpa">בייה אתה מעביר עלינו</term>); <bibl type="ancient">LeqT Shemot 4,13</bibl> (<term xml:lang="jpa">ביאה אתה עושה עמי</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ויאמר משה אל יי' בי אדני. 
+                     <app>
+                        <lem>בייה</lem>
+                        <rdg wit="#S">ביה</rdg>
+                     </app> את מעביר עלי</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 169</ref>
+                     <ref type="witness">III 54: 60</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">TanB Ex 18 [5b]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' אחא אמר בייא בא לעלמא תותבייא מפנן למרי ביתא.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Ez 347</ref>
+                     <ref type="witness">XI 535: 51</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">DevR 2,13</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' אחא אמר בייא בא לעלמא תותבייא מפנן למרי ביתא.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Ez 348</ref>
+                     <ref type="witness">XI 538: 21</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">DevR 2,13</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ויזעקו בקול גדול אל ה' מאי אמור, אמר רב יהודה ואי תימא ר' נתן בייא בייא</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Neh 1071</ref>
+                     <ref type="witness">515c: 17</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">bYom 69b</bibl></note>
+               </cit>
+            </sense>
+            <sense xml:id="biyyah-ys-2">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>dominion</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>βία</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אין כל מקום ומקום שאין ממונה על 
+                     <app>
+                        <lem>בייא</lem>
+                        <rdg wit="#S L V">ביא</rdg>
+                     </app> שלו, אנגיטוס [*אגוסטוס] במדינה ממונה על 
+                     <app>
+                        <lem>בייא</lem>
+                        <rdg wit="#S L V">ביא</rdg>
+                     </app> שלו, 
+                     <app>
+                        <lem>אגריסוק</lem>
+                        <rdg wit="#S L V">אגריקוס</rdg>
+                     </app> [*אגדיקוס] במדינה ממונה על 
+                     <app>
+                        <lem>בייא</lem>
+                        <rdg wit="#S L V">ביא</rdg>
+                     </app> שלו, כך מי ממונה על עולמו של הקב"ה הקב"ה ביה שמו הקדוש ברוך הוא 
+                     <app>
+                        <lem>בייא</lem>
+                        <rdg wit="#S L V">ביא</rdg>
+                     </app> של עולמו</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Ps 794</ref>
+                     <ref type="witness">463d: 20.21.22</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">GenR 12,10 [I 108: 3-5]</bibl> (<term xml:lang="jpa">ביה</term>); <bibl type="ancient">TanB Wa-Yiggash 5</bibl> (<term xml:lang="jpa">בייה אתה מעביר עלינו</term>) (same Midrashim to <bibl type="ancient">Ex 4,10</bibl> in: <bibl type="ancient">TanhB Shemot 18</bibl> (<term xml:lang="jpa">בייה את מעביר עלי</term>); <bibl type="ancient">Midr. Aggadah (Buber) 4,10</bibl> (<term xml:lang="jpa">בייה אתה מעביר עלינו</term>); <bibl type="ancient">LeqT Shemot 4,13</bibl> (<term xml:lang="jpa">ביאה אתה עושה עמי</term>)</note>
+               </cit>
+            </sense>
+            <note>Cf. <ref type="entry" xml:lang="jpa" target="biyyah.html">בייא</ref> in <bibl type="ancient">GenR</bibl></note>
+         </entry>
+      </body>
+  </text>
+</TEI>
