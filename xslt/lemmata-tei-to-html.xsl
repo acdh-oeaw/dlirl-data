@@ -386,6 +386,20 @@
         </xsl:element>
     </xsl:template>
     
+    <xsl:template match="tei:form[@type = 'corrupted']">
+        <xsl:element name="div">
+            <xsl:attribute name="class" select="'dlgenr-entry-form-form-inflected'"/>
+            <xsl:element name="p">
+                <xsl:attribute name="class" select="'dlgenr-entry-form-form-inflected-label'"/>
+                <xsl:text>Corrupted: </xsl:text>
+            </xsl:element>
+            <xsl:element name="div">
+                <xsl:attribute name="class" select="'dlgenr-entry-form-form-inflected-elements'"/>
+                <xsl:apply-templates select="child::node()"/>
+            </xsl:element>
+        </xsl:element>
+    </xsl:template>
+    
     <xsl:template match="tei:form[@type = 'equivalent']">
         <xsl:element name="div">
             <xsl:attribute name="class" select="'dlgenr-entry-form-form-equivalent'"/>
@@ -415,6 +429,13 @@
     </xsl:template>
     
     <xsl:template match="tei:orth[@type = 'inflected']">
+        <xsl:element name="span">
+            <xsl:attribute name="class" select="'dlgenr-entry-form-form-inflected-orth'"/>
+            <xsl:apply-templates select="child::node()"/>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="tei:orth[@type = 'corrupted']">
         <xsl:element name="span">
             <xsl:attribute name="class" select="'dlgenr-entry-form-form-inflected-orth'"/>
             <xsl:apply-templates select="child::node()"/>

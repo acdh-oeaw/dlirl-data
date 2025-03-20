@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">איסטרטלטיס</title>
+            <title type="alternative">ʾysṭrṭlṭys</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="istartelis-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">איסטרטלטיס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾysṭrṭlṭys</orth>
+               <pron notation="rabbinic">isṭratelṭis</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">איסטרטליט</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾysṭrṭlyṭ</orth>
+                  <pron notation="rabbinic">isṭraṭliṭ</pron>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">איסטרטילטין</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾysṭrṭlṭyn</orth>
+                  <pron notation="rabbinic">isṭratelṭin</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+            </form>
+            <sense xml:id="istartelis-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>military officer, governor</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <quote>dux exercitus</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>στρατηλατής</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>בשר ודם תולין לו אנקלוטי מדוכוס לאיפרכוס, מאיפרכוס 
+                     <app>
+                        <lem>לאסטרטליטי</lem>
+                        <rdg wit="#S W">לאיסטרטליטי</rdg>
+                     </app> ואת בשביל שאין לך מי יתלה לך לא תעשה משפט</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 83</ref>
+                     <ref type="witness">I 374: 82</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אנקלוטי</ref>
+                  <ref type="entry" xml:lang="jpa">דוכוס</ref>
+                  <ref type="entry" xml:lang="jpa">איפרכוס</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Even in the case of a human judge, an appeal can be made from the commander to the prefect and from the prefect to the governor; but you, because no appeal can be made from your judgment, will you not do justly? (cf. Freedman / Simon I 429)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 49,9 [II 511: 1]</bibl> (<term xml:lang="jpa">לאיסטרטלטיס</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>א"ר אבא בר כהנא אי הוה דוכוס איתעביד איפרכוס, ואי הוה איפרכוס איתעביר 
+                     <app>
+                        <lem>אסטרטליטוס</lem>
+                        <rdg wit="#S">איסטרטליטוס</rdg>
+                     </app>
+                  </quote>
+                  <bibl>
+                     <ref type="witness">Yalq 950</ref>
+                     <ref type="witness">IX 668: 46</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">דוכוס</ref>
+                  <ref type="entry" xml:lang="jpa">איפרכוס</ref>
+                  <note>= <bibl type="ancient">PesK 32 (136a)</bibl> (<term xml:lang="jpa">איסטרטליטוס</term>): <bibl type="ancient">Yalq 2Sam 151 [X 340: 51]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' אבא בר כהנא אם היה דוכוס איתעביד איפרכוס ואי הוה איפרכוס איתעביד אסטרטליטוס.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 2Sam 151</ref>
+                     <ref type="witness">X 340: 51</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">דוכוס</ref>
+                  <ref type="entry" xml:lang="jpa">איפרכוס</ref>
+                  <note>= <bibl type="ancient">PesK 32 (136a)</bibl> (<term xml:lang="jpa">איסטרטליטוס</term>): <bibl type="ancient">Yalq 950 [IX 668: 46]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>חיות קטנות עם גדולות, דוכסין ואפרכין ואסטרטליטין.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Ps 862</ref>
+                     <ref type="witness">476d: 8</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">MidrT 4,20 [223b]</bibl> (<term xml:lang="jpa">ואיסטרטיקוסין</term> [corrupt.])</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>משל למה הדבר דומה למלך שהיה מהלך במדבר הוא ואסטרטליטין שלו</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Prov 953</ref>
+                     <ref type="witness">494c: 42</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">Arukh 17b</bibl> (<term xml:lang="jpa">איסטרטילוס</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' אבא בש"ר יוחנן אמר משל למלך שנכנס למדינה ועמו דוכסין ואיפרכסין 
+                     <app>
+                        <lem>ואסטרוליטין</lem>
+                        <rdg wit="#W"> ואיסטרטליטין</rdg>
+                     </app>, דין אמר דוכס פלן אנא נסיב לגבי, ודין אמר אסטרטליטין פלן אנא נסיב</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Lam 1001</ref>
+                     <ref type="witness">523b: 48.49</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">EkhR 3,24 [27a]</bibl> (<term xml:lang="jpa">ואיסטרטילוטין</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>רבי אבהו בשם ר' יוחנן משל למלך שנכנס למדינה ועמו דוכסין ואפרכיסין 
+                     <app>
+                        <lem>אסטרטיליטין</lem>
+                        <rdg wit="#W">ואסטרטליטין</rdg>
+                        <rdg wit="#L">אסטרטליסין</rdg>
+                     </app>, הדין אמר דוכוס פלן אנא נסיב לגבי כו', וחד אמר אנא נסיב אסטרטליטין לגבי</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Lam 1038</ref>
+                     <ref type="witness">526a: 49.50</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">EkhR 3,24 [27a]</bibl> (<term xml:lang="jpa">ואיסטרטילוטין</term>)</note>
+               </cit>
+            </sense>
+            <note>Cf. <ref type="entry" xml:lang="jpa" target="istrateltis.html">איסטרטלטיס</ref></note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>27b-28a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

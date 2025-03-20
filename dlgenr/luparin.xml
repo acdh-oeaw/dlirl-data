@@ -47,38 +47,40 @@
                <pron notation="rabbinic" opt="false">luparin</pron>
                <gramGrp opt="false">
                   <gram type="pos" opt="false">noun</gram>
-                  <gram type="gen" opt="false">m</gram>
+                  <gram type="gen" opt="false">m.</gram>
+                  <gram type="num">pl.</gram>
                </gramGrp>
-            </form>
-            <form type="equivalent" opt="false">
-               <quote xml:lang="grc"/>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">לפרין</orth>
+                  <orth type="transliteration" xml:lang="fjb">lpryn</orth>
+                  <pron notation="rabbinic">laparin</pron>
+               </form>
             </form>
             <sense xml:id="luparin-dlgenr-1" opt="false">
                <cit type="translation" xml:lang="en" subtype="sense">
                   <quote>meaning uncertain</quote>
                </cit>
-               <cit type="example">
-                  <quote xml:lang="jpa">
-            ....
-         </quote>
+               <cit type="example" xml:lang="jpa">
+                  <quote xml:lang="jpa">ויוקשן ילד את שבא ואת דדן ובני דדן היו אשורים ולטושים ולאומים. ר' שמואל בר נחמן אמר אפעלגב דאינון מתרגמין ואמרין תגרין 
+                     <app>
+                        <lem>ואנפרין</lem>
+                        <rdg wit="#Vat1">ולו מפרין</rdg>
+                        <rdg wit="#K V">לופרין</rdg>
+                        <rdg wit="#Ox1">ולפרין</rdg>
+                        <rdg wit="#Ox2">ולפדין</rdg>
+                     </app> וראשי אומין כולהם ראשי אומות הם.</quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">61,5</ref>
                      <ref type="witness">II 663: 6</ref>
                   </bibl>
+                  <ref type="entry" xml:lang="jpa">אנפרין</ref>
                   <cit type="translation">
-                     <quote xml:lang="en">
-            </quote>
+                     <quote xml:lang="en">“And Jokshan begot Sheba, and Dedan. And the sons of Dedan were Asshurim, and Letushim and Leumim” (Gen 25,3). R. Shemuʾel bar Naḥman said: Although they [the meturgamanin in the Synagogues] translate and say: “merchants” [for Asshurim], “traders” [for Letushim] and “heads of peoples” [for Leumim], yet they were all heads of peoples. (cf. Freedman / Simon II 565)</quote>
                   </cit>
+                  <note>= <bibl type="ancient">Yalq 109 [II 500: 16]</bibl> (<term xml:lang="jpa">ואפרין</term>); <bibl type="ancient">Yalq 1 Chr 1 1073 [516c: 52-53]</bibl> (<term xml:lang="jpa">ולופרין</term>); <bibl type="ancient">SekhT (Buber) Ḥayye Sarah 25,3</bibl></note>
                </cit>
             </sense>
-            <note anchored="true">
-   </note>
-            <ref type="bibliography">
-               <bibl default="false" status="draft">
-                  <title>Sperber</title>
-                  <citedRange>96</citedRange>
-               </bibl>
-            </ref>
+            <note anchored="true">Different explanations for this difficult word have been suggested, e.g. from Gr. <term xml:lang="grc">λάφυρον</term> „Beuteaufseher, Häscher“ (<bibl type="modern">Güdemann 1859: 66</bibl>, <bibl type="modern">AC IV 53a</bibl>); from Gr. <term xml:lang="jpa">ληπτήρ</term> „Häscher, Scherge“ (<bibl type="modern">Levy II 490a</bibl>, also <bibl type="modern">Fürst [1890]: 132</bibl>); corrupted Gr. <term xml:lang="grc">λογχοφόρος</term>/<term xml:lang="grc">δορυφόρος</term> „spear-bearer, guardsman, satellite“ (<bibl type="modern">Jastrow II 700</bibl> [<term xml:lang="jpa">לופר</term> <term xml:lang="fjb">lwpr</term> <term xml:lang="rabbinic">lupar</term>]). Nachmanides in his commentary on <bibl type="ancient">Gen 25,3</bibl> adopts the reading <term xml:lang="jpa">לפדין</term> (<term xml:lang="fjb">lpdyn</term> <term xml:lang="rabbinic">lapidin</term>, torches). <bibl type="modern">Wiener 1857: 106</bibl> and after him <bibl type="modern">Rahmer 1861: 40</bibl> explain <term xml:lang="jpa">לופרין</term> as derived from Gr. <term xml:lang="grc">φύλαρχοι</term> (after metathesis <term xml:lang="fjb">pwl</term> → <term xml:lang="fjb">lwp</term>) acc. to Hieronymos (e.g. also MY ad loc.). However, the reading in <bibl type="ancient">Yalq</bibl> (Ms Oxford) <term xml:lang="jpa">ואפרין</term> allows to suggest that <term xml:lang="jpa">לופרין</term> is nothing but a corruption of <term xml:lang="jpa">אנפרין</term> (due to similarity of א and לו in the ashkenazic script). <bibl type="modern">Krauss, LW II 312a</bibl> seems also to consider <term xml:lang="jpa">לופרין</term> as a corruption.</note>
          </entry>
       </body>
    </text>

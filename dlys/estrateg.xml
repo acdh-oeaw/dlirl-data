@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אסטרטיג</title>
+            <title type="alternative">ʾsṭrṭyg</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="estrateg-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אסטרטיג</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾsṭrṭyg</orth>
+               <pron notation="rabbinic">isṭraṭeg</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+                  <gram type="num">sg.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">איסטרטיג</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾysṭrṭyg</orth>
+                  <pron notation="rabbinic">isṭraṭeg</pron>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">אסטרטיגין</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾsṭrṭygyn</orth>
+                  <pron notation="rabbinic">isṭrategin</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">איסטרטיגין</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾysṭrṭygyn</orth>
+                  <pron notation="rabbinic">isṭrategin</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+            </form>
+            <sense xml:id="estrateg-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>prefect, magistrate</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>στρατηγός</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>שני תלמידים משל ר' יהושע שינו עטיפתם בשעת השמד. פגע בהן אסטרטיגוס משומד</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 136</ref>
+                     <ref type="witness">II 700: 15</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">GenR 82,8 [I 985: 1]</bibl> (<term xml:lang="jpa">איסטרטיוט</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ד"א למה לשמים וארץ, לה"ד 
+                     <app>
+                        <lem>לאסטרטיגוס ששימש</lem>
+                        <rdg wit="#S">לאסטרטיגוס ששימש.</rdg>
+                     </app> בשתי מדינות</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 942</ref>
+                     <ref type="witness">IX 617: 85</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">DeutR 10,4</bibl> (<term xml:lang="jpa">לאיסטרטיגין ששימש</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>למלך שהיו לו שני אסטרטיגין אחד שליט ביום ואחד שליט בלילה</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Jes 461</ref>
+                     <ref type="witness">XI 225: 27</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">GenR 3,6 [I 22: 7]</bibl> (<term xml:lang="jpa">איסטרטיגין</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>משל למלך שהיו לו שני אסטרטיגין אחד שליט ביום ואחד שליט בלילה</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Hi 924</ref>
+                     <ref type="witness">510b: 60</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">GenR [I 22: 7]</bibl> (<term xml:lang="jpa">איסטרטיגין</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר המלך לאסטרטיגין שלו טולו אותו וטפחו על פניו ...</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Koh 968</ref>
+                     <ref type="witness">542b: 22</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">TanB Qedoshim 8 [36b]</bibl> (<term xml:lang="jpa">לסדריוטין</term> corr. <term xml:lang="jpa">לסרדיוטין</term>)</note>
+               </cit>
+            </sense>
+            <note>Cf. <ref type="entry" xml:lang="jpa" target="istrateg.html">אסטרטיג</ref> GenR.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>25b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

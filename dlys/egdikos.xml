@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אגדיקוס</title>
+            <title type="alternative">ʾgdyqws</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="egdikos-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אגדיקוס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾgdyqws</orth>
+               <pron notation="rabbinic">egdiqos</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="corrupted">
+                  <orth type="corrupted" xml:lang="jpa">אגריקוס</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾgryqws</orth>
+                  <pron notation="rabbinic">egriqos</pron>
+               </form>
+            </form>
+            <sense xml:id="egdikos-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>governor, prefect, public prosecutor</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἔκδικος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אין כל מקום ומקום שאין ממונה על בייא שלו, אנגיטוס [אגדיקוס*] במדינה ממונה על בייא שלו, 
+                     <app>
+                        <lem>אגריקוס</lem>
+                        <rdg wit="#W">אגריסוק [אגדיקוס*]</rdg>
+                     </app> במדינה ממונה על בייא שלו כך מי ממונה על עולמו של הקדוש ברוך הוא הקדוש ברוך הוא ביה שמו, הקדוש ברוך הוא בייא של עולמו</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Ps 794</ref>
+                     <ref type="witness">463d: 20.21</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>There is not a single place which does not have an appointed [authority] over its dominion. The ‘egdikos’ in his province is appointed over its dominion; the ‘egdikos’ in his province is appointed over its dominion. Thus, who is appointed over the dominion of his world? The Holy One, blessed be He, be-yah is his name, biyyah is his name.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 10,12 (I 108:4)</bibl>; <bibl type="ancient">yHag 2,1 (77c [786: 22])</bibl> (-); <bibl type="ancient">MTeh (Buber) 114 (3)</bibl> (-); <bibl type="ancient">YalqM Ps 68,3</bibl> (<term xml:lang="jpa">אנדיקיס</term>)</note>
+               </cit>
+            </sense>
+            <note>Emendation acc. to <bibl type="modern">Krauss, LW II 8a</bibl>. Cf. <ref type="entry" xml:lang="jpa" target="egdiqos.html">אגדיקוס</ref> GenR.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sperber (1984)</title>
+                  <citedRange>32</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

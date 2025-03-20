@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">איסטרטלטיס</title>
+            <title type="alternative">ʾysṭrṭlṭys</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="istrateltis-dlgenr"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">איסטרטלטיס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾysṭrṭlṭys</orth>
+               <pron notation="rabbinic">isṭratelṭis</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">איסטרטליט</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾysṭrṭlyṭ</orth>
+                  <pron notation="rabbinic">isṭraṭliṭ</pron>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">איסטרטילטין</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾysṭrṭlṭyn</orth>
+                  <pron notation="rabbinic">isṭratelṭin</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+            </form>
+            <sense xml:id="istrateltis-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>military officer, governor</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <quote>dux exercitus</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>στρατηλατής</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' יהודה בר' סימון בשר ודם תולין לו אנקליטון מדוכס לאיפרכוס מאיפרכוס 
+                     <app>
+                        <lem>לאיסטרטלטיס</lem>
+                        <rdg wit="#Vat2">לאיסטרטילוס</rdg>
+                        <rdg wit="#Vat1">לאיסטרטילטיס</rdg>
+                        <rdg wit="#K">לאיסטרטילו</rdg>
+                        <rdg wit="#V">לאסטרטליטוס</rdg>
+                        <rdg wit="#Ox1">לאיסטרטליס</rdg>
+                        <rdg wit ="#Ox2">לאסטרליטוס</rdg>
+                     </app>
+                         ואת בשביל שאין לך מי יתלה לך אנקליטון לא תעשה משפט</quote>
+                  <bibl>
+                     <ref type="witness">49,9</ref>
+                     <ref type="witness">II 511: 1</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אנקליטון</ref>
+                  <ref type="entry" xml:lang="jpa">דוכס</ref>
+                  <ref type="entry" xml:lang="jpa">איפרכוס</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Yehuda be-R. Simon said: (Abraham pleaded thus:) ‘Even in the case of a human judge, an appeal can be made from the commander to the prefect and from the prefect to the governor; but you, because no appeal can be made from your judgment, will you not do justly? (cf. Freedman / Simon I 429)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 83 [I 374: 82]</bibl> (<term xml:lang="jpa">לאסטרטליטי</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>למה הדבר דומה למלך בשר ודם שנכנס למדינה ונכנסו עמו דוכסים ואיפרכים ואסרטילטין אף על פי שכולם נכנסים בפילי אחת אלא כל אחד ואחד שורה לפי כבודו</quote>
+                  <bibl>
+                     <ref type="witness">96 (Vat 1)</ref>
+                     <ref type="witness">III 1237: 8</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">איפרכים</ref>
+                  <ref type="entry" xml:lang="jpa">פילי</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>What does it resemble? A human king who entered the province together with commanders, prefects and governors. Although they all entered through the same gate, but every one lined up according to his honour.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">LevR Meṣoraʿ 18,1</bibl> (<term xml:lang="jpa">ואיסטרטיוטין</term>); <bibl type="ancient">LevR (Margulies) Meṣoraʿ 18,1 [I 396: 5]</bibl> (<term xml:lang="jpa">ואיסטראטיאוטין</term>); <bibl type="ancient">KohR 12,1</bibl>; <bibl type="ancient">MHG Gen Wa-yeḥi 47,29 [II 802]</bibl> (<term xml:lang="jpa">ואסטרולגין</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>גדולה זו יוון, ר' סימון אמר מלכות יוון הייתה מעמדת ק"כ דוכסים וק"כ איפרכין וק"כ 
+                     <app>
+                        <lem>איסטרטלין</lem>
+                        <rdg wit="#L">איסטרטלטון</rdg>
+                        <rdg wit="#V">אסטרטליטין</rdg>
+                        <rdg wit="#K">איסטרוטולוטין</rdg>
+                        <rdg wit="#Vat1">איסטרטולין</rdg>
+                        <rdg wit="#Vat2">איסטראטיליטין</rdg>
+                     </app>
+                  </quote>
+                  <bibl>
+                     <ref type="witness">44,17</ref>
+                     <ref type="witness">I 440: 1</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">דוכסים</ref>
+                  <ref type="entry" xml:lang="jpa">איפרכין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Great (Gen 15,12) refers to Greece. R. Simon said: The Kingdom of Greece set up one hundred and twenty commanders, one hundred and twenty prefects, one hundred and twenty governors. (cf. Freedman / Simon I 373)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 77 [I 308: 88]</bibl> (<term xml:lang="jpa">איסטרדיוטין</term>); <bibl type="ancient">LevR Shemini 13,5</bibl>; <bibl type="ancient">LeqT Gen 15,12 [35b]</bibl></note>
+               </cit>
+            </sense>
+            <note>Widespread in the Rabb. Lit., variously spelled (and corrupted). See <bibl type="modern">AC I 176a</bibl>; <bibl type="modern">Levy I 122b</bibl>; <bibl type="modern">Krauss, LW II 84b-85a</bibl>; <bibl type="modern">Jastrow I 92ab</bibl>. For the reading in the parallels for <bibl type="ancient">III 1237: 8</bibl> in <bibl type="ancient">LerR</bibl> see <term xml:lang="jpa">אסטרטיוט</term> <term xml:lang="fjb">ʾsṭrṭywṭ</term> (from Gr. <term xml:lang="jpa">στρατιώτης</term>), <bibl type="modern">Krauss, LW II 84ab</bibl> (not in <bibl type="ancient">GenR</bibl>). Cf. Syr. <term xml:lang="syc">ܐܣܛܪܛܝܠܛܝܣ</term> <term xml:lang="fjb">ʾsṭrṭylṭys</term> (<bibl type="modern">Sokoloff, SL 71b</bibl>). Cf. <ref type="entry" xml:lang="jpa" target="istartelis-ys.html">איסטרטלטיס</ref> Yalq.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>27b-28a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">מנטילין</title>
+            <title type="alternative">mnṭylyn</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="mantilin-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">מנטילין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">mnṭylyn</orth>
+               <pron notation="rabbinic">manṭilin</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="mantilin-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>towel, napkin</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>μαντίλιον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>למלך שבנה פלטין והושיב בהן דיורין אלמים והיו משכימים ושואלים בשלום המלך ברמיזה ובאצבע ובמטולין</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 7</ref>
+                     <ref type="witness">I 25: 27</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פלטין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>It is as if a king built a palace and tenanted it with dumb people, who used to rise early and pay their respects to the king with gestures, with their fingers and with their handkerchiefs.</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>למלך שבנה פלטין והושיב בהן דיורים אלמים והיו משכימים ושואלים בשלום המלך באצבע ברמיזה 
+                     <app>
+                        <lem>ובמטולין</lem>
+                        <rdg wit="#W">ובמנולין</rdg>
+                     </app>
+                  </quote>
+                  <bibl>
+                     <ref type="witness">Yalq Ps 848</ref>
+                     <ref type="witness">473d: 3</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פלטין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>It is as if a king built a palace and tenanted it with dumb people, who used to rise early and pay their respects to the king with their fingers, gestures and with their handkerchiefs.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 5,1 [I 32: 4.5]</bibl> (<term xml:lang="jpa">ובמנולים</term> and <term xml:lang="jpa">ובמנוולים</term>); <bibl type="ancient">GenR 28,2 [I 260: 6]</bibl> (<term xml:lang="jpa">ובמנוולים</term>); <bibl type="ancient">LamR 1,16 [40a]</bibl> (<term xml:lang="jpa">בסודרין</term>); <bibl type="ancient">YalqM 93,12 [II 52b]</bibl> (<term xml:lang="jpa">ובמטולין</term> corrected <term xml:lang="jpa">ובנמולים</term>)</note>
+               </cit>
+            </sense>
+            <note>For the lemma in <bibl type="ancient">GenR</bibl> cf. <ref type="entry" xml:lang="jpa" target="manwalin.html">מנוולין</ref>. Krauss considers the reading in <bibl type="ancient">GenR</bibl> as corruption of <term xml:lang="jpa">מנטילין</term>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>343ab</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

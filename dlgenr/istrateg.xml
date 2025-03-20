@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אסטרטיג</title>
+            <title type="alternative">ʾsṭrṭyg</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="istrateg-dlgenr"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אסטרטיג</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾsṭrṭyg</orth>
+               <pron notation="rabbinic">isṭraṭeg</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+                  <gram type="num">sg.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">איסטרטיג</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾysṭrṭyg</orth>
+                  <pron notation="rabbinic">isṭraṭeg</pron>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">אסטרטיגין</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾsṭrṭygyn</orth>
+                  <pron notation="rabbinic">isṭrategin</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">איסטרטיגין</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾysṭrṭygyn</orth>
+                  <pron notation="rabbinic">isṭrategin</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+            </form>
+            <sense xml:id="istrateg-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>prefect, magistrate</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>στρατηγός</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>למלך שהיו לו שני 
+                     <app>
+                        <lem>איסטרטיגין</lem>
+                        <rdg wit="#Vat2">איסטרטגין</rdg>
+                     </app>
+                  </quote>
+                  <bibl>
+                     <ref type="witness">3,6</ref>
+                     <ref type="witness">I 22: 7</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>… this is comparable to a king who had two prefects</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">yBer 8,6 [63: 44]</bibl>; <bibl type="ancient">Yalq Jes 461 [XI 225: 27]</bibl> (<term xml:lang="jpa">אסטרטיגין</term>); <bibl type="ancient">Yalq Hi 924 [510b: 60]</bibl> (<term xml:lang="jpa">אסטרטיגין</term>); <bibl type="ancient">YalqM Jes 45,7 [151: 26]</bibl> (<term xml:lang="jpa">אצטרטיגין</term>)</note>
+               </cit>
+            </sense>
+            <note>Common in rabb. Lit. Cf. <bibl type="modern">AC I 175b-176a</bibl>; <bibl type="modern">Levy I 122b</bibl>; <bibl type="modern">Krauss, LW II 83b-84a</bibl>; <bibl type="modern">Jastrow I 92a</bibl>. Krauss distinguishes between A: “Wachposten, Wache” in Aram. and B: “Heeresführer, Präfekt” in Hebr. Sokoloff: “magistrate”.  Acc. to Jastrow, “magistrate” is typical for Later Greek.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>25b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

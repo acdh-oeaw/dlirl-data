@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">גולייר</title>
+            <title type="alternative">gwlyyr</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="gulyyar-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">גולייר</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">gwlyyr</orth>
+               <pron notation="rabbinic">gulyar</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">גלייר</orth>
+                  <orth type="transliteration" xml:lang="fjb">glyyr</orth>
+                  <pron notation="rabbinic">galyar</pron>
+               </form>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">גליור</orth>
+                  <orth type="transliteration" xml:lang="fjb">glywr</orth>
+                  <pron notation="rabbinic">galyor</pron>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">גליורין</orth>
+                  <orth type="transliteration" xml:lang="fjb">glywryn</orth>
+                  <pron notation="rabbinic">galyorin</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+            </form>
+            <sense xml:id="gulyyar-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>galearius, soldier servant</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <quote>galearius</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>γαλιάριος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>לא תבזון לא ברומי זעיר ולא בגולייר זעיר</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 110</ref>
+                     <ref type="witness">II 520: 21</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>You must not insult the humblest Roman or the meanest soldier ...</quote>
+                  </cit>
+                  <ref type="entry" xml:lang="jpa" target="gulyar.html">גולייר</ref>
+                  <note>= <bibl type="ancient">GenR 63,8 [II 690: 5]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>וכיון שחטאו ישר' אפי' פני הגוליירין לא היה יכול להם להסתכל</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 362</ref>
+                     <ref type="witness">IV 646: 1</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">PesK 45b</bibl> (<term xml:lang="jpa">הגולרירין</term>, corr. <term xml:lang="jpa">גליורין</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>א"ר לוי למה הדבר דומה לגולייר שקלל בנו של מלך אמר המלך אם אהרוג אותו הכל יאמרו גולייר הרג, עשה אותו ארטיגנוס ואחר כך עשה אותו הגמון ואחר כך אמר טלו את ראשו</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Es 1053</ref>
+                     <ref type="witness">529a: 17</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">MPA.B 3</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>א"ל רבי נהוראי השמים דרך ארץ היא גוליירין מתגרין במלחמה וגבורים נוצחין</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 942</ref>
+                     <ref type="witness">IX 624: 48</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">SifDeut 306 [342: 7]</bibl> (<term xml:lang="jpa">גוליירים</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>וכיון שחטאו אפילו בגוליירין לא היה יכול משה להסתכל</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Ps 795</ref>
+                     <ref type="witness">464: 60 - in S this page is missing</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">PesK 45b</bibl> (<term xml:lang="jpa">הגולרירין</term>, corr. <term xml:lang="jpa">גליורין</term>)</note>
+               </cit>
+            </sense>
+            <note>Cf. <bibl type="modern">Krauss, LW II 168ab</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>111b-112a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>
