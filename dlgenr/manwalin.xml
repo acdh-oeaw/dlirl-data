@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">מנוולין</title>
+            <title type="alternative">mnwwlyn</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="manwalin-dlgenr"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">מנוולין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">mnwwlyn</orth>
+               <pron notation="rabbinic">manwalin</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">מנולין</orth>
+                  <orth type="transliteration" xml:lang="fjb">mnwlyn</orth>
+                  <pron notation="rabbinic">manulin</pron>
+               </form>
+            </form>
+            <sense xml:id="manwalin-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>napkin, handkerchief</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <quote>manuale</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' אבא בר כהנא בשם ר' לוי יקוו לי המים מה שאני עתיד לעשות בהם, למלך שבנה פלטין והושיב בתוכה דיורים אלמים והיו משכימים ושואלים בשלומו שלמלך ברמיזה ובאצבע 
+                     <app>
+                        <lem>ובמנולים</lem>
+                        <rdg wit="#K">ובמטולין</rdg>
+                        <rdg wit="#Vat1 Vat2">ובנמוולים</rdg>
+                     </app> אמר המלך מה הן שהן אלמים הרי הן משכימים ושואלים בשלומי ברמיזה ובאצבע 
+                     <app>
+                        <lem>ובמנוולים</lem>
+                        <rdg wit="#V K">-</rdg>
+                        <rdg wit="#Vat1 Vat2">ובמנוולים</rdg>
+                     </app> אילו היו פיקחין אתמהא על אחת כמה וכמה אתמהא</quote>
+                  <bibl>
+                     <ref type="witness">5,1</ref>
+                     <ref type="witness">I 32: 4.5</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פלטין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Abbaʾ bar Kahanaʾ explained it in R. Lewi’s name thus: Let the waters be gathered together for My purpose, [so as to perform] what I will one day do by means of them. Compare this to a king who built a palace and tenanted it with dumb people who used to rise early and pay their respects to the king with gestures, with their fingers and with their handkerchiefs. Said the king, “If these, who are dumb, rise early and pay their respects with gestures, with their fingers and their handkerchiefs, how much they do so if they possessed all their faculties!” (cf. Freedman / Simon I 34)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 28,2 [I 260: 6]</bibl>, <bibl type="ancient">LamR 1,16 [40a]</bibl> (<term xml:lang="jpa">ובסודרין</term>); <bibl type="ancient">Yalq 7 [I 25: 27]</bibl> (<term xml:lang="jpa">ובמטולין</term>); <bibl type="ancient">Yalq Ps 848 [473d: 3]</bibl> (<term xml:lang="jpa">ובמנולין</term>); <bibl type="ancient">YalqM 93,12 [II 52b]</bibl> (<term xml:lang="jpa">ובמטולין</term> corrected <term xml:lang="jpa">ובנמולים</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' אבא בר כהנא בשם ר' לוי יקוו לי המים מה שאני עתיד לעשות בם, למלך שבנה פלטין והושיב בה דיורים אלמים והיו משכימים ושואלים בשלום המלך ברמיזה ובאצבע 
+                     <app>
+                        <lem>ובמנוולים</lem>
+                        <rdg wit="#K">וכו'</rdg>
+                     </app>, אמר המלך ומה אילו שהן אילמים משכימים ושואלים בשלומי ברמיזה אילו היו פקחים על אחת כמה וכמה</quote>
+                  <bibl>
+                     <ref type="witness">28,2</ref>
+                     <ref type="witness">I 260: 6</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פלטין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Abbaʾ bar Kahana explained it in R. Lewi’s name thus: Let the waters be gathered for My purpose, [so as to perform what I will one day do with them]. It is as if a king built a palace and tenanted it with dumb people, who used to rise early and pay their respects to the king with gestures, with their fingers and with their handkerchiefs. Said the king: “If these, who are dumb, rise early and pay their respects with gestures, how much more zealous would they be if they possessed all their faculties!”</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 5,1 [I 32: 4]</bibl>; <bibl type="ancient">LamR 1,16 [40a]</bibl> (<term xml:lang="jpa">ובסודרין</term>); <bibl type="ancient">Yalq 7 [I 25: 27]</bibl> (<term xml:lang="jpa">ובמטולין</term>); <bibl type="ancient">Yalq Ps 848 [473d: 3]</bibl> (<term xml:lang="jpa">ובמטולין</term>); <bibl type="ancient">YalqM 93,12 [II 52b]</bibl> (<term xml:lang="jpa">ובמטולין</term> corrected <term xml:lang="jpa">ובנמולים</term>)</note>
+               </cit>
+            </sense>
+            <note>See <bibl type="modern">Levy III 151a-152b</bibl>; <bibl type="modern">Sachs (1854) 187, n. 157</bibl>; <bibl type="modern">MY</bibl> ad loc.; <bibl type="modern">Löw</bibl> (in <bibl type="modern">MY</bibl> ad loc.) suggested Gr. <term xml:lang="grc">μέναυλον</term>, rejected in <bibl type="modern">AC Add. 259a</bibl>. <bibl type="modern">AC Add.</bibl> suggests Lat. manulea (see already <bibl type="modern">Schönhak 1858 II 15b</bibl>). <bibl type="modern">Krauss, LW II 343ab</bibl> renders <term xml:lang="jpa">מנטילא</term> <term xml:lang="fjb">mnṭylʾ</term> <term xml:lang="rabbinic">manṭilaʾ</term> Gr. <term xml:lang="grc">μαντίλιον</term> / Lat. mantile (acc. to the reading <bibl type="ancient">yBer 6d: 58</bibl>), see <bibl type="modern">Fleischer in Levy III 312b</bibl>. See Löw in Krauss ad loc. and <bibl type="modern">Sperber, Cards</bibl>. See <ref type="entry" xml:lang="jpa" target="mantilin-ys.html">מנטילין</ref> Yalq.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Levy III</title>
+                  <citedRange>151b-152a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>
