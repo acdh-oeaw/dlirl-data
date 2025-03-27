@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">פילי</title>
+            <title type="alternative">pyly</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="pile-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">פילי</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">pyly</orth>
+               <pron notation="rabbinic">pile</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">f.</gram>
+               </gramGrp>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">פלוון</orth>
+                  <orth type="transliteration" xml:lang="fjb">plwwn</orth>
+                  <pron notation="rabbinic">pilwan</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+            </form>
+            <sense xml:id="pile-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>city gate, entrance</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>πυλέ</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>דיקלטינוס מלכא הוה רעי חזירי בהדא טבריא. וכיון דהוה מטי סדרא דר', הוו מינקיא נפקין ומחיין ליה. לבתר יומין אתעבד מלך, ויתיב ליה בהדא פנייס, ושלח כתבין לטבריא בפתי רמשא דערובתא דשבתא. אמ', אנא יהיב קלוון דיהוון רברבני דיהודאי קיימין קודמיי בצפרא דחד בשבא. פקדיה לשליחא ואמ' לא תתן יתהון להון אלא מטמעי יומא דערובתא. נחת ר' שמואל למיסחי, חמתיה לר' דהוה קאים קמיה סידרא רבה ופניו חולניות. א"ל למה פניך חולניות, א"ל כך וכך אשתדר לי מן מלכותא. א"ל איתא סחי דברייך עביד לך ניסין. כד עלון למסחי, אתא הדא ארגינטין מגחך ומרקד קדמיהון. בעי רבי דזעף ביה. א"ל ר' שמוא' בר נחמן שבקיה דזימנין על ניסין הוא מתחמי. א"ל מריך בעקא ואת קאים גחיך ומרקד. אמ' להון אכלון ושתון, דברייכון עביד לכון ניסין, ואנא מקים לכון קודמוי בצפרא דחד בשבא. באפוקי שבא, בתר סדרא, נסאתון ואוקימון קדם 
+                  <app>
+                     <lem>פיילי</lem>
+                     <rdg wit="#S">פילי</rdg>
+                  </app> דפניאס. אמרין הא קיימין קדם 
+                  <app>
+                     <lem>פולי</lem>
+                     <rdg wit="#S">פילי</rdg>
+                     <rdg wit="#W">פיילי</rdg>
+                  </app> אמר סגרון פולי. נסאתון ואוקימון על טיכסא דמדינתא. עלין ואמרין ליה (אמ') אמר אנא קלוון דתאזון בני תלתא יומי ויעלון ויסחון וייתון לגבי. אזלון ואזון בני תלתא יומין, ועל ארגנטין ומזגא קדמיהון, ועלון ואסחון ואתון לגביה. אמ' להון בגין דאלהכון עביד לכון ניסין אתון מקילין למלכא, אמרין ליה, לדקלטינוס רעי חזירי אקילינן ברם לדקלטינוס מלכא אנן משתעבדין. א"ל אעפ"כ לא תבזון לא ברומי זעיר ולא בגולייר זעיר.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 110</ref>
+                     <ref type="witness">II 520: 15</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">דיקלטינוס</ref>
+                  <ref type="entry" xml:lang="jpa">פנייס</ref>
+                  <ref type="entry" xml:lang="jpa">ארגינטין</ref>
+                  <ref type="entry" xml:lang="jpa">טיכסא</ref>
+                  <ref type="entry" xml:lang="jpa">דקלטינוס</ref>
+                  <ref type="entry" xml:lang="jpa">דקלטינוס</ref>
+                  <note>= <bibl type="ancient">GenR 63,8 (II 689: 7; 690: 1)</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>זו יוכבד שנולדה על 
+                  <app>
+                     <lem>פולי</lem>
+                     <rdg wit="#W S">פילי</rdg>
+                  </app> של מצרים</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 152</ref>
+                     <ref type="witness">II 819: 78</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">PesK 88a</bibl> (<term xml:lang="jpa">פילי</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>זו יוכבד שנולדה על פילי מצרים</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Sam 152</ref>
+                     <ref type="witness">X 344: 24</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">PesK 88a</bibl></note>
+               </cit>
+            </sense>
+            <note>Cf. <bibl type="modern">Krauss, LW II 447b-448a</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>487b-488a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

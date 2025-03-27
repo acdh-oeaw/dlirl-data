@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">פרבטיות</title>
+            <title type="alternative">prbṭywt</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="privatiyyot-dlgenr"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">פרבטיות</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">prbṭywt</orth>
+               <pron notation="rabbinic">privaṭiyot</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="privatiyyot-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>public baths</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>τὰ πριουᾶτα</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <quote>privata</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     <app>
+                        <lem>אמר</lem>
+                        <rdg wit="#Ox2 Vat2 V K">ר' לוי</rdg>
+                     </app> 
+                     <app>
+                        <lem>ליה</lem>
+                        <rdg wit="#Vat2 V K">-</rdg>
+                     </app> לית הכא מלכו, אלא למלך שהיה מטייל פתח פלטין וראה בולרין אחת מושלכת, אמר מה נעשה בה, מהן אומרים דימוסיות ומהן אומרים פרבטיות, אמר המלך אדריינטיס אני עושה אותה מי מעכב.</quote>
+                  <bibl>
+                     <ref type="witness">8,8</ref>
+                     <ref type="witness">I 62: 3</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פלטין</ref>
+                  <ref type="entry" xml:lang="jpa">בולרין</ref>
+                  <ref type="entry" xml:lang="jpa">אדריינטיס</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Levi said: There is no taking counsel here, but it may be compared to a king who was walking at the door of his palace when he saw a chunk lying about. Said he: “What shall we do with it?” Some answered: “[Use it in building] public baths”; others answered: “private baths”. “I will make a statue of it”, declared the king. Who then can hinder him? (Cf. Freedman / Simon I 60)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq. 13 (I 37: 55)</bibl> (<ref type="entry" xml:lang="jpa" target="privataot-ys.html">פריבטאות</ref>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>בנוהג שבעולם מלך בשר ודם מתקלס במדינה ועדיין לא בנה להם דימוסאות ועדיין לא 
+                     <app>
+                        <lem>נתן</lem>
+                        <rdg wit="#Ox1 Vat2 V">בנה</rdg>
+                     </app>
+                     <app>
+                        <lem>להם</lem>
+                        <rdg wit="#V">לה</rdg>
+                     </app>
+                     <app>
+                        <lem>פרקטיאה</lem>
+                        <rdg wit="#Ox1">פרוזבטיות</rdg>
+                        <rdg wit="#Vat2">פרביטאות</rdg>
+                     </app></quote>
+                  <bibl>
+                     <ref type="witness">1, 12</ref>
+                     <ref type="witness">I 10: 9</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">דימוסאות</ref>
+                  <ref type="entry" xml:lang="jpa">פרקטיאה</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>In human practice an earthly king is honoured in his province, although he has not yet built them public baths or given them official positions.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">BemR 12,5</bibl> (-)</note>
+               </cit>
+            </sense>
+            <note><bibl type="modern">AC VI 408</bibl>: Gr. <term xml:lang="grc">πριουάτον</term>, <term xml:lang="grc">πριβάτον</term> (cf. <bibl type="modern">Krauss, LW II 488b</bibl>) “private bath”. Opp. <ref type="entry" xml:lang="jpa" target="dimosia.html">דימוסייה</ref>, “public bath“ (<bibl type="modern">Krauss, LW I 215-216</bibl>), cf. <bibl type="ancient">yShev 8,11 38b: 72</bibl>. The reading in 1,12 is uncertain, cf. MY ad loc. and <term xml:lang="jpa">פרקטיאה</term>. Syr. <term xml:lang="syc">ܦܪܝܒܛܘܢ</term> <term xml:lang="fjb">prybṭwn</term> “private treasury of emperor” (<bibl type="modern">Sokoloff, SL 1238b</bibl>).</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>506b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

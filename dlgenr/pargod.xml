@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">פרגוד</title>
+            <title type="alternative">prgwd</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="pargod-dlgenr"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">פרגוד</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">prgwd</orth>
+               <pron notation="rabbinic">pargod</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">פרגודין</orth>
+                  <orth type="transliteration" xml:lang="fjb">prgwdyn</orth>
+                  <pron notation="rabbinic">pargoudin</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+            </form>
+            <sense xml:id="pargod-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>bordered garment</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>παραγαύδιον</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <quote>paragauda</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ויפשיטו את יוסף, זה הפינס, את כתנתו זה חלוק, את כתנת הפסים זה הפרגוד, אשר עליו זה פמלניא</quote>
+                  <bibl>
+                     <ref type="witness">84,16</ref>
+                     <ref type="witness">II 1019: 5</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פמלניא</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And they stripped Joseph [Gen 37,23] – that refers to his cloak; his coat, to his shirt; the coat of many colours – the bordered garment; that was on him – his breeches. (Cf. Freedman / Simon II 781)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 142 [II 725: 9]</bibl></note>
+               </cit>
+            </sense>
+            <note>The word is probably of Pers. origin. Cf. <ref type="entry" xml:lang="jpa" target="pargod-ys.html">פרגוד</ref> Yalq (with a second sense).</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>409b</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Heijmanns</title>
+                  <citedRange>177</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>477b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

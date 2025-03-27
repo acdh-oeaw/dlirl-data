@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">פרגוד</title>
+            <title type="alternative">prgwd</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="pargod-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">פרגוד</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">prgwd</orth>
+               <pron notation="rabbinic">pargod</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">פרגודין</orth>
+                  <orth type="transliteration" xml:lang="fjb">prgwdyn</orth>
+                  <pron notation="rabbinic">pargoudin</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+            </form>
+            <sense xml:id="pargod-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>bordered garment</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>παραγαύδιον </quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <quote>paragauda</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ויפשיטו את יוסף – זה הפינס, את כתנתו – זה חלוק, את כתנת הפסים – זה הפרגוד, אשר עליו – זה פלמניא</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 142</ref>
+                     <ref type="witness">II 725: 9</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פלמניא</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And they stripped Joseph [Gen 37,23] – that refers to his cloak; his coat, to his shirt; the coat of many colours – the bordered garment; that was on him – his breeches. (Cf. Freedman / Simon II 781)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 84 [II 1019: 5]</bibl></note>
+               </cit>
+            </sense>
+            <sense xml:id="pargod-ys-2">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>curtain</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ותחתיו תלמ' חכמ' שמבארין את התורה. וכל אחד יש לו שתי חופות אחת של (אבני) כוכבים, ואחת של חמה ולבנה, ובין כל חופה וחופה פרגוד של ענני כבוד</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 20</ref>
+                     <ref type="witness">I 71: 29</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">Sefer Gan Eden</bibl> (<bibl type="ancient">Bet ha-Midrasch II 1853: 53</bibl>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>שמעתי מאחורי הפרגוד השה לעולה ולא יצחק לעולה</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 96</ref>
+                     <ref type="witness">I 436: 58</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">MidrAg Wa-yeraʾ 22,12 [436]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>וכיון שראה בפרגוד של הקב"ה כתות כתות של סנהדרין [...] והראה לו בפרגוד של הקב"ה רבוא רבבות של סנהדרין</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 173</ref>
+                     <ref type="witness">III 61: 13; 17</ref>
+                  </bibl>
+                  <note>= <bibl type="modern">Wertheimer, Batei Midrashot II, Jerusalem 1989: 388</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>נטל קשת וחצים והיה מורה אחר הפרגוד</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 94</ref>
+                     <ref type="witness">I 422: 24</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">PRE 30</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>כך שמעתי מאחורי הפרגוד שאין תפלתך נשמעת</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 821</ref>
+                     <ref type="witness">VIII 70: 22</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">TanB We-ʾetḥanan 5 [6b]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>שנו רבותינו מי שהיה נכנס לתרום הלשכה לא היה נכנס לא בפרגוד חפות ולא בפונדיא שאם יעשיר יאמרו משל לשכה העשיר, שאדם צריך לצאת ידי הבריות כדרך שהוא יוצא ידי שמים שנאמר והייתם נקיים מה' ומישראל</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 414</ref>
+                     <ref type="witness">IV 782: 62</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">TanB Pequde 2 [64a]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אלא אמרו רצוננו לשמוע מפי מלכנו, ולא דומה שומע מפי פרגוד</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 276</ref>
+                     <ref type="witness">III 423: 88</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">MekhY Yitro 2</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>שנו רבותינו אין התורם נכנס לא בפרגוד חפות ולא במנעל ולא בסנדל ולא בתפלין ולא בקמיע</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 786</ref>
+                     <ref type="witness">VII 638: 65</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">mSheq 3,2</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אין התורם נכנס לתרום לא בפרגוד חפות ולא באנפליא של עור</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 386</ref>
+                     <ref type="witness">IV 723: 32</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">bYev 102b</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>א"ר באותה שעה הוציאו לגבריאל לאחורי הפרגוד ומחיוה שתין פולסי דנורא [...] עמר גבריאל מאחרי הפרגוד</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Ez 347</ref>
+                     <ref type="witness">XI 536: 16; 25</ref>
+                  </bibl>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר רבי אבהו שלשה הם אין הפרגוד ננעל בפניהם, ואלו הם, אונאה, וגזל, וע"ז</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 276</ref>
+                     <ref type="witness">XI 399: 43</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">bBM 59a</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' אחא בר חנינא אמר אין הפרגוד ננעל בפניו שנאמר ולא יכנף עוד מוריך:</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Jes 346</ref>
+                     <ref type="witness">XI 146: 68</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">bSot 49a</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>א"ל כבר שמעתי מאחורי הפרגוד שובו בנים שובבים חוץ מאחר</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Hi 916</ref>
+                     <ref type="witness">108a: 35</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">Hag 15a</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>הלכה ושטה ובאת ואמרה לה חברתה מה שמעת מאחורי הפרגוד</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Koh 989</ref>
+                     <ref type="witness">547c: 41</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">bBer 18b</bibl></note>
+               </cit>
+            </sense>
+            <note>The word is probably of Pers. origin.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>409b</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Heijmanns</title>
+                  <citedRange>177</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>477b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

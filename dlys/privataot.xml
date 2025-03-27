@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">פריבטאות</title>
+            <title type="alternative">prybṭʾwt</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="privataot-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">פריבטאות</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">prybṭʾwt</orth>
+               <pron notation="rabbinic">privaṭaʾot</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="privataot-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>public baths</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>τὰ πριουᾶτα</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <quote>privata</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>א"ר לוי לית הכא מילכו, אלא למלך שהיה מטייל על פתח פלטין וראה בולרין אחת [מושלכת]. אמ' מה נעשה לה, מהן אומ' דימוסיאות, מהן אומ' 
+                     <app>
+                        <lem>פרדכסיות</lem>
+                        <rdg wit="#W">פריבטאות</rdg>
+                     </app>. אמ' המלך אנדרטין אני עושה אותה מי מעכב.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 13</ref>
+                     <ref type="witness">I 37: 55</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אנדרטין</ref>
+                  <ref type="entry" xml:lang="jpa">בולרין</ref>
+                  <ref type="entry" xml:lang="jpa">דימוסיאות</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Levi said: There is no taking counsel here, but it may be compared to a king who was walking at the door of his palace when he saw a chunk lying about. Said he: “What shall we do with it?” Some answered: “[Use it in building] public baths”; others answered: “private baths”. “I will make a statue of it”, declared the kind. Who then can hinder him? (Cf. Freedman / Simon I 60)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 8,8 [I 62: 2]</bibl></note>
+               </cit>
+            </sense>
+            <note>Cf. <bibl type="modern">Krauss, LW II 488b</bibl>. Cf. <bibl type="ancient">GenR</bibl> <ref type="entry" xml:lang="jpa" target="privatiyyot.html">פרבטיות</ref>. The reading <term xml:lang="jpa">פרדכסיות</term> <term xml:lang="fjb">prdksywt</term> of Ms Ox (and S) is apparently a corruption.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>506b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>
