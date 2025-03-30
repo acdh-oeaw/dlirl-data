@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">תכסיס</title>
+            <title type="alternative">tksys</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="taksis-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">תכסיס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">tksys</orth>
+               <pron notation="rabbinic">taksis</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">טכסיס</orth>
+                  <orth type="transliteration" xml:lang="fjb">ṭksys</orth>
+                  <pron notation="rabbinic">ṭaksis</pron>
+               </form>
+            </form>
+            <sense xml:id="taksis-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>order, array; corps, regiment of troops</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>τάξις</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>למה אמ' כל זכר ולא מזכיר שם נקבה, [מפני כבודו של אלהים עולה מן הזכרים. כל זכר], אמ' דוד הנה נחלת י"י בנים אלו הזכרים ואם באו הנקבות אף הם שכר פרי הבטן. ולמה פוקד אותם בכל פעם ופעם, לשהן טכסיס שלו, והמלך שמח בטכסיס שלו הרבה.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 691</ref>
+                     <ref type="witness">Num 15: 73</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="de">
+                     <quote>Warum sagt er „alles, was männlich ist“ und erwähnt dort die Weiblichen nicht? David sagte: Siehe, der Erbteil JHWHs sind Söhne. (Ps 127,3) Das sind die Männlichen. Wenn aber weibliche Kinder kommen: Auch sie sind Lohn, Früchte des Leibes. Und warum musterte er sie bei jeder Gelegenheit? Weil sie seine Truppen sind. Und der König freut sich über seine Truppen. (Börner-Klein 140)</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>יש גבור במדינה ועליו כל כלי זיין אבל אין לו כח ולא גבורה ולא תכסיס ולא מלחמה, אבל מי שאמ' והיה העולם לו הכח והגבורה ותכסיס ומלחמה שנ' כי ליי' המלחמה</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 246</ref>
+                     <ref type="witness">Ex 322: 74,75</ref>
+                  </bibl>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>א"ר לוי כך היה תכסיס של אנשי פרס היה להם כוס גדול מחזיק ארבעה שמציות והוא נקרא פוסקא והם משקים בו לכל אחד ואחד אפילו הוא מת אפילו הוא משתגע הוא שותה</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Es 1046</ref>
+                     <ref type="witness">527c: 21</ref>
+                  </bibl>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ותלקח אסתר וגו', וכך היה תכסיס של נשים שהיו באות אצל המלך, כל אחת היתה עושה י"ב חדש בבית המלך מתעדנות ומתפנקות ששה חדשים בשמן המור וששה חדשים בבשמים ובתמרוקי הנשים</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Es 1053</ref>
+                     <ref type="witness">528c: 12</ref>
+                  </bibl>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>מה עשה הקב"ה נטל אמת והשליכו לארץ אמרו מלאכי השרת לפני הקב"ה רבש"ע מה את מבזה תכסיס 
+                     <app>
+                        <lem>אלתמסון</lem>
+                        <rdg wit="#W">אלטיכסייא</rdg>
+                        <rdg wit="#V S">אלתמסין</rdg>
+                     </app> שלך תעלה אמת מן הארץ, הדא הוא דכתיב אמת מארץ תצמח.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Ps 834</ref>
+                     <ref type="witness">470b: 17</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">תכסיס</ref>
+                  <ref type="entry" xml:lang="jpa">אלטיכסייא</ref>
+               </cit>
+            </sense>
+            <note>Pl. <term xml:lang="jpa">תכסיסין</term> <term xml:lang="fjb">tksysy[n]</term> <term xml:lang="rabbinic">takhsisin</term> is attested in <bibl type="ancient">bShab 31a</bibl>, <bibl type="ancient">PesR 17,7</bibl>, <bibl type="ancient">MidrTeh 3,3 (Buber 18a)</bibl>, cf. <bibl type="modern">Krauss, LW 267</bibl>; <bibl type="modern">AC III 30-31</bibl>; <bibl type="modern">Levy II 158</bibl>; <bibl type="modern">Jastrow I 535</bibl>. Syr. <term xml:lang="syc">ܛܒܣܝܣ</term> <term xml:lang="fjb">ṭksys</term> <term xml:lang="rabbinic">ṭakhsis</term>, cf. <bibl type="modern">Sokoloff, SL 529</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>230</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">תרקיה</title>
+            <title type="alternative">trqyh</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="teraqiyyah-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">תרקיה</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">trqyh</orth>
+               <pron notation="rabbinic">teraqiyah</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">f.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">תרקיא</orth>
+                  <orth type="transliteration" xml:lang="fjb">trqyʾ</orth>
+                  <pron notation="rabbinic">teraqiaʾ</pron>
+               </form>
+            </form>
+            <sense xml:id="teraqiyyah-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>vault, breastwork</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>θωράκια</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' יצחק וריש לקי' ר' יצחק אמ' בשר ודם מותח אהל, אהל אננקי על ידי שהות הוא רפי קימעא. ברם הכא, התרקיע עמו לשחקים. וא"ר שהן רפים, ת"ל חזקים כראי מוצק. ריש לקי' אמ' בשר ודם מוסך בולס אננקי על ידי שהות הוא מעלה חלודה. ברם הכא, חזקים כראי מוצק נראים כבשעת יציקתן כמין תרקיא</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 19</ref>
+                     <ref type="witness">I 60: 23</ref>
+                  </bibl>
+                  <ref type="entry">בולס</ref>
+                  <ref type="entry">אננקי</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Yiṣḥaq and R. Shimʿon ben Laqish. R. Yiṣḥaq said: when a man sets up a tent in hurry, after a while it will get slightly slacken, but here: Canst thou with Him spread out the sky? (Hi 37,18) And if you say that they are slack, the Scripture says: strong [as a molten mirror] (ibid.). Resh Laqish said: When a man makes in hurry a casting in form of a round object, after a while it will get rusty, but here: strong as a molten mirror [ibid.] - they [the heavens] look like a breastwork.</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' יצחק וריש לקיש [ר' יצחק אמר] מלך בשר ודם מותח אהל, אהל אננקי על ידי שהות הוא רפי קימעא. ברם הכא, (ה)תרקיע עמו לשחקים. אם תאמר שהן רפים, ת"ל חזקים כראי מוצק. ריש לקיש אמר מלך בשר ודם (מושך אהל) [מוסך בולס] אננקי על ידי שהות מעלה חלודה. אבל הכא, חזקים כראי מוצק, נראים כבשעת יציקתן כמין תרקיא</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 450</ref>
+                     <ref type="witness">VII 197: 86</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">בולס</ref>
+               </cit>
+            </sense>
+            <note>Hapax in Rabb. Lit. Cf. <bibl type="modern">AC VIII 278a</bibl>, <bibl type="modern">Levy IV 675a</bibl>. <bibl type="modern">Jastrow I 558a</bibl>, <bibl type="modern">Krauss, LW II 278b</bibl>: Gr. <term xml:lang="grc">ἀνθρἀκιον</term>. Löw: Gr. <term xml:lang="grc">θράκιας λίθος</term>. See <bibl type="modern">Epstein (1934) 38</bibl>. See in detail: <bibl type="modern">Drew-Bear (1972) 76</bibl>. = <bibl type="ancient">GenR 12,13 [I 112: 1]</bibl>. See <ref type="entry" xml:lang="jpa" target="teraqiyah.html">תרקיה</ref> GenR.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sperber (2012)</title>
+                  <citedRange>75</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>
