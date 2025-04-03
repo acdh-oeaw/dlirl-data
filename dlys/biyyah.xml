@@ -43,8 +43,8 @@
          <entry xml:id="biyyah-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#biyyah-dlgenr"
+            next="#bimah-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">בייא</orth>

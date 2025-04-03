@@ -43,8 +43,8 @@
          <entry xml:id="akhsenai-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#akhsenai-dlgenr"
+            next="#akhsanya-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אכסנאי</orth>

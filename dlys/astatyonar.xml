@@ -43,8 +43,8 @@
          <entry xml:id="astatyonar-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#antropiyah-dlgenr"
+            next="#astrologos-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אסטטיונר</orth>

@@ -43,8 +43,8 @@
          <entry xml:id="privatiyyot-dlgenr"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#fanos-dlgenr"
+            next="#pargod-dlgenr"
             source="Genesis Rabbah">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">פרבטיות</orth>

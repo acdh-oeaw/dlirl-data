@@ -38,8 +38,8 @@
          <entry xml:id="agrion-dlgenr"
                 xml:lang="en"
                 type="mainEntry"
-                prev="#agustiani-dlgenr"
-                next="#idravlin-dlgenr"
+                prev="#agnotos-ys"
+                next="#egriqos-ys"
                 source="Genesis Rabbah">
             <form type="lemma" opt="false">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אגריון</orth>

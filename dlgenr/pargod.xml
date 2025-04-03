@@ -43,8 +43,8 @@
          <entry xml:id="pargod-dlgenr"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#privatiyyot-dlgenr"
+            next="#pargod-ys"
             source="Genesis Rabbah">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">פרגוד</orth>

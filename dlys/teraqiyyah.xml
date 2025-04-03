@@ -43,8 +43,8 @@
          <entry xml:id="teraqiyyah-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#teraqiyah-dlgenr"
+            next="#avli-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">תרקיה</orth>

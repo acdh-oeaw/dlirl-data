@@ -38,7 +38,7 @@
          <entry xml:id="avli-dlgenr"
                 xml:lang="en"
                 type="mainEntry"
-                prev="#taksis-dlgenr"
+                prev="#teraqiyyah-ys"
                 next="#agba-bastes-dlgenr"
                 source="Genesis Rabbah">
             <form type="lemma" opt="false">
@@ -95,7 +95,7 @@
                      <quote>
 “R. Lewi said: [This may be compared] to one who minted his 
 own coinage in the very palace of the king” (Freedman I: 293)
-<!-- The english translation of the passage-->
+
             </quote>
                   </cit>
                </cit>

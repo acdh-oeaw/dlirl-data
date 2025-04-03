@@ -43,8 +43,8 @@
          <entry xml:id="istrateltis-dlgenr"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#imeron-dlgenr"
+            next="#istartelis-ys"
             source="Genesis Rabbah">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">איסטרטלטיס</orth>

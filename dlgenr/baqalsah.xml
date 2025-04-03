@@ -39,7 +39,7 @@
                 xml:lang="en"
                 type="mainEntry"
                 prev="#basas-dlgenr"
-                next="#galaqsinon-dlgenr"
+                next="#gulyar-dlgenr"
                 source="Genesis Rabbah">
             <form type="lemma" opt="false">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">בקלסה</orth>

@@ -43,8 +43,8 @@
          <entry xml:id="teraqiyah-dlgenr"
             xml:lang="en"
             type="mainEntry"
-            prev="#"
-            next="#"
+            prev="#taksis-altamsin-ys"
+            next="#teraqiyyah-ys"
             source="Genesis Rabbah">
             <form type="lemma" opt="false">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">תרקיה</orth>

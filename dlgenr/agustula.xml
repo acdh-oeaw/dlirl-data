@@ -38,8 +38,8 @@
          <entry xml:id="agustula-dlgenr"
                 xml:lang="en"
                 type="mainEntry"
-                prev="#augustalios-dlgenr"
-                next="#agustiani-dlgenr"
+                prev="#agustiani-dlgenr"
+                next="#augustalios-dlgenr"
                 source="Genesis Rabbah">
             <form type="lemma" opt="false">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אגוסטולא</orth>

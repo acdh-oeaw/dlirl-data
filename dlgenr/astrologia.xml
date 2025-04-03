@@ -39,7 +39,7 @@
                 xml:lang="en"
                 type="mainEntry"
                 prev="#astrologos-dlgenr"
-                next="#askolastiqa-dlgenr"
+                next="#istrateg-dlgenr"
                 source="Genesis Rabbah">
             <form type="lemma" opt="false">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אסטרולוגיא</orth>

@@ -43,8 +43,8 @@
          <entry xml:id="agusta-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#egdikos-ys"
+            next="#augusta-ys"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אגוסטא</orth>

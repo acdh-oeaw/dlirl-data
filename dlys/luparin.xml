@@ -43,8 +43,8 @@
          <entry xml:id="luparin-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#luparin-dlgenr"
+            next="#laipas-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">לופרין</orth>

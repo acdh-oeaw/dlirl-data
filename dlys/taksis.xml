@@ -43,8 +43,8 @@
          <entry xml:id="taksis-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#taksis-dlgenr"
+            next="#taksis-altamsin-ys"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">תכסיס</orth>

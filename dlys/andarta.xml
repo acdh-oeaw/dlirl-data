@@ -43,8 +43,8 @@
          <entry xml:id="andarta-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#androlomosiya-dlgenr"
+            next="#anona-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אנדרטא</orth>

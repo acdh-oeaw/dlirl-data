@@ -43,8 +43,8 @@
          <entry xml:id="artigos-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#ariston-dlgenr"
+            next="#arkistrategos-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">ארטיגוס</orth>

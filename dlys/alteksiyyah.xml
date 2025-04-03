@@ -43,8 +43,8 @@
          <entry xml:id="alteksiyyah-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#alteksiyya-dlgenr"
+            next="#alsis-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אלטיכסייה</orth>

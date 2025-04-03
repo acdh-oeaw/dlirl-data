@@ -43,8 +43,8 @@
          <entry xml:id="apryn-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#afes-dlgenr"
+            next="#aparkas-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אפרין</orth>

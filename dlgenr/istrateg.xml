@@ -43,8 +43,8 @@
          <entry xml:id="istrateg-dlgenr"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#astrologia-dlgenr"
+            next="#estrateg-ys"
             source="Genesis Rabbah">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אסטרטיג</orth>

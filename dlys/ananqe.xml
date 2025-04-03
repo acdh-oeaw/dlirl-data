@@ -43,8 +43,8 @@
          <entry xml:id="ananqe-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#ananqe-dlgenr"
+            next="#anfilia-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אננקי</orth>

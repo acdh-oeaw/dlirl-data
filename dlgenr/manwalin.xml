@@ -43,8 +43,8 @@
          <entry xml:id="manwalin-dlgenr"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#milnin-dlgenr"
+            next="#mantilin-ys"
             source="Genesis Rabbah">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">מנוולין</orth>

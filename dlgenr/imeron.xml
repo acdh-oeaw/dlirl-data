@@ -39,7 +39,7 @@
                 xml:lang="en"
                 type="mainEntry"
                 prev="#igia-dlgenr"
-                next="#epta-dlgenr"
+                next="#istrateltis-dlgenr"
                 source="Genesis Rabbah">
             <form type="lemma" opt="false">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אימרון</orth>

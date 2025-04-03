@@ -38,8 +38,8 @@
          <entry xml:id="agustiani-dlgenr"
                 xml:lang="en"
                 type="mainEntry"
-                prev="#agustula-dlgenr"
-                next="#agrion-dlgenr"
+                prev="#augusta-ys"
+                next="#agustula-dlgenr"
                 source="Genesis Rabbah">
             <form type="lemma" opt="false">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אגוסטיינא</orth>

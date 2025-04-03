@@ -43,8 +43,8 @@
          <entry xml:id="genisiyyah-dlgenr"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#galaqsinon-dlgenr"
+            next="#grdwmi-dlgenr"
             source="Genesis Rabbah">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">גניסייה</orth>

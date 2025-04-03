@@ -43,8 +43,8 @@
          <entry xml:id="duqarnin-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#doqran-dlgenr"
+            next="#doron-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">דוקרנין</orth>

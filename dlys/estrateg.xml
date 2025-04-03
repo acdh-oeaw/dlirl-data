@@ -43,8 +43,8 @@
          <entry xml:id="estrateg-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#istrateg-dlgenr"
+            next="#askolastiqa-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אסטרטיג</orth>

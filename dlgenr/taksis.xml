@@ -39,7 +39,7 @@
                 xml:lang="en"
                 type="mainEntry"
                 prev="#temelios-dlgenr"
-                next="#avli-dlgenr"
+                next="#taksis-ys"
                 source="Genesis Rabbah">
             <form type="lemma" opt="false">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">תכסיס</orth>

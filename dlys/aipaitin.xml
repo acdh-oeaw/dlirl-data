@@ -43,8 +43,8 @@
          <entry xml:id="aipaitin-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#istartelis-ys"
+            next="#epta-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">איפייטין</orth>

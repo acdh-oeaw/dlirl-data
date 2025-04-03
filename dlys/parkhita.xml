@@ -43,8 +43,8 @@
          <entry xml:id="parkhita-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#privataot-ys"
+            next="#farmakos-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">פרכיטא</orth>

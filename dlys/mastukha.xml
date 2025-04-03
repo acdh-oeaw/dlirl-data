@@ -43,8 +43,8 @@
          <entry xml:id="mastukha-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#mastikhe-dlgenr"
+            next="#sisirnon-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">מצטוכא</orth>

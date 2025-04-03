@@ -43,8 +43,8 @@
          <entry xml:id="pile-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#pilon-dlgenr"
+            next="#paltin-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">פילי</orth>

@@ -43,8 +43,8 @@
          <entry xml:id="egriqos-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#agrion-dlgenr"
+            next="#idravlin-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אגריקוס</orth>

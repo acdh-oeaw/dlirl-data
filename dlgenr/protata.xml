@@ -38,8 +38,8 @@
          <entry xml:id="protata-dlgenr"
                 xml:lang="en"
                 type="mainEntry"
-                prev="#fanos-dlgenr"
-                next="#farmakos-dlgenr"
+                prev="#paradaksiyot-ys"
+                next="#privataot-ys"
                 source="Genesis Rabbah">
             <form type="lemma" opt="false">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">פרוטאטא</orth>

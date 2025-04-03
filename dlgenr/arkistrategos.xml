@@ -38,8 +38,8 @@
          <entry xml:id="arkistrategos-dlgenr"
                 xml:lang="en"
                 type="mainEntry"
-                prev="#arkhilistes-dlgenr"
-                next="#arpakas-dlgenr"
+                prev="#artigos-ys"
+                next="#arkhilistes-dlgenr"
                 source="Genesis Rabbah">
             <form type="lemma" opt="false">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">ארכי סטרטיגוס</orth>

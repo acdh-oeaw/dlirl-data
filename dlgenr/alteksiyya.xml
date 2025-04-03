@@ -38,8 +38,8 @@
          <entry xml:id="alteksiyya-dlgenr"
                 xml:lang="en"
                 type="mainEntry"
-                prev="#alon-dlgenr"
-                next="#alio-dlgenr"
+                prev="#aliotripolis-dlgenr"
+                next="#alteksiyyah-ys"
                 source="Genesis Rabbah">
             <form type="lemma" opt="false">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אלטיכסייה</orth>

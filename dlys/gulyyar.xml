@@ -43,8 +43,8 @@
          <entry xml:id="gulyyar-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#gulyar-dlgenr"
+            next="#genosiyyah-ys"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">גולייר</orth>

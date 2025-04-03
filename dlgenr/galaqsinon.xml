@@ -38,8 +38,8 @@
          <entry xml:id="galaqsinon-dlgenr"
                 xml:lang="en"
                 type="mainEntry"
-                prev="#baqalsah-dlgenr"
-                next="#grdwmi-dlgenr"
+                prev="#genosiyyah-ys"
+                next="#genisiyyah-dlgenr"
                 source="Genesis Rabbah">
             <form type="lemma" opt="false">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">גלאקסינון</orth>

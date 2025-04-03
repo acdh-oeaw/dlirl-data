@@ -43,8 +43,8 @@
          <entry xml:id="mastikhe-dlgenr"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#mantilin-ys"
+            next="#mastukha-ys"
             source="Genesis Rabbah">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">מסטיכי</orth>

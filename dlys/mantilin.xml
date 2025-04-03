@@ -43,8 +43,8 @@
          <entry xml:id="mantilin-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#manwalin-dlgenr"
+            next="#mastikhe-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">מנטילין</orth>

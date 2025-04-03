@@ -43,8 +43,8 @@
          <entry xml:id="agnotos-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#augustalios-dlgenr"
+            next="#agrion-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אגנוטוס</orth>
