@@ -60,8 +60,6 @@
                <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
                <usg type="normativity" opt="false">standard</usg>
                <usg type="meaningType" opt="false">lit.</usg>
-               <usg type="frequency" opt="false"/>
-               <usg type="geographic" opt="false"/>
                <cit type="translation" xml:lang="en" subtype="sense">
                   <quote>power, origin</quote>
                </cit>
