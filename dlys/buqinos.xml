@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">בוקינוס</title>
+            <title type="alternative">bwqynws</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="buqinos-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">בוקינוס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">bwqynws</orth>
+               <pron notation="rabbinic" opt="false">buqinos</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">בוקיינוס</orth>
+                  <orth type="transliteration" xml:lang="fjb">bwqyynws</orth>
+                  <pron notation="rabbinic">buqainos</pron>
+               </form>
+            </form>
+            <sense xml:id="buqinos-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>signal horn</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>βυκάνη</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <quote>buccina</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>א"ר יאשיה כת' אשרי העם יודעי תרועה. ואומות העולם אין יודעין להריע, כמה קרנות יש להן, כמה בוקיינוס יש להן, כמה סלפירים יש להן. אלא אשרי העם שיודעין לפתות את בוראם בתרועה. אימתי בחדש השביעי.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 645</ref>
+                     <ref type="witness">VI 718: 30</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">סלפירים</ref>
+                  <note>= <bibl type="ancient">PesRK 152a</bibl>; <bibl type="ancient">Yalq 782 [VII 582: 29]</bibl> (<term xml:lang="jpa">סלפירס</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' יאשיה פתח אשרי העם יודעי תרועה. ואומות העולם אין יודעין להריע, כמה קרנות יש להם וכמה בוקינוס יש להם וכמה סלפירס יש להן ואת אומ' יודעי תרוע, אלא אשרי העם שיודעים לפתות לבוראם בתרועה. אימתי בחדש השביעי.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 782</ref>
+                     <ref type="witness">VII 582: 28</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">סלפירס</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And the nations  of the world do not know the sound of blowing? How many fanfares (<term xml:lang="grc">βυκάνη</term>) do they have, how many trumpets (<term xml:lang="grc">σάλπιξ</term>) do they have, how many horns do they have? Rather: Happy is the nation that knows how to influence its Creator with the sound of blowing. When? In the seventh month. (Cf. Zuber 566)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">PesRK 152a</bibl> (<term xml:lang="jpa">סלפירים</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' אושעיא כתיב אשרי העם יודעי תרועה ואוה"ע אינם יודעין להריע כמה 
+                     <app>
+                        <lem>בוקיינוס</lem>
+                        <rdg wit="#L S">בוקיינות</rdg>
+                        <rdg wit="#V">בוקיינו'</rdg>
+                     </app> יש להם כמה סלפידם יש להם כמה קרנות יש להם אלא אשרי העם שיודעים לפתות את בוראם בתרועה אימתי בחדש השביעי</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Ps 840</ref>
+                     <ref type="witness">471b: 41</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">PesRK [471b: 41]</bibl> (<term xml:lang="jpa">סלפירים</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ובא המלך ומצאם ישנים והעמיד להם 
+                     <app>
+                        <lem>קלנים</lem>
+                        <rdg wit="#W">בוקיינוס</rdg>
+                     </app> לעוררם ומוציאם לאפנטא של המלך</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Cant 983</ref>
+                     <ref type="witness">534b: 25</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אפנטא</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>... and when the king came and found them sleeping, he sounded a horn and brought them out to meet the king.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">ShirR 1,12</bibl> (<term xml:lang="jpa">בקלאנין</term>)</note>
+               </cit>
+            </sense>
+            <note>Cf. <bibl type="modern">Levy I 201b</bibl>; <bibl type="modern">AC II 159ab</bibl>; <bibl>Jastrow I 148ab</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>142b-143a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

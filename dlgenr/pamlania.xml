@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">פמלניא</title>
+            <title type="alternative">pmlny‘</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="pamlania-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">פמלניא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">pmlny‘</orth>
+               <pron notation="rabbinic" opt="false">famalnia</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="num" opt="false">pl.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">פמלליא</orth>
+                  <orth type="transliteration" xml:lang="fjb">pmllyʾ</orth>
+               </form>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">פמליא</orth>
+                  <orth type="transliteration" xml:lang="fjb">pnlyʾ</orth>
+               </form>
+            </form>
+            <sense xml:id="pamlania-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>breeches</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>φεμινάλια</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <quote>feminalia</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ויפשיטו את יוסף זה הפינס את כתנתו זה חלוק, את כתנת הפסים זה הפרגוד, אשר עליו זה 
+                     <app>
+                        <lem>פמלניא</lem>
+                        <rdg wit="#Vat2">פימלייא</rdg>
+                        <rdg wit="#Vat1">פימלניא</rdg>
+                        <rdg wit="#Ox1 Ox2">פימללניא</rdg>
+                        <rdg wit="#V">פמלניא</rdg>
+                     </app> שלו</quote>
+                  <bibl>
+                     <ref type="witness">84,16</ref>
+                     <ref type="witness">II 1019: 5</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פינס</ref>
+                  <ref type="entry" xml:lang="jpa">פרגוד</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And they stripped Joseph [Gen 37,23] – that refers to his cloak; his coat, to his shirt; the coat of many colours – the bordered garment; that was on him – his breeches. (Cf. Freedman / Simon II 781)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 142 [725: 9]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ביד מי מלכות מדי נופלת ביד מרדכי שהוא בא משל בנימין, לוי כנגד מלכות יון, זה שבט שלישי, וזו מלכות שלישית, זה אותיותיו משולשין וזו אותיותיה משולשין, אלו תוקעי קרנים, ואלו תוקעי סולפירים, אלו לובשי קובעים, ואלו לובשי קיסים, אלו לובשי מכנסים, ואלו לובשי 
+                     <app>
+                        <lem>פמלליא</lem>
+                        <rdg wit="#Vat1">פינמלייה</rdg>
+                     </app>, אלו מרובים באוכלסין, ואלו מועטין באוכלסין, באו מרובים ונפלו ביד מועטין</quote>
+                  <bibl>
+                     <ref type="witness">99,2</ref>
+                     <ref type="witness">III 1274: 4</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">קיסים</ref>
+                  <ref type="entry" xml:lang="jpa">סולפירים</ref>
+                  <ref type="entry" xml:lang="jpa">אוכלסין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>By whose hand will the empire of Media fall? By the hand of Mordechai, descended from Benjamin. Lewi is opposed to the Greek State, the former being the third tribe and the latter the third kingdom. The name of the former consists of three letters, and that of the latter consists of three letters. The former blow horns, and the latter blow trumpets. The former wear turbans and the latter wear helmets. The former wear breeches and the latter wear femoralia [breeches]. Now the latter are many while the former are but few in number, yet the many came and fell by hands of few. (Freedman / Simon II 974)</quote>
+                  </cit>
+               </cit>
+            </sense>
+            <note>Attested in <bibl type="ancient">mKel 27,6</bibl> and other. Cf. <bibl type="modern">Levy IV 58b</bibl> (“Kniehosen”); <bibl type="modern">AC VI 361ab</bibl> (~ <term xml:lang="grc">φαμινάλια</term>). <bibl type="modern">Jastrow II 1186a</bibl> (“bandages, kneebreeches“).</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Heijmanns 2013</title>
+                  <citedRange>173-174</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>463b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

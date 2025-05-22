@@ -730,14 +730,20 @@
     
     <xsl:template match="tei:ref[@type = 'entry'][parent::tei:note]">
         <xsl:if test="exists(@target)">
-            <xsl:element name="a">
-                <xsl:attribute name="href" select="@target"/>
-                <xsl:attribute name="target" select="'_blank'"/>
-                <xsl:apply-templates select="child::node()"/>
+            <xsl:element name="span">
+                <xsl:attribute name="class" select="'dlgenr-entry-note-term-hebrew'"/>
+                <xsl:element name="a">
+                    <xsl:attribute name="href" select="@target"/>
+                    <xsl:attribute name="target" select="'_blank'"/>
+                    <xsl:apply-templates select="child::node()"/>
+                </xsl:element>
             </xsl:element>
         </xsl:if>
         <xsl:if test="not(exists(@target))">
-            <xsl:apply-templates select="child::node()"/>
+            <xsl:element name="span">
+                <xsl:attribute name="class" select="'dlgenr-entry-note-term-hebrew'"/>
+                <xsl:apply-templates select="child::node()"/>
+            </xsl:element>
         </xsl:if>
     </xsl:template>
     

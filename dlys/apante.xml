@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אפנטי</title>
+            <title type="alternative">ʾnpṭy</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="apante-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אפנטי</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾnpṭy</orth>
+               <pron notation="rabbinic" opt="false">apanṭi</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">f.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="apante-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>encountering, used as a verb: to meet</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἀπαντή, ἀπάντησις</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ובא המלך ומצאם ישנים והעמיד להם קלנים לעוררם ומוציאם 
+                     <app>
+                        <lem>לאפנטא</lem>
+                        <rdg wit="#S L V">לאנפטי</rdg>
+                     </app> של המלך</quote>
+                  <ref type="entry" xml:lang="jpa">קלנים</ref>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">Yalq Cant 983</ref>
+                     <ref type="witness">534b: 25</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>... and when the king came and found them sleeping, he sounded a horn and brought them out to meet the king.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">ShirR 1,12</bibl> (<term xml:lang="jpa">לאפנטי</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>לעולם הבא הקב"ה מביא ומכנס הגליות והם הולכים לירושלים והשכינה תצא לאפנטי שלהם.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Cant 988</ref>
+                     <ref type="witness">527a: 43</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>In the world to come, the Holy One, blessed be He, will bring and gather the exiles, and they will go to Jerusalem, and the Divine Presence will meet them.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">TanB Beshalaḥ 11 (30a)</bibl> (<term xml:lang="jpa">לאנפטי</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>א"ל הק' אהרן אחיך אינו מיצר בדבר הזה, אלא ישמח. תדע לך שהוא יוצא לאנפטי שלך ...</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 172</ref>
+                     <ref type="witness">III 59: 76</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>... you shall know that he is coming to meet you ...</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">TanB Shemot 24 (8a)</bibl></note>
+               </cit>
+            </sense>
+            <note><bibl type="modern">Jastrow I 105b</bibl>; <bibl type="modern">AC I 221b-222a</bibl> renders <term xml:lang="jpa">אפנתי</term> <term xml:lang="fjb">ʾpnty</term> (<term xml:lang="grc">ἀπαντπίον</term>); <bibl type="modern">Levy I 145b</bibl> (<term xml:lang="grc">ἀπάντησις</term>).</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>109b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>
