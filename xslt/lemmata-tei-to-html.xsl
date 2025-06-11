@@ -274,7 +274,11 @@
     <xsl:template match="tei:form[@type = 'lemma']">
         <xsl:element name="div">
             <xsl:attribute name="class" select="'dlgenr-entry-form-lemma'"/>
-            <xsl:apply-templates select="child::node()"/>
+            <xsl:apply-templates select="child::node()[not(self::tei:form[@type = 'variant'])]"/>
+            <xsl:apply-templates select="child::tei:form[@type = 'variant'][not(exists(@source))]"/>
+            <xsl:apply-templates select="child::tei:form[@type = 'variant'][exists(@source)][1]">
+                <xsl:with-param name="inline" select="'false'"/>
+            </xsl:apply-templates>
         </xsl:element>
     </xsl:template>
     
@@ -342,26 +346,65 @@
         </xsl:element>
     </xsl:template>
     
-    <xsl:template match="tei:form[@type = 'variant']">
-        <xsl:element name="div">
-            <xsl:attribute name="class" select="'dlgenr-entry-form-variant'"/>
-            <xsl:text>Variant: </xsl:text>
-            <xsl:apply-templates select="child::node()"/>
-            <xsl:if test="exists(@source)">
+    <xsl:template match="tei:form[@type = 'variant'][exists(@source)]">
+        <xsl:param name="inline"/>
+        <xsl:if test="$inline eq 'false'">
+            <xsl:element name="div">
+                <xsl:attribute name="class" select="'dlgenr-entry-form-further-variants'"/>
+                <xsl:element name="p">
+                    <xsl:attribute name="class" select="'dlgenr-entry-form-further-variants-heading'"/>
+                    <xsl:text>Further Variants: </xsl:text>
+                </xsl:element>
+                <xsl:apply-templates select="child::node()"/>
                 <xsl:element name="span">
                     <xsl:attribute name="class" select="'dlgenr-entry-form-variant-source'"/>
                     <xsl:choose>
-                    <xsl:when test="parent::tei:form/parent::tei:entry/@source = 'Genesis Rabbah'">
-                        <xsl:text>- GenR </xsl:text>
-                        <xsl:value-of select="@source"/>
-                    </xsl:when>
+                        <xsl:when test="parent::tei:form/parent::tei:entry/@source = 'Genesis Rabbah'">
+                            <xsl:text>- GenR </xsl:text>
+                            <xsl:value-of select="@source"/>
+                        </xsl:when>
                         <xsl:otherwise>
                             <xsl:text> - </xsl:text>
                             <xsl:value-of select="@source"/>
                         </xsl:otherwise>
                     </xsl:choose>
                 </xsl:element>
+                <xsl:if test="exists(following-sibling::*[1][self::tei:form[@type = 'variant'][exists(@source)]])">
+                    <xsl:apply-templates select="following-sibling::*[1]">
+                        <xsl:with-param name="inline">true</xsl:with-param>
+                    </xsl:apply-templates>
+                </xsl:if>
+            </xsl:element>
+        </xsl:if>
+        <xsl:if test="$inline eq 'true'">
+            <xsl:text> | </xsl:text>
+            <xsl:apply-templates select="child::node()"/>
+            <xsl:element name="span">
+                <xsl:attribute name="class" select="'dlgenr-entry-form-variant-source'"/>
+                <xsl:choose>
+                    <xsl:when test="parent::tei:form/parent::tei:entry/@source = 'Genesis Rabbah'">
+                        <xsl:text>- GenR </xsl:text>
+                        <xsl:value-of select="@source"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:text> - </xsl:text>
+                        <xsl:value-of select="@source"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:element>
+            <xsl:if test="exists(following-sibling::*[1][self::tei:form[@type = 'variant'][exists(@source)]])">
+                <xsl:apply-templates select="following-sibling::*[1]">
+                    <xsl:with-param name="inline">true</xsl:with-param>
+                </xsl:apply-templates>
             </xsl:if>
+        </xsl:if>
+    </xsl:template>
+    
+    <xsl:template match="tei:form[@type = 'variant'][not(exists(@source))]">
+        <xsl:element name="div">
+            <xsl:attribute name="class" select="'dlgenr-entry-form-variant'"/>
+            <xsl:text>Variant: </xsl:text>
+            <xsl:apply-templates select="child::node()"/>
         </xsl:element>
     </xsl:template>
     
@@ -451,7 +494,7 @@
                     <xsl:element name="span">
                         <xsl:attribute name="class" select="'dlgenr-entry-sense-headline-linenumber'"/>
                         <xsl:value-of select="@n"/>
-                        <xsl:text>.) </xsl:text>
+                        <xsl:text>) </xsl:text>
                     </xsl:element>
                 </xsl:if>
                 <xsl:text>Translation: </xsl:text>
@@ -539,6 +582,20 @@
     
     <xsl:template match="tei:cit[@type = 'example']">
         <xsl:element name="p">
+            <xsl:attribute name="class" select="'dlgenr-entry-sense-example-quotation'"/>
+            <xsl:variable name="number-of-examples">
+                <xsl:value-of select="count(parent::tei:sense/child::tei:cit[@type = 'example'])"/>
+            </xsl:variable>
+            <xsl:if test="$number-of-examples != 1">
+                <xsl:number count="tei:cit[@type = 'example']"/>
+                <xsl:text>) </xsl:text>
+            </xsl:if>
+            <xsl:value-of select="child::tei:bibl/child::tei:ref[@type = 'witness'][1]/text()"/>
+            <xsl:text> [</xsl:text>
+            <xsl:value-of select="child::tei:bibl/child::tei:ref[@type = 'witness'][2]/text()"/>
+            <xsl:text>]</xsl:text>
+        </xsl:element>
+        <xsl:element name="p">
             <xsl:attribute name="class" select="'dlgenr-entry-sense-example-text'"/>
             <xsl:if test="exists(child::tei:quote/child::tei:app)">
                 <xsl:apply-templates select="tei:quote"/>
@@ -549,15 +606,8 @@
             </xsl:if>
         </xsl:element>
         <xsl:element name="p">
-            <xsl:attribute name="class" select="'dlgenr-entry-sense-example-quotation'"/>
-            <xsl:value-of select="child::tei:bibl/child::tei:ref[@type = 'witness'][1]/text()"/>
-            <xsl:text> [</xsl:text>
-            <xsl:value-of select="child::tei:bibl/child::tei:ref[@type = 'witness'][2]/text()"/>
-            <xsl:text>]</xsl:text>
-        </xsl:element>
-        <xsl:element name="p">
             <xsl:attribute name="class" select="'dlgenr-entry-sense-example-translation'"/>
-            <xsl:value-of select="child::tei:cit[@type = 'translation']/tei:quote/child::node()"/>
+            <xsl:apply-templates select="child::tei:cit[@type = 'translation']/tei:quote/child::node()"/>
         </xsl:element>
         <xsl:apply-templates select="child::tei:ref"/>
         <xsl:apply-templates select="child::tei:note"/>
@@ -759,10 +809,23 @@
     </xsl:template>
     
     <xsl:template match="tei:bibl[@type = 'ancient']">
+        <!-- <xsl:element name="span">
+            <xsl:attribute name="class" select="'dlgenr-entry-note-bibl-ancient'"/> -->
+            <xsl:apply-templates select="child::node()"/>
+        <!-- </xsl:element> -->
+    </xsl:template>
+    
+    <xsl:template match="tei:hi[@rend = 'italic']">
         <xsl:element name="span">
             <xsl:attribute name="class" select="'dlgenr-entry-note-bibl-ancient'"/>
             <xsl:apply-templates select="child::node()"/>
         </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="tei:bibl[@type = 'bible-quotation']">
+        <xsl:text>(</xsl:text>
+        <xsl:value-of select="text()"/>
+        <xsl:text>)</xsl:text>
     </xsl:template>
     
     <xsl:template match="tei:term[@xml:lang = 'grc']">

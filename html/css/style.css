@@ -891,6 +891,27 @@ div.dlgenr-entry-form-variant {
 	margin-bottom: 0pt;
 }
 
+div.dlgenr-entry-form-further-variants {
+	font-family: 'Cormorant Garamond', serif;
+    font-weight: normal;
+    font-size: 12pt;
+    color: black;
+	margin-left: 20pt;
+	margin-top: 20pt;
+	margin-bottom: 0pt;
+	text-align: justify;
+}
+
+p.dlgenr-entry-form-further-variants-heading {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: normal;
+    font-size: 12pt;
+    color: black;
+	margin-left: 0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+
 p.dlgenr-entry-form-variant {
 	font-family: 'Cormorant Garamond', serif;
     font-weight: normal;
@@ -1053,8 +1074,9 @@ p.dlgenr-entry-sense-example-text {
 }
 
 p.dlgenr-entry-sense-example-quotation {
+    font-weight: bold;
 	margin-left: 40pt;
-	margin-top: 0pt;
+	margin-top: 20pt;
 	margin-bottom: 0pt;
 }
 
@@ -1118,6 +1140,7 @@ p.dlgenr-entry-note {
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 14pt;
     margin-left: 20pt;
+    margin-top: 20pt;
 	color: black;
 }
 

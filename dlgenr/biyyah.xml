@@ -55,19 +55,19 @@
                   <pron notation="rabbinic" opt="false">biyah</pron>
                </form>
                <form type="variant"
-                     source="93,6 - first occurrence - Vat1 Ox1"
+                     source="93,6 - first quotation - first occurrence - Vat1 Ox1"
                      opt="false">
                   <orth type="variant" xml:lang="jpa" opt="false">ביה</orth>
                </form>
                <form type="variant"
-                     source="93,6 - first occurrence - Vat2 V"
+                  source="93,6 - first quotation - first occurrence - Vat2 V"
                      opt="false">
                   <orth type="variant" xml:lang="jpa" opt="false">בייה</orth>
                </form>
-               <form type="variant" source="93,6 - first occurrence - Ox2" opt="false">
+               <form type="variant" source="93,6 - first quotation - first occurrence - Ox2" opt="false">
                   <orth type="variant" xml:lang="jpa" opt="false">ביא</orth>
                </form>
-               <form type="variant" source="93,6 - second occurrence - Vat1" opt="false">
+               <form type="variant" source="93,6 - first quotation - second occurrence - Vat1" opt="false">
                   <orth type="variant" xml:lang="jpa" opt="false">ביה</orth>
                </form>
                <form type="variant"
