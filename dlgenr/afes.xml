@@ -51,8 +51,7 @@
                <form type="variant" opt="false">
                   <orth xml:lang="jpa" opt="false">הפס</orth>
                   <orth type="transliteration" xml:lang="fjb" opt="false">hfs</orth>
-                  <pron notation="rabbinic" opt="false">hafes</pron>
-               </form>
+                 </form>
                <form type="variant" source="Vat1" opt="false">
                   <orth xml:lang="jpa" opt="false">אפס הפס</orth>
                </form>
