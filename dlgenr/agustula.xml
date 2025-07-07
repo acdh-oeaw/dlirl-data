@@ -9,6 +9,10 @@
             <title type="alternative">ʾgwsṭwlʾ</title>
             <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
             <author>
+               <forename full="yes">Anna</forename>
+               <surname full="yes">Kamentseva</surname>
+            </author>
+            <author>
                <forename full="yes">Susanne</forename>
                <surname full="yes">Plietzsch</surname>
             </author>
@@ -60,7 +64,7 @@
                <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
                <usg type="normativity" opt="false">standard</usg>
                <usg type="meaningType" opt="false">lit.</usg>
-               <usg type="geographic" opt="false"/>
+               <usg type="geographic" opt="false">Coptic, Armenian, Syriac Aramaic</usg>
                <cit type="translation" xml:lang="en" subtype="sense">
                   <quote>“prefectus Augustalis”, a prefect of the Diocese of Egypt</quote>
                </cit>
@@ -94,11 +98,11 @@
             </sense>
             <etym type="borrowing" opt="false">
                <lbl opt="false">source language</lbl>
-               <lang opt="false">Classical Greek</lang>
+               <lang opt="false">Latin</lang>
                <cit type="etymon" xml:lang="grc">
                   <xr type="related" opt="false">
-                     <lbl opt="false">Cf. LSJ Suppl.</lbl>
-                     <ref target="http://dge.cchs.csic.es/xdge/article/%CE%91%E1%BD%90%CE%B3%CE%BF%CF%85%CF%83%CF%84%E1%BD%B1%CE%BB%CE%B9%CE%BF%CF%82"
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="http://dge.cchs.csic.es/xdge/article/%CE%91%E1%BD%90%CE%B3%CE%BF%CF%85%CF%83%CF%84%CE%AC%CE%BB%CE%B9%CE%BF%CF%82"
                         type="entry">Αὐγουστάλιος</ref>
                   </xr>
                </cit>
