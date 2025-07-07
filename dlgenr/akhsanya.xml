@@ -9,6 +9,10 @@
             <title type="alternative">ʾksnyʾ</title>
             <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
             <author>
+               <forename full="yes">Anna</forename>
+               <surname full="yes">Kamentseva</surname>
+            </author>
+            <author>
                <forename full="yes">Susanne</forename>
                <surname full="yes">Plietzsch</surname>
             </author>
@@ -66,10 +70,10 @@
                </gramGrp>
             </form>
             <sense xml:id="akhsanya-dlgenr-1" opt="false">
-               <usg type="domain" opt="false">emotions/activities/place names</usg>
+               <usg type="domain" opt="false">institution</usg>
                <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
-               <usg type="normativity" opt="false">nonce borrowing</usg>
-               <usg type="meaningType" opt="false">lit., fig., metaph.</usg>
+               <usg type="normativity" opt="false">standart</usg>
+               <usg type="meaningType" opt="false">lit., fig.</usg>
                <usg type="geographic" opt="false"/>               
                <cit type="translation" xml:lang="en" subtype="sense">
                   <quote>lodging, inn</quote>
@@ -96,19 +100,6 @@
                   </note>
                </cit>
                <cit type="example" xml:lang="jpa">
-                  <quote>כאן בשביל זכר חיבת העין בעל אכסניא שלהקב"ה</quote>
-                  <bibl default="false" status="draft">
-                     <ref type="witness">93,6</ref>
-                     <ref type="witness">III 1156: 5</ref>
-                  </bibl>
-                  <cit type="translation" xml:lang="en">
-                     <quote>Here it is on account of a man, the beloved of the eyes, the one who gives hospitality to the Holy One, blessed be He …. (Freedman / Simon II 860)</quote>
-                  </cit>
-                  <note anchored="true">
-                     <bibl type="ancient" default="false" status="draft">= Yalq 150 [49d: 3]</bibl>
-                  </note>
-               </cit>
-               <cit type="example" xml:lang="jpa">
                   <quote>גרא שגר באכסניות</quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">93,7</ref>
@@ -119,6 +110,35 @@
                   </cit>
                   <note anchored="true">
                      <bibl type="ancient" default="false" status="draft">= bSoṭ 36b; Yalq 146 [46d: 22]</bibl>
+                  </note>
+               </cit>
+            </sense>
+            <sense xml:id="akhsanya-dlgenr-2" opt="false">
+               <usg type="domain" opt="false">properties/emotions</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
+               <usg type="normativity" opt="false">standart</usg>
+               <usg type="meaningType" opt="false">fig.</usg>
+               <usg type="geographic" opt="false"/>               
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>hospitality</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">classical greek</lang>
+                  </usg>
+                  <quote>ξενία</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>כאן בשביל זכר חיבת העין בעל אכסניא שלהקב"ה</quote>
+                  <bibl default="false" status="draft">
+                     <ref type="witness">93,6</ref>
+                     <ref type="witness">III 1156: 5</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Here it is on account of a man, the beloved of the eyes, the one who gives hospitality to the Holy One, blessed be He …. (Freedman / Simon II 860)</quote>
+                  </cit>
+                  <note anchored="true">
+                     <bibl type="ancient" default="false" status="draft">= Yalq 150 [49d: 3]</bibl>
                   </note>
                </cit>
             </sense>
