@@ -64,6 +64,11 @@
                </form>
             </form>
             <sense xml:id="aparkas-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">artefacts</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
+               <usg type="normativity" opt="false">standart</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="geographic" opt="false">Etruscan (pruχum)</usg>
                <cit type="translation" xml:lang="en" subtype="sense">
                   <quote>funnel</quote>
                </cit>
@@ -101,11 +106,12 @@
             </sense>
             <etym type="borrowing" opt="false">
                <lbl opt="false">source language</lbl>
-               <lang opt="false">Greek+</lang>
+               <lang opt="false">Ancient Greek+</lang>
                <cit type="etymon" xml:lang="grc">
                   <xr type="related" opt="false">
                      <lbl opt="false">Cf. LSJ</lbl>
-                     <ref type="entry"/>
+                     <ref target="https://www.perseus.tufts.edu/hopper/morph?l=%CF%80%CF%81%CF%8C%CF%87%CE%BF%CE%BF%CF%82&amp;la=greek#lexicon"
+                        type="entry">πρόχοος, A.</ref>
                   </xr>
                </cit>
             </etym>

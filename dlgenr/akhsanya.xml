@@ -66,7 +66,11 @@
                </gramGrp>
             </form>
             <sense xml:id="akhsanya-dlgenr-1" opt="false">
-               <usg type="domain" opt="false"/>
+               <usg type="domain" opt="false">emotions/activities/place names</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
+               <usg type="normativity" opt="false">nonce borrowing</usg>
+               <usg type="meaningType" opt="false">lit., fig., metaph.</usg>
+               <usg type="geographic" opt="false"/>               
                <cit type="translation" xml:lang="en" subtype="sense">
                   <quote>lodging, inn</quote>
                </cit>
@@ -118,6 +122,17 @@
                   </note>
                </cit>
             </sense>
+             <etym type="borrowing" opt="false">
+                <lbl opt="false">source language</lbl>
+                <lang opt="false">Ancient Greek</lang>
+                <cit type="etymon" xml:lang="grc">
+                   <xr type="related" opt="false">
+                      <lbl opt="false">Cf. LSJ</lbl>
+                      <ref target="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3Dceni%2Fa"
+                         type="entry">ξενία, A.</ref>
+                   </xr>
+                </cit>
+             </etym>
             <note anchored="true">
          For manifold meanings cf. <bibl type="modern" default="false" status="draft">Krauss, LW II 48b-49a</bibl>. For Syr. <term xml:lang="syc">ܐܟܣܢܝܐ</term>
                <term xml:lang="fjb">ʾksnyʾ</term> see <bibl type="modern" default="false" status="draft">Sokoloff, SL 44b</bibl>.

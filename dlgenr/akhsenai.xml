@@ -82,6 +82,11 @@
                </gramGrp>
             </form>
             <sense xml:id="akhsenai-dlgenr-1" opt="false">
+               <usg type="domain" opt="false">personal names</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="geographic" opt="false">Avestan, Albanian</usg>
                <cit type="translation" xml:lang="en" subtype="sense">
                   <quote>foreigner, stranger, guest</quote>
                </cit>
@@ -150,6 +155,17 @@
                   </note>
                </cit>
             </sense>
+             <etym type="borrowing" opt="false">
+                <lbl opt="false">source language</lbl>
+                <lang opt="false">Ancient Greek+</lang>
+                <cit type="etymon" xml:lang="grc">
+                   <xr type="related" opt="false">
+                      <lbl opt="false">Cf. LSJ</lbl>
+                      <ref target="https://www.perseus.tufts.edu/hopper/morph?l=%CE%BE%CE%AD%CE%BD%CE%BF%CF%82&amp;la=greek#Perseus:text:1999.04.0057:entry=ce/nos-contents"
+                         type="entry">ξένος, B.</ref>
+                   </xr>
+                </cit>
+             </etym>
             <note anchored="true">
          See also <bibl type="modern" default="false" status="draft">Kraus, LW II, 48b</bibl>.
       </note>

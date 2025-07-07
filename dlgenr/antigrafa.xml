@@ -59,11 +59,11 @@
                </form>
             </form>
             <sense xml:id="antigrafa-dlgenr-1" opt="false">
-               <usg type="domain" opt="false">law</usg>
+               <usg type="domain" opt="false">law/administration</usg>
                <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
-               <usg type="normativity" opt="false">ad hoc formation</usg>
+               <usg type="normativity" opt="false">standart</usg>
                <usg type="meaningType" opt="false">lit.</usg>
-               <usg type="geographic" opt="false">Alexandria, Athens, Constantinople, Caesarea, Crete</usg>
+               <usg type="geographic" opt="false"/>
                <cit type="translation" xml:lang="en" subtype="sense">
                   <quote>written reply</quote>
                </cit>

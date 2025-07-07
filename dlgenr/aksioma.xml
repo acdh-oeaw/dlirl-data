@@ -57,12 +57,16 @@
             </form>
             <sense xml:id="aksioma-dlgenr-1" opt="false">
                <usg type="domain" opt="false"/>
+               <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
+               <usg type="normativity" opt="false">standard</usg>
+               <usg type="meaningType" opt="false">fig.</usg>
+               <usg type="geographic" opt="false">Latin: axiōma</usg>
                <cit type="translation" xml:lang="en" subtype="sense">
                   <quote>authority, honour</quote>
                </cit>
                <cit type="translationEquivalent" xml:lang="grc">
                   <usg opt="false">
-                     <lang opt="false">Classical Greek</lang>
+                     <lang opt="false">Ancient Greek</lang>
                   </usg>
                   <quote>ἀξίωμα</quote>
                </cit>
@@ -77,6 +81,17 @@
                   </cit>
                </cit>
             </sense>
+               <etym type="borrowing" opt="false">
+                  <lbl opt="false">source language</lbl>
+                  <lang opt="false">Classical Greek</lang>
+                  <cit type="etymon" xml:lang="grc">
+                     <xr type="related" opt="false">
+                        <lbl opt="false">Cf. LSJ</lbl>
+                        <ref target="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3Da)ci%2Fwma"
+                           type="entry">ἀξίωμα, A.</ref>
+                     </xr>
+                  </cit>
+               </etym>
             <note anchored="true">
          This meaning supported by <bibl type="modern" default="false" status="draft">AC I 80a</bibl>, <bibl type="modern" default="false" status="draft">MY</bibl> ad loc. <bibl type="modern" default="false" status="draft">Jastrow I 64b</bibl> renders “request”, “petition”, similarly also <bibl type="modern" default="false" status="draft">Krauss, Fürst 50a</bibl>. This semantics is supported by the context in GenR (not mentioned in the dictionaries). See also <bibl type="modern" default="false" status="draft">Sokoloff, SL 44a</bibl> for Syr. <term xml:lang="syc">ܐܟܣܝܘܡܐ</term>
                <term xml:lang="fjb">ʾksywmʾ</term>.

@@ -51,6 +51,10 @@
             </form>
             <sense xml:id="alon-dlgenr-1" opt="false">
                <usg type="domain" opt="false"/>
+               <usg type="socioCultural" norm="borrowing" opt="false">code switching</usg>
+               <usg type="normativity" opt="false">nonce borrowing</usg>
+               <usg type="meaningType" opt="false">lit.</usg>
+               <usg type="geographic" opt="false">Latin; Armenian; Albanian; English</usg>    
                <cit type="translation" xml:lang="en" subtype="sense">
                   <quote>another</quote>
                </cit>
@@ -72,6 +76,17 @@
                   </cit>
                </cit>
             </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Anciant Greek+</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="https://www.perseus.tufts.edu/hopper/morph?l=a%29%2Fllos&amp;la=greek&amp;can=a%29%2Fllos0#Perseus:text:1999.04.0057:entry=a)/llos1-contents"
+                        type="entry">ἄλλος, A.</ref>
+                  </xr>
+               </cit>
+            </etym>
             <ref type="bibliography">
                <bibl default="false" status="draft" facs="https://archive.org/details/GriechischeUndLateinischeLehnwrterInTalmudMidraschUndTargum/Griechische_und_lateinische_Lehnwrter2/page/n67/mode/2up">
                   <title>Krauss, LW II</title>
