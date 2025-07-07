@@ -9,6 +9,10 @@
             <title type="alternative">ʾksywmʾ</title>
             <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
             <author>
+               <forename full="yes">Anna</forename>
+               <surname full="yes">Kamentseva</surname>
+            </author>
+            <author>
                <forename full="yes">Susanne</forename>
                <surname full="yes">Plietzsch</surname>
             </author>
@@ -56,11 +60,11 @@
                </form>
             </form>
             <sense xml:id="aksioma-dlgenr-1" opt="false">
-               <usg type="domain" opt="false"/>
+               <usg type="domain" opt="false">administration</usg>
                <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
                <usg type="normativity" opt="false">standard</usg>
                <usg type="meaningType" opt="false">fig.</usg>
-               <usg type="geographic" opt="false">Latin: axiōma</usg>
+               <usg type="geographic" opt="false">Syriac Aramaic, Coptic</usg>
                <cit type="translation" xml:lang="en" subtype="sense">
                   <quote>authority, honour</quote>
                </cit>
@@ -83,7 +87,7 @@
             </sense>
                <etym type="borrowing" opt="false">
                   <lbl opt="false">source language</lbl>
-                  <lang opt="false">Classical Greek</lang>
+                  <lang opt="false">Ancient Greek</lang>
                   <cit type="etymon" xml:lang="grc">
                      <xr type="related" opt="false">
                         <lbl opt="false">Cf. LSJ</lbl>
