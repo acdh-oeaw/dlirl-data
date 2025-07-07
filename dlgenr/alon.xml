@@ -9,6 +9,10 @@
             <title type="alternative">ʾlwn</title>
             <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
             <author>
+               <forename full="yes">Anna</forename>
+               <surname full="yes">Kamentseva</surname>
+            </author>
+            <author>
                <forename full="yes">Susanne</forename>
                <surname full="yes">Plietzsch</surname>
             </author>
@@ -52,9 +56,9 @@
             <sense xml:id="alon-dlgenr-1" opt="false">
                <usg type="domain" opt="false"/>
                <usg type="socioCultural" norm="borrowing" opt="false">code switching</usg>
-               <usg type="normativity" opt="false">nonce borrowing</usg>
+               <usg type="normativity" opt="false">ad hoc formation</usg>
                <usg type="meaningType" opt="false">lit.</usg>
-               <usg type="geographic" opt="false">Latin; Armenian; Albanian; English</usg>    
+               <usg type="geographic" opt="false">Coptic</usg>   
                <cit type="translation" xml:lang="en" subtype="sense">
                   <quote>another</quote>
                </cit>
