@@ -9,6 +9,10 @@
             <title type="alternative">ʾrpks</title>
             <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
             <author>
+               <forename full="yes">Anna</forename>
+               <surname full="yes">Kamentseva</surname>
+            </author>
+            <author>
                <forename full="yes">Susanne</forename>
                <surname full="yes">Plietzsch</surname>
             </author>
@@ -56,7 +60,7 @@
             <sense xml:id="arpakas-dlgenr-1" opt="false">
                <usg type="domain" opt="false">artefacts</usg>
                <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
-               <usg type="normativity" opt="false">standard</usg>
+               <usg type="normativity" opt="false">nonce borrowing</usg>
                <usg type="meaningType" opt="false">lit.</usg>
                <usg type="frequency" opt="false"/>
                <usg type="geographic" opt="false"/>
@@ -96,8 +100,8 @@
                <cit type="etymon" xml:lang="grc">
                   <xr type="related" opt="false">
                      <lbl opt="false">Cf. LSJ</lbl>
-                     <ref target="http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aalphabetic+letter%3D*a%3Aentry+group%3D320%3Aentry%3Da%29rxilh%7Csth%2Fs"
-                          type="entry">ἁρπάγιον</ref>
+                     <ref target="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3Da(rpa%2Fgion"
+                        type="entry">ἁρπάγιον</ref>
                   </xr>
                </cit>
             </etym>
