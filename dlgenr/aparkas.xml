@@ -9,6 +9,10 @@
             <title type="alternative">ʾprks</title>
             <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
             <author>
+               <forename full="yes">Anna</forename>
+               <surname full="yes">Kamentseva</surname>
+            </author>
+            <author>
                <forename full="yes">Susanne</forename>
                <surname full="yes">Plietzsch</surname>
             </author>
@@ -68,7 +72,7 @@
                <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
                <usg type="normativity" opt="false">standart</usg>
                <usg type="meaningType" opt="false">lit.</usg>
-               <usg type="geographic" opt="false">Etruscan (pruχum)</usg>
+               <usg type="geographic" opt="false"/>
                <cit type="translation" xml:lang="en" subtype="sense">
                   <quote>funnel</quote>
                </cit>
@@ -110,8 +114,7 @@
                <cit type="etymon" xml:lang="grc">
                   <xr type="related" opt="false">
                      <lbl opt="false">Cf. LSJ</lbl>
-                     <ref target="https://www.perseus.tufts.edu/hopper/morph?l=%CF%80%CF%81%CF%8C%CF%87%CE%BF%CE%BF%CF%82&amp;la=greek#lexicon"
-                        type="entry">πρόχοος, A.</ref>
+                     <ref target="link"/>
                   </xr>
                </cit>
             </etym>
