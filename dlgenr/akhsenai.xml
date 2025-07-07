@@ -9,6 +9,10 @@
             <title type="alternative">ʾksnʾy</title>
             <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
             <author>
+               <forename full="yes">Anna</forename>
+               <surname full="yes">Kamentseva</surname>
+            </author>
+            <author>
                <forename full="yes">Susanne</forename>
                <surname full="yes">Plietzsch</surname>
             </author>
@@ -82,11 +86,11 @@
                </gramGrp>
             </form>
             <sense xml:id="akhsenai-dlgenr-1" opt="false">
-               <usg type="domain" opt="false">personal names</usg>
+               <usg type="domain" opt="false">properties</usg>
                <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
                <usg type="normativity" opt="false">standard</usg>
                <usg type="meaningType" opt="false">lit.</usg>
-               <usg type="geographic" opt="false">Avestan, Albanian</usg>
+               <usg type="geographic" opt="false"/>
                <cit type="translation" xml:lang="en" subtype="sense">
                   <quote>foreigner, stranger, guest</quote>
                </cit>
