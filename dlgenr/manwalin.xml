@@ -66,14 +66,14 @@
                </form>
             </form>
             <sense xml:id="manwalin-dlgenr-1">
-               <usg type="domain" opt="false">artefacts</usg>
+               <usg type="domain" opt="false">garments</usg>
                <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
                <usg type="normativity" opt="false">standard</usg>
                <usg type="meaningType" opt="false">lit.</usg>
                <usg type="geographic" opt="false"></usg>
                <cit type="translationEquivalent" xml:lang="grc">
                   <usg opt="false">
-                     <lang opt="false">Byzantine Greek</lang>
+                     <lang opt="false">Post-Classical Greek</lang>
                   </usg>
                      <quote>μανδύλιον</quote>
                </cit>
