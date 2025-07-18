@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אכסניא</title>
+            <title type="alternative">ʾksnyʾ</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Anna</forename>
+               <surname full="yes">Kamentseva</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="akhsanya-ys"
+            type="mainEntry"
+            xml:lang="en"
+            source="Yalkut Shimoni"> 
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אכסניא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾksnyʾ</orth>
+               <pron notation="rabbinic" opt="false">akhsanyaʾ</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">f.</gram>
+                  <gram type="num">sg.</gram>
+               </gramGrp>
+            </form>
+            <form type="variant" source="Vat1" opt="false">
+               <orth type="variant" xml:lang="jpa" opt="false">אכסניות</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾksnywt</orth>
+               <pron notation="rabbinic" opt="false">akhsaniyot</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">f.</gram>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="akhsanya-ys-1">
+               <usg type="domain" opt="false">properties/emotions</usg>
+               <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
+               <usg type="normativity" opt="false">standart</usg>
+               <usg type="meaningType" opt="false">fig.</usg>
+               <usg type="geographic" opt="false"/>
+               <cit type="translation" xml:lang="en" subtype="sence">
+                  <quote>hospitality</quote> 
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Classical Greek</lang>
+                  </usg>
+                  <quote>ξενία</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>כאן בשביל זכר, חיבת עין, בעל אכסניא של הק'</quote>
+                     <bibl>
+                        <ref type="witness">Yalk 150</ref>
+                        <ref type="witness">II 808: 9</ref>
+                     </bibl>
+               <cit type="translation" xml:lang="en">
+                  <quote>Here it is on account of a man, the beloved of the eyes, the one who gives hospitality to the Holy One… (Freedman / Simon II 860)</quote>
+               </cit>
+               <note>=<bibl type="ancient">GenR 93,6  [III 1156: 5]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>...פתח רבי בכבוד אכנסיא</quote>
+                  <bibl>
+                     <ref type="witness">Yalk 1 Sam 121</ref>
+                     <ref type="witness">X 243: 14</ref>
+                  </bibl>
+               <cit type="translation" xml:lang="ger">
+                     <quote>Rabbi eröffnete [eine Predigt] zu Ehren der Gastfreundschaft…</quote>
+               </cit>
+                  <note>=<bibl type="ancient">= bBer 63b</bibl></note>
+               </cit>
+            </sense>
+            <etym type="borrowing" opt="false">
+               <lbl opt="false">source language</lbl>
+               <lang opt="false">Ancient Greek</lang>
+               <cit type="etymon" xml:lang="grc">
+                  <xr type="related" opt="false">
+                     <lbl opt="false">Cf. LSJ</lbl>
+                     <ref target="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.04.0057%3Aentry%3Dceni%2Fa"
+                        type="entry">ξενία, A.</ref>
+                  </xr>
+               </cit>
+            </etym>
+            <note>Cf. <bibl type="modern">Krauss, LW 48b-49a</bibl>. Cf. <bibl type="modern">Sokoloff, DJPA 33a</bibl> <ref type="entery" xml:lang="jpa" target="akhsanya.html">אכסניא</ref></note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW</title>
+                  <citedRange>48b-49a</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>33a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>
