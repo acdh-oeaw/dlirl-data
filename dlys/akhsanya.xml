@@ -69,20 +69,20 @@
                </gramGrp>
             </form>
             <sense xml:id="akhsanya-ys-1">
+             <cit type="translation" xml:lang="en" subtype="sense">
+                <quote>hospitality</quote>
+             </cit>
+              <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Ancient Greek</lang>
+                  </usg>
+                  <quote>ξενία</quote>
+              </cit>
                <usg type="domain" opt="false">properties/emotions</usg>
                <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
                <usg type="normativity" opt="false">standard</usg>
                <usg type="meaningType" opt="false">fig.</usg>
                <usg type="geographic" opt="false">Syriac Aramaic <foreign xml:lang="syc">(ܐܟܣܢܝܘܬܐ)</foreign>, </usg>
-               <cit type="translation" xml:lang="en" subtype="sence">
-                  <quote>hospitality</quote> 
-               </cit>
-               <cit type="translationEquivalent" xml:lang="grc">
-                  <usg opt="false">
-                     <lang opt="false">Ancient Greek</lang>
-                  </usg>
-                  <quote>ξενία</quote>
-               </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>כאן בשביל זכר, חיבת עין, בעל אכסניא של הק'</quote>
                      <bibl>
@@ -107,15 +107,15 @@
                </cit>
             </sense>
             <sense xml:id="akhsanya-ys-2">
+             <cit type="translation" xml:lang="en" subtype="sence">
+                <quote>inn</quote>
+                <quote>lodging</quote> 
+             </cit>
                <usg type="domain" opt="false">institutions/administration</usg>
                <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
                <usg type="normativity" opt="false">standard</usg>
                <usg type="meaningType" opt="false">lit.</usg>
                <usg type="geographic" opt="false">Syriac Aramaic (ܐܟܣܢܝܘܬܐ)</usg>
-               <cit type="translation" xml:lang="en" subtype="sence">
-                  <quote>inn</quote>
-                  <quote>lodging</quote> 
-               </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>ותאמר לאה באשרי. א"ר לוי לא לן אשר באכסניא מימיו, ירש אשר {פלטיאות} מה שלא ירש יהודה ארצות</quote>
                   <bibl>
@@ -165,15 +165,15 @@
                </cit>
             </sense>
             <sense xml:id="akhsanya-ys-3">
+             <cit type="translation" xml:lang="en" subtype="sence">
+                <quote>residence</quote>
+                <quote>palace</quote>
+             </cit>
                <usg type="domain" opt="false">institution</usg>
                <usg type="socioCultural" norm="borrowing" opt="false">code switching</usg>
                <usg type="normativity" opt="false">nonce borrowing</usg>
                <usg type="meaningType" opt="false">lit.</usg>
                <usg type="geographic" opt="false"/>
-               <cit type="translation" xml:lang="en" subtype="sence">
-                  <quote>residence</quote>
-                  <quote>palace</quote>
-               </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>משל לנשיא שנכנס למדינה וראו אותו בני המדינה וברחו, נכנס בשנייה וברחו, נכנס לעיר אחרת חריבה וראוהו בני המדינה וקלסוהו. אמ' זו העיר טובה מכל המדינות כאן אני בונה לי אכסניא</quote>
                   <bibl>
@@ -187,15 +187,15 @@
                </cit>
             </sense>
             <sense xml:id="akhsanya-ys-4">
+             <cit type="translation" xml:lang="en" subtype="sence">
+                <quote>foreign army</quote>
+                <quote>mercenaries</quote>
+             </cit>
                <usg type="domain" opt="false">military</usg>
                <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
                <usg type="normativity" opt="false">standard</usg>
                <usg type="meaningType" opt="false">lit.</usg>
                <usg type="geographic" opt="false"/>
-               <cit type="translation" xml:lang="en" subtype="sence">
-                  <quote>foreign army</quote>
-                  <quote>mercenaries</quote>
-               </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>.הגרים עמך, להביא את האכסניה</quote>
                   <bibl>
@@ -209,14 +209,14 @@
                </cit>
             </sense>
             <sense xml:id="akhsanya-ys-5">
+             <cit type="translation" xml:lang="en" subtype="sence">
+                <quote>foreign land</quote>
+             </cit>
                <usg type="domain" opt="false">administration</usg>
                <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
                <usg type="normativity" opt="false">standard</usg>
-               <usg type="meaningType" opt="false">lit.</usg>
-               <usg type="geographic" opt="false">Syriac Aramaic (ܐܟܣܢܝܘܬܐ),</usg>
-               <cit type="translation" xml:lang="en" subtype="sence">
-                  <quote>foreign land</quote>
-               </cit>
+               <usg type="meaningType" opt="false">lit., metaph.</usg>
+               <usg type="geographic" opt="false">Syriac Aramaic (ܐܟܣܢܝܘܬܐ), Coptic</usg>
                <cit type="example" xml:lang="jpa">
                   <quote>.דבר אחר מלך בשר ודם אם יש לו אוהב והוא מחבבו אם חולה אוהבו משלח ומבקרו, ואם היה חביב עליו ביותר הולך ומבקרו, שמא אם יצא לאכסניא יכול שיצא המלך עמו, אבל הקב"ה אינו כן אלא ואוהב את יעקב, מתה רבקה בא לנחמו, יצא לאכסניא היה עמו שנאמר הנה אנכי עמך, חזר היה עמו שנאמר שוב אל ארץ אבותי </quote>
                   <bibl>
