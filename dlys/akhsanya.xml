@@ -10,6 +10,10 @@
             <title type="alternative">ʾksnyʾ</title>
             <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
             <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
                <forename full="yes">Anna</forename>
                <surname full="yes">Kamentseva</surname>
             </author>
@@ -18,8 +22,16 @@
                <surname full="yes">Katsikadeli</surname>
             </author>
             <author>
-               <forename full="yes">Vladislav</forename>
-               <surname full="yes">Slepoy</surname>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Michael</forename>
+               <surname full="yes">Gassner</surname>
             </author>
          </titleStmt>
          <publicationStmt>
@@ -61,7 +73,7 @@
                <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
                <usg type="normativity" opt="false">standard</usg>
                <usg type="meaningType" opt="false">fig.</usg>
-               <usg type="geographic" opt="false"/>
+               <usg type="geographic" opt="false">Syriac Aramaic <foreign xml:lang="syc">(ܐܟܣܢܝܘܬܐ)</foreign>, </usg>
                <cit type="translation" xml:lang="en" subtype="sence">
                   <quote>hospitality</quote> 
                </cit>
@@ -91,15 +103,15 @@
                <cit type="translation" xml:lang="ger">
                      <quote>Rabbi eröffnete [eine Predigt] zu Ehren der Gastfreundschaft…</quote>
                </cit>
-                  <note><bibl type="ancient">= bBer 63b</bibl></note>
+                  <note><bibl type="ancient">bBer 63b</bibl></note>
                </cit>
             </sense>
             <sense xml:id="akhsanya-ys-2">
-               <usg type="domain" opt="false">institutions/properties</usg>
+               <usg type="domain" opt="false">institutions/administration</usg>
                <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
                <usg type="normativity" opt="false">standard</usg>
                <usg type="meaningType" opt="false">lit.</usg>
-               <usg type="geographic" opt="false"/>
+               <usg type="geographic" opt="false">Syriac Aramaic (ܐܟܣܢܝܘܬܐ)</usg>
                <cit type="translation" xml:lang="en" subtype="sence">
                   <quote>inn</quote>
                   <quote>lodging</quote> 
@@ -113,7 +125,7 @@
                   <cit type="translation" xml:lang="en">
                      <quote>And Leah said: Happy am I … R. Levi said: Asher never spent a night in an inn in his whole life, for Asher inherited tall palaces better even than the lands which Judah inherited (Freedman / Simon II 660).</quote>
                   </cit>
-                  <note><bibl type="ancient">= GenR 71,10 [II 835: 3]; SekhṬ 30,13 [139] (באכסנאי)</bibl></note>
+                  <note><bibl type="ancient">GenR 71,10 [II 835: 3]; SekhṬ 30,13 [139] (באכסנאי)</bibl></note>
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>.וזבולון שמש את יששכר ונעשה לו אכסניא</quote>
@@ -138,7 +150,7 @@
                   <cit type="translation" xml:lang="en">
                      <quote>„Gera“, since he lives in lodgings.</quote>
                   </cit>
-                  <note><bibl type="ancient">= GenR 93,7 [III 1165: 3]</bibl></note>
+                  <note><bibl type="ancient">GenR 93,7 [III 1165: 3]</bibl></note>
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>גרא שהוא גר באכסניות</quote>
@@ -149,7 +161,7 @@
                   <cit type="translation" xml:lang="en">
                      <quote>„Gera“, since he lives in lodgings.</quote>
                   </cit>
-                  <note><bibl type="ancient">= GenR 93,7 [III 1165: 3]</bibl></note>
+                  <note><bibl type="ancient">GenR 93,7 [III 1165: 3]</bibl></note>
                </cit>
             </sense>
             <sense xml:id="akhsanya-ys-3">
@@ -171,7 +183,7 @@
                   <cit type="translation" xml:lang="ger">
                      <quote>/Ein Gleichnis mit einem Fürsten, der eine Provinz eroberte. Die Bewohner der Provinz sahen ihn und flohen. Er eroberte eine andere, aber sie flohen. Er eroberte eine zerstörte Stadt, und als die Bewohner dieser Provinz ihn sahen, priesen sie ihn. Da sprach er: Diese Stadt ist besser als in anderen Provinzen; hier lasse ich mir ein Palast/Residenz errichten./</quote>
                   </cit>
-                  <note><bibl type="ancient">= TanB Bemidbar 2 (2b);</bibl><bibl type="ancient"> Yalq Jer 280 [XI 409: 5.8]</bibl></note>
+                  <note><bibl type="ancient">TanB Bemidbar 2 (2b);</bibl><bibl type="ancient"> Yalq Jer 280 [XI 409: 5.8]</bibl></note>
                </cit>
             </sense>
             <sense xml:id="akhsanya-ys-4">
@@ -193,7 +205,7 @@
                   <cit type="translation" xml:lang="ger">
                      <quote>/so die Erklärung im Kommentar in Sif/</quote>
                   </cit>
-                  <note><bibl type="ancient">= Sif Behar 1(1),7 [73a] (אכסניא)</bibl></note>
+                  <note><bibl type="ancient">Sif Behar 1(1),7 [73a] (אכסניא)</bibl></note>
                </cit>
             </sense>
             <sense xml:id="akhsanya-ys-5">
@@ -201,7 +213,7 @@
                <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
                <usg type="normativity" opt="false">standard</usg>
                <usg type="meaningType" opt="false">lit.</usg>
-               <usg type="geographic" opt="false"/>
+               <usg type="geographic" opt="false">Syriac Aramaic (ܐܟܣܢܝܘܬܐ),</usg>
                <cit type="translation" xml:lang="en" subtype="sence">
                   <quote>foreign land</quote>
                </cit>
@@ -214,7 +226,7 @@
                   <cit type="translation" xml:lang="ger">
                      <quote>Wenn ein Menschenkönig einen Freund hat und ihn liebt, und der Freund krank wird, lässt er ihn besuchen; liebt er ihn sehr, geht er selbst hin und besucht ihn. Wenn er aber in die Fremde geht, ist es möglich, dass der König mit ihm gehe? Jedoch der König der Könige, der Heilige, gelobt sei er, ist nicht so, denn er liebte den Jakob, denn es heißt: Und ich liebte Jakob (Mal 1,3)… (Ziegler, Königsgleichnisse 171f)</quote>
                   </cit>
-                  <note><bibl type="ancient">= TanB Wa-yetseʾ 22</bibl></note>
+                  <note><bibl type="ancient">TanB Wa-yetseʾ 22</bibl></note>
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>אמר רבי יוחנן בן נורי בשעה שגלו עשרת השבטים שבט יהודה ובנימן לא גלו, התחילו עו"א לומר אין זה אלא חנופת פנים לפי שהם בני אכסניא שלו נשא להם פנים ולא הגלה</quote>
@@ -222,7 +234,7 @@
                      <ref type="witness">Yalk Ps 813</ref>
                      <ref type="witness">466d: 25</ref>
                   </bibl>
-                  <note><bibl type="ancient">= MidrT 76,1; EkhR Petikhtaʾ 6 [בני פלטין]</bibl></note>
+                  <note><bibl type="ancient">MidrT 76,1; EkhR Petikhtaʾ 6 [בני פלטין]</bibl></note>
                </cit>
             </sense>
             <etym type="borrowing" opt="false">
@@ -236,7 +248,7 @@
                   </xr>
                </cit>
             </etym>
-            <note>Cf. <bibl type="modern">Krauss, LW 48b-49a</bibl>. Cf. <bibl type="modern">Sokoloff, DJPA 33a</bibl> <ref type="entery" xml:lang="jpa" target="akhsanya.html">אכסניא</ref></note>
+            <note>Cf. <bibl type="modern">Krauss, LW 48b-49a</bibl><bibl type="modern">Sokoloff, DJPA 33a</bibl><bibl type="ancient">782 [VII 588: 67];</bibl><bibl type ="ancient">69 [I 263: 44.47.51];</bibl><bibl type="ancient">368 [IV 663: 35.36];</bibl>,<bibl type="ancient">Qoh 968 [541d: 35];</bibl><bibl type="ancient">Ps 800 [464d: 40];</bibl><bibl type="ancient">Jer 498 [XI 313: 22];</bibl><bibl type="ancient">2 Sam 165 [X 388: 7];</bibl><ref type="entery" xml:lang="jpa" target="akhsanya.html">אכסניא</ref></note>
             <ref type="bibliography">
                <bibl>
                   <title>Krauss, LW</title>
