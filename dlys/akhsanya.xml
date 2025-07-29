@@ -82,7 +82,8 @@
                <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
                <usg type="normativity" opt="false">standard</usg>
                <usg type="meaningType" opt="false">fig.</usg>
-               <usg type="geographic" opt="false">Syriac Aramaic <foreign xml:lang="syc">(ܐܟܣܢܝܘܬܐ)</foreign>, </usg>
+               <usg type="geographic" opt="false">Syriac Aramaic<ref target="https://cal.huc.edu/oneentry.php?lemma=%29ksnywt%29%20N&amp;cits=all"
+                     type="entry" targetLang="syc">ˀksnywtˀ(ܐܟܣܢܝܘܬܐ)</ref></usg>
                <cit type="example" xml:lang="jpa">
                   <quote>כאן בשביל זכר, חיבת עין, בעל אכסניא של הק'</quote>
                      <bibl>
