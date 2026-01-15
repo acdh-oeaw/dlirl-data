@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אגומין</title>
+            <title type="alternative">ʾgwmyn</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="agomen-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אגומין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾgwmyn</orth>
+               <pron notation="rabbinic" opt="false">ʾagomen</pron>
+               <gramGrp>
+                  <gram type="pos">verb</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">אגימין</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾgymyn</orth>
+                  <pron notation="rabbinic">ʾagomen</pron>
+               </form>
+            </form>
+            <sense xml:id="agomen-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>„let us go!“</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἄγωμεν</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' לוי ארי כעס על הבהמה ועל החיה, אמרין מאן אזיל ומפייס ליה. אמ' לון תעלא איתון דאנא ידע תלת מאה מתלי ואנא מפייס יתיה. אמרין 
+                     <app>
+                        <lem>אוגומי</lem>
+                        <rdg wit="#W">אגומין</rdg>
+                     </app>
+                  </quote>
+                  <bibl default="false">
+                     <ref type="witness">Yalq 133</ref>
+                     <ref type="witness">II 668: 44</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Levi said: A lion was angry with the cattle and the beasts. They said: “Who will go to appease him?” Said the fox: “I know three hundred fables and I will appease him.” They said: “Let us go!”</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 78,7 [II 930:1]</bibl></note>
+               </cit>
+            </sense>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>8b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

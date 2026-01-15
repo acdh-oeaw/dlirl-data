@@ -10,6 +10,10 @@
             <title type="alternative">ʾksnyʾ</title>
             <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
             <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
                <forename full="yes">Vladislav</forename>
                <surname full="yes">Slepoy</surname>
             </author>
@@ -24,10 +28,6 @@
             <author>
                <forename full="yes">Thomas</forename>
                <surname full="yes">Klampfl</surname>
-            </author>
-            <author>
-               <forename full="yes">Susanne</forename>
-               <surname full="yes">Plietzsch</surname>
             </author>
             <author>
                <forename full="yes">Michael</forename>
@@ -47,6 +47,8 @@
          <entry xml:id="akhsanya-ys"
             type="mainEntry"
             xml:lang="en"
+            prev="#"
+            next="#"
             source="Yalkut Shimoni"> 
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אכסניא</orth>
@@ -68,7 +70,7 @@
                   <gram type="num">pl.</gram>
                </gramGrp>
             </form>
-            <sense xml:id="akhsanya-ys-1">
+            <sense xml:id="akhsanya-ys-1" n="1">
              <cit type="translation" xml:lang="en" subtype="sense">
                 <quote>hospitality</quote>
              </cit>
@@ -82,115 +84,113 @@
                <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
                <usg type="normativity" opt="false">standard</usg>
                <usg type="meaningType" opt="false">fig.</usg>
-               <usg type="geographic" opt="false">Syriac Aramaic<ref target="https://cal.huc.edu/oneentry.php?lemma=%29ksnywt%29%20N&amp;cits=all"
-                     type="entry" targetLang="syc">ˀksnywtˀ(ܐܟܣܢܝܘܬܐ)</ref></usg>
+               <usg type="geographic" opt="false">Syriac Aramaic <ref target="https://cal.huc.edu/oneentry.php?lemma=%29ksnywt%29%20N&amp;cits=all"
+                     type="entry" targetLang="syc"><foreign xml:lang="fjb">ˀksnywtˀ</foreign> (<foreign xml:lang="syc">ܐܟܣܢܝܘܬܐ</foreign>)</ref></usg>
                <cit type="example" xml:lang="jpa">
                   <quote>כאן בשביל זכר, חיבת עין, בעל אכסניא של הק'</quote>
                      <bibl>
-                        <ref type="witness">Yalk 150</ref>
+                        <ref type="witness">Yalq 150</ref>
                         <ref type="witness">II 808: 9</ref>
                      </bibl>
                <cit type="translation" xml:lang="en">
-                  <quote>Here it is on account of a man, the beloved of the eyes, the one who gives hospitality to the Holy One… (Freedman / Simon II 860)</quote>
+                  <quote>Here it is on account of a man, the beloved of the eyes, the one who gives hospitality to the Holy One ... (Freedman / Simon II 860)</quote>
                </cit>
-               <note><bibl type="ancient">GenR 93,6  [III 1156: 5]</bibl></note>
+               <note>= <bibl type="ancient">GenR 93,6 [III 1156: 5]</bibl></note>
                </cit>
                <cit type="example" xml:lang="jpa">
-                  <quote>...פתח רבי בכבוד אכנסיא</quote>
+                  <quote>... פתח רבי בכבוד אכנסיא</quote>
                   <bibl>
-                     <ref type="witness">Yalk 1 Sam 121</ref>
+                     <ref type="witness">Yalq 1 Sam 121</ref>
                      <ref type="witness">X 243: 14</ref>
                   </bibl>
                <cit type="translation" xml:lang="ger">
-                     <quote>Rabbi eröffnete [eine Predigt] zu Ehren der Gastfreundschaft…</quote>
+                     <quote>Rabbi eröffnete [eine Predigt] zu Ehren der Gastfreundschaft ...</quote>
                </cit>
-                  <note><bibl type="ancient">bBer 63b</bibl></note>
+                  <note>= <bibl type="ancient">bBer 63b</bibl></note>
                </cit>
             </sense>
-            <sense xml:id="akhsanya-ys-2">
-             <cit type="translation" xml:lang="en" subtype="sence">
-                <quote>inn</quote>
-                <quote>lodging</quote> 
+            <sense xml:id="akhsanya-ys-2" n="2">
+             <cit type="translation" xml:lang="en" subtype="sense">
+                <quote>inn, lodging</quote> 
              </cit>
                <usg type="domain" opt="false">institutions/administration</usg>
                <usg type="socioCultural" norm="borrowing" opt="false">cultural borrowing</usg>
                <usg type="normativity" opt="false">standard</usg>
                <usg type="meaningType" opt="false">lit.</usg>
-               <usg type="geographic" opt="false">Syriac Aramaic (ܐܟܣܢܝܘܬܐ)</usg>
+               <usg type="geographic" opt="false">Syriac Aramaic (<foreign xml:lang="syc">ܐܟܣܢܝܘܬܐ</foreign>)</usg>
                <cit type="example" xml:lang="jpa">
-                  <quote>ותאמר לאה באשרי. א"ר לוי לא לן אשר באכסניא מימיו, ירש אשר {פלטיאות} מה שלא ירש יהודה ארצות</quote>
+                  <quote>ותאמר לאה באשרי. א"ר לוי לא לן אשר באכסניא מימיו, ירש אשר פלטיאות מה שלא ירש יהודה ארצות</quote>
                   <bibl>
-                     <ref type="witness">Yalk 128</ref>
+                     <ref type="witness">Yalq 128</ref>
                      <ref type="witness">II 618: 32</ref>
                   </bibl>
                   <cit type="translation" xml:lang="en">
-                     <quote>And Leah said: Happy am I … R. Levi said: Asher never spent a night in an inn in his whole life, for Asher inherited tall palaces better even than the lands which Judah inherited (Freedman / Simon II 660).</quote>
+                     <quote>And Leah said: Happy am I ... R. Levi said: Asher never spent a night in an inn in his whole life, for Asher inherited tall palaces better even than the lands which Judah inherited (Freedman / Simon II 660).</quote>
                   </cit>
-                  <note><bibl type="ancient">GenR 71,10 [II 835: 3]; SekhṬ 30,13 [139] (באכסנאי)</bibl></note>
+                  <ref type="entry" xml:lang="jpa">פלטיאות</ref>
+                  <note>= <bibl type="ancient">GenR 71,10 [II 835: 3]</bibl>; <bibl type="ancient">SekhṬ 30,13 [139]</bibl> (<foreign xml:lang="jpa">באכסנאי</foreign>)</note>
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>.וזבולון שמש את יששכר ונעשה לו אכסניא</quote>
                   <bibl>
-                     <ref type="witness">Yalk Jes 42</ref>
+                     <ref type="witness">Yalq Jes 42</ref>
                      <ref type="witness">X 117:11</ref>
                   </bibl>
                   <cit type="translation" xml:lang="en">
-                     <quote>And Zebulun served Issachar and he became his lodging…</quote>
+                     <quote>And Zebulun served Issachar and he became his lodging ...</quote>
                   </cit>
-                  <note/><bibl type="antient"/>
                </cit>
-               <cit type="translation" xml:lang="en" subtype="sence">
+            </sense>
+            <sense xml:id="akhsanya-ys-3" n="3">
+               <cit type="translation" xml:lang="en" subtype="sense">
                   <quote>lodgings</quote> 
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>גרא שגר באכסניאות</quote>
                   <bibl>
-                     <ref type="witness">Yalk 146</ref>
+                     <ref type="witness">Yalq 146</ref>
                      <ref type="witness">II 756: 20</ref>
                   </bibl>
                   <cit type="translation" xml:lang="en">
                      <quote>„Gera“, since he lives in lodgings.</quote>
                   </cit>
-                  <note><bibl type="ancient">GenR 93,7 [III 1165: 3]</bibl></note>
+                  <note>= <bibl type="ancient">GenR 93,7 [III 1165: 3]</bibl></note>
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>גרא שהוא גר באכסניות</quote>
                   <bibl>
-                     <ref type="witness">Yalk 150</ref>
+                     <ref type="witness">Yalq 150</ref>
                      <ref type="witness">II 797: 96</ref>
                   </bibl>
                   <cit type="translation" xml:lang="en">
                      <quote>„Gera“, since he lives in lodgings.</quote>
                   </cit>
-                  <note><bibl type="ancient">GenR 93,7 [III 1165: 3]</bibl></note>
+                  <note>= <bibl type="ancient">GenR 93,7 [III 1165: 3]</bibl></note>
                </cit>
             </sense>
-            <sense xml:id="akhsanya-ys-3">
-             <cit type="translation" xml:lang="en" subtype="sence">
-                <quote>residence</quote>
-                <quote>palace</quote>
+            <sense xml:id="akhsanya-ys-4" n="4">
+             <cit type="translation" xml:lang="en" subtype="sense">
+                <quote>residence, palace</quote>
              </cit>
                <usg type="domain" opt="false">institution</usg>
                <usg type="socioCultural" norm="borrowing" opt="false">code switching</usg>
                <usg type="normativity" opt="false">nonce borrowing</usg>
                <usg type="meaningType" opt="false">lit.</usg>
-               <usg type="geographic" opt="false"/>
                <cit type="example" xml:lang="jpa">
                   <quote>משל לנשיא שנכנס למדינה וראו אותו בני המדינה וברחו, נכנס בשנייה וברחו, נכנס לעיר אחרת חריבה וראוהו בני המדינה וקלסוהו. אמ' זו העיר טובה מכל המדינות כאן אני בונה לי אכסניא</quote>
                   <bibl>
-                     <ref type="witness">Yalk 683</ref>
+                     <ref type="witness">Yalq 683</ref>
                      <ref type="witness">VII 3: 16</ref>
                   </bibl>
                   <cit type="translation" xml:lang="ger">
-                     <quote>/Ein Gleichnis mit einem Fürsten, der eine Provinz eroberte. Die Bewohner der Provinz sahen ihn und flohen. Er eroberte eine andere, aber sie flohen. Er eroberte eine zerstörte Stadt, und als die Bewohner dieser Provinz ihn sahen, priesen sie ihn. Da sprach er: Diese Stadt ist besser als in anderen Provinzen; hier lasse ich mir ein Palast/Residenz errichten./</quote>
+                     <quote>Ein Gleichnis mit einem Fürsten, der eine Provinz eroberte. Die Bewohner der Provinz sahen ihn und flohen. Er eroberte eine andere, aber sie flohen. Er eroberte eine zerstörte Stadt, und als die Bewohner dieser Provinz ihn sahen, priesen sie ihn. Da sprach er: Diese Stadt ist besser als in anderen Provinzen; hier lasse ich mir ein Palast/Residenz errichten.</quote>
                   </cit>
-                  <note><bibl type="ancient">TanB Bemidbar 2 (2b);</bibl><bibl type="ancient"> Yalq Jer 280 [XI 409: 5.8]</bibl></note>
+                  <note>= <bibl type="ancient">TanB Bemidbar 2 (2b)</bibl>; <bibl type="ancient">Yalq Jer 280 [XI 409: 5.8]</bibl></note>
                </cit>
             </sense>
-            <sense xml:id="akhsanya-ys-4">
-             <cit type="translation" xml:lang="en" subtype="sence">
-                <quote>foreign army</quote>
-                <quote>mercenaries</quote>
+            <sense xml:id="akhsanya-ys-5" n="5">
+             <cit type="translation" xml:lang="en" subtype="sense">
+                <quote>foreign army, mercenaries</quote>
              </cit>
                <usg type="domain" opt="false">military</usg>
                <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
@@ -203,21 +203,18 @@
                      <ref type="witness">Yalk 659</ref>
                      <ref type="witness">VI 766: 9</ref>
                   </bibl>
-                  <cit type="translation" xml:lang="ger">
-                     <quote>(so die Erklärung im Kommentar in Sif)</quote>
-                  </cit>
-                  <note><bibl type="ancient">Sif Behar 1(1),7 [73a] (אכסניא)</bibl></note>
+                  <note>= <bibl type="ancient">Sif Behar 1(1),7 [73a]</bibl> (<foreign xml:lang="jpa">אכסניא</foreign>)</note>
                </cit>
             </sense>
-            <sense xml:id="akhsanya-ys-5">
-             <cit type="translation" xml:lang="en" subtype="sence">
+            <sense xml:id="akhsanya-ys-6" n="6">
+             <cit type="translation" xml:lang="en" subtype="sense">
                 <quote>foreign land</quote>
              </cit>
                <usg type="domain" opt="false">administration</usg>
                <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
                <usg type="normativity" opt="false">standard</usg>
                <usg type="meaningType" opt="false">lit., metaph.</usg>
-               <usg type="geographic" opt="false">Syriac Aramaic (ܐܟܣܢܝܘܬܐ), Coptic</usg>
+               <usg type="geographic" opt="false">Syriac Aramaic (<foreign xml:lang="syc">ܐܟܣܢܝܘܬܐ</foreign>), Coptic</usg>
                <cit type="example" xml:lang="jpa">
                   <quote>.דבר אחר מלך בשר ודם אם יש לו אוהב והוא מחבבו אם חולה אוהבו משלח ומבקרו, ואם היה חביב עליו ביותר הולך ומבקרו, שמא אם יצא לאכסניא יכול שיצא המלך עמו, אבל הקב"ה אינו כן אלא ואוהב את יעקב, מתה רבקה בא לנחמו, יצא לאכסניא היה עמו שנאמר הנה אנכי עמך, חזר היה עמו שנאמר שוב אל ארץ אבותי </quote>
                   <bibl>
@@ -225,9 +222,9 @@
                      <ref type="witness">538b: 46.48</ref>
                   </bibl>
                   <cit type="translation" xml:lang="ger">
-                     <quote>Wenn ein Menschenkönig einen Freund hat und ihn liebt, und der Freund krank wird, lässt er ihn besuchen; liebt er ihn sehr, geht er selbst hin und besucht ihn. Wenn er aber in die Fremde geht, ist es möglich, dass der König mit ihm gehe? Jedoch der König der Könige, der Heilige, gelobt sei er, ist nicht so, denn er liebte den Jakob, denn es heißt: Und ich liebte Jakob (Mal 1,3)… (Ziegler, Königsgleichnisse 171f)</quote>
+                     <quote>Wenn ein Menschenkönig einen Freund hat und ihn liebt, und der Freund krank wird, lässt er ihn besuchen; liebt er ihn sehr, geht er selbst hin und besucht ihn. Wenn er aber in die Fremde geht, ist es möglich, dass der König mit ihm gehe? Jedoch der König der Könige, der Heilige, gelobt sei er, ist nicht so, denn er liebte den Jakob, denn es heißt: Und ich liebte Jakob (Mal 1,3) ... (Ziegler, Königsgleichnisse 171f)</quote>
                   </cit>
-                  <note><bibl type="ancient">TanB Wa-yetseʾ 22</bibl></note>
+                  <note>= <bibl type="ancient">TanB Wa-yetseʾ 22</bibl></note>
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>אמר רבי יוחנן בן נורי בשעה שגלו עשרת השבטים שבט יהודה ובנימן לא גלו, התחילו עו"א לומר אין זה אלא חנופת פנים לפי שהם בני אכסניא שלו נשא להם פנים ולא הגלה</quote>
@@ -235,7 +232,7 @@
                      <ref type="witness">Yalk Ps 813</ref>
                      <ref type="witness">466d: 25</ref>
                   </bibl>
-                  <note><bibl type="ancient">MidrT 76,1; EkhR Petikhtaʾ 6 [בני פלטין]</bibl></note>
+                  <note><bibl type="ancient">MidrT 76,1</bibl>; <bibl type="ancient">EkhR Petikhtaʾ 6</bibl> [<foreign xml:lang="jpa">בני פלטין</foreign>]</note>
                </cit>
             </sense>
             <etym type="borrowing" opt="false">
@@ -249,10 +246,10 @@
                   </xr>
                </cit>
             </etym>
-            <note>Cf. <bibl type="modern">Krauss, LW 48b-49a</bibl><bibl type="modern">Sokoloff, DJPA 33a</bibl><bibl type="ancient">782 [VII 588: 67];</bibl><bibl type ="ancient">69 [I 263: 44.47.51];</bibl><bibl type="ancient">368 [IV 663: 35.36];</bibl>,<bibl type="ancient">Qoh 968 [541d: 35];</bibl><bibl type="ancient">Ps 800 [464d: 40];</bibl><bibl type="ancient">Jer 498 [XI 313: 22];</bibl><bibl type="ancient">2 Sam 165 [X 388: 7];</bibl><ref type="entery" xml:lang="jpa" target="akhsanya.html">אכסניא</ref></note>
+            <note>Cf. <bibl type="modern">Krauss, LW II 48b-49a</bibl>; <bibl type="modern">Sokoloff, DJPA 33a</bibl>. <bibl type="ancient">Yalq 782 [VII 588: 67]</bibl>; <bibl type ="ancient">69 [I 263: 44.47.51]</bibl>; <bibl type="ancient">368 [IV 663: 35.36]</bibl>; <bibl type="ancient">Qoh 968 [541d: 35]</bibl>; <bibl type="ancient">Ps 800 [464d: 40]</bibl>; <bibl type="ancient">Jer 498 [XI 313: 22]</bibl>; <bibl type="ancient">2 Sam 165 [X 388: 7]</bibl>; <ref type="entry" xml:lang="jpa" target="akhsanya.html">אכסניא</ref></note>
             <ref type="bibliography">
                <bibl>
-                  <title>Krauss, LW</title>
+                  <title>Krauss, LW II</title>
                   <citedRange>48b-49a</citedRange>
                </bibl>
                <bibl>

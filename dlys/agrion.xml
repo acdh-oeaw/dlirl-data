@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אגריון</title>
+            <title type="alternative">ʾgrywn</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="agrion-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אגריון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾgrywn</orth>
+               <pron notation="rabbinic" opt="false">agriyon</pron>
+               <gramGrp>
+                  <gram type="pos">adjective</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="agrion-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>wild, rough, angry</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἄγριον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>למלך שהיה לו כלב
+                     <app>
+                        <lem>אגריון</lem>
+                        <rdg wit="#W">אגריאון</rdg>
+                     </app> וארי נומיריון והיה המלך נוטל את בנו ומלבלבו בארי, שאם יבא הכלב להזדווג לו יאמר המלך לו ארי לא היה יכול לעמוד בו ואתה מבקש להזדווג לבני.</quote>
+                  <bibl default="false">
+                     <ref type="witness">Yalq 132</ref>
+                     <ref type="witness">II 658: 70</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>[This may be compared] to a king who had a wild dog and a tame lion ...</quote>
+                  </cit>
+                  <ref type="entry" xml:lang="jpa">נומיריון</ref>
+                  <note>= <bibl type="ancient">GenR 77,3 (II 913: 5)</bibl>; <bibl type="ancient">ShirR 3,3</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>עד שלא חטא היה שומע את הקול אימריון, וכיון שחטא היה שומע את הקול
+                     <app>
+                        <lem>אנגריון</lem>
+                        <rdg wit="#Ven S">אגריון</rdg>
+                     </app>.</quote>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Before he had sinned, he heard a soft voice; after he had sinned, he heard an angry voice.</quote>
+                  </cit>
+                  <bibl>
+                     <ref type="witness">Yalq 363</ref>
+                     <ref type="witness">IV 646: 4</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אימריון</ref>
+                  <note>= <bibl type="ancient">NumR 11,3</bibl> (<foreign xml:lang="jpa">אגריון</foreign>); <bibl type="ancient">MidShem 17,4 [49a]</bibl> (<foreign xml:lang="jpa">נימורין</foreign>); <bibl type="ancient">ShirR 3,5</bibl> (<foreign xml:lang="jpa">אגריון</foreign>); <bibl type="ancient">PesRK Ha-ḥodesh [44b]</bibl> (<foreign xml:lang="jpa">אגריון</foreign>); <bibl type="ancient">PesR 5 [68b]</bibl> (<foreign xml:lang="jpa">אגראן</foreign>)</note>
+               </cit>
+            </sense>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>12a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

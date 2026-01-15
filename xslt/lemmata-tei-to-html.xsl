@@ -574,7 +574,7 @@
                 <xsl:text>: </xsl:text>
                 <xsl:element name="span">
                     <xsl:attribute name="class" select="'dlgenr-entry-sense-usage-body-value'"/>
-                    <xsl:apply-templates select="text() | tei:ref"/>
+                    <xsl:apply-templates select="text() | tei:ref | tei:foreign"/>
                 </xsl:element>
             </xsl:element>
         </xsl:if>
