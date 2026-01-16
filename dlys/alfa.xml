@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אלפא</title>
+            <title type="alternative">ʾlpʾ</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Michael</forename>
+               <surname full="yes">Gassner</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="alfa-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni"> 
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אלפא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾlpʾ</orth>
+               <pron notation="rabbinic" opt="false">alfaʾ</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="alfa-ys-1" n="1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>Alpha [the letter], first, superb, best quality</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <usg opt="false">
+                     <lang opt="false">Ancient Greek</lang>
+                  </usg>
+                  <quote>ἄλφα</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>תנן התם תקוע אלפא לשמן.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 378</ref>
+                     <ref type="witness">IV 694: 65</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">mMen 8,6</bibl></note>
+               </cit>
+            </sense>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Heijmanns (2014)</title>
+                  <citedRange>35-36</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

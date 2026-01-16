@@ -47,8 +47,8 @@
          <entry xml:id="akhsenai-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#akhsenai-dlgenr"
-            next="#akhsanya-dlgenr"
+            prev="#"
+            next="#"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אכסנאי</orth>
@@ -80,8 +80,8 @@
                <usg type="socioCultural" norm="borrowing" opt="false">core borrowing</usg>
                <usg type="normativity" opt="false">standard</usg>
                <usg type="meaningType" opt="false">lit., fig.</usg>
-               <usg type="geographic" opt="false">Syriac Aramaic<ref target="https://cal.huc.edu/oneentry.php?lemma=%29ksny%20A&amp;cits=all"
-                     type="entry" targetLang="syc">ˀksny</ref></usg>     
+               <usg type="geographic" opt="false">Syriac Aramaic <ref target="https://cal.huc.edu/oneentry.php?lemma=%29ksny%20A&amp;cits=all"
+                     type="entry" targetLang="syc"><foreign xml:lang="fjb">ˀksny</foreign></ref></usg>     
               <cit type="translation" xml:lang="en" subtype="sense">
                   <quote>foreigner, stranger, guest</quote>
                </cit>
@@ -99,7 +99,11 @@
                      <ref type="witness">Yalq 84</ref>
                      <ref type="witness">I 386: 59</ref>
                   </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>[R. Yiṣḥaq said:] a fierce quarrel broke out over the salt, for he [Lot] said to her [his wife], ‘Give these guests a little salt,’ to which she replied, ‘Do you want to introduce  that evil practice there too?’ (Cf. Freedman / Simon I 437)</quote>
+                  </cit>
                   <ref type="entry" xml:lang="jpa" target="akhsenai.html">אכסניא</ref>
+                  <note>= <bibl type="ancient">GenR 50,4 [II 521: 6]</bibl></note>
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>ר' נחמיה משום רב ביבי כך התנו אנשי סדום ביניהם כל אכסנאי שבא לכאן נהא בועלין אותו ונוטלין ממנו ממונו</quote>
@@ -107,6 +111,10 @@
                      <ref type="witness">Yalq 84</ref>
                      <ref type="witness">I 387: 74</ref>
                   </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Nehemia said in R. Bibi’s name: The Sodomites made an agreement among themselves that whenever a stranger visited them they should force him to sodomy and rob him of his money (Freedman / Simon I 438)</quote>
+                  </cit>
+                  <note> = <bibl type="ancient">GenR 50,7 [II 523: 2]</bibl></note>
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>אכסנאי שבא לעיר על עסקי אכילה ושתיה שואלין אותו או על עסקי אשתו שואלין אותו</quote>
@@ -114,6 +122,10 @@
                      <ref type="witness">Yalq 88</ref>
                      <ref type="witness">I 404: 26</ref>
                   </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>When a guest comes to town, you ask him about food and drink or about his wife: Is it your wife? Is it your sister?</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">bMak 9b</bibl></note>
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>מעשה בספינה אחת שהיתה כולה של נכרים והיה בתוכה יהודי אחד הגיעו לנמל אחד אמרו לאותו יהודי טול מעות ועלה לנמל וקנה לנו משם מאומה, אמר להם לא אכסנאי אני ואיני מכיר להיכן אלך, א"ל יש יהודי אכסנאי, בכל מקום שאתה הולך אלהיך עמך, הוי אשר לו אלהים קרובים אליו</quote>
@@ -121,6 +133,7 @@
                      <ref type="witness">Yalq 825</ref>
                      <ref type="witness">VIII 85: 45</ref>
                   </bibl>
+                  <note>= <bibl type="ancient">DtnR 2,16</bibl>; <bibl type="ancient">Yalq Jes 509 [XI 347: 23.24]</bibl></note>
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>אמר רבא לא אמרן אלא שאין בעלה עמה, אבל בעלה עמה, לית לן בה. והא חנה דבעלה עמה? אכסנאי שאני, דאמר רב יהודה מנין לאכסנאי שאסור בתשמיש המטה, שנאמר וישכימו בבקר וישתחוו לפני ה' וישובו ויבואו אל ביתם הרמתה וידע אלקנה את חנה אשתו, השתא אין מעיקרא לא:</quote>
@@ -128,6 +141,7 @@
                      <ref type="witness">Yalq Sam 77</ref>
                      <ref type="witness">X 175: 3.4</ref>
                   </bibl>
+                  <note>= <bibl type="ancient">MidrT 71,2</bibl></note>
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>א"ר תנחומא מעשה בספינה אחת והיה בתוכה יהודי אחד, הגיעו לנס אחד, אמרו לאותו יהודי פלוני טול מעות ועלה לנס הזה וקנה לנו משם מאומה, אמר להם לא אכסנאי אני ואיני מכיר להיכן אני הולך, אמרו לו יהודי אכסנאי בכל מקום שאתה הולך אלהים עמך שנאמר אשר לו אלהים קרובים</quote>
@@ -135,6 +149,7 @@
                      <ref type="witness">Yalq Jes 509</ref>
                      <ref type="witness">XI 347: 23.24</ref>
                   </bibl>
+                  <note>= <bibl type="ancient">DtnR 2,16</bibl>; <bibl type="ancient">Yalq 825 [VIII 85: 45]</bibl></note>
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>מעשה היה בקיסרין, והיה שם איש גדול, והיה לו שם במדינה, והיה שם איש אחר, והיו שומרי המדינה עוברים, מצאו אכסנאי אחד תפשוהו.</quote>
@@ -142,6 +157,7 @@
                      <ref type="witness">Yalq Ps 702</ref>
                      <ref type="witness">501b: 27</ref>
                   </bibl>
+                  <note>= <bibl type="ancient">MidrT 25,4</bibl></note>
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>דבר אחר משל למלך שנכנס למדינה וגזר ואמר כל אכסנאין שיש כאן לא יראו פני עד שיראו פני מטרונא תחלה</quote>
@@ -150,6 +166,7 @@
                      <ref type="witness">VI 693: 30</ref>
                   </bibl>
                   <ref type="entry" xml:lang="jpa">מטרונא</ref>
+                  <note>= <bibl type="ancient">TanB Emor 17,1</bibl></note>
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>אנא אזיל למיגמל חסד עם הדין אכסנאי דאית בגו ביתא, אמרו ליה בכל יום אית לך אכסנאין</quote>
@@ -157,6 +174,7 @@
                      <ref type="witness">Yalq Prov 947</ref>
                      <ref type="witness">492b: 16.17</ref>
                   </bibl>
+                  <note>= <bibl type="ancient">LevR 34,3</bibl></note>
                </cit>
             </sense>
             <etym type="borrowing" opt="false">
