@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אטליס</title>
+            <title type="alternative">ʾṭlys</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="atlis-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אטליס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾṭlys</orth>
+               <pron notation="rabbinic" opt="false">aṭlis</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">אטליז</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾṭlyz</orth>
+                  <pron notation="rabbinic">aṭliz</pron>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">אטליסין</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾṭlysyn</orth>
+                  <pron notation="rabbinic">aṭlisin</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+            </form>
+            <sense xml:id="atlis-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>fair, market, bazaar, store</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>κατάλυσις</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>פתרוסים וכסלוחים היו מעמידין 
+                  <app>
+                     <lem>איטליסין</lem>
+                     <rdg wit="#S">אטליסין</rdg>
+                     <rdg wit="#W">הטלוסין</rdg>
+                  </app></quote>
+                  <bibl>
+                     <ref type="witness">Yalq 62</ref>
+                     <ref type="witness">I 228: 34</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>The Pathruthim and Casluhim set up bazaars. (Freedman / Simon I 298)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 37,5 [I 348: 2]</bibl> (<foreign xml:lang="jpa">אוטליסין</foreign>); <bibl type="ancient">Yalq 1Chr 1073 [516c: 9]</bibl> (<foreign xml:lang="jpa">היטלוסין</foreign>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ד"א התחיל מעמיד להן 
+                  <app>
+                     <lem>איטליסין</lem>
+                     <rdg wit="#Ven S">אטליסין</rdg>
+                  </app> ומוכר בזול</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 133</ref>
+                     <ref type="witness">II 679: 13</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>He began to set up bazaars and sell cheaply.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 79,6 [II 940: 7]</bibl> (<foreign xml:lang="jpa">הטליסין</foreign>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>מקום 
+                  <app>
+                     <lem>אטלס</lem>
+                     <rdg wit="#L">איטלז</rdg>
+                  </app></quote>
+                  <bibl>
+                     <ref type="witness">Yalq 230</ref>
+                     <ref type="witness">III 271: 29</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>The place of market.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">SekhT Ex 14,2 [175]</bibl> (<foreign xml:lang="jpa">אטליז, דהיינו שוק של קצבים</foreign>); <bibl type="ancient">MidrR Ex 14,2</bibl> (<foreign xml:lang="jpa">עטלין</foreign> to be corr. <foreign xml:lang="jpa">עטליז</foreign>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ויבאו קרית חוצות, שעשה שווקים של מקח וממכר ועשה איטלז להראות לו אוכלוסין</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 765</ref>
+                     <ref type="witness">VII 480: 83</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אוכלוסין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And they came to Qiryat Ḥutsot. He founded [small] markets for trade and [big] market to show him masses of people.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">TanB Balaq 15 [70b]</bibl> (<foreign xml:lang="jpa">אטלס</foreign>)</note>
+               </cit>
+               <note>Cf. GenR <ref type="entry" xml:lang="jpa" target="atlis.html">אטליס</ref>.</note>
+            </sense>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>30a; 415a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

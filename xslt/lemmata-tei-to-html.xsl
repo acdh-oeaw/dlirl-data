@@ -861,6 +861,20 @@
         <xsl:text>〉</xsl:text>
     </xsl:template>
     
+    <xsl:template match="tei:foreign[@xml:lang = 'grc']">
+        <xsl:element name="span">
+            <xsl:attribute name="class" select="'dlgenr-entry-note-term-greek'"/>
+            <xsl:apply-templates select="child::node()"/>
+        </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="tei:foreign[@xml:lang = 'jpa']">
+        <xsl:element name="span">
+            <xsl:attribute name="class" select="'dlgenr-entry-note-term-hebrew'"/>
+            <xsl:apply-templates select="child::node()"/>
+        </xsl:element>
+    </xsl:template>
+    
     <xsl:template match="tei:ref[@type = 'bibliography']">
         <xsl:element name="p">
             <xsl:attribute name="class" select="'dlgenr-entry-bibliography-heading'"/>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אתליטיס</title>
+            <title type="alternative">ʾtlyṭys</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="atlites-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אתליטיס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾtlyṭys</orth>
+               <pron notation="rabbinic" opt="false">atliṭes</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">התליטיס</orth>
+                  <orth type="transliteration" xml:lang="fjb">htlyṭys</orth>
+                  <pron notation="rabbinic">hatliṭis</pron>
+               </form>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">התליטוס</orth>
+                  <orth type="transliteration" xml:lang="fjb">htlytws</orth>
+                  <pron notation="rabbinic">hatliṭos</pron>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">אתליטין</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾtleṭin</orth>
+                  <pron notation="rabbinic">atliṭin</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+            </form>
+            <sense xml:id="atlites-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>athlete</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἀθλητής</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>קשה הדבר לאומרו. לשני איטליסין שהיו מגששין ועומידין לפני המלך, אלא רצה המלך לפרשן היה יכול, חזק אחד על חברו והרגו</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 38</ref>
+                     <ref type="witness">I 128: 58</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Shimʿon bar Yoḥai said: It is difficult to say this thing, and the mouth cannot utter it plainly. Think of two athletes wrestling before the king; had the king wished, he could separate them. But he did not so desire, and one overcame the other and killed him ... [Freedman / Simon I 189]</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 22,9 [I 216: 6]</bibl> (<foreign xml:lang="jpa">אתליטין</foreign>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' חייא בר חנניא אמ' שרו של עשו היה, הוא דהוה א"ל כי על כן ראיתי פניך כראות פני אלהים ותרצני. להיטלס  שעומד ומתגושש עם בנו של מלך, תלה עיניו והיה המלך עומד והרפיש עצמו לפניו</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 132</ref>
+                     <ref type="witness">II 656: 26</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Hama b. R. Hanina said: It was the guardian Prince [angel] of Esau. To this Jacob alluded when he said to him [Esau]: Forasmuch as I have seen thy face, as one seeth the face of Elohim, and thou wast pleased with me (Gen 33,10).. This may be compared to an athlete who was wrestling with a royal prince; lifting up his eyes and seeing the king standing near him, he threw himself down before him [Freedman / Simon II 711-712].</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 77,3 [II 912: 4]</bibl> (<foreign xml:lang="jpa">התליטיס</foreign>)</note>
+               </cit>
+            </sense>
+            <note>Cf. GenR <ref type="entry" xml:lang="jpa" target="atlites.html">אתליטיס</ref></note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>136a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

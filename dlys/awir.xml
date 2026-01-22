@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אויר</title>
+            <title type="alternative">ʾwyr</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="awir-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אויר</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾwyr</orth>
+               <pron notation="rabbinic" opt="false">awir</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m./f.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">אוירה</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾwyrh</orth>
+                  <pron notation="rabbinic">awirah</pron>
+               </form>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">אוירא</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾwyrʾ</orth>
+                  <pron notation="rabbinic">awiraʾ</pron>
+               </form>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">אויריה</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾwyryh</orth>
+               </form>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">אווירייה</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾwwyryyh</orth>
+                  <pron notation="rabbinic">awiryyah</pron>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">אוירות</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾwyrwt</orth>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">אווירות</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾwwyrwt</orth>
+                  <pron notation="rabbinic">awirot</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+            </form>
+            <sense xml:id="awir-ys-1" n="1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>air</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἄηρ</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>א"ר יצחק זרוק חוטרא לאוירה, על עיקריה קאים</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 95</ref>
+                     <ref type="witness">I 426: 91</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Yiṣḥaq said: Throw a rod into the air, and it will fall on its top.</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>זרוק חוטרא לאוירא, ועל עיקריה קאים</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 145</ref>
+                     <ref type="witness">II 748: 23</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Yiṣḥaq said: Throw a rod into the air, and it will fall on its top.”</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 53,15 [ΙΙ 574: 7]</bibl>; <bibl type="ancient">GenR 86,6 [II 1059: 3]</bibl>; <bibl type="ancient">LeqT Wa-yeraʾ 21,21</bibl>; <bibl type="ancient">LeqT Wa-yeshev 39,6</bibl>; <bibl type="ancient">SekhT Wa-yeraʾ 21,21</bibl>; <bibl type="ancient">SekhT Wa-yeshev 39,6</bibl>; <bibl type="ancient">TanhB Balaq 26</bibl>; <bibl type="ancient">Tanh Balaq 17</bibl>; <bibl type="ancient">NumR Balaq 20,23</bibl> (Tanh and NumR provide a Hebrew version of this proverb [not in the name of R. Yiṣḥaq]: <foreign xml:lang="jpa">זרוק מטה לאויר לעיקרו נופל</foreign> [NumR]); <bibl type="ancient">Pitron Torah Aḥare</bibl> (Urbach 69) reads (in the Name of R. Yiṣḥaq): <foreign xml:lang="jpa">זרוק חוטרה לאוירה ועל עיקציה הוא נחית</foreign>.</note>
+               </cit>
+            </sense>
+            <sense xml:id="awir-ys-2" n="2">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>сlimate</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἄηρ</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>היה אויר להן, כמין הפסח ועד העצרת</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 61</ref>
+                     <ref type="witness">I 208: 37</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>They enjoyed the climate [not usual] between Passover and Pentecost [right through the year].” (Freedman / Simon I: 277)
+                     </quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 34,11 [I 322: 13]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>א' ריש לקי' ברית נחלק לאוירות. ריש לקי' הוה לעי באוריתא בחדא פס דטבריא. נפקין תרין נשין מתמן אמרה חדא לחברתה בריך רחמנא דאפקן מהדא אוירא בישא. צווח להון אמ' להון מן הן אתון, אמרין מן מזגא. אמ' ריש לקי', אנא חכים מזגא לית בה אלא תרין עמודין. אמ' ברוך המקום שנתן חן המקום על יושביו.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 61</ref>
+                     <ref type="witness">I 213: 98</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Resh Laqish was sitting and studying Torah in the grove of Tiberias. Two women came out from there. One said to the other: Praised be He who led us out from that bad climate. He called to them: Where are you from? They answered: From Mazga. He said: I know Mazga, and there are only two dwellings. [Then] he said: Praised be he who made the inhabitants love the place they live in.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 34,15 [I 327: 5]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ומה אנון אוירא דתמן</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 61</ref>
+                     <ref type="witness">I 213: 4</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>‘What is its climate?’, he asked. (Freedman / Simon I: 281)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 34,15 [I 327: 8]</bibl>; <bibl type="ancient">Yalq Ez  351 [XI 545: 31]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>א' ריש לקי' ברית נחלק לאוירות</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 61</ref>
+                     <ref type="witness">I 212: 96</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">GenR 34,15 [I 327: 3‎]</bibl>; <bibl type="ancient">Yalq Ez 351 [XI 545: 29]</bibl></note>
+               </cit>
+            </sense>
+            <note>Cf. GenR <ref type="entry" xml:lang="jpa" target="awir.html">אויר</ref>. Cf. <bibl type="modern">Krauss, LW II 17a-18a</bibl>. Common in Rabb. Lit. Other occurrences in Gen: <bibl type="ancient">Yalq 38 [I 125: 4]</bibl>; <bibl type="ancient">62 [I 235: 38]</bibl>; <bibl type="ancient">84 [I 395: 68]</bibl>; <bibl type="ancient">109 [II 487: 17]</bibl>; <bibl type="ancient">115 [II 554: 26]</bibl></note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>39</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>
