@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אטימוס</title>
+            <title type="alternative">ʾṭymws</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="etimos-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אטימוס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾṭymws</orth>
+               <gramGrp>
+                  <gram type="pos">adverb</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">איטימוס</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾyṭymws</orth>
+                  <pron notation="rabbinic">eṭimos</pron>
+               </form>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">אוטמוס</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾwṭmws</orth>
+                  <pron notation="rabbinic">oṭmos</pron>
+               </form>
+            </form>
+            <sense xml:id="etimos-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>ready, prepared</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἕτοιμος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>עומד אין כת' אלא נצב, 
+                  <app>
+                     <lem>אטימוס</lem>
+                     <rdg wit="#S">איטימוס</rdg>
+                  </app>, כד"א ונצבת על הצור</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 82</ref>
+                     <ref type="witness">I 350: 80</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Not ʿomed  [standing] is written here but niṣṣav (stationed at his post), [which means] ‘ready’ as you read (Ex 33,21): As you shall be stationed  [niṣṣavta] upon the rock. (Freedman / Simon I 409)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 48,7 [II 482: 3]</bibl>; <bibl type="ancient">ShirR 2,2</bibl>; <bibl type="ancient">PesR 15</bibl>; <bibl type="ancient">MTeh (Buber) 22,19</bibl>; <bibl type="ancient">Yalq 82 [I 350: 80]</bibl></note>
+               </cit>
+            </sense>
+            <note>See Sokoloff, DJPA 48 (<term xml:lang="jpa">איטמוס</term>).</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>29ab</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>48</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>
