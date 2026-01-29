@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">איסטרטיוט</title>
+            <title type="alternative">ʾysṭrṭywṭ</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="istartiot-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">איסטרטיוט</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾysṭrṭywṭ</orth>
+               <pron notation="rabbinic" opt="false">isṭraṭioṭ</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">אסטרטיוט</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾsṭrṭywṭ</orth>
+                  <pron notation="rabbinic">isṭraṭioṭ</pron>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">איסטרטיוטין</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾysṭrṭywṭyn</orth>
+                  <pron notation="rabbinic">isṭraṭioṭin</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">אסטרטיוטין</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾsṭrṭywṭyn</orth>
+                  <pron notation="rabbinic">isṭraṭioṭin</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">איסטרטיות</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾysṭrṭywt</orth>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">אסטרטיות</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾsṭrṭiot</orth>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+            </form>
+            <sense xml:id="istartiot-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>soldier</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>στρατιώοτης</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>שני תלמידים משל ר' יהושע שנו עטיפתן בשעת השמד, פגע בהם אסטרטיוט אחד משומד</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Jes 396</ref>
+                     <ref type="witness">XI 31: 2</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Two disciples of R. Yehoshua changed their cloaks at the time of persecution. A certain [Roman] officer, an apostate, met them ... [Freedman / Simon II 757-758]</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 82,8 [I 985: 1]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>גדולה זו יון, ר' סימון אמר שהיא מעמדת ק"כ דוכסין ק"כ איפרכין ק"כ 
+                     <app>
+                        <lem>אסטרדיוטין</lem>
+                        <rdg wit="#W">אסטרטיוטין</rdg>
+                     </app></quote>
+                  <bibl>
+                     <ref type="witness">Yalq 77</ref>
+                     <ref type="witness">I 308: 87</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Great (Gen 15,12) refers to Greece. R. Simon said: The Kingdom of Greece set up one hundred and twenty commanders, one hundred and twenty prefects, one hundred and twenty governors. (cf. Freedman / Simon I 373)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 44,17 [I 440: 1]</bibl> (<ref type="entry" xml:lang="jpa">איסטרטלין</ref>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אריב"ל אלו היו אומות העולם יודעים שהם לוקים כשחוטאים ישראל היו מעמידים שני אסטרדיוטין שיהו משמרין כל אחד ואחד שלא יחטא</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Hag 567</ref>
+                     <ref type="witness">XI 786: 30</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">TanB Beḥuqqotai 3 [55a]</bibl> (<term xml:lang="jpa">איסטרטיוטין</term>)</note>
+               </cit>
+            </sense>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>84ab</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

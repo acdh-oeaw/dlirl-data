@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אספרגוס</title>
+            <title type="alternative">ʾsprgws</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="ispargos-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אספרגוס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾsprgws</orth>
+               <pron notation="rabbinic" opt="false">ispargos</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">*סיפרגוס</orth>
+                  <orth type="transliteration" xml:lang="fjb">syprgws</orth>
+                  <pron notation="rabbinic">sipargos</pron>
+               </form>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">ספרגין</orth>
+                  <orth type="transliteration" xml:lang="fjb">sprgyn</orth>
+                  <pron notation="rabbinic">sipargin</pron>
+               </form>
+            </form>
+            <sense xml:id="ispargos-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>seal</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>σφραγίς</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>למלך שהיו לו ג' אוהבים ולא היה עושה דבר חוץ מדעתן. פעם אחת בקש המלך לעשות דבר חוץ מדעתן. נטל את הראשון טרדו והוציאו חוץ לפלטין שלו. השיני, חבשו בבית האסורין ונתן 
+                  <app>
+                     <lem>אספרגוס</lem>
+                     <rdg wit="#W">אספרוס</rdg>
+                     <rdg wit="#S">איספרגו'</rdg>
+                  </app>
+                      עליו. שלישי, שהיה חביב עליו ביותר, אמ' איני עושה דבר חוץ מדעתו</quote>
+                  <bibl>
+                     <ref type="witness">Yalq</ref>
+                     <ref type="witness">I 117: 15</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פלטין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>This may compared to a king who had three friends without whose consent he did nothing. But on one occasion he desired to do something without their consent. Whereupon he evicted one from palace; the second he put in prison, affixing his seal on it [the prison door]. But as for the third, whom he loved exceedingly, he said, ‘I cannot do anything without his consent.’ (Freedman / Simon I 421-422)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 49,2 [II 500: 4]</bibl> (<term xml:lang="jpa">ספרגין</term>)</note>
+               </cit>
+            </sense>
+            <note>GenR renders <term xml:lang="jpa">סיפרגוס</term> <term xml:lang="fjb">syprgws</term>, <term xml:lang="jpa">איספרגוס</term> <term xml:lang="fjb">ʾysprgws</term>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>409b-410a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>
