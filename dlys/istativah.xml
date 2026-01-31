@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אסטטיבא</title>
+            <title type="alternative">ʾsṭṭybʾ</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="istativah-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אסטטיבא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾsṭṭybʾ</orth>
+               <pron notation="rabbinic" opt="false">ʾisṭaṭibaʾ</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">f.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">איסטאטיבה</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾysṭʾṭybh</orth>
+                  <pron notation="rabbinic">ʾisṭaʾṭivah</pron>
+               </form>
+            </form>
+            <sense xml:id="istativah-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>camp</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <quote>(castra) stativa</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>בשר ודם בשעה שהוא עושה איסטטיבא אינו נותן דונא טיבא, אבל הק' נותן דונא טיבא ועושה 
+                  <app>
+                     <lem>אסטטיבא</lem>
+                     <rdg wit="#S">איסטטיבא</rdg>
+                  </app>, שנ' וישבת, ויברך.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 16</ref>
+                     <ref type="witness">I 50: 56,57</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">דונא טיבא</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>When a mortal king puts [his army] into a permanent camp he doesn’t give donations. But the Holy one, blessed be He, gives donations and makes a stop, as it is written: and he rested, and he blessed.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 10,9 [Ι 86: 5, 6]</bibl>; <bibl type="ancient">TanhB Wa-yeṣeʾ 22</bibl> (<term xml:lang="jpa">איסטאטיבא</term>)</note>
+               </cit>
+            </sense>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>77b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

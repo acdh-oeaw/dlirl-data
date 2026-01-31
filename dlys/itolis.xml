@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">איטוליס</title>
+            <title type="alternative">ʾyṭwlys</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="itolis-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">איטוליס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾyṭwlys</orth>
+               <pron notation="rabbinic" opt="false">ʾiṭolis</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">הטליס</orth>
+                  <orth type="transliteration" xml:lang="fjb">hṭlys</orth>
+                  <pron notation="rabbinic">hiṭlis</pron>
+               </form>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">אטליס</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾṭlys</orth>
+                  <pron notation="rabbinic">ʾaṭlis</pron>
+               </form>
+            </form>
+            <sense xml:id="itolis-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>independent</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>αὐτοτέλης</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>א"ל הק' הטלס, חייך, שאני מגרה בך את הדוב</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 145</ref>
+                     <ref type="witness">II 750: 43</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>... The Lord said to him: [You are] independent [now], by your life: I will incite the she-bear against you.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 87,4 [III 1064: 2]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר לו הקב"ה 
+                  <app>
+                     <lem>הטליס</lem>
+                     <rdg wit="#Ven">העלם</rdg>
+                  </app>, חייך שאני מגרה בך את הדוב</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Job 920</ref>
+                     <ref type="witness">509: 4</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>... The Lord said to him: [You are] independent [now], by your life: I will incite the she-bear against you.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 87,4 [III 1064: 2]</bibl></note>
+               </cit>
+            </sense>
+            <note>Attested also in <bibl type="ancient">MidTeh 16,12 [62b]</bibl>. Cf. <ref type="entry" xml:lang="jpa">הטליס</ref>. Cf. GenR <ref type="entry" xml:lang="jpa">איטוליס</ref></note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>31b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

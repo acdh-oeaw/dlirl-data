@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">לגטון</title>
+            <title type="alternative">lgṭwn</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="legaton-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">לגטון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">lgṭwn</orth>
+               <pron notation="rabbinic" opt="false">legaṭon</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">לגיטיון</orth>
+                  <orth type="transliteration" xml:lang="fjb">lgyṭywn</orth>
+                  <pron notation="rabbinic">legaṭiyon</pron>
+               </form>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">אגיטון</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾgyṭwn</orth>
+                  <pron notation="rabbinic">ʾagiṭon</pron>
+               </form>
+            </form>
+            <sense xml:id="legaton-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>testamentary gift, bequest</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <quote>legatum</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ληγᾶτον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אב שכתב 
+                  <app>
+                     <lem>אגיטון</lem>
+                     <rdg wit="#S">לגטיון</rdg>
+                     <rdg wit="#W">לגיטיין</rdg>
+                  </app> לבניו בחיים ושיגר זה מעל זה, יש לזה על זה כלום.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 110</ref>
+                     <ref type="witness">II 503: 69</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>If a father made a bequest to his children in his lifetime and sent them away from each other, has one any claim upon the other?</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">bSan 91a</bibl> (<term xml:lang="jpa">אגטין</term>)</note>
+               </cit>
+            </sense>
+            <note>Attested also in <bibl type="ancient">Tan Noaḥ 14</bibl>, <bibl type="ancient">TanB 20 [24a]</bibl>. Cf. <bibl type="modern">AC V 14a</bibl>; <bibl type="modern">Levy I 20b</bibl> (<term xml:lang="jpa">אגטין</term>); <bibl type="modern">Levy II 473b</bibl>; <bibl type="modern">Jastrow II 692a</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>404b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

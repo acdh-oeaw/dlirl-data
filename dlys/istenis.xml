@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אסתניס</title>
+            <title type="alternative">ʾsenys</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="istenis-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אסתניס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾsenys</orth>
+               <pron notation="rabbinic" opt="false">istenis</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">אסטניס</orth>
+                  <orth type="transliteration" xml:lang="fjb">isṭnys</orth>
+                  <pron notation="rabbinic">ʾisṭenis</pron>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">אסתניסים</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾstnysym</orth>
+                  <pron notation="rabbinic">istensim</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">אסטניסים</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾsṭnysym</orth>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+            </form>
+            <sense xml:id="istenis-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>weak person</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἀσθενής</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ברכו ביציאה כל יום שיש בו חסרון, יש בו ברכה, ואינו חסר כלום. בחמשי נבראו עופות ודגים ובני אדם שוחטים ואוכלים, צדין דגים ואוכלין, וכת' בו ברכה, ואינו חסר כלום. בשביעי מה אית לך למימר, מפני היציאה, ד"א מפני האסטניסין</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 16</ref>
+                     <ref type="witness">I 51: 10</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>He blessed it by providing for additional expenditure. R. Levi said in the Name of R. Yose b. R. Ḥanina: A blessing is written in connection with every day in which there is a decrease, and so it suffers no loss at all. [E.g.] on the fifth day birds and fish were created; now people kill birds and eat them, and catch fish and eat them, yet since a blessing is written in connections with it, the stock does not in any way decrease. Then what can you say of the seventh day? R. Levy said in the name of R. Ḥama b. R. Ḥanina:  [It is written] on account of [additional] expenditure. R. Leʿazar said in R. Yoseʾs name: [The blessing was given] on account of people with delicate digestions. (Cf. Freedman / Simon I: 82)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 11,3 [I 90: 5]</bibl> (<term xml:lang="jpa">האיסטיניסים</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>וישימו עליו שרי מס'. עליהם מיבעי ליה, מלמד שהביאו מלבן ותלו לו לפרעה בצוארו, וכל ישראל שאומר 
+                  <app>
+                     <lem>אסטניס</lem>
+                     <rdg wit="#W">איסטניס</rdg>
+                  </app> אני, אומ' לו כלום 
+                  <app>
+                     <lem>אסטנס</lem>
+                     <rdg wit="#W">איסטניס</rdg>
+                  </app> אתה מפרעה</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 162</ref>
+                     <ref type="witness">III 8: 11.12</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Therefore they did set over him taskmasters (Ex 1:11). It should say “over them”! This teaches that a brick was taken and hung around Pharaoh's neck, and to every Israelite who said, “I am a weak person,” he said, “Are you weaker than Pharaoh?”</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' חנינא אמר כל ימי עני רעים זה 
+                  <app>
+                     <lem>איסטניס</lem>
+                     <rdg wit="#S V L">אסטניס</rdg>
+                  </app></quote>
+                  <bibl>
+                     <ref type="witness">Yalq Prov 953</ref>
+                     <ref type="witness">494b: 46</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Ḥaninaʾ said: All the days of the afflicted are evil (Prov 15,15) – that is a weak person.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">bBB 145b</bibl> (<term xml:lang="jpa">איסטניס</term>); <bibl type="ancient">bSan 100b</bibl> (<term xml:lang="jpa">אסטניס</term>)</note>
+               </cit>
+            </sense>
+            <note>Cf. <bibl type="modern">Levy I 135</bibl>; <bibl type="modern">Krauss, LW II 99</bibl>; <bibl type="modern">Jastrow I 58</bibl>. Common in the rabb. Lit. Sg. form not attested in GenR. Pl. also in <bibl type="ancient">EkhR 4,2</bibl>; <bibl type="ancient">yBeṣ 1,5 (685a: 39)</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Haijmans (2013)</title>
+                  <citedRange>44-45</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>53</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>
