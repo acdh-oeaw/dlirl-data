@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">פרקולה</title>
+            <title type="alternative">prqwlh</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="perqulah-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">פרקולה</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">prqwlh</orth>
+               <pron notation="rabbinic">perqulah</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">f.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="perqulah-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>(written draft of) sentence, read by judge to the guilty party</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <quote>periculum</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>משל לליסטים שהיה נידון לפני הקוסטינר כל זמן שהוא מתריס הוא לוקה, הודה הוא נותן פרקילא, אבל הקב"ה אינו כן אלא עד שלא הודה הוא נותן פרקילא משהודה נוטל דימוס</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Ps 854</ref>
+                     <ref type="witness">474d: 8.9</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">דימוס</ref>
+                  <ref type="entry" xml:lang="jpa">קוסטינר</ref>
+                  <ref type="entry" xml:lang="jpa">ליסטים</ref>
+                  <note>= <bibl type="ancient">PesRK Shuva 43 [159a]</bibl> (<term xml:lang="jpa">פרקולה</term>); <bibl type="ancient">Yalq Prov 961 [500a: 9]</bibl> (<term xml:lang="jpa">פרקולה</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>משל ללסטים שהוא נדון בפני הקוסטינר כל זמן שהוא מתריס הוא לוקה הודה הוא נותן פרקולא, אבל הקב"ה אינו כן אלא עד שלא הודה הוא נותר פרקולא, משהודה הוא נוטל דימוס</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Prov 961</ref>
+                     <ref type="witness">500a: 9.10</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">דימוס</ref>
+                  <ref type="entry" xml:lang="jpa">קוסטינר</ref>
+                  <ref type="entry" xml:lang="jpa">לסטים</ref>
+                  <note>= <bibl type="ancient">PesRK Shuva 43 [159a]</bibl> (<term xml:lang="jpa">פרקולה</term>); <bibl type="ancient">Yalq Ps 854 [474d: 8.9]</bibl> (<term xml:lang="jpa">פרקילא</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ד"א שובה ישראל, ללסטים הנדון לפני הקוסטינר, בתחלה קורא אוליגין שלו ואחר כך מכה אותו ואח"כ נותן לו כמס ואח"כ נותן לו פרקולה ואח"כ יוצא להירג. אבל הב"ה אינו כן בתחלה קורא אולוגין של שבטים [...] ואח"כ מכה אותם [...] ואח"כ נותן להם כמס [...] ואחר כך נותן להם פרקולה</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Hos 532</ref>
+                     <ref type="witness">XI 665: 19</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">כמס</ref>
+                  <ref type="entry" xml:lang="jpa">אולוגין</ref>
+                  <ref type="entry" xml:lang="jpa">קוסטינר</ref>
+                  <ref type="entry" xml:lang="jpa">לסטים</ref>
+                  <note>= <bibl type="ancient">PesRK Shuva 43 [159b]</bibl></note>
+               </cit>
+            </sense>
+            <note>Buber in PesRK emends to <term xml:lang="jpa">ספקולא</term>. Cf., however, <bibl type="modern">Lieberman (1944): 33-34</bibl>. Sperber explains the form with the influence of <ref type="entry" xml:lang="jpa">ספיקולא</ref>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sperber (1984)</title>
+                  <citedRange></citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אוני</title>
+            <title type="alternative">ʾwny</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="one-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אוני</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾwny</orth>
+               <pron notation="rabbinic" opt="false">ʾone</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">f.</gram>
+               </gramGrp>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">אוניות</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾwnywt</orth>
+                  <pron notation="rabbinic">ʾoniyot</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+            </form>
+            <sense xml:id="one-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>bill of sale</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ὠνή</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' אבהו אמ' למלך שקנה שני עבדים באוני אחד ובטימי אחת. על אחד גזר שיהא אוכל מטמיון, ועל אחד גזר שיהא יגע ואוכל. ישב לו תוהא ובוהא אמ' שנינו נקנינו בטימי אחת ובאוני אחד זה ניזון מטמיון ואני אם איני יגע איני אוכל</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 4</ref>
+                     <ref type="witness">I 12: 76</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">טימי</ref>
+                  <ref type="entry" xml:lang="jpa">טמיון</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Abbahu said: This may be compared to the case of a king who bought two slaves on the same bill of sale and at the same price. One he ordered to be supported at the public expense, while the other he ordered to toil for his bread. The latter sat bewildered and astonished: ‘Both of us were bought at the same price,’ exclaimed he, ‘yet he is supported from the treasury whilst I have to gain my bread by my toil!  [How amazing!]’ (Freedman / Simon I 15)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 2,2 [I 15: 4]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' יהוד' בר' סימ' אומ' למלך שקנה שתי שפחות באוני אחד ובטימי אחת, על אחת גזר שתזון בפלטין ועל אחת גזר טרודין. כך ישבה לה הארץ תוהא כו'</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 4</ref>
+                     <ref type="witness">I 13: 81</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Yehuda b. R. Simon said: Compare this case to a king who bought two bondmaids, both on the same bill of sale and at the same price. One he commended not to stir out from the palace, while for the other he decreed banishment. The latter sat bewildered and astonished. ‘Both of us were bought on the same bill of sale, and at the same price,’ she exclaimed, ‘yet she does not stir from the palace while against me he has decreed banishment. How amazing!’ (Freedman / Simon I 15-16)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 2,2 [I 15: 8]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>היכן הוא דייתיקי שלהם והאוני שלהם</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 157</ref>
+                     <ref type="witness">II 833: 15</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">דייתיקי</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Where is their testament and their bill of sale?</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 96 [III 1201: 2]</bibl>; <bibl type="ancient">OsM (Eisenstein) 228</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ומי כותב 
+                     <app>
+                        <lem>האונה</lem>
+                        <rdg wit="#S">האוני</rdg>
+                     </app>, א"ר ברכי' י"ה כותב האוני. ומי מעיד על האוני, י"ה מעיד</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 133</ref>
+                     <ref type="witness">II 681: 43; 682: 44</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And who writes the bill of sale? R. Berakhyah said: Yah writes the bill of sale. And who attests the bill of sale? R. Berakhyah said: Yah attests the bill of sale.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 79,7 [II 949: 1-2]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>כמה 
+                  <app>
+                     <lem>אוניות</lem>
+                     <rdg wit="#S">אניות</rdg>
+                  </app> נכתבו לו</quote>
+                  <bibl>
+                     <ref type="witness">Yalq</ref>
+                     <ref type="witness"></ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>How many bills of sale were written on his [Josephs] account?</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 84,22 [II 1028: 4]</bibl></note>
+               </cit>
+            </sense>
+            <note>Cf. GenR <ref type="entry" xml:lang="jpa">אוני</ref></note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>21b</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>12a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

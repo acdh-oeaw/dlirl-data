@@ -63,7 +63,7 @@
                   </gramGrp>
                </form>
             </form>
-            <sense xml:id="pargod-ys-1">
+            <sense xml:id="pargod-ys-1" n="1">
                <cit type="translation" xml:lang="en" subtype="sense">
                   <quote>bordered garment</quote>
                </cit>
@@ -86,7 +86,7 @@
                   <note>= <bibl type="ancient">GenR 84 [II 1019: 5]</bibl></note>
                </cit>
             </sense>
-            <sense xml:id="pargod-ys-2">
+            <sense xml:id="pargod-ys-2" n="2">
                <cit type="translation" xml:lang="en" subtype="sense">
                   <quote>curtain</quote>
                </cit>

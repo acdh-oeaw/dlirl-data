@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אוכלוסין</title>
+            <title type="alternative">ʾwkhlwsyn</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="okhlosin-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אוכלוסין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾwkhlwsyn</orth>
+               <pron notation="rabbinic" opt="false">okhlosin</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="okhlosin-ys-1" n="1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>masses [of people]</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ὄχλος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אף לעתיד לבא כן, שנ' יקראו לירושלים כסא יי' ונקוו אליה כל הגוים, וכי מחזקת היא אלא הק' אומ' לה האריכי, הרחיבי, קבלי אוכלוסייך, שנ' הרחיבי מקום אהלך.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 7</ref>
+                     <ref type="witness">I 27: 14</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">GenR 5,7 [I 37: 6]</bibl> (<term xml:lang="jpa">אכלוסיך</term>); <bibl type="ancient">LevR (Margalioth) 10,9 (218: 8)</bibl> (<term xml:lang="jpa">אוכלוסייך</term>); <bibl type="ancient">PesK 20,7 (316: 10)</bibl> (<term xml:lang="jpa">אוכלסייך</term>); <bibl type="ancient">PesR 21,22 (Ulmer 616)</bibl> (<term xml:lang="jpa">אוכלוסיך</term>); <bibl type="ancient">Yalq Jos 14 [X 23: 21]</bibl> (<term xml:lang="jpa">אוכלוסיך</term>); <bibl type="ancient">Yalq Jes 472 [X 248: 5]</bibl> (<term xml:lang="jpa">אוכלוסיך</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>על כן קר' שמו לוי. בכל מקום שנ' על כן קראה שמו מרובה באוכלוסין</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 126</ref>
+                     <ref type="witness">II 612: 31</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Therefore was his name called Levi (Gen 29,34): wherever ‘Therefore his name was called’ occurs, it intimates that his masses were large. (cf. Freedman / Simon II 655)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 71,5 [II 829: 3]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>עמך נדבות ביום חילך. מדבר באברהם עמך הייתי ביום שנדבת לשמי לירד לכבשן האש. ביום חילך, ביום שכנסת כל אותן החיילות והאוכלוסין</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Ps 869</ref>
+                     <ref type="witness">478c: 38</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>In the day of thy warfare (Ps 60,3) [lit. ‘retinue’]; when thou didst bring Me all those bands. (Freedman / Simon I 316)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 39,8 [I 370: 3]</bibl></note>
+               </cit>
+            </sense>
+            <sense xml:id="okhlosin-ys-2" n="2">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>troops [of soldiers]</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ὄχλος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' יהוד' אומ' ויפלו שמה, אלו האוכלסין. והנשארים הרה, נסו אילו המלכים. ר' נחמי' או' ויפלו שמה, אלו המלכים והנשארים, אלו האוכלוסין.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 72</ref>
+                     <ref type="witness">I 279: 59;61</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Yehuda said: And they fell there (Gen 14,10) refers to the troops, while And they that remained fled to the mountain (ibid.) refers to the kings. R. Neḥemyah said: And they fell there refers to the kings, while And they that remained fled to the mountains refers to the troops. (Freedman / Simon I 349)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 41 [42],7 [I 413: 1,3]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' לוי אמ' לפי שהיה אבינו אברהם יושב ואומ' תאמר האוכלוסין שהרגתי היה בהן צדיק אחד או ירא שמים  אחד. משל לתבן שהיה עובר לפני פרדסו של מלך. ראה חבילה של קוצים, ירד ונטלה, והציץ המלך התחיל מטמר מפניו. א"ל מה אתה מיטמר, פועלים הייתי צריך שיקשקו אותה, עכשיו שקשקשתה אותה בא וטול שכרך. כך א"ל הק' לאברהם האוכלוסין קוצים כסוחים היו, הה"ד והיו עמים משרפות סיד קוצים</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 76</ref>
+                     <ref type="witness">I 295: 80; 296: 85;87</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Levi explained this in two ways, the Rabbis in one. R. Levi said: Abraham was filled with misgiving, thinking to himself, ‘maybe there was a righteous or Godfearing man among those troops which I slew. This may be compared to a straw-merchant who was passing the king’s orchards, and seeing some bundles of thorns, descended [from his wagon] and took them. [The king] caught sight of him, whereupon he tried to hide himself. ‘Why do you hide?’ he said to him, reassuringly, ‘I needed labourers to gather them; now that you have gathered them, come and receive your reward.’ Thus the Holy One, blessed be He, said to Abraham: ‘Those troops that thou slewest were thorns als ready cut down’; thus it is written, And the peoples shall be as the burnings of lime; as thorns cut down, that are burned in the fire (Jes 33,12). (Freedman / Simon I 362-363)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 44,3 [I 427: 2;5]</bibl>; <bibl type="ancient">Yalq Jes 449 [XI 192: 51;56]</bibl> (<term xml:lang="jpa">אוכלוסין</term>)</note>
+               </cit>
+            </sense>
+            <note>Cf. GenR <ref type="entry" xml:lang="jpa">אוכלוסין</ref>. Common in Rabb. Lit.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>18b</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>10a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

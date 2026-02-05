@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">פמלניא</title>
+            <title type="alternative">pmlnyʾ</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="pamalnia-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">פמלניא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">pmlnyʾ</orth>
+               <pron notation="rabbinic" opt="false">famalnia</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">pl.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa" opt="false" select="true">פמלליא</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">pmllyʾ</orth>
+               </form>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa" opt="false" select="true">פמליא</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">pmlyʾ</orth>
+               </form>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa" opt="false" select="true">פלמניא</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">plmnyʾ</orth>
+               </form>
+            </form>
+            <sense xml:id="pamalnia-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>breeches</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>φεμινάλια</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <quote>feminalia</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ויפשיטו את יוסף – זה הפינס, את כתנתו – זה חלוק, את כתנת הפסים – זה הפרגוד, אשר עליו – זה 
+                  <app>
+                     <lem>פלמניא</lem>
+                     <rdg wit="#Ven I">פמלניא</rdg>
+                  </app></quote>
+                  <bibl>
+                     <ref type="witness">Yalq 142</ref>
+                     <ref type="witness">II 725: 9</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פרגוד</ref>
+                  <ref type="entry" xml:lang="jpa">פינס</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And they stripped Joseph [Gen 37,23] – that refers to his cloak; his coat, to his shirt; the coat of many colours – the bordered garment; that was on him – his breeches. (Cf. Freedman / Simon II 781)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 84,16 [II 1019: 5]</bibl></note>
+               </cit>
+               <note>The readings in the most sources of Yalq. are corrupted. Cf. GenR <ref type="entry" xml:lang="jpa">פמלניא</ref></note>
+            </sense>
+         </entry>
+      </body>
+  </text>
+</TEI>

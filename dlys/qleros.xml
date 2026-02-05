@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">קלירוס</title>
+            <title type="alternative">qlyrws</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="qleros-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">קלירוס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">qlyrws</orth>
+               <pron notation="rabbinic">qleros</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="qleros-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>lot</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>κλῆρος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>שמשם יצא אברהם אבינו ורדף ד' מלכים קוזמוקטורין, שהיא עולה 
+                  <app>
+                     <lem>בקונדסין</lem>
+                     <rdg wit="#S Ven">קנדסין</rdg>
+                  </app> של ארבעה</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 102</ref>
+                     <ref type="witness">II 465: 66</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">קוזמוקטורין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. ʿAzariah said: Because from there went forth Abraham, who pursued four kings, each a world ruler. [Further,] because it fell to the lot of four ... (Cf. Freedman / Simon II 511)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 58,4 [II 622: 3]</bibl> (<term xml:lang="jpa">קוזמוקרטורין</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>א"ר עזריה שמשם יצא אברהם ורדף ארבעה מלכים קוזמוקטורין, שהיא עולה בקונדיסין של ארבעה</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Jos 23</ref>
+                     <ref type="witness">XI 71: 43</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">קונדיסין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. ʿAzariah said: Because from there went forth Abraham, who pursued four kings, each a world ruler. [Further,] because it fell to the lot of four ... (Cf. Freedman / Simon II 511)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 58,4 [II 622: 3]</bibl> (<term xml:lang="jpa">קוזמוקרטורין</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' שמואל בשם ר' אחא אמר בשעה שהפלתי קלווסים על אומות העולם להגלותם לא גלו ואתם גליתם</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Ezek 363</ref>
+                     <ref type="witness">XI 574: 29</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Rabbi Shemu'el said in the name of Rabbi Aḥa: “At the moment when I cast lots over the nations of the world to exile them, they did not go into exile — but you did go into exile.”</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">EkhR Petiḥa 5 [3b]</bibl> (<term xml:lang="jpa">קלסים</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמ' הב"ה בשעה שהפלתי 
+                  <app>
+                     <lem>קלבסים</lem>
+                     <rdg wit="#W">קלסים</rdg>
+                  </app> על אומות העולם להגלותם לא גלו ואתם גליתם.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Jes 414</ref>
+                     <ref type="witness">XI 74: 32</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>The Holy one, blessed be he, said: “At the moment when I cast lots over the nations of the world to exile them, they did not go into exile — but you did go into exile.”</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">EkhR Petiḥa 5 [3b]</bibl> (<term xml:lang="jpa">קלסים</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>א"ר סימון אין הרשע מפיל בקולרין שלו</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Ps 650</ref>
+                     <ref type="witness">444d: 38</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">MidTeh 10 [47b]</bibl> (<term xml:lang="jpa">בקולירין</term>)</note>
+               </cit>
+            </sense>
+            <note>Cf. GenR <ref type="entry" xml:lang="jpa">קלירוס</ref>. Variously corrupted.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>545b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

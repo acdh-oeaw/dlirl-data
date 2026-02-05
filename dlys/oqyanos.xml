@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אוקיינוס</title>
+            <title type="alternative">ʾwqyynws</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="oqyanos-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אוקיינוס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾwqyynws</orth>
+               <pron notation="rabbinic" opt="false">oqiyanos</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="ogyanos-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>ocean</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ὠκεανός</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>נטל הק' כל מי בראשית ונתנם חצים ברקיע וחצים באוקינוס, פלג – פלגא.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 5</ref>
+                     <ref type="witness">I 22: 76</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>The Holy One, blessed be He, took all the primeval water and poured half in the firmament and half into the ocean. (Freedman / Simon I 30)</quote>
+                  </cit>
+                  <note>Common in Rabb. Lit. Other occurrences (selection): <bibl type="ancient">Yalq 5 [I 22: 76]</bibl>; <bibl type="ancient">7 [I 26: 5]</bibl>; <bibl type="ancient">20 [I 61: 27]</bibl>; <bibl type="ancient">47 [I 166: 94]</bibl>; <bibl type="ancient">56 [I 194: 8]</bibl>; <bibl type="ancient">Yalq Koh 967 [540d: 40]</bibl>; <bibl type="ancient">Yalq Ps 789 [463b: 22]</bibl></note>
+               </cit>
+            </sense>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>25b-26a</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Sperber (1986)</title>
+                  <citedRange>129-131</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

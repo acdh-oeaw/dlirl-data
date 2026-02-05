@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אנקוס</title>
+            <title type="alternative">ʾnqws</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="onqos-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אנקוס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾnqws</orth>
+               <pron notation="rabbinic" opt="false">ʾοnqos</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">אונקוס</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾnqws</orth>
+                  <pron notation="rabbinic">ʾonqos</pron>
+               </form>
+            </form>
+            <sense xml:id="onqos-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>toil, trouble</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ὄγκος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>בהבראם. בזכות אברהם. הה"ד אתה עשית את השמים ואת הארץ. כל האונקוס הזה בשביל מה, בשביל אתה הוא יי' האלהים אשר בחרת באברם</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 18</ref>
+                     <ref type="witness">I 58: 20</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>... and what was all this toil for? For Thou art the Lord God, who didst choose Abram (Neh 9,37) etc. (Freedman / Simon I 95)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 12,9 [I 107: 3]</bibl> (<term xml:lang="jpa">האנקוס</term>); <bibl type="ancient">Yalq Ps 862 [476c: 8]</bibl> (<term xml:lang="jpa">האונקס</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' עזריא אומר אתה הוא ה' לבדך אתה עשית את השמים כל 
+                  <app>
+                     <lem>האונקס</lem>
+                     <rdg wit="#S L Ven">האונקיס</rdg>
+                  </app> הזה בשביל מה, בשביל  אתה הוא ה' האלהים אשר בחרת באברם</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Ps 862</ref>
+                     <ref type="witness">476c: 8</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>... and what was all this toil for? For Thou art the Lord God, who didst choose Abram (Neh 9,37) etc. (Freedman / Simon I 95)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 12,9 [I 107: 3]</bibl> (<ref type="entry" xml:lang="jpa">האנקוס</ref>); <bibl type="ancient">Yalq 18 [I 58: 20]</bibl> (<term xml:lang="jpa">האונקוס</term>)</note>
+               </cit>
+            </sense>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>22ab</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

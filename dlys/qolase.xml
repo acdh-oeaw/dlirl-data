@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">קולסי</title>
+            <title type="alternative">qwlsy</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="qolase-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">קולסי</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">qwlsy</orth>
+               <pron notation="rabbinic">qolase</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">f.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">קולסיתה</orth>
+                  <orth type="transliteration" xml:lang="fjb">qwlsyth</orth>
+                  <pron notation="rabbinic">qolsitah</pron>
+                  <gramGrp>
+                     <gram type="pos">det.</gram>
+                  </gramGrp>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">קולסוון</orth>
+                  <orth type="transliteration" xml:lang="fjb">qwlswwn</orth>
+                  <pron notation="rabbinic">qolsawan</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">קולסין</orth>
+                  <orth type="transliteration" xml:lang="fjb">qwlsyn</orth>
+                  <pron notation="rabbinic">qolsin</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">קולוסין</orth>
+                  <orth type="transliteration" xml:lang="fjb">qwlwsyn</orth>
+                  <pron notation="rabbinic">qolosin</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+            </form>
+            <sense xml:id="qolase-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>a woman’s headgear</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ויעשו להם חגורות. חגורה אין כת' כאן, אלא חגורות - אסטכיון, טלין, סדינין. ולאשה ציצלין, דקיסלוון [*קולוסין], סבכיון.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 27</ref>
+                     <ref type="witness">I 93: 44</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">סבכיון</ref>
+                  <ref type="entry" xml:lang="jpa">אסטכיון</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And they made themeselves girdles (ḥagorot). R. Abba b. Kahana said: Not hagorah (a girdle) but hagorot is written: now hagorot implies shirts, robes, and linen cloaks; and just as these are made for man, so for woman are made girdles, hats, and hair nets. (Cf. Freedman / Simon I 152-153)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 19,6 [I 176: 1]</bibl></note>
+               </cit>
+            </sense>
+            <note>Spelling in Yalqut is corrupted. Etymology obscure, cf. GenR <ref type="entry" xml:lang="jpa">קולסי</ref>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>546b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

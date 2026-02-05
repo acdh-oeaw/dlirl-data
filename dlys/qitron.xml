@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">קיטרון</title>
+            <title type="alternative">qyṭrwn</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="qitron-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">קיטרון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">qyṭrwn</orth>
+               <pron notation="rabbinic">qiṭron</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="qitron-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>centurion, commander of a century</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>κεντυρίον</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <quote>centurio</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>משל למה הדבר דומה, לקיטרון שהשלים ולא שמש פלומו פילון שלו, אלא ברח והלך לו</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 178</ref>
+                     <ref type="witness">III 77:17</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פלומו פילון</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>This may be compared to a centurion who completed [his years of service] but did not want to serve as chief centurion, so he fled and went away.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">SifBem 131 [169]</bibl> (<term xml:lang="jpa">פלומופילון</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>משל למה הדבר דומה לקיטרון שהשלים שניו ולא שימש את פולי מרכוס שלו אלא ברח והלך לו</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 631</ref>
+                     <ref type="witness">VI 651: 7</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פולי מרכוס</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>This may be compared to a centurion who completed his [years of service] but did not want to serve as chief centurion, so he fled and went away.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">SifBem Balaq 131 [169]</bibl> (<term xml:lang="jpa">פלומופילון</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>מלה"ד לקטרון שהשלים שניו ולא שימש את 
+                  <app>
+                     <lem>פלומופילון</lem>
+                     <rdg wit="#Ven L">פלומופילין</rdg>
+                  </app> שלו אלא ברח והלך לו</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Hos 517</ref>
+                     <ref type="witness">XI 629: 8</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">קטרון</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>This may be compared to a centurion who completed his [years of service] but did not want to serve as chief centurion, so he fled and went away.</quote>
+                  </cit>
+               </cit>
+            </sense>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>529a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

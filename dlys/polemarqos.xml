@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">פולימרכוס</title>
+            <title type="alternative">pwlymrkws</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="polemarqos-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">פולימרכוס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">pwlymrkws</orth>
+               <pron notation="rabbinic">polemarqos</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="polemarqos-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>general</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>πολέμαρχος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>א"ר לוי כהדין ערבאה דנכיס אימרא וחזי בכבדא. [בימינו] היה הקסם ירושלים, נראית הוה קסמא על ירושלים [בימינו]. לשום כרים פלימרכוס. לפתוח (בה) [פה] ברצח, ספיקלטורים, להרים קול בתרועה, סלפינוס. לשום כרים על שערים טירונים. לשפוך סוללה אבני בליסטרא. לבנות ד(י)יק כבשים (וכלם). [ו]היה להם כקסם שוא בעינים שבועי שבועות</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Ez 361</ref>
+                     <ref type="witness">XI 567: 25</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">בליסטרא</ref>
+                  <ref type="entry" xml:lang="jpa">טירונים</ref>
+                  <ref type="entry" xml:lang="jpa">סלפינוס</ref>
+                  <ref type="entry" xml:lang="jpa">ספיקלטורים</ref>
+                  <note>= <bibl type="ancient">KohR 12,7</bibl> (<term xml:lang="jpa">כלורכין</term>); <bibl type="ancient">EkhR Petiḥtaʾ 23</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>משל לה"ד למדינ' שמרדה על המלך, שלח המלך פולמרכוס אחד להחריבה. היה אותו פולמרכוס בקי ומיושב</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Hos 517</ref>
+                     <ref type="witness">XI 629: 3.4</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">SifBem Balaq 131 [170: 8]</bibl> (<term xml:lang="jpa">פולימרכוס</term>); <bibl type="ancient">Yalq 631 [VI 651: 21]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>משל למה הדבר דומה, למדינה שמרדה על המלך, שלח המלך אליה 
+                  <app>
+                     <lem>פולי מרכוס</lem>
+                     <rdg wit="#W">פולימרכוס</rdg>
+                  </app> להחריבה. היה אותו 
+                  <app>
+                     <lem>פולימרכוס</lem>
+                     <rdg wit="#S V">פולי מרכוס</rdg>
+                  </app> בקי ומיושב</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 631</ref>
+                     <ref type="witness">VI 651: 21</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">SifBem Balaq 131 [170: 8]</bibl>; <bibl type="ancient">Yalq Hos 517 [XI 629: 3.4]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>משל למה הדבר דומה ל קיטרון שהשלים שניו ולא שימש את 
+                     <app>
+                        <lem>פולי מרכוס</lem>
+                        <rdg wit="#Ven">פילי מרכוס</rdg>
+                        <rdg wit="#">פלומופילון</rdg>
+                     </app> שלו אלא ברח והלך לו</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 631</ref>
+                     <ref type="witness">VI 651: 7</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">קיטרון</ref>
+                  <ref type="entry" xml:lang="jpa">פלומופילון</ref>
+                  <note>= <bibl type="ancient">SifBem Balaq 131</bibl> (<ref type="entry" xml:lang="jpa">פלומופילון</ref>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>מעשה שנצטרכו אנשי לוקדיא לשמן, מינו להם פולמרכוס אחד</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 631</ref>
+                     <ref type="witness">IX 702: 71</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">SidDev 355 [421: 1]</bibl> (<ref type="entry" xml:lang="jpa">פולימוטוס</ref>)</note>
+               </cit>
+            </sense>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>425ab</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>
