@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">קוסדר</title>
+            <title type="alternative">qwsdr</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="qosdar-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">קוסדר</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">qwsdr</orth>
+               <pron notation="rabbinic">qosdar</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">קוסדור</orth>
+                  <orth type="transliteration" xml:lang="fjb">qwsdwr</orth>
+                  <pron notation="rabbinic">qosdor</pron>
+               </form>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">קוסטר</orth>
+                  <orth type="transliteration" xml:lang="fjb">qwsṭr</orth>
+                  <pron notation="rabbinic">qosṭar</pron>
+               </form>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">קייסטור</orth>
+                  <orth type="transliteration" xml:lang="fjb">qyysṭwr</orth>
+                  <pron notation="rabbinic">qyestor</pron>
+               </form>
+            </form>
+            <sense xml:id="qosdar-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>quaestor</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>κυαίστωρ</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>quaestor</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>לא היית 
+                  <app>
+                     <lem>כקוסדור</lem>
+                     <rdg wit="#W">קכסדור</rdg>
+                  </app> לפני המלך</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Esth 1049</ref>
+                     <ref type="witness">527d: 14</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">SAME Panim aḥerim b 30b</bibl> (<term xml:lang="jpa">בקורסור</term> [corruption])</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמ' רב יהוד' מעשה בארטבון אחד שהיה בודק המזוזות בשוק העליון של צפורי ומצאו 
+                  <app>
+                     <lem>קסדור</lem>
+                     <rdg wit="#S">קוסדור</rdg>
+                  </app> אחד ונטל ממנו אלף זוז</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 844</ref>
+                     <ref type="witness">VIII 131:38</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">bYom 11a</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ואיש אחד בתוכם לבוש (ה)בדים, ושלושה דברים היה משמש אותו מלאך ספיקלטור וכהן גדול 
+                  <app>
+                     <lem>וקריסטור</lem>
+                     <rdg wit="#W">וקסנטור</rdg>
+                  </app>. [ספיקלטור], כמא דאתמר החרימם נתנם לטבח. כהן גדול, כדכתיב ולבש הכהן מדו בד. 
+                  <app>
+                     <lem>וקריסטור</lem>
+                     <rdg wit="#W">וקסנטור</rdg>
+                  </app>, כמא דאתאמר וקסת הסופר במתניו.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Ez 349</ref>
+                     <ref type="witness">XI 539: 6.8</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">ספיקלטור</ref>
+                  <note>= <bibl type="ancient">EkhR 2,1 [49b]</bibl> (<ref type="entry" xml:lang="jpa">קייסטור</ref>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>... שהיה דוד משלח אחריו 
+                  <app>
+                     <lem>קוסדריות</lem>
+                     <rdg wit="#Ven">קוסדריו'</rdg>
+                  </app> לידע אם מחזיר הוא את דבריו</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Ps 765</ref>
+                     <ref type="witness">460b: 4</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">MidShem 25,2 [61b]</bibl> (<term xml:lang="jpa">קורסיות</term>)</note>
+               </cit>
+            </sense>
+            <note>Sperber: judge in a criminal case (with the right to condemn to death). Cf. <bibl type="modern">AC VII 89a</bibl> (<term xml:lang="jpa">קייסטור</term>); <bibl type="modern">Levy IV 299a</bibl> (<term xml:lang="jpa">קייסטור</term>). ~Lat. quaesitor, <bibl type="modern"> Levy IV 268b</bibl> (<term xml:lang="jpa">קוסטור</term>). ~Lat. quaestor. <bibl type="modern">Jastrow 1336a</bibl> (<term xml:lang="jpa">קוסדור</term>). Reading of <bibl type="ancient">Yalq Ez 349</bibl> is a corruption. <bibl type="ancient">Yalq Ps 765</bibl> shall probably be corrected to <ref type="entry" xml:lang="jpa">קוריוסי</ref>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>515a</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Sperber (1984)</title>
+                  <citedRange>184</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

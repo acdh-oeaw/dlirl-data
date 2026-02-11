@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">קוסטינר</title>
+            <title type="alternative">qwsṭynr</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="qostinar-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">קוסטינר</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">qwsṭynr</orth>
+               <pron notation="rabbinic">qosṭinar</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa" opt="false" select="true">קוסטינרים</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">qwsṭynrym</orth>
+                  <pron notation="rabbinic">qosṭinarim</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+            </form>
+            <sense xml:id="qostinar-ys-1" n="1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>torturer in court for extracting admission from the accused</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>κυαιστιωνάριος</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <quote>quaestinarius</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>משל לליסטים שהיה נידון לפני הקוסטינר כל זמן שהוא מתריס הוא לוקה, הודה הוא נותן פרקילא, אבל הקב"ה אינו כן אלא עד שלא הודה הוא נותן פרקילא משהודה נוטל דימוס</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Ps 854</ref>
+                     <ref type="witness">474d: 7</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">דימוס</ref>
+                  <ref type="entry" xml:lang="jpa">פרקילא</ref>
+                  <ref type="entry" xml:lang="jpa">ליסטים</ref>
+                  <note>= <bibl type="ancient">PesRK Shuva 43 [159a]</bibl>; <bibl type="ancient">Yalq Prov 961 [500a: 8]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>משל ללסטים שהוא נדון בפני הקוסטינר כל זמן שהוא מתריס הוא לוקה הודה הוא נותן פרקולא, אבל הקב"ה אינו כן אלא עד שלא הודה הוא נותר פרקולא, משהודה הוא נוטל דימוס</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Prov 961</ref>
+                     <ref type="witness">500a: 8</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">דימוס</ref>
+                  <ref type="entry" xml:lang="jpa">קוסטינר</ref>
+                  <ref type="entry" xml:lang="jpa">לסטים</ref>
+                  <note>= <bibl type="ancient">PesRK Shuva 43 [159a]</bibl>; <bibl type="ancient">Yalq Ps 854 [474d: 9]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ד"א שובה ישראל, ללסטים הנדון לפני הקוסטינר, בתחלה קורא אוליגין שלו ואחר כך מכה אותו ואח"כ נותן לו כמס ואח"כ נותן לו פרקולה ואח"כ יוצא להירג. אבל הב"ה אינו כן בתחלה קורא אולוגין של שבטים [...] ואח"כ מכה אותם [...] ואח"כ נותן להם כמס [...] ואחר כך נותן להם פרקולה</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Hos 532</ref>
+                     <ref type="witness">XI 665: 8</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">כמס</ref>
+                  <ref type="entry" xml:lang="jpa">אולוגין</ref>
+                  <ref type="entry" xml:lang="jpa">פרקולה</ref>
+                  <ref type="entry" xml:lang="jpa">לסטים</ref>
+                  <note>= <bibl type="ancient">PesRK Shuva 43 [159b]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' חייא אמר ללסטים שברח מפני הקוסטינר</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Qoh 989</ref>
+                     <ref type="witness">447d: 12</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">PesRK Shuva 164a</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>א"ר סימון כגון 
+                  <app>
+                     <lem>הקיסטור</lem>
+                     <rdg wit="#W">הקוסטינר</rdg>
+                     <rdg wit="#Ven">הקיסטור</rdg>
+                  </app> שהיה מכה ומסיר צלע וחוליא בבת אחת</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Ps 650</ref>
+                     <ref type="witness">444d: 39</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">קיסטור</ref>
+                  <ref type="entry" xml:lang="jpa">קיסטור</ref>
+               </cit>
+            </sense>
+            <sense xml:id="qostinar-ys-2" n="2">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>executioner</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>א"ר ינאי בא 
+                  <app>
+                     <lem>הקוסטנר</lem>
+                     <rdg wit="#S">קוסטינר</rdg>
+                     <rdg wit="#L">קוסטיגר</rdg>
+                  </app> ליתן החרב על צוארו וקהת החרב מצוארו, שעשה של שייש, ושלמה מקלס אותו צוארך כמגדל שן. א"ר אביתר ולא עוד אלא שנהפכה החרב על 
+                  <app>
+                     <lem>קסטנירו</lem>
+                     <rdg wit="#S">קסטינירו</rdg>
+                     <rdg wit="#L">קסטגור</rdg>
+                  </app>, שנ' ויצילני מחרב פרעה. אמ' משה לי הציל אבל 
+                  <app>
+                     <lem>לקוסטנר</lem>
+                     <rdg wit="#S">לקוסטינר</rdg>
+                     <rdg wit="#L">לקוסטיגר</rdg>
+                  </app> לא הציל.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 167</ref>
+                     <ref type="witness">III 30: 32.35.35</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">DevR 2,29</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר רבי יוחנן משל למלך שהיו לו שני 
+                  <app>
+                     <lem>קוסטנרין</lem>
+                     <rdg wit="#S">קוסטנדין</rdg>
+                     <rdg wit="#L">קונטסדין</rdg>
+                     <rdg wit="#Ven">קונטסרין</rdg>
+                  </app> רעים וכל עיר שכועס עליה הוא רודה אותה בהם, פעם אחת מרדה עליו מדינה ובקש לשלוח אותם שני 
+                  <app>
+                     <lem>קוסטנרין</lem>
+                     <rdg wit="#S Ven">קונטסרין</rdg>
+                     <rdg wit="#L">קוסטנדין</rdg>
+                  </app> עליה לרדותה התחילו מבקשים ממנו ואומרים אדוננו ככל רצונך רדה אותנו חוץ 
+                  <app>
+                     <lem>מקוסטנרין</lem>
+                     <rdg wit="#S Ven">מקונטסרין</rdg>
+                     <rdg wit="#L">קוסטנדין</rdg>
+                  </app> אלו</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Ps 635</ref>
+                     <ref type="witness">443a: 12.14.15</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">MidTeh 6,3 [30a]</bibl> (<term xml:lang="jpa">קוסטנדין</term> corr. <term xml:lang="jpa">קוסטנרין</term>); <bibl type="ancient">Yalq Ma 6,6 [19b]</bibl></note>
+               </cit>
+            </sense>
+            <note><bibl type="modern">Krauss, LW II 514b</bibl>; <bibl type="modern">AC VII 145a</bibl>; <bibl type="ancient">Levy IV 268ab</bibl>; <bibl type="modern">Jastrow 1336b</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sperber (1984)</title>
+                  <citedRange>173-174</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

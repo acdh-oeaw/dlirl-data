@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">קוזמוקראטור</title>
+            <title type="alternative">qwzmwqrʾṭwr</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="qozmokrator-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">קוזמוקראטור</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">qwzmwqrʾṭwr</orth>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">קוזמוקרטור</orth>
+                  <orth type="transliteration" xml:lang="fjb">qwzmwqrṭwr</orth>
+               </form>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">קוסמוקרטור</orth>
+                  <orth type="transliteration" xml:lang="fjb">qwsmwqrṭwr</orth>
+                  <pron notation="rabbinic">qosmoqraṭor</pron>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">קוזמוקרטורין</orth>
+                  <orth type="transliteration" xml:lang="fjb">qwzmwqrṭwryn</orth>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+            </form>
+            <sense xml:id="qozmokrator-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>world ruler</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>κοσμοκράτωρ</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>שמשם יצא אברהם אבינו ורדף ד' מלכים קוזמוקטורין [*קוזמוקרטורין], שהיא עולה בקונדסין של ארבעה</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 102</ref>
+                     <ref type="witness">II 465: 66</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">קונדסין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. ʿAzariah said: Because from there went forth Abraham, who pursued four kings, each a world ruler. [Further,] because it fell to the lot of four ... (Cf. Freedman / Simon II 511)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 58,4 [II 622: 3]</bibl> (<term xml:lang="jpa">קוזמוקרטורין</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>א"ר עזריה שמשם יצא אברהם ורדף ארבעה מלכים קוזמוקטורין, שהיא עולה בקונדיסין של ארבעה</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Jos 23</ref>
+                     <ref type="witness">XI 71: 43</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">קונדיסין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. ʿAzariah said: Because from there went forth Abraham, who pursued four kings, each a world ruler. [Further,] because it fell to the lot of four ... (Cf. Freedman / Simon II 511)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 58,4 [II 622: 3]</bibl> (<term xml:lang="jpa">קוזמוקרטורין</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>באותה שעה קרא הב"ה למלאך המות וא"ל אע"פ ש(נ)עשיתיך קוזמוקטור על בריותי אין לך עסק באומה זו</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Jes 419</ref>
+                     <ref type="witness">XI 95: 37</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>At that moment, the Holy One, blessed be He, called the angel of death and said to him: Although you are a ruler over my creatures throughout the world, you may not touch this nation.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">WayR  18,3</bibl> (emend. <term xml:lang="jpa">קוזמוקרטור</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>זה פרעה שהיה קוזמוקטור</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Hab 562</ref>
+                     <ref type="witness">XI 759: 7</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>This is pharaoh, who was a world ruler.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">TanB Tazriaʿ 10</bibl> (emend. <term xml:lang="jpa">קוזמוקרטור</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>בשר ודם יש לו פטרון שליט באפרכיא זו ואינו שליט באפרכיא אחרת אפילו תאמר 
+                  <app>
+                     <lem>קוסמוקרטור</lem>
+                     <rdg wit="#W">קוזמוקטור</rdg>
+                  </app> שליט ביבשה, שמא תאמר שליט בים אבל הקדוש ברוך הוא שליט בים וביבשה</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Ps 888</ref>
+                     <ref type="witness">484d: 49</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אפרכיא</ref>
+                  <ref type="entry" xml:lang="jpa">פטרון</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>A man may be a ruler in one province, but he is not a ruler in another. And even if you say that a world ruler rules over the land — does he also rule over the sea? But the Holy One, blessed be He, is a ruler over both the sea and the land.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">yBer 9,1 [13b: 21]</bibl> (<term xml:lang="jpa">קוזמוקלטור</term>)</note>
+               </cit>
+            </sense>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>502a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

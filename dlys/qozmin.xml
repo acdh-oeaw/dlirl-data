@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">קוזמין</title>
+            <title type="alternative">qwzmyn</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="qozmin-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">קוזמין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">qwzmyn</orth>
+               <pron notation="rabbinic">qozmin</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="qozmin-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>jewelry</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>κόσμιον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>משל לה"ד למלך שנשא אשה והשליטה על כל מה שיש לו חוץ מחבית אחת שהיא מלאה עקרבים. בא זקן אצלה שואל חומץ, אמ' לה מה המלך נוהג עמך א"ל יפה נהג עמי. השליטני על כל מה שיש לו חוץ מן החבית זו שהיא מלאה עקרבים. א"ל והלא קוזמין של המלך הרי הן בחבית זו, אלא הוא מבקש לישא אשה אחרת וליתנם לה.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 25</ref>
+                     <ref type="witness">I 90: 55</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">Yalq Ez 356 [XI 553: 5.554: 6]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>לה"ד למי שהלך אצל הזהבי לעשות לאשתו קוזמין והיא הולכת אצך המכשף לעשות לו כשפים. אמ' לה בתי אני הולך לעשות לך קוזמין ואת הולכת לעשות לי כשפים.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 732</ref>
+                     <ref type="witness">VII 199: 43.44</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">Ar 199b</bibl> quoting Yelamdenu.</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ד"א כשעלה משה למרום שמע מלאכי השרת מקלסין בשכמל"ו והורידה לישר'. ולמה אין אומ' אותו בפרהסיא, לה"ד לאחד שגנב קוזמין מתוך פלטין של מלך נתנה לאשתו א"ל אל תתקשתי בו בפרהסיא אלא בתוך ביתך</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 834</ref>
+                     <ref type="witness">VIII 108: 7</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פרהסיא</ref>
+                  <ref type="entry" xml:lang="jpa">פלטין</ref>
+                  <note>= <bibl type="ancient">DevR Wa-etḥanan 36</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>לה"ד לזהבי שאבד חתנו קוזמין של בתו, א"ל אני נתתי קוזמין ואתה אבדת אותה</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 854</ref>
+                     <ref type="witness">VIII 160: 11</ref>
+                  </bibl>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>שאלה מטרונא את ר' יוסי בן חלפתא הרי הוא כל שבחו של מקום נותן את החכמה לחכמים דכתיב יהב חכמתא לחכימין, לא צריך קרא למימר אלא יהב חכמתא לטפשין, אמר ליה יש ליך קוזמין א"ל הן, א"ל אם בא אדם לשאול קוזמין שלך את משאלת לו, א"ל אם יהיה אדם חכם אני משאלת לו קוזמין, א"ל קוזמין שלך אי את משאלת אלא לאדם אקנוס חכם והקב"ה יתן החכמה לטפשים</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Job 919</ref>
+                     <ref type="witness">508d: 62.509a: 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>A noblewoman asked R. Yose b. Ḥalafta: Everything is to the praise of God. He gives wisdom to the wise, as it is written: “He giveth wisdom unto the wise” (Daniel 2:21). Should the verse not rather say: “He gives wisdom to the foolish”? He said to her: Do you have jewelry? She said: Yes. He said to her: If someone comes and asks to borrow your jewelry, would you lend it to him? She said: If he is a wise man, I would lend him the jewelry. He said to her: You would lend your jewelry only to someone worthy (wise), and the Holy One, blessed be He, should give wisdom to the foolish?</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">TanB Mi-Qeṣ 9</bibl></note>
+               </cit>
+            </sense>
+            <note>Cf. <bibl type="modern">Levy IV 258a</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>502b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>
