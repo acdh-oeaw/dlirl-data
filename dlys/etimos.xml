@@ -43,8 +43,8 @@
          <entry xml:id="etimos-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#etimos-dlgenr"
+            next="#atlis-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אטימוס</orth>

@@ -38,8 +38,8 @@
          <entry xml:id="atlis-dlgenr"
                 xml:lang="en"
                 type="mainEntry"
-                prev="#etimos-dlgenr"
-                next="#igia-dlgenr"
+                prev="#etimos-ys"
+                next="#atlis-ys"
                 source="Genesis Rabbah">
             <form type="lemma" opt="false">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אטליס</orth>

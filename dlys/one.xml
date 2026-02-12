@@ -43,8 +43,8 @@
          <entry xml:id="one-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#oni-dlgenr"
+            next="#uncia-ys"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אוני</orth>

@@ -43,8 +43,8 @@
          <entry xml:id="oqton-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#oqton-dlgenr"
+            next="#oqyanos-ys"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אוקטון</orth>

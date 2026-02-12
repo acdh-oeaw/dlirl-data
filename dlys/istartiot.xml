@@ -43,8 +43,8 @@
          <entry xml:id="istartiot-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#imeron-dlgenr"
+            next="#istrateltis-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">איסטרטיוט</orth>

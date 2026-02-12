@@ -38,8 +38,8 @@
          <entry xml:id="imeron-dlgenr"
                 xml:lang="en"
                 type="mainEntry"
-                prev="#igia-dlgenr"
-                next="#istrateltis-dlgenr"
+                prev="#imeron-ys"
+                next="#istartiot-ys"
                 source="Genesis Rabbah">
             <form type="lemma" opt="false">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אימרון</orth>

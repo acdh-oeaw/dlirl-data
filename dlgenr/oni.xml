@@ -38,8 +38,8 @@
          <entry xml:id="oni-dlgenr"
                 xml:lang="en"
                 type="mainEntry"
-                prev="#awir-dlgenr"
-                next="#oqton-dlgenr"
+                prev="#okhlosin-ys"
+                next="#one-ys"
                 source="Genesis Rabbah">
             <form type="lemma" opt="false">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אוני</orth>
