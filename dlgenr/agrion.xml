@@ -39,7 +39,7 @@
                 xml:lang="en"
                 type="mainEntry"
                 prev="#agnotos-ys"
-                next="#egriqos-ys"
+                next="#agrion-ys"
                 source="Genesis Rabbah">
             <form type="lemma" opt="false">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אגריון</orth>

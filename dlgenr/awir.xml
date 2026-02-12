@@ -38,8 +38,8 @@
          <entry xml:id="awir-dlgenr"
                 xml:lang="en"
                 type="mainEntry"
-                prev="#awtentia-dlgenr"
-                next="#oni-dlgenr"
+                prev="#awtentia-ys"
+                next="#awir-ys"
                 source="Genesis Rabbah">
             <form type="lemma" opt="false">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אויר</orth>

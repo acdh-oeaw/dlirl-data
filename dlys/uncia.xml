@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אונקיה</title>
+            <title type="alternative">ʾwnqyh</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="uncia-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אונקיה</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾwnqyh</orth>
+               <pron notation="rabbinic">unqiyah</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">f.</gram>
+               </gramGrp>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">אונקיות</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾwnqywt</orth>
+                  <pron notation="rabbinic">unqiyot</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+            </form>
+            <sense xml:id="uncia-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>uncia, a small coin</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>οὐγκία</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <quote>uncia</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>משל אם הקפיד אדם אצלך 
+                  <app>
+                     <lem>אינקיא</lem>
+                     <rdg wit="#S">אונקיא</rdg>
+                  </app> של כסף בחשאי</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 23</ref>
+                     <ref type="witness">I 82: 60</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>‘Imagine,’ replied he, ‘a man depositing an ounce of silver with you in secret ...</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 17,7 [I 158: 2]</bibl> (<term xml:lang="jpa">אונקיה</term>); <bibl type="ancient">Yalq Hi 920 [509c: 8]</bibl> (<term xml:lang="jpa">אונקיא</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אונקיא אחת היתה ביד נח</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 47</ref>
+                     <ref type="witness">I 164: 72</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Noah had an uncia in his hand ...</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 29,1 [I 268: 2]</bibl> (<term xml:lang="jpa">אונקייה</term>); <bibl type="ancient">Yalq Hi 908 [506d: 23]</bibl> (<term xml:lang="jpa">אונקיא</term>). But cf. GenR 29,1</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>במאה קשיטה. במאה אונקיאות, במאה טלאים, במאה סלעים.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 133</ref>
+                     <ref type="witness">II 681: 40</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Abba bar Kahana said: For hundred coins, for hundred sheep, for hundred selaʿim.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 79,7 [II 948: 2]</bibl> (<term xml:lang="jpa">אונקיאות</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' אבהו אמר תלת בנוהג שבעולם אדם מפקיד אצל חברו אונקיא של כסף בחשאי והחזיר לו ליטרא של זהב בפרהסיא אינו מחזיק לו טובה</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Job 920</ref>
+                     <ref type="witness">509c: 8</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Abbahu said three things: It is customary in the world that when someone entrusts a single ounce of silver to his fellow, and that fellow publicly returns to him a litra (twelve ounces) of gold—would he not be grateful to him?</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 17,7 [I 158: 2]</bibl> (<term xml:lang="jpa">אונקיה</term>); <bibl type="ancient">Yalq 23 [I 82: 60]</bibl></note>
+               </cit>
+            </sense>
+            <note>Cf. <bibl type="modern">Levy I 42b</bibl>. Syr. <term xml:lang="syc">ܐܘܢܩܙܐ</term> <term xml:lang="fjb">ʾwnqyʾ</term> (<bibl type="modern">Sokoloff, Syriac Lexicon 18a</bibl>).</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>22b</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>12b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

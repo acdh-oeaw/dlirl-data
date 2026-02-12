@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">ספקלטור</title>
+            <title type="alternative">spqlṭwr</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="speqlator-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">ספקלטור</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">spqlṭwr</orth>
+               <pron notation="rabbinic">speqlaṭor</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">ספיקלטורים</orth>
+                  <orth type="transliteration" xml:lang="fjb">spyqlṭwrym</orth>
+                  <pron notation="rabbinic">speqlaṭorim</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+            </form>
+            <sense xml:id="speqlator-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>executioner</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>σπεκπουλάτωρ</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ואיש אחד בתוכם לבוש (ה)בדים, ושלושה דברים היה משמש אותו מלאך ספיקלטור וכהן גדול וקריסטור. [ספיקלטור], כמא דאתמר החרימם נתנם לטבח. כהן גדול, כדכתיב ולבש הכהן מדו בד. וקריסטור, כמא דאתאמר וקסת הסופר במתניו.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Ez 349</ref>
+                     <ref type="witness">XI 539: 6.8</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">קריסטור</ref>
+                  <note>= <bibl type="ancient">EkhR 2,1 [49b]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' עקיבא אומר ספקלטורין של פרעה מחנקין את ישראל בקירות בתים לבנין</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 169</ref>
+                     <ref type="witness">III 46: 78</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">PRK 48</bibl> (<term xml:lang="jpa">סנקלטורי</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' עקיב' או' 
+                  <app>
+                     <lem>ספקלטורין</lem>
+                     <rdg wit="#S">ספק לטורין</rdg>
+                  </app> של פרעה היו מחנקין את ישר' בקירות בתים לבנין</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 826</ref>
+                     <ref type="witness">VIII 89: 27</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">PRK 48</bibl> (<term xml:lang="jpa">סנקלטורי</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>מלך בשר ודם משלח 
+                  <app>
+                     <lem>ספקלטורין</lem>
+                     <rdg wit="#S">ספיקלטור</rdg>
+                  </app> להרוג את האדם רודף אחריו ימים רבים וזה שנתחייב מיתה אוכל ושותה, והספקלטור מהלך אחריו ממקום למקום, ולפני הקב"ה אינו כן הספקלטור במקומו ומי שנתחייב מיתה בא אצלו ברגלו.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 765</ref>
+                     <ref type="witness">VII 477: 10.11</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">NumR 20,11</bibl> (<term xml:lang="jpa">ספקלטור</term>); <bibl type="ancient">TanB Balaq 12 [69b]</bibl> (<term xml:lang="jpa">ספקלטור</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אז ישיר ישראל, ומפני מה לא נזכר משה שם, מפני שנענש על המים ואין אדם מקלס לספקלטור שלו.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 764</ref>
+                     <ref type="witness">VII 456: 57</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">TanB Ḥuqqat 48 [64a]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>משל למה הדבר דומה לאחד שיצא הוא ובניו להריגה אומר לספקלטור הרגני עד שלא תהרוג את בני.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 735</ref>
+                     <ref type="witness">VII 208: 29</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">SifBem 91 [91: 19]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>א"ר לוי כהדין ערבאה דנכיס אימרא וחזי בכבדא. [בימינו] היה הקסם ירושלים, נראית הוה קסמא על ירושלים [בימינו]. לשום כרים פלימרכוס. לפתוח (בה) [פה] ברצח, [ספיקלטורים], להרים קול בתרועה, סלפינוס. לשום כרים על שערים טירונים. לשפוך סוללה אבני בליסטרא. לבנות ד(י)יק כבשים (וכלם). [ו]היה להם כקסם שוא בעינים שבועי שבועות</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Ez 361</ref>
+                     <ref type="witness">XI 568: 26</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">בליסטרא</ref>
+                  <ref type="entry" xml:lang="jpa">טירונים</ref>
+                  <ref type="entry" xml:lang="jpa">סלפינוס</ref>
+                  <ref type="entry" xml:lang="jpa">פלימרכוס</ref>
+                  <note>= <bibl type="ancient">KohR 12,7</bibl> (<term xml:lang="jpa">ספקלאטורין</term>); <bibl type="ancient">EkhR Petiḥtaʾ 23</bibl> (<term xml:lang="jpa">סרפינוס</term>)</note>
+               </cit>
+            </sense>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sperber (1982)</title>
+                  <citedRange>133-134</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>409b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

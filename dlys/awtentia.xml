@@ -40,11 +40,11 @@
    </teiHeader>
   <text>
       <body>
-         <entry xml:id="awtantin-ys"
+         <entry xml:id="awtentia-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#awtentia-dlgenr"
+            next="#awir-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אוותנטיא</orth>

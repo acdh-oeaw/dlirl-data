@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">סנדל</title>
+            <title type="alternative">sndl</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="sandal-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">סנדל</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">sndl</orth>
+               <pron notation="rabbinic">sandal</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant" subtype="aramaic">
+                  <orth type="variant" xml:lang="jpa">סנדלא</orth>
+                  <orth type="transliteration" xml:lang="fjb">sndlʾ</orth>
+                  <pron notation="rabbinic">sandalaʾ</pron>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">סנדלין</orth>
+                  <orth type="transliteration" xml:lang="fjb">sndlyn</orth>
+                  <pron notation="rabbinic">sandalin</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">סנדלים</orth>
+                  <orth type="transliteration" xml:lang="fjb">sndlym</orth>
+                  <pron notation="rabbinic">sandalim</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+               <form type="inflected" subtype="aramaic">
+                  <orth type="inflected" xml:lang="jpa">סנדליא</orth>
+                  <orth type="transliteration" xml:lang="fjb">sndlyʾ</orth>
+                  <pron notation="rabbinic">sandalyaʾ</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+            </form>
+            <sense xml:id="sandal-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>sandal, shoe</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>σάνδαλον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>סנדל התפור בפשתן אין חולצין בו, שנ' ואנעלך תחש.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 938</ref>
+                     <ref type="witness">IX 542: 57</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">bYev 102b</bibl>. Other sources: Yalq §§ 547: 4/5; 938: 8; 130: 1; 538: 2; 786: 14; 549: 3; 929: 1; 578: 4; 386: 13; 552: 4; 55: 3; 577: 6; 647: 3; Jer 268; Ezek 356 / 364; Job 905; Ruth 606; Lam 247; Pl. 760: 2; 538: 2.</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' לוי עד דסנדלא ברגלך דרוס כובא</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 76</ref>
+                     <ref type="witness">I 301: 55</ref>
+                  </bibl>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>יצאו עורות רצועות סנדלים שאינם כלים</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 538</ref>
+                     <ref type="witness">V 338: 58</ref>
+                  </bibl>
+               </cit>
+            </sense>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>429ab</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Heijmans (2013)</title>
+                  <citedRange>151</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

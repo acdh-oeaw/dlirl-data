@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">סיקוסיס</title>
+            <title type="alternative">syqwsys</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="siqosis-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">סיקוסיס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">syqwsys</orth>
+               <pron notation="rabbinic">siqosis</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">סיקוסין</orth>
+                  <orth type="transliteration" xml:lang="fjb">syqwsyn</orth>
+                  <pron notation="rabbinic">siqosin</pron>
+               </form>
+            </form>
+            <sense xml:id="siqosis-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>measure</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>σήκωσις</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>לכל תכלה ראיתי קץ רחבה מצותך מאד. לכל יש סיקוסין השמים וארץ יש להם סיקוסין חוץ מדבר אחד שאין לו סיקוסין זו תורה</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Ps 878</ref>
+                     <ref type="witness">481b: 18</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>I have seen an end to every purpose (tiklah), but Thy commandment is exceeding broad (Ps. 119,96): everything has a measure, heaven and earth have a measure, except one thing which has no measure: and what is it? The Torah ... (Freedman / Simon I 71)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 10,1 [I 74: 4.5]</bibl>; <bibl type="ancient">YalqM Ps 119,51 [II 113a]</bibl> (<term xml:lang="jpa">סיקוסין</term>)</note>
+               </cit>
+            </sense>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sperber (1974)</title>
+                  <citedRange>124-125</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

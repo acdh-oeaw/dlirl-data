@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">סלפינגס</title>
+            <title type="alternative">slpyngs</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="salpingas-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">סלפינגס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">slpyngs</orth>
+               <pron notation="rabbinic">salpingas</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">סלפירין</orth>
+                  <orth type="transliteration" xml:lang="fjb">slpyryn</orth>
+                  <pron notation="rabbinic">salpirin</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">סלפידין</orth>
+                  <orth type="transliteration" xml:lang="fjb">slpydyn</orth>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                     </gramGrp>
+               </form>
+            </form>
+            <sense xml:id="salpingas-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>trumpet</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>σάλπιγξ</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>σάλπιγγος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>א"ר יאשיה כת' אשרי העם יודעי תרועה. ואומות העולם אין יודעין להריע, כמה קרנות יש להן, כמה בוקיינוס יש להן, כמה סלפירים יש להן. אלא אשרי העם שיודעין לפתות את בוראם בתרועה. אימתי בחדש השביעי.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 645</ref>
+                     <ref type="witness">VI 718: 31</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">בוקיינוס</ref>
+                  <note>= <bibl type="ancient">PesRK 152a</bibl>; <bibl type="ancient">Yalq 782 [VII 582: 29]</bibl> (<term xml:lang="jpa">סלפירס</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' יאשיה פתח אשרי העם יודעי תרועה. ואומות העולם אין יודעין להריע, כמה קרנות יש להם וכמה בוקינוס יש להם וכמה סלפירס יש להן ואת אומ' יודעי תרוע, אלא אשרי העם שיודעים לפתות לבוראם בתרועה. אימתי בחדש השביעי.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 782</ref>
+                     <ref type="witness">VII 582: 29</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">בוקינוס</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And the nations of the world do not know the sound of blowing? How many fanfares (<term xml:lang="grc">βυκάνη</term>) do they have, how many trumpets (<term xml:lang="grc">σάλπιγξ</term>) do they have, how many horns do they have? Rather: Happy is the nation that knows how to influence its Creator with the sound of blowing. When? In the seventh month.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">PesRK 152a</bibl> (<term xml:lang="jpa">סלפירים</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' אושעיא כתיב אשרי העם יודעי תרועה ואוה"ע אינם יודעין להריע כמה בוקיינוס יש להם כמה סלפידם יש להם כמה קרנות יש להם אלא אשרי העם שיודעים לפתות את בוראם בתרועה אימתי בחדש השביעי</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Ps 840</ref>
+                     <ref type="witness">471b: 41</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">בוקיינוס</ref>
+                  <note>= <bibl type="ancient">PesRK [471b: 41]</bibl> (<term xml:lang="jpa">סלפירים</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>א"ר לוי כהדין ערבאה דנכיס אימרא וחזי בכבדא. [בימינו] היה הקסם ירושלים, נראית הוה קסמא על ירושלים [בימינו]. לשום כרים פלימרכוס. לפתוח (בה) [פה] ברצח, ספיקלטורים, להרים קול בתרועה, סלפינוס. לשום כרים על שערים טירונים. לשפוך סוללה אבני בליסטרא. לבנות ד(י)יק כבשים (וכלם). [ו]היה להם כקסם שוא בעינים שבועי שבועות</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 761</ref>
+                     <ref type="witness">XI 568: 26</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">בליסטרא</ref>
+                  <ref type="entry" xml:lang="jpa">טירונים</ref>
+                  <ref type="entry" xml:lang="jpa">ספיקלטורים</ref>
+                  <ref type="entry" xml:lang="jpa">פלימרכוס</ref>
+                  <note>= <bibl type="ancient">KohR 12,7</bibl> (<term xml:lang="jpa">סרפיניסס</term>); <bibl type="ancient">EkhR Petiḥtaʾ 23</bibl> (<term xml:lang="jpa">ספקלטרים</term>)</note>
+               </cit>
+            </sense>
+            <note>Sg. attested in QohR on 8,8. Other spellings: <term xml:lang="jpa">סלפידם</term> <term xml:lang="fjb">slpydm</term>, <term xml:lang="jpa">סלפירס</term> <term xml:lang="fjb">slpyrs</term>, <term xml:lang="jpa">סלפינוס</term> <term xml:lang="fjb">slpyns</term></note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>395b-396a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

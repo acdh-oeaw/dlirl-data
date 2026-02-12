@@ -403,7 +403,12 @@
     <xsl:template match="tei:form[@type = 'variant'][not(exists(@source))]">
         <xsl:element name="div">
             <xsl:attribute name="class" select="'dlgenr-entry-form-variant'"/>
-            <xsl:text>Variant: </xsl:text>
+            <xsl:if test="@subtype = 'aramaic'">
+                <xsl:text>Variant (Aram.): </xsl:text>
+            </xsl:if>
+            <xsl:if test="not(exists(@subtype))">
+                <xsl:text>Variant: </xsl:text>
+            </xsl:if>
             <xsl:apply-templates select="child::node()"/>
         </xsl:element>
     </xsl:template>
@@ -420,7 +425,12 @@
             <xsl:attribute name="class" select="'dlgenr-entry-form-form-inflected'"/>
             <xsl:element name="p">
                 <xsl:attribute name="class" select="'dlgenr-entry-form-form-inflected-label'"/>
-                <xsl:text>Inflected: </xsl:text>
+                <xsl:if test="@subtype = 'aramaic'">
+                    <xsl:text>Inflected (Aram.): </xsl:text>
+                </xsl:if>
+                <xsl:if test="not(exists(@subtype))">
+                    <xsl:text>Inflected: </xsl:text>
+                </xsl:if>
             </xsl:element>
             <xsl:element name="div">
                 <xsl:attribute name="class" select="'dlgenr-entry-form-form-inflected-elements'"/>

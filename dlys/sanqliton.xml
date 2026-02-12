@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">סנקליטון</title>
+            <title type="alternative">snqlyṭwn</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="sanqliton-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">סנקליטון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">snqlyṭwn</orth>
+               <pron notation="rabbinic">sanqliṭon</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">סנקליטין</orth>
+                  <orth type="transliteration" xml:lang="fjb">snqlyṭyn</orth>
+                  <pron notation="rabbinic">sanqliṭin</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">סונקליטין</orth>
+                  <orth type="transliteration" xml:lang="fjb">swnqlyṭyn</orth>
+                  <pron notation="rabbinic">sunqliṭin</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+            </form>
+            <sense xml:id="sanqliton-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>senator, advisor</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>σύγκλητος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>משל למלך שהיה לו שני סינקליטין ולא היה עושה דבר חוץ מדעתן</quote>
+                  <bibl>
+                     <ref type="witness">Yalq I</ref>
+                     <ref type="witness">35: 17</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>This may be compared to a king who had two advisors without whose knowledge he did nothing.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 8,3 [I 59: 1]</bibl></note>
+               </cit>
+            </sense>
+            <note>Cf. GenR <ref type="entry" xml:lang="jpa">סנקליטון</ref></note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>431a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

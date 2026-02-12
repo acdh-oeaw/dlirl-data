@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">סיקריטארי</title>
+            <title type="alternative">syqryṭʾry</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="seqretari-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">סיקריטארי</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">syqryṭʾry</orth>
+               <pron notation="rabbinic">seqritaʾri</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="seqretari-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>secretary</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>σεκρητάριοι</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>עשרת בניו של המן היו 
+                  <app>
+                     <lem>סנקתדרין</lem>
+                     <rdg wit="#S Ven L">סונקטרין [*סיקריטארי]</rdg>
+                  </app> של אחשורוש</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Esth 1057</ref>
+                     <ref type="witness">531a: 44</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>The ten sons of Haman were secretaries of Ahasuerus.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Jellineck Bet ha-Midrasch VI (Wien 1877) 57</bibl> (<term xml:lang="jpa">סנקטורים</term>)</note>
+               </cit>
+            </sense>
+            <note>Cf. <bibl type="modern">Fürst 1860</bibl>, <bibl type="modern">AC I 199a</bibl>. Yalqut reading not certain. In Midrash panim aḥerim (in Sifre de-agadtaʾ, Wilna 1886, 76), Buber suggest the emendation to <ref type="entry" xml:lang="jpa">סנקתדרון</ref> <term xml:lang="fjb">snqtdrwn</term> ~Gr. <term xml:lang="grc">συγκάθεδρος</term>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>411b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

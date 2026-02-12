@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">סנקתדרון</title>
+            <title type="alternative">snqtdrwn</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="sanqatedron-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">סנקתדרון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">snqtdrwn</orth>
+               <pron notation="rabbinic">sanqatedron</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="sanqatedron-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>assesor</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>συγκάθεδρος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>עשרת בניו של המן היו 
+                  <app>
+                     <lem>סנקתדרין</lem>
+                     <rdg wit="#S Ven L">סונקטרין</rdg>
+                  </app> של אחשורוש</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Esth 1057</ref>
+                     <ref type="witness">531a: 44</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>The ten sons of Haman were secretaries of Ahasuerus.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Jellineck Bet ha-Midrasch VI (Wien 1877) 57</bibl> (<term xml:lang="jpa">סנקטורים</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>משל למלך שהיה לו סנקליטין ולא היה עושה דבר חוץ מדעתו. [S ר' שמואל בר נחמני אמר במעשה יום ויום נמלך. משל למלך שהיה לו 
+                  <app>
+                     <lem>סנקליטי'</lem>
+                     <rdg wit="#W">סנקתדרין</rdg>
+                  </app> ולא היה עושה דבר חוץ מדעתו].</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 13</ref>
+                     <ref type="witness">I 35: 18</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>This may be compared to a king who had two advisors without whose knowledge he did nothing.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 8,3 [I 59: 2]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ד"א למלך שהיה לו 
+                     <app>
+                        <lem>סבקתדרין</lem>
+                        <rdg wit="#W S">סנקתדרין</rdg>
+                     </app> ולא היה עושה דבר חוץ מדעתו. פעם אחת בקש המלך לעשות דבר חוץ מדעתן, [W S אמר המלך כלום עשיתי אותו סנקתדרין שלי אלא שלא לעשות דבר חוץ מדעתו.]</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 82</ref>
+                     <ref type="witness">I 369: 48</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Shemuʾel ben Naḥman said: It may be compared to a king who had an adviser without whose consent he did not nothing. On one occasion, however, he wished to do something without his consent, whereupon he observed: ‘Surely I made him my adviser for not other reason than that I should do nothing without his consent.” (Freedman / Simon I 422)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 49,2 [II 500 7.8]</bibl> (<term xml:lang="jpa">סנקתדרין</term>, <term xml:lang="jpa">סינקתדרין</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ליה סבקתדרין דידיה</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 133</ref>
+                     <ref type="witness">II 661: 29</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Said his adviser to him ...</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 78,1 [II 917: 5]</bibl></note>
+               </cit>
+            </sense>
+            <note>Cf. GenR. <ref type="entry" xml:lang="jpa">סנקתדרון</ref></note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>405b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

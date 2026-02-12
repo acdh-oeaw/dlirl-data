@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">ספיקולא</title>
+            <title type="alternative">spyqwlʾ</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="spequla-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">ספיקולא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">spyqwlʾ</orth>
+               <pron notation="rabbinic">spequlaʾ</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">f.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">ספיקולה</orth>
+                  <orth type="transliteration" xml:lang="fjb">spyqwlh</orth>
+                  <pron notation="rabbinic">spequlah</pron>
+               </form>
+            </form>
+            <sense xml:id="spequla-ys-1">
+               <cit type="translation" xml:lang="jpa" subtype="sense">
+                  <quote>death sentence</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>σπέκουλα</quote>
+               </cit><cit type="translationEquivalent" xml:lang="la">
+                  <quote>specula</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>חמא חד צד ציפרין, וכד שמע ברת קלא דהוה אמ' מן שמיא דימוס, הוה משתזבא. 
+                  <app>
+                     <lem>ספיקולא</lem>
+                     <rdg wit="#Ven">ספי קולא</rdg>
+                     <rdg wit="#W">ספקולא</rdg>
+                  </app> הוה מתצדא</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 133</ref>
+                     <ref type="witness">II 690: 18</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">דימוס</ref>
+                  <note>= GenR 79,6 (II 942: 1)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>בנוהג שבעולם מלך בשר ודם יושב ודן בשעה שהוא נותן דימוס הכל מקלסין אותו ובזמן שהוא נותן 
+                  <app>
+                     <lem>ספקולא</lem>
+                     <rdg wit="#Ven">ספקו ולא</rdg>
+                     <rdg wit="#S">ספוקו פי' משפט</rdg>
+                  </app> הכל מרננין אחריו</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Ps 843</ref>
+                     <ref type="witness">473a: 22</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">דימוס</ref>
+                  <note>= <bibl type="ancient">yBer 9,5</bibl> (<term xml:lang="jpa">ספקולה</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>שפעם אחת גזרה מלכות גזרה שיהרג רבי יהודה הנחתום, מה עשה בן קופיא עשה עצמו דיין ודן אותו (היאך), וכשהוא בא ליתן לו 
+                  <app>
+                     <lem>ספקולא</lem>
+                     <rdg wit="#Ven">ספקו</rdg>
+                  </app> גזר שישחטו אחר תחתיו ויעשו אותו חתיכות חתיכות ויעלו אותו</quote>
+                  <bibl>
+                     <ref type="witness">Yalq Ps 643</ref>
+                     <ref type="witness">444b: 47</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">MidTeh 9,13 [45a]</bibl></note>
+               </cit>
+            </sense>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sperber (1984)</title>
+                  <citedRange>131-132</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

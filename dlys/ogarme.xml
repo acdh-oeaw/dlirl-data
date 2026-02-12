@@ -43,8 +43,8 @@
          <entry xml:id="ogarme-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#andraintis-dlgenr"
+            next="#awtentin-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אוגרמי</orth>
