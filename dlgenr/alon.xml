@@ -42,8 +42,8 @@
          <entry xml:id="alon-dlgenr"
                 xml:lang="en"
                 type="mainEntry"
-                prev="#akhsanya-dlgenr"
-                next="#alio-dlgenr"
+                prev="#akhsanya-ys"
+                next="#alon-ys"
                 source="Genesis Rabbah">
             <form type="lemma" opt="false">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אלון</orth>

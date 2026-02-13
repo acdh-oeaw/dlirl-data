@@ -47,8 +47,8 @@
          <entry xml:id="akhsanya-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#akhsaniya-ys"
+            next="#alon-dlgenr"
             source="Yalkut Shimoni"> 
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אכסניא</orth>

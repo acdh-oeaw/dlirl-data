@@ -43,8 +43,8 @@
          <entry xml:id="qosdar-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#qondilin-dlgenr"
+            next="#qostinar-ys"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">קוסדר</orth>

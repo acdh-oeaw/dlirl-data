@@ -43,8 +43,8 @@
          <entry xml:id="qozmokrator-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#qwasrin-ys"
+            next="#qozmin-ys"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">קוזמוקראטור</orth>

@@ -43,8 +43,8 @@
          <entry xml:id="hatlis-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#hognesin-ys"
+            next="#zeta-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">הטליס</orth>

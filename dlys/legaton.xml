@@ -43,8 +43,8 @@
          <entry xml:id="legaton-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#legae-dlgenr"
+            next="#luparin-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">לגטון</orth>

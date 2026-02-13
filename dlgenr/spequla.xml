@@ -38,8 +38,8 @@
          <entry xml:id="spequla-dlgenr"
                 xml:lang="en"
                 type="mainEntry"
-                prev="#sisirnon-dlgenr"
-                next="#sardyot-ys"
+                prev="#sanqatedron-ys"
+                next="#spequla-ys"
                 source="Genesis Rabbah">
             <form type="lemma" opt="false">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">ספיקולא</orth>

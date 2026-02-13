@@ -43,8 +43,8 @@
          <entry xml:id="sanqliton-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#sandal-ys"
+            next="#sanqatedron-ys"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">סנקליטון</orth>

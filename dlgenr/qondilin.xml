@@ -38,8 +38,8 @@
          <entry xml:id="qondilin-dlgenr"
                 xml:lang="en"
                 type="mainEntry"
-                prev="#farmakos-dlgenr"
-                next="#temelios-dlgenr"
+                prev="#qolase-ys"
+                next="#qosdar-ys"
                 source="Genesis Rabbah">
             <form type="lemma" opt="false">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">קונדילין</orth>

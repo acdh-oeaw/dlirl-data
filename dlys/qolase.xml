@@ -43,8 +43,8 @@
          <entry xml:id="qolase-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#qozmiqon-ys"
+            next="#qondilin-ys"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">קולסי</orth>

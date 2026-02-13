@@ -43,8 +43,8 @@
          <entry xml:id="istativah-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#antropiyah-dlgenr"
+            next="#astatyonar-ys"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אסטטיבא</orth>

@@ -43,8 +43,8 @@
          <entry xml:id="sardyot-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#spequla-dlgenr"
-            next="#folar-dlgenr"
+            prev="#speqlator-ys"
+            next="#polemarqos-ys"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">סרדיוט</orth>

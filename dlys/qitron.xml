@@ -43,8 +43,8 @@
          <entry xml:id="qitron-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#quriosi-ys"
+            next="#qleros-ys"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">קיטרון</orth>

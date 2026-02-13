@@ -38,8 +38,8 @@
          <entry xml:id="paltin-dlgenr"
                 xml:lang="en"
                 type="mainEntry"
-                prev="#pile-ys"
-                next="#fanos-dlgenr"
+                prev="#plomopilon-ys"
+                next="#pamlania-dlgenr"
                 source="Genesis Rabbah">
             <form type="lemma" opt="false">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">פלטין</orth>

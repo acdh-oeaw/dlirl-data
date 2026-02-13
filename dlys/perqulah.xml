@@ -43,8 +43,8 @@
          <entry xml:id="perqulah-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#farmakos-dlgenr"
+            next="#qwasrin-ys"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">פרקולה</orth>

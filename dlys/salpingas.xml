@@ -43,8 +43,8 @@
          <entry xml:id="salpingas-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#seqretari-ys"
+            next="#sandal-ys"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">סלפינגס</orth>

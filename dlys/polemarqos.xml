@@ -43,8 +43,8 @@
          <entry xml:id="polemarqos-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#sardyot-ys"
+            next="#folar-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">פולימרכוס</orth>

@@ -43,8 +43,8 @@
          <entry xml:id="spequla-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#spequla-dlgenr"
+            next="#speqlator-ys"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">ספיקולא</orth>

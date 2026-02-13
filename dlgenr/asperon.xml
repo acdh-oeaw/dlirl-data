@@ -38,8 +38,8 @@
          <entry xml:id="asperon-dlgenr"
                 xml:lang="en"
                 type="mainEntry"
-                prev="#askolastiqa-dlgenr"
-                next="#epotropos-dlgenr"
+                prev="#ispargos-ys"
+                next="#istenis-ys"
                 source="Genesis Rabbah">
             <form type="lemma" opt="false">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אספרון</orth>

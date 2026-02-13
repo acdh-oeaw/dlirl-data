@@ -39,8 +39,8 @@
          <entry xml:id="pamlania-dlgenr"
             xml:lang="en"
             type="mainEntry"
-            prev="#"
-            next="#"
+            prev="#paltin-dlgenr"
+            next="#famalnia-ys"
             source="Genesis Rabbah">
             <form type="lemma" opt="false">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">פמלניא</orth>

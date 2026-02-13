@@ -44,7 +44,7 @@
             type="mainEntry"
             xml:lang="en"
             prev="#hognesin-dlgenr"
-            next="#zeta-dlgenr"
+            next="#hatlis-ys"
             source="Yalkut Shimoni">
             <form type="lemma" opt="false">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">הוגנסין</orth>

@@ -43,8 +43,8 @@
          <entry xml:id="alfa-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#alsis-dlgenr"
+            next="#ambate-dlgenr"
             source="Yalkut Shimoni"> 
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אלפא</orth>

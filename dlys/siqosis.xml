@@ -43,8 +43,8 @@
          <entry xml:id="siqosis-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#sisirnon-dlgenr"
+            next="#seqretari-ys"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">סיקוסיס</orth>

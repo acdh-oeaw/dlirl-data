@@ -43,8 +43,8 @@
          <entry xml:id="atlites-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#atlites-dlgenr"
+            next="#bol-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אתליטיס</orth>

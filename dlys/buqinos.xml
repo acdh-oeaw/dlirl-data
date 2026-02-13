@@ -43,8 +43,8 @@
          <entry xml:id="buqinos-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#bolrin-ys"
+            next="#batisa-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">בוקינוס</orth>

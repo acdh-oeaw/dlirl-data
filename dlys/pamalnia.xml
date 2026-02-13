@@ -43,8 +43,8 @@
          <entry xml:id="pamalnia-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#famalnia-ys"
+            next="#fanos-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">פמלניא</orth>

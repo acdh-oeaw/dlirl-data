@@ -43,8 +43,8 @@
          <entry xml:id="quriosi-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#qostinar-ys"
+            next="#qitron-ys"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">קוריוסי</orth>

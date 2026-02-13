@@ -44,7 +44,7 @@
             type="mainEntry"
             xml:lang="en"
             prev="#pilon-dlgenr"
-            next="#paltin-dlgenr"
+            next="#pilson-ys"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">פילי</orth>

@@ -44,7 +44,7 @@
             type="mainEntry"
             xml:lang="en"
             prev="#alteksiyya-dlgenr"
-            next="#alsis-dlgenr"
+            next="#alio-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אלטיכסייה</orth>
