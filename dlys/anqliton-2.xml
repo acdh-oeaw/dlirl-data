@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אנקליטון</title>
+            <title type="alternative">ʾnqlyṭwn</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="anqliton-2-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אנקליטון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾnqlyṭwn</orth>
+               <pron notation="rabbinic" opt="false">anqliṭon</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="anqliton-2-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>liability to charge, chargeable situation</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἔγκλητον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>בנוהג שבעולם בשר ודם עושה לו פטרון שיהא מתקיים עליו והוא נתפס 
+                  <app>
+                     <lem>באנקליטון</lem>
+                     <rdg wit="#W">באנקליטין</rdg>
+                  </app>. הלכו ואמרו לו נתפס בן ביתך. א"ל אני מתקיים עליו. יצא ליהרג היכן הוא והיכן פטרונו. אבל הק' אינו כן. א"ל מלאכי השרת נתפס אברהם בן בריתך. א"ל אני מתקיים עליו. א"ל הרי הוא עומד לפני אמרפל, הרי אפומניטא לו נקרין, הרי הוא יוצא לישרף, א"ל הריני מתקיים עליו.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 77</ref>
+                     <ref type="witness">I 303: 81</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פטרון</ref>
+                  <ref type="entry" xml:lang="jpa">אפומניטא</ref>
+                  <ref type="entry" xml:lang="jpa">פטרונו</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>In the world, it is usually like this: a person takes a protector who stands up for him and is arrested on charges. When someone comes to him and says, “Your neighbor has been arrested,” he replies, “I will stand up for him.” When he is led out to be killed, where is he and where is his protector? But the Holy One, blessed be He, is not like that. The ministering angels said to him, “Abraham, your ally, has been arrested.” He said, “I will stand up for him.” They said, “Look, he is standing before Amrafel! Behold, his charges have been read out! Behold, he is going out to be burned!” He said to them, “I will stand up for him.”</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">ExR 2,29</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>בנוהג שבעולם בשר ודם עושה לו פטרון שהוא מתקיים עליו והוא נתפס 
+                  <app>
+                     <lem>באנקליטון</lem>
+                     <rdg wit="#L">באנקליטין</rdg>
+                  </app>. הלכו ואמרו לו לפטרונו נתפס בן ביתך, אמ' אני מתקיים עליו. יצא ליהרג, היכן הוא והיכן פטרונו. אבל הק' אינו כן, אמרו מלאכי השרת נתפס משה בן ביתך, א"ל אני מתקיים עליו. א"ל הרי הוא עומד לפני פרעה, הרי אפומניטא שלו נקרין, הרי הוא יוצא ליהרג, א"ל הרי אני מתקיים עליו …</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 165</ref>
+                     <ref type="witness">III 31: 47</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פטרון</ref>
+                  <ref type="entry" xml:lang="jpa">אפומניטא</ref>
+                  <ref type="entry" xml:lang="jpa">פטרונו</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>In the world, it is usually like this: a person takes a protector who stands up for him and is arrested on charges. When someone comes to him and says, “Your neighbor has been arrested,” he replies, “I will stand up for him.” When he is led out to be killed, where is he and where is his protector? But the Holy One, blessed be He, is not like that. The ministering angels said to him, “Moses, your ally, has been arrested.” He said, “I will stand up for him.” They said, “Look, he is standing before Pharao! Behold, his charges have been read out! Behold, he is going out to be burned!” He said to them, “I will stand up for him.”</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">DevR 2,29</bibl></note>
+               </cit>
+            </sense>
+            <note>To be distinguished from <ref type="entry" xml:lang="jpa" target="anqliton-1-ys.html">אנקליטון [I]</ref> (Gr. <term xml:lang="grc">ἔκκλητον</term>)</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sperber (1984)</title>
+                  <citedRange>49</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>76a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

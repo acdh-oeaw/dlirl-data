@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">איפומנימא</title>
+            <title type="alternative">ʾypwmnymʾ</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="ipomnima-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">איפומנימא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾypwmnymʾ</orth>
+               <pron notation="rabbinic" opt="false">ipomanima</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">f.</gram>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">איפומניטא</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾypwmnyṭʾ</orth>
+                  <pron notation="rabbinic">ipomaniṭaʾ</pron>
+               </form>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">איפומנימטא</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾypwmnymṭʾ</orth>
+                  <pron notation="rabbinic">ipomnimaṭaʾ</pron>
+               </form>
+            </form>
+            <sense xml:id="ipomnima-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>minutes of trial read before the sentence</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ὑπόμνημα</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ὑπομνήματα</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>בנוהג שבעולם בשר ודם עושה לו פטרון שיהא מתקיים עליו והוא נתפס באנקליטון. הלכו ואמרו לו נתפס בן ביתך. א"ל אני מתקיים עליו. יצא ליהרג היכן הוא והיכן פטרונו. אבל הק' אינו כן. א"ל מלאכי השרת נתפס אברהם בן בריתך. א"ל אני מתקיים עליו. א"ל הרי הוא עומד לפני אמרפל, הרי אפומניטא [אפומנימא] לו נקרין, הרי הוא יוצא לישרף, א"ל הריני מתקיים עליו.</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 77</ref>
+                     <ref type="witness">I 303: 85</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פטרון</ref>
+                  <ref type="entry" xml:lang="jpa">אנקליטון</ref>
+                  <ref type="entry" xml:lang="jpa">פטרונו</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>In the world, it is usually like this: a person takes a protector who stands up for him and is arrested on charges. When someone comes to him and says, “Your neighbor has been arrested,” he replies, “I will stand up for him.” When he is led out to be killed, where is he and where is his protector? But the Holy One, blessed be He, is not like that. The ministering angels said to him, “Abraham, your ally, has been arrested.” He said, “I will stand up for him.” They said, “Look, he is standing before Amrafel! Behold, his charges have been read out! Behold, he is going out to be burned!” He said to them, “I will stand up for him.”</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">ExR 2,29</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>בנוהג שבעולם בשר ודם עושה לו פטרון שהוא מתקיים עליו והוא נתפס באנקליטון. הלכו ואמרו לו לפטרונו נתפס בן ביתך, אמ' אני מתקיים עליו. יצא ליהרג, היכן הוא והיכן פטרונו. אבל הק' אינו כן, אמרו מלאכי השרת נתפס משה בן ביתך, א"ל אני מתקיים עליו. א"ל הרי הוא עומד לפני פרעה, הרי 
+                     <app>
+                        <lem>אפומניטא</lem>
+                        <rdg wit="#S">איפא ניטא</rdg>
+                        <rdg wit="#L">איפאניעא </rdg>
+                        <rdg wit="#W">אפומנימא</rdg>
+                     </app> שלו נקרין, הרי הוא יוצא ליהרג, א"ל הרי אני מתקיים עליו ...</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 165</ref>
+                     <ref type="witness">III 31: 47</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פטרון</ref>
+                  <ref type="entry" xml:lang="jpa">אנקליטון</ref>
+                  <ref type="entry" xml:lang="jpa">פטרונו</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>In the world, it is usually like this: a person takes a protector who stands up for him and is arrested on charges. When someone comes to him and says, “Your neighbor has been arrested,” he replies, “I will stand up for him.” When he is led out to be killed, where is he and where is his protector? But the Holy One, blessed be He, is not like that. The ministering angels said to him, “Moses, your ally, has been arrested.” He said, “I will stand up for him.” They said, “Look, he is standing before Pharao! Behold, his charges have been read out! Behold, he is going out to be burned!” He said to them, “I will stand up for him.”</quote>
+                  </cit>
+               </cit>
+            </sense>
+            <note>Sperber suggests that <term xml:lang="jpa">אפומנימטא*</term> <term xml:lang="fjb">ʾpwmnymṭʾ</term>, pl., is the original reading. Cf. <bibl type="modern">AC I 219a</bibl>; <bibl type="modern">Lewy I 68b</bibl>; <bibl type="modern">Sachs (1852) 18</bibl>. <bibl type="modern">Jastrow I 58a</bibl>: Gr. <term xml:lang="grc">ἐπιτίμια</term>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sperber (1984)</title>
+                  <citedRange>40</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>39a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

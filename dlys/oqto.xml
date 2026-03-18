@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אוקטו</title>
+            <title type="alternative">ʾwqṭw</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="oqto-ys"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Yalkut Shimoni">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אוקטו</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾwqṭw</orth>
+               <pron notation="rabbinic" opt="false">oqṭo</pron>
+               <gramGrp>
+                  <gram type="pos">num.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">אכטו</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾkṭw</orth>
+                  <pron notation="rabbinic">okṭo</pron>
+               </form>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">אוכטו</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾwqṭq</orth>
+                  <pron notation="rabbinic">okṭo</pron>
+               </form>
+            </form>
+            <sense xml:id="oqto-ys-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>eight</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ὀκτώ</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>בעון קומי ר' אבהו מנין שהנוצר לשבעה חי אמ' לון מדידכון אנא, מדידכון אנא ממטי לכון זיטא-איפטא, איטא-אוקטו</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 20</ref>
+                     <ref type="witness">I 64: 82</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">‏‏‏‏זיטא</ref>
+                  <ref type="entry" xml:lang="jpa">איפטא</ref>
+                  <ref type="entry" xml:lang="jpa">‏איטא</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>He replied to them: From your own [language] I will prove it to you: “Zeṭaʾ (live) epṭah (seven), eṭah (go) akṭo (eight)” (cf. Freedman / Simon I: 112)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 14,2 [I 127: 3]</bibl>; <bibl type="ancient">GenR 20,6 [I 189: 3]</bibl>; <bibl type="ancient">NumR 4,3</bibl>: <term xml:lang="jpa">איפטא</term> <term xml:lang="fjb">ʾypṭʾ</term> <term xml:lang="rabbinic">epṭaʾ</term>; <bibl type="ancient">Tanh  Bemidbar 18</bibl>; <bibl type="ancient">TanhB Bemidbar 21</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמ' להן בלשון יוונית זיטא איפטא, איטא אוקטו</quote>
+                  <bibl>
+                     <ref type="witness">Yalq 691</ref>
+                     <ref type="witness">VII 16: 32</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">זיטא</ref>
+                  <ref type="entry" xml:lang="jpa">איפטא</ref>
+                  <ref type="entry" xml:lang="jpa">איטא</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>He replied to them: In the Greek language [they say]: “Zeṭaʾ (live) epṭah (seven), eṭah (go) akṭo (eight)”.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">GenR 14,2 [I 127: 3]</bibl>; <bibl type="ancient">GenR 20,6 [I 189: 3]</bibl>; <bibl type="ancient">NumR 4,3</bibl>: <term xml:lang="jpa">איפטא</term> <term xml:lang="fjb">ʾypṭʾ</term> <term xml:lang="rabbinic">epṭaʾ</term>; <bibl type="ancient">Tanh  Bemidbar 18</bibl>; <bibl type="ancient">TanhB Bemidbar 21</bibl></note>
+               </cit>
+            </sense>
+            <note>Cf. GenR <ref type="entry" xml:lang="jpa">זיטא</ref></note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>44a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>
