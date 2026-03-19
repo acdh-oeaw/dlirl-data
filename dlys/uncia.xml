@@ -44,7 +44,7 @@
             type="mainEntry"
             xml:lang="en"
             prev="#one-ys"
-            next="#oqton-dlgenr"
+            next="#oqto-ys"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אונקיה</orth>

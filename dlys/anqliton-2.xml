@@ -43,8 +43,8 @@
          <entry xml:id="anqliton-2-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#anqliton-1-ys"
+            next="#anqlimon-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אנקליטון</orth>

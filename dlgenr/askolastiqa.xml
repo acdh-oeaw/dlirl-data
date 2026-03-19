@@ -38,8 +38,8 @@
          <entry xml:id="askolastiqa-dlgenr"
                 xml:lang="en"
                 type="mainEntry"
-                prev="#estrateg-ys"
-                next="#ispargos-ys"
+                prev="#istrateq-ys"
+                next="#askolastiqah-ys"
                 source="Genesis Rabbah">
             <form type="lemma" opt="false">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אסכולסטיקה</orth>

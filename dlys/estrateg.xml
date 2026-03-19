@@ -44,7 +44,7 @@
             type="mainEntry"
             xml:lang="en"
             prev="#istrateg-dlgenr"
-            next="#askolastiqa-dlgenr"
+            next="#istrateq-ys"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אסטרטיג</orth>

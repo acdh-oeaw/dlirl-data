@@ -43,8 +43,8 @@
          <entry xml:id="donativa-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#donativa-dlgenr"
+            next="#doqron-dlgenr"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">דונאטיבה</orth>

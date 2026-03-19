@@ -44,7 +44,7 @@
             type="mainEntry"
             xml:lang="en"
             prev="#igia-dlgenr"
-            next="#itolis-ys"
+            next="#ita-ys"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">איטא</orth>

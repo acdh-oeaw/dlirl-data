@@ -43,8 +43,8 @@
          <entry xml:id="ita-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#eta-ys"
+            next="#itolis-ys"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">איטא</orth>

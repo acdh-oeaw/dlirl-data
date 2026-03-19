@@ -40,11 +40,11 @@
    </teiHeader>
   <text>
       <body>
-         <entry xml:id="askolasiqah-ys"
+         <entry xml:id="askolastiqah-ys"
             type="mainEntry"
             xml:lang="en"
-            prev="#"
-            next="#"
+            prev="#askolastiqa-dlgenr"
+            next="#ispargos-ys"
             source="Yalkut Shimoni">
             <form type="lemma">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">אסכולסטיקה</orth>
