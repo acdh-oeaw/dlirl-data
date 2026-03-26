@@ -129,9 +129,9 @@
                      <xr type="related" opt="false">
                         <lbl opt="false">Cf. LSJ</lbl>
                         <ref target="https://stephanus.tlg.uci.edu/lbg/#eid=43076%26amp;context=lsj"
-                           type="entry">μανδήλιον</ref>
+                           type="entry" xml:lang="grc">μανδήλιον</ref>
                         <ref target="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0057:entry=mandh/lh"
-                           type="entry">μανδήλη, A. </ref>
+                           type="entry" xml:lang="grc">μανδήλη, A. </ref>
                      </xr>
                   </cit>
                </etym>

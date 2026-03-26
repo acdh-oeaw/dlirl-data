@@ -82,12 +82,12 @@
             </sense>
             <etym type="borrowing" opt="false">
                <lbl opt="false">source language</lbl>
-               <lang opt="false">Anciant Greek+</lang>
+               <lang opt="false">Ancient Greek+</lang>
                <cit type="etymon" xml:lang="grc">
                   <xr type="related" opt="false">
                      <lbl opt="false">Cf. LSJ</lbl>
                      <ref target="https://www.perseus.tufts.edu/hopper/morph?l=a%29%2Fllos&amp;la=greek&amp;can=a%29%2Fllos0#Perseus:text:1999.04.0057:entry=a)/llos1-contents"
-                        type="entry">ἄλλος, A.</ref>
+                        type="entry" xml:lang="grc">ἄλλος, A.</ref>
                   </xr>
                </cit>
             </etym>
