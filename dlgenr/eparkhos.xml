@@ -43,15 +43,14 @@
                 source="Genesis Rabbah">
             <form type="lemma" opt="false">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">איפרכוס</orth>
-               <orth type="transliteration" xml:lang="fjb" opt="false">ʾyprkhws</orth>
-               <pron notation="rabbinic" opt="false"/>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾyprkws</orth>
                <gramGrp opt="false">
                   <gram type="pos" opt="false">noun</gram>
                   <gram type="gen" opt="false">m.</gram>
                </gramGrp>
                <form type="variant" opt="false">
                   <orth type="variant" xml:lang="jpa" opt="false">אפרכוס</orth>
-                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾprkhws</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾprkws</orth>
                   <pron notation="rabbinic" opt="false">eparkhos</pron>
                </form>
                <form type="variant" source="8,10 - V K" opt="false">
@@ -116,7 +115,7 @@
             </form>
             <form type="inflected" opt="false">
                <orth type="inflected" xml:lang="jpa" opt="false">אפרכין</orth>
-               <orth type="transliteration" xml:lang="fjb" opt="false">ʾprkhyn</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾprkyn</orth>
                <pron notation="rabbinic" opt="false">eparkhin</pron>
                <gramGrp opt="false">
                   <gram type="num" opt="false">pl.</gram>
@@ -164,16 +163,14 @@
                      <ref type="witness">I 64: 1</ref>
                   </bibl>
                   <cit type="translation" xml:lang="en">
-                     <quote>
-                        To what may this be compared? To a king and a prefect who sat in a chariot, and the residents of the province wished to say “Domini!” to the king, but they didn’t know which one [was the king]. What did the king do? He pushed the prefect and thrust him out of the chariot, so that they knew who was the king.
-            </quote>
+                     <quote>To what may this be compared? To a king and a prefect who sat in a chariot, and the residents of the province wished to say “Domini!” to the king, but they didn’t know which one [was the king]. What did the king do? He pushed the prefect and thrust him out of the chariot, so that they knew who was the king.</quote>
                   </cit>
                   <note anchored="true">=
-            <bibl type="ancient" default="false" status="draft">KohR 6,1</bibl>;
-            <bibl type="ancient" default="false" status="draft">MidrZ Koh 6,10</bibl> (<term xml:lang="jpa">איפרכוס</term>);
-            <bibl type="ancient" default="false" status="draft">Yalq 147 [8a: 22]</bibl> (<term xml:lang="jpa">איפרכוס</term>);
-            <bibl type="ancient" default="false" status="draft">Yalq Jes 394 [387d: 58]</bibl> (<term xml:lang="jpa">איפרכוס</term>);
-            <bibl type="ancient" default="false" status="draft">YalqM Jes 2,22 [25: 22,24]</bibl>
+            <bibl type="ancient">KohR 6,1</bibl>;
+            <bibl type="ancient">MidrZ Koh 6,10</bibl> (<term xml:lang="jpa">איפרכוס</term>);
+            <bibl type="ancient">Yalq 23 [I 81: 38.41]</bibl> (<term xml:lang="jpa">איפרכוס</term>);
+                     <bibl type="ancient">Yalq Jes 394 [XI 26: 22.25]</bibl> (<term xml:lang="jpa">איפרכוס</term>);
+                     <bibl type="ancient">YalqM Jes 2,22 [25: 22.24]</bibl>
                   </note>
                </cit>
                <cit type="example" xml:lang="jpa">
@@ -204,7 +201,7 @@
             </quote>
                   </cit>
                   <note anchored="true">=
-            <bibl type="ancient" default="false" status="draft">Yalq 16 [5d: 22]</bibl> (<term xml:lang="jpa">איפרכא</term>)
+                     <bibl type="ancient" default="false" status="draft">Yalq 17 [I 53: 33]</bibl> (<term xml:lang="jpa">איפרכא</term>)
          </note>
                </cit>
                <cit type="example" xml:lang="jpa">
@@ -303,7 +300,7 @@
                   </quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">75,12</ref>
-                     <ref type="witness">895: 1</ref>
+                     <ref type="witness">II 895: 1</ref>
                   </bibl>
                   <cit type="translation" xml:lang="en">
                      <quote>
@@ -329,7 +326,7 @@
                   <ref type="entry" xml:lang="jpa">דוכסיי</ref>
                   <ref type="entry" xml:lang="jpa">איסטרטילטיי</ref>
                   <bibl default="false" status="draft">
-                     <ref type="witness">78,13</ref>
+                     <ref type="witness">78,14</ref>
                      <ref type="witness">II 934: 1</ref>
                   </bibl>
                   <cit type="translation" xml:lang="en">

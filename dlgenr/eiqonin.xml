@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">איקונין</title>
+            <title type="alternative">ʾyqwnyn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="eiqonin-dlgenr"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">איקונין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾyqwnyn</orth>
+               <pron notation="rabbinic">eiqonin</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">f.</gram>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">איקונות</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾyqwnwt</orth>
+                  <pron notation="rabbinic">eiqonot</pron>
+               </form>
+            </form>
+            <sense xml:id="eigonin-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>image, statue, picture, feature</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>εἰκόνιον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' עזריה ור' יונתן מש' ר' יצחק איקונין שלחוה נמסרת לראשי דורות, להלן כת' והנערה יפה עד מאד מגעת עד איקונין שלחוה, ברם הכא כי יפה היא מאד מאיקונין שלחוה</quote>
+                  <bibl>
+                     <ref type="witness">40,5</ref>
+                     <ref type="witness">I 385: 3</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. ʿAzariyyah and R. Yonatan in R. Yiṣḥaq’s name said: Eve’s image was transmitted to the reigning beauties of each generation. Elsewhere it is written, And the damsel was very fair – ‘ad meʾod’ (1 Rgn 1,4), which means that she attained to Eve’s beauty; but here in truth is written, The Egyptians beheld the woman that she was very fair (‘meʾod’) – which means, even more beautiful that Eve’s image. (Freedman / Simon I 329)</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ותהר ותלד שרה לאברהם מלמד שלא גינבה זרע ממקום אחר, בן לזקוניו מלמד שהיה איקונין שלו דומה לו</quote>
+                  <bibl>
+                     <ref type="witness">53,6</ref>
+                     <ref type="witness">II 561: 2</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And Sarah conceived, and bore Abraham a son (Gen 21,2). This means that she did not steal seed from elsewhere. A sone in his old age (ibid.): this teaches that his [Isaac’s] feature were like his own. (Freedman / Simon I 466)</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ויאמר אברהם אל עבדו זקן ביתו שהיה זיו איקונין שלו דומה לו</quote>
+                  <bibl>
+                     <ref type="witness">59,8</ref>
+                     <ref type="witness">II 636: 3</ref>
+                  </bibl>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>… <app>
+                     <lem>שאיקונין</lem>
+                     <rdg wit="#V">שאיקונים</rdg>
+                  </app> שלך חקוקה למעלה</quote>
+                  <bibl>
+                     <ref type="witness">68,12</ref>
+                     <ref type="witness">II 788: 2</ref>
+                  </bibl>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>שאיקוניך חקוקה למעלה</quote>
+                  <bibl>
+                     <ref type="witness">78,3</ref>
+                     <ref type="witness">II 921: 4</ref>
+                  </bibl>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>שאיקונין שלו חקוקה בכסאי</quote>
+                  <bibl>
+                     <ref type="witness">82,2</ref>
+                     <ref type="witness">II 978: 2</ref>
+                  </bibl>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>שאיקונין שלו חקוקה בכסאי</quote>
+                  <bibl>
+                     <ref type="witness">82,2</ref>
+                     <ref type="witness">II 978: 5</ref>
+                  </bibl>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>וישראל אהב את יוסף מכל בניו כי בן זקונים הוא לו ר' יהודה א' שהיה זיו איקונין שלו דומה לו</quote>
+                  <bibl>
+                     <ref type="witness">84,8</ref>
+                     <ref type="witness">II 1010: 4</ref>
+                  </bibl>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' הונא בשם ר' מתנא אמ' איקונין שלאביו ראה ונצטנן דמו</quote>
+                  <bibl>
+                     <ref type="witness">87,7</ref>
+                     <ref type="witness">III 1073: 1</ref>
+                  </bibl>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>מידי אביר יעקב רבי הונא בשם רב מתנה איקונין של אביו ראה וצונן דמו, רבי מנחמא בשם רבי אמי איקונין של אמו ראה וצינן דמו משם רועה אבן ישראל, מי עשה כן מאל אביך</quote>
+                  <bibl>
+                     <ref type="witness">98,20</ref>
+                     <ref type="witness">III 1270: 5,6</ref>
+                  </bibl>
+               </cit>
+            </sense>
+            <note>Common in rabb. Lit.; frequently used with suff. Sokoloff distinguishes between <term xml:lang="jpa">איקון</term> <term xml:lang="fjb">ʾyqwn</term> Gr. <term xml:lang="grc">εἰκών</term> and <term xml:lang="jpa">איקונין</term>. Cf. also <bibl type="modern">Krauss, LW I 182 f</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>27b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

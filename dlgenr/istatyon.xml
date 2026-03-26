@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אסטטיון</title>
+            <title type="alternative">ʾsṭṭywn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="istatyon-dlgenr"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אסטטיון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾsṭṭywn</orth>
+               <pron notation="rabbinic">isṭaṭyon</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="istatyon-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>camp, order</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>στατίων</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote><app>
+                     <lem>אסטטיונו</lem>
+                     <rdg wit="#K">איסטטיונו</rdg> 
+                     <rdg wit="#V">אישטטיונו</rdg>
+                     <rdg wit="#Ox1">אמטיטוס</rdg>
+                     <rdg wit="#Ox2">אמטטיונו</rdg>
+                  </app> שלעולם</quote>
+                  <bibl>
+                     <ref type="witness">66,2</ref>
+                     <ref type="witness">II 746: 3</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>the order of the world</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">CantR 7,1</bibl> (<term xml:lang="jpa">איסטטיונרון</term>); <bibl type="ancient">MShir 7,1 [44a]</bibl> (<term xml:lang="jpa">אסטטיוני</term>); <bibl type="ancient">Yalq Cant 992 [539a: 45]</bibl> (<term xml:lang="jpa">אסטטיונו</term>)</note>
+               </cit>
+            </sense>
+            <note>Cf. <bibl type="modern">AC I 168a</bibl>, <bibl type="modern">Jastrow I 55a</bibl> translates: “[divine] government of the word”. Acc. to <bibl type="modern">Levy I 119a</bibl> the correct reading is represented by CantR, <term xml:lang="jpa">איסטטיונרון</term> <term xml:lang="fjb">ʾysṭṭywnrwn</term> <term xml:lang="rabbinic">isṭaṭyonaron</term> Lat. stationarium (milites stationarii). See also <bibl type="modern">Krauss, Add. AC 41a</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>79a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>
