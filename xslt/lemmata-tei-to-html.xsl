@@ -615,16 +615,18 @@
                 <xsl:value-of select="child::tei:quote/text()"/>
             </xsl:if>
         </xsl:element>
-        <xsl:element name="p">
-            <xsl:attribute name="class" select="'dlgenr-entry-sense-example-translation'"/>
-            <xsl:apply-templates select="child::tei:cit[@type = 'translation']/tei:quote/child::node()"/>
-        </xsl:element>
+        <xsl:for-each select="child::tei:cit[@type = 'translation']">
+            <xsl:element name="p">
+                <xsl:attribute name="class" select="'dlgenr-entry-sense-example-translation'"/>
+                <xsl:apply-templates select="./tei:quote/child::node()"/>
+            </xsl:element>
+        </xsl:for-each>
         <xsl:apply-templates select="child::tei:ref"/>
         <xsl:apply-templates select="child::tei:note"/>
     </xsl:template>
     
     <xsl:template match="tei:quote[parent::tei:cit[@type = 'example']]">
-        <xsl:apply-templates select="text() | tei:app" mode="write-quotation"/>
+        <xsl:apply-templates select="text() | tei:app | tei:ref" mode="write-quotation"/>
     </xsl:template>
     
     <xsl:template match="tei:app" mode="write-quotation">
@@ -683,6 +685,19 @@
                 <xsl:apply-templates select="child::node()"/>
             </xsl:if>
         </xsl:element>
+    </xsl:template>
+    
+    <xsl:template match="tei:ref[@type = 'entry'][parent::tei:quote[parent::tei:cit]]" mode="write-quotation">
+        <xsl:if test="exists(@target)">
+            <xsl:element name="a">
+                <xsl:attribute name="href" select="@target"/>
+                <xsl:attribute name="target" select="'_blank'"/>
+                <xsl:apply-templates select="child::node()"/>
+            </xsl:element>
+        </xsl:if>
+        <xsl:if test="not(exists(@target))">
+            <xsl:apply-templates select="child::node()"/>
+        </xsl:if>
     </xsl:template>
     
     <xsl:template match="tei:ref[(@type = 'entry') and parent::tei:usg and ((@targetLang = 'cop') or (@targetLang = 'syc') or (@targetLang = 'arm'))]">
@@ -906,6 +921,7 @@
                         <xsl:value-of select="tei:citedRange"/>
                     </xsl:if>
                 </xsl:element>
+                <xsl:apply-templates select="child::tei:note" mode="note-in-bibliography-inline"/>
                 <xsl:text>.</xsl:text>
             </xsl:if>
             <xsl:if test="not(exists(@facs))">
@@ -914,11 +930,17 @@
                     <xsl:text>, </xsl:text>
                     <xsl:value-of select="tei:citedRange"/>
                 </xsl:if>
+                <xsl:apply-templates select="child::tei:note" mode="note-in-bibliography-inline"/>
                 <xsl:text>.</xsl:text>
             </xsl:if>
         </xsl:element>
     </xsl:template>
-    
+
+    <xsl:template match="tei:note[parent::tei:bibl]" mode="note-in-bibliography-inline">
+        <xsl:text> </xsl:text>
+        <xsl:apply-templates select="child::node()"/>
+    </xsl:template>
+
     <xsl:template name="citation">
         <xsl:element name="p">
             <xsl:attribute name="class" select="'dlgenr-entry-citation'"/>

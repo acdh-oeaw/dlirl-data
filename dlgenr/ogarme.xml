@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אוגרמי</title>
+            <title type="alternative">ʾwgrmy</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <entry xml:id="ogarme-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אוגרמי</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾwgrmy</orth>
+               <pron notation="rabbinic" opt="false">ogarme</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa">אגרומי</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾgrwmy</orth>
+                  <pron notation="rabbinic" opt="false">agrome</pron>
+               </form>
+            </form>
+            <sense xml:id="ogarme-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>market-supervision</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἀγορανομία</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' לוי אמר הלך ונטל לו 
+                     <app>
+                        <lem>אוגרמי</lem>
+                        <rdg wit="#Ox2">איגרמי</rdg>
+                        <rdg wit="#Ox1">אגרמי</rdg>
+                        <rdg wit="#K V">אגרומי</rdg>
+                     </app> ממצרים</quote>
+                  <bibl>
+                     <ref type="witness">75,7</ref>
+                     <ref type="witness">II 894: 2</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Levi said: He [Esau] went to Egypt and got [authorization to exercise] market-supervision.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 130 [II 657: 40]</bibl></note>
+               </cit>
+            </sense>
+            <note>Cf. <bibl type="modern">AC Add. 9a</bibl>. <bibl type="modern">Brüll, FW 174</bibl>: <term xml:lang="grc">ἀγορά</term>; <bibl type="modern">Jastrow I 11b</bibl>: corr. of <term xml:lang="jpa">אגרונומי</term> <term xml:lang="fjb">ʾgrwnwmy</term>; <bibl type="modern">Levy I 25b</bibl>: <term xml:lang="grc">γρῶμα</term>; <bibl type="modern">Fürst 37ab</bibl>: <term xml:lang="grc">γρυμέα</term>, <term xml:lang="grc">γρυμάια</term>, <bibl type="modern">AC I 29a</bibl> from an Arab. source. Löw suggests to read: <term xml:lang="jpa">אגרומיא</term> <term xml:lang="fjb">ʾgrwmyʾ</term> <term xml:lang="rabbinic">ʾagromiyaʾ</term>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>11b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+   </text>
+</TEI>

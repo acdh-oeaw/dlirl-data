@@ -152,7 +152,7 @@
             </quote>
                   </cit>
                   <note anchored="true">=
-            <bibl type="ancient" default="false" status="draft">Yalq 4 (2d: 43-48)</bibl>
+                     <bibl type="ancient" default="false" status="draft">Yalq 4 [I 12: 76]</bibl>
                   </note>
                </cit>
                <cit type="example" xml:lang="jpa">
@@ -174,7 +174,7 @@
             </quote>
                   </cit>
                   <note anchored="true">=
-            <bibl type="ancient" default="false" status="draft">Yalq 4 (2d: 50-53)</bibl>
+                     <bibl type="ancient" default="false" status="draft">Yalq 4 [I 12: 76]</bibl>
                   </note>
                </cit>
                <cit type="example" xml:lang="jpa">
@@ -186,25 +186,9 @@
                      <ref type="witness">II 949: 1-2</ref>
                   </bibl>
                   <cit type="translation" xml:lang="en">
-                     <quote>
-                        And who writes the bill of sale? R. Berakhyah said: Yah writes the bill of sale. And who attests the bill of sale? R. Berakhyah said: Yah attests the bill of sale.
-            </quote>
+                     <quote>And who writes the bill of sale? R. Berakhyah said: Yah writes the bill of sale. And who attests the bill of sale? R. Berakhyah said: Yah attests the bill of sale.</quote>
                   </cit>
-               </cit>
-               <cit type="example" xml:lang="jpa">
-                  <quote>והאוני שלהן</quote>
-                  <bibl default="false" status="draft">
-                     <ref type="witness">96 (BM)</ref>
-                     <ref type="witness">III 1201: 2</ref>
-                  </bibl>
-                  <cit type="translation" xml:lang="en">
-                     <quote>… and their bill of sale</quote>
-                  </cit>
-                  <note anchored="true">=
-            <bibl type="ancient" default="false" status="draft">Tanh Wa-yeḥi 8</bibl>;
-            <bibl type="ancient" default="false" status="draft">OsM (Eisenstein) 228</bibl>;
-            <bibl type="ancient" default="false" status="draft">Yalq 157 (51a: 39)</bibl>
-                  </note>
+                  <note>= <bibl type="ancient">Yalq 133 [II 681: 43; 682: 44]</bibl> (<term xml:lang="jpa">אונה, אוני</term>)</note>
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>היכן הוא דייתיקי שלהם והאוני שלהם</quote>
@@ -216,6 +200,7 @@
                   <cit type="translation" xml:lang="en">
                      <quote>Where is there testament and their bill of sale?</quote>
                   </cit>
+                  <note>= <bibl type="ancient">Tanh Wa-yeḥi 8</bibl>; <bibl type="ancient">OsM (Eisenstein) 228</bibl>; <bibl type="ancient">Yalq 157 [II 833: 15]</bibl></note>
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>כמה אוניות נכתבו לו</quote>

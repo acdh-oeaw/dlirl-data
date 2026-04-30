@@ -69,6 +69,41 @@
                   </usg>
                   <quote>αὐθεντία</quote>
                </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>עיקר 
+                     <app>
+                        <lem>אותנטייה</lem>
+                        <rdg wit="#Vat1">אוותנטיא</rdg>
+                        <rdg wit="#Vat2">אוותניטייה</rdg>
+                        <rdg wit="#K">אותנטיאה</rdg>
+                        <rdg wit="#V">אוותנטיאה</rdg>
+                     </app> שלו לא 
+                     <app>
+                        <lem>היה</lem>
+                        <rdg wit="#Vat1 Vat 2 Ox 1 Ox 2">היה אלא</rdg>
+                     </app> בימי דוד ולא היה ראוי לבא אלא בימי שאול</quote>
+                  <bibl>
+                     <ref type="witness">25,3</ref>
+                     <ref type="witness">I 242: 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>The essence of its [i.e. the famine’s] power did not come in the days of David, but it was worthy to come only in the days of Saul.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq Bereshit 43 [I 150: 7]</bibl>; <bibl type="ancient">Yalq Sam 153 [369c: 51]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>עיקר 
+                     <app>
+                        <lem>אווטנתיא</lem>
+                        <rdg wit="Vat1">אוותינטייה</rdg>
+                        <rdg wit="#K">איוותנטיא</rdg>
+                        <rdg wit="#V">אויתנטיאה</rdg>
+                     </app> שלו לא היה ראוי לבוא אלא בימי שאול</quote>
+                  <bibl>
+                     <ref type="witness">64,2</ref>
+                     <ref type="witness">II 701: 12</ref>
+                  </bibl>
+               </cit>
             </sense>
             <etym type="borrowing" opt="false">
                <lbl opt="false">source language</lbl>
@@ -82,20 +117,21 @@
                </cit>
             </etym>
             <note anchored="true">
-               <bibl type="modern" default="false" status="draft">AC I: 48-49</bibl>; <bibl type="modern" default="false" status="draft">Levy I: 49</bibl>. <bibl type="modern" default="false" status="draft">Jastrow: 23</bibl> “origin, reality”. 
+               <bibl type="modern" default="false" status="draft">AC I: 48b-49a</bibl>; <bibl type="modern" default="false" status="draft">Levy I 49a</bibl>. <bibl type="modern" default="false" status="draft">Jastrow I 23a</bibl> “origin, reality”. 
          The expression <term xml:lang="jpa">עיקר אוותנטיא</term> is also used in <bibl type="ancient" default="false" status="draft">ShirR 1,10</bibl>.
       </note>
             <ref type="bibliography">
                <bibl default="false" status="draft" facs="https://archive.org/details/GriechischeUndLateinischeLehnwrterInTalmudMidraschUndTargum/Griechische_und_lateinische_Lehnwrter2/page/n33/mode/2up">
                   <title>Krauss II</title>
-                  <citedRange>16</citedRange>
+                  <citedRange>16ab</citedRange>
                </bibl>
-               <bibl default="false" status="draft" facs="https://archive.org/details/GriechischeUndLateinischeLehnwrterInTalmudMidraschUndTargum/Griechische_und_lateinische_Lehnwrter2/page/n133/mode/2up">
+               <!-- <bibl default="false" status="draft" facs="https://archive.org/details/GriechischeUndLateinischeLehnwrterInTalmudMidraschUndTargum/Griechische_und_lateinische_Lehnwrter2/page/n133/mode/2up">
                   <title>Krauss II</title>
                   <citedRange>117</citedRange>
-               </bibl>
+               </bibl> -->
             </ref>
          </entry>
+         <note>Other spellings: <term xml:lang="jpa">אוותנטיא אותנטיאה אוותנטיאה אוותינטייה איוותנטיא אויתנטיאה</term></note>
       </body>
    </text>
 </TEI>

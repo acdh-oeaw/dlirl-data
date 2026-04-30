@@ -96,7 +96,7 @@
             <bibl type="ancient" default="false" status="draft">ShirR 2,2</bibl>;
             <bibl type="ancient" default="false" status="draft">PesR 15</bibl>;
             <bibl type="ancient" default="false" status="draft">MTeh (Buber) 22,19</bibl>;
-            <bibl type="ancient" default="false" status="draft">Yalq 82 (24a: 19)</bibl>
+                     <bibl type="ancient" default="false" status="draft">Yalq 82 [I 350: 80]</bibl>
                   </note>
                </cit>
                <cit type="example" xml:lang="jpa">
@@ -122,13 +122,17 @@
                </cit>
             </etym>
             <note anchored="true">Also used in connections with preposition <term xml:lang="jpa">ל</term> and infinitive. Cf.
-      <bibl type="modern" default="false" status="draft">Krauss, LW II 29</bibl> in detail.
+               <bibl type="modern" default="false" status="draft">Krauss, LW II 29ab</bibl> in detail.
    </note>
             <ref type="bibliography">
                <bibl default="false" status="draft">
                   <title>Sokoloff, DJPA</title>
                   <citedRange>48</citedRange>
-                  <note anchored="true">(<term xml:lang="jpa">איטמוס</term>)</note>
+                  <note>(<term xml:lang="jpa">איטמוס</term>)</note>
+               </bibl>
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>29ab</citedRange>
                </bibl>
             </ref>
          </entry>

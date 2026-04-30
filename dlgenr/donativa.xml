@@ -47,26 +47,26 @@
                <pron notation="rabbinic" opt="false">donaʾṭivah</pron>
                <gramGrp opt="false">
                   <gram type="pos" opt="false">noun</gram>
-                  <gram type="gen" opt="false">m/f</gram>
-                  <gram type="num" opt="false">sg/pl</gram>
+                  <gram type="gen" opt="false">m./f.</gram>
+                  <gram type="num" opt="false">sg./pl.</gram>
                </gramGrp>
-            </form>
-            <form type="variant" opt="false">
-               <orth xml:lang="jpa" opt="false">דונטיבה</orth>
-               <orth type="transliteration" xml:lang="fjb" opt="false">dwntybh</orth>
-               <pron notation="rabbinic" opt="false">donativah</pron>
-            </form>
-            <form type="equivalent" xml:lang="la" opt="false">
-               <quote xml:lang="la">donativa</quote>
+               <form type="variant" opt="false">
+                  <orth xml:lang="jpa" opt="false">דונטיבה</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">dwntybh</orth>
+                  <pron notation="rabbinic" opt="false">donativah</pron>
+               </form>
             </form>
             <sense xml:id="donativa-dlgenr-1" opt="false">
                <cit type="translation" xml:lang="en" subtype="sense">
                   <quote>imperial donations (to the soldiers)</quote>
                </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <quote xml:lang="la">donativa</quote>
+               </cit>
                <cit type="example">
                   <quote xml:lang="jpa">
 א"ר אבא בשר ודם בשעה שהוא עושה
-            <ref type="entry">אסטאטיבה</ref>
+            <ref type="entry" xml:lang="jpa" target="istativa.html">אסטאטיבה</ref>
  אינו נותן
             <app>
                         <lem>דונאטיבה</lem>
@@ -84,9 +84,9 @@
                         <rdg wit="#K">דונא טבא</rdg>
                      </app>
  אינו עושה 
-            <ref type="entry">אסטאטיבה</ref>
+                     <ref type="entry" xml:lang="jpa" target="istativa.html">אסטאטיבה</ref>
 , אבל הקדוש ברוך הוא עשה
-            <ref type="entry">אסטאטיבה</ref>
+                     <ref type="entry" xml:lang="jpa" target="istativa.html">אסטאטיבה</ref>
  ונתן
             <app>
                         <lem>דונאטיבה</lem>

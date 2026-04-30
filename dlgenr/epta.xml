@@ -109,7 +109,7 @@
                         <rdg wit="#Vat1">אפטא</rdg>
                         <rdg wit="#K">אפטא</rdg>
                      </app>
-                ....
+                ...
          </quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">20,6</ref>
@@ -136,13 +136,16 @@
                </cit>
             </etym>
             <note anchored="true">
-        = NumR 4,3: <term xml:lang="jpa">איפטא</term>
-               <term xml:lang="fjb">ʾypṭʾ</term> |epṭaʾ|, Tanh  Bemidbar 18; 
-        TanhB Bemidbar 21; Yalq. Bereshit 20 (6c: 54), Yalq. Bemidbar 692 (220d: 13): <term xml:lang="jpa">אפטא</term>
-               <term xml:lang="fjb">ʾpṭʾ</term> |apta| yYev 5d: 7 (corr.): <term xml:lang="en">אבטא</term>
-               <term xml:lang="fjb">ʾbṭʾ</term>
-            </note>
+        = <bibl type="ancient">NumR 4,3</bibl>: <term xml:lang="jpa">איפטא</term>
+               <term xml:lang="fjb">ʾypṭʾ</term> <term xml:lang="rabbinic">epṭaʾ</term>, <bibl type="ancient">Tanh Bemidbar 18</bibl>; 
+               <bibl type="ancient">TanhB Bemidbar 21</bibl>; <bibl type="ancient">Yalq 20 [I 64: 82]</bibl>, <bibl type="ancient">Yalq 692 [VII 16: 32]</bibl>: <term xml:lang="jpa">אפטא</term>
+               <term xml:lang="fjb">ʾpṭʾ</term> <term xml:lang="rabbinic">apta</term> <bibl type="ancient">yYev 5d: 7</bibl> (corr.): <term xml:lang="en">אבטא</term>
+               <term xml:lang="fjb">ʾbṭʾ</term></note>
             <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>103a</citedRange>
+               </bibl>
                <bibl default="false" status="draft">
                   <title>Sperber</title>
                   <citedRange>96</citedRange>

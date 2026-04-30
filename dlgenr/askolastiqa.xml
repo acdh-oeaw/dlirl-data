@@ -46,7 +46,7 @@
                <orth type="transliteration" xml:lang="fjb" opt="false">ʾskwlsṭykh</orth>
                <pron notation="rabbinic" opt="false">askolasṭiqah</pron>
                <gramGrp opt="false">
-                  <gram type="pos" opt="false">noun</gram>"
+                  <gram type="pos" opt="false">noun</gram>
          <gram type="gen" opt="false">m.</gram>"
       </gramGrp>
                <form type="variant" opt="false">
@@ -105,7 +105,7 @@
                      <quote>Shall come R. Yehoshuaʿ ben Ḥananiyyaʾ, who is a scholar of the Law …</quote>
                   </cit>
                   <note anchored="true">=
-            <bibl type="ancient" default="false" status="draft">Yalq 111 [34c: 15]</bibl> (<term xml:lang="jpa">אסקלוסתיקא</term>)
+                     <bibl type="ancient" default="false" status="draft">Yalq 111 [II 534: 28]</bibl> (<term xml:lang="jpa">אסקלוסתיקא</term>)
          </note>
                </cit>
             </sense>
@@ -122,7 +122,7 @@
             </etym>
             <note anchored="true">
                Cf. 
-      <bibl type="modern" default="false" status="draft">Krauss, II 87ab</bibl> („Gesetzkundiger, Advokat“);
+               <bibl type="modern" default="false" status="draft">Krauss, LW II 87ab</bibl> („Gesetzkundiger, Advokat“);
       <bibl type="modern" default="false" status="draft">AC I 196b-197a</bibl> (<term xml:lang="jpa">אסקולסטיקא</term>);
       <bibl type="modern" default="false" status="draft">Levy I 125ab</bibl> („Schullehrer, bes. Lehrer der Beredsamkeit“, „Advokat“);
       <bibl type="modern" default="false" status="draft">Jastrow I 56a</bibl> “advocate, pleader”. Sokoloff interprets the rabb. form as det. of <term xml:lang="jpa">*איסכולסטיקוס</term>
@@ -131,7 +131,7 @@
 (<bibl type="ancient" default="false" status="draft">CantR 7,9</bibl>). For Pl. cf.
       <bibl type="ancient" default="false" status="draft">CantR 7,9</bibl>,
       <bibl type="ancient" default="false" status="draft">ExR 43,4</bibl> (emend.). In
-      <bibl type="ancient" default="false" status="draft">yBer 4,2 [37: 2]</bibl> used as pers. name: <term xml:lang="jpa">תנחום בר איסכולסטיקא</term>. For Syr. <term xml:lang="syc">ܐܣܟܘܠܣܛܝܩܐ</term>
+               <bibl type="ancient" default="false" status="draft">yBer 4,2 [37: 2]</bibl> used as pers. name: <term xml:lang="jpa">תנחום בר איסכולסטיקא</term> (Krauss, LW II 87b). For Syr. <term xml:lang="syc">ܐܣܟܘܠܣܛܝܩܐ</term>
                <term xml:lang="fjb">ʾskwlwsṭyqʾ</term> cf.
       <bibl type="modern" default="false" status="draft">Sokoloff, SL 73b</bibl>.
    </note>
@@ -139,6 +139,10 @@
                <bibl default="false" status="draft">
                   <title>Sokoloff, DJPA</title>
                   <citedRange>26a</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>87ab</citedRange>
                </bibl>
             </ref>
          </entry>

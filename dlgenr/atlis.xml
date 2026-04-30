@@ -95,7 +95,7 @@
                   <usg opt="false">
                      <lang opt="false">Greek</lang>
                   </usg>
-                  <quote>κατάλυσις (?)</quote>
+                  <quote>κατάλυσις</quote>
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>
@@ -108,9 +108,10 @@
                   <cit type="translation" xml:lang="en">
                      <quote>The Pathruthim and Casluhim set up bazaars. (Freedman / Simon I 298)</quote>
                   </cit>
-                  <note anchored="true">=
-            <bibl type="ancient" default="false" status="draft">Yalq 62 [17b: 5]</bibl> (<term xml:lang="jpa">הטליסין</term>);
-            <bibl type="ancient" default="false" status="draft">Yalq 1Chr 1073 [516c: 9]</bibl> (<term xml:lang="jpa">היטלוסין</term>)
+                  <note>= Yalq 62 [] (איטליסין); Yalq 1Chr 1073 [516c: 9] (היטלוסין)
+                     =
+                     <bibl type="ancient">Yalq 62 [I 228: 34]</bibl> (<term xml:lang="jpa">איטליסין</term>);
+            <bibl type="ancient">Yalq 1Chr 1073 [516c: 9]</bibl> (<term xml:lang="jpa">היטלוסין</term>)
          </note>
                </cit>
                <cit type="example" xml:lang="jpa">
@@ -125,7 +126,7 @@
                      <quote>He began to set up bazaars and sell cheaply.</quote>
                   </cit>
                   <note anchored="true">=
-            <bibl type="ancient" default="false" status="draft">Yalq 133 [42b: 10]</bibl> (<term xml:lang="jpa">אטליסין</term>)
+                     <bibl type="ancient" default="false" status="draft">Yalq 133 [II 679: 13]</bibl> (<term xml:lang="jpa">אטליסין</term>)
          </note>
                </cit>
             </sense>

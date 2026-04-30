@@ -46,8 +46,7 @@
                <orth type="transliteration" xml:lang="fjb" opt="false">ʾgrywn</orth>
                <pron notation="rabbinic" opt="false">agriyon</pron>
                <gramGrp opt="false">
-                  <gram type="pos" opt="false">adj</gram>
-                  <gram type="gen" opt="false">m</gram>
+                  <gram type="pos" opt="false">adj.</gram>
                </gramGrp>
             </form>
             <sense xml:id="agrion-dlgenr-1" opt="false">
@@ -93,6 +92,8 @@ So, if the nations of the world will come to struggle with Israel, the Holy One 
 will say to them: “Your prince could not withstand him [Jacob] and you want to struggle with his children!”
             </quote>
                   </cit>
+                  <note>= <bibl type="ancient">ShirR 3,3</bibl>; <bibl type="ancient">Yalq. 132 [II 658: 70]</bibl>: <term xml:lang="jpa">אגריאון</term>
+                     <term xml:lang="fjb">ʾgryʾwn</term> <term xml:lang="rabbinic">agriʾon</term></note>
                </cit>
             </sense>
             <etym type="borrowing" opt="false">
@@ -107,17 +108,15 @@ will say to them: “Your prince could not withstand him [Jacob] and you want to
                </cit>
             </etym>
             <note anchored="true">
-Yalq. 132 (41a: 7): <term xml:lang="jpa">אגריאון</term>
-               <term xml:lang="fjb">ʾgryʾwn</term> |agriʾon|, 
-AC I: 28: |agriʾun|. 
+               See also AC I 28b; Levy I 25b; Jastrow I 14b-15a.  
 Opp.: <term xml:lang="jpa">אימירון</term>
-               <term xml:lang="fjb">ʾymyrwn</term> |emeron| 
+               <term xml:lang="fjb">ʾymyrwn</term> <term xml:lang="rabbinic">emeron</term> 
 (used together in: NumR 11,3 [= ShirR 3,5; PesK 1, MShem 17,4]).
    </note>
             <ref type="bibliography">
                <bibl default="false" status="draft" facs="https://archive.org/details/GriechischeUndLateinischeLehnwrterInTalmudMidraschUndTargum/Griechische_und_lateinische_Lehnwrter2/page/n29/mode/2up">
-                  <title>Krauss II</title>
-                  <citedRange>12</citedRange>
+                  <title>Krauss LW II</title>
+                  <citedRange>12a</citedRange>
                </bibl>
             </ref>
          </entry>

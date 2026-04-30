@@ -92,9 +92,8 @@
                   </cit>
                   <note anchored="true">=
             <bibl type="ancient" default="false" status="draft">ShirR 3,3</bibl>;
-            <bibl type="ancient" default="false" status="draft">Yalq 132 [41a: 7]</bibl> (<term xml:lang="jpa">נמירון</term>)
-         </note>
-               </cit>
+                     <bibl type="ancient" default="false" status="draft">Yalq 132 [II 658: 71]</bibl> (<term xml:lang="jpa">נומיריון</term>)</note>
+            </cit>
             </sense>
             <etym type="borrowing" opt="false">
                <lbl opt="false">source language</lbl>

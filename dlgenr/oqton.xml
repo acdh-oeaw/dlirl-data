@@ -84,15 +84,15 @@
                         <rdg wit="#Ox2">אוקטא</rdg>
                         <rdg wit="#V">אוכטו</rdg>
                      </app>
-            ....
+            ...
          </quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">14,2</ref>
                      <ref type="witness">I 127: 3</ref>
                   </bibl>
-                  <ref type="entry" target="zeta.html">זיטא</ref>
-                  <ref type="entry" target="epta.html">איפטה</ref>
-                  <ref type="entry">איטה</ref>
+                  <ref type="entry" xml:lang="jpa" target="zeta.html">זיטא</ref>
+                  <ref type="entry" xml:lang="jpa" target="epta.html">איפטה</ref>
+                  <ref type="entry" xml:lang="jpa">איטה</ref>
                   <cit type="translation">
                      <quote xml:lang="en">He replied to them: From your own [language]
 I will prove it to you: “Zeṭaʾ (live) epṭah (seven), eṭah (go) akṭo (eight)”
@@ -116,9 +116,9 @@ I will prove it to you: “Zeṭaʾ (live) epṭah (seven), eṭah (go) akṭo (
                      <ref type="witness">20,6</ref>
                      <ref type="witness">I 189: 3</ref>
                   </bibl>
-                  <ref type="entry" target="zeta.html">זיטא</ref>
-                  <ref type="entry" target="epta.html">איפטה</ref>
-                  <ref type="entry">היטה</ref>
+                  <ref type="entry" xml:lang="jpa" target="zeta.html">זיטא</ref>
+                  <ref type="entry" xml:lang="jpa" target="epta.html">איפטה</ref>
+                  <ref type="entry" xml:lang="jpa">היטה</ref>
                   <cit type="translation">
                      <quote xml:lang="en">He replied to them: From your own [language] I will prove it to you: “Zetaʾ
                (live) epṭah (seven), eṭah (go) akṭo (eight)” (cf. Freedman / Simon I: 164) 
@@ -138,14 +138,18 @@ I will prove it to you: “Zeṭaʾ (live) epṭah (seven), eṭah (go) akṭo (
                </cit>
             </etym>
             <note anchored="true">
-= Yalq. Bereshit 20 (6c: 54): <term xml:lang="jpa">אוכטא</term>
-               <term xml:lang="fjb">ʾwkṭʾ</term> |okṭaʾ|; 
-NumR 4,3: <term xml:lang="jpa">אוכטי</term>
-               <term xml:lang="fjb">ʾwkṭy</term>; Yalq. Bemidbar 692 (220d: 13), Tanh Bemidbar 18 (corr.): <term xml:lang="jpa">ארנון</term>
-               <term xml:lang="fjb">ʾrnwn</term> (in Yalq emend.); TanhB Bemidbar 21: <term xml:lang="jpa">אקטו</term>
-               <term xml:lang="fjb">ʾqṭw</term>
- |aqṭo|; yYev 5d: 7 - (corr.)
-   </note>
+               = <bibl type="ancient">Yalq 20 [I 64: 82]</bibl>: <term xml:lang="jpa">אוכטא</term>
+               <term xml:lang="fjb">ʾwkṭʾ</term> <term xml:lang="rabbinic">okṭaʾ</term>; 
+<bibl type="ancient">NumR 4,3</bibl>: <term xml:lang="jpa">אוכטי</term>
+               <term xml:lang="fjb">ʾwkṭy</term>; <bibl type="ancient">Yalq. Bemidbar 692 [VII 16: 32]</bibl>, <bibl type="ancient">Tanh Bemidbar 18</bibl> (corr.): <term xml:lang="jpa">ארנון</term>
+               <term xml:lang="fjb">ʾrnwn</term> (in Yalq emend.); <bibl type="ancient">TanhB Bemidbar 21</bibl>: <term xml:lang="jpa">אקטו</term>
+               <term xml:lang="fjb">ʾqṭw</term> <term xml:lang="rabbinic">aqṭo</term>; <bibl type="ancient">yYev 5d: 7</bibl> - (corr.) Explanation cf. <ref type="entry" xml:lang="jpa" target="zeta.html">זיטא</ref></note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>44a</citedRange>
+               </bibl>
+            </ref>
          </entry>
       </body>
    </text>

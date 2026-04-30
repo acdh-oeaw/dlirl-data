@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אוכלוסין</title>
+            <title type="alternative">ʾwkhlwsyn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="okhlosin-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אוכלוסין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾwkhlwsyn</orth>
+               <pron notation="rabbinic" opt="false">okhlosin</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="okhlosin-dlgenr-1" n="1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>masses [of people]</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ὄχλος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' יוחנן סלק למישל בשלמיה דר' חנינא אשכחיה יתיב דריש הדן פסוקא ביום ההוא יקראו לירושלים כסא י"י ונקוו אליה כל הגוים, [אמר לו ר'] וכי מחזקת היא אתמהא, אמר ליה הקדוש ברוך הוא אומר לה האריכי הרחיבי קבלי 
+                     <app>
+                        <lem>אכלוסיך</lem>
+                        <rdg wit="#V">אוכלוסיך</rdg>
+                        <rdg wit="#Vat2">אוכלוסייך</rdg>
+                     </app> [שנ' הרחיבי מקום אהלך (ישעיה נד ב)].</quote>
+                  <bibl>
+                     <ref type="witness">5,7</ref>
+                     <ref type="witness">I 37: 6</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Yoḥanan went up to inquire after the wellbeing of R. Ḥaninaʾ, and he found him sitting and lecturing on this verse: At that time they shall call Jerusalem ‘The throne of the Lord’, and all the nations shall be gathered unto it (Jer 3,17). Said he to him: Can it then hold [all them]! It is amazing! – The Holy One, blessed be He, will order it: ‘Lengthen [thy boundaries], enlarge [thy space], and receive thy hosts,’ as it is said, Enlarge the place of thy tent (Jes 54,2). (Freedman / Simon I 38)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">LevR (Margalioth) 10,9 (218: 8)</bibl> (<term xml:lang="jpa">אוכלוסייך</term>); <bibl type="ancient">PesK 20,7 (316: 10)</bibl> (<term xml:lang="jpa">אוכלסייך</term>); <bibl type="ancient">PesR 21,22 (Ulmer 616)</bibl> (<term xml:lang="jpa">אוכלוסיך</term>); <bibl type="ancient">Yalq 7 [I 27: 14]</bibl> (<term xml:lang="jpa">אוכלוסיך</term>); <bibl type="ancient">Yalq Jos 14 (X 23: 21)</bibl> (<term xml:lang="jpa">אוכלוסיך</term>); <bibl type="ancient">Yalq Jes 472 (XI 248: 5)</bibl> (<term xml:lang="jpa">אוכלוסיך</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ואת הכוכבים אמר ר' אחא 
+                     <app>
+                        <lem>למלך</lem>
+                        <rdg wit="#Ox1 Ox2 V K">משל למלך</rdg>
+                     </app> שהיה לו ב' אפיטרופים אחד שלט בעיר ואחד במדינה, אמר המלך הואיל ומיעט עצמו זה להיות שולט בעיר גוזר אני עליו בשעה שיוצא תהא בולי ודימוס 
+                     <app>
+                        <lem>יוצאין</lem>
+                        <rdg wit="#K">.בולי ודימוס יוצאין</rdg>
+                        <rdg wit="#V">כל אוכלוסא יוצאה</rdg>
+                     </app> עמו ובשעה שנכנס תהא בולי ודימוס נכנסין עמו</quote>
+                  <bibl>
+                     <ref type="witness">6,4</ref>
+                     <ref type="witness">I 43: 4</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">דימוס</ref>
+                  <ref type="entry" xml:lang="jpa">בולי</ref>
+                  <ref type="entry" xml:lang="jpa">אפיטרופים</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And the stars (Gen 1,16). R. Aḥa said: This is similar to a king who had two governors, one ruling in the city and the other in the province. Said the king: “Since the former has humbled himself to rule in the city only, I decree that wherever he goes out, the city council and the people shall go out with him, and whenever he enters, the city council and the people shall enter with him. (Cf. Freedman / Simon I 43-44)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 9 [4a: 41]</bibl> (<term xml:lang="jpa">אפוטרופסין</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ביום חילך בשעה שכנסתה לי כל 
+                     <app>
+                        <lem>אותן</lem>
+                        <rdg wit="#V K Ox2"></rdg>
+                     </app> 
+                     <app>
+                        <lem>האוכלוסין</lem>
+                        <rdg wit="#Vat1 Vat2">האוכלסין</rdg>
+                        <rdg wit="#Ox1">אוכלוסי</rdg>
+                        <rdg wit="#Ox2">החיילות והאוכלוסין</rdg>
+                        <rdg wit="#V">החילות והאוכלסים</rdg>
+                        <rdg wit="#K">החילות והאוכלסי'</rdg>
+                     </app></quote>
+                  <bibl>
+                     <ref type="witness">39,8</ref>
+                     <ref type="witness">I 370: 3</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>In the day of thy warfare (Ps 60,3) [lit. ‘retinue’]; when thou didst bring Me all those bands. (Freedman / Simon I 316)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq Ps 869 [478c: 38]</bibl> (<term xml:lang="jpa">החיילות והאוכלוסין</term>); <bibl type="ancient">YalqM 110,11 [II 92a]</bibl> (<term xml:lang="jpa">האוכלוסין</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>על כן קראה שמו וגו' בכל מקום שנ' על כן 
+                     <app>
+                        <lem>קראה שמו</lem>
+                        <rdg wit="#Vat1 Vat2 V Ox1 Ox2"></rdg>
+                     </app> מרובה 
+                     <app>
+                        <lem>באוכלוסים</lem>
+                        <rdg wit="#Vat1 Vat2 V">באוכלסים</rdg>
+                        <rdg wit="#Ox2">באכלוסין</rdg>
+                     </app></quote>
+                  <bibl>
+                     <ref type="witness">71,4</ref>
+                     <ref type="witness">II 826: 5</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Therefore was his name called (Gen 29,34): wherever Therefore his name was called occurs, it intimates that his masses were large. (cf. Freedman / Simon II 655)</quote>   
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 126 [II 612: 31]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>על כן קרא שמו יהודה בכל מקום שנ' על כן קראה שמו מרובה 
+                     <app>
+                        <lem>באוכלוסין</lem>
+                        <rdg wit="#Vat1 Vat2 V Ox2">באוכלסין</rdg>
+                     </app></quote>
+                  <bibl>
+                     <ref type="witness">71,5</ref>
+                     <ref type="witness">II 829: 3</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Therefore she called his name Judah (Gen 29,35). Wherever Therefore she called his name occurs, it intimates that his masses were large. (cf. Freedman / Simon II 657)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 126 [II 612: 31]</bibl> (<term xml:lang="jpa">באוכלוסין</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>על כן קרא שמו דן בכל מקום שנ' על כן קראה שמו מרובה 
+                     <app>
+                        <lem>באוכלוסין</lem>
+                        <rdg wit="#Ox2">באכלוסין</rdg>
+                        <rdg wit="#Vat1 Vat2">באוכלסים</rdg>
+                     </app></quote>
+                  <bibl>
+                     <ref type="witness">71,7</ref>
+                     <ref type="witness">II 832: 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Therefore she called his name Dan (Gen 33,6): Wherever Therefore she called his name occurs, it intimates that his masses were large. (cf. Freedman / Simon II 659)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 126 [II 612: 31]</bibl> (<term xml:lang="jpa">באוכלוסין</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>... אלו מרובין באוכלסין ואלו מועטין באוכלסין</quote>
+                  <bibl>
+                     <ref type="witness">99 [100],2</ref>
+                     <ref type="witness">III 1274: 5</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>... the masses of these [people] are large and of these are few ...</quote>
+                  </cit>
+               </cit>
+            </sense>
+            <sense xml:id="okhlosin-dlgenr-2" n="2">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>troops [of soldiers]</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' יהודה א' ויפלו שמה אילו 
+                     <app>
+                        <lem>האוכלסים</lem>
+                        <rdg wit="#Vat1">המלכים</rdg>
+                        <rdg wit="#Vat2 V">האוכלוסין</rdg>
+                        <rdg wit="#Ox2">2האכלוסין</rdg>
+                     </app> והנשארים הרה נסו אילו 
+                     <app>
+                        <lem>המלכים</lem>
+                        <rdg wit="#Vat1">האוכלסין</rdg>
+                     </app>, רבי נחמיה א' ויפלו שמה אילו 
+                     <app>
+                        <lem>המלכים</lem>
+                        <rdg wit="#Vat1">האוכלסין</rdg>
+                     </app> והנשארים הרה נסו אילו 
+                     <app>
+                        <lem>האוכלוסין</lem>
+                        <rdg wit="#Vat2 K">האוכלוסין</rdg>
+                        <rdg wit="#Ox1 V">האוכלוסים</rdg>
+                        <rdg wit="#Vat1">המלכים</rdg>
+                     </app>.</quote>
+                  <bibl>
+                     <ref type="witness">41 [42],7</ref>
+                     <ref type="witness">I 413: 1,3</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Yehuda said: And they fell there (Gen 14,10) refers to the troops, while And they that remained fled to the mountain (ibid.) refers to the kings. R. Neḥemyah said: And they fell there refers to the kings, while And they that remained fled to the mountains refers to the troops. (Freedman / Simon I 349)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 72 [I 279: 59;61]</bibl> (<term xml:lang="jpa">האוכלוסין</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' לוי אמר מפני שהיה אברהם מתפחד ואומר תאמר אותן 
+                     <app>
+                        <lem>האוכלוסין</lem>
+                        <rdg wit="#Ox1">אוכלוסין</rdg>
+                        <rdg wit="#V">אכלסין</rdg>
+                        <rdg wit="#Ox2">אכלוסין</rdg>
+                        <rdg wit="#Vat2"> האוכלסין</rdg>
+                     </app> שהרגתי שהיה בהם צדיק או ירא שמים, משל לתבן שהיה עובר לפני פרדסיו שלמלך, ראה חבילות שלקוצים וירד ונטלם, והציץ וראה אותו, והתחיל מטמן מפניו, אמר לו מפני מה אתה מיטמן, פועלים הייתי צריך שיקושו אותה, עכשיו שקששתה אתה בוא וטול שכרך, כך אמר הקדוש ברוך הוא לאברהם אותם 
+                     <app>
+                        <lem>האוכלוסין</lem>
+                        <rdg wit="#Vat2">האוכלסין</rdg>
+                        <rdg wit="#V Ox1">אוכלוסין</rdg>
+                        <rdg wit="#Vat1 K">אוכלסין</rdg>
+                        <rdg wit="#Ox2">אכלוסין</rdg>
+                     </app> שהרגת קוצים כסוחים היו הה"ד [והיו עמים משרפות שיד] קוצים כסוחים וגו'</quote>
+                  <bibl>
+                     <ref type="witness">44,3</ref>
+                     <ref type="witness">I 427: 2;5</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Levi explained this in two ways, the Rabbis in one. R. Levi said: Abraham was filled with misgiving, thinking to himself, ‘maybe there was a righteous or Godfearing man among those troops which I slew. This may be compared to a straw-merchant who was passing the king’s orchards, and seeing some bundles of thorns, descended [from his wagon] and took them. [The king] caught sight of him, whereupon he tried to hide himself. ‘Why do you hide?’ he said to him, reassuringly, ‘I needed labourers to gather them; now that you have gathered them, come and receive your reward.’ Thus the Holy One, blessed be He, said to Abraham: ‘Those troops that thou slewest were thorns als ready cut down’; thus it is written, And the peoples shall be as the burnings of lime; as thorns cut down, that are burned in the fire (Jes 33,12). (Freedman / Simon I 362-363)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 76 [I 295: 80; 296: 85]</bibl> (<term xml:lang="jpa">אוכלוסין</term>); <bibl type="ancient">Yalq Jes 449 [XI 192: 51;56]</bibl> (<term xml:lang="jpa">אוכלוסין</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' לוי אמר חורי לפי שהיה אברהם מתפחד ואומר תאמר אותן 
+                     <app>
+                     <lem>המלכים</lem>
+                     <rdg wit="#Vat1">אוכלוסין</rdg>
+                  </app> שהרגתי שבניהם מכנסין 
+                     <app>
+                        <lem>אוכלוסין</lem>
+                        <rdg wit="#Ox2">אוכלוסים</rdg>
+                        <rdg wit="#Vat2">אוכלסין</rdg>
+                        <rdg wit="#Vat1"></rdg>
+                     </app> ובאין ועושין עימי מלחמה, אמר לו הקדוש ברוך הוא אל תירא אברם אנכי מגן לך</quote>
+                  <bibl>
+                     <ref type="witness">44,3</ref>
+                     <ref type="witness">I 427: 7</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Levi said another comment: Abraham was fearful, saying, ‘Perhaps the sons of the kings that I slew will collect troops and come and wage war against me.’ Therefore the Holy One, blessed be He, said to him: Fear not, Abram, I am thy shield (Gen 15,1). (Freedman / Simon I 363)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 76 [I 296: 87]</bibl></note>
+               </cit>
+            </sense>
+            <note>Cf. <bibl type="modern">AC I 77a</bibl>; <bibl type="modern">Levi I 75a</bibl>; <bibl type="modern">Krauss, LW II 18b</bibl>. Semantic differentiation between 1. and 2. not always clear. The sg. form <term xml:lang="jpa">אכלוזא</term> <term xml:lang="fjb">ʾkhlwzʾ</term> <term xml:lang="rabbinic">okhlozaʾ</term> or <term xml:lang="jpa">אכלוסא</term> <term xml:lang="fjb">ʾkhlwsʾ</term> <term xml:lang="rabbinic">okhlosaʾ</term>, attested in some var. of <bibl type="ancient">GenR 6,4</bibl> (as well as in <bibl type="ancient">bBer 58a</bibl>; <bibl type="ancient">bBM 108a</bibl> and other) appears mostly in Aramaic context. The det. form <term xml:lang="jpa">אוכלוסייא</term> <term xml:lang="fjb">ʾwkhlwsyyʾ</term> <term xml:lang="rabbinic">okhlosiyyah</term> is used in <bibl type="ancient">bSan 29b</bibl>. Jastrow’s (I 25a) suggested explanation as Hebr. KHLZ is not convincing. For Syr. <term xml:lang="syc">ܐܒܠܘܗ</term> <term xml:lang="fjb">ʾkhlws</term> cf. <bibl type="modern">Sokoloff, SL 42a</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>18b</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>10a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

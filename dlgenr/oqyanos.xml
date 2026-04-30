@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אוקיינוס</title>
+            <title type="alternative">ʾwqyynws</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="oqyanos-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אוקיינוס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾwqyynws</orth>
+               <pron notation="rabbinic" opt="false">oqiyanos</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="oqyanos-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>ocean</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ὠκεανός</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' יוחנן נטל הקדוש ברוך הוא כל מי בראשית ונתן חציים ברקיע וחציים באוקינוס</quote>
+                  <bibl>
+                     <ref type="witness">4,4</ref>
+                     <ref type="witness">I 28: 9</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Yoḥanan said: The Holy One, blessed be He, took all the primeval water and poured half in the firmament and half into the ocean. (Freedman / Simon I 30)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 5 [I 22: 76]</bibl>; <bibl type="ancient">Yalq Ps 789 [463b: 22]</bibl> (<term xml:lang="jpa">באוקינוס</term>); <bibl type="ancient">Makh Ps 65,16 [I 160b]</bibl> (<term xml:lang="jpa">באוקיאנוס</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>מעשה בר' אליעזר בר' יהושע שהיו מפרשים בים הגדול, נכנסה ספינתן למים שאינן מהלכין, אמר ר' אליעזר לר' יהושע לא באנו לכאן אלא לניסיון ומילאו משם מלא חבית מים, כיון שעלו לרומי אמר להם אדריינוס מימי 
+                     <app>
+                        <lem>אקיינוס</lem>
+                        <rdg wit="#K V">אוקינוס</rdg>
+                        <rdg wit="#Ox1 Ox2">אוקיאנוס</rdg>
+                     </app> מה הם ...</quote><bibl>
+                     <ref type="witness">13,9</ref>
+                     <ref type="witness">I 118: 4</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אדריינוס</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Eliʿezer and R. Yehoshuaʿ were once travelling on the great sea, when their ship entered a non-flowing stretch of water. Said R. Eliʿezer to R. Yehoshuaʿ: “We have come here simply for a test.” Thereupon they filled a barrel of water from there. When they arrived in Rome, Hadrian asked them, “What is there nature of water of the Ocean [i. e. the Mediterranean]?” (Freedman / Simon I 104)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq Koh 967 [540d: 40]</bibl> (<term xml:lang="jpa">אוקינוס</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ומאיכן הארץ שותה, ר' אליעזר ור' יהושע ר' אליעזר א' ממימי 
+                     <app>
+                        <lem>אוקיינוס</lem>
+                        <rdg wit="#Ox1 Ox2 K V">אוקיאנוס</rdg>
+                     </app></quote>
+                  <bibl>
+                     <ref type="witness">13,10</ref>
+                     <ref type="witness">I 119: 6</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>“And whence does the earth drink?” R. Eliʿezer and R. Ye From the waters of the ocean. (Sperber [1986] 129)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">bTaʾan 9b</bibl> (<term xml:lang="jpa">אוקיינוס</term>); <bibl type="ancient">Tanh Mi-qeṣ 1</bibl> (<term xml:lang="jpa">אוקינוס</term>); <bibl type="ancient">KohR 1,7</bibl> (<term xml:lang="jpa">אוקינוס</term>); <bibl type="ancient">Yalq 20 [I 61: 27]</bibl> (<term xml:lang="jpa">אוקינוס</term>)</note>
+               </cit>
+               <cit type="example">
+                  <quote>דרש ר' אבהו 
+                     <app>
+                        <lem>אוקיינוס</lem>
+                        <rdg wit="#K V Ox1 Ox2">אוקיאנוס</rdg>
+                     </app> גבוה מכל העולם</quote>
+                  <bibl>
+                     <ref type="witness">23,7</ref>
+                     <ref type="witness">I 228: 2</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Abbahu explained: The ocean is higher that all the earth.</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>מכל אשר בחרבה מתו פרט לדגים, ויש אומרים אף הן היו בכלל מאוספין אלא שברחו 
+                     <app>
+                        <lem>לאוקיינוס</lem>
+                        <rdg wit="#Vat1">לאוקינוס</rdg>
+                        <rdg wit="#Ox1">לאוקיאנוס</rdg>
+                        <rdg wit="#K V Ox2">לים הגדול לאוקיינוס</rdg>
+                     </app></quote>
+                  <bibl>
+                     <ref type="witness">32,11</ref>
+                     <ref type="witness">I 298: 5</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Whatsoever was in the dry land, died (Gen 7,22). This excludes fish. But some maintain that they too were included among those who were to be gathered into [the ark], but they fled to the Ocean. (Freedman / Simon I 256)</quote>
+                  </cit>
+               </cit>
+            </sense>
+            <note>Cf. <bibl type="modern">Krauss, LW II 25b-26a</bibl>. Attested also as <term xml:lang="jpa">אנקיינוס</term> <term xml:lang="fjb">ʾnqyynos</term> <term xml:lang="rabbinic">anqiyanos</term> (cf. <bibl type="modern">Krauss, LW II 75b</bibl>). Used in the general meaning „ocean“ or in particular for the “Mediterranian sea”. For details see <bibl type="modern">Sperber (1986) 129-131</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>25b-26a</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Sperber (1986)</title>
+                  <citedRange>129-131</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

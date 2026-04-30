@@ -98,7 +98,7 @@
                   <cit type="translation" xml:lang="en">
                      <quote>… this is comparable to a king who had two prefects</quote>
                   </cit>
-                  <note>= <bibl type="ancient">yBer 8,6 [63: 44]</bibl>; <bibl type="ancient">Yalq Jes 461 [XI 225: 27]</bibl> (<term xml:lang="jpa">אסטרטיגין</term>); <bibl type="ancient">Yalq Hi 924 [510b: 60]</bibl> (<term xml:lang="jpa">אסטרטיגין</term>); <bibl type="ancient">YalqM Jes 45,7 [151: 26]</bibl> (<term xml:lang="jpa">אצטרטיגין</term>)</note>
+                  <note>= <bibl type="ancient">yBer 8,6 [63: 44]</bibl>; <bibl type="ancient">Yalq 5 [I 18: 6]</bibl>; <bibl type="ancient">Yalq Jes 461 [XI 225: 27]</bibl> (<term xml:lang="jpa">אסטרטיגין</term>); <bibl type="ancient">Yalq Hi 924 [510b: 60]</bibl> (<term xml:lang="jpa">אסטרטיגין</term>); <bibl type="ancient">YalqM Jes 45,7 [151: 26]</bibl> (<term xml:lang="jpa">אצטרטיגין</term>)</note>
                </cit>
             </sense>
             <note>Common in rabb. Lit. Cf. <bibl type="modern">AC I 175b-176a</bibl>; <bibl type="modern">Levy I 122b</bibl>; <bibl type="modern">Krauss, LW II 83b-84a</bibl>; <bibl type="modern">Jastrow I 92a</bibl>. Krauss distinguishes between A: “Wachposten, Wache” in Aram. and B: “Heeresführer, Präfekt” in Hebr. Sokoloff: “magistrate”.  Acc. to Jastrow, “magistrate” is typical for Later Greek.</note>
@@ -106,6 +106,10 @@
                <bibl>
                   <title>Sokoloff, DJPA</title>
                   <citedRange>25b</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>83ab</citedRange>
                </bibl>
             </ref>
          </entry>

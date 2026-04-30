@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">איסטאטיבה</title>
+            <title type="alternative">ʾysṭʾṭybh</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="istativa-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">איסטאטיבה</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾysṭʾṭybh</orth>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">אסטטיבא</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾsṭṭybʾ</orth>
+                  <pron notation="rabbinic">ʾisṭaṭivaʾ</pron>
+               </form>
+            </form>
+            <sense xml:id="istativa-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>camp</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <quote>(castra) stativa</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>א"ר אבא בשר ודם בשעה שהוא עושה 
+                     <app>
+                        <lem>אסטאטיבה</lem>
+                        <rdg wit="#V">אסטאטיבה</rdg>
+                        <rdg wit="#K">אישטאטיבה</rdg>
+                        <rdg wit="#Ox1">איצטאטיבא</rdg>
+                        <rdg wit="#Ox2">איסטטיבא</rdg>
+                        <rdg wit="#Vat2">איסטאטיבה</rdg>
+                     </app> אינו נותן דונטיבא, ובשעה שהוא נותן דונטיבה אינו עושה 
+                     <app>
+                        <lem>אסטאטיבה</lem>
+                        <rdg wit="#V">אסטאטיבה</rdg>
+                        <rdg wit="#Vat2">איסטאטיבה</rdg>
+                     </app>, אבל הקדוש ברוך הוא עשה 
+                     <app>
+                        <lem>אסטאטיבה</lem>
+                        <rdg wit="#V">אסטאטיבה</rdg>
+                        <rdg wit="#Vat2">איסטאטיבה</rdg>
+                     </app> ונתן דונטיבה וישבות ויברך</quote>
+                  <bibl>
+                     <ref type="witness">10,9</ref>
+                     <ref type="witness">Ι 86: 5, 6</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa" target="donativa.html">דונטיבה</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Abba said: When a mortal king puts [his army] into a permanent camp he doesn’t give donations, and when he gives donations he doesn’t put [his army] into a permanent camp. But the Holy one, blessed be He, made a stop and gave donations [as it is written]: and he rested, and he blessed.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">TanhB Wa-yeṣeʾ 22</bibl> (<term xml:lang="jpa">איסטאטיבא</term>); <bibl type="ancient">Yalq 16 [I 50: 56;57]</bibl> (<term xml:lang="jpa">איסטטיבא</term>)</note>
+               </cit>
+            </sense>
+            <note>Cf. <bibl type="modern">AC I 168</bibl>. <bibl type="modern">Levy I 117</bibl>, <bibl type="modern">Jastrow I 89</bibl>, <bibl type="modern">Krauss II 77b</bibl> refer also to <term xml:lang="jpa">אסטטיא</term> <term xml:lang="fjb">ʾsṭṭyʾ</term> <term xml:lang="rabbinic">ʾisṭatiaʾ</term> Lat. <term xml:lang="la">statio</term> (<bibl type="ancient">PesR 31</bibl>), not attested in GenR. Other spellings: <term xml:lang="jpa">אישטאטיבה</term> <term xml:lang="fjb">ʾyśṭʾṭybh</term>, <term xml:lang="jpa">איצטאטיבא</term> <term xml:lang="fjb">ʾyṣṭʾṭybʾ</term></note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>77b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

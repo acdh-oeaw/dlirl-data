@@ -98,7 +98,7 @@
                         it to you: “Zeṭaʾ (live) epṭah (seven), eṭah (go) akṭo (eight)” (Freedman / Simon I: 164)
                      </quote>
                   </cit>
-                  <note>= Yalq. Bereshit 20 (6c: 53); NumR 4,3; Yalq. Bemidbar 692 (220d: 13), Tanh Bemidbar 18, TanhB Bemidbar 21; yYev 5d: 7 (corr.): <term xml:lang="jpa">זוטא</term>
+                  <note>= <bibl type="ancient">Yalq 20 [I 64: 82]</bibl>; <bibl type="ancient">NumR 4,3</bibl>; <bibl type="ancient">Yalq 692 [VII 16: 32]</bibl>, <bibl type="ancient">Tanh Bemidbar 18</bibl>, <bibl type="ancient">TanhB Bemidbar 21</bibl>; <bibl type="ancient">yYev 5d: 7</bibl> (corr.): <term xml:lang="jpa">זוטא</term>
                      <term xml:lang="fjb">zwṭʾ</term></note>
                </cit>
             </sense>
@@ -117,12 +117,11 @@
 According to R. Huna a foetus which was born at 7th month is viable, 
 but a foetus which was born at 8th month is not viable. R. Abbahu gives a 
 mnemonic based on a Greek pun:  The name of the Greek letter ‘zeta’ 
-(numerical value 7) sounds like the Greek imp. <term xml:lang="grc">ζῆτω</term> (‘let it live!’), while the name of the letter ‘eta’ (numerical value 8) sounds like the Greek <term xml:lang="grc">ἲτω</term> (‘let it go!’, i.e. ‘die!’).
-   </note>
+(numerical value 7) sounds like the Greek imp. <term xml:lang="grc">ζῆτω</term> (‘let it live!’), while the name of the letter ‘eta’ (numerical value 8) sounds like the Greek <term xml:lang="grc">ἲτω</term> (‘let it go!’, i.e. ‘die!’). Cf. <bibl type="modern">Sachs (1852) 109-110</bibl>. Another explanation is given by <bibl type="modern">Cohn (1900) 569</bibl> in the name of O. Crusius: <foreign xml:lang="grc">ξῇ τὰ ἐπτὰ (μᾶλλον) ἢ τὰ ὀκτώ</foreign> “Infants of seven months are more likely to survive than those of eight” (cf. <bibl type="modern">Lieberman, Greek 23</bibl>).</note>
             <ref type="bibliography">
                <bibl default="false" status="draft" facs="https://archive.org/details/GriechischeUndLateinischeLehnwrterInTalmudMidraschUndTargum/Griechische_und_lateinische_Lehnwrter2/page/n263/mode/2up">
                   <title>Krauss, LW II</title>
-                  <citedRange>246</citedRange>
+                  <citedRange>246b</citedRange>
                </bibl>
             </ref>
          </entry>
