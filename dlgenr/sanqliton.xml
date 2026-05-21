@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">סנקליטון</title>
+            <title type="alternative">snqlyṭwn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="sanqliton-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">סנקליטון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">snqlyṭwn</orth>
+               <pron notation="rabbinic" opt="false">sanqliṭon</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">סנקליטין</orth>
+                  <orth type="translitertation" xml:lang="fjb">snqlyṭyn</orth>
+                  <pron notation="rabbinic">sanqliṭin</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form><form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">סונקליטין</orth>
+                  <orth type="translitertation" xml:lang="fjb">swnqlyṭyn</orth>
+                  <pron notation="rabbinic">sunqliṭin</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+            </form>
+            <sense xml:id="sanqliton-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>senator, advisor</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>σύγκλητος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>משל למלך שהיה לו שני 
+                  <app>
+                     <lem>סינקליטין</lem>
+                     <rdg wit="#K V">סינקליטים</rdg>
+                     <rdg wit="#Ox1">סנקליטין</rdg>
+                     <rdg wit="#Ox2">סונקליטין</rdg>
+                     <rdg wit="#P">סונקליטיקון</rdg>
+                     <rdg wit="#BM">סינקליטון</rdg>
+                     <rdg wit="#Vat2">סונקליטיקין</rdg>
+                  </app> ולא היה עושה דבר חוץ מדעתן</quote>
+                  <bibl>
+                     <ref type="witness">8,3</ref>
+                     <ref type="witness">I 59: 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>This may be compared to a king who had two advisors without whose knowledge he did nothing.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 13 [I 35: 17]</bibl> (<term xml:lang="jpa">סנקליטין)</term></note>  
+               </cit>
+            </sense>
+            <note>Sokoloff renders <term xml:lang="jpa">*סנקליטוס</term> <term xml:lang="fjb">snqlyṭws</term> for sg. Cf. <bibl type="modern">Krauss, LW II 405a</bibl>. The reading of BM is corrupted; however, it represents the sg. form, which is not attested elsewhere in GenR. For the readings of Vat 2 and P cf. <term xml:lang="jpa">סנקליטיקוס</term> For Syr. <term xml:lang="syc">ܣܘܢܩܠܛܘܣ</term> <term xml:lang="rabbinic">swnqlṭws</term>> see <bibl type="modern">Sokoloff, SL 894b-985a</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>431a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

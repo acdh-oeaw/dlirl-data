@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">סיפרגוס</title>
+            <title type="alternative">syprgws</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="sipargos-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">סיפרגוס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">syprgws</orth>
+               <pron notation="rabbinic" opt="false">sipargos</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">ספרגין</orth>
+                  <orth type="transliteration" xml:lang="fjb">sprgyn</orth>
+                  <pron notation="rabbinic">sipargin</pron>
+               </form>
+            </form>
+            <sense xml:id="sipargos-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>seal</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>σφραγίς</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ויסגר י"י בעדו אמר ר' לוי למלך שקבע דרולומוסייה שלו במדינה, נטל אוהבו וחבשו בבית הסהר ונתן 
+                  <app>
+                     <lem>סיפרגוס</lem>
+                     <rdg wit="#Vat2">ספרגים</rdg>
+                     <rdg wit="#K">איספרגוס</rdg>
+                  </app> שלו עליו כך ויסגר י"י בעדו</quote>
+                  <bibl>
+                     <ref type="witness">32,8</ref>
+                     <ref type="witness">I 295: 10</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">דרולומוסייה</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And the Lord shut him in (Gen 7,14). R. Lewi said: This may be compared to a king who decreed a general execution in a country, but took his friend, immured him in prison, and set his seal upon him. (Freedman / Simon I 254)</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' יודה בר' סימון למלך שהיה לו ג' אוהבים ולא היה עושה דבר חוץ מדעתן, פעם אחת ביקש המלך לעשות דבר חוץ מדעתן נטל את הראשון טרדו והוציאו חוץ לפלטין, שיני חבשו בבית האסורין, נתן 
+                  <app>
+                     <lem>ספרגין</lem>
+                     <rdg wit="#Vat1 K V Ox1 Ox2">ספרגוס</rdg>
+                     <rdg wit="#Vat2">סיפרגוס</rdg>
+                  </app> שלו עליו, שלישי שהיה חביב יותר מדיי אמר איני עושה דבר חוץ מדעתו</quote>
+                  <bibl>
+                     <ref type="witness">49,2</ref>
+                     <ref type="witness">II 500: 4</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פלטין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Yuda b. R. Simon said: This may compared to a king who had three friends without whose consent he did nothing. But on one occasion he desired to do something without their consent. Whereupon he evicted one from palace; the second he put in prison, affixing his seal on it [the prison door]. But as for the third, whom he loved exceedingly, he said, ‘I cannot do anything without his consent.’ (Freedman / Simon I 421-422)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 34 [I 117: 15]</bibl> (<term xml:lang="jpa">אספרגוס</term>)</note>
+               </cit>
+            </sense>
+            <note>Cf. <bibl type="modern">AC VII 115a</bibl>; <bibl type="modern">Levy III 579a</bibl>; <bibl type="modern">Jastrow II 1018</bibl>. Cf. also <bibl type="modern">Ziegler (1903) 160-161</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>409b-410a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">סנקתדרון</title>
+            <title type="alternative">snqtdrwn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="sanqatedron-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">סנקתדרון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">snqtdrwn</orth>
+               <pron notation="rabbinic" opt="false">sanqatedron</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="sanqatedron-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>assesor, adviser</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>συγκάθεδρος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>משל למלך שהיה לו 
+                     <app>
+                        <lem>סונקתידרון</lem>
+                        <rdg wit="#L">סונקתודרון</rdg>
+                        <rdg wit="#K">סנקתידרון</rdg>
+                        <rdg wit="#V">סנקתדרון</rdg>
+                     </app> ולא היה עושה דבר חוץ מדעתו</quote>
+                  <bibl>
+                     <ref type="witness">8,3</ref>
+                     <ref type="witness">I 59: 2</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>This may be compared to a king who had an assessor without whose knowledge he did nothing.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 13 [I 35: 18]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' שמואל בן נחמן למלך שהיה לו 
+                     <app>
+                        <lem>סנקתדרין</lem>
+                        <rdg wit="#Ox1">סנקתדרון</rdg>
+                        <rdg wit="#K">סנקתדרי' אחד</rdg>
+                        <rdg wit="#V">סנקתדריס</rdg>
+                        <rdg wit="#Vat1">סתינקדיתיריון</rdg>
+                        <rdg wit="#Vat2">סתקיתדרין</rdg>
+                     </app> ולא היה עושה דבר חוץ מדעתו, פעם אחת ביקש המלך לעשות דבר חוץ מדעתו, אמר ר' יודן כך אמר הקב"ה כלום עשיתי אותו 
+                     <app>
+                        <lem>סינקתידרין</lem>
+                        <rdg wit="#K">סנקתידרי'</rdg>
+                        <rdg wit="#Vat1">סונקדיתיריון</rdg>
+                        <rdg wit="#Vat2">סתקתידרין</rdg>
+                     </app> אלא שלא לעשות דבר חוץ מדעתו</quote>
+                  <bibl>
+                     <ref type="witness">49,2</ref>
+                     <ref type="witness">II 500 7.8</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Shemuʾel ben Naḥman said: It may be compared to a king who had an adviser without whose consent he did not nothing. On one occasion, however, he wished to do something without his consent, whereupon he observed: ‘Surely I made him my adviser for no other reason than that I should do nothing without his consent.” (Freedman / Simon I 422)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 82 [I 369: 48.50]</bibl> (<term xml:lang="jpa">סבקתדרין</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אדריינוס שחיק טמיא שאל לר' יהושע בן חנניה אמר ליה אתון אמרין אין כת למעלה מקלסת ושונה [אלא בכל יום הקדוש ברוך הוא בורא כת מלאכים חדשים וא' שירה חדשה והולכים להם, אמר ליה הן, אמר ליה] ולאן אזלין, אמר ליה מן הן דאיתברון, אמר ליה מנן איתברון, אמר ליה מנהר דינור, ומה עסקיה דנהר דינור, אמר ליה כהדין ירדנא דלא פסיק לא ביממא ולא בליליא, אמר ליה מן הן אתי, אמר ליה מזיעת החיות דאינון מזיעין מן טעינין כורסיה, אמר ליה 
+                  <app>
+                     <lem>סונקתדרין</lem>
+                     <rdg wit="#Ox2">סונקתרדין</rdg>
+                     <rdg wit="#K">סונקת דדרין</rdg>
+                     <rdg wit="#V">סונקת דרון</rdg>
+                  </app> דידיה והדין ירדנא מהלך ביממא ולית הוא מהלך בליליא, אמר ליה לא נטר הוינא בבית פעור כמה דהוא מהלך ביממא כן הוא מהלך בליליא.</quote>
+                  <bibl>
+                     <ref type="witness">78,1</ref>
+                     <ref type="witness">II 917: 5</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Hadrian – rot his bones! – asked R. Yehoshuaʿ ben Ḥananyah: “Do you maintain that the celestial company do not praise [God] and repeat [their praises], but that every day the Holy One, blessed be He, creates a company of new angels and they utter song before Him and then depart?” “Yes,” he replied. “And whither do they go?” he pursued. “To the source whence they were created,” was the answer. “And whence are they created?” he went on. “From Nehar Dinur,” he replied. “And what is the nature of Nehar Dinur?” he enquired. “It is like the Jordan,” said he, “which ceases not [to flow] by day or by night.” “And whence is its source?” “The perspiration of the Hayyoth, caused by their bearing God’s Throne.” Said his adviser to him: “But the Jordan flows by day and not by night?” “Was I not watching at Beth Peor,” he replied, “[and saw] that it flows by night just as it flows by day?” (Freedman / Simon II 714-715)</quote>
+                  </cit>
+               </cit>
+            </sense>
+            <note>Cf. <bibl type="modern">Levy III 559ab</bibl>; <bibl type="modern">AC VI 90a</bibl>; <bibl type="modern">Fürst (1890) 158ab</bibl> (<term xml:lang="jpa">סנקתדרא</term>); <bibl type="modern">Jastrow I 1009a</bibl> (<term xml:lang="jpa">סנקתדרוס</term>). Variously corrupted.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>405b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

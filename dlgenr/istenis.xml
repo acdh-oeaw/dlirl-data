@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אסתניס</title>
+            <title type="alternative">ʾstnys</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="istenis-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אסתניס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾstnys</orth>
+               <pron notation="rabbinic" opt="false">istenis</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">אסטניס</orth>
+                  <orth type="transliteration" xml:lang="fjb">isṭnys</orth>
+                  <pron notation="rabbinic">ʾisṭenis</pron>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">אסתניסים</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾstnysym</orth>
+                  <pron notation="rabbinic">istensim</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">אסטניסים</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾsṭnysyn</orth>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+            </form>
+            <sense xml:id="istenis-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>weak person</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἀσθενής</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>בירכו ביציאה, ר' לוי בשם ר' יוסי בר' חנינא כל יום שיש בו חסרון כת' בו ברכה ואינו חסר כלום, בחמישי נבראו עופות ודגים ובני אדם שוחטים עופות ואוכלים צדים דגים ואוכלים וכת' בו ברכה ואינו חסר כלום, בשביעי מה אית לך למימר, ר' לוי בשם ר' חמא בר' חנינא מפני היציאה, ר' לעזר בשם ר' יוסי מפני 
+                     <app>
+                        <lem>איסטיניסים</lem>
+                        <rdg wit="#Vat2 V">איסטניסים</rdg>
+                        <rdg wit="Ox2">אסטני'</rdg>
+                     </app>
+                  </quote>
+                  <bibl>
+                     <ref type="witness">11,3</ref>
+                     <ref type="witness">I 90: 5</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>He blessed it by providing for additional expenditure. R. Levi said in the Name of R. Yose b. R. Ḥanina: A blessing is written in connection with every day in which there is a decrease, and so it suffers no loss at all. [E.g.] on the fifth day birds and fish were created; now people kill birds and eat them, and catch fish and eat them, yet since a blessing is written in connections with it, the stock does not in any way decrease. Then what can you say of the seventh day? R. Levy said in the name of R. Ḥama b. R. Ḥanina:  [It is written] on account of [additional] expenditure. R. Leʿazar said in R. Yoseʾs name: [The blessing was given] on account of people with delicate digestions. (Cf. Freedman / Simon I: 82)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 16 [I 51: 10]</bibl> (<term xml:lang="jpa">האיסטניסין</term>)</note>
+               </cit>
+            </sense>
+            <note>Cf. <bibl type="modern">Levy I 135a</bibl>; <bibl type="modern">Krauss, LW II 98b</bibl>; <bibl type="modern">Jastrow I 58a</bibl>. Common in the rabb. Lit. Sg form not attested in GenR. Pl. also in <bibl type="ancient">EkhR 4,2</bibl>; <bibl type="ancient">yBeṣ 1,5 (685a: 39)</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Haijmans (2013)</title>
+                  <citedRange>44-45</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>53</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

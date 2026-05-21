@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">קולסי</title>
+            <title type="alternative">qwlsy</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="qolase-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">קולסי</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">qwlsy</orth>
+               <pron notation="rabbinic" opt="false">qolase</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen">f.</gram>
+               </gramGrp>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">קולסיתה</orth>
+                  <orth type="transliteration" xml:lang="fjb">qwlsyth</orth>
+                  <pron notation="rabbinic">qolsitah</pron>
+                  <gramGrp>
+                     <gram type="det">det.</gram>
+                  </gramGrp>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">קולסוון</orth>
+                  <orth type="transliteration" xml:lang="fjb">qwlswwn</orth>
+                  <pron notation="rabbinic">qolsawan</pron>
+                  <gramGrp>
+                     <gram type="det">pl.</gram>
+                  </gramGrp>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">קולסין</orth>
+                  <orth type="transliteration" xml:lang="fjb">qwlsyn</orth>
+                  <pron notation="rabbinic">qolsin</pron>
+                  <gramGrp>
+                     <gram type="det">pl.</gram>
+                  </gramGrp>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">קולוסין</orth>
+                  <orth type="transliteration" xml:lang="fjb">qwlwsyn</orth>
+                  <pron notation="rabbinic">qolosin</pron>
+                  <gramGrp>
+                     <gram type="det">pl.</gram>
+                  </gramGrp>
+               </form>
+            </form>
+            <sense xml:id="qolase-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>a woman’s headgear</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ויעשו להם חגורות אמר ר' אבא בר כהנא אין כת' חגורה אלא חגורות חגור חגירי חגורות איסטכיון גולין סדינים, כשם שעושין לאיש כך עושין לאשה צוצלין 
+                  <app>
+                     <lem>קולוסין</lem>
+                     <rdg wit="#Vat1">קולסוון</rdg>
+                     <rdg wit="#Vat2">לקדוסוון</rdg>
+                     <rdg wit="#Ox1">קלסין</rdg>
+                     <rdg wit="#V K">קולסין</rdg>
+                  </app> סבכין.</quote>
+                  <bibl>
+                     <ref type="witness">19,6</ref>
+                     <ref type="witness">176: 1</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">איסטכיון</ref>
+                  <ref type="entry" xml:lang="jpa">סבכין</ref>
+                  <cit type="translation">
+                     <quote>And they made themeselves girdles (ḥagorot). R. Abba b. Kahana said: Not hagorah (a girdle) but ḥagorot is written: now ḥagorot implies shirts, robes, and linen cloaks; and just as these are made for man, so for woman are made girdles, hats, and hair nets. (Cf. Freedman / Simon I 152-153)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 27 [I 93: 44]</bibl> (<term xml:lang="jpa">דקיסלוון</term>)</note>
+               </cit>
+            </sense>
+            <note>Etymology is obscure. Appears already in Targ (e.g. 1Sam 17,5 and 38, Ez 23,24 for <term xml:lang="jpa">כובע</term>). <bibl type="modern">Levy, Targ2 364b</bibl>: Gr. <term xml:lang="grc">κόρος</term> “helmet”, but cf. <bibl type="modern">Fleischer (in Levy, Targ2 576a)</bibl> and <bibl type="modern">Fränkel, AF 54</bibl>, who suggest Gr. <term xml:lang="grc">κώνος</term> as etymological source. Cf. also <bibl type="modern">Krauss, LW II 507</bibl> (<term xml:lang="jpa">קולס</term>) Lat. galea “helmet”; <bibl type="modern">Jastrow II 1329a</bibl> “turban, head-dress“ Hebr. <term xml:lang="jpa">קלס</term>  “to be round”. Acc. to <bibl type="modern">Levy IV 262b</bibl> (<term xml:lang="jpa">קולסיתא</term>) related to <term xml:lang="jpa">קולס</term> <term xml:lang="fjb">qwls</term> <term xml:lang="rabbinic">qolas</term> Gr. <term xml:lang="grc">καυλός</term> “stem (of a plant)” (cf. <bibl type="modern">Heijmanns [2013] 190</bibl>).</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sokoloff, DJPA 546b</title>
+                  <citedRange>546b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>
