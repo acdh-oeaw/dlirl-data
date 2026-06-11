@@ -54,102 +54,6 @@
                   <orth type="transliteration" xml:lang="fjb" opt="false">byh</orth>
                   <pron notation="rabbinic" opt="false">biyah</pron>
                </form>
-               <form type="variant"
-                     source="93,6 - first quotation - first occurrence - Vat1 Ox1"
-                     opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">ביה</orth>
-               </form>
-               <form type="variant"
-                  source="93,6 - first quotation - first occurrence - Vat2 V"
-                     opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">בייה</orth>
-               </form>
-               <form type="variant" source="93,6 - first quotation - first occurrence - Ox2" opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">ביא</orth>
-               </form>
-               <form type="variant" source="93,6 - first quotation - second occurrence - Vat1" opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">ביה</orth>
-               </form>
-               <form type="variant"
-                     source="93,6 - second quotation - first occurrence - Vat1 Ox1"
-                     opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">ביה</orth>
-               </form>
-               <form type="variant"
-                     source="93,6 - second quotation - first occurrence - Vat2 V"
-                     opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">בייה</orth>
-               </form>
-               <form type="variant"
-                     source="93,6 - second quotation - first occurrence - Ox2"
-                     opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">ביא</orth>
-               </form>
-               <form type="variant"
-                     source="93,6 - second quotation - second occurrence - Vat2"
-                     opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">בייה</orth>
-               </form>
-               <form type="variant"
-                     source="93,6 - second quotation - second occurrence - Ox2"
-                     opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">ביא</orth>
-               </form>
-               <form type="variant"
-                     source="93,6 - second quotation - second occurrence - V"
-                     opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">בית</orth>
-               </form>
-               <form type="variant"
-                     source="93,6 - second quotation - third occurrence - Vat2"
-                     opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">בייה</orth>
-               </form>
-               <form type="variant"
-                     source="93,6 - second quotation - third occurrence - Ox1 V"
-                     opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">בית</orth>
-               </form>
-               <form type="variant"
-                     source="93,6 - second quotation - third occurrence - Ox2"
-                     opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">ביא</orth>
-               </form>
-               <form type="variant"
-                     source="93,6 - second quotation - fourth occurrence - Vat2"
-                     opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">בייה</orth>
-               </form>
-               <form type="variant"
-                     source="93,6 - second quotation - fourth occurrence - Ox2"
-                     opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">ביא</orth>
-               </form>
-               <form type="variant"
-                     source="93,6 - second quotation - fourth occurrence - V"
-                     opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">בית</orth>
-               </form>
-               <form type="variant"
-                     source="93,6 - second quotation - fifth occurrence - Ox2"
-                     opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">ביא</orth>
-               </form>
-               <form type="variant"
-                     source="93,6 - second quotation - fifth occurrence - V"
-                     opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">בית</orth>
-               </form>
-               <form type="variant"
-                     source="93,6 - second quotation - sixth occurrence - Vat2"
-                     opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">בייה</orth>
-               </form>
-               <form type="variant"
-                     source="93,6 - second quotation - sixth occurrence - Ox2"
-                     opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">ביא</orth>
-               </form>
             </form>
             <sense n="1" xml:id="biyyah-dlgenr-1" opt="false">
                <usg type="domain" opt="false">actions/law</usg>
@@ -167,7 +71,18 @@
                   <quote>βία</quote>
                </cit>
                <cit type="example" xml:lang="jpa">
-                  <quote>בי אדני בייא את עביד בייא אדני</quote>
+                  <quote>בי אדני 
+                     <app>
+                        <lem>בייא</lem>
+                        <rdg wit="#Vat1 Ox1">ביה</rdg>
+                        <rdg wit="#Vat2 V">בייה</rdg>
+                        <rdg wit="#Ox2">ביא</rdg>
+                     </app> את 
+                     <app>
+                        <lem>עביד לנו</lem>
+                        <rdg wit="#Vat2 K V Ox1 Ox2">מעביר עלינו</rdg>
+                        <rdg wit="#Vat1">מעבר עלינו</rdg>
+                     </app> אדני</quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">93,6</ref>
                      <ref type="witness">III 1155:2</ref>
@@ -175,6 +90,7 @@
                   <cit type="translation" xml:lang="en">
                      <quote>Bi adoni – you do violence/injustice to us, my lord.</quote>
                   </cit>
+                  <note>= <bibl type="ancient">TanB Wa-Yiggash 5</bibl> (<foreign xml:lang="jpa">בייה אתה מעביר עלינו</foreign>) (same Midrashim to Ex 4,10 in: <bibl type="ancient">TanhB Shemot 18</bibl> (<foreign xml:lang="jpa">בייה את מעביר עלי</foreign>); <bibl type="ancient">Midr. Aggadah (Buber) 4,10</bibl> (<foreign xml:lang="jpa">בייה אתה מעביר עלינו</foreign>); <bibl type="ancient">LeqT Shemot 4,13</bibl> (<foreign xml:lang="jpa">ביאה אתה עושה עמי</foreign>); <bibl type="ancient">Yalq 151 [II 807:100]</bibl>)</note>
                </cit>
             </sense>
             <sense n="2" xml:id="biyyah-dlgenr-2" opt="false">
@@ -186,32 +102,45 @@
                   <quote>dominion</quote>
                </cit>
                <cit type="example" xml:lang="jpa">
-                  <quote>אין כל מקום ומקום שאין לו ממונה על ביה את עביד בייא
-            <app>
-                        <lem>שלו</lem>
-                        <rdg wit="#Vat2">שלה</rdg>
-                     </app>, אגדיקוס ביה
-            <app>
-                        <lem>שלה</lem>
-                        <rdg wit="#Ox1">שלו</rdg>
-                        <rdg wit="#Ox2">שלו</rdg>
-                        <rdg wit="#V">שלו</rdg>
-                     </app>, אגבה בסטס במדינה ממונה על ביה
-            <app>
-                        <lem>שלה</lem>
-                        <rdg wit="#Ox2">שלו</rdg>
-                        <rdg wit="#V">שלו</rdg>
-                     </app>, כך מי ממונה על ביה שלעולמו, הקב"ה ביה שמו ביה
-            <app>
+                  <quote>אין כל מקום ומקום שאין לו ממונה על 
+                     <app>
+                        <lem>ביה</lem>
+                        <rdg wit="#Vat2">בייה</rdg>
+                        <rdg wit="#Ox2">ביא</rdg>
+                        <rdg wit="#V">בית</rdg>
+                     </app> שלו, אגדיקוס במדינה ממונה על 
+                     <app>
+                        <lem>ביה</lem>
+                        <rdg wit="#Vat2">בייה</rdg>
+                        <rdg wit="#Ox2">ביא</rdg>
+                        <rdg wit="#V Ox1">בית</rdg>
+                     </app> שלה, אגבה בסטס במדינה ממונה על 
+                     <app>
+                        <lem>ביה</lem>
+                        <rdg wit="#Vat2">בייה</rdg>
+                        <rdg wit="#Ox2">ביא</rdg>
+                        <rdg wit="#V">בית</rdg>
+                     </app> שלה, כך מי ממונה על 
+                     <app>
+                        <lem>ביה</lem>
+                        <rdg wit="#Ox2">ביא</rdg>
+                        <rdg wit="#V">בית</rdg>
+                     </app> שלעולמו, הקב"ה ביה שמו 
+                     <app>
+                        <lem>ביה</lem>
+                        <rdg wit="#Vat2">בייה</rdg>
+                        <rdg wit="#Ox2">ביא</rdg>
+                     </app> 
+                     <app>
                         <lem>שמו</lem>
-                        <rdg wit="#K"/>
-                        <!-- Lesarten fehlen -->
-                        <rdg wit="#V"/>
+                        <rdg wit="#K">על ביי של עולמו</rdg>
+                        <rdg wit="#V">על בית של עולמו</rdg>
+                        <rdg wit="#Ox2">הקב"ה ביא של עולמו</rdg>
                      </app>
                   </quote>
                   <bibl default="false" status="draft">
-                     <ref type="witness">93,6</ref>
-                     <ref type="witness">III 1155:2</ref>
+                     <ref type="witness">12,10</ref>
+                     <ref type="witness">I 108: 3-5</ref>
                   </bibl>
                   <ref type="entry" xml:lang="jpa" target="egdiqos.html">אגדיקוס</ref>
                   <ref type="entry" xml:lang="jpa" target="agba-bastes.html">אגבה בסטס</ref>
@@ -222,6 +151,7 @@
                         Holy One, blessed be He, be-yah is his name, biyyah is his name.
             </quote>
                   </cit>
+                  <note>= <bibl type="ancient">yHag 2,1 (77c [786: 22])</bibl> (<term xml:lang="jpa">ביה</term>); <bibl type="ancient">MTeh (Buber) 114 (3)</bibl> (<term xml:lang="jpa">בייא</term>); <bibl type="ancient">YalqM Ps 68,3</bibl> (<term xml:lang="jpa">ביה</term>); <bibl type="ancient">YalqPs 794 (463d: 20,21)</bibl> (<term xml:lang="jpa">בייא</term>)</note>
                </cit>
             </sense>
             <etym type="borrowing" opt="false">
@@ -244,15 +174,14 @@
       <bibl type="modern" default="false" status="draft">Fishbane 2015, 86</bibl>). For further suggestions for 2. cf. <bibl type="modern" default="false" status="draft">AC I:45</bibl>;
       <bibl type="modern" default="false" status="draft">Krauss, LW II:148</bibl> and
       <bibl type="modern" default="false" status="draft">Levy I:216</bibl>, who render with Gr. <term xml:lang="grc">βίος</term> ‘life, vital force, livelihood’, MGr. <term xml:lang="grc">βιός</term> ‘livelihood’.
-      <bibl type="modern" default="false" status="draft">Jastrow, Dictionary: 158</bibl> interprets as Late Gr. <term xml:lang="grc">βία</term> ‘highway’ Lat. via. An additional possibility of the
+               <bibl type="modern" default="false" status="draft">Jastrow I 158b-159a</bibl> interprets as Late Gr. <term xml:lang="grc">βία</term> ‘highway’ Lat. via. An additional possibility of the
                attested exclamative particle <term xml:lang="jpa">בייא בייא</term>! ‘Woe!’ (
       <bibl type="ancient" default="false" status="draft">bYom
                69b
       </bibl>,
       <bibl type="ancient" default="false" status="draft">LevR 17,7</bibl> [=
       <bibl type="ancient" default="false" status="draft">YalqEz 348</bibl>]), which goes back either to Gr. <term xml:lang="grc">βαβαί</term> or <term xml:lang="jpa">βοή</term>, cf. AC I s.v. <term xml:lang="jpa">ביאה</term>; Levy I s.v., does not apply to the GenR passages due
-               to semantic reasons.
-   </note>
+               to semantic reasons. Cf. Syr <term xml:lang="syc">ܒܥܐ</term> <term xml:lang="fjb">byʾ</term> (<bibl type="modern">Sokoloff, SL 140</bibl>). For 1. <bibl type="modern">AC II 45ab</bibl>, <bibl type="modern">Levy I 216ab</bibl>, <bibl type="modern">Krauss, LW II 148b</bibl>, <bibl type="modern">Jastrow I 160b</bibl>, MY renders Gr. <term xml:lang="grc">βία</term> “violence”. <bibl type="modern">Yalon (1964) 202-203</bibl> shows that the meaning of <term xml:lang="jpa">מעביר</term> (cf. Vat 2, K, V Ox 1 and 2 for 1.) in the Mishnah can be understood as “spoilage”, therefore <term xml:lang="jpa">בייא</term> in 1. can be explained as Lat. via “way” as translation of <foreign xml:lang="jpa">אתה מעביר עלינו את הדרך</foreign> “you spoilage our way”. for 2. AC, Levy and Krauss render <term xml:lang="grc">βία</term> (= <term xml:lang="grc">βιός</term> ‘livelihood’), while <bibl type="modern">Jastrow I 158b</bibl> suggests Lat. via (LGr. <term xml:lang="grc">βία</term>). <bibl type="modern">Sperber (1984) 68-69</bibl> (after Löw in <bibl type="modern">Krauss, LW II 602b</bibl> and <bibl type="modern">Wartski (1967)</bibl>) interprets both occurrences as Gr. <term xml:lang="grc">βία</term> “violence”, “injustice”. MY ad 2. interprets Gr. <term xml:lang="grc">βία</term> in the meaning of “government”.</note>
             <ref type="bibliography">
                <bibl default="false" status="draft">
                   <title>Sperber 1984</title>

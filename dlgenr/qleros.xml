@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">קלירוס</title>
+            <title type="alternative">qlyrws</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="qleros-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">קלירוס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">qlyrws</orth>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="qleros-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>lot</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>κλῆρος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' עזריה שמשם יצא אבינו אברהם ורדף ארבעה מלכים קוזמוקרטורין שהוא עולה 
+                     <app>
+                        <lem>בקרנסין</lem>
+                        <rdg wit="#Ox2">בקורנסי</rdg>
+                        <rdg wit="#K">בקנסרין</rdg>
+                        <rdg wit="#Ox1">בקנטרין</rdg>
+                        <rdg wit="#Vat1">ביקנסרין</rdg>
+                        <rdg wit="#Vat2">בי קרנסין</rdg>
+                     </app> שלארבעה</quote>
+                  <bibl>
+                     <ref type="witness">58,4</ref>
+                     <ref type="witness">II 622: 4</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">קוזמוקרטורין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. ʿAzariah said: Because from there went forth Abraham, who pursued four kings, each a world ruler. [Further,] because it fell to the lot of four ... (Cf. Freedman / Simon II 511)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 102 [II 465: 66]</bibl> (<term xml:lang="jpa">קוזמוקטורין</term>); <bibl type="ancient">Yalq Jos 23 [X 71: 43]</bibl> (<term xml:lang="jpa">קוזמוקטורין</term>)</note>
+               </cit>
+            </sense>
+            <note>Variously corrupted.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>545b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

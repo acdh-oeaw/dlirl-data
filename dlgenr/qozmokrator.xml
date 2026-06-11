@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">קוזמוקראטור</title>
+            <title type="alternative">qwzmwqrʾṭwr</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="qozmokrator-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">קוזמוקראטור</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">qwzmwqrʾṭwr</orth>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">קוזמוקרטור</orth>
+                  <orth type="transliteration" xml:lang="fjb">qwzmwqrṭwr</orth>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">קוזמוקרטורין</orth>
+                  <orth type="transliteration" xml:lang="fjb">qwzmwqrṭwryn</orth>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+            </form>
+            <sense xml:id="qozmokrator-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>world ruler</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>κοσμοκράτωρ</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' עזריה שמשם יצא אבינו אברהם ורדף ארבעה מלכים 
+                     <app>
+                        <lem>קוזמוקרטורין</lem>
+                        <rdg wit="#Vat1">קוזמוסקרטורין</rdg>
+                        <rdg wit="#K">קוזמוקולוטורין</rdg>
+                        <rdg wit="#Ox1 Ox2">קוזמון קלטורין</rdg>
+                        <rdg wit="#Vat2"> קלוזמיקלאטורין</rdg>
+                     </app> שהוא עולה בקרנסין שלארבעה</quote>
+                  <bibl>
+                     <ref type="witness">58,4</ref>
+                     <ref type="witness">II 622: 3</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">קרנסין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. ʿAzariah said: Because from there went forth Abraham, who pursued four kings, each a world ruler. [Further,] because it fell to the lot of four… (Cf. Freedman / Simon II 511)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 102 [II 465: 66]</bibl> (<term xml:lang="jpa">קוזמוקטורין</term>); <bibl type="ancient">Yalq Jos 23 [X 71: 43]</bibl> (<ref type="entry" xml:lang="jpa">קוזמוקטורין</ref>)</note>
+               </cit>
+            </sense>
+            <note>Sg. not attested in GenR.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>502a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

@@ -49,9 +49,6 @@
                   <gram type="pos" opt="false">noun</gram>
                   <gram type="gen" opt="false">f.</gram>
                </gramGrp>
-               <form type="variant" source="2,2 - K V Ox1 Vat2" opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">באוני אחת ובטימי אחת</orth>
-               </form>
             </form>
             <sense xml:id="time-dlgenr-1" opt="false">
                <usg type="domain" opt="false">economy</usg>
@@ -69,17 +66,19 @@
                   <quote>τιμή</quote>
                </cit>
                <cit type="example" xml:lang="jpa">
-                  <quote>
-                     ר' אבהו אמר 
+                  <quote>ר' אבהו אמר 
                      <app>
                         <lem>למלך</lem>
                         <rdg wit="#V Ox1 K">משל למלך</rdg>
-                     </app> שקנה לו ב' עבדים שניהם באוני אחת ובטימי אחת, על אחד גזר שיהיה ניזון מטימיון ועל אחד גזר שיהיה יגע ישב לו תוהא ובוהא, אמר שנינו בטימי אחת זה ניזון מטימיון ואני ביגיעתי אתמהא 
+                     </app> שקנה לו ב' עבדים שניהם באוני אחת ובטימי אחת, על אחד גזר שיהיה ניזון מטימיון ועל אחד גזר שיהיה יגע ישב לו תוהא ובוהא, אמר שנינו 
                      <app>
-                        <lem>ואני ביגיעתו אתמהא</lem>
+                        <lem>בטימי</lem>
+                        <rdg wit="#K V Ox1 Vat2">באוני אחת ובטימי אחת</rdg>
+                     </app> אחת זה ניזון מטימיון 
+                     <app>
+                        <lem>ואני ביגיעתי אתמהא</lem>
                         <rdg wit="#Vat2 Ox1 K V">ואני אם איני יגע איני אוכל</rdg>
-                     </app>
-         </quote>
+                     </app></quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">2,2</ref>
                      <ref type="witness">I 15: 4</ref>
@@ -92,7 +91,7 @@
             </quote>
                   </cit>
                   <note anchored="true">=
-            <bibl type="ancient" default="false" status="draft">Yalq 4 (2d: 43-48)</bibl>
+                     <bibl type="ancient" default="false" status="draft">Yalq 4 [I 15: 4.5]</bibl>
                   </note>
                </cit>
                <cit type="example" xml:lang="jpa">
@@ -106,11 +105,11 @@
                   <ref type="entry" xml:lang="jpa" target="dinar.html">דינרין</ref>
                   <cit type="translation" xml:lang="en">
                      <quote>
-                        … the one raised the price, and the other raised the price until it reached twelve dinars
+                        ... the one raised the price, and the other raised the price until it reached twelve dinars
             </quote>
                   </cit>
                   <note anchored="true">=
-            <bibl type="ancient" default="false" status="draft">Yalq 16 (5d: 22-23)</bibl>
+                     <bibl type="ancient" default="false" status="draft">Yalq 17 (I 53: 34.38)</bibl>
                   </note>
                </cit>
                <cit type="example" xml:lang="jpa">
@@ -129,9 +128,9 @@
                   </cit>
                   <note anchored="true">=
             <bibl type="ancient" default="false" status="draft">yPea 1,1 [82: 19]</bibl>;
-            <bibl type="ancient" default="false" status="draft">Yalq 844 [293a: 49]</bibl>;
-            <bibl type="ancient" default="false" status="draft">Yalq Jos 31 [352a: 22]</bibl>;
-            <bibl type="ancient" default="false" status="draft">Yalq Prov 934 [487b: 11]</bibl>
+                     <bibl type="ancient" default="false" status="draft">Yalq 844 [VIII 133: 83]</bibl>;
+                     <bibl type="ancient" default="false" status="draft">Yalq Jos 31 [X 92:52]</bibl>;
+                     <bibl type="ancient" default="false" status="draft">Yalq Prov 934 [487b: 10]</bibl>
                   </note>
                </cit>
             </sense>

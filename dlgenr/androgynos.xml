@@ -63,7 +63,7 @@
                <usg type="frequency" opt="false">hapax legomenon (with this particular meaning)</usg>
                <usg type="geographic" opt="false">Coptic; Syriac Aramaic</usg>
                <cit type="translation" xml:lang="en" subtype="sense">
-                  <quote>man (and) woman</quote>
+                  <quote>man-woman, androgynous, hermaphrodite</quote>
                </cit>
                <cit type="translationEquivalent" xml:lang="grc">
                   <usg opt="false">
@@ -76,8 +76,7 @@
 אמר ר' ירמיה בן לעזר בשעה שברא הקדוש ברוך הוא את אדם הראשון
             <app>
                         <lem>אנדרוגינס</lem>
-                        <rdg wit="#Vat2">אנדרוגינוס</rdg>
-                        <rdg wit="#V">אנדרוגינוס</rdg>
+                        <rdg wit="#Vat2 Ox2 V">אנדרוגינוס</rdg>
                      </app>
 בראו
          </quote>
@@ -86,14 +85,12 @@
                      <ref type="witness">I 55:3</ref>
                   </bibl>
                   <cit type="translation">
-<!-- The english translation of the passage is encoded in a nested cit element -->
                      <quote xml:lang="en">
 “R. Yirmeyah b. Leʿazar said: When the Holy One, blessed be he, created the first man, 
 He created him androgynous ("man-and-woman").”
-
             </quote>
-                     <note anchored="true">= Yalq 2 (6d: 25); LevR 14,1</note>
                   </cit>
+                  <note>= <bibl type="ancient">Yalq 20 [I 66: 21]</bibl>; <bibl type="ancient">LevR 14,1</bibl></note>
                </cit>
             </sense>
             <etym type="borrowing" opt="false">
@@ -108,11 +105,17 @@ He created him androgynous ("man-and-woman").”
             </etym>
             <note anchored="true">
 In legal context (cf. <bibl type="ancient" default="false" status="draft">mBik 4,1</bibl>): a human bearing 
-both male and female sex characteristics. In <bibl type="ancient" default="false" status="draft">GenR</bibl>, however, the word is used in 
+               both male and female sex characteristics (<bibl type="modern">Heijmanns (2013) 39</bibl>; <bibl type="modern">Jastrow I 81b</bibl>: “hermaphrodite”; <bibl type="modern">AC I 142ab</bibl>, <bibl type="modern">Levy I 106a</bibl>: “Mannweib, Zwitter”). In <bibl type="ancient" default="false" status="draft">GenR</bibl>, however, the word is used in 
 original platonic sense. <bibl type="ancient" default="false" status="draft">bEr 18a</bibl> reads <term xml:lang="jpa">דיו פרצוף</term>
                <term xml:lang="fjb">dyw prṣwp</term> (= <term xml:lang="jpa">דיופרצוף</term>
                <term xml:lang="fjb">dywprṣwp</term>) instead of androginos. See: <ref type="entry" xml:lang="jpa" target="diprosofon.html">דיופרצוף</ref>.
    </note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>64b-65a</citedRange>
+               </bibl>
+            </ref>
          </entry>
       </body>
    </text>

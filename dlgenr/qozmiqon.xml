@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">קוזמיקון</title>
+            <title type="alternative">qwzmyqwn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="qozmiqon-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">קוזמיקון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">qwzmyqwn</orth>
+               <pron notation="rabbinic" opt="false">qozmiqon</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="qozmiqon-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>extending over the whole world, world-wide</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>κοσμικόν</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>א"ר הונא ג' רוחות על שיצאו בלא במשקל היה העולם חרב ואלו הם א' בימי יונה וא' בימי איוב וא' בימי אליהו, א"ר יודן שליונה על אותה ספינה היה שנאמר וי"י הטיל רוח גדולה אל הים וגו', שלאיוב על אותו הבית שנ' [והנה רוח גדולה באה מעבר המדבר] ויגע בארבע פינות הבית, אין לך 
+                     <app>
+                        <lem>קוזמיקון</lem>
+                        <rdg wit="#Ox1">קוזמיקיון</rdg>
+                        <rdg wit="#Ox2">קזמיקיון</rdg>
+                     </app> בהן אלא שלאליהו שנ' והנה י"י עובר ורוח גדולה וחזק מפרק הרים ומשבר סלעים.</quote>
+                  <bibl>
+                     <ref type="witness">24,4</ref>
+                     <ref type="witness">I 233: 3</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Hunaʾ said: Through three winds the world would have been rendered desolate, because they went forth with unmeasured force; these are they: one in the days of Jonah, another in the days of Job, and the third in the days of Elijah. R. Yudan said: [The wind in the days] of Jonah was directed against that ship only, for it says, But the Lord hurled a great wind into the sea […] so that the ship was likely to be broken [Jonah 1,4]. That of Job was directed against his house only, for it says, And behold, there came a great wind from across the wilderness, and smote the four corners of the house [Job 1,19]. Hence of these [three] only that of Elijah was world-wide, for it says, And, behold, the Lord passed by, and a great and strong wind rent the mountains, and broke in pieces the rocks [1 Kgs 19,11]. [Freedman / Simon I 201]</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">yBer 9,2 [13d – 10]</bibl> (<term xml:lang="jpa">קוסמיקון</term>); <bibl type="ancient">Yalq Kgs 219 [X 499: 12]</bibl> (<term xml:lang="jpa">קזמיקון</term>, emend. <term xml:lang="jpa">קוזמיקון</term>)</note>
+               </cit>
+            </sense>
+            <note>Cf. <bibl type="modern">Levy IV 258b</bibl>; <bibl type="modern">Jastrow 1326a</bibl>; <bibl type="modern">AC VII 76b</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>502b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

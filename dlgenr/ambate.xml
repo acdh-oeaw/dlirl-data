@@ -49,15 +49,6 @@
                   <gram type="pos" opt="false">noun</gram>
                   <gram type="gen" opt="false">f.</gram>
                </gramGrp>
-               <form type="variant" source="K V" opt="false">
-                  <orth xml:lang="jpa" opt="false">משל לאמטי</orth>
-               </form>
-               <form type="variant" source="Ox1" opt="false">
-                  <orth xml:lang="jpa" opt="false">לאנבטי</orth>
-               </form>
-               <form type="variant" source="Vat1" opt="false">
-                  <orth xml:lang="jpa" opt="false">לאומבטי</orth>
-               </form>
             </form>
             <form type="inflected" opt="false">
                <orth xml:lang="jpa" opt="false" type="inflected">אמבטיות</orth>
@@ -82,11 +73,13 @@
                   <quote>ἐμβατή</quote>
                </cit>
                <cit type="example" xml:lang="jpa">
-                  <quote>
-            אמר ר' אליעזר לאמבטי שהיתה מלאה מים והיה בה ב' 
-            דיוסקוסים נאים, כל זמן שהיא מלאה מים לא היתה מלאכת דיוסקוסים נראת, כיון שפתקה וניער המים מתוכה נראת מלאכת
-            דיוסקוסים
-                  </quote>
+                  <quote>אמר ר' אליעזר 
+                     <app>
+                        <lem>לאמבטי</lem>
+                        <rdg wit="#K V">משל לאמטי</rdg>
+                        <rdg wit="Ox1">לאנבטי</rdg>
+                        <rdg wit="Vat1">לאומבטי</rdg>
+                     </app> שהיתה מלאה מים והיה בה ב' דיסקוסים נאים, כל זמן שהיא מלאה מים לא היתה מלאכת דיוסקוסים נראת, כיון שפתקה וניער המים מתוכה נראת מלאכת דיוסקוסים</quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">10,2</ref>
                      <ref type="witness">I 75: 2-3</ref>
@@ -97,7 +90,7 @@
                   </cit>
                   <note anchored="true">
                      = 
-                     <bibl type="ancient" default="false" status="draft">Yalq 16 [5b: 55]</bibl>;
+                     <bibl type="ancient" default="false" status="draft">Yalq 16 [I 47: 13]</bibl>;
                      <bibl type="ancient" default="false" status="draft">YalqProv 961 [498d: 59]</bibl>;
                      <bibl type="ancient" default="false" status="draft">YalqM Prov 25,4 [55a]</bibl>
                   </note>
@@ -112,7 +105,7 @@
                   <quote>The wicked shall return ‘li-sheʾolah’ – to the netherworld (Ps 9,18). Said R. Abbaʾ b. Zavdah: That means to the nethermost [bath] of hell. (cf. Freedman / Simon I 435)</quote>
                </cit>
             <note xml:lang="en" anchored="true">= <bibl type="ancient" default="false" status="draft">GenR 50,3 [II 518: 5]</bibl> (<ref type="entry" xml:lang="jpa">ביטי</ref>);
-      <bibl type="ancient" default="false" status="draft">GenR 68,8 [II 777: 2]</bibl> (<ref type="entry" xml:lang="jpa">בוטי</ref>)</note>
+               <bibl type="ancient" default="false" status="draft">GenR 68,8 [II 777: 2]</bibl> (<ref type="entry" xml:lang="jpa">בוטי</ref>); <bibl type="ancient">Yalq 145 [II 745: 74]</bibl></note>
             </cit>
             </sense>
             <etym type="borrowing" opt="false">
@@ -134,6 +127,10 @@
                <bibl default="false" status="draft">
                   <title>Sokoloff, DJPA</title>
                   <citedRange>37a</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>59b</citedRange>
                </bibl>
             </ref>
          </entry>

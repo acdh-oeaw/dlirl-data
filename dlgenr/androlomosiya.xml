@@ -59,27 +59,6 @@
                   <orth type="transliteration" xml:lang="fjb" opt="false">drwlwmwsyyh</orth>
                   <pron notation="rabbinic" opt="false">drolomosiyah</pron>
                </form>
-               <form type="variant" source="26,5 - Vat1" opt="false">
-                  <orth xml:lang="jpa" opt="false">אדרומיסיא</orth>
-               </form>
-               <form type="variant" source="26,5 - Vat2" opt="false">
-                  <orth xml:lang="jpa" opt="false">אנדרומוסיה</orth>
-               </form>
-               <form type="variant" source="26,5 - Ox1" opt="false">
-                  <orth xml:lang="jpa" opt="false">אנדרומוסיון</orth>
-               </form>
-               <form type="variant" source="26,5 - Ox2" opt="false">
-                  <orth xml:lang="jpa" opt="false">אנדלומוסייאה</orth>
-               </form>
-               <form type="variant" source="26,5 - K V" opt="false">
-                  <orth xml:lang="jpa" opt="false">אנדרולומוסייאה</orth>
-               </form>
-               <form type="variant" source="32,8 - Ox1" opt="false">
-                  <orth xml:lang="jpa" opt="false">דרולומוסיא</orth>
-               </form>
-               <form type="variant" source="32,8 - Vat2" opt="false">
-                  <orth xml:lang="jpa" opt="false">דרולומוסיה</orth>
-               </form>
             </form>
             <sense xml:id="androlomosiya-dlgenr-1" opt="false">
                <usg type="domain" opt="false">military</usg>
@@ -100,9 +79,15 @@
                   <quote>ἀνδρολη(μ)ψία</quote>
                </cit>
                <cit type="example" xml:lang="jpa">
-                  <quote>
-                     אמר ר' שמלאי בכל מקום שאתה מוצא זנות אנדרומוסייה באה לעולם והורגת את היפים ואת הרעים
-         </quote>
+                  <quote>אמר ר' שמלאי בכל מקום שאתה מוצא זנות 
+                     <app>
+                        <lem>אנדרומוסייה</lem>
+                        <rdg wit="#Vat1">אדרומיסיא</rdg>
+                        <rdg wit="#Vat2">אנדרומוסיה</rdg>
+                        <rdg wit="#Ox1">אנדרומוסיון</rdg>
+                        <rdg wit="#Ox2">אנדלומוסייאה</rdg>
+                        <rdg wit="#K V">אנדרולומוסייאה</rdg>
+                     </app> באה לעולם והורגת את היפים ואת הרעים</quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">26,5</ref>
                      <ref type="witness">I 248: 7</ref>
@@ -114,10 +99,12 @@
                   </cit>
                </cit>
                <cit type="example" xml:lang="jpa">
-                  <quote>
-                     ויסגר י"י בעדו אמר ר' לוי למלך שקבע דרולומוסייה שלו במדינה, נטל אוהבו וחבשו בבית הסהר ונתן 
-            סיפרגוס שלו עליו כך ויסגר י"י בעדו
-         </quote>
+                  <quote>ויסגר י"י בעדו אמר ר' לוי למלך שקבע 
+                     <app>
+                        <lem>דרולומוסייה</lem>
+                        <rdg wit="#Ox1">דרולומוסיא</rdg>
+                        <rdg wit="#Vat2">דרולומוסיה</rdg>
+                     </app> שלו במדינה, נטל אוהבו וחבשו בבית הסהר ונתן סיפרגוס שלו עליו כך ויסגר י"י בעדו</quote>
                   <ref type="entry" xml:lang="jpa">סיפרגוס</ref>
                   <bibl default="false" status="draft">
                      <ref type="witness">32,8</ref>
@@ -133,7 +120,7 @@
             <bibl type="ancient" default="false" status="draft">ySoṭ 1,5 [909: 31]</bibl> (<term xml:lang="jpa">אנדרולמוסיה</term>);
             <bibl type="ancient" default="false" status="draft">LevR (Margaliot) Aḥare 23,9 [539: 4]</bibl> (<term xml:lang="jpa">אנדרולומוסיא</term>);
             <bibl type="ancient" default="false" status="draft">NumR Nassoʾ 9,33</bibl> (<term xml:lang="jpa">אנדרולומוסיא</term>);
-            <bibl type="ancient" default="false" status="draft">Yalq 43 [12d: 17]</bibl> (<term xml:lang="jpa">אנדרלמוסיא</term>)
+                     <bibl type="ancient" default="false" status="draft">Yalq 43 [I 153: 57]</bibl> (<term xml:lang="jpa">אנדרלמוסיא</term>)
          </note>
                </cit>
             </sense>

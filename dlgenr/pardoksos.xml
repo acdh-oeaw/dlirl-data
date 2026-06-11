@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">פרדוכסוס</title>
+            <title type="alternative">prdwksws</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Anna</forename>
+               <surname full="yes">Kamentseva</surname>
+            </author>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="pardoksos-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">פרדוכסוס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">prdwksws</orth>
+               <pron notation="rabbinic" opt="false">paradoksos</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">adverb</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">פרדיכסוס</orth>
+                  <orth type="transliteration" xml:lang="fjb">prdyksws</orth>
+                  <pron notation="rabbinic">paradiqsos</pron>
+               </form>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">פראדוכסון</orth>
+                  <orth type="transliteration" xml:lang="fjb">prʾdwkswn</orth>
+                  <pron notation="rabbinic">paradokson</pron>
+               </form>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">פרדוכסון</orth>
+                  <orth type="transliteration" xml:lang="fjb">prdwkswn</orth>
+                  <pron notation="rabbinic">paradokson</pron>
+               </form>
+            </form>
+            <sense xml:id="pardoksos-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>paradox, exceptional, contradictory</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>παράδοξος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ולרבקה אח ושמו לבן. ר' יצחק אמר 
+                     <app>
+                        <lem>פרדיכסוס</lem>
+                        <rdg wit="#Vat1">פרדוכסוס</rdg>
+                        <rdg wit="#Ox1">פרדיכוס</rdg>
+                        <rdg wit="#V">פרדוכוס</rdg>
+                        <rdg wit="#Vat2">פראדוכסון</rdg>
+                     </app>, ר' ברכיה אמר מלובן ברשע.</quote>
+                  <bibl>
+                     <ref type="witness">60,7</ref>
+                     <ref type="witness">II 647: 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And Rebeccah had a brother, and his name was Laban [“white”] (Gen 24,29). R. Yitzḥaq said: This is a paradox; R. Berekhya said: [He was] refined in wickedness.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 109 [II 486: 13]</bibl> (<term xml:lang="jpa">פרדיכוס</term>); <bibl type="ancient">MShem 1 [23a]</bibl> (<term xml:lang="jpa">פראדוכסיס</term>); <bibl type="ancient">NumR 10,14</bibl> (<term xml:lang="jpa">אפרדוכוס</term>); <bibl type="ancient">RutR 4,5</bibl> (<term xml:lang="jpa">פרדכוס</term>)</note>
+               </cit>
+            </sense>
+            <note>Cf. <bibl type="modern">AC VI 412b</bibl>; <bibl type="modern">Krauss, Add. 336a</bibl>; <bibl type="modern">Levy IV 102a</bibl>. <bibl type="modern">Jastrow II 1215b</bibl> explains as Gr. <term xml:lang="grc">περιδέξιος</term> („dexterous, clever”). <bibl type="modern">Lieberman, Hellenism 6</bibl>, explains the word as “paradox” and writes: “You would expect the famous cheat to be called Shaḥor (Black), but the paradox was that his name was Laban (White). The Torah wanted to hint that the notorious trickster misled people even by his name.”</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>479a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

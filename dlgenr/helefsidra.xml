@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">חלף סידרה</title>
+            <title type="alternative">ḥlp sydrh</title>
+            <title type="sub">Dictionary of Loanwords in Yalkut Shimoni</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename>Michael</forename>
+               <surname>Gassner</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 36890</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="helefsidra-dlgenr"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">חלף סידרה</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ḥlp sydrh</orth>
+               <pron notation="rabbinic">ḥelep sidrah</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">f.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">חלפסידרה</orth>
+                  <orth type="transliteration" xml:lang="fjb">ḥlpsydrh</orth>
+                  <pron notation="rabbinic">ḥelefsidrah</pron>
+               </form>
+            </form>
+            <sense xml:id="helefsidra-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>clepsydra, water clock</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>κλεψύδρα</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>[אולי יחסרון חמשים הצדיקים חמשה] אמר ר' חייא בר אבא ביקש אברהם לירד לו מחמשים לחמשה, אמר לו הקדוש ברוך הוא חזור בך למפרע. אמר ר' לוי 
+                     <app>
+                        <lem>חלף סידרה</lem>
+                        <rdg wit="#K V Ox2">חלף סררבה</rdg>
+                        <rdg wit="#Vat2">קלף סדרה</rdg>
+                     </app> מלאה מים, כל זמן שהיא מלאה מים הסניגור מלמד, פעמים שהדיין מבקש שילמד הסניגור והוא אומר הוסיפו בתוכה מים.</quote>
+                  <bibl>
+                     <ref type="witness">49,12</ref>
+                     <ref type="witness">II 514: 4</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">סניגור</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Peradventure there shall lack five of the fifty righteous (Gen 18,28). R. Ḥiyyaʾ b. Abbaʾ said: Abraham wished to descend from fifty to five, but the Holy One, blessed be He, said to him: ‘Turn back.’ R. Lewi said: This may be compared to a clepsydra full of water; only as long as it contains water may the defender plead; yet sometimes the judge desires him to continue his defense, and so he orders, ‘Pour more water into it.‘ (Freedman / Simon I 432)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 83 [26a: 8.9]</bibl></note>
+               </cit>
+            </sense>
+            <note>Hapax. Cf. <bibl type="modern">Sperber, Legal Terms 96</bibl>. <bibl type="modern">AC III 410a</bibl>; <bibl type="modern">Levy II 63ab</bibl>. Cf. <ref type="entry" xml:lang="jpa">אפרכס</ref></note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>252a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>
