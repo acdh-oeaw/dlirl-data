@@ -47,7 +47,7 @@
                <pron notation="rabbinic" opt="false">avli</pron>
                <gramGrp opt="false">
                   <gram type="pos" opt="false">noun</gram>
-                  <gram type="gen" opt="false">m</gram>
+                  <gram type="gen" opt="false">m.</gram>
                </gramGrp>
             </form>
             <!-- <form type="equivalent" opt="false">

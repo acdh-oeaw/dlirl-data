@@ -62,8 +62,7 @@
             <sense xml:id="alteksiyya-dlgenr-1" opt="false">
 <!-- working hypothesis: every attestation / example pertains to one sense; so it is nested into it. If there is only one sense, there won't be a number displayed. -->
                <cit type="translation" xml:lang="en" subtype="sense">
-                  <quote>“dignified truth” (?) or “corps of court guards” (?)
-         </quote>
+                  <quote>“dignified truth” (?) or “corps of court guards” (?)</quote>
                </cit>
                <cit type="example">
 <!-- here we have a passage with various readings. Manuscript sigla are provided in the @wit attribute. We have to look how well mixed content works with RTL scripts. -->

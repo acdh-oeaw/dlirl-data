@@ -49,7 +49,7 @@
                   <gram type="pos" opt="false">verb/interjection</gram>
                </gramGrp>
                <form type="variant" opt="false">
-                  <orth xml:lang="jpa" opt="false">הפס</orth>
+                  <orth type="variant" xml:lang="jpa" opt="false">הפס</orth>
                   <orth type="transliteration" xml:lang="fjb" opt="false">hfs</orth>
                  </form>
                <form type="variant" source="Vat1" opt="false">
