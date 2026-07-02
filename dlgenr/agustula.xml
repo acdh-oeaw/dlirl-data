@@ -89,7 +89,7 @@
                   </bibl>
                   <ref type="entry" xml:lang="jpa" target="protata.html">פרוטאטא</ref>
                   <cit type="translation" xml:lang="en">
-                     <quote>Shimʿon ben Azzai sais: And Thy condescension hath made me great (II Sam 22,36): A  human being mentions his name [first] and then his praise: So-and-so Augustalis, so-and-so, (I am) the noble. But the Holy One, blessed be He, is not so, for he mentioned His name only after he had created all necessities of the world - At the beginning created and then: God.</quote>
+                     <quote>“Shimʿon ben Azzai sais: And Thy condescension hath made me great (II Sam 22,36): A  human being mentions his name [first] and then his praise: So-and-so Augustalis, so-and-so, (I am) the noble. But the Holy One, blessed be He, is not so, for he mentioned His name only after he had created all necessities of the world - At the beginning created and then: God.”</quote>
                   </cit>
                   <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq 2 [2b: 13]</bibl>
                      <term xml:lang="jpa">אגוסטא</term>
@@ -113,8 +113,8 @@
                <term xml:lang="fjb">ʾgwsṭws</term> (not attested in <bibl type="ancient" default="false" status="draft">GenR</bibl>). <bibl type="modern" default="false" status="draft">Guggenheimer (1973) 24</bibl> suggest “Sodales or Seviri Augustalis” in the meaning of “local rich and outstanding man”.</note>
             <ref type="bibliography">
                <bibl default="false" status="draft" facs="https://archive.org/details/GriechischeUndLateinischeLehnwrterInTalmudMidraschUndTargum/Griechische_und_lateinische_Lehnwrter2/page/n25/mode/2up">
-                  <title>Krauss, LW</title>
-                  <citedRange>II 9a</citedRange>
+                  <title>Krauss, LW II</title>
+                  <citedRange>9a</citedRange>
                </bibl>
             </ref>
          </entry>

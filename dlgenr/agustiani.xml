@@ -47,7 +47,7 @@
                <pron notation="rabbinic" opt="false">agusṭiana</pron>
                <gramGrp opt="false">
                   <gram type="pos" opt="false">noun</gram>
-                  <gram type="gen" opt="false">f</gram>
+                  <gram type="gen" opt="false">f.</gram>
                </gramGrp>
             </form>
             <sense xml:id="agustiani-dlgenr-1" opt="false">
@@ -74,8 +74,7 @@
  דיקומנייא 
                      <app>
                         <lem>ואגוסטיינא</lem>
-                        <rdg wit="#V">וגאוסטיינא</rdg>
-                        <rdg wit="#K">וגאוסטיינא</rdg>
+                        <rdg wit="#V K">וגאוסטיינא</rdg>
                      </app>
 . בשעה שהמלך נמנה עם אילו נמצאי שלמים ובשעה שהמלך עוד נמנה עם אילו נמצאו שלמי'
          </quote>
@@ -109,7 +108,7 @@ they are complete, and when he is counted with the latter they are complete.” 
    </note>
             <ref type="bibliography">
                <bibl default="false" status="draft" facs="https://archive.org/details/GriechischeUndLateinischeLehnwrterInTalmudMidraschUndTargum/Griechische_und_lateinische_Lehnwrter2/page/n25/mode/2up">
-                  <title>Krauss II</title>
+                  <title>Krauss LW II</title>
                   <citedRange>9</citedRange>
                </bibl>
             </ref>

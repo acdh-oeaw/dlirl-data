@@ -309,10 +309,16 @@
     
     <xsl:template match="tei:app" mode="create-example-aramaic-text">
         <xsl:value-of select="./tei:lem/text()"/>
+        <xsl:text>\textsuperscript{</xsl:text>
+        <xsl:number/>
+        <xsl:text>}</xsl:text>
     </xsl:template>
     
     <xsl:template match="tei:app" mode="create-apparatus">
         <xsl:text>\leavevmode\hbox{}\hspace{10mm}</xsl:text>
+        <xsl:text>\textsuperscript{</xsl:text>
+        <xsl:number/>
+        <xsl:text>}</xsl:text>
         <xsl:text>\foreignlanguage{hebrew}{</xsl:text>
         <xsl:value-of select="tei:lem/text()"/>
         <xsl:text>} - </xsl:text>
@@ -321,9 +327,14 @@
     </xsl:template>
     
     <xsl:template match="tei:rdg" mode="create-apparatus">
-        <xsl:text>\foreignlanguage{hebrew}{</xsl:text>
-        <xsl:value-of select="text()"/>
-        <xsl:text>} (</xsl:text>
+        <xsl:if test="(./text() = '') or empty(./text())">
+            <xsl:text>om. </xsl:text>
+        </xsl:if>
+        <xsl:if test="not((./text() = '') or empty(./text()))">
+            <xsl:text>\foreignlanguage{hebrew}{</xsl:text>
+            <xsl:value-of select="text()"/>
+            <xsl:text>} (</xsl:text>
+        </xsl:if>
         <xsl:if test="contains(@wit,' ')">
             <xsl:for-each select="tokenize(@wit,' ')">
                 <xsl:if test="starts-with(.,'#')">
@@ -528,6 +539,7 @@
         <xsl:value-of select="@type"/>
         <xsl:text>): </xsl:text>
         <xsl:apply-templates select="child::node()"/>
+        <xsl:text>\par\vspace{3mm}</xsl:text>
     </xsl:template>
     
     <xsl:template match="tei:lbl[parent::tei:etym]">

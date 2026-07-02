@@ -69,8 +69,7 @@
                   <quote xml:lang="jpa">
                      <app>
                         <lem>אגבה בסטס</lem>
-                        <rdg wit="#Ox1">אגבבסמוס</rdg>
-                        <rdg wit="#Ox2">אגבבסמוס</rdg>
+                        <rdg wit="#Ox1 Ox2">אגבבסמוס</rdg>
                      </app>
              במדינה
          </quote>
@@ -79,9 +78,7 @@
                      <ref type="witness">I 55:3</ref>
                   </bibl>
                   <cit type="translation">
-                     <quote xml:lang="en">
-"the executor in his province”
-            </quote>
+                     <quote xml:lang="en">“the executor in his province”</quote>
                   </cit>
                </cit>
             </sense>

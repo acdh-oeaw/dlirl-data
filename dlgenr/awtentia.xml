@@ -87,7 +87,7 @@
                      <ref type="witness">I 242: 1</ref>
                   </bibl>
                   <cit type="translation" xml:lang="en">
-                     <quote>The essence of its [i.e. the famine’s] power did not come in the days of David, but it was worthy to come only in the days of Saul.</quote>
+                     <quote>“The essence of its [i.e. the famine’s] power did not come in the days of David, but it was worthy to come only in the days of Saul.”</quote>
                   </cit>
                   <note>= <bibl type="ancient">Yalq Bereshit 43 [I 150: 7]</bibl>; <bibl type="ancient">Yalq Sam 153 [369c: 51]</bibl></note>
                </cit>
@@ -103,6 +103,7 @@
                      <ref type="witness">64,2</ref>
                      <ref type="witness">II 701: 12</ref>
                   </bibl>
+                  <!-- <cit type="translation" xml:lang="en">...</cit> -->
                </cit>
             </sense>
             <etym type="borrowing" opt="false">
@@ -122,13 +123,9 @@
       </note>
             <ref type="bibliography">
                <bibl default="false" status="draft" facs="https://archive.org/details/GriechischeUndLateinischeLehnwrterInTalmudMidraschUndTargum/Griechische_und_lateinische_Lehnwrter2/page/n33/mode/2up">
-                  <title>Krauss II</title>
+                  <title>Krauss LW II</title>
                   <citedRange>16ab</citedRange>
                </bibl>
-               <!-- <bibl default="false" status="draft" facs="https://archive.org/details/GriechischeUndLateinischeLehnwrterInTalmudMidraschUndTargum/Griechische_und_lateinische_Lehnwrter2/page/n133/mode/2up">
-                  <title>Krauss II</title>
-                  <citedRange>117</citedRange>
-               </bibl> -->
             </ref>
          </entry>
          <note>Other spellings: <term xml:lang="jpa">אוותנטיא אותנטיאה אוותנטיאה אוותינטייה איוותנטיא אויתנטיאה</term></note>
