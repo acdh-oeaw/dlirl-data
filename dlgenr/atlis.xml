@@ -80,16 +80,7 @@
             </form>
             <sense xml:id="atlis-dlgenr-1" opt="false">
                <cit type="translation" xml:lang="en" subtype="sense">
-                  <quote>fair</quote>
-               </cit>
-               <cit type="translation" xml:lang="en" subtype="sense">
-                  <quote>market</quote>
-               </cit>
-               <cit type="translation" xml:lang="en" subtype="sense">
-                  <quote>bazaar</quote>
-               </cit>
-               <cit type="translation" xml:lang="en" subtype="sense">
-                  <quote>store</quote>
+                  <quote>fair, market, bazaar, store</quote>
                </cit>
                <cit type="translationEquivalent" xml:lang="grc">
                   <usg opt="false">
@@ -106,7 +97,7 @@
                      <ref type="witness">I 348: 2</ref>
                   </bibl>
                   <cit type="translation" xml:lang="en">
-                     <quote>The Pathruthim and Casluhim set up bazaars. (Freedman / Simon I 298)</quote>
+                     <quote>“The Pathruthim and Casluhim set up bazaars.” (Freedman / Simon I 298)</quote>
                   </cit>
                   <note>= Yalq 62 [] (איטליסין); Yalq 1Chr 1073 [516c: 9] (היטלוסין)
                      =
@@ -123,7 +114,7 @@
                      <ref type="witness">II 940: 7</ref>
                   </bibl>
                   <cit type="translation" xml:lang="en">
-                     <quote>He began to set up bazaars and sell cheaply.</quote>
+                     <quote>“He began to set up bazaars and sell cheaply.”</quote>
                   </cit>
                   <note anchored="true">=
                      <bibl type="ancient" default="false" status="draft">Yalq 133 [II 679: 13]</bibl> (<term xml:lang="jpa">אטליסין</term>)

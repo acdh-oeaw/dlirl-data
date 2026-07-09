@@ -72,8 +72,8 @@
             <sense xml:id="ita-dlgenr-1">
                <cit type="translation" xml:lang="jpa" subtype="sense">
                   <quote>letter eta</quote></cit>
-               <cit type="translationEquivalent">
-                  <quote xml:lang="grc">ήτα</quote>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ήτα</quote>
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>אמר להון מדידכון אנא ממטי לכון זיטא איפטה 
@@ -89,7 +89,7 @@
                   <ref type="entry" xml:lang="jpa">זיטא</ref>
                   <ref type="entry" xml:lang="jpa">איפטה</ref>
                   <cit type="translation" xml:lang="en">
-                     <quote>He replied to them: From your own [language] I will prove it to you: “Zeṭaʾ (live) epṭah (seven), eṭah (go) akṭo (eight)” (cf. Freedman / Simon I: 112)</quote>
+                     <quote>“He replied to them: From your own [language] I will prove it to you: ‘Zeṭaʾ (live) epṭah (seven), eṭah (go) akṭo (eight)’.” (cf. Freedman / Simon I: 112)</quote>
                   </cit>
                </cit>
                <cit type="example" xml:lang="jpa">
@@ -107,7 +107,7 @@
                   <ref type="entry" xml:lang="jpa">זיטא</ref>
                   <ref type="entry" xml:lang="jpa">איפטה</ref>
                   <cit type="translation" xml:lang="jpa">
-                     <quote>He replied to them: From your own [language] I will prove it to you: “Zetaʾ (live) epṭah (seven), eṭah (go) akṭo (eight)” (cf. Freedman / Simon I: 164)</quote>
+                     <quote>“He replied to them: From your own [language] I will prove it to you: ‘Zetaʾ (live) epṭah (seven), eṭah (go) akṭo (eight)’.” (cf. Freedman / Simon I: 164)</quote>
                   </cit>
                </cit>
             </sense>
