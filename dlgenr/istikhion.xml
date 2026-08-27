@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">איסטכיון</title>
+            <title type="alternative">ʾysṭkywn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="istikhion-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">איסטכיון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾysṭkywn</orth>
+               <pron notation="rabbinic" opt="false">isṭikhion</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">f.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="istikhion-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>tunic</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>στίχιον / στιχάριον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ויעשו להם חגורות אמר ר' אבא בר כהנא אין כת' חגורה אלא חגורות חגור חגירי חגורות 
+                     <app>
+                        <lem>איסטכיון</lem>
+                        <rdg wit="#Vat1 Vat2">איסטיכיון</rdg>
+                        <rdg wit="#Ox1">אצטליון</rdg>
+                        <rdg wit="#Ox2">איסטרטיון</rdg>
+                        <rdg wit="#V K">אסטכיון</rdg>
+                     </app> גולין סדינים, כשם שעושין לאיש כך עושין לאשה צוצלין קולוסין סבכין.</quote>
+                  <bibl>
+                     <ref type="witness">19,6</ref>
+                     <ref type="witness">I 176: 1</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">סבכין</ref>
+                  <ref type="entry" xml:lang="jpa">קולוסין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And they made themselves girdles (ḥagorot) (Gen 3,7). R. Abbaʾ bar Kahanaʾ said: it is not written “ḥagorah” but ḥagorot – “ḥagor”, “ḥagire”, ḥagorot (i.e. various garments): tunics, turbans, cloths; and just as there are made for man, so they are made for woman: girdles, hats, linen cloths.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 27 [I 93: 43]</bibl> (<term xml:lang="jpa">אסטכיון</term>)</note>
+               </cit>
+            </sense>
+            <note>Corr. for <term xml:lang="jpa">איסטיכרין</term> <term xml:lang="fjb">ʾysṭykryn</term> or <term xml:lang="jpa">איסטכריון</term> <term xml:lang="fjb">ʾsṭkrywn</term>. <bibl type="modern">Sokoloff, DJPA 25a</bibl>: Gr. <term xml:lang="grc">στιχάριον</term> (cf. <bibl type="ancient">Sophocles 1012a</bibl>). <bibl type="modern">Brüll (1873) 57</bibl> considers <term xml:lang="jpa">איסטכיון</term> Gr. <term xml:lang="grc">στίχιον</term> as the original form. <term xml:lang="jpa">איסט(ד)[ר]כין</term> appears only in <bibl type="ancient">yBQ 10,10 [1214: 9]</bibl>. Cf. also <bibl type="modern">AC I 168b-169a</bibl>. <bibl type="modern">Levy I 119b</bibl> doesn’t consider the GenR reading as loanword; for <term xml:lang="jpa">איסטיכרין</term> cf. <bibl type="modern">Levy I 123a</bibl>. <bibl type="modern">Jastrow I 90a</bibl> traces the GenR reading back to <term xml:lang="jpa">אסטכיוה</term> <term xml:lang="fjb">ʾsṭkywh</term> <term xml:lang="rabbinic">isṭekhiwah</term> Hebr. <term xml:lang="jpa">סכי</term> <term xml:lang="jpa">שכי</term>. Cf. <bibl type="modern">Brüll (1873) 57</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>89ab</citedRange></bibl>
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>25a</citedRange></bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

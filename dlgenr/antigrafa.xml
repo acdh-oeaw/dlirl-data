@@ -53,13 +53,15 @@
                   <gram type="pos" opt="false">noun</gram>
                   <gram type="gen" opt="false">f.</gram>
                </gramGrp>
-               <form type="variant" source="Vat1" opt="false">
+               <form type="variant" opt="false">
                   <orth type="variant" xml:lang="jpa" opt="false">אנטיגרפה</orth>
                   <orth type="transliteration" xml:lang="fjb" opt="false">ʾnṭygrph</orth>
                   <pron notation="rabbinic" opt="false">anṭigrafah</pron>
                </form>
-               <form type="variant" source="K V Ox1 Ox2" opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">אנטיגרפא</orth>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">אנטיגרפין</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾnṭygrpyn</orth>
+                  <pron notation="rabbinic">anṭigrafin</pron>
                </form>
             </form>
             <sense xml:id="antigrafa-dlgenr-1" opt="false">
@@ -78,17 +80,29 @@
                   <quote>ἀντιγραφή</quote>
                </cit>
                <cit type="example" xml:lang="jpa">
-                  <quote>אנטונינוס שלח לרבינו אמר ליה בגין דתיסווריה חסרין מה נעביד ונמלא יתהון, נסתיה לשליחא ואעליה לגו פרדיסה, שרי עקר פוגלין רברבין ושתל דקיקין, אמר ליה הב לי אנטיגרפין, אמר ליה לית את צריך, סלק לגביה אמר ליה הן היא אנטיגרפי, אמר ליה לא נתן לי כלום, ומה אמר לך, לא אמר לי כלום אלא נסתי ואעלי לפרדיסא שרי עקר פוגלין רברבין ושתל דקיקין, שרי מפיק דוכסין ומעייל דוכסין עד זמן דיתמלון תיסוורייא.</quote>
-                  <bibl default="false" status="draft">
+                  <quote>אנטונינוס שלח לרבינו אמר ליה בגין דתיסווריה חסרין מה נעביד ונמלא יתהון, נסתיה לשליחא ואעליה לגו פרדיסה, שרי עקר פוגלין רברבין ושתל דקיקין, אמר ליה הב לי 
+                     <app>
+                        <lem>אנטיגרפין</lem>
+                        <rdg wit="#Vat1">אנטיגרפה</rdg>
+                        <rdg wit="#K V Ox1 Ox2">אנטיגרפא</rdg>
+                        <rdg wit="#Vat2">אנטיגרפי פי כתב</rdg>
+                     </app>, אמר ליה לית את צריך, סלק לגביה אמר ליה הן היא 
+                     <app>
+                        <lem>אנטיגרפי</lem>
+                        <rdg wit="#Vat1">אנטיגרפה</rdg>
+                        <rdg wit="#K V Ox1 Ox2">אנטיגרפא</rdg>
+                        <rdg wit="#Vat2">אנטיגרפי</rdg>
+                     </app>, אמר ליה לא נתן לי כלום, ומה אמר לך, לא אמר לי כלום אלא נסתי ואעלי לפרדיסא שרי עקר פוגלין רברבין ושתל דקיקין, שרי מפיק דוכסין ומעייל דוכסין עד זמן דיתמלון תיסוורייא.</quote>
+                     <bibl default="false" status="draft">
                      <ref type="witness">67,6</ref>
                      <ref type="witness">II 761: 4; II 762: 1</ref>
                   </bibl>
                   <ref type="entry" xml:lang="jpa">תיסווריה</ref>
                   <ref type="entry" xml:lang="jpa">תיסוורייא</ref>
                   <cit type="translation" xml:lang="en">
-                     <quote>Antoninus sent to our Teacher: ‘As our treasury is deficient, what shall we do to fill it?’ Thereupon he took his envoy, led him into his garden, bagan uprooting the large radishes and planted small ones in their place. ‘But give me a written reply,’ he requested. ‘You do not need it,’ was the reply. So he went back to him. ‘Where is the answer?’ demanded he. ‘He gave me nothing’, was the reply. ‘And what did he say to you?’ ‘Nothing at all, but he led me into his garden and began uprooting the large radishes and planting small ones.’ At that he began dismissing officers and replacing them with others, until his treasury was filled. (Freedman / Simon II 611)</quote>
+                     <quote>Antoninus sent to our Teacher: ‘As our treasury is deficient, what shall we do to fill it?’ Thereupon he took his envoy, led him into his garden, began uprooting the large radishes and planted small ones in their place. ‘But give me a written reply,’ he requested. ‘You do not need it,’ was the reply. So he went back to him. ‘Where is the answer?’ demanded he. ‘He gave me nothing’, was the reply. ‘And what did he say to you?’ ‘Nothing at all, but he led me into his garden and began uprooting the large radishes and planting small ones.’ At that he began dismissing officers and replacing them with others, until his treasury was filled. (Freedman / Simon II 611)</quote>
                   </cit>
-                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq 115 [35d: 54]</bibl>
+                  <note anchored="true">= <bibl type="ancient" default="false" status="draft">Yalq 115 [II 563: 43.44]</bibl>
                   </note>
                </cit>
             </sense>
@@ -115,6 +129,10 @@
                <bibl default="false" status="draft">
                   <title>Sokoloff, DJPA</title>
                   <citedRange>41a</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>68b-69a</citedRange>
                </bibl>
             </ref>
          </entry>

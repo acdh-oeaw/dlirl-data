@@ -49,18 +49,6 @@
                   <gram type="pos" opt="false">noun</gram>
                   <gram type="gen" opt="false">m.</gram>
                </gramGrp>
-               <form type="variant" source="82,8 - K V" opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">אנטדיקוס</orth>
-               </form>
-               <form type="variant" source="82,8 - Vat1 Vat2" opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">אנטיריקוס</orth>
-               </form>
-               <form type="variant" source="100,9 - K V" opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">אנטירוקוס</orth>
-               </form>
-               <form type="variant" source="100,9 second occurrence - K V" opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">קנטירוקוס</orth>
-               </form>
             </form>
             <sense xml:id="antidiqos-dlgenr-1" opt="false">
                <usg type="domain" opt="false">law</usg>
@@ -82,9 +70,12 @@
                   <quote>ἀντίδικος</quote>
                </cit>
                <cit type="example" xml:lang="jpa">
-                  <quote>
-                     שהקב"ה דן את האומות מיושב מדקדק בדין ומאריך ואחרכך הוא עומד ונעשה אנטידיקוס כנגדן
-         </quote>
+                  <quote>שהקב"ה דן את האומות מיושב מדקדק בדין ומאריך ואחרכך הוא עומד ונעשה 
+                     <app>
+                        <lem>אנטידיקוס</lem>
+                        <rdg wit="#K V">אנטדיקוס</rdg>
+                        <rdg wit="#Vat1 Vat2">אנטיריקוס</rdg>
+                     </app> כנגדן</quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">82,8</ref>
                      <ref type="witness">II 985: 7</ref>
@@ -94,15 +85,18 @@
                         … the Holy One, blessed He, judges sitting, prolonging the hearing and being very rigorous in judgment, and after that He rises and becomes an adversary against them. (Freedman / Simon II 758)
             </quote>
                   </cit>
-                  <note anchored="true">=
-            <bibl type="ancient" default="false" status="draft">Yalq 136 [43d: 15]</bibl> (<term xml:lang="jpa">אנטדיקדוס</term>);
-            <bibl type="ancient" default="false" status="draft">Yalq Jes 696 [388b: 20]</bibl>
-                  </note>
+                  <note>= <bibl type="ancient">Yalq 136 [II 700: 23]</bibl> (<term xml:lang="jpa">אנטיריקוס</term>); <bibl type="ancient">Yalq Jes 396 [XI 31:12]</bibl> (<term xml:lang="jpa">אנטיקידי</term>)</note>
                </cit>
                <cit type="example" xml:lang="jpa">
-                  <quote>
-                     אמ' ר' שמלאי אתם הגוף ואני הראש תבואתה לראש יוסף (דברים לג טז), אין נסיב גופא מה רישא טב, ולא עוד אלא עד שלא ירדתם לכאן היו קוראים אותי עבד, ומאחר שירדתם לכאן הודעתי הוגניסים שלי, אם כן אני הורג אתכם אתמהא, אם הורג אני אתכם, הם אומרים אין לשמור אמנה עם זה, עם אחיו לא שמר אמנה, עם מי הוא משמר אמנה, הן אומרין לא היו אחיו, אלא כת של בחורים ראה אותן וקראן אחיו, תדע לך שהרי הוא בסוף הביא עליהן עילה והרגן, אמר מה אני נעשה אנטידיקוס לאבא, אבא מוליד ואנא קובר, מה אני נעשה   להקב"ה, הקדוש ברוך הוא מברך ואני ממעט הה"ד וינחם אותם, והרי דברים קל וחומר, ומה יוסף שדיבר דברים רכים על לבן של שבטים, כך ניחמן, לכשיבוא הקדוש ברוך הוא לנחם את ירושלם על אחת כמה וכמה הה"ד נחמו נחמי עמי וגומ'
-         </quote>
+                  <quote>אמ' ר' שמלאי אתם הגוף ואני הראש תבואתה לראש יוסף (דברים לג טז), אין נסיב גופא מה רישא טב, ולא עוד אלא עד שלא ירדתם לכאן היו קוראים אותי עבד, ומאחר שירדתם לכאן הודעתי הוגניסים שלי, אם כן אני הורג אתכם אתמהא, אם הורג אני אתכם, הם אומרים אין לשמור אמנה עם זה, עם אחיו לא שמר אמנה, עם מי הוא משמר אמנה, הן אומרין לא היו אחיו, אלא כת של בחורים ראה אותן וקראן אחיו, תדע לך שהרי הוא בסוף הביא עליהן עילה והרגן, אמר מה אני נעשה 
+                     <app>
+                        <lem>אנטידיקוס</lem>
+                        <rdg wit="#K V">אנטירוקוס</rdg>
+                     </app> לאבא, אבא מוליד ואנא קובר, מה אני נעשה 
+                     <app>
+                        <lem>אנטידיקוס</lem>
+                        <rdg wit="#K V">קנטירוקוס</rdg>
+                     </app> להקב"ה, הקדוש ברוך הוא מברך ואני ממעט הה"ד וינחם אותם, והרי דברים קל וחומר, ומה יוסף שדיבר דברים רכים על לבן של שבטים, כך ניחמן, לכשיבוא הקדוש ברוך הוא לנחם את ירושלם על אחת כמה וכמה הה"ד נחמו נחמי עמי וגומ'</quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">100,9</ref>
                      <ref type="witness">III 1294: 8,9</ref>

@@ -49,21 +49,6 @@
                   <gram type="pos" opt="false">noun</gram>
                   <gram type="gen" opt="false">m.</gram>
                </gramGrp>
-               <form type="variant" source="53,10 - Ox1" opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">אנתיקיסר</orth>
-               </form>
-               <form type="variant" source="53,10 - Vat2" opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">אנטיקסר</orth>
-               </form>
-               <form type="variant" source="85,14 - Vat1" opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">אנטיקרס </orth>
-               </form>
-               <form type="variant" source="85,14 - Ox1" opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">אנטיקסר</orth>
-               </form>
-               <form type="variant" source="85,14 - Ox2" opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">אנטיסקר</orth>
-               </form>
             </form>
             <sense xml:id="antiqesar-dlgenr-1" opt="false">
                <usg type="domain" opt="false">administration</usg>
@@ -82,9 +67,12 @@
                   <quote>*ἀντίκαισαρ</quote>
                </cit>
                <cit type="example" xml:lang="jpa">
-                  <quote>
-                     דאמר ר' ברכיה ור' חלבו ר' פרנך מש' ר' יוחנן מלך יריחו אחד אין תלמוד לומר אחד אלא הוא ואנטיקיסר שלו שלו
-         </quote>
+                  <quote>דאמר ר' ברכיה ור' חלבו ר' פרנך מש' ר' יוחנן מלך יריחו אחד אין תלמוד לומר אחד אלא הוא 
+                     <app>
+                        <lem>ואנטיקיסר</lem>
+                        <rdg wit="#Ox1">ואנתיקיסר</rdg>
+                        <rdg wit="#Vat2">ואנטיקסר</rdg>
+                     </app> שלו שלו</quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">53,10</ref>
                      <ref type="witness">II 567: 2</ref>
@@ -94,15 +82,16 @@
                         … as R. Berekhyah and R. Ḥelbo and R. Parnakh in R. Yoḥanans name said: The king of Jericho, one (Jos 12,9): why state ‘one’? Because it means, he and his viceroy. (cf. Freedman / Simon I 469)
             </quote>
                   </cit>
-                  <note anchored="true">
-                     = 
-            <bibl type="ancient" default="false" status="draft">Yalq 94 [28b: 17]</bibl> (<term xml:lang="jpa">אנטיקסר</term>)
-         </note>
+                  <note anchored="true">= <bibl type="ancient">Yalq 94 [I 420: 5]</bibl> (<term xml:lang="jpa">אנטיקסר</term>)</note>
                </cit>
                <cit type="example" xml:lang="jpa">
-                  <quote>
-                     ר' חננא בר יצחק אמר פורפירה בבליא, ומה בבל עבדה הכא, אלא כל מלך שלא היה לו שלטון בארץ ישראל הוא אומר אין מלכותו שוה כלום ומלך בבל אנטיקיסר אנטיסקר שלו היה יושב ביריחו והיה זה משלח לזה כותבות וזה לזה דוריות.
-         </quote>
+                  <quote>ר' חננא בר יצחק אמר פורפירה בבליא, ומה בבל עבדה הכא, אלא כל מלך שלא היה לו שלטון בארץ ישראל הוא אומר אין מלכותו שוה כלום ומלך בבל 
+                     <app>
+                        <lem>אנטיקיסר</lem>
+                        <rdg wit="#Vat1">אנטיקרס</rdg>
+                        <rdg wit="#Ox1">אנטיקסר</rdg>
+                        <rdg wit="#Ox2">אנטיסקר</rdg>
+                     </app> שלו היה יושב ביריחו והיה זה משלח לזה כותבות וזה לזה דוריות.</quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">85,14</ref>
                      <ref type="witness">II 1050: 4</ref>
@@ -115,7 +104,7 @@
             </quote>
                   </cit>
                   <note anchored="true">=
-            <bibl type="ancient" default="false" status="draft">Yalq Jos 18 [349b: 45]</bibl> (<term xml:lang="jpa">אנטיקסר</term>)
+                     <bibl type="ancient" default="false" status="draft">Yalq Jos 18 [X 51: 95]</bibl> (<term xml:lang="jpa">אנטיקסר</term>)
          </note>
                </cit>
             </sense>
@@ -135,7 +124,7 @@
             </etym>
             <note anchored="true">
                Cf. 
-      <bibl type="modern" default="false" status="draft">Krauss (1893) 528</bibl> (to correct the meaning of Soph. ἀντιβασελεύς!);
+      <bibl type="modern" default="false" status="draft">Krauss (1893) 528</bibl> (to correct the meaning of Soph. <term xml:lang="grc">ἀντιβασελεύς</term>!);
       <bibl type="modern" default="false" status="draft">Levy I 109b</bibl>;
       <bibl type="modern" default="false" status="draft">Jastrow I 84a</bibl>. Only in rabb. Lit.
    </note>

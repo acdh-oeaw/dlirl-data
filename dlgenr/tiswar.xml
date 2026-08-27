@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">תיסוור</title>
+            <title type="alternative">tyswwr</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="tiswar-dlgenr"
+            type="mainEntry"
+            xml:lang="en"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">תיסוור</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">tyswwr</orth>
+               <pron notation="rabbinic" opt="false">tiswar</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">תיסבר</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">tysbr</orth>
+                  <pron notation="rabbinic" opt="false">tisvar</pron>
+               </form>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">תסווריות</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">tswwrywt</orth>
+                  <pron notation="rabbinic" opt="false">tiswariyyot</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+            </form>
+            <sense xml:id="tiswar-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>treasury, store house, stock</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>θησαυρός</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אנטונינוס שלח לרבינו אמר ליה בגין 
+                     <app>
+                        <lem>דתיסווריה</lem>
+                        <rdg wit="#Ox2">דתיסווריא</rdg>
+                        <rdg wit="#Ox1">דתיסוריא</rdg>
+                        <rdg wit="#K">דתסבריא</rdg>
+                        <rdg wit="#V">דתסוורתא</rdg>
+                     </app> חסרין מה נעביד ונמלא יתהון, נסתיה לשליחא ואעליה לגו פרדיסה, שרי עקר פוגלין רברבין ושתל דקיקין, אמר ליה הב לי אנטיגרפין אמר ליה לית את צריך, סלק לגביה אמר ליה הן היא אנטיגרפי, אמר ליה לא נתן לי כלום, ומה אמר לך, לא אמר לי כלום אלא נסתי ואעלי לפרדיסא שרי עקר פוגלין רברבין ושתל דקיקין, שרי מפיק דוכסין ומעייל דוכסין עד זמן דיתמלון 
+                        <app>
+                           <lem>תיסוורייא</lem>
+                           <rdg wit="#Vat2">תיסווריה</rdg>
+                           <rdg wit="#Vat1">תיסוורייה</rdg>
+                           <rdg wit="#Ox1">תיסוריא</rdg>
+                           <rdg wit="#Ox2">תיסווריה</rdg>
+                           <rdg wit="#K">תסבריא</rdg>
+                           <rdg wit="#V">תסוורתא</rdg>
+                        </app>.</quote>
+                  <bibl>
+                     <ref type="witness">67,6</ref>
+                     <ref type="witness">II 761: 4; II 762: 1</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אנטיגרפי</ref>
+                  <ref type="entry" xml:lang="jpa">אנטיגרפין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Antoninus sent to our Teacher: ‘As our treasury is deficient, what shall we do to fill it?’ Thereupon he took his envoy, led him into his garden, began uprooting the large radishes and planted small ones in their place. ‘But give me a written reply,’ he requested. ‘You do not need it,’ was the reply. So he went back to him. ‘Where is the answer?’ demanded he. ‘He gave me nothing’, was the reply. ‘And what did he say to you?’ ‘Nothing at all, but he led me into his garden and began uprooting the large radishes and planting small ones.’ At that he began dismissing officers and replacing them with others, until his treasury was filled (Freedman / Simon II 611).</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 115 [II 563: 43.44]</bibl> (<term xml:lang="jpa">תיסבריא</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' חנינא ציפוראה למה נקרא שמו עירם שעתיד לערם 
+                     <app>
+                        <lem>תיסווריות</lem>
+                        <rdg wit="#Vat1">תיסווריות</rdg>
+                        <rdg wit="#Ox1 Ox2 Vat2">תיסוריות</rdg>
+                        <rdg wit="#V">תסווריות</rdg>
+                        <rdg wit="#K">תסוריות</rdg>
+                     </app> למלך המשיח, אמר ר' לוי מעשה בשלטון אחד ברומי שהיה מבזבז 
+                     <app>
+                        <lem>תיווסריות</lem>
+                        <rdg wit="#V">תסווריות</rdg>
+                        <rdg wit="#K">תסוריות</rdg>
+                        <rdg wit="#Vat2"> תיסוריות</rdg>
+                     </app> שלאביו נראה לו אליהו זכור לטוב בחלום, אמר לו אבותיך מצמתין ואתה מבזבז, לא זז עד שמלאן</quote>
+                  <bibl>
+                     <ref type="witness">83,4</ref>
+                     <ref type="witness">II 1000: 3</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Ḥaninaʾ of Sepporis said: Why was he called Iram? Because he is destined to amass (le-ʾerom) treasures for the royal Messiah. R. Lewi said: It is related of a certain ruler in Rome who squandered his father’s treasures, that Elijah of blessed memory appeared to him in a dream and upbraided him: Your fathers amassed and you squander! He did not stir thence until he had replenished them! (Freedman / Simon II 768)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 140 [II 714: 41.42]</bibl> (<term xml:lang="jpa">תסבריות</term>); <bibl type="ancient">Yalq 1. Chr. 1074 [516d: 22]</bibl> (<term xml:lang="jpa">תסבריות</term>)</note>
+               </cit>
+            </sense>
+            <note>Frequently used in Hebr. and Aramaic context. Appears already in Targ (cf. <bibl type="modern">Levy, Targ II 547ab</bibl>). Cf. <bibl type="modern">AC VIII 253ab</bibl>; <bibl type="modern">Levy IV 657a</bibl>; <bibl type="modern">Krauss, LW II 587ab</bibl>. <bibl type="modern">Jastrow II 1682b</bibl> renders back both Hebr. and Gr. to the Hebr. root <term xml:lang="jpa">סבר</term> <term xml:lang="fjb">sbr</term>. Cf. Syr. <term xml:lang="syc">ܬܐܣܘܪܐ</term> <term xml:lang="fjb">tʾswrʾ</term> (<bibl type="modern">Sokoloff, SL 1619ab</bibl>). <bibl type="modern">Fürst (1890) 213a</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>587ab</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Sokoloff</title>
+                  <citedRange>671b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

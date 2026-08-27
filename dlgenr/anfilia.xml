@@ -65,15 +65,6 @@
                   <orth type="transliteration" xml:lang="fjb" opt="false">ʾmpylywt</orth>
                   <pron notation="rabbinic" opt="false">amfiliot</pron>
                </form>
-               <form type="variant" source="Vat1 Ox2" opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">אנפיליות</orth>
-               </form>
-               <form type="variant" source="K V" opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">אנפלאות</orth>
-               </form>
-               <form type="variant" source="Vat2" opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">אנפיליאות</orth>
-               </form>
             </form>
             <sense xml:id="anfilia-dlgenr-1" opt="false">
                <usg type="domain" opt="false">garments</usg>
@@ -91,9 +82,19 @@
                   <quote>ἐμπίλια</quote>
                </cit>
                <cit type="example" xml:lang="jpa">
-                  <quote>
-                     כיון שהירגיש גביעה בן קוסם הלך ועשה לו שני אנפליות ונתן בהם שתי אבנים טובות בשתי ריבות כסף, כיון שהיגיע להר הבית אמר לו אדוני המלך שלוף מנעליך ונעול לך שני אנפליות הללו שהרצפה חלוקה שלא תחליק רגליך
-         </quote>
+                  <quote>כיון שהירגיש גביעה בן קוסם הלך ועשה לו שני 
+                     <app>
+                        <lem>אנפליות</lem>
+                        <rdg wit="#Vat1 Ox2">אנפיליות</rdg>
+                        <rdg wit="#K V">אנפלאות</rdg>
+                        <rdg wit="#Vat2">אנפיליאות</rdg>
+                     </app> ונתן בהם שתי אבנים טובות בשתי ריבות כסף, כיון שהיגיע להר הבית אמר לו אדוני המלך שלוף מנעליך ונעול לך שני 
+                     <app>
+                        <lem>אנפליות</lem>
+                        <rdg wit="#Vat1 Ox2">אנפיליות</rdg>
+                        <rdg wit="#K V">אנפלאות</rdg>
+                        <rdg wit="#Vat2">אנפיליאות</rdg>
+                     </app> הללו שהרצפה חלוקה שלא תחליק רגליך</quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">61,7</ref>
                      <ref type="witness">II 668: 4,6</ref>
@@ -103,6 +104,7 @@
                         When Geviʿah, the son of Qosem, learned of this, he went and made him a pair of felt shoes and set them with two costly stones worth twenty thousand silver [zuz]. When they reached the Temple mount he said to him: ‘Your Majesty: remove your shoes and put on these felt shoes, as the pavement is smooth and you might slip.’ (Freedman / Simon II 547)
             </quote>
                   </cit>
+                  <note>= <bibl type="ancient">Yalq 110 [II 502: 53.55]</bibl></note>
                </cit>
             </sense>
             <etym type="borrowing" opt="false">
@@ -133,6 +135,10 @@
                <bibl default="false" status="draft">
                   <title>Heijmanns (2013)</title>
                   <citedRange>41</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>61b-62a</citedRange>
                </bibl>
             </ref>
          </entry>

@@ -130,7 +130,7 @@
             </quote>
                   </cit>
                   <note anchored="true">=
-            <bibl type="ancient" default="false" status="draft">Yalq 2 [2a: 33-36]</bibl>;
+                     <bibl type="ancient" default="false" status="draft">Yalq 2 [I 3: 10]</bibl>;
             <bibl type="ancient" default="false" status="draft">Yalq 766 [265d: 60-62]</bibl> (<term xml:lang="jpa">אסטרולוגין</term>)
          </note>
                </cit>
@@ -183,7 +183,7 @@
             </etym>
             <note anchored="true">
                Cf. 
-      <bibl type="modern" default="false" status="draft">Krauss, 121b-122a</bibl> (<term xml:lang="jpa">אצטרולוג</term>). Pl. attested e.g. in
+               <bibl type="modern" default="false" status="draft">Krauss, LW II 121b-122a</bibl> (<term xml:lang="jpa">אצטרולוג</term>). Pl. attested e.g. in
       <bibl type="ancient" default="false" status="draft">ExR 1,18</bibl> and other. Cf.
       <bibl type="modern" default="false" status="draft">AC I 176ab</bibl>,
       <bibl type="modern" default="false" status="draft">Levy I 123a</bibl>;
