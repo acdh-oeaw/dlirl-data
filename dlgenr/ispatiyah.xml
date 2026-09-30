@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אספטיה</title>
+            <title type="alternative">ʾspṭyh</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="ispatiyah-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אספטיה</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾspṭyh</orth>
+               <pron notation="rabbinic" opt="false">ispaṭiyah</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">איספטיה</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾyspṭyh</orth>
+                  <pron notation="rabbinic">ispaṭiyah</pron>
+               </form>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">איספטלייה</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾspṭlyyh</orth>
+                  <pron notation="rabbinic">ispeṭaliyyah</pron>
+               </form>
+            </form>
+            <sense xml:id="ispatiyah-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>hospital, lodging</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <quote>hospitium / hospitalis</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>כי גר יהיה זרעך וגו' משתראה לך זרע לארבע מאות שנה, אמר ר' יודן גירות עבדות עינוי בארץ לא להם 
+                     <app>
+                        <lem>לארבע מאות שנה</lem>
+                        <rdg wit="#K V Ox1 Ox2"/>
+                     </app>
+                     <app>
+                        <lem>לאספטיה</lem>
+                        <rdg wit="#Vat1">לאיספטליה</rdg>
+                        <rdg wit="#K Ox1 V">לאספטיה</rdg>
+                        <rdg wit="#Vat2">לאספטוה</rdg>
+                     </app> שלהם</quote>
+                  <bibl>
+                     <ref type="witness">44,18</ref>
+                     <ref type="witness">440: 9</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>... that thy seed shall be a stranger in a land that is not theirs, and shall serve them, and they shall afflict them four hundred years (Gen 15,13): this means, until four hundred years after seed shall be granted to thee. [R. Yudan said: Servitude and being strangers (they will experience) in the land that is not theirs; and (the Jews) shall serve them (the Egyptians), and they (the Egyptians) shall afflict them (the Jews) four hundred years (ibid.) – even in their lodging (Canaan).] (Cf. Freedman / Simon I 373)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 77 [I 309: 97]</bibl>; <bibl type="ancient">PesR 15</bibl> [<bibl type="modern">Ulmer 286-287</bibl>] (<foreign xml:lang="jpa">איספטלייא, אספטילייה, אספטליא</foreign>); <bibl type="ancient">PesK 5</bibl> [<bibl type="modern">Buber 47b, note 96</bibl>] (<term xml:lang="jpa">איספיטלית</term>); <bibl type="ancient">CantR 2,16</bibl> (<term xml:lang="jpa">איספטלייה</term>)</note>
+               </cit>
+            </sense>
+            <note>GenR is corrupted. The parallel in <bibl type="ancient">PesR 15</bibl>, Ms Parma 147a [<bibl type="modern">Ulmer 286</bibl>] provides a better reading: <foreign xml:lang="jpa">א"ר יודן עבדות וגרות בארץ לא להם ועבדום וענו אתם ארבע מאות שנה אפילו על אספטילייה שלהן</foreign>, followed by our translation. <bibl type="modern">Freedman / Simon I 373-374</bibl> translate (following MY): “R. Yudan said: The condition of being strangers, in servitude, and afflicted in a land not theirs was to last four hundred years, which was their decreed term,” but note that this passage is “rather obscure”. Arukh (178a, sub. <term xml:lang="jpa">פלטיה</term>) explains as <term xml:lang="jpa">מנוחה</term>, „rest“. <bibl type="modern">Krauss, LW II 37a</bibl> suggests Gr. <term xml:lang="grc">ὁσπιτάλιον</term> as source (rejected by <bibl type="modern">Löw ad loc.</bibl>). <bibl type="ancient">AC I 187a</bibl>, <bibl type="modern">Buber</bibl> (<bibl type="ancient">PesK 47b-48a</bibl>, note 96) and MY ad loc. explain as Lat. <term xml:lang="la">spatium</term>. <bibl type="modern">Jastrow I 53ab</bibl> suggests Gr. <term xml:lang="grc">ἰσοπιλιτεία</term> “civic rights granted to strangers, isopolity”, translating (after PesR): “slavery and stranger’s condition (indicated in Gen 15,13) were in a land not theirs (in Egypt), but, ‘and they shall afflict them four hundred years refers to their isopolity (in Canaan, from the birth of Isaac)”.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Levy I</title>
+                  <citedRange>128a</citedRange></bibl>
+               <bibl>
+                  <title>Fürst</title>
+                  <citedRange>66a</citedRange>
+               </bibl>
+            </ref>
+         </entry>    
+      </body>
+  </text>
+</TEI>

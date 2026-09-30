@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אסטרטיא</title>
+            <title type="alternative">ʾsṭrṭyʾ</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="istratia-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אסטרטיא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾsṭrṭyʾ</orth>
+               <pron notation="rabbinic" opt="false">isṭratia</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f.</gram>
+               </gramGrp>
+               <form type="inflected">
+                  <orth type="inflected" xml:lang="jpa">אסטרטיות</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾsṭrṭywt</orth>
+                  <pron notation="rabbinic">isṭratiot</pron>
+                  <gramGrp>
+                     <gram type="num">pl.</gram>
+                  </gramGrp>
+               </form>
+            </form>
+            <sense xml:id="istratia-dlgenr-1">
+               <cit type="translation" subtype="sense" xml:lang="jpa">
+                  <quote>army</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>στρατιά</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ד"א הן אדני מתיירא אני מאדני, אמרה אהרגנו, אמ' לה לא [דיי] שאימנה 
+                     <app>
+                        <lem>באיסרטיון</lem>
+                        <rdg wit="#K V">באסרטין</rdg>
+                        <rdg wit="#Ox1">באיסטרטיין</rdg>
+                        <rdg wit="#Ox2">באיסטרטין</rdg>
+                        <rdg wit="#Vat1">מאסרטיין</rdg>
+                     </app> שלנואפים אלא שאמנה 
+                     <app>
+                        <lem>מאיסרטיון</lem>
+                        <rdg wit="#Ox1">באסטרטיין</rdg>
+                        <rdg wit="#Ox2">באיסטרטין</rdg>
+                        <rdg wit="#Vat1">מאסרטיין</rdg>
+                        <rdg wit="#K V">באסרטין</rdg>
+                     </app> שלרצחנין</quote>
+                  <bibl>
+                     <ref type="witness">87,5</ref>
+                     <ref type="witness">III 1067: 2</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Another interpretation: Behold my master - I am afraid of my master. ‘Then I will kill him,’ she urged. ‘It is not enough that I should be counted in the “army” of adulterers, but I am to be counted among murderers too!’, he replied. [Cf. Freedman / Simon II 809]</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 145 [II 751: 64]</bibl></note>
+               </cit>
+            </sense>
+            <note>For Syr. <term xml:lang="syc">ܐܣܛܪܛܝܐ</term> <term xml:lang="fjb">ʾsṭrṭyʾ</term> see <bibl type="modern">Sokoloff, SL 71a</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>83b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

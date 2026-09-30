@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אסטרופומטא</title>
+            <title type="alternative">ʾsṭrwpwmṭʾ</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="istrofomta-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אסטרופומטא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾsṭrwpwmṭʾ</orth>
+               <pron notation="rabbinic" opt="false">isṭrofomṭaʾ</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">אסטרופומטה</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾsṭrwpwmth</orth>
+                  <pron notation="rabbinic" opt="false">isṭrofomtah</pron>
+               </form>
+            </form>
+            <sense xml:id="istrofomta-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>hinge, a door which can be opened to both sides</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>στροφώματος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' אייבו פלונו שלאבינו יצחק מפולש היה, רבנין אמ' כמין 
+                  <app>
+                     <lem>אסטרופומטה</lem>
+                     <rdg wit="#Vat1">אסתרופומטה</rdg>
+                     <rdg wit="#Ox1">איסטרופימטא</rdg>
+                     <rdg wit="#Ox2">איסתריפימטא</rdg>
+                     <rdg wit="#V">איסטרופומיטא</rdg>
+                     <rdg wit="#K">איצטריבומטא</rdg>
+                     <rdg wit="#Vat2"> איסתרופומטה</rdg>
+                  </app> הדלתות היו נכפלות לאחוריהן, עמד לו יעקב אחרי הדלת עד שנכנס עשו ויצא לן</quote>
+                  <bibl>
+                     <ref type="witness">66,5</ref>
+                     <ref type="witness">II 750: 1</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פלונו</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Aibo said: The tent of our father Isaac was open to both sides. The Rabbis said: it was like an “isṭrofomṭaʾ” – the doors could be opened backwards. Jacob stood behind the door until Esau came in and then he departed.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 115 (ΙΙ 557: 67)</bibl></note>
+               </cit>
+            </sense>
+            <note>In <bibl type="ancient">mMid 4,1</bibl> as <term xml:lang="jpa">איצטרמיטה</term>. <bibl type="modern">Levy I 123b</bibl>; <bibl type="modern">Krauss, LW II 82b</bibl>: Gr. <term xml:lang="grc">στροφώματος</term>; <bibl type="modern">Fleischer I 282</bibl> and <bibl type="modern">Jastrow I 91b</bibl> see the source in Gr. pl. <term xml:lang="grc">στροφώματα</term>. Heijmanns regards <term xml:lang="jpa">א(צ)טרפמיטה</term> <term xml:lang="fjb">ʾ(ṣ)ṭrfmyṭn</term> <term xml:lang="rabbinic">ʾi(ṣ)ṭrafamitah</term> as the original reading.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Heijmanns (2013)</title>
+                  <citedRange>31-31</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>
