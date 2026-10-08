@@ -49,12 +49,6 @@
                   <gram type="pos" opt="false">noun</gram>
                   <gram type="gen" opt="false">m.</gram>
                </gramGrp>
-               <form type="variant" source="Vat2" opt="false">
-                  <orth xml:lang="jpa" opt="false">תמיליוסים</orth>
-               </form>
-               <form type="variant" source="Ox1" opt="false">
-                  <orth xml:lang="jpa" opt="false">תלמיוסין</orth>
-               </form>
             </form>
             <form type="inflected" opt="false">
                <orth type="inflected" xml:lang="jpa" opt="false">תימליוסים</orth>
@@ -91,19 +85,24 @@
                   <quote xml:lang="grc">θεμελίωσις</quote>
                </cit>
                <cit type="example">
-                  <quote xml:lang="jpa"> הדליק נרות ו
-            <ref type="entry">פניס</ref> לידע היאך קובע
-                     תימיליאוס תימיליאוס
-         </quote>
+                  <quote xml:lang="jpa">הדליק נרות ופניס לידע היאך קובע 
+                     <app>
+                        <lem>תימיליאוס</lem>
+                        <rdg wit="#Vat2">תמיליוסים</rdg>
+                        <rdg wit="#Ox1">תלמיוסין</rdg>
+                        <rdg wit="#V">תימליוסים</rdg>
+                     </app></quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">3,1</ref>
                      <ref type="witness">I 19:1</ref>
                   </bibl>
+                  <ref type="entry" xml:lang="jpa">פניס</ref>
                   <cit type="translation">
                      <quote xml:lang="en">“he lit lights and lanterns, to know where to set the
                         foundation”
             </quote>
                   </cit>
+                  <note>= <bibl type="ancient">Yalq 4 [I 16: 33]</bibl> (<term xml:lang="jpa">תמליוסין</term>); <bibl type="ancient">Yalq Ps 878 [481b: 58]</bibl> (<term xml:lang="jpa">תלמוסין</term>); <bibl type="ancient">YalqMa 119 § 17 [115a]</bibl> (<term xml:lang="jpa">תלמיוסיו</term>, em. <term xml:lang="jpa">תמליוסיו</term>).</note>
                </cit>
             </sense>
             <etym type="borrowing" opt="false">
@@ -143,6 +142,10 @@
                <bibl default="false" status="draft">
                   <title>Sokoloff, DJPA</title>
                   <citedRange>580</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>587a</citedRange>
                </bibl>
             </ref>
          </entry>

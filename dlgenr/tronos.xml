@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">תרונוס</title>
+            <title type="alternative">trwnws</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="tronos-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">תרונוס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">trwnws</orth>
+               <pron notation="rabbinic" opt="false">tronos</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="tronos-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>throne, chear</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>θρόνος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>וירד י"י על הר סיני, שלומייני בשם ר' שמעון בן לקיש 
+                     <app>
+                        <lem>תרונוס</lem>
+                        <rdg wit="#Vat1 Vat2 Ox1">תרכוס</rdg>
+                        <rdg wit="#V">תרכוסא</rdg>
+                     </app> שלג' רגלים הראה לו</quote>
+                  <bibl>
+                     <ref type="witness">68, 12</ref>
+                     <ref type="witness">II 786: 7</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And the Lord came down upon Mount Sinai. Shelomayni said in the Name of R. Shimʿon ben Laqish: He showed him a throne of three legs.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 119 [II 582: 64]</bibl> (<term xml:lang="jpa">תרכוס</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' ברכיה בשם ר' לוי אותן האבנים שנתן אבינו יעקב תחת ראשו נעשו תחתיו כמטה 
+                     <app>
+                        <lem>וכתרונוס</lem>
+                        <rdg wit="#Vat1">כפרונס</rdg>
+                        <rdg wit="#Vat2">וכפרינם</rdg>
+                        <rdg wit="#Ox1 Ox2">וכפורנס</rdg>
+                        <rdg wit="#V">וכפירנס</rdg>
+                     </app> וכפלומה</quote>
+                  <bibl>
+                     <ref type="witness">68,11</ref>
+                     <ref type="witness">II 783: 5</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פלומה</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Berekhiyah said in R. Levi’s name: The stones which the Patriarch Jacob put under his head became under him like a feather-bed and a throne. [Cf. Freedman / Simon II 624]</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">ShirR 67 [1,17]</bibl> (<term xml:lang="jpa">פלומה</term>); <bibl type="ancient">Yalq 119 [II 579: 25]</bibl> (<term xml:lang="jpa">פורנס</term>)</note>
+               </cit>
+            </sense>
+            <note>Cf. <bibl type="modern">AC VIII 281b-282a</bibl>; <bibl type="modern">Levy IV 672b</bibl>; <bibl type="modern">Jastrow 1697a</bibl> and <bibl type="modern">MY</bibl> ad loc. The reading in 68,11 is obviously corrupt and should be emended to <term xml:lang="jpa">פלומה</term>. <term xml:lang="jpa">פרינס</term> <term xml:lang="fjb">pryns</term>, <term xml:lang="jpa">פרונס</term> <term xml:lang="fjb">prwns</term> are also obscure (Pseudo-Rashi on GenR explains it as Slavic perina [feather bed]), cf. <bibl type="modern">Löw in Krauss, LW II 614a</bibl>.
+            </note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>592b-593a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>
