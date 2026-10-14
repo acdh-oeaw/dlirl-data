@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">תיביקון</title>
+            <title type="alternative">tybyqwn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="tibiqon-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">תיביקון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">tybyqwn</orth>
+               <pron notation="rabbinic" opt="false">tibiqon</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">adjective</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="tibiqon-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>Thebaic cubit</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>θηβαϊκός</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>וזה אשר תעשה אותה. אמר ר' יודן זה וזה עתיד אחד למוד באמתך. הה"ד ארך הביינין במידה הראשונה אמות עשרים ורחב אמות עשרים. ולמה הוא קורא אותה 
+                     <app>
+                        <lem>תייביקון</lem>
+                        <rdg wit="#Vat1">תיבייקין</rdg>
+                        <rdg wit="#Ox1">תוביקון</rdg>
+                        <rdg wit="#V Ox2">אמה תביקין</rdg>
+                     </app> ר' הונא אמר שהיא מתביאית, ורבנין אמ' על שם תיבתו שלנח</quote>
+                  <bibl>
+                     <ref type="witness">31, 10</ref>
+                     <ref type="witness">I 282: 5</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And this is how thou shalt make it (Gen 6,15). R. Yudan said: And this [is written where] this [would have sufficed]: [God intimated]: Another is destined to measure with thy cubit, as it is written, The length of the building after the ancient [lit. ‘first’] measure was twenty cubits, and the breadth twenty cubits (2 Chr 3,3). And why is it [the cubit] called tibiqon? R. Huna said: Because it comes from Thebes. The Rabbis said: On account of Noah’s tevah (ark). (Freedman / Simon I 243)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 53 [I 177: 4]</bibl> (<term xml:lang="jpa">תביקון</term>)</note>
+               </cit>
+            </sense>
+            <note>Cf. <bibl type="modern">MY ad loc</bibl>; <bibl type="modern">AC VIII 200ab</bibl>; <bibl type="modern">Levy IV 625a</bibl>; <bibl type="modern">Fürst (1890) 212a</bibl>; <bibl type="modern">Zuckermann (1867) 21</bibl>; <bibl type="modern">Jastrow II 1643a</bibl>. Krauss, LW II suggests also <term xml:lang="jpa">קוביקון</term> <term xml:lang="fjb">qwbyqwn</term> <term xml:lang="rabbinic">qubikon</term> Gr. <term xml:lang="grc">κυβικόν</term>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sachs (1852)</title>
+                  <citedRange>135</citedRange></bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

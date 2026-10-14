@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">פלומה</title>
+            <title type="alternative">plwmʾ</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="pluma-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">פלומה</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">plwmʾ</orth>
+               <pron notation="rabbinic" opt="false">pluma</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="pluma-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>fluff</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <quote>pluma</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>πλουμίον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' ברכיה בשם ר' לוי אותן האבנים שנתן אבינו יעקב תחת ראשו נעשו תחתיו כמטה 
+                     <app>
+                        <lem>וכתרונוס</lem>
+                        <rdg wit="#Vat1">כפרונס</rdg>
+                        <rdg wit="#Vat2">וכפרינם</rdg>
+                        <rdg wit="#Ox1 Ox2">וכפורנס</rdg>
+                        <rdg wit="#V">וכפירנס</rdg>
+                     </app> [וכפלומה]</quote>
+                  <bibl>
+                     <ref type="witness">68,11</ref>
+                     <ref type="witness">II 783: 5</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">תרונוס</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Berekhiyah said in R. Levi’s name: The stones which the Patriarch Jacob put under his head became under him like a feather-bed and a fluff. [Cf. Freedman / Simon II 624]</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">ShirR 67 [1,17]</bibl> (<term xml:lang="jpa">פלומה</term>); <bibl type="ancient">Yalq 119 [II 579: 25]</bibl> (<term xml:lang="jpa">פורנס</term>)</note>
+               </cit>
+            </sense>
+            <note>Hapax. Emendation acc. to ShirR. Cf. <bibl type="modern">AC VI 348b</bibl>; <bibl type="modern">Levy IV 53b</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>455a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

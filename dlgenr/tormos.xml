@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">תורמוס</title>
+            <title type="alternative">twrmws</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="tormos-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">תורמוס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">twrmws</orth>
+               <pron notation="rabbinic" opt="false">tormos</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected">
+               <orth type="inflected" xml:lang="jpa">תורמוסין</orth>
+               <gramGrp>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="tormos-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>lupine</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>θέρμος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>
+                     <app>
+                        <lem>התורמוס</lem>
+                        <rdg wit="#Ox1">תרמיס</rdg>
+                        <rdg wit="#Ox2">טרמוס</rdg>
+                        <rdg wit="#K V">התורמוסים</rdg>
+                        <rdg wit="#Vat2"/>
+                     </app> צריך למתק</quote>
+                  <bibl>
+                     <ref type="witness">11,6</ref>
+                     <ref type="witness">I 95: 3</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>lupine needs sweetening</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">PesRab 23</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>מה עבד נסה 
+                     <app>
+                        <lem>תורמוסין</lem>
+                        <rdg wit="#Ox1 Ox2">תורמוסין</rdg>
+                        <rdg wit="#K V">תרמוסא</rdg>
+                     </app> והוה קציץ 
+                     <app>
+                        <lem>תורמוסה</lem>
+                        <rdg wit="#Ox1">תרמוס</rdg>
+                        <rdg wit="#Ox2 K V">תרמוסא</rdg>
+                        <rdg wit="#Vat2">תורמסא</rdg>
+                     </app></quote>
+                  <bibl>
+                     <ref type="witness">79,6</ref>
+                     <ref type="witness">II 943: 1</ref>
+                  </bibl>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>היה אחד מהם מוציא פרוטה מליאה 
+                     <app>
+                        <lem>תורמוסין</lem>
+                        <rdg wit="#Vat1">תרמסין</rdg>
+                        <rdg wit="#Ox1 Ox2">תורמוסים</rdg>
+                        <rdg wit="#K">תורמוסי</rdg>
+                     </app></quote>
+                  <bibl>
+                     <ref type="witness">31,5</ref>
+                     <ref type="witness">I 279: 9</ref>
+                  </bibl>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>מה עבד נסה 
+                     <app>
+                        <lem>תורמוסין</lem>
+                        <rdg wit="#Ox1 Ox2">תורמוסין</rdg>
+                        <rdg wit="#K V">תרמוסא</rdg>
+                     </app> והוה קציץ 
+                     <app>
+                        <lem>תורמוסה</lem>
+                        <rdg wit="#Ox1">תרמוס</rdg>
+                        <rdg wit="#Ox2 K V">תרמוסא</rdg>
+                        <rdg wit="#Vat2">תורמסא</rdg>
+                     </app></quote>
+                  <bibl>
+                     <ref type="witness">79,6</ref>
+                     <ref type="witness">II 943: 1</ref>
+                  </bibl>
+               </cit>
+            </sense>
+            <note>Cf. <bibl type="modern">Krauss, LW II 585ab</bibl>; <bibl type="modern">AC VIII 280ab</bibl>; <bibl type="modern">Levy IV 671b</bibl>; <bibl type="modern">Jastrow II 1657b</bibl>; <bibl type="modern">Heijmanns (2013) 229</bibl>. For Syr. <term xml:lang="syc">ܬܘܪܡܣܐ</term> <term xml:lang="fjb">trmsʾ</term> cf. <bibl type="modern">Sokoloff, SL 1634a</bibl>.</note>
+            <ref type="bibliography">
+              <bibl>
+                 <title>Sokoloff, DJPA</title>
+                  <citedRange>668b-669a</citedRange></bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

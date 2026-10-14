@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">תיאטרון</title>
+            <title type="alternative">tyʾṭrwn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="tiatron-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">תיאטרון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">tyʾṭrwn</orth>
+               <pron notation="rabbinic" opt="false">tiaṭron</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">תייטרון</orth>
+                  <orth type="transliteration" xml:lang="fjb">tyyṭrwn</orth>
+                  <pron notation="rabbinic">tyaṭron</pron>
+               </form>
+            </form>
+            <form type="inflected">
+               <orth type="inflected" xml:lang="jpa">תיאטראות</orth>
+               <orth type="transliteration" xml:lang="fjb">tyʾṭrʾwt</orth>
+               <pron notation="rabbinic">tiaṭraʾot</pron>
+               <gramGrp>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected">
+               <orth type="inflected" xml:lang="jpa">תיאטריאות</orth>
+               <orth type="transliteration" xml:lang="fjb">tyʾṭryʾwt</orth>
+               <pron notation="rabbinic">tiaʾṭriʾot</pron>
+               <gramGrp>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="tiatron-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>theater</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>θέατρον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' נחמיה א' יום 
+                     <app>
+                        <lem>תייטרון</lem>
+                        <rdg wit="#K V">תיאטירון</rdg>
+                        <rdg wit="#Ox1 Ox2">מיטרין</rdg>
+                     </app> היה</quote>
+                  <bibl>
+                     <ref type="witness">87,7</ref>
+                     <ref type="witness">III 1072: 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Neḥemiyah said: It was a day of a theatrical performance. (Freedman / Simon II 811)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">ExR 11,11</bibl> (<term xml:lang="jpa">תיאטרון של נילוס</term>); <bibl type="ancient">SekhṬ Gen 39,11</bibl> (-); <bibl type="ancient">Yalq 146 [II 756: 28]</bibl> (<term xml:lang="jpa">טירטון</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>... אם לאו הולך לבתי 
+                     <app>
+                        <lem>תיאטריות</lem>
+                        <rdg wit="#Ox1">טרטיאות</rdg>
+                        <rdg wit="#Ox2">תרטיאות</rdg>
+                        <rdg wit="#K V">טרטסיאות</rdg>
+                        <rdg wit="#Vat2">תרטיאיות</rdg>
+                     </app> ולבתי קרקסיות</quote>
+                  <bibl>
+                     <ref type="witness">67,3</ref>
+                     <ref type="witness">II 757: 2</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">קרקסיות</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>He can go to theatres and to circuses.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 115 [II 560: 9]</bibl> (<term xml:lang="jpa">טרטיאות</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר לו ר' צריכין אנו להחזיק טובה לאומות העולם שהן מכניסין מימסין לבתי 
+                     <app>
+                        <lem>תיאטריות</lem>
+                        <rdg wit="#Vat1">תיטריות</rdg>
+                        <rdg wit="#Ox1 Ox2">טרטיאות</rdg>
+                        <rdg wit="#K V">טרטייאות</rdg>
+                     </app> וקרקסיות שלהם ומשחקים בהם שלא יהו יושבין ומסיחין אילו באילו</quote>
+                  <bibl>
+                     <ref type="witness">80,1</ref>
+                     <ref type="witness">II 951: 5</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">מימסין</ref>
+                  <ref type="entry" xml:lang="jpa">קרקסיות</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Said he: ‘Rabbi, we ought to be thankful to the heathens who bring mimes into their theatres and circuses and amuse themselves with them, so that they should not converse with each other. (Cf. Freedman / Simon II 735)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq Ez 357 [II 556: 11]</bibl> (<term xml:lang="jpa">טרטיאות</term>)</note>
+               </cit>
+            </sense>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>586b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>
