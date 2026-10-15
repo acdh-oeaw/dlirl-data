@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">ארכי יודיקי</title>
+            <title type="alternative">ʾrky ywdyqy</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="arkhi-yudiqe-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">ארכי יודיקי</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾrky ywdyqy</orth>
+               <pron notation="rabbinic">arkhi yudiqe</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="arkhi-yudiqe-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>chief judge, archijudex</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἀρχι ἰουδικη</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <quote>archijudex</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ולוט ישב בשער סדום ישב כת', אותו היום מינוהו 
+                     <app>
+                        <lem>ארכי יודיקי</lem>
+                        <rdg wit="#Ox2">עורכי דיינין</rdg>
+                        <rdg wit="#Ox1 Vat2">ארכי דיינין</rdg>
+                        <rdg wit="#V K">ארכי דיינים</rdg>
+                     </app>.</quote>
+                  <bibl>
+                     <ref type="witness">50,3</ref>
+                     <ref type="witness">II 519: 4</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And Lot sits in the Gate of Sodom (Gen 19,1). “Sits” is written defectively, intimating that only that day had he been appointed by them chief judge. (Cf. Freedman / Simon I 436)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 84 [26a: 45]</bibl> (<term xml:lang="jpa">ארכי הדיינין</term>); <bibl type="ancient">SekhṬ 19,1 [32]</bibl> (<term xml:lang="jpa">ערכי הדיינין</term>)</note>
+               </cit>
+            </sense>
+            <note>For detailed etymology and explanation see Sperber.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sperber (1984)</title>
+                  <citedRange>65-66</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

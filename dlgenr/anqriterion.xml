@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אנקריטיריון</title>
+            <title type="alternative">ʾnqryṭyrywn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="angriterion-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אנקריטיריון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾnqryṭyrywn</orth>
+               <pron notation="rabbinic">anqriṭerion</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="angriterion-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>decision of examining tribunal</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἀνακριτηριον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' יהודה בר' סימון בשר ודם תולין לו 
+                     <app>
+                        <lem>אנקליטון</lem>
+                        <rdg wit="#Ox1 V">אנקלימון</rdg>
+                        <rdg wit="#Ox2">אנקליטין</rdg>
+                        <rdg wit="#K">סנקליטון</rdg>
+                        <rdg wit="#Vat1">אנקריטיריון</rdg>
+                     </app> מדוכס לאיפרכוס מאיפרכוס לאיסטרטלטיס ואת בשביל שאין לך מי יתלה לך 
+                     <app>
+                        <lem>אנקליטון</lem>
+                        <rdg wit="#K V">אנקליטין</rdg>
+                     </app> לא תעשה משפט</quote>
+                  <bibl>
+                     <ref type="witness">49,9</ref>
+                     <ref type="witness">II 510: 4</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אנקליטון</ref>
+                  <ref type="entry" xml:lang="jpa">דוכס</ref>
+                  <ref type="entry" xml:lang="jpa">איפרכוס</ref>
+                  <ref type="entry" xml:lang="jpa">איסטרטלטיס</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Yehuda be-R. Simon said: (Abraham pleaded thus:) ‘Even in the case of a human judge, an anqriṭerion can be made from the commander to the prefect and from the prefect to the governor; but you, because no appeal can be made from your judgment, will you not do justly? (cf. Freedman / Simon I 429)</quote>
+                  </cit>
+               </cit>
+            </sense>
+            <note>An independent reading of Vat 1 for <bibl type="ancient">GenR 49,9</bibl>; attested only there. For further literature cf. Sperber. Cf. <ref type="entry" xml:lang="jpa">אנקליטון</ref>, <ref type="entry" xml:lang="jpa">אנקלימון</ref></note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sperber (1984)</title>
+                  <citedRange>50</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

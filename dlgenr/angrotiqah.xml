@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אנגרוטיקה</title>
+            <title type="alternative">ʾngrwṭyqh</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="angrotiqah-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אנגרוטיקה</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾngrwṭyqh</orth>
+               <pron notation="rabbinic">angroṭiqah</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">f.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">אנדרוטיגה</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾndrwṭygh</orth>
+                  <pron notation="rabbinic">androṭigah</pron>
+               </form>
+            </form>
+            <sense xml:id="angrotiqah-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>drudgery</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἀγγερευτικά</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ידיע ליהוי למלכא דיהן קריתא דך תתבנא ושוריא ישתכללון מנדה בלו והלך לא ינתנון מנדה זו מידת הארץ, בלו זו פרוביגרון, והלך 
+                     <app>
+                        <lem>לאנדרוטיגה</lem>
+                        <rdg wit="#Vat1">לאנגרוטיקה</rdg>
+                        <rdg wit="#Ox1 Ox2">אנגרוטינס</rdg>
+                        <rdg wit="#Vat2">לאנגרוטיקא</rdg>
+                        <rdg wit="#K">לא יתנון אנגרוטיגה</rdg>
+                        <rdg wit="#V">אנגרוטינה</rdg>
+                     </app></quote>
+                  <bibl>
+                     <ref type="witness">64,10</ref>
+                     <ref type="witness">II 711: 2</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פרוביגרון</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Be it known now unto the king, that, if this city be builded, and the walls set up again, then will they not pay tribute, impost or toll,(Esr 4,14): “minda” is land tax; “belo” is poll tax; “wa-halakh” means androtiga. (Freedman / Simon II 580)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">bNed 62b</bibl> (<ref type="entry" xml:lang="jpa">ארנונא</ref>); <bibl type="ancient">bBB 8a</bibl> (<ref type="entry" xml:lang="jpa">ארנונא</ref>); <bibl type="ancient">EstR petiḥtot 5</bibl> (<term xml:lang="jpa">אנגריא</term>); <bibl type="ancient">Yalq 111 [34c: 10]</bibl> (<term xml:lang="jpa">אנגרוטוג</term>); <bibl type="ancient">Yalq 951 [341d: 3]</bibl> (<term xml:lang="jpa">גולגליות</term>), <bibl type="ancient">Yalq 951 [341d: 4]</bibl> (<ref type="entry" xml:lang="jpa">ארנונא</ref>); <bibl type="ancient">Yalq Esr 1069 [514d: 43]</bibl> (<term xml:lang="jpa">גולגלתא</term>) (<ref type="entry" xml:lang="jpa">ארנונא</ref>)</note>
+               </cit>
+            </sense>
+            <note>Suggested already by <bibl type="modern">Dalman 24b</bibl> (<term xml:lang="grc">ἀγγαρευτικά</term>). <bibl type="modern">AC I 138a</bibl>: Gr. <term xml:lang="grc">ἀγγαρευτής</term>. <bibl type="modern">Levy I 105a</bibl> traces back already to Gr. <term xml:lang="grc">ἀγγαρεία</term> (cf. <term xml:lang="jpa">אנגריא</term> <term xml:lang="fjb">ʾngryʾ</term> in the parallels, and see <bibl type="modern">Sokoloff, DJPA 39b-40a</bibl>, <bibl type="modern">Krauss, LW II 63b</bibl>). <bibl type="modern">Krauss, LW II 63ab</bibl> assumes a composition of <term xml:lang="jpa">אנגריא</term> and <ref type="entry" xml:lang="jpa">אננונא</ref>. See also MY ad loc. The preposition <term xml:lang="jpa">ל</term> is probably a corruption.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Shoval-Dudai</title>
+                  <citedRange>39b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>
