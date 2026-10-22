@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">קרמיד</title>
+            <title type="alternative">qrmyd</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="qeramid-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">קרמיד</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">qrmyd</orth>
+               <pron notation="rabbinic">qeramid</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected">
+               <orth type="inflected" xml:lang="jpa">קרמידין</orth>
+               <orth type="transliteration" xml:lang="fjb">qrmydyn</orth>
+               <pron notation="rabbinic">geramidin</pron>
+               <gramGrp>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="qeramid-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>roof-tile</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>κεραμίς</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>κεραμίδος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>[... ר' חייה בשם ר' יוחנן] בתחילה כדי רביעה ובסוף כדי שידחו 
+                  <app>
+                     <lem>פני הקרמיד</lem>
+                     <rdg wit="#Ox1 Ox2">את הקרקע</rdg>
+                  </app></quote>
+                  <bibl>
+                     <ref type="witness">13,15</ref>
+                     <ref type="witness">I 123: 6</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Ḥiyya said in the name of R. Yoḥanan: At the beginning, sufficient to fructify; at the end, enough to wash the surface of the roof tiles. (Freedman / Simon I 108)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">yBer 9,2 [72: 6]</bibl> (-)</note>
+               </cit>
+            </sense>
+            <note>Cf. <bibl type="modern">Jastrow II 1422a</bibl>; <bibl type="modern">Fürst (1890) 210a</bibl>; <bibl type="modern">Levy IV 381b-382a</bibl>; <bibl type="modern">AC VII 202a</bibl>. Cf. Krauss for other occurrences. For pl. cf. Yalq. <term xml:lang="jpa">כורמיזא</term> <term xml:lang="fjb">qwrmyzʾ</term> (attested i.a. in <bibl type="ancient">Targ. to Ex 21,18</bibl>, Jes 58,4 for Hebr. <term xml:lang="jpa">אגרוף</term>) Krauss renders also back to Gr. <term xml:lang="grc">κεραμίς</term>, but cf. Löw ad loc. Cf. <bibl type="modern">Levy, Targ I 389a</bibl>, who explains it as Gr. <term xml:lang="grc">χερμάδιον</term>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>569ab</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

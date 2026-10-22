@@ -52,36 +52,17 @@
                <form type="variant" opt="false">
                   <orth type="variant" xml:lang="jpa" opt="false">דימוסיה</orth>
                   <orth type="transliteration" xml:lang="fjb" opt="false">dymwsyh</orth>
-                  <pron notation="rabbinic" opt="false">demosiyyah</pron>
+                  <pron notation="rabbinic" opt="false">demosiyah</pron>
                </form>
                <form type="variant" opt="false">
                   <orth type="variant" xml:lang="jpa" opt="false">דימוסיא</orth>
                   <orth type="transliteration" xml:lang="fjb" opt="false">dymwsyʾ</orth>
-                  <pron notation="rabbinic" opt="false">demosiyyah</pron>
-               </form>
-               <form type="variant" source="Vat2" opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">דימוסיה</orth>
-               </form>
-               <form type="variant" source="Ox1" opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">דימוסיא</orth>
-               </form>
-               <form type="variant" source="V K" opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">דימוסה</orth>
-               </form>
-               <form type="variant" source="1,12 - Vat2" opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">דימוסיות</orth>
-               </form>
-               <form type="variant" source="1,12 - Ox1" opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">דימוסיאות</orth>
-               </form>
-               <form type="variant" source="1,12 - V" opt="false">
-                  <orth type="variant" xml:lang="jpa" opt="false">דמוסיות</orth>
+                  <pron notation="rabbinic" opt="false">demosiya</pron>
                </form>
             </form>
             <form type="inflected" opt="false">
                <orth type="inflected" xml:lang="jpa" opt="false">דימוסיאות</orth>
                <orth type="transliteration" xml:lang="fjb" opt="false">dymwsyʾt</orth>
-               <pron notation="rabbinic" opt="false">demosiyyot</pron>
                <gramGrp opt="false">
                   <gram type="pos" opt="false">noun</gram>
                   <gram type="num" opt="false">pl.</gram>
@@ -90,12 +71,10 @@
             <form type="inflected" opt="false">
                <orth type="inflected" xml:lang="jpa" opt="false">דמוסיות</orth>
                <orth type="transliteration" xml:lang="fjb" opt="false">dmwsywt</orth>
-               <pron notation="rabbinic" opt="false">demosiyyot</pron>
             </form>
             <form type="inflected" opt="false">
                <orth type="inflected" xml:lang="jpa" opt="false">דימוסיות</orth>
                <orth type="transliteration" xml:lang="fjb" opt="false">dymwswt</orth>
-               <pron notation="rabbinic" opt="false">demosiyyot</pron>
             </form>
             <sense n="1" xml:id="dimosia-dlgenr-1" opt="false">
                <cit type="translation" xml:lang="en" subtype="sense">
@@ -105,15 +84,20 @@
                   <usg opt="false">
                      <lang opt="false">Classical Greek</lang>
                   </usg>
-                  <quote>δημόσια</quote>
+                  <quote>(βαλανεῖον) δημόσια</quote>
                </cit>
                <cit type="example" xml:lang="jpa">
                   <quote>
                      <app>
                         <lem>ושלא'</lem>
                         <rdg wit="#V">ראשון</rdg>
-                     </app>למי היה להם לשאול, לא לבני המדינה אתמהא שהן עסוקין בדימוסייה                       
-            </quote>
+                     </app> למי היה להם לשאול, לא לבני המדינה אתמהא שהן עסוקין 
+                     <app>
+                        <lem>בדימוסייה</lem>
+                        <rdg wit="#Vat2">בדימוסיה</rdg>
+                        <rdg wit="#Ox1">בדימוסיא</rdg>
+                        <rdg wit="#V K">בדימוסה</rdg>
+                     </app> שלמדינה אתמהא</quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">8,2</ref>
                      <ref type="witness">I 57: 4</ref>
@@ -123,17 +107,24 @@
                   the citizens of the state who were engaged in the public affairs / market of
                   the country?</quote>
                   </cit>
+                  <note>= <bibl type="ancient">Yalq Hi 907 [506b: 20]</bibl> (<term xml:lang="jpa">דימוסיה</term>)</note>
                </cit>
                <cit type="example" xml:lang="jpa">
-                  <quote/>
+                  <quote>ומדיינים 
+                     <app>
+                        <lem>למצרים</lem>
+                        <rdg wit="#Vat1">למצרים לדימוסייה שלמדינה בא פוטיפר ולקחו מדימוסייה שלמדינה</rdg>
+                        <rdg wit="#Vat2">למצרים לדימוסייה של מדינה בא פוטיפר ולקחו מדימוסיה שלמדינה</rdg>
+                        <rdg wit="#V K">אל מצרים ר' הונא אמר חמש מדינים מכרו אותו לדמוסיא של מדינה בא פוטיפר ולקחו מדימוס של מדינה</rdg>
+                     </app></quote>
                   <bibl default="false" status="draft">
-                     <ref type="witness">8,22</ref>
+                     <ref type="witness">84,22</ref>
                      <ref type="witness">II 1028: [notes]</ref>
                   </bibl>
                   <cit type="translation" xml:lang="en">
-                     <quote>And the Midianites [sold Joseph] to Egypt to the state
-                  market. Came Potiphar and bought him from the state market.</quote>
+                     <quote>And the Midianites [sold Joseph] to Egypt to the state market. Came Potiphar and bought him from the state market.</quote>
                   </cit>
+                  <note>= <bibl type="ancient">Yalq 143 (45b: 32,33)</bibl> (<term xml:lang="jpa">דמוסיא</term>); <bibl type="ancient">SekhT (Buber) Wa-yeshev 37,28</bibl> (<term xml:lang="jpa">דימוסיא</term>); <bibl type="ancient">SekhT Wa-yeshev 37,36</bibl> (<term xml:lang="jpa">דימוסיא</term>)</note>
                </cit>
             </sense>
             <sense n="2" xml:id="dimosia-dlgenr-2" opt="false">
@@ -141,7 +132,21 @@
                   <quote>public bath</quote>
                </cit>
                <cit type="example" xml:lang="jpa">
-                  <quote>בנוהג שבעולם מלך בשר ודם מתקלס במדינה ועדיין לא בנה להם דימוסאות ועדיין לא נתן להם פרקטיאה</quote>
+                  <quote>בנוהג שבעולם מלך בשר ודם מתקלס במדינה ועדיין לא בנה להם 
+                     <app>
+                        <lem>דימוסאות</lem>
+                        <rdg wit="#Ox1">דימוסיאות</rdg>
+                        <rdg wit="#V">דמוסיות</rdg>
+                        <rdg wit="#Vat2">דימוסיות</rdg>
+                     </app> ועדיין לא 
+                     <app>
+                        <lem>נתן</lem>
+                        <rdg wit="#Ox1 Vat2 V">בנה</rdg>
+                     </app>
+                     <app>
+                        <lem>להם</lem>
+                        <rdg wit="#V">לה</rdg>
+                     </app> פרקטיאה</quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">1,12</ref>
                      <ref type="witness">I 10: 9</ref>
@@ -152,10 +157,26 @@
                   realm even before he has built them public baths or provided them private
                   baths. (Freedman / Simon 11)</quote>
                   </cit>
+                  <note>= <bibl type="ancient">BemR Nassoʾ 12,5</bibl> (<term xml:lang="jpa">דימוסיאות</term>)</note>
                </cit>
                <cit type="example" xml:lang="jpa">
-                  <quote>אמר ליה לית הכא מלכו, אלא למלך שהיה מטייל פתח פלטין וראה בולרין אחת מושלכת, אמר
-               מה נעשה בה, מהן אומרים דימוסיות ומהן אומרים פרבטיות, אמר המלך אדריינטיס אני עושה אותה מי מעכב.</quote>
+                  <quote>
+                     <app>
+                        <lem>אמר</lem>
+                        <rdg wit="#Ox2 Vat2 V K">ר' לוי</rdg>
+                     </app>
+                     <app>
+                        <lem>ליה</lem>
+                        <rdg wit="#Vat2 V K"/>
+                     </app> לית הכא מלכו, אלא למלך שהיה מטייל פתח פלטין וראה 
+                     <app>
+                        <lem>בולרין</lem>
+                        <rdg wit="#K V">בלורין</rdg>
+                     </app> אחת מושלכת, אמר מה נעשה בה, מהן אומרים 
+                     <app>
+                        <lem>דימוסיות</lem>
+                        <rdg wit="#K Ox1 Ox2">דימוסות</rdg>
+                     </app> ומהן אומרים פרבטיות, אמר המלך אדריינטיס אני עושה אותה מי מעכב.</quote>
                   <bibl default="false" status="draft">
                      <ref type="witness">8,8</ref>
                      <ref type="witness">I 62:3</ref>
@@ -171,8 +192,10 @@
                   “[Use it in building] public baths”; others answered: “private baths”. “I
                   will make a statue of it”, declared the king. Who then can hinder him? (Freedman / Simon 60)</quote>
                   </cit>
+                  <note>= <bibl type="ancient">Yalq. 13 (4c: 42)</bibl> (<term xml:lang="jpa">דמוסיאות</term>)</note>
                </cit>
             </sense>
+            <note><bibl type="modern">AC III 84-85</bibl>; <bibl type="modern">Levy I 396-397</bibl>; <bibl type="modern">Krauss, LW I 215-216</bibl>; <bibl type="modern">Krauss, LW II 205-206</bibl>; <bibl type="modern">Jastrow I 300</bibl>. Generally: a public facility. Krauss (LW II 205-206) distinguished five different meanings. For <term xml:lang="jpa">דיומוסין</term> Gr. <term xml:lang="grc">δημόσιν</term> cf. <bibl type="modern">AC III 85-86</bibl>, <bibl type="modern">Krauss, LW II 206</bibl>.</note>
             <etym type="borrowing" opt="false">
                <lbl opt="false">source language</lbl>
                <lang opt="false">Ancient Greek+</lang>
@@ -188,6 +211,10 @@
                <bibl default="false" status="draft">
                   <title>Sperber</title>
                   <citedRange>96</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>141a</citedRange>
                </bibl>
             </ref>
          </entry>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">ארכון טיקטונון</title>
+            <title type="alternative">ʾrkwn ṭyqṭwnn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="arkhon-teqtonon-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">ארכון טיקטונון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾrkwn ṭyqṭwnn</orth>
+               <pron notation="rabbinic">arkhon ṭeqṭonon</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="arkhon-teqtonon-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>head of the builders</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἄρχων τεκτόνων</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' לוי 
+                     <app>
+                        <lem>לארכון טיקטונון</lem>
+                        <rdg wit="#Ox1">לארכיטקנוס</rdg>
+                        <rdg wit="#Vat1">לארביטקטונס</rdg>
+                        <rdg wit="#K V">לארבוטוקטוס</rdg>
+                        <rdg wit="#Vat2">לאדם טוקנים</rdg>
+                     </app> שבנה המדינה חדרים וביבים ומערות ...</quote>
+                  <bibl>
+                     <ref type="witness">24,1</ref>
+                     <ref type="witness">I 229: 6</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Lewi said: This may be compared to a head of builders who built a country with [secret] chambers, canals and caves. (Cf. Freedman / Simon I 199)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq Jes 436 [394b: 54]</bibl> (<term xml:lang="jpa">לארכיטקטוס</term>); <bibl type="ancient">Yalq Jer 296 [412d: 36]</bibl> (<term xml:lang="jpa">לאדריכל</term>)</note>
+               </cit>
+            </sense>
+            <note>In the parallels <ref type="entry" xml:lang="jpa" target="arkhiteqton.html">ארכיטקטון</ref>, which is probably secondary. See <ref type="entry" xml:lang="jpa">ארכונטס</ref>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>MY I</title>
+                  <citedRange>229</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

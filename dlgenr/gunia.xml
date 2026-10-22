@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">גוניה</title>
+            <title type="alternative">gwnyh</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="gunia-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">גוניה</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">gwnyh</orth>
+               <pron notation="rabbinic" opt="false">guniah</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">f.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">גיניה</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">gynyh</orth>
+                  <pron notation="rabbinic" opt="false">giniah</pron>
+               </form>
+            </form>
+            <sense xml:id="gunia-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>woman</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>γυνή, γύναιον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>לזאת יקרא אשה כי מאיש לקחה וגו' מיכן אתה למד שניתנה התורה בלשון הקודש, ר' פינחס ור' חלקיה בשם ר' סימון כשם שניתנה בלשון הקודש כך נברא העולם בלשון הקודש, שמעת מימיך אומר 
+                     <app>
+                        <lem>גיני</lem>
+                        <rdg wit="#Vat1">גוני</rdg>
+                        <rdg wit="#Vat2">גיניי</rdg>
+                     </app> 
+                     <app>
+                        <lem>גיניה</lem>
+                        <rdg wit="#Vat1">גוניה</rdg>
+                        <rdg wit="#Ox1 Ox2">גיניא</rdg>
+                        <rdg wit="#V K">גינייא</rdg>
+                        <rdg wit="#Vat2">גינייה</rdg>
+                     </app> 
+                     <app>
+                        <lem>איתא איתתא</lem>
+                        <rdg wit="#Vat1 Vat2 Ox1 Ox2 K V"/>
+                     </app> אנתרופי אנתרופייא, גברא גברתא, אלא איש ואשה למה שהלשון הזה נופל על הלשון הזה.</quote>
+                  <bibl>
+                     <ref type="witness">18,4</ref>
+                     <ref type="witness">I 165: 1</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אנתרופייא</ref>
+                  <ref type="entry" xml:lang="jpa">אנתרופי</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>She shall be called woman (“ishah”), because she was taken out of man (“ish”) (Gen 2,23). From this you learn that the Torah was given in the Holy Tongue.  R. Pinḥas and R. Ḥilqiyyh in R. Simon’s name said: Just as it was given in the Holy Tongue, so was the world created with the Holy Tongue. Have you ever heard one say “gini” “ginia”, “itaʾ”, “itetaʾ”, “anṭropi”, “anṭropia”, “gavraʾ”, “gavretaʾ”? But “ish” and “ishah” [are used]: why? Because one form corresponds to the other. (Freedman / Simon I 143)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 24 [8b: 60-61]</bibl> (<term xml:lang="jpa">גיני</term>, <term xml:lang="jpa">גיניא</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>עשה לך שרף לא נתפרש, ר' יודן בשם ר' אסי ישמע חכם ויוסיף לקח זה משה, אמר אם אעשה אותו שלזהב או שלכסף אין הלשון הזה נופל [על הלשון הזה] אלא הריני עושהו שלנחשת שהלשון הזה נופל [על הלשון הזה] נחש הנחשת, מיכן שניתנה תורה בלשון הקודש, ר' פינחס ורבי חזקיה מש' ר' סימון כשם שניתנה תורה בלשון קודש כך נברא העולם בלשון קודש, שמעת מימיך אומר 
+                     <app>
+                        <lem>גיני</lem>
+                        <rdg wit="#V K Ox2">גוני</rdg>
+                     </app> 
+                     <app>
+                        <lem>גינייה</lem>
+                        <rdg wit="#Ox1">גינייא</rdg>
+                        <rdg wit="#V K Ox2">גונייא</rdg>
+                     </app> [איתא איתתא] אנתרופי אנתרופייה, [נברא גברתא], אלא איש ואשה, למה שהלשון הזה נופל על הלשון הזה.</quote>
+                  <bibl>
+                     <ref type="witness">31,8</ref>
+                     <ref type="witness">I 281: 7</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אנתרופי</ref>
+                  <ref type="entry" xml:lang="jpa">אנתרופייה</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>The meaning of Make thee a fiery serpent (Num 21,8) is not clear. R. Yudan said in R. Assis name: The wise man may hear, and increase in learning (Prov 1,6) applies to Moses, who reasoned thus: If I make it of gold (“zahav”) or of silver (“kesef”), these words do not correspond to the other. Hence I will make it of neḥoshet (brass), since this word corresponds to the other, viz. neḥash neḥoshet – a serpent of brass (ib. 9): this proves that the Torah was given in Hebrew. R. Pinḥas and R. Ḥizqiyyah in R. Simon’s name said: Just as it was given in the Holy Tongue, so was the world created with the Holy Tongue. Have you ever heard on say “gini” “ginia”, “itaʾ”, “itetaʾ”, “anṭropi”, “anṭropia”, “gavraʾ”, “gavretaʾ”? But “ish” and “ishah” [are used]: why? Because one form corresponds to the other. (Freedman / Simon I 242; 143)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 52 [14a: 56]</bibl> (<term xml:lang="jpa">גיני</term>, <term xml:lang="jpa">גיניא</term>)</note>
+               </cit>
+            </sense>
+            <note>Here, the rabbis make use of derivational occasionalism in order to point out the appropriateness of the designation of ‘man’ and ‘woman’ in Hebrew, by <term xml:lang="rabbinic">ʾish</term> and <term xml:lang="rabbinic">ʾishah</term>, whereas other languages fail: Greek and Aramaic are not appropriate due to the fact that their masculine or feminine forms cannot derive the respective form in the other gender. Following <bibl type="modern">Krauss LW II 76b</bibl>; <bibl type="modern">Levy I 312b</bibl>; <bibl type="modern">Levy I 116a</bibl> and <bibl type="modern">Brüll, Miscellen 234</bibl>, we interpret *<term xml:lang="fjb">gwnyh</term> <term xml:lang="rabbinic">guniah</term> as the Aramaic integration of Greek <term xml:lang="grc">γυνή</term> (or <term xml:lang="grc">γύναιος</term>), whereas the preceding <term xml:lang="jpa">גיני</term> <term xml:lang="rabbinic">gini</term> would be the artificial Aramaic masculine correspondence for a Greek form *<term xml:lang="rabbinic">gunos</term>; the same applies to the “pairs” <term xml:lang="jpa">אנתרופייא</term> <term xml:lang="jpa">אנתרופי</term> and the Aramaic forms “itaʾ”, “itetaʾ”, “gavraʾ”, “gavretaʾ”. And cf. <bibl type="modern">Sperber 2004</bibl>. Other spellings: <term xml:lang="jpa">גינייא</term>, <term xml:lang="jpa">גיניא</term>, <term xml:lang="jpa">גינייה</term></note>
+         </entry>
+      </body>
+  </text>
+</TEI>

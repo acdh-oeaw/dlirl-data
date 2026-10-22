@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">דיגמאטרין</title>
+            <title type="alternative">dygmʾṭryn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="digmatrin-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">דיגמאטרין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dygmʾṭryn</orth>
+               <pron notation="rabbinic" opt="false">digmaʾṭrin</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דיגמטורין</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">dygmṭwryn</orth>
+                  <pron notation="rabbinic" opt="false">digmaṭorin</pron>
+               </form>
+            </form>
+            <sense xml:id="digmatrin-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>picture, similarity</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>δειγμαντήριον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' פנחס בשם ר' אושעיא אף על גב דאת אמר כי בו שבת מכל מלאכתו אשר ברא אלהים לעשות, ממלאכת עולמו שבת, לא שבת ממלאכת הרשעים וממלאכת הצדיקים, אלא פועל עם אלו ופועל עם אלו, מראה לאלו מעין 
+                     <app>
+                        <lem>דיגמאטרין</lem>
+                        <rdg wit="#Ox2">דגמטורין</rdg>
+                        <rdg wit="#K V">דוגמאגטורין</rdg>
+                        <rdg wit="#Vat2">דיגמאטורין</rdg>
+                     </app> שלהם ולאילו מעין 
+                     <app>
+                        <lem>דיגמאטרין</lem>
+                        <rdg wit="#Ox1">דיגמטורין</rdg>
+                        <rdg wit="#K">דוגמאטורין</rdg>
+                        <rdg wit="#Vat2">דיגמאטורין</rdg>
+                     </app> שלהן, ומנ' שפורענותן שלרשעים קרויה מלאכה שנ' פתח י"י את אוצרו ויוצא את כלי זעמו כי מלאכה היא לי"י</quote>
+                  <bibl>
+                     <ref type="witness">11,10</ref>
+                     <ref type="witness">I 96: 10; I 97: 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Pinḥas said in R. Oshaʿyaʾ’s name: Although you read: Because that in it He rested from all His work which God created to make, He rested from the work [creating] His world, but not from the work of the wicked and the work of the righteous, for He works with the former and with the latter. He shows the former their essential character, and the latter their essential character. And how do we know that the punishment of the wicked called work? Because it is said, The Lord hath opened His armoury, and hath brought forth the weapons of His indignation, for it is a work that the Lord God hath to do (Jer 50,25).</quote>
+                  </cit>
+               </cit>
+            </sense>
+            <note>Krauss regards <term xml:lang="jpa">דוגמטורין</term> <term xml:lang="fjb">dwgmṭwryn</term>, <bibl type="modern">Cohn (1900) 564</bibl>, however, corrects to <term xml:lang="jpa">דיגמאטורין</term>. <bibl type="modern">Levy I 377a</bibl> renders back to Gr. <term xml:lang="grc">δειγματίζω</term>. Löw in Krauss corrects the Gr. to <term xml:lang="grc">δειγματήριον</term>. <bibl type="modern">Jastrow I 283a</bibl>: Gr. <term xml:lang="grc">διαγράμματα</term>, “plans”, “designs”. See <bibl type="modern">Sperber (2012) 23</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>188a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

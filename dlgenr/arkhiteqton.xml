@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">ארכיטקטון</title>
+            <title type="alternative">ʾrkyṭqṭwn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="arkhiteqton-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">ארכיטקטון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾrkyṭqṭwn</orth>
+               <pron notation="rabbinic">arkhiṭeqṭon</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected">
+               <orth type="inflected" xml:lang="jpa">ארכיטקטונין</orth>
+               <orth type="transliteration" xml:lang="fjb">ʾrkyṭqṭwnyn</orth>
+               <pron notation="rabbinic">arkhiṭeqṭonin</pron>
+               <gramGrp>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="arkhiteqton-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>master builder</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἀρχιτέκτων</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' לוי 
+                     <app>
+                        <lem>לארכון טיקטונון</lem>
+                        <rdg wit="#Ox1">לארכיטקנוס</rdg>
+                        <rdg wit="#Vat1">לארביטקטונס</rdg>
+                        <rdg wit="#K V">לארבוטוקטוס</rdg>
+                        <rdg wit="#Vat2">לאדם טוקנים</rdg>
+                     </app> שבנה המדינה חדרים וביבים ומערות ...</quote>
+                  <bibl>
+                     <ref type="witness">24,1</ref>
+                     <ref type="witness">I 229: [notes]</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">ארכון טיקטונון</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Lewi said: This may be compared to a master builder who built a country with [secret] chambers, canals and caves. (Freedman / Simon I 199)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq Jes 436 [394b: 54]</bibl> (<term xml:lang="jpa">לארכיטקטוס</term>); <bibl type="ancient">Yalq Jer 296 [412d: 36]</bibl> (<term xml:lang="jpa">לאדריכל</term>)</note>
+               </cit>
+            </sense>
+            <note>Variously corrupted. See <bibl type="modern">Krauss, LW 130b-131a</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>53b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

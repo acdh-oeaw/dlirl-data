@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">בורגר</title>
+            <title type="alternative">bwrgwr</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="burgar-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">בורגר</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">bwrgwr</orth>
+               <pron notation="rabbinic">burgar</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="burgar-dlgenr-1">
+               <cit type="translation" xml:lang="jpa" subtype="sense">
+                  <quote>land-worker, farmer, husbandman</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>βουργάριος</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <quote>burgarius</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>איש האדמה 
+                     <app>
+                        <lem>בורגר</lem>
+                        <rdg wit="#Ox1">ברגר</rdg>
+                        <rdg wit="#K V">לשם בורגר</rdg>
+                     </app> לשם 
+                     <app>
+                        <lem>בורגרותה</lem>
+                        <rdg wit="#K">בורגרות</rdg>
+                        <rdg wit="#V Ox2">בורגרות</rdg>
+                        </app></quote>
+                  <bibl>
+                     <ref type="witness">36,3</ref>
+                     <ref type="witness">I 337: 8</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>[And Noah] the husbandman [lit. ‘A man of the ground’] (Gen 9,20): [He was] a land-worker in order to deal with husbandry.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 61 [16c: 50]</bibl></note>
+               </cit>
+            </sense>
+            <note>For this etymology see also MY ad loc.; <bibl type="modern">Fürst 80a</bibl>. <bibl type="modern">Levy I 203a</bibl>, <bibl type="modern">Krauss, LW II 144a</bibl> explain as Gr. <term xml:lang="grc">γεωργός</term>. Löw in Krauss ad loc. doubts the etymology „burgarius“, since this word is of “a very late origin”. <bibl type="modern">Sperber (2012) 185</bibl>, however, supports this etymology. <bibl type="modern">Sokoloff, DJPA 69b-10a</bibl> connects with Gr. <term xml:lang="grc">πύργος</term> (acc. to <bibl type="modern">Sperber, Essays on Greek and Latin in the Mishna, Talmud and Midrashic Literature, Jerusalem 1982, 116ff.</bibl>). <term xml:lang="jpa">בורגרותה</term> <term xml:lang="fjb">bwrgrwth</term> <term xml:lang="rabbinic">burgeruta</term> (<bibl type="modern">Levy I 203a</bibl>) is a hebr. neologism meaning “husbandary”. Instead of <term xml:lang="jpa">לשם</term> shall be prob. be read <term xml:lang="jpa">לשון</term> (like in ...) “this means”.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>AC II</title>
+                  <citedRange>185ab</citedRange></bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

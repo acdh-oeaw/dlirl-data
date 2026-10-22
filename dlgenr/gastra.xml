@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">גסטרא</title>
+            <title type="alternative">gsṭrʾ</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="gastra-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">גסטרא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">gsṭrʾ</orth>
+               <pron notation="rabbinic" opt="false">gasṭraʾ</pron>
+            </form>
+            <form type="inflected">
+               <orth type="inflected" xml:lang="jpa">גסטריות</orth>
+               <orth type="transliteration" xml:lang="fjb">gsṭrywt</orth>
+               <pron notation="rabbinic">gasṭriyot</pron>
+               <gramGrp>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="gastra-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>military camp, fort</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <quote>castra</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ויאמר י"י אמחה וגו' [מהן סבורין 
+                     <app>
+                        <lem>גסטריות</lem>
+                        <rdg wit="#Vat1">אהליות וקסוסטריות</rdg>
+                        <rdg wit="#Vat2">עלייות וגסטריות</rdg>
+                        <rdg wit="#K">חיילו' גסטריו</rdg>
+                        <rdg wit="#V">אריות גסטריות</rdg>
+                        <rdg wit="#Ox1">עליות וגיסטריות</rdg>
+                     </app> אני צריך] הלא בדבר בראתי את העולם אני מוצא ומכלה אותן</quote>
+                  <bibl>
+                     <ref type="witness">28,2</ref>
+                     <ref type="witness">I 260: 12</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And the Lord said: I will blot out man. ‘What do they think? That I need military camps [to combat them]? Did I not create the world with a word? I will utter a word and destroy them. (cf. Freedman / Simon I 224)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 47 [13b: 37]</bibl> (<term xml:lang="jpa">חיילות גיסטריות</term>)</note>
+               </cit>
+            </sense>
+            <note>For sg. see e.g. <bibl type="ancient">bShab 121a</bibl>. Cf. <bibl type="modern">Levy I 350a</bibl>. Acc. to Levy in the version of V <term xml:lang="jpa">ריות גסטריות</term> the word may be understood as adj. Gr. <term xml:lang="grc">γάστρις</term>, i. e. “obese lions”. Cf. <bibl type="modern">Jastrow I 260b</bibl>. To distinguish from <term xml:lang="jpa">גסטרא</term> <term xml:lang="fjb">gsṭrʾ</term> <term xml:lang="rabbinic">gasṭraʾ</term> Gr. <term xml:lang="grc">γάστρα</term> (<bibl type="modern">Krauss, LW II 180b-181a</bibl>; <bibl type="modern">Heijmanns [2013] 80-81</bibl>). For the spelling <term xml:lang="jpa">קסטרה</term> <term xml:lang="en">gsṭrh</term> <term xml:lang="rabbinic">qastrah</term>, <term xml:lang="jpa">קסטרא</term> <term xml:lang="fjb">qsṭrʾ</term> <term xml:lang="rabbinic">qasṭrʾ</term>, cf. <bibl type="modern">Sokoloff, DJPA 570a</bibl>, <bibl type="modern">Krauss, LW II 557ab</bibl>. The reading in Vat 1 is probably influenced by <term xml:lang="jpa">גזוזטראות</term> <term xml:lang="fjb">gzwzṭrʾwt</term>, sg. <term xml:lang="jpa">גזוזטרא</term> <term xml:lang="fjb">gzwzwṭrʾ</term> <term xml:lang="rabbinic">gezuzṭraʾ</term> Gr. <term xml:lang="grc">ἐξώστρα</term> (<bibl type="modern">Heijmanns [2013] 75-76)</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>181b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

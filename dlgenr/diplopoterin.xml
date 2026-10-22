@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">דיפלופוטירין</title>
+            <title type="alternative">dyplwpwṭyryn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="diplopoterin-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">דיפלופוטירין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">dyplwpwṭyryn</orth>
+               <pron notation="rabbinic" opt="false">diplopoṭerin</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false">דיפלה פוטירין</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">dyplh pwṭyryn</orth>
+                  <pron notation="rabbinic" opt="false">diplah poṭerin</pron>
+               </form>
+            </form>
+            <sense xml:id="diplopoterin-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>double-cup</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>διπλοποτήριον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>מנת כוסם ר' ישמעאל בר נחמן מש' ר' יונתן 
+                     <app>
+                        <lem>כדיפלה פוטירין</lem>
+                        <rdg wit="#K V">כפיילי פיטרין</rdg>
+                        <rdg wit="#Ox1 Ox2">כפילי פוטירין</rdg>
+                        <rdg wit="#Vat2">כיפיילי פוטירין</rdg>
+                     </app></quote>
+                  <bibl>
+                     <ref type="witness">51,3</ref>
+                     <ref type="witness">II 535:2</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פיילי פיטרין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>The portion of their cup (Ps 11,6). R. Yishmaʾel b. Naḥman said in R. Yonatan’s name: Like a douple-cup.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 85 [26c: 54]</bibl> (<term xml:lang="jpa">כבפיילי פוטירין</term>); <bibl type="ancient">Yalq Ps 655 [445b: 26]</bibl> (<term xml:lang="jpa">כפייליפוטירין</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>[Vat 2] נכנס למרחץ וכיון שיצא הביאו לו 
+                     <app>
+                        <lem>פיילא פוטירין</lem>
+                        <rdg wit="#Ox2">פיילין של דיפלא פוטירין</rdg>
+                        <rdg wit="#Ox1">פולין של דיפלא פוטירין</rdg>
+                     </app></quote>
+                  <bibl>
+                     <ref type="witness">10,7</ref>
+                     <ref type="witness">I 83: [notes]</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פיילא פוטירין</ref>
+                  <ref type="entry" xml:lang="jpa">פיילין</ref>
+                  <ref type="entry" xml:lang="jpa">פולין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>He entered the bath and when he came out, they gave him a double-cup.</quote>
+                  </cit>
+               </cit>
+            </sense>
+            <note>Composed of Gr. <term xml:lang="grc">διπλῆ</term> + <term xml:lang="grc">ποτήριον</term>. Cf. <bibl type="modern">Levy I 400b-401a</bibl>, <bibl type="modern">AC III 319a</bibl>. The reading <term xml:lang="jpa">פיילא פוטירין</term> is composed of Gr. <term xml:lang="grc">φιάλη</term> + <term xml:lang="grc">ποτήριον</term>, see Sperber, Cards. <bibl type="modern">Jastrow II 1140b</bibl> interprets <term xml:lang="jpa">פוטירין</term> as Gr. <term xml:lang="grc">ποτήεριον</term>, sort of a shrub (Astragalus Poterium). The meaning here should then be “a double [portion] of poterion”.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>210b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>
