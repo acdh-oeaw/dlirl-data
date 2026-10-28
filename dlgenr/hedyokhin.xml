@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">הדיוכין</title>
+            <title type="alternative">hdywkyn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="hedyokhin-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">הדיוכין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">hdywkyn</orth>
+               <pron notation="rabbinic" opt="false">hedyokhin</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="hedyokhin-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>charioteers [in circus]</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἡνίοχος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>למלך שנכנס למדינה וקלסו אותו בני המדינה וערב לו קילוסן הרבה להם בריצה והרבה להם 
+                     <app>
+                        <lem>בהדיוכים</lem>
+                        <rdg wit="#V">בהדיוכין</rdg>
+                        <rdg wit="#K">בדיוכין</rdg>
+                     </app>, לאחר זמן הכעיסוהו ומיעט להם בריצה ומיעט להם 
+                     <app>
+                        <lem>בהדיוכים</lem>
+                        <rdg wit="#K">בדיוכין</rdg>
+                     </app></quote>
+                  <bibl>
+                     <ref type="witness">10,4</ref>
+                     <ref type="witness">I 76: 3</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>This may be compared to a king who entered a province, and its inhabitants praised him, which pleased him; thereupon he entertained them with many races and charioteers. Subsequently they angered him, whereupon he reduced the race meetings and the charioteers. (Freedman / Simon I 72)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 17 [5c: 5]</bibl></note>
+               </cit>
+            </sense>
+            <note>Sg. not attested. Cf. <bibl type="ancient">MidrPs 17,5 (64b)</bibl>: <term xml:lang="jpa">בנוהג שבעולם הנדייסין רצין באיפרכוס</term> (= <bibl type="ancient">Yalq Ps 670 [447b: 9]</bibl> (<term xml:lang="jpa">הנדיוסים</term>)). Krauss renders: <term xml:lang="jpa">הנדיוכין</term> <term xml:lang="fjb">hndywkhyn</term> or <term xml:lang="jpa">הנדיוכסין</term> <term xml:lang="fjb">hndywkhsyn</term>. <term xml:lang="grc">ἡενίοχος</term> was already suggested by <bibl type="modern">Perles (1872) 137-138</bibl>. See also <bibl type="modern">AC III 184ab</bibl>. <bibl type="modern">Jastrow I 295b</bibl> (and <bibl type="modern">Dalman 92a</bibl>) read <term xml:lang="jpa">דידכאות</term> <term xml:lang="fjb">dydkhʾwt</term> Gr. <term xml:lang="grc">διαδοχή</term> “relays”, “guards at stations“. The explanation from Gr. <term xml:lang="grc">ἡεδονή</term> (gen. pl. <term xml:lang="grc">ἡεδονῶν</term>) must be rejected (see <bibl type="modern">Brüll, FW 192</bibl>, Löw in Krauss ad loc. and Levy). <bibl type="modern">Brüll, FW 193</bibl> suggested Gr. <term xml:lang="grc">ἡενιοχεία</term>, rejected by <bibl type="modern">Levy I 453b</bibl>, who suggested sem. etymology (but see Fleischer in Levy I 557a).</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>231a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

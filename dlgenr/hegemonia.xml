@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">הגמוניא</title>
+            <title type="alternative">hgmwnyʾ</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="hegemonia-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">הגמוניא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">hgmwnyʾ</orth>
+               <pron notation="rabbinic" opt="false">hegemoniaʾ</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">f.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected">
+               <orth type="inflected" xml:lang="jpa">הגמוניות</orth>
+               <orth type="transliteration" xml:lang="fjb">hgmwnywt</orth>
+               <pron notation="rabbinic">hegemoniyot</pron>
+               <gramGrp>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="hegemonia-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>governorship, consulship</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἡγεμονία</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' תנחומא לאחד שנטל 
+                     <app>
+                        <lem>הגמוניא</lem>
+                        <rdg wit="#Vat2">הגמוניה</rdg>
+                     </app> מן המלך עד שלא הגיע לבית אוריאו שלו היה מהלך 
+                     <app>
+                        <lem>כפגן</lem>
+                        <rdg wit="#Vat1">פגן</rdg>
+                        <rdg wit="#Vat2">כפגן כיון שהגיע למיתורין שלו היה מהלך בקלאמין</rdg>
+                        <rdg wit="#V K">כסגן כיון שהגיע לבית אוריין שלו היה מהלך כקאלמין</rdg>
+                        <rdg wit="#Ox1">כפגן כיון שהגיע לבית אוריין שלו היה מהלך כקלמין</rdg>
+                        <rdg wit="#Ox2">כפגן משהגיע לבית אורין שלו היה מהלך כקלמין</rdg>
+                     </app></quote>
+                  <bibl>
+                     <ref type="witness">50,2</ref>
+                     <ref type="witness">I 518: 2</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">פגן</ref>
+                  <ref type="entry" xml:lang="jpa">אוריאו</ref>
+                  <ref type="entry" xml:lang="jpa">קלאמין</ref>
+                  <ref type="entry" xml:lang="jpa">קאלמין</ref>
+                  <ref type="entry" xml:lang="jpa">קלמין</ref>
+                  <ref type="entry" xml:lang="jpa">סגן</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Tanḥuma said: This may be compared to a man who got governorship from the king: Before he had reached the [state’s] border he walked as a private man, after he had reached the [state’s] border he walked as a nobleman.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq Wa-yeraʾ 84 (26a: 34)</bibl>; <bibl type="ancient">LevR 26,4</bibl></note>
+               </cit>
+            </sense>
+            <note>Pl. not in GenR. Krauss distinguishes between (1) „Statthalterschaft“ and (2) „Verwaltungsbezirk“. Cf. <bibl type="modern">Jastrow I 331b</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>219ab</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

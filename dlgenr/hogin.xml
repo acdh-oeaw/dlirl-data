@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">הוגין</title>
+            <title type="alternative">hwgyn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="hogin-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">הוגין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">hwgyn</orth>
+               <pron notation="rabbinic" opt="false">hogin</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant" opt="false">
+                  <orth type="variant" xml:lang="jpa" opt="false" select="true">עוגין</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʿgyn</orth>
+                  <pron notation="rabbinic" opt="false">ʿogin</pron>
+               </form>
+            </form>
+            <sense xml:id="hogin-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>anchor</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ὄγκινος</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <quote>uncinus</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' יצחק נמשלו אומות העולם בספינה מה ספינה זו עושים לה תורן ממקום אחד 
+                     <app>
+                        <lem>והוגנים</lem>
+                        <rdg wit="#K V Ox1 Ox2">והוגנין</rdg>
+                        <rdg wit="#Vat1">הוגבין</rdg>
+                        <rdg wit="#Vat2">הוגנים</rdg>
+                     </app> ממקום אחר</quote>
+                  <bibl>
+                     <ref type="witness">83,1</ref>
+                     <ref type="witness">II 997: 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Yiśḥaq said: The nations of the world were compared with a ship: Just as this ship, one makes her sailyard from one place [i. e. one sort of material] and her anchors from another. (Cf. Sperber [1986] 139)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 140 [44b: 25]</bibl>; <bibl type="ancient">Yalq Ez 367 [421b: 53]</bibl> (<term xml:lang="jpa">והוגנין</term>); <bibl type="ancient">Yalq 1 Chr 1073 [516d: 3]</bibl> (<term xml:lang="jpa">והוגנין</term>); <bibl type="ancient">SekhT 36,30</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' שמעון בן לקיש אמר בשר ודם עושה ספינה בתחילה מביא קורות ואחר כך מביא חבלים ואחר כך מביא 
+                     <app>
+                        <lem>הוגנים</lem>
+                        <rdg wit="#Ox1 Ox2">הוגים</rdg>
+                     </app> ואחר כך מעמיד מוטין</quote>
+                  <bibl>
+                     <ref type="witness">12,12</ref>
+                     <ref type="witness">I 111: 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Shimʿon ben Laqish said: Flesh and blood [when] he builds a ship; first he brings beams, and then he brings ropes, and then he brings an anchor, and then he places on it sailors. (Cf. Sperber [1986] 142)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq Is 450 [397c: 23]</bibl>; <bibl type="ancient">Makh Is 42,5 [126: 28]</bibl> (<term xml:lang="jpa">עוגנים</term>)</note>
+               </cit>
+            </sense>
+            <note>Not in Krauss. Not clear from the context whether the form is sg. or pl. <bibl type="modern">Jastrow 336a</bibl> explains as Hebr. <term xml:lang="jpa">הגן</term> <term xml:lang="fjb">hgn</term> “ballast, stone”. See Sperber for detailed etymology. Cf. Syr. <term xml:lang="syc">ܐܘܩܝܢܐ</term> <term xml:lang="fjb">ʾwqynʾ</term> (<bibl type="modern">Sokoloff, SL 20a</bibl>).</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sperber (1986)</title>
+                  <citedRange>139</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

@@ -1044,6 +1044,15 @@ span.dlgenr-entry-sense-translation-equivalent-latin {
     font-weight: normal;
 }
 
+span.dlgenr-entry-sense-translation-equivalent-syriac {
+    background-color: #f5e3c9;
+    color: black;
+    padding: 3pt;
+    border-radius: 2.5pt;
+    font-family: 'Times New Roman', times, serif;
+    font-weight: normal;
+}
+
 p.dlgenr-entry-sense-usage-heading {
 	font-weight: bold;
 	margin-top: 0pt;

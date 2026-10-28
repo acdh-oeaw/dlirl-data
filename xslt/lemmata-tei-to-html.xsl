@@ -539,6 +539,12 @@
                                 <xsl:value-of select="./child::tei:quote/text()"/>
                             </xsl:element>
                         </xsl:if>
+                        <xsl:if test="./@xml:lang = ('syc')">
+                            <xsl:element name="span">
+                                <xsl:attribute name="class" select="'dlgenr-entry-sense-translation-equivalent-syriac'"/>
+                                <xsl:value-of select="./child::tei:quote/text()"/>
+                            </xsl:element>
+                        </xsl:if>
                         <xsl:if test="exists(./child::tei:usg)">
                             <xsl:element name="span">
                                 <xsl:attribute name="class" select="'dlgenr-entry-sense-translation-equivalent-usage'"/>

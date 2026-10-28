@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">האופי</title>
+            <title type="alternative">hʾwfy</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="haofi-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">האופי</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">hʾwfy</orth>
+               <pron notation="rabbinic" opt="false">haʾofi</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">f.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected">
+               <orth type="inflected" xml:lang="jpa">האופיתא</orth>
+               <orth type="transliteration" xml:lang="fjb">hʾwpytʾ</orth>
+               <pron notation="rabbinic">haʾofitaʾ</pron>
+               <gramGrp>
+                  <gram type="det">det.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="haofi-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>breath</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="syc">
+                  <quote>ܗܘܦܐ</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>נשמה זה 
+                     <app>
+                        <lem>האופה</lem>
+                        <rdg wit="#Ox1">האופי</rdg>
+                        <rdg wit="#Ox2">האפי</rdg>
+                     </app> הוא דברייתא אמרין 
+                     <app>
+                        <lem>האופיתיה</lem>
+                        <rdg wit="#A">האוסיתא</rdg>
+                        <rdg wit="#V">האופיתא</rdg>
+                        <rdg wit="#Ox1">אופיתא</rdg>
+                        <rdg wit="#Ox2">אופיאתא</rdg>
+                     </app> טבא</quote>
+                  <bibl>
+                     <ref type="witness">14,9</ref>
+                     <ref type="witness">I 133: 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>“Neshama” is breath; as people say: ‘His breathing is good.’ (Freedman / Simon I 116)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 20 [6d: 56]</bibl> (<term xml:lang="jpa">נשמה זו האופיתא ברייתא אמרין זו אופיתא טבא</term>); <bibl type="ancient">YalqKoh 969 [542c: 34]</bibl> (<term xml:lang="jpa">נשמה היא האופיתא דברייתא אמרי האופיתא טבא</term>)</note>
+               </cit>
+            </sense>
+            <note>Cf. <bibl type="modern">Sokoloff, SL 336a</bibl> acc. to <bibl type="modern">Simonsen (1901)</bibl> and MY ad loc. Cf. <bibl type="modern">Krauss, LW II 24b</bibl>: <term xml:lang="jpa">אוסי</term> <term xml:lang="fjb">ʾwsy</term> <term xml:lang="rabbinic">ʾosi</term> Gr. <term xml:lang="grc">οὐσία</term> “substance” (and <bibl type="modern">Perles [1871] 6-9</bibl>); <bibl type="modern">AC I 214a</bibl> explains as Pers. bûj “consciousness”. <bibl type="modern">Levy I 140b</bibl> considers <term xml:lang="jpa">אפי</term> and <term xml:lang="jpa">אופיתא</term> as Gr. <term xml:lang="grc">φύη</term>, <term xml:lang="grc">φύσις</term> “form, entity“. Тhe reading <term xml:lang="jpa">אוסיתא</term> <term xml:lang="fjb">ʾwsytʾ</term>, attested only by Arukh ed. princ., explained <bibl type="modern">Krauss, LW II 24a</bibl>, as Hebr. neologism derived from <ref type="entry" xml:lang="jpa">אוסייא</ref>; however, <bibl type="modern">AC VI 368 n. 17</bibl>. and MY ad loc. reject this reading.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>158a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

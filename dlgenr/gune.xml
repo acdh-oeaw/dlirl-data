@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">גוני</title>
+            <title type="alternative">gwny</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="gune-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">גוני</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">gwny</orth>
+               <pron notation="rabbinic" opt="false">gune</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">גיני</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">gyny</orth>
+                  <pron notation="rabbinic" opt="false">gine</pron>
+               </form>
+            </form>
+            <sense xml:id="gune-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>γυνός</quote>
+                  <lbl> (neol.)</lbl>
+               </cit>
+            </sense>
+            <note>See: <ref type="entry" xml:lang="jpa" target="gunia.html">גוניה</ref>. Other spellings: <term xml:lang="jpa">גיניא</term>, <term xml:lang="jpa">גינייא</term>, <term xml:lang="jpa">גינייה</term>.
+            </note>
+         </entry>
+      </body>
+  </text>
+</TEI>
