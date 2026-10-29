@@ -45,8 +45,24 @@
             <form type="lemma" opt="false">
                <orth type="lemma" xml:lang="jpa" opt="false" select="true">ארנונא</orth>
                <orth type="transliteration" xml:lang="fjb" opt="false">ʾrnwnʾ</orth>
+               <pron notation="rabbinic">arnona</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">f.</gram>
+               </gramGrp>
             </form>
+            <sense xml:id="arnona-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>tax paid in kind</quote>
+               </cit>
+            </sense>
             <note>See <ref type="entry" xml:lang="jpa" target="anona.html">אנונא</ref></note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>54ab</citedRange>
+               </bibl>
+            </ref>
          </entry>
       </body>
   </text>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">איפרכיא</title>
+            <title type="alternative">ʾyprkhyʾ</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="eparkhia-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">איפרכיא</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾyprkhyʾ</orth>
+               <pron notation="rabbinic">eparkhiaʾ</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">f.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa" opt="false" select="true">אפרכיה</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾprkhyh</orth>
+                  <pron notation="rabbinic">eparkhiah</pron>
+               </form>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa" opt="false" select="true">אפרכייה</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾprkhyyh</orth>
+                  <pron notation="rabbinic">iparkhiyah</pron>
+               </form>
+            </form>
+            <form type="inflected">
+               <orth type="inflected" xml:lang="jpa">אפרכיות</orth>
+               <orth type="transliteration" xml:lang="fjb">ʾprkhywt</orth>
+               <pron notation="rabbinic">iparkhiyot</pron>
+               <gramGrp>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="eparkhia-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>province, prefecture</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἐπαρχία</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' יוחנן לך לך מארצך 
+                     <app>
+                        <lem>זו</lem>
+                        <rdg wit="#V K Ox2"/>
+                     </app> 
+                     <app>
+                        <lem>איפרכייה</lem>
+                        <rdg wit="#Vat1">איפרכייא</rdg>
+                        <rdg wit="#V K">מאפרכי</rdg>
+                        <rdg wit="#Ox2">מארפכי</rdg>
+                        <rdg wit="#Vat2">אפרכייה</rdg>
+                     </app> שלך</quote>
+                  <bibl>
+                     <ref type="witness">39,9</ref>
+                     <ref type="witness">I 372: 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Yoḥanan said: Get thee out of thy country (Gen 12,1) – this (means) your province.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">LeqT Gen 12,1 [29a]</bibl>; <bibl type="ancient">Yalq 62 [18a: 37]</bibl> (<term xml:lang="jpa">מאפרכיא</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>היא דעתיה דר' יוחנן דאמר לך לך מארצך זו 
+                     <app>
+                        <lem>איפרכייה</lem>
+                        <rdg wit="#Vat1 Vat2">איפרכיה</rdg>
+                        <rdg wit="#V K">אפרכיה</rdg>
+                        <rdg wit="#Ox1 Ox2">איפרכייא</rdg>
+                     </app> שלך</quote>
+                  <bibl>
+                     <ref type="witness">55,7</ref>
+                     <ref type="witness">II 590: 4</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>This is the opinion of R. Yoḥanan, who said: “Get thee out of thy country (Gen 12,1) – this (means) your province.”</quote>
+                  </cit>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' יהושע דסיכנין בשם ר' לוי פותרים היו אותו אלא שלא היה קולן נכנס באזניו, ... שבע 
+                     <app>
+                        <lem>אפרכיות</lem>
+                        <rdg wit="#Vat1 Vat2">איפרכיות</rdg>
+                        <rdg wit="#Ox2">הפרכיות</rdg>
+                        <rdg wit="#K V">מלכיות</rdg>
+                     </app> את מכבש, שבע הרעות, שבע 
+                     <app>
+                        <lem>אפרכיות</lem>
+                        <rdg wit="#Vat1">איפרכיות</rdg>
+                        <rdg wit="#Ox2">הפרכיות</rdg>
+                     </app> מורדות בך</quote>
+                  <bibl>
+                     <ref type="witness">89,6</ref>
+                     <ref type="witness">III 1093: 3</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Yehoshuaʿ of Sikhnin said in R. Levi’s name: There were interpreters of it (the dream), but their interpretations were unacceptable to him, … you will conquer seven provinces, the seven thin years, seven provinces will revolt against you. (Cf. Freedman / Simon II 823)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 147 [47c: 39]</bibl>; <bibl type="ancient">YalqM Prov 14,6</bibl></note>
+               </cit>
+            </sense>
+            <note>Widespread in Rabb. lit., used both in Hebrew and in Aramaic. Cf. <bibl type="modern">AC I 240ab</bibl>; <bibl type="modern">Levy I 151a</bibl>; <bibl type="modern">Krauss, LW II 116ab</bibl>; <bibl type="modern">Jastrow I 59a</bibl>. For Targ. cf. <bibl type="modern">Levy Targ 1 56b</bibl>. For Syr. <term xml:lang="syc">ܐܦܪܟܝܐ</term> <term xml:lang="fjb">ʾprkhyʾ</term> cf. <bibl type="modern">Sokoloff, SL 89b</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>27a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

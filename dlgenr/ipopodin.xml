@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">איפופודין</title>
+            <title type="alternative">ʾypwpwdyn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="ipopodin-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">איפופודין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾypwpwdyn</orth>
+               <pron notation="rabbinic" opt="false">ipopodin</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="ipopodin-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>footstool</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ὑποπόδιον</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>על דעתיהון דבית שמיי 
+                     <app>
+                        <lem>למלך</lem>
+                        <rdg wit="#K V Ox1">משל למלך</rdg>
+                     </app> שעשה לו כסא 
+                     <app>
+                        <lem>ואחר כך</lem>
+                        <rdg wit="#Vat2 K V">ומשעשאו עשה</rdg>
+                     </app> 
+                     <app>
+                        <lem>האיפופודין</lem>
+                        <rdg wit="#K V">איפיפורין</rdg>
+                        <rdg wit="#Vat2">אפיפודין</rdg>
+                     </app> 
+                     <app>
+                        <lem>שלו</lem>
+                        <rdg wit="#Vat2">שלה</rdg>
+                     </app></quote>
+                  <bibl>
+                     <ref type="witness">1,15</ref>
+                     <ref type="witness">I 13: 2</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>In the view of Bet Shammai this is parallel to the case of a king who first made his throne and then his footstool… (Freedman / Simon I 13)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">LevR Be-ḥuqotai 36,1</bibl> (<term xml:lang="jpa">אפיפירון</term>); <bibl type="ancient">MShem 5,1 [28b]</bibl> (<term xml:lang="jpa">אפופוריא</term>); <bibl type="ancient">Yalq 1 [2c: 19]</bibl> (<term xml:lang="jpa">אפיפורין</term>); <bibl type="ancient">Yalq Jes 510 [406d: 51]</bibl> (<term xml:lang="jpa">איפופורין</term>); <bibl type="ancient">YalqM Jes 48,13 [168: 15]</bibl> (<term xml:lang="jpa">פורפירון</term>); <bibl type="ancient">YalqM Ps 102,20 [64b]</bibl> (<term xml:lang="jpa">פורפירון</term>, emend. <term xml:lang="jpa">אפופדין</term>]; <bibl type="ancient">yḤag 2,1 [786: 33]</bibl> (<term xml:lang="jpa">אפיפודין</term>); <bibl type="ancient">Tanh (Mann) 15: 15</bibl> (<term xml:lang="jpa">רגלים</term>); <bibl type="ancient">Midr (Mann) 37: 3</bibl> (<term xml:lang="jpa">אפיפרין</term>)</note>
+               </cit>
+            </sense>
+            <note>Appears already in <bibl type="ancient">Targum Yer. to Ex 24,10</bibl> (cf. <bibl type="modern">Levy, Targ I 54b</bibl>). Cf. <bibl type="modern">AC I 226a-227a</bibl>; <bibl type="modern">Levy I 138b</bibl>; <bibl type="modern">Jastrow I 101a</bibl>; <bibl type="modern">Krauss, LW II 39a</bibl>; <bibl type="modern">Heijmanns (2013) 54</bibl>. The reading <term xml:lang="jpa">אפיפורין</term> <term xml:lang="fjb">ʾpypwryn</term> <term xml:lang="rabbinic">apiporin</term> (attested in some versions of GenR and parallels, <bibl type="ancient">mKel 16,1</bibl> and 24,7, and in several other sources) shall be considered as a corruption (other etymologies for <bibl type="ancient">mKel 24,7</bibl> [cf. <bibl type="modern">Levy I 142b</bibl>] are not convincing, cf. Heijmanns). For <bibl type="ancient">GenR 17,6 (I 157: 8)</bibl> cf. <ref type="entry" xml:lang="jpa">אפיפיון</ref>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>26b</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Heijmanns (2013)</title>
+                  <citedRange>54</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

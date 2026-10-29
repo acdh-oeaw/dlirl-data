@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אפיסטולי</title>
+            <title type="alternative">ʾpysṭwly</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="epistole-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אפיסטולי</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾpysṭwly</orth>
+               <pron notation="rabbinic">episṭole</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="epistole-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>epistle, message</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἐπιστόλη</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>בשעה ששילח דוד את יואב לארם נהרים ולארם צובה פגע באדומיים ביקש לזנבן הוציאו לו 
+                     <app>
+                        <lem>אסטליות</lem>
+                        <rdg wit="#Ox1 Ox2">איסטליות</rdg>
+                        <rdg wit="#K">איצטליות</rdg>
+                        <rdg wit="#V">אפיסטולי</rdg>
+                     </app> שלהם רב לכם סב את ההר הזה, פגע במואבים וביקש לזנבן הוציאו לו 
+                     <app>
+                        <lem>אצטליות</lem>
+                        <rdg wit="#Ox1 Ox2">איסטליות</rdg>
+                        <rdg wit="#K">איצטליות</rdg>
+                        <rdg wit="#V">אפיסטולי</rdg>
+                        <rdg wit="#Vat1 Vat2">אסטליות</rdg>
+                     </app> שלהם</quote>
+                  <bibl>
+                     <ref type="witness">74,15</ref>
+                     <ref type="witness">II 872: [notes]; II 873: [notes]</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אסטליות</ref>
+                  <ref type="entry" xml:lang="jpa">איסטליות</ref>
+                  <ref type="entry" xml:lang="jpa">איצטליות</ref>
+                  <ref type="entry" xml:lang="jpa">אצטליות</ref>
+                  <note>= <bibl type="ancient">SekhT 32,2 [169]</bibl> (<term xml:lang="jpa">איצטלאות</term>); <bibl type="ancient">Yalq Sam 147 [367c: 37.38]</bibl></note>
+               </cit>
+            </sense>
+            <note>See <bibl type="modern">AC VII 378a</bibl>. This is probably the correct reading of this passage.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Levy I</title>
+                  <citedRange>142a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

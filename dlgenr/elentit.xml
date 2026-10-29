@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אילנתית</title>
+            <title type="alternative">ʾylntyt</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="elentit-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אילנתית</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾylntyt</orth>
+               <pron notation="rabbinic">elentit</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">f.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa" opt="false" select="true">אלונתית</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾlwntyt</orth>
+                  <pron notation="rabbinic">elontit</pron>
+               </form>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa" opt="false" select="true">אלונטית</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾlwnṭyt</orth>
+                  <pron notation="rabbinic">elonṭit</pron>
+               </form>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa" opt="false" select="true">לנטית</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">lnṭyt</orth>
+                  <pron notation="rabbinic">lenṭit</pron>
+               </form>
+            </form>
+            <sense xml:id="elentit-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>cloth, towel, sheet</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="la">
+                  <quote>linteum</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>דתנינן מיחם אדם 
+                     <app>
+                        <lem>אילנתית</lem>
+                        <rdg wit="#Vat1">לנטיט</rdg>
+                        <rdg wit="#Vat2">לנטות</rdg>
+                        <rdg wit="#Ox1">אלונטית</rdg>
+                        <rdg wit="#Ox2">אלונתית</rdg>
+                        <rdg wit="#V">אלנתטית</rdg>
+                     </app> ונותנה על גבי כריסו בשבת</quote>
+                  <bibl>
+                     <ref type="witness">80,9</ref>
+                     <ref type="witness">ΙΙ 963: 4</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>For we have learned: A man may warm a sheet and put it on his stomach on the Sabbat.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">tShab 3,7</bibl>; <bibl type="ancient">bShab 40b</bibl>; <bibl type="ancient">yShab 17a</bibl>; <bibl type="ancient">Yalq § 135 (43b: 19)</bibl></note>
+               </cit>
+            </sense>
+            <note>Cf. <bibl type="ancient">Sophocles 509</bibl>. <bibl type="modern">Jastrow I 68</bibl> leads back to hebr. <term xml:lang="jpa">לוט</term> <term xml:lang="fjb">lwṭ</term> „to cover, wrap“.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>51-52</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

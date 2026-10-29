@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">גמיקון</title>
+            <title type="alternative">gmyqwn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="gamiqon-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">גמיקון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">gmyqwn</orth>
+               <pron notation="rabbinic">gamiqon</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa" opt="false" select="true">גמיסקון</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">gmysqwn</orth>
+                  <pron notation="rabbinic">gamisqon</pron>
+               </form>
+            </form>
+            <form type="inflected">
+               <orth type="inflected" xml:lang="jpa">גמומסיות</orth>
+               <orth type="transliteration" xml:lang="en">gmwmsywt</orth>
+               <pron notation="rabbinic">gamomasiyot</pron>
+               <gramGrp>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="gamiqon-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>marriage contract</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>γαμικόν, γαμισκός</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' הונא בשם ר' יוסף דור המבול לא נמחו מן העולם עד שכתבו 
+                     <app>
+                        <lem>גמומסיות</lem>
+                        <rdg wit="#Vat1">גמומוסיות</rdg>
+                        <rdg wit="#Ox1">גממוסיות</rdg>
+                        <rdg wit="#K">גמוסיו</rdg>
+                     </app> לזכור ולבהמה</quote>
+                  <bibl>
+                     <ref type="witness">26,5</ref>
+                     <ref type="witness">I 248 : 6</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">TanhB Bereʾshit 21</bibl> (<term xml:lang="jpa">גמיקיסוס</term>); <bibl type="ancient">TanhB Bereʾshit 33</bibl> (<term xml:lang="jpa">קמיסמסין</term>); <bibl type="ancient">LevR Aḥare 23,9</bibl> (<term xml:lang="jpa">גומסיות</term>); <bibl type="ancient">Yalq 43</bibl></note>
+               </cit>
+            </sense>
+            <note>Sing not in GenR. The form is not sufficiently clear (corruption?). Cf. <bibl type="modern">Levy I 342b</bibl>; <bibl type="modern">AC I 311a</bibl> (<term xml:lang="ipa">גמס</term>, <term xml:lang="jpa">גמססיות</term>). <bibl type="modern">Jastrow I 252a</bibl> renders sg. <term xml:lang="jpa">גמומסית</term> <term xml:lang="fjb">gmwmsyt</term> or <term xml:lang="jpa">גומסית</term> <term xml:lang="fjb">gwmsyt</term>, interpreting as “a sarcastic adaptation of <term xml:lang="jpa">γάμος</term>, to deride the hymenean songs in their licentious application to sodomy and to copulation of animals”. <bibl type="modern">Dalman 82a</bibl>: Gr. <term xml:lang="jpa">γάμος</term>. <bibl type="modern">Fürst (1890) 89b</bibl> explains as a derivative of the Gr. <term xml:lang="jpa">γαμίσκω,</term> <term xml:lang="jpa">γαμικὰ</term>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>178b-179a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>
