@@ -58,7 +58,7 @@
             </form>
             <form type="inflected">
                <orth type="inflected" xml:lang="jpa">גמומסיות</orth>
-               <orth type="transliteration" xml:lang="en">gmwmsywt</orth>
+               <orth type="transliteration" xml:lang="fjb">gmwmsywt</orth>
                <pron notation="rabbinic">gamomasiyot</pron>
                <gramGrp>
                   <gram type="num">pl.</gram>

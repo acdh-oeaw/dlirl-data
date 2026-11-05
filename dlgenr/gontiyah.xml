@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">גונתיה</title>
+            <title type="alternative">gwntyh</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="gontiyah-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">גונתיה</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">gwntyh</orth>
+               <pron notation="rabbinic">gontiyah</pron>
+            </form>
+            <sense xml:id="gontiyah-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>Getae</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>Γέτες</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' הונא עריקין הוינן מן קומיא 
+                     <app>
+                        <lem>גוניתיה</lem>
+                        <rdg wit="#Vat1 Vat2">גונתיה</rdg>
+                        <rdg wit="#Ox2 K V">גונדא</rdg>
+                     </app> בהדא בטיסא דטיבריא והיה בידינו נרות, בשעה שכהים היינו יודעים שהוא יום ובשעה שמבהקין היינו יודעין שהוא לילה.</quote>
+                  <bibl>
+                     <ref type="witness">31,11</ref>
+                     <ref type="witness">I 283: 5</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">בטיסא</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Hunaʾ said: Once we were taking refuge from the Getae in the caves of Tiberias. We had lamps with us: when they were dim, we knew that it was day, and when they shone brightly, we knew that it was night. (cf. Freedman / Simon I 244)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 53 [14b: 20]</bibl> (<term xml:lang="jpa">גונדיא</term>)</note>
+               </cit>
+            </sense>
+            <note>See <bibl type="modern">Sperber, Cards</bibl>; <bibl type="modern">Brüll (1883) 123</bibl>. However, see <bibl type="modern">AC II 41 n. 1</bibl>, tracing back to Gr. <term xml:lang="grc">γοῦνδαι</term> „troops” (same <bibl type="modern">Jastrow I 233b</bibl>; <bibl type="modern">Levy I 312a</bibl>); see also <bibl type="modern">AC II 324ab</bibl> (Lat. <term xml:lang="la">gentes</term>). Freedman / Simon: translate “[Roman] troops”, which fits better the reading of Ox 2, K and V and also <term xml:lang="jpa">גונדאי דרומאי</term> in <bibl type="ancient">bAZ 11a</bibl>. The interpretation “Goths” (MY ad loc., cf. <bibl type="modern">Krauss, LW II 170ab</bibl>) is probably secondary. Eventually related to <term xml:lang="jpa">ענתיים</term> <term xml:lang="fjb">ʿntyym</term> in <bibl type="ancient">MidrPs 25,14 [108]</bibl>, interpreted by <bibl type="modern">Sperber (1975)</bibl> as Gr. <term xml:lang="grc">Άνται</term> (Antae, a Slavonic tribe).</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Brüll (1883)</title>
+                  <citedRange>123</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

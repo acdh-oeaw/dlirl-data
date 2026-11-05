@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">הדיוט</title>
+            <title type="alternative">hdywṭ</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="hedyot-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">הדיוט</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">hdywṭ</orth>
+               <pron notation="rabbinic">hediyoṭ</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected">
+               <orth type="inflected" xml:lang="jpa">הדיוטין</orth>
+               <orth type="transliteration" xml:lang="fjb">hdywṭyn</orth>
+               <pron notation="rabbinic">hedyoṭin</pron>
+               <gramGrp>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected">
+               <orth type="inflected" xml:lang="jpa">הדיוטות</orth>
+               <orth type="transliteration" xml:lang="fjb">hdywṭwt</orth>
+               <pron notation="rabbinic">hedyoṭot</pron>
+               <gramGrp>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="hedyot-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>simple, common, commoner, private citizen</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἰδιώτης</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>כי מי גוי גדול אשר לו אלהים וגו' מיכן משל הדיוט עבד כמלך ודבוק לשחין וישחון לך</quote>
+                  <bibl>
+                     <ref type="witness">16,3</ref>
+                     <ref type="witness">I 145: 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>For what great nation is there, that hath God so nigh unto them. (Dtn 4,7) From here the common man says: “The king’s servant is a king; cleave to heat and it will warm you.” (Cf. Freedman / Simon I 126-127)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">SifDtn Devarim 6</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' יצחק בתורה בנביאים ובכתובים מצינו שההדיוט מזכיר שמו ב' פעמים בפסוק אחד</quote>
+                  <bibl>
+                     <ref type="witness">51,2</ref>
+                     <ref type="witness">II 534: 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Yiṣḥaq said: Both in the Torah [Pentateuch], in the Prophets, and in the Writings we find a commoner mentioning his name twice in one verse. (Freedman / Simon I 445)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">SekhT 19,31 [46]</bibl> (<term xml:lang="jpa">שבן אדם</term>); <bibl type="ancient">Yalq 39 [11d: 35]</bibl>; <bibl type="ancient">Yalq 1 Kgs 161 [373: 5]</bibl>; <bibl type="ancient">Yalq Est 1059 [531d: 15]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>והלא דברים קל וחומר מה אם מלך על ידי שהונה מלך כמותו ענשו הכתוב וניגף הדיוט שהוא מונה את 
+                     <app>
+                        <lem>הדיוט</lem>
+                        <rdg wit="#Vat1">ההדיוט</rdg>
+                        <rdg wit="#Ox1 Ox2">הדיוט חבירו</rdg>
+                     </app> על אחת כמה וכמה</quote>
+                  <bibl>
+                     <ref type="witness">65,19</ref>
+                     <ref type="witness">II 737: 5</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">GenR 73,5 [II 850: 2]</bibl>; <bibl type="ancient">Yalq 1 Kng 205 [378b: 35]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>[והלא דברים קל וחומר] ומה אם מלך שהונה את המלך ניגף, הדיוט שהוא מונה את הדיוט לא כל שכן</quote>
+                  <bibl>
+                     <ref type="witness">75,3</ref>
+                     <ref type="witness">II 850: 2</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">GenR 65,19 [II 737: 5]</bibl>; <bibl type="ancient">Yalq 1 Kng 205 [378b: 35]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ויאמר לו אם נא מצאתי חן בעיניך שים נא ידך תחת ירכי ועשית עמדי חסד ואמת ויש חסד של שקר שהוא א' לו חסד ואמת, למה כן, משל הדיוט או' מת בריה דרחמך טעון, מת רחמך פרוק, אמ' לו אם עשית חסד במיתתי ולאחר מיתתי הרי זו חסד שלאמת.</quote>
+                  <bibl>
+                     <ref type="witness">96,5</ref>
+                     <ref type="witness">III 1196: 2</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">Tanh Wa-yeḥi 3</bibl>; <bibl type="ancient">Yalq 156 [50d: 1]</bibl></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' חנינה שמות חדשים עלו בידן מבבל, ר' שמעון בן לקיש אמר אף שמות מלאכים מיכאל וגבריאל ורפאל. אמר ר' לוי אחד נדמה לו בדמות סרקי ואחר בדמות נווטי ואחד בדמות ערבי, אמר אם אראה שכינה ממתנת עליהם אני יודע שהם 
+                     <app>
+                        <lem>הגונים</lem>
+                        <rdg wit="#Vat1">בני אדם אבגניסים</rdg>
+                        <rdg wit="#Vat2">בני אדם הוגניסין</rdg>
+                        <rdg wit="#K V">בני אדם גדולים</rdg>
+                        <rdg wit="#Ox1">בני אדם גדולים ואם לאו אני יודע שהן בני אדם הדיוטין</rdg>
+                        <rdg wit="#Ox2">בני אדם גדולים ואם לאו אני יודע שהם בני אדם הדיוטות</rdg>
+                     </app> ואם אראם חולקין כבוד זה לזה אני יודע שהן הוגנוסין, כיון שראם שחולקין כבוד זה לזה ידע שהן הוגנוסין.</quote>
+                  <bibl>
+                     <ref type="witness">48,9</ref>
+                     <ref type="witness">II 486: 2,3</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אבגניסים</ref>
+                  <ref type="entry" xml:lang="jpa" target="hognesin.html">הוגניסין</ref>
+                  <ref type="entry" xml:lang="jpa" target="hognesin.html">הוגנוסין</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Ḥaninaʾ said: The names of the months came up with us from Babylon. R. Shimʿon ben Laqish said: Also the names of the angels, Michael, Rafael and Gabriel. R. Lewi said: One appeared to him in the guise of a Saracen, the second in the guise of a Nabatean, and the third in the guise of an Arab. Said he [Abraham]: ‘If I see that the Shechinah waits to them, I will know that they are worthy; and if I see that they pay respect to each other, I will know that they are distinguished.’ And when he did see them pay respect to each other, he knew that they are distinguished. (Freedman / Simon 411)</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 82 [24a: 42,44]</bibl> (<term xml:lang="jpa">הוגנים</term>); <bibl type="ancient">LeqT 18,2 [41b]</bibl> (<term xml:lang="jpa">הוגנוסים</term>)</note>
+               </cit>
+            </sense>
+            <note>Cf. <bibl type="modern">Krauss, LW 220b-221b</bibl>. Widespread in the rabb. Lit. in various contexts. For Syr. <term xml:lang="syc">ܗܕܝܘܛܐ</term> <term xml:lang="fjb">hdywṭʾ</term> cf. <bibl type="modern">Sokoloff, SL 331a</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>155a</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Hejmanns (2013)</title>
+                  <citedRange>93</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

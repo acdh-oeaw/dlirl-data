@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">הימיסו</title>
+            <title type="alternative">hymysw</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="hemisu-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">הימיסו</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">hymysw</orth>
+               <pron notation="rabbinic">hemisu</pron>
+               <gramGrp>
+                  <gram type="pos">adjective</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">המיסו</orth>
+                  <orth type="transliteration" xml:lang="fjb">hmysw</orth>
+                  <pron notation="rabbinic">hemisu</pron>
+               </form>
+            </form>
+            <sense xml:id="hemisu-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>half</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἥμισυ</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' ברכיה ר' יעקב בר' אבינא בשם ר' אבה בר כהנא בא מעשה בראשית ללמד על מתן תורה ונמצא למד ממנה בקדוח אש המסים 
+                     <app>
+                        <lem>הימיסו</lem>
+                        <rdg wit="#Vat1">המיסו</rdg>
+                        <rdg wit="#Vat2">המי'</rdg>
+                        <rdg wit="#K V"/>
+                     </app></quote>
+                  <bibl>
+                     <ref type="witness">4,2</ref>
+                     <ref type="witness">II  26: 8</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Berakhiyah, R. Yaʿaqov b. R. Avinaʾ in the name of R. Abbah b. Kahanaʾ said: The creation story teaches about the Giving of Torah, but was itself explained thereby: As when fire burneth through into parts (“hamasim”) – he divided [between the upper and the nether waters] in two halfs.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq Jes 508 [406c: 2]</bibl> (<term xml:lang="jpa">המסיו</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>[ואלה בני צבעון ואיה וענה] וגו' תני האש והכלאים לא נבראו בששת ימי בראשית אבל עלו במחשבה להבראות, כלאים אימתי נבראו, בימי ענה הה"ד הוא ענה אשר מצא את הימים במדבר, ר' סימון אמר המיונים, רבנין אמ' 
+                     <app>
+                        <lem>הימיסו</lem>
+                        <rdg wit="#Ox2">המיסותי</rdg>
+                        <rdg wit="#K V">המיסו חציו חמור וחציו סוס ואלו הן הסימינין</rdg>
+                     </app></quote>
+                  <bibl>
+                     <ref type="witness">82,14</ref>
+                     <ref type="witness">II 994: 1</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">המיונים</ref>
+                  <note>= <bibl type="ancient">yBer 8,5 [12b]</bibl> (<term xml:lang="jpa">היימים חציו סוס וחציו חמור ואילו הן הסימנין</term>)</note>
+               </cit>
+            </sense>
+            <note>Cf. <bibl type="modern">Jastrow I 347a</bibl>.</note>
+         </entry>
+      </body>
+  </text>
+</TEI>

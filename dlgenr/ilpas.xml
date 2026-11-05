@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אילפס</title>
+            <title type="alternative">ʾylps</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="ilpas-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אילפס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾylps</orth>
+               <pron notation="rabbinic">ʾilpas</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">אלפס</orth>
+                  <orth type="transliteration" xml:lang="fjb">ʾlps</orth>
+                  <pron notation="rabbinic">ʾilpas</pron>
+               </form>
+            </form>
+            <form type="inflected">
+               <orth type="inflected" xml:lang="jpa">אילפסין</orth>
+               <orth type="transliteration" xml:lang="fjb">ʾylpsyn</orth>
+               <pron notation="rabbinic">ʾilpasin</pron>
+               <gramGrp>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="ilpas-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>covered pot</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>λοπάς</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>אמר ר' שמעון תמיה אני היך נחלקו אבות העולם בדבר זה שלא נבראו אלא שניהם 
+                     <app>
+                        <lem>כאילפס</lem>
+                        <rdg wit="#Ox1 V">אלפס</rdg>
+                     </app> וכיסויה קורא אני אליהם יעמדו יחדיו</quote>
+                  <bibl>
+                     <ref type="witness">1,15</ref>
+                     <ref type="witness">I 14: 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Shimʿon said: I wonder how the fathers of the world (i.e. the rabbis) had a controversy on this matter, for both (i.e. the sky and the earth) were create (together) like a pot and it’s cover, (as it is written:) When I call unto them, they stand up together (Jes 48,13).</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq Gen 4 [2c: 27]</bibl></note>
+               </cit>
+            </sense>
+            <note>Frequently attested in rabbinic literature (e.g. <bibl type="ancient">mShab 3,5</bibl>; <bibl type="ancient">tNed 3,1</bibl>; <bibl type="ancient">bEr 53b</bibl>). Jastrow leads back to the root <term xml:lang="fjb">lps</term> (reject). Pl. is not attested in GenR.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Heijmans 2013</title>
+                  <citedRange>126</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Krauss LW II</title>
+                  <citedRange>57-58</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

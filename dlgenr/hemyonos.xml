@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">המיונס</title>
+            <title type="alternative">hmywns</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="hemyonos-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">המיונס</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">hmywns</orth>
+               <pron notation="rabbinic">hemyonos</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">המיוניס</orth>
+                  <orth type="transliteration" xml:lang="fjb">hmywnys</orth>
+                  <pron notation="rabbinic">hemyonis</pron>
+               </form>
+            </form>
+            <sense xml:id="hemyonoy-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>mule</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἡμίονος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>[ואלה בני צבעון ואיה וענה] וגו' תני האש והכלאים לא נבראו בששת ימי בראשית אבל עלו במחשבה להבראות, כלאים אימתי נבראו, בימי ענה הה"ד הוא ענה אשר מצא את הימים במדבר, ר' סימון אמר 
+                     <app>
+                        <lem>המיונים</lem>
+                        <rdg wit="#Vat2">במיונם</rdg>
+                        <rdg wit="#K V Ox1 Ox2">המיונס</rdg>
+                     </app>, רבנין אמ' הימיסו</quote>
+                  <bibl>
+                     <ref type="witness">82,14</ref>
+                     <ref type="witness">II 994: 1</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa" target="hemisu.html">הימיסו</ref>
+                  <note>= <bibl type="ancient">yBer 8,5 [62: 37]</bibl> (<term xml:lang="jpa">היימים</term>)</note>
+               </cit>
+            </sense>
+            <note>Cf. <bibl type="modern">Jastrow I 347a</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>229b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

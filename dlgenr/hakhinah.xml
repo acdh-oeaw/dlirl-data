@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">חכינה</title>
+            <title type="alternative">ḥkhynh</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="hakhinah-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">חכינה</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ḥkhynh</orth>
+               <pron notation="rabbinic">ḥakhinah</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">f.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa" opt="false" select="true">חכינא</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ḥkhynʾ</orth>
+                  <pron notation="rabbinic">ḥakhinaʾ</pron>
+               </form>
+            </form>
+            <sense xml:id="hakhinah-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>snake</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἔχιδνα</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>נכנס בו הדבר כארס 
+                     <app>
+                        <lem>שלחכנה</lem>
+                        <rdg wit="#Vat1 Ox2">חכינה</rdg>
+                        <rdg wit="#Ox1">חכינא</rdg>
+                        <rdg wit="#K V">עכנא</rdg>
+                     </app></quote>
+                  <bibl>
+                     <ref type="witness">65,22</ref>
+                     <ref type="witness">II 743: 3</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">עכנא</ref>
+                  <note>= <bibl type="ancient">MidrT 11,7 [52b]</bibl> (<term xml:lang="jpa">עכנא</term>); <bibl type="ancient">Yalq 115 [35c: 8]</bibl> (<term xml:lang="grc">עכנא</term></note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>מה עשה הביא 
+                     <app>
+                        <lem>חכינה</lem>
+                        <rdg wit="#V">חבינא</rdg>
+                        <rdg wit="#K Ox1">עכנא</rdg>
+                        </app> וזיוג להרדון יצא ממנה חורור</quote>
+                  <bibl>
+                     <ref type="witness">82,15</ref>
+                     <ref type="witness">II 995: 1</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">עכנא</ref>
+                  <note>= <bibl type="ancient">Yalq 138 [44a: 27]</bibl> (<term xml:lang="jpa">חכינא</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>שמואל אמ' 
+                     <app>
+                        <lem>חכינא</lem>
+                        <rdg wit="#Vat1">חכינה</rdg>
+                        <rdg wit="#K V">חניכא</rdg>
+                        <rdg wit="#Ox2">חלמא חכינה</rdg>
+                     </app> הטמינו לו בספלו</quote>
+                  <bibl>
+                     <ref type="witness">88,3</ref>
+                     <ref type="witness">III 1080: 1</ref>
+                  </bibl>
+                  <note>= <bibl type="ancient">Yalq 146 [47a: 34]</bibl></note>
+               </cit>
+            </sense>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Sokoloff, DJPA</title>
+                  <citedRange>204b</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>250b-251a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

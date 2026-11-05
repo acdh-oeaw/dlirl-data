@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">הגמון</title>
+            <title type="alternative">hgmwn</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="hegemon-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">הגמון</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">hgmwn</orth>
+               <pron notation="rabbinic">hegemon</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected">
+               <orth type="inflected" xml:lang="jpa">הגמונות</orth>
+               <orth type="transliteration" xml:lang="fjb">hgmwnwt</orth>
+               <pron notation="rabbinic">hegeminot</pron>
+               <gramGrp>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected">
+               <orth type="inflected" xml:lang="jpa">הגמוניות</orth>
+               <orth type="transliteration" xml:lang="fjb">hgmwnywt</orth>
+               <pron notation="rabbinic">hegemomiyot</pron>
+               <gramGrp>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected">
+               <orth type="inflected" xml:lang="jpa">הגמונים</orth>
+               <orth type="transliteration" xml:lang="fjb">hgmwnym</orth>
+               <pron notation="rabbinic">hegemonym</pron>
+               <gramGrp>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="hegemon-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>prefect, governor, praeses provinciae</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>ἡγεμών</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>[ואחרי כן יצא אחיו] וגו' 
+                     <app>
+                        <lem>הגמון</lem>
+                        <rdg wit="#Vat2">היגמון</rdg>
+                     </app> אחד שאל לחד מן אלין דבית סילנא אמר לו מי תופס אחרינו, הביא נייר חלק נטל קולמוס וכתב עליו ואחרי כן יצא אחיו וידו אחזת בעקב עשו, אמרו ראו דברים ישנים מפי זקן חדש, להודיעך כמה צער היה מצטער אותו צדיק.</quote>
+                  <bibl>
+                     <ref type="witness">63,8</ref>
+                     <ref type="witness">II 692: 3</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">סילנא</ref>
+                  <ref type="entry" xml:lang="jpa">קולמוס</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>[And after that came forth his brother] A [Roman] prefect asked a member of the family of Silna: ‘Who will enjoy power after us?’ [In reply] he brought a blank piece of paper, took a quill and wrote upon it And after that came forth his brother, and his hand hold on [Esau’s] heel. Upon this the comment was made: See how ancient words become new in the mouth of a Sage! Moreover, it teaches how much suffering was endured by the righteous man. [Freedman / Simon II 565]</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 110 [33d: 37]</bibl></note>
+               </cit>
+            </sense>
+            <note>Pl. not in GenR. Cf. <ref type="entry" xml:lang="jpa">הגמוניא</ref>. Cf. Syr. <term xml:lang="syc">ܗܝܓܡܘܢܐ</term> <term xml:lang="fjb">hygmwnʾ</term>, cf. <bibl type="modern">Sokoloff, SL 340a</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>219a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>
