@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">איסטטניות</title>
+            <title type="alternative">ʾysṭṭnywt</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="istatniyot-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">איסטטניות</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾysṭṭnywt</orth>
+               <pron notation="rabbinic">ʾisṭaṭniyyot</pron>
+               <gramGrp>
+                  <gram type="pos">adjective</gram>
+                  <gram type="gen">f.</gram>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="istatniyot-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>seditious, quarrelsome</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>στασιωτεία</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' יהושע בר נחמיה אמר אף 
+                     <app>
+                        <lem>איסטטניות</lem>
+                        <rdg wit="#V K">אוסטטניות</rdg>
+                        <rdg wit="#Vat1 Ox1">אסטטניות</rdg>
+                     </app> ודבריניות, 
+                     <app>
+                        <lem>איסטטניות</lem>
+                        <rdg wit="#Vat1 Ox1 Ox2">אסטטניות</rdg>
+                     </app> ותאמר שרי אל אברם חמסי עליך</quote>
+                  <bibl>
+                     <ref type="witness">45,5</ref>
+                     <ref type="witness">I 453: 2</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Yehosuaʿ bar Neḥemya said: They [the women] are also querulous and talkative; querulous [as it is stated]: And Sarai said unto Abram: My wrong be upon thee (Gen 16,5).</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">DtnR Ki-Teṣeʾ 6,11</bibl> (<term xml:lang="jpa">איסטסוניות</term>) [<bibl type="modern">Liebermann 106</bibl>: <term xml:lang="jpa">איסטסניות</term>]; <bibl type="ancient">Yalq 79 [22c: 42]</bibl> (<term xml:lang="jpa">אוסטטניות</term>)</note>
+               </cit>
+            </sense>
+            <note>According to <bibl type="modern">AC I 173a</bibl> (and Krauss) GenR shall be emended to <term xml:lang="jpa">אסטסיאנות</term> <term xml:lang="fjb">ʾsṭsyʾnwt</term> <term xml:lang="rabbinic">ʾasṭasianot</term> corresponding to Gr. <term xml:lang="grc">στασιώτης</term> or Lt. seditiosa. <bibl type="modern">Levy I 121a</bibl> interprets GenR as f. sg. <term xml:lang="jpa">אסטסיאנית</term> <term xml:lang="fjb">ʾsṭsyʾnyt</term> <term xml:lang="rabbinic">ʾisṭasianit</term> (while the parallel in DtnR is pl.) tracing back to Gr. <term xml:lang="grc">στασιώδης</term>; <bibl type="modern">Levy I 119a</bibl> suggests for the GenR reading Lat. stationalis, Gr. <term xml:lang="grc">ἄστατος</term> or Gr. <term xml:lang="grc">ἀσταθής</term>. <bibl type="modern">Jastrow I 55a</bibl> retains the GenR reading and interprets it as a derivation from the Sem. root <term xml:lang="jpa">סטן</term> <term xml:lang="fjb">SṬN</term>. <bibl type="modern">Fürst 62</bibl> explains the GenR reading as Gr. <term xml:lang="grc">στασιάζων</term>. To be distinguished from <term xml:lang="jpa">אסטטית</term> <term xml:lang="fjb">ʾsṭṭyt</term> <term xml:lang="rabbinic">asṭaṭit</term> (<bibl type="ancient">mMak 1,5</bibl>), cf. <bibl type="modern">Heijmanns (2013) 27-28</bibl>. Cf. Syr. <term xml:lang="syc">ܐܣܛܣܝܢܐ</term> <term xml:lang="fjb">ʾsṭsynʾ</term> (<bibl type="modern">Sokoloff, SL 70a</bibl>).</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss LW II</title>
+                  <citedRange>81b</citedRange></bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>
