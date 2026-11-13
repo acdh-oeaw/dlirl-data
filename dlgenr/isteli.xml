@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אסטלי</title>
+            <title type="alternative">ʾsṭly</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="isteli-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אסטלי</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾsṭly</orth>
+               <pron notation="rabbinic">isṭeli</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">f.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected">
+               <orth type="inflected" xml:lang="jpa" opt="false" select="true">אסטליות</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾsṭlywt</orth>
+               <pron notation="rabbinic">isṭaliyot</pron>
+               <gramGrp>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected">
+               <orth type="inflected" xml:lang="jpa" opt="false" select="true">אצטליות</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾṣṭlywt</orth>
+               <pron notation="rabbinic">iṣṭaliyot</pron>
+               <gramGrp>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="isteli-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>column, pillar, monument</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>στήλη</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>בשעה ששילח דוד את יואב לארם נהרים ולארם צובה פגע באדומיים ביקש לזנבן הוציאו לו 
+                     <app>
+                        <lem>אסטליות</lem>
+                        <rdg wit="#Ox1 Ox2">איסטליות</rdg>
+                        <rdg wit="#K">איצטליות</rdg>
+                        <rdg wit="#V">אפיסטולי</rdg>
+                     </app> שלהם רב לכם סב את ההר הזה, פגע במואבים וביקש לזנבן הוציאו לו 
+                     <app>
+                        <lem>אצטליות</lem>
+                        <rdg wit="#Ox1 Ox2">איסטליות</rdg>
+                        <rdg wit="#K">איצטליות</rdg>
+                        <rdg wit="#V">אפיסטולי</rdg>
+                        <rdg wit="#Vat1 Vat2">אסטליות</rdg>
+                     </app> שלהם</quote>
+                  <bibl>
+                     <ref type="witness">74,15</ref>
+                     <ref type="witness">II 872: 4; II 873: 1</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">אפיסטולי</ref>
+               </cit>
+            </sense>
+            <note>Sg. not in GenR. Cf. <bibl type="modern">AC I 169ab</bibl>; <bibl type="modern">Levy I 120a</bibl>. May be a corruption. See <ref type="entry" xml:lang="jpa">אפיסטולי</ref>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>80b-81a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

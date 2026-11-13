@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">אסטרוביל</title>
+            <title type="alternative">ʾsṭrwbyl</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="istrobil-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">אסטרוביל</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾsṭrwbyl</orth>
+               <pron notation="rabbinic">isṭrobil</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa" opt="false" select="true">איסטרוביל</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾysṭrwbyl</orth>
+                  <pron notation="rabbinic">isṭrobil</pron>
+               </form>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa" opt="false" select="true">אצטרוביל</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾṣṭrwbyl</orth>
+                  <pron notation="rabbinic">iṣṭrobil</pron>
+               </form>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa" opt="false" select="true">איצטרוביל</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾyṣṭrwbyl</orth>
+                  <pron notation="rabbinic">iṣṭrobil</pron>
+               </form>
+            </form>
+            <form type="inflected">
+               <orth type="inflected" xml:lang="jpa" opt="false" select="true">אסטרובילין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾsṭrwbylyn</orth>
+               <gramGrp>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected">
+               <orth type="inflected" xml:lang="jpa" opt="false" select="true">איסטרובילין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾysṭrwobylyn</orth>
+               <gramGrp>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected">
+               <orth type="inflected" xml:lang="jpa" opt="false" select="true">אצטרובילין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾṣṭrwbylyn</orth>
+               <gramGrp>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected">
+               <orth type="inflected" xml:lang="jpa" opt="false" select="true">איצטרובילין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾyṣṭrwbylyn</orth>
+               <gramGrp>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="istrobil-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>the lower millstone, the bedstone</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>στρόβιλος</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>ר' לוי בשם ר' יוחנן [אפילו 
+                     <app>
+                        <lem>איסטרובילין</lem>
+                        <rdg wit="#V">אסטרובילין</rdg>
+                        <rdg wit="#K">אצטרובילין</rdg>
+                        <rdg wit="#Vat1">איסרובלין</rdg>
+                        <rdg wit="#Ox1">איצטרובילין</rdg>
+                        <rdg wit="#Ox2">אצטרובילין</rdg>
+                     </app> שלרחים נמחה ...]</quote>
+                  <bibl>
+                     <ref type="witness">25,3</ref>
+                     <ref type="witness">I 261: 3</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Lewi said in the name of R. Yoḥanan: Even the bedstone of a millstone has been destroyed ...</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">LevR 31,10</bibl>; <bibl type="ancient">Yalq 47 [13b: 41]</bibl> (<term xml:lang="jpa">אצטרובולין</term>); <bibl type="ancient">CantR 1,4</bibl> (<term xml:lang="jpa">אצטרבולין</term>)</note>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>דאמר ר' לוי מש' ר' יוחנן אפילו 
+                     <app>
+                        <lem>איסטרובילין</lem>
+                        <rdg wit="#V Ox2">איצטרובילין</rdg>
+                        <rdg wit="#K">אצטרבילין</rdg>
+                     </app> שלרחים נימחא במים</quote>
+                  <bibl>
+                     <ref type="witness">30,8</ref>
+                     <ref type="witness">I 274: 7</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>R. Lewi said in the name of R. Yoḥanan: Even the bedstone of a millstone has been destroyed by water.</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">LevR 31,10</bibl>; <bibl type="ancient">Yalq 47 [13b: 41]</bibl> (<term xml:lang="jpa">אצטרובולין</term>); <bibl type="ancient">CantR 1,4</bibl> (<term xml:lang="jpa">אצטרבולין</term>)</note>
+               </cit>
+            </sense>
+            <note>Cf. <bibl type="modern">AC 173b-174a</bibl>; <bibl type="modern">Levy I 121 ab</bibl>; <bibl type="modern">Jastrow I 55b</bibl>; <bibl type="modern">Krauss, LW II 121ab</bibl>; <bibl type="modern">Sokoloff, DJBA 125ab</bibl>. Sg. not attested in GenR. The second meaning “pine nut” is not attested in GenR.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Heijmann (2013)</title>
+                  <citedRange>30-31</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

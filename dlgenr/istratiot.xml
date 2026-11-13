@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">איסטרטיוט</title>
+            <title type="alternative">ʾysṭrṭywṭ</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="istratiot-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">איסטרטיוט</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾysṭrṭywṭ</orth>
+               <pron notation="rabbinic">isṭraṭioṭ</pron>
+               <gramGrp>
+                  <gram type="pos">noun</gram>
+                  <gram type="gen">m.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa" opt="false" select="true">אסטרטיוט</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">ʾsṭrṭywṭ</orth>
+                  <pron notation="rabbinic">isṭraṭioṭ</pron>
+               </form>
+            </form>
+            <form type="inflected">
+               <orth type="inflected" xml:lang="jpa" opt="false" select="true">איסטרטיוטין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾysṭrṭywṭyn</orth>
+               <pron notation="rabbinic">isṭraṭioṭin</pron>
+               <gramGrp>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected">
+               <orth type="inflected" xml:lang="jpa" opt="false" select="true">אסטרטיוטין</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾsṭrṭywṭyn</orth>
+               <pron notation="rabbinic">isṭraṭioṭin</pron>
+               <gramGrp>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected">
+               <orth type="inflected" xml:lang="jpa" opt="false" select="true">איסטרטיות</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾysṭrṭywt</orth>
+               <gramGrp>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <form type="inflected">
+               <orth type="inflected" xml:lang="jpa" opt="false" select="true">אסטרטיות</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">ʾsṭrṭiot</orth>
+               <gramGrp>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="istratiot-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>soldier</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>στρατιώοτης</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>שני תלמידים משל ר' יהושע שינו עטיפתם בשעת השמד, פגע בהם 
+                     <app>
+                        <lem>איסטרטיוט</lem>
+                        <rdg wit="#Ox1 Ox2">איסטרטוס</rdg>
+                        <rdg wit="#K V">סרדיוט</rdg>
+                     </app> אחד משומד</quote>
+                  <bibl>
+                     <ref type="witness">82,8</ref>
+                     <ref type="witness">I 985: 1</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>Two disciples of R. Yehoshua changed their cloaks at the time of persecution. A certain [Roman] officer, an apostate, met them ... [Freedman / Simon II 757-758]</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 136 [II 700: 15]</bibl> (<ref type="entry" xml:lang="jpa">איסטרטיגוס</ref>); <bibl type="ancient">Yalq Jes 396 [XI 31: 2]</bibl></note>
+               </cit>
+            </sense>
+            <note>Pl. not in GenR. Cf. Syr <term xml:lang="syc">ܐܣܛܪܛܝܘܛܐ</term> <term xml:lang="fjb">ʾsṭrṭywṭʾ</term> see <bibl type="modern">Sokoloff, SL 71b</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>84ab</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>
