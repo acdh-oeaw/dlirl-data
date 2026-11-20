@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">כפלאות</title>
+            <title type="alternative">kplʾwt</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="kiflaot-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">כפלאות</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">kplʾwt</orth>
+               <pron notation="rabbinic" opt="false">kiflaʾot</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">m.</gram>
+                  <gram type="num">pl.</gram>
+               </gramGrp>
+               <form type="variant">
+                  <orth type="variant" xml:lang="jpa">כפליות</orth>
+                  <orth type="transliteration" xml:lang="fjb" opt="false">kflywt</orth>
+                  <pron notation="rabbinic" opt="false">kiflayot</pron>
+               </form>
+            </form>
+            <sense xml:id="kiflaot-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>?</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>והוא יתן מעדני המלך 
+                     <app>
+                        <lem>כפליות</lem>
+                        <rdg wit="#Vat1">קילכיות</rdg>
+                     </app> ואנפקינון</quote>
+                  <bibl>
+                     <ref type="witness">98,16</ref>
+                     <ref type="witness">III 1267: 2</ref>
+                  </bibl>
+                  <ref type="entry" xml:lang="jpa">ואנפקינון</ref>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And he shall yield royal dainties (Gen 49,20): [Mullet] and oil of unripe olives. (Freedman / Simon II 966)</quote>
+                  </cit>
+               </cit>
+            </sense>
+            <note>The etymology is not clear. Cf. <bibl type="ancient">SifDtn 355 [420: 1]</bibl> <term xml:lang="jpa">יהי רצוי אחיו, שהיה מתרצה לאחיו בשמן אנפקינון ובקיבלאות והם מרצים לו בתבואה</term>, where <term xml:lang="jpa">קיבלאות</term> shall be amended to <term xml:lang="jpa">קיפלאות</term> or <term xml:lang="jpa">קיכלאות</term>. <bibl type="modern">AC IV 295b</bibl> explains as Lat. ceptolus “wine”, “grapes”. <bibl type="modern">Jastrow I 660b</bibl>: Gr. <term xml:lang="grc">κέφαλος</term> “a species of mullet”. <bibl type="modern">Levy II 380b</bibl>, <bibl type="modern">Krauss, LW II 294b</bibl>, <bibl type="modern">Fürst 127b</bibl> explain as Lat. cephalones “sort of palms”. <bibl type="modern">Shoval-Dudai 96b-97a</bibl> traces back to Gr. <term xml:lang="grc">ἐγκέφαλος</term> “the heart of the date-palm” (according to LSJ). Löw in LW ad loc. rejects the explanation as “palm” since palms do not grow in the area of Asher (cf. also <bibl type="modern">Löw, Flora II 323</bibl>). Acc. to Löw, the GenR (and SifDtn) reading is a corruption of <ref type="entry" xml:lang="jpa">קלופס</ref> <term xml:lang="fjb">qlwps</term> <term xml:lang="rabbinic">qolupas</term> (as in <bibl type="ancient">tTer 3,15</bibl> and <bibl type="ancient">tTer 4,3</bibl>, cf. <bibl type="modern">Lieberman, TkF I 333</bibl>) Gr. <term xml:lang="grc">κολυμβάς</term>/<term xml:lang="grc">κολυμβάδες</term> “pickled olives” (cf. <bibl type="modern">Krauss, LW II 544b</bibl>; <bibl type="modern">Löw, Pflanzennamen 137-138</bibl>).</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>294b</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>

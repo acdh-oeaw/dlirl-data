@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">כירי</title>
+            <title type="alternative">kyry</title>
+            <title type="sub">Dictionary of Loanwords in the Midrash Genesis Rabbah</title>
+            <author>
+               <forename full="yes">Susanne</forename>
+               <surname full="yes">Plietzsch</surname>
+            </author>
+            <author>
+               <forename full="yes">Christina</forename>
+               <surname full="yes">Katsikadeli</surname>
+            </author>
+            <author>
+               <forename full="yes">Vladislav</forename>
+               <surname full="yes">Slepoy</surname>
+            </author>
+            <author>
+               <forename full="yes">Thomas</forename>
+               <surname full="yes">Klampfl</surname>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <p part="N">FWF P 30785</p>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p part="N">Digital Edition</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="kire-dlgenr"
+            xml:lang="en"
+            type="mainEntry"
+            prev="#"
+            next="#"
+            source="Genesis Rabbah">
+            <form type="lemma" opt="false">
+               <orth type="lemma" xml:lang="jpa" opt="false" select="true">כירי</orth>
+               <orth type="transliteration" xml:lang="fjb" opt="false">kyry</orth>
+               <pron notation="rabbinic" opt="false">kire</pron>
+               <gramGrp opt="false">
+                  <gram type="pos" opt="false">noun</gram>
+                  <gram type="gen" opt="false">f.</gram>
+               </gramGrp>
+            </form>
+            <sense xml:id="kire-dlgenr-1">
+               <cit type="translation" xml:lang="en" subtype="sense">
+                  <quote>pleasure, happiness</quote>
+               </cit>
+               <cit type="translationEquivalent" xml:lang="grc">
+                  <quote>χαῖρε, χάιρις</quote>
+               </cit>
+               <cit type="example" xml:lang="jpa">
+                  <quote>והנה מן היאור עולות וגו' בשעה שהשנים יפות הבריות נעשים אחים אילו לאילו, ותרענה באחו אהבה ואחוה בעולם, וכן הוא א' ירעה מקנך ביום ההוא כר נרחב 
+                     <app>
+                        <lem>כירי כירי</lem>
+                        <rdg wit="#Vat1 Ox2">כירי קירי</rdg>
+                        <rdg wit="#V">כירי עבד קירי אדון</rdg>
+                        <rdg wit="#K">כירי עבד כירי אדון פירוש כלומ' מראין עצמן כאדונים מתגברין על רבם</rdg>
+                     </app> מרובה בעולם</quote>
+                  <bibl>
+                     <ref type="witness">89,4</ref>
+                     <ref type="witness">III 1091: 2</ref>
+                  </bibl>
+                  <cit type="translation" xml:lang="en">
+                     <quote>And, behold, there came up out of the river ... (Gen 41,2) In the years of prosperity men become brothers: And they fed in the Ahu means, love and brotherliness (aḥawah) reigned in the world. In the same strain we read: In that day shall thy cattle feed in large (kar) pastures (Jes 30,23), which means, [when thy cattle feed and there is plenty], pleasure, pleasure greatly in the world. [Freedman / Simon II 822]</quote>
+                  </cit>
+                  <note>= <bibl type="ancient">Yalq 147 [47c: 28]</bibl> (<term xml:lang="jpa">כירי עבד קירי אדון</term>)</note>
+               </cit>
+            </sense>
+            <note>This interpretation also in <bibl type="modern">AC IV 312a</bibl>, <bibl type="modern">Levy II 324ab</bibl>. <bibl type="modern">Jastrow I 636b</bibl>: Gr. <term xml:lang="grc">χαῖρε</term> imp. of Gr. <term xml:lang="jpa">χαίρω</term> meaning: “’hail!’ ‘hail!’ is largely heard in the world (this meaning is found in <bibl type="modern">Krauss, LW II 287a</bibl> (<term xml:lang="jpa">כירי</term> III and IV). The alternative reading <term xml:lang="jpa">כירי עבד כירי אדון</term> is probably a gloss (mis)interpreting the original reading as <term xml:lang="jpa">כירי</term> Gr. <term xml:lang="grc">χείριος</term> “slave”, <term xml:lang="jpa">קירי</term> <term xml:lang="fjb">qyry</term> Gr. <term xml:lang="grc">κύριος</term> “lord”. See also <bibl type="modern">Shoval-Dudai 94b</bibl>.</note>
+            <ref type="bibliography">
+               <bibl>
+                  <title>Shoval-Dudai</title>
+                  <citedRange>94β</citedRange>
+               </bibl>
+               <bibl>
+                  <title>Krauss, LW II</title>
+                  <citedRange>286b-287a</citedRange>
+               </bibl>
+            </ref>
+         </entry>
+      </body>
+  </text>
+</TEI>
